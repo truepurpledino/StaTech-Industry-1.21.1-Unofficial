@@ -114,8 +114,8 @@ ServerEvents.recipes(e => {
         'PPP'
     ],
     {
-        P: '#c:plates/polytetrafluoroethylene',
-        G: '#c:gears/polytetrafluoroethylene'
+        P: mi('polytetrafluoroethylene_plate'),
+        G: mi('polytetrafluoroethylene_gear')
     })
     .id(st('chemically_inert_ptfe_casing'));
 
@@ -346,8 +346,8 @@ ServerEvents.recipes(e => {
         'PPP'
     ],
     {
-        P: '#c:plates/calorite',
-        G: '#c:gears/calorite'
+        P: mi('calorite_plate'),
+        G: mi('calorite_gear')
     })
     .id(st('calorite_machine_casing'));
 
@@ -370,7 +370,7 @@ ServerEvents.recipes(e => {
         'CMG'
     ],
     {
-        G: '#c:gears/enderium',
+        G: mi('enderium_gear'),
         I: '#' + mi('item_pipes'),
         H: mi('desh_drill_head'),
         M: mi('large_advanced_motor'),
