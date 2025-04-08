@@ -1,7 +1,8 @@
 {
-  "clientId": 1097715020235821106,
+  "clientId": 608012526537408579,
   "enabled": true,
   "screenEvent": true,
   "clientJoinEvent": true,
-  "logState": false
+  "logState": false,
+  "buttons": []
 }

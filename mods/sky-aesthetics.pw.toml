@@ -1,0 +1,13 @@
+name = "Sky Aesthetics"
+filename = "sky_aesthetics-neoforge-1.6.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7c9d4c7288bd0de7fb1f5560cc1ed81b6e7daded"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6375199
+project-id = 1096636

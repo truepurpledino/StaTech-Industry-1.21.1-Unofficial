@@ -9,7 +9,7 @@ ServerEvents.recipes(e => {
     let mc = (id) => `minecraft:${id}`;
     let mi = (id) => `modern_industrialization:${id}`;
     let cr = (id) => `create:${id}`;
-    let tr = (id) => `techreborn:${id}`;
+    // let tr = (id) => `techreborn:${id}`;
 
     // -- CUSTOM RECIPE UTILITY FUNCTION -- //
     let chemicalReactor = (id, eu, duration, item_inputs, item_outputs, fluid_inputs, fluid_outputs) => {
@@ -32,17 +32,17 @@ ServerEvents.recipes(e => {
     }
 
     // -- PHANTOM MEMBRANE -- //
-    chemicalReactor(
-        st('phantom_membrane'),
-        16,
-        200,
-        [
-            { amount: 16, item: mc('leather') }, 
-            { amount: 2, item: tr('calcite_dust') },
-        ],
-        [ { amount: 1, item: mc('phantom_membrane') } ],
-        [ { amount: 2000, fluid: mi('liquid_ender')} ]
-    );
+    // chemicalReactor(
+        // st('phantom_membrane'),
+        // 16,
+        // 200,
+        // [
+            // { amount: 16, item: mc('leather') }, 
+            // { amount: 2, item: tr('calcite_dust') },
+        // ],
+        // [ { amount: 1, item: mc('phantom_membrane') } ],
+        // [ { amount: 2000, fluid: mi('liquid_ender')} ]
+    // );
 
     // -- BLAZE ROD -- //
     chemicalReactor(
@@ -81,18 +81,16 @@ ServerEvents.recipes(e => {
     );
 
     // -- ENDER PEARL -- //
-    chemicalReactor(
-        st('ender_pearl'),
-        16,
-        200,
-        [ 
-            { amount: 1, item: mc('slime_ball') },
-            { amount: 4, item: 'xps:xp_dust' },
-            { amount: 1, item: mc('spider_eye') },
-        ],
-        [ { amount: 1, item: mc('ender_pearl') } ],
-        [ { amount: 500, fluid: 'xps:xp_fluid'} ]
-    );
+    // chemicalReactor(
+        // st('ender_pearl'),
+        // 16,
+        // 200,
+        // [ 
+            // { amount: 1, item: mc('slime_ball') },
+            // { amount: 1, item: mc('spider_eye') },
+        // ],
+        // [ { amount: 1, item: mc('ender_pearl') } ]
+    // );
 
     // -- ROSE QUARTZ -- //
     chemicalReactor(
@@ -117,24 +115,14 @@ ServerEvents.recipes(e => {
     );
 
     // -- PLASTIC BAR -- //
-    chemicalReactor(
-        st('plastic_bar'),
-        16,
-        300,
-        [ { amount: 1, item: mc('paper') } ],
-        [ { amount: 1, item: 'anim_guns:plastic' } ],
-        [ { amount: 500, fluid: mi('polyethylene') } ]
-    );
-
-    // -- SNYTHETIC REDSTONE CRYSTAL -- //
-    chemicalReactor(
-        st('synthetic_redstone_crystal'),
-        24,
-        400,
-        [ { amount: 1, item: mc('diamond') } ],
-        [ { amount: 1, item: 'techreborn:synthetic_redstone_crystal' } ],
-        [ { amount: 3600, fluid: mi('molten_redstone') } ]
-    );
+    // chemicalReactor(
+        // st('plastic_bar'),
+        // 16,
+        // 300,
+        // [ { amount: 1, item: mc('paper') } ],
+        // [ { amount: 1, item: 'anim_guns:plastic' } ],
+        // [ { amount: 500, fluid: mi('polyethylene') } ]
+    // );
 
     // -- POLYTETRAFLUOROETHYLENE -- //
     chemicalReactor(

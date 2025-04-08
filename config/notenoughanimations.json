@@ -36,9 +36,6 @@
   ],
   "enableCrawlingAnimation": true,
   "holdUpItemsMode": "CONFIG",
-  "holdUpTarget": "CAMERA",
-  "holdUpCameraOffset": 0.1,
-  "holdUpOnlySelf": false,
   "holdUpItemOffset": 0.0,
   "itemSwapAnimation": true,
   "tweakElytraAnimation": true,
@@ -49,6 +46,5 @@
   "narutoRunning": false,
   "enableInWorldBookRendering": false,
   "disableLegSmoothing": false,
-  "bowAnimation": "VANILLA",
-  "burningAnimation": true
+  "bowAnimation": "VANILLA"
 }

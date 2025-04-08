@@ -1,0 +1,13 @@
+name = "EMI"
+filename = "emi-1.1.20+1.21.1+neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "091c340b5ee2b0db55a388a8b6f992ea46e638cd"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6205506
+project-id = 580555

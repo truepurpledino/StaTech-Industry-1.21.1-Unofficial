@@ -1,0 +1,17 @@
+{
+  "options": {
+    "mode": "REMEMBER_RECENT",
+    "pinnedModsSize": 5,
+    "recentModsSize": 5,
+    "pinKey": "SHIFT",
+    "unpinKey": "CONTROL",
+    "showBadges": true,
+    "pinnedText": "I",
+    "recentText": "R",
+    "persistOnRestart": true,
+    "saveOnUpdate": true,
+    "pinnedMods": [],
+    "recentMods": [],
+    "scrollAmount": 4.9E-324
+  }
+}

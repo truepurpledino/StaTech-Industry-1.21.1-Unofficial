@@ -3,39 +3,38 @@
 	loot_size: 1
 	order_index: 9
 	rewards: [
-		{ count: 8, item: "modern_industrialization:processing_unit" }
-		{ count: 16, item: "modern_industrialization:digital_circuit" }
-		{ count: 48, item: "modern_industrialization:electronic_circuit" }
-		{ count: 64, item: "modern_industrialization:analog_circuit" }
-		{ count: 64, item: "ae2:logic_processor" }
-		{ count: 64, item: "ae2:calculation_processor" }
-		{ count: 64, item: "ae2:engineering_processor" }
-		{ count: 2, item: "techreborn:interdimensional_su" }
-		{ count: 4, item: "modern_industrialization:ev_storage_unit" }
-		{ count: 16, item: "techreborn:tungstensteel_ingot" }
-		{ count: 3, item: "kubejs:space_probe" }
-		{ item: "modern_industrialization:tungstensteel_tank" }
-		{ item: "modern_industrialization:tungstensteel_barrel" }
-		{ count: 32, item: "modern_industrialization:mixed_ingot_blastproof" }
-		{ count: 32, item: "modern_industrialization:cadmium_dust" }
-		{ count: 32, item: "modern_industrialization:beryllium_dust" }
-		{ count: 32, item: "modern_industrialization:neodymium_dust" }
-		{ item: "modern_industrialization:large_heat_exchanger" }
-		{ item: "modern_industrialization:small_heat_exchanger" }
-		{ count: 2, item: "modern_industrialization:highly_advanced_machine_hull" }
-		{ count: 8, item: "modern_industrialization:turbo_machine_hull" }
-		{ count: 16, item: "modern_industrialization:advanced_machine_hull" }
-		{ count: 48, item: "modern_industrialization:basic_machine_hull" }
-		{ count: 32, item: "modern_industrialization:superconductor_dust" }
-		{ count: 3, item: "modern_industrialization:uranium_fuel_rod_depleted" }
-		{ item: "modern_industrialization:uranium_fuel_rod_quad" }
-		{ count: 32, item: "modern_industrialization:tungsten_ingot" }
-		{ count: 16, item: "modern_industrialization:stainless_steel_block" }
-		{ count: 8, item: "modern_industrialization:plutonium_dust" }
-		{ count: 16, item: "moderndynamics:hv_cable" }
-		{ count: 8, item: "moderndynamics:ev_cable" }
-		{ count: 32, item: "kubejs:concrete_bar" }
+		{ count: 8, id: "04ABC1CCAD0C4A3C" }
+		{ count: 16, id: "4907FD817E90795C" }
+		{ count: 48, id: "52C85806CA2F334B" }
+		{ count: 64, id: "2029179225184ABD" }
+		{ count: 64, id: "591F423A96E53E43" }
+		{ count: 64, id: "64972EBBEA58630D" }
+		{ count: 64, id: "462324AD87C7E9ED" }
+		{ count: 2, id: "2C4ABDB1C151138F" }
+		{ count: 4, id: "240EC076AD861137" }
+		{ count: 16, id: "6A0D2E153BD489D4" }
+		{ count: 3, id: "4E9B45EACACBFC59" }
+		{ id: "292997E101020AA1" }
+		{ id: "021229CA1D4FDFF8" }
+		{ count: 32, id: "63920B3DFD7B0540" }
+		{ count: 32, id: "343F4C9C0DC23F95" }
+		{ count: 32, id: "0B83EA6E95376027" }
+		{ count: 32, id: "7C7FF75EEDDEC334" }
+		{ id: "5E40F8DD2A803493" }
+		{ id: "342574CEBE93CCD8" }
+		{ count: 2, id: "5CA8831A8332EC93" }
+		{ count: 8, id: "65241BC086A1FC3F" }
+		{ count: 16, id: "3904FF6D09057682" }
+		{ count: 48, id: "58DEB5B27B236F55" }
+		{ count: 32, id: "5A4F81708FF0A95A" }
+		{ count: 3, id: "63AA0C6FF47874D5" }
+		{ id: "2DDB35FF446EC5CD" }
+		{ count: 32, id: "7ACE451C7423A2A0" }
+		{ count: 16, id: "5AF739792D501ED7" }
+		{ count: 8, id: "1766BAF3DC803D20" }
+		{ count: 16, id: "040780801DF8093F" }
+		{ count: 8, id: "738E5021E0D5A137" }
+		{ count: 32, id: "26B8CD07A837A1D1" }
 	]
-	title: "Chapter 5 Rare Rewards"
 	use_title: true
 }

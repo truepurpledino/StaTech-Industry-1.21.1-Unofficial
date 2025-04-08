@@ -1,0 +1,13 @@
+name = "More Mouse Tweaks"
+filename = "moremousetweaks-neoforge-1.0.0-beta.4+1.21.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c0e04dbcf17a0996ab6bf5923ae1a47ee8ea3286"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6098021
+project-id = 1134081

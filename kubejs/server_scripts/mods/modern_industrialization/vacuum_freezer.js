@@ -8,7 +8,7 @@ ServerEvents.recipes(e => {
     let st = (id) => `statech:modern_industrialization/vacuum_freezer/${id}`;
     let mi = (id) => `modern_industrialization:${id}`;
     let kj = (id) => `kubejs:${id}`;
-    let tr = (id) => `techreborn:${id}`;
+    // let tr = (id) => `techreborn:${id}`;
     let mc = (id) => `minecraft:${id}`;
 
     // -- CUSTOM RECIPE UTILITY FUNCTION -- //
@@ -42,15 +42,15 @@ ServerEvents.recipes(e => {
     );
 
     // -- TUNGSTENSTEEL INGOT -- //
-    vacuumFreezer(
-        st('tungstensteel_ingot'),
-        64,
-        600,
-        [ { amount: 1, item: tr('hot_tungstensteel_ingot') } ],
-        [ { amount: 1, item: tr('tungstensteel_ingot') } ],
-        null,
-        null
-    );
+    // vacuumFreezer(
+        // st('tungstensteel_ingot'),
+        // 64,
+        // 600,
+        // [ { amount: 1, item: mi('tungstensteel_hot_ingot') } ],
+        // [ { amount: 1, item: mi('tungstensteel_ingot') } ],
+        // null,
+        // null
+    // );
 
     // -- CONCRETE BAR -- //
     vacuumFreezer(

@@ -1,0 +1,13 @@
+name = "AE2 Network Analyser"
+filename = "AE2NetworkAnalyzer-1.21-2.0.1-neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ebb8d4b4bf3d59140a1cba1ffeb52c924727fc1c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5856668
+project-id = 961856

@@ -9,8 +9,8 @@ ServerEvents.recipes(e => {
     let mi = (id) => `modern_industrialization:${id}`;
     let mc = (id) => `minecraft:${id}`;
     let cr = (id) => `create:${id}`;
-    let cd = (id) => `culturaldelights:${id}`;
-    let ap = (id) => `architects_palette:${id}`;
+    // let cd = (id) => `culturaldelights:${id}`;
+    let ws = (id) => `wstweaks:${id}`;
     let kj = (id) => `kubejs:${id}`;
 
     // -- CUSTOM RECIPE UTILITY FUNCTION -- //
@@ -105,7 +105,6 @@ ServerEvents.recipes(e => {
             [
                 { amount: 1, item: mc('ink_sac') },
                 { amount: 1, item: mc('ink_sac'), probability: 0.5 },
-                { amount: 1, item: cd('squid'), probability: 0.25 },
                 { amount: 1, item: mc('glow_ink_sac'), probability: 0.01 },
                 { amount: 1, item: cr('experience_nugget'), probability: 0.3 }
             ],
@@ -195,7 +194,7 @@ ServerEvents.recipes(e => {
             [
                 { amount: 1, item: mc('bone') },
                 { amount: 1, item: mc('coal'), probability: 0.333 },
-                { amount: 1, item: ap('withered_bone'), probability: 0.5 },
+                { amount: 1, item: ws('fragment'), probability: 0.5 },
                 { amount: 1, item: mc('wither_skeleton_skull'), probability: 0.025 },
                 { amount: 1, item: cr('experience_nugget'), probability: 0.5 }
             ],

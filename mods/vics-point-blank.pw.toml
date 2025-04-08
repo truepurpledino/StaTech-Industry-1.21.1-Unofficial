@@ -1,0 +1,13 @@
+name = "Vic's Point Blank"
+filename = "pointblank-neoforge-1.21-1.9.6.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2ca7f3fdff3ec792c50f71f3c325e1c8b866a444"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6028992
+project-id = 961053

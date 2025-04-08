@@ -3,47 +3,23 @@
 	default_quest_shape: ""
 	filename: "world_of_magic"
 	group: "135E7B9D4273E5DD"
-	icon: "spectrum:enchanter"
 	id: "4296CFFF158C9365"
 	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
-			description: [
-				"Welcome to the &dmagic&r chapter. This pack features multiple &dmagic&r mods. Some of the more notable ones are:"
-				"- &aSpectrum&r"
-				"- &bWizards&r"
-				"- &9Spellblades&r"
-				""
-				"Progression is locked behind &arevelations&r, finding / making certain items will unlock the recipe in &dREI&r. To complement this, most of the quests in this chapter are &bhidden&r. Most of the crafting will be done with &aSpectrum&r."
-				""
-				"Progressing through this chapter is &cnot required to beat the pack&r, but you might find some of the items unlocked to be useful in your &aindustrial adventure&r. &o&eIt's also a fun chapter if you need a break from the factory&r."
-				""
-				"While the main progression of &aSpectrum&r is covered in the quest book, recent additions to the mods may not be fully documented, and I highly recommend to keep your &dWorld of Color&r book on hand as you make &bnew discoveries&r, in case there is anything that is not specifically shown in the quest book."
-			]
 			id: "330CFCABB75098C8"
 			shape: "square"
 			tasks: [{
 				id: "21D065C3333A9356"
-				title: "Click to Acknowledge"
 				type: "checkmark"
 			}]
-			title: "A World of Magic"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["330CFCABB75098C8"]
-			description: [
-				"The beginning of your adventure will require you to find the &aprimary shards&r for &eSpectrum&r. Each gemstone represents an &delemental color&r and a different kind of &anatural force&r."
-				""
-				"&5Amethyst Shards&r - Magenta light reflects in this gemstone. Formed over eons in &dgeodes&r, this gemstone radiates awe. It is a symbol of permanence and found in the deepest layers of the world. &5Amethyst&r represents &dTIME&r."
-				""
-				"&eCitrine Shards&r - This yellow gemstone is found close to surface level where the suns light dissipates into warmth. Its bright yellow luster radiates pure &6ENERGY&r and makes it slightly warm to the touch at all times."
-				""
-				"&bTopaz Shards&r - This gemstone is a surprisingly robust material, which is found in &dgeodes&r at the very top of &asteep hills&r and on the tops of &asky-high mountains&r. The &bTopaz&r represents &9MATTER&r."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "49960F1AC80AB931"
 			rewards: [
 				{
@@ -62,36 +38,26 @@
 			tasks: [
 				{
 					id: "66F963D1F28054CC"
-					item: "minecraft:amethyst_shard"
+					item: { }
 					type: "item"
 				}
 				{
 					id: "55CE25445189D77A"
-					item: "spectrum:topaz_shard"
+					item: { }
 					type: "item"
 				}
 				{
 					id: "23221162787947AE"
-					item: "spectrum:citrine_shard"
+					item: { }
 					type: "item"
 				}
 			]
-			title: "Gemstone Shards"
 			x: 2.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["49960F1AC80AB931"]
-			description: [
-				"The &bPigment Pedestal&r is the block where you will craft most of the recipes in &eSpectrum&r and other magic mods."
-				""
-				"To start crafting, trigger it with a &aPaintbrush&r or supply a &credstone signal&r. The &bPedestal&r requires &9air&r or an &dinventory&r above it. "
-				""
-				"Most recipes require &aGemstone Powder&r as an ingredient. The &bPedestal&r also acts as a normal crafting table and can therefore also be used to craft vanilla recipes. "
-				""
-				"The &bPigment Pedestal&r can be built with your &dgemstone&r of choice. While they do look different they are the same functionally. For now you have the &athree variants&r based on the &athree gemstones&r you just collected."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "639C6C4B13203B5B"
 			rewards: [
 				{
@@ -111,34 +77,21 @@
 			tasks: [
 				{
 					id: "093A55E553A3C2BD"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "spectrum:pedestals"
-						}
-					}
-					title: "Any Spectrum Pedestal"
+					item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					id: "51987FE89AAA1C24"
-					item: "spectrum:paintbrush"
+					item: { }
 					type: "item"
 				}
 			]
-			title: "The Pigment Pedestal"
 			x: 4.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["639C6C4B13203B5B"]
-			description: [
-				"The &aCrafting Tablet&r is so much more than a portable &eCrafting Table&r. It can save an inserted recipe and lets you craft it on demand."
-				""
-				"&bPedestal Automation&r - There may come a time when you feel you need a certain material so often you want to &dautomate&r it. The &aPigment Pedestal&r has a dedicated slot for a &aCrafting Tablet&r. When you add items with &choppers&r or similar to the &bPedestal&r, they will be placed appropriately and evenly as specified in the &esaved recipe&r."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "556AED22B4E4D5DD"
 			rewards: [
 				{
@@ -155,7 +108,7 @@
 			]
 			tasks: [{
 				id: "2FF5469B5C037A9B"
-				item: "spectrum:crafting_tablet"
+				item: { }
 				type: "item"
 			}]
 			x: 4.0d
@@ -163,12 +116,7 @@
 		}
 		{
 			dependencies: ["639C6C4B13203B5B"]
-			description: [
-				"Most recipes in your &aPedestal&r require &dGemstone Powders&r as a source of magical energy. "
-				""
-				"&dGemstone Powder&r comes in various colors and can be acquired by pulverizing &dGemstone Shards&r via &bItem Crushing&r. Crushing can occur in two ways, you can place the &dGemstone Shards&r on the ground and have an &canvil drop on them&r or you can process them through a &eModern Industrialization&r &6Macerator&r. "
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "352D2FF3E6003244"
 			rewards: [
 				{
@@ -187,32 +135,26 @@
 			tasks: [
 				{
 					id: "2F79FA8F4B6EF713"
-					item: "spectrum:topaz_powder"
+					item: { }
 					type: "item"
 				}
 				{
 					id: "5FD85A47FBE7109A"
-					item: "spectrum:citrine_powder"
+					item: { }
 					type: "item"
 				}
 				{
 					id: "32362C3BB5560B69"
-					item: "spectrum:amethyst_powder"
+					item: { }
 					type: "item"
 				}
 			]
-			title: "Gemstone Powders"
 			x: 6.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["352D2FF3E6003244"]
-			description: [
-				"The &aHeartbound Chest&r can only be opened by its &dplacer&r and provides the same space as &etwo normal chests&r."
-				""
-				"&cRedstone Component&r - Similar to a &bTrapped Chest&r it also outputs a &credstone signal&r. If you as the owner open it, the signal strength will be &afull&r, if a stranger wants to tamper with your belongings, then it outputs &bhalf signal strength&r."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "632A51E19F6B2B66"
 			rewards: [
 				{
@@ -229,7 +171,7 @@
 			]
 			tasks: [{
 				id: "55E47F2CBB4B5038"
-				item: "spectrum:private_chest"
+				item: { }
 				type: "item"
 			}]
 			x: 6.0d
@@ -237,8 +179,7 @@
 		}
 		{
 			dependencies: ["352D2FF3E6003244"]
-			description: ["With how &cdark&r the world gets at night and in caves, it might be worth investing in the &aGlow Vision Goggles&r. These provide the &dNight Vision&r effect if you have &9Glow Ink Sacs&r in your inventory."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "60995BB6BFD9B5EC"
 			rewards: [
 				{
@@ -255,7 +196,7 @@
 			]
 			tasks: [{
 				id: "66559DA1EFD9C8C1"
-				item: "spectrum:glow_vision_goggles"
+				item: { }
 				type: "item"
 			}]
 			x: 5.0d
@@ -263,8 +204,7 @@
 		}
 		{
 			dependencies: ["352D2FF3E6003244"]
-			description: ["The &bCompacting Chest&r will try to craft all the things you put into it in a &e3x3, 2x2, or 1x1 pattern&r. This can be toggled in its &dGUI&r."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "36715EA3C3B3BA4A"
 			rewards: [
 				{
@@ -281,7 +221,7 @@
 			]
 			tasks: [{
 				id: "2D82B311735A8AE5"
-				item: "spectrum:compacting_chest"
+				item: { }
 				type: "item"
 			}]
 			x: 7.0d
@@ -289,8 +229,7 @@
 		}
 		{
 			dependencies: ["352D2FF3E6003244"]
-			description: ["To advance, you must get acquainted with the &acrafting process&r. Pick an item you can craft with the &bPedestal&r, input the required &eitems and powders&r and then right-click with a &dPaintbrush&r or apply a &credstone signal&r to start the craft."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "041556DA42FDC137"
 			rewards: [
 				{
@@ -312,14 +251,12 @@
 				id: "0425846533A7F999"
 				type: "advancement"
 			}]
-			title: "Your First Craft"
 			x: 8.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["041556DA42FDC137"]
-			description: ["Now that you're familiar with the &dcrafting process&r, it's time to upgrade your basic &bPedestal&r into the &aCMY Variant&r. To upgrade the &bPedestal&r, place a &bTopaz&r, &5Amethyst&r, and &eCitrine&r (in that order) in your &bPedestal&r and then start the craft."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "72A0F9EDC836DDCF"
 			rewards: [
 				{
@@ -336,28 +273,17 @@
 			]
 			shape: "square"
 			tasks: [{
-				advancement: "spectrum:craft_cmy_pedestal"
+				advancement: "spectrum:craft_colored_pedestal"
 				criterion: ""
-				id: "521A54E1043A2C28"
+				id: "12CDDF2278C0143A"
 				type: "advancement"
 			}]
-			title: "CMY Pedestal Variant"
 			x: 10.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["72A0F9EDC836DDCF"]
-			description: [
-				"{image:statech:textures/item/spectrum_pedestal.png width:240 height:135 align:1}"
-				""
-				"To make use of the &bPigment Pedestals&r' advanced abilities, you will need a structure to focus &dgemstone&r energy into it. It's known as the &l&2Spectrum Focus&r"
-				""
-				"You can switch the &bBasalt Blocks&r with &aCalcite Blocks&r and choose the &dgemstone&r blocks as you like it best. Feel free to be creative! &cPlease note&r there is a difference between &aPolished Amethyst&r between the &dBlockus&r and &bSpectrum&r mods. Only the &bSpectrum&r amethyst-related blocks will work within the mod!"
-				""
-				"&oIf you need an in-world diagram of how to build this structure, check the page in your &eColorful World&f book!"
-			]
-			hide: true
-			icon: "spectrum:chiseled_polished_basalt"
+			hide_until_deps_visible: true
 			id: "2563B78CFC661CCB"
 			rewards: [
 				{
@@ -378,66 +304,31 @@
 				{
 					count: 4L
 					id: "023CC719D3269423"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "kubejs:polished_gemstones"
-						}
-					}
-					title: "4x Polished Gemstone Blocks"
+					item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "42A323867D3F1620"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "kubejs:chiseled_polished_blocks"
-						}
-					}
-					title: "4x Chiseled Polished Blocks"
+					item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "07F4B1CEF908DF48"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "kubejs:notched_polished_blocks"
-						}
-					}
-					title: "4x Notched Polished Blocks"
+					item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					count: 8L
 					id: "3AA9F6C394B75906"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "kubejs:polished_pillar_blocks"
-						}
-					}
-					title: "8x Polished Pillars"
+					item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					count: 68L
 					id: "42E7AEE28F9E337D"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "kubejs:polished_blocks"
-						}
-					}
-					title: "68x Polished Blocks"
+					item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
@@ -447,14 +338,12 @@
 					type: "advancement"
 				}
 			]
-			title: "The Pedestal Multiblock"
 			x: 12.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["2563B78CFC661CCB"]
-			description: ["The &bBlock Placer&r allows you to automate the placing of blocks (&oduh?) when powered by a &credstone signal&r.E"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "3DF4F625DAB8C66C"
 			rewards: [
 				{
@@ -471,7 +360,7 @@
 			]
 			tasks: [{
 				id: "5720D9492D76A1D5"
-				item: "spectrum:block_placer"
+				item: { }
 				type: "item"
 			}]
 			x: 10.5d
@@ -479,12 +368,7 @@
 		}
 		{
 			dependencies: ["2563B78CFC661CCB"]
-			description: [
-				"Though there are lots of ways to &acalculate time&r, most seem relatively... &crustic&r. "
-				""
-				"The &aRedstone Timer&r is a new solution to an old issue. You can toggle the durations for both  &eactive time&r (Right Button) and &6inactive time&r (Left Shift + RIght Button with empty hand)."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "4F488BE406264C75"
 			rewards: [
 				{
@@ -501,7 +385,7 @@
 			]
 			tasks: [{
 				id: "7D80286AAAD733FC"
-				item: "spectrum:redstone_timer"
+				item: { }
 				type: "item"
 			}]
 			x: 12.0d
@@ -509,12 +393,7 @@
 		}
 		{
 			dependencies: ["2563B78CFC661CCB"]
-			description: [
-				"By adding &credstone&r and a bit of &dmagic&r to sand, it gains an interesting property: like other blocks, it stays in the &bair&r until the &dGemstone Powder&r inside it starts vibrating."
-				""
-				"&aRedstone Sand&r behaves like a solid block until it gets a &credstone signal&r. The &credstone&r trigger propagates through &eall connected blocks&r, destabilizing them and causing them to fall."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "30FD991CD31EDF1D"
 			rewards: [
 				{
@@ -531,7 +410,7 @@
 			]
 			tasks: [{
 				id: "430653DE6500232F"
-				item: "spectrum:redstone_sand"
+				item: { }
 				type: "item"
 			}]
 			x: 11.0d
@@ -539,8 +418,7 @@
 		}
 		{
 			dependencies: ["2563B78CFC661CCB"]
-			description: ["The &bRedstone Calculator&r allows you to perform &eaddition&r, &asubtraction&r, &dmultiplication&r, &bdivision&r, &9modulo&r, &2min&r, and &3max&r. The first input is the back, the  second input is the highest single on the sides."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "0B38BDF3DF8F3235"
 			rewards: [
 				{
@@ -557,7 +435,7 @@
 			]
 			tasks: [{
 				id: "46875079162D52D4"
-				item: "spectrum:redstone_calculator"
+				item: { }
 				type: "item"
 			}]
 			x: 13.5d
@@ -565,8 +443,7 @@
 		}
 		{
 			dependencies: ["2563B78CFC661CCB"]
-			description: ["The &bRazor Falchion&r is a razor-sharp short blade with &clow durability&r that comes &dpre-enchanted&r with &5Looting III&r."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "30FCBD442D86EABB"
 			rewards: [
 				{
@@ -583,17 +460,7 @@
 			]
 			tasks: [{
 				id: "3F310A3B1977EAAF"
-				item: {
-					Count: 1b
-					id: "spectrum:razor_falchion"
-					tag: {
-						Damage: 0
-						Enchantments: [{
-							id: "minecraft:looting"
-							lvl: 3s
-						}]
-					}
-				}
+				item: { components: { "ftbquests:missing_item": "spectrum:razor_falchion" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 11.5d
@@ -601,12 +468,7 @@
 		}
 		{
 			dependencies: ["2563B78CFC661CCB"]
-			description: [
-				"The &bMultitool&r is a &euniversal tool&r that combines the abilities of a &bpickaxe&r, &daxe&r, &5shovel&r, and &ahoe&r. "
-				""
-				"It's &cnot as efficient&r in the individual tasks, but its much better than having to change tools every three seconds."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "4B19ADAD68F0C567"
 			rewards: [
 				{
@@ -623,17 +485,7 @@
 			]
 			tasks: [{
 				id: "4B07F71842ACA3DB"
-				item: {
-					Count: 1b
-					id: "spectrum:multitool"
-					tag: {
-						Damage: 0
-						Enchantments: [{
-							id: "minecraft:efficiency"
-							lvl: 1s
-						}]
-					}
-				}
+				item: { components: { "ftbquests:missing_item": "spectrum:multitool" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 12.5d
@@ -641,8 +493,7 @@
 		}
 		{
 			dependencies: ["2563B78CFC661CCB"]
-			description: ["You're next goal is to find a &aspecial new ore&r. It's a &eshiny yellow&r and can be found above &9sea-level&r."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "50CB097911D2B369"
 			rewards: [
 				{
@@ -664,18 +515,12 @@
 				id: "7FD2EEDE0BC3C50F"
 				type: "advancement"
 			}]
-			title: "A New Ore"
 			x: 13.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["50CB097911D2B369"]
-			description: [
-				"The first nights in this new world you lit your &aimprovised hut with torches&r. As atmospheric as that was, it was also one thing: &bprimitive&r."
-				""
-				"To turn away from the &ddark&r, &atorch-lit&r past, you can now make &eShimmerstone Lights&r. There are multiple variants based on the stones used to craft them."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "0F1593CAAC5F47F3"
 			rewards: [
 				{
@@ -692,14 +537,7 @@
 			]
 			tasks: [{
 				id: "1950CD974EB15E9B"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "kubejs:shimmerstone_lights"
-					}
-				}
-				title: "Any Shimmerstone Light"
+				item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 15.0d
@@ -707,12 +545,7 @@
 		}
 		{
 			dependencies: ["50CB097911D2B369"]
-			description: [
-				"When you set foot in the first &dgeode&r, you were met with a pleasant cozy glow. With your knowledge and the help of &eShimmerstone&r, it is easy to amplify this light to create &afancy lamps&r."
-				""
-				"&bGemstone Lamps&r come in all the colors of &dgemstones&r available to you. Both of &2Chiseled Calcite&r and &9Chiseled Basalt&r can bew used as a base."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "23C9AD6E3FF66561"
 			rewards: [
 				{
@@ -729,14 +562,7 @@
 			]
 			tasks: [{
 				id: "45A4E1A885CE83AA"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "kubejs:gemstone_lamps"
-					}
-				}
-				title: "Any Gemstone Lamp"
+				item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 16.0d
@@ -744,8 +570,7 @@
 		}
 		{
 			dependencies: ["50CB097911D2B369"]
-			description: ["The &bPhantom Frames&r are equivalent to vanilla &eItem Frames&r, however they will become invisible as soon as you display an &ditem&r in it."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "0988BADA29F228DC"
 			rewards: [
 				{
@@ -762,14 +587,7 @@
 			]
 			tasks: [{
 				id: "0A245A0ADB04F572"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "kubejs:phantom_frames"
-					}
-				}
-				title: "Either Phantom Frame"
+				item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 15.0d
@@ -777,8 +595,7 @@
 		}
 		{
 			dependencies: ["50CB097911D2B369"]
-			description: ["&bRadiant Glass&r is pretty much the opposite of &9Tinted Glass&r. The &eShimmerstone&r used in its manufacture ensures that the glass glows from within."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "55EEED5C3584131C"
 			rewards: [
 				{
@@ -795,7 +612,7 @@
 			]
 			tasks: [{
 				id: "32B8FFA13E17A920"
-				item: "spectrum:glowing_glass"
+				item: { }
 				type: "item"
 			}]
 			x: 16.0d
@@ -803,28 +620,7 @@
 		}
 		{
 			dependencies: ["50CB097911D2B369"]
-			description: [
-				"The people around you have already helped you in one way or another, so here's something to &egive back&r. The bit of &eShimmerstone&r allows you to explode the package in a &dcolorful shower of particles&r."
-				""
-				"Click the &aPresent&r onto the items you want to gift. Then all you have to do is place it down for the recipient to open it."
-				""
-				"Place a filled &aPresent&r in a crafting grid to &2wrap it&r."
-				""
-				"You can additionally add:"
-				"- &5Pigments&r for a colorful particle shower in those pigment colors."
-				"- Special ingredients to choose from a variety of wrapping papers:"
-				"    - &cRed Dye&r: Red"
-				"    - &1Blue Dye&r: Blue"
-				"    - &3Cyan Dye&r: Cyan"
-				"    - &aGreen Dye&r: Green"
-				"    - &dPurple Dye&r: Purple"
-				"    - &cCake&r: Cake"
-				"    - &6Flower&r: Stripes"
-				"    - &7Firework Star&r: Starry"
-				"    - &2Sapling&r: Winter"
-				"    - &aSpore Blossom&r: Rainbow"
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "36834667489122F6"
 			rewards: [
 				{
@@ -841,7 +637,7 @@
 			]
 			tasks: [{
 				id: "7D350EE5A8D29BCA"
-				item: "spectrum:present"
+				item: { }
 				type: "item"
 			}]
 			x: 16.0d
@@ -849,16 +645,7 @@
 		}
 		{
 			dependencies: ["50CB097911D2B369"]
-			description: [
-				"It always has been the dream of people to create &aartifical life&r. Since you are now dealing with &dmagical gems&r yourself, which seem to have &dmagical powers&r, this should be a piece of cake."
-				""
-				"The raw &dmagical powers&r, which are bundled by the gems, are the best starting point for such research. "
-				""
-				"It did not take long for an idea to come to you. The &6organism&r you came up with is weak, but it seems that your plans to create new life were successful, at least in principle. Admittedly, it is only a clump of &dmicroorganisms&r, but they are alive!"
-				""
-				"Every living being has basically the same goals: &eeat&r \\& &areproduce&r. So what do these creatures eat? Other &eblocks&r? Definitely something easy to digest. Perhaps &a&osomething organic&r?"
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "0F98D6E41DFECDB7"
 			rewards: [
 				{
@@ -874,10 +661,9 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Creating Life"
 			tasks: [{
 				id: "35CF155DE3D2F32D"
-				item: "spectrum:bottle_of_fading"
+				item: { }
 				type: "item"
 			}]
 			x: 13.5d
@@ -885,12 +671,7 @@
 		}
 		{
 			dependencies: ["33B0B5607BDA0A0C"]
-			description: [
-				"&bQuitoxic Reeds&r grow exclusively in &7swamps&r and seem to devour &7clay&r as a form of nutrient. "
-				""
-				"&eQuitoxic Powder&r can be extracted from the stems of the alien-looking plant by &ecrushing&r it with an anvil or using a &6macerator&r. Smell and consistency are very unusual when rubbed between your fingers."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "03FBCDDEF854A0E3"
 			rewards: [
 				{
@@ -907,7 +688,7 @@
 			]
 			tasks: [{
 				id: "07E6064FDEBDEF5B"
-				item: "spectrum:quitoxic_powder"
+				item: { }
 				type: "item"
 			}]
 			x: 10.5d
@@ -916,8 +697,7 @@
 		{
 			dependencies: ["2563B78CFC661CCB"]
 			dependency_requirement: "one_completed"
-			description: ["Your next goal is to find a &anew material&r in the &bswamp&r. It's &dpurple&r and grows from &7clay&r."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "33B0B5607BDA0A0C"
 			rewards: [
 				{
@@ -938,26 +718,12 @@
 				id: "2852816B2ACDB6C9"
 				type: "advancement"
 			}]
-			title: "A New Material"
 			x: 10.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["03FBCDDEF854A0E3"]
-			description: [
-				"On your journeys through the &aunderground&r you collect a whole lot of &aidentical blocks&r, which you will never need again. But they are too good to throw away, you think. "
-				""
-				"Time to develop a &estorage solution&r that takes care of your little problem."
-				""
-				"The &5Bottomless Bundle&r stores a virtually unlimited amount of items, but of only one type. Right-click it on stacks or empty slots in your inventory to fill/empty it."
-				""
-				"&l&6Automation&r"
-				""
-				"Crouching places it down, making it able to be &aautomatically&r filled / emptied. A placed &5Bundle&r will always remember the last item you put into it, even if it is emptied. It will only accept &enew&r items that it was holding before, making it also usable as a &dfilter&r."
-				""
-				"&o&cNote&f: If it was placed empty, it will accept the first item pumped into it and get locked to that."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "5E1D1748352CFF40"
 			rewards: [
 				{
@@ -974,11 +740,7 @@
 			]
 			tasks: [{
 				id: "1A8CD179E43F233A"
-				item: {
-					Count: 1b
-					id: "spectrum:bottomless_bundle"
-					tag: { }
-				}
+				item: { components: { "ftbquests:missing_item": "spectrum:bottomless_bundle" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 8.5d
@@ -986,8 +748,7 @@
 		}
 		{
 			dependencies: ["50CB097911D2B369"]
-			description: ["The &eLucky Pickaxe&r is infused with the power of &6energy&r, it allows you to carve out every last bit of ore from &aevery&r vein. The &eLucky Pickaxe&r comes pre-enchanted with &dFortune III&r."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "664ECF9F096A75B6"
 			rewards: [
 				{
@@ -1004,17 +765,7 @@
 			]
 			tasks: [{
 				id: "2B63666117E0DC07"
-				item: {
-					Count: 1b
-					id: "spectrum:lucky_pickaxe"
-					tag: {
-						Damage: 0
-						Enchantments: [{
-							id: "minecraft:fortune"
-							lvl: 3s
-						}]
-					}
-				}
+				item: { components: { "ftbquests:missing_item": "spectrum:lucky_pickaxe" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 15.0d
@@ -1022,8 +773,7 @@
 		}
 		{
 			dependencies: ["03FBCDDEF854A0E3"]
-			description: ["The &dOblivion Pickaxe&r has a large amount of &edurability&r and &6mining speed&r. However, &call mined blocks are destroyed&r."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "0F99FE552649A976"
 			rewards: [
 				{
@@ -1040,17 +790,7 @@
 			]
 			tasks: [{
 				id: "01FF3D66DB241CC7"
-				item: {
-					Count: 1b
-					id: "spectrum:oblivion_pickaxe"
-					tag: {
-						Damage: 0
-						Enchantments: [{
-							id: "spectrum:voiding"
-							lvl: 1s
-						}]
-					}
-				}
+				item: { components: { "ftbquests:missing_item": "spectrum:oblivion_pickaxe" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 8.5d
@@ -1058,8 +798,7 @@
 		}
 		{
 			dependencies: ["03FBCDDEF854A0E3"]
-			description: ["&aCobweb&r can be crafted using &dQuitoxic Dust&r. Useful if you can't find any &bnaturally generated around your world&r."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "7241F5138C0BF394"
 			rewards: [
 				{
@@ -1076,7 +815,7 @@
 			]
 			tasks: [{
 				id: "245F47E037C3CD16"
-				item: "minecraft:cobweb"
+				item: { }
 				type: "item"
 			}]
 			x: 7.5d
@@ -1084,8 +823,7 @@
 		}
 		{
 			dependencies: ["03FBCDDEF854A0E3"]
-			description: ["&cTNT&r can be produced using &dQuitoxic Dust&r, however any &cTNT&r produced this way is &6unstable&r. What does that mean exactly? Well, let's just say you're certain &awhere you want to place your &cTNT&r..."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "16E8B253BE2B80BB"
 			rewards: [
 				{
@@ -1102,19 +840,7 @@
 			]
 			tasks: [{
 				id: "433CB98E78875C3F"
-				item: {
-					Count: 1b
-					id: "minecraft:tnt"
-					tag: {
-						BlockStateTag: {
-							unstable: "true"
-						}
-						display: {
-							Lore: ["{\"text\":\"unstable\"}"]
-						}
-					}
-				}
-				match_nbt: true
+				item: { count: 1, id: "minecraft:tnt" }
 				type: "item"
 			}]
 			x: 7.5d
@@ -1122,8 +848,7 @@
 		}
 		{
 			dependencies: ["0F98D6E41DFECDB7"]
-			description: ["Freeing your &dmicroorganisms&r near &aorganic&r matter will have them spread into those blocks. Breaking the block that was spread into will provide you a new resource!"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "6780A1BF19D7CEA3"
 			rewards: [
 				{
@@ -1145,14 +870,12 @@
 				id: "4B28356DEE2B1B5A"
 				type: "advancement"
 			}]
-			title: "An Organic Material"
 			x: 15.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["6780A1BF19D7CEA3"]
-			description: ["&aVegetal&r is a curious by-product of your &dmicroorganisms&r feasting on &2organic matter&r. It consists of the &2raw energy of nature&r."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "76C17AECFEBFA7E3"
 			rewards: [
 				{
@@ -1170,7 +893,7 @@
 			shape: "square"
 			tasks: [{
 				id: "401F65FF280883BB"
-				item: "spectrum:vegetal"
+				item: { }
 				type: "item"
 			}]
 			x: 16.5d
@@ -1181,12 +904,7 @@
 				"03FBCDDEF854A0E3"
 				"50CB097911D2B369"
 			]
-			description: [
-				"&dStrange whispers&r have mentioned another world wrapped in &eeternal twilight&r. The path to enter was &cblocked&r, but now is &aclear to you&r. "
-				""
-				"Creating a pool of &9water&r, surrounding it with &6flowers&r, and then tossing in a &bmagically infused Diamond&r (the &dMagic Diamond&r) will cause a &cchain reaction&r that will open the &dgateway&r to the other world."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "289AB5E8263AF733"
 			rewards: [
 				{
@@ -1205,7 +923,7 @@
 			size: 1.5d
 			tasks: [{
 				id: "2E382F743F0810D7"
-				item: "kubejs:magic_diamond"
+				item: { }
 				type: "item"
 			}]
 			x: 12.0d
@@ -1213,14 +931,7 @@
 		}
 		{
 			dependencies: ["76C17AECFEBFA7E3"]
-			description: [
-				"You need something &aorganic&r to mix your &dpigments&r. In your experiments, you could see that the &aroots&r of saplings absorb the &bcolor&r of the &dpigments&r with ease and develop accordingly. The energy of the &dgems&r pulses through the stem and their first few leaves already."
-				""
-				"Each &aColored Sapling&r will need a different combination of &5Gemstone Powder&r, corresponding t o the amount needed to mix its color. Check &dREI&r for recipes. "
-				""
-				"&oHow will they look once fully grown?"
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "2BD62007FC53BA59"
 			rewards: [
 				{
@@ -1238,30 +949,15 @@
 			shape: "square"
 			tasks: [{
 				id: "10A20CF34D904B6E"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "spectrum:colored_saplings"
-					}
-				}
-				title: "Any Colored Sapling"
+				item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
-			title: "Colored Saplings"
 			x: 16.5d
 			y: 6.5d
 		}
 		{
 			dependencies: ["2BD62007FC53BA59"]
-			description: [
-				"The &aleaves&r of colorful trees have a chance to drop a &bPure Pigment&r. You may notice that there are lots of &enew colors of trees that once looked the same&r. The &6world of color&r has opened up to you."
-				""
-				"The color of &bPigment&r you receive from breaking &aleaves&r depends on the color of the &2tree&r. The &aleaves&r must be broken by you to &creceive anything&r."
-				""
-				"&o&eYou should aim to collect as many variants as you can. Some are not available to you at this time. You will need &call&e the ones you can make at this time to unlock the recipe for the next quest&r."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "36F19B05F3EF16DD"
 			rewards: [
 				{
@@ -1277,84 +973,17 @@
 				}
 			]
 			shape: "square"
-			tasks: [
-				{
-					id: "549397333D528D11"
-					item: "spectrum:orange_pigment"
-					type: "item"
-				}
-				{
-					id: "4D1A4144FC433892"
-					item: "spectrum:magenta_pigment"
-					type: "item"
-				}
-				{
-					id: "10CE945F24361A7A"
-					item: "spectrum:light_blue_pigment"
-					type: "item"
-				}
-				{
-					id: "3F88BF47B2F5E585"
-					item: "spectrum:yellow_pigment"
-					type: "item"
-				}
-				{
-					id: "2E8E55E8195A36C4"
-					item: "spectrum:lime_pigment"
-					type: "item"
-				}
-				{
-					id: "5171AF43B9D06AE4"
-					item: "spectrum:pink_pigment"
-					type: "item"
-				}
-				{
-					id: "477CCCEBAD09DBFA"
-					item: "spectrum:cyan_pigment"
-					type: "item"
-				}
-				{
-					id: "7D5F1D618410B951"
-					item: "spectrum:purple_pigment"
-					type: "item"
-				}
-				{
-					id: "29A2862B7449F1A9"
-					item: "spectrum:blue_pigment"
-					type: "item"
-				}
-				{
-					id: "7D936B5A87F3462F"
-					item: "spectrum:green_pigment"
-					type: "item"
-				}
-				{
-					id: "09D9D704D698956F"
-					item: "spectrum:red_pigment"
-					type: "item"
-				}
-			]
-			title: "Pigments"
+			tasks: [{
+				id: "05EE083C303D0E3D"
+				item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
 			x: 16.5d
 			y: 8.5d
 		}
 		{
 			dependencies: ["36F19B05F3EF16DD"]
-			description: [
-				"{image:statech:textures/item/fusion_shrine.png width:240 height:135 align:1}"
-				""
-				"The &aFusion Shrine&r is key in the process of producing &bBlack Shards&r. "
-				""
-				"You can either click or throw items and buckets onto it. You are even able to process &dentire stacks&r of fusion ingredients at once, making fusing much more efficient than with a &csingle item per cycle&r."
-				""
-				"The &aShrine&r can be made from either &eBasalt&r or &2Calcite&r. The &aShrine&r requires a &dfocus structure&r and &9clear view of the sky&r."
-				""
-				"You have designed the structure of  the &aFusion Shrine&r to bundle the &dmagical energies&r of &aMatter&r, &dTime&r, and &eEnergy&r and focus them on a single central point, the &aFusion Shrine&r itself."
-				""
-				"These powerful bundled energies seem to even have enough power to &cchange the weather&r. Placing &9water&r and a &esunflower&r will change the weather to clear."
-			]
-			hide: true
-			icon: "spectrum:fusion_shrine_basalt"
+			hide_until_deps_visible: true
 			id: "279B9340FED331B8"
 			rewards: [
 				{
@@ -1374,94 +1003,46 @@
 			tasks: [
 				{
 					id: "488CB74113AFA0A1"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "kubejs:fusion_shrines"
-						}
-					}
-					title: "Either Fusion Shrine"
+					item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "4CDC1D47BA49BE77"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "kubejs:polished_gemstones"
-						}
-					}
-					title: "4x Polished Gemstones"
+					item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "4126249455C290EB"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "kubejs:chiseled_polished_blocks"
-						}
-					}
-					title: "4x Chiseled Polished Blocks"
+					item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					count: 8L
 					id: "1377546BDB236CF2"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "kubejs:polished_pillar_blocks"
-						}
-					}
-					title: "8x Polished Pillars"
+					item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					count: 12L
 					id: "3C7783942E2E2887"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "kubejs:polished_slabs"
-						}
-					}
-					title: "12x Polished Slabs"
+					item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					count: 77L
 					id: "4CF0DB944436494F"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "kubejs:polished_blocks"
-						}
-					}
-					title: "77x Polished Blocks"
+					item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 			]
-			title: "The Fusion Shrine"
 			x: 16.5d
 			y: 10.5d
 		}
 		{
 			dependencies: ["36F19B05F3EF16DD"]
-			description: [
-				"The idea of &bfermenting&r &afood&r and &cdrinks&r in &eColored Wood&r was not a far away. Over time, the properties of the &ewood&r influences contents. The results are sometimes more, sometimes less, delicious, but &aalways interesting&r. "
-				""
-				"The &aTitration Barrel&r holds up to a stack of items and 1 bucket of liquid."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "3DA421126DDA645F"
 			rewards: [
 				{
@@ -1478,7 +1059,7 @@
 			]
 			tasks: [{
 				id: "4AF13C9E2A70D86A"
-				item: "spectrum:titration_barrel"
+				item: { }
 				type: "item"
 			}]
 			x: 22.0d
@@ -1486,12 +1067,7 @@
 		}
 		{
 			dependencies: ["3DA421126DDA645F"]
-			description: [
-				"&dFermentation&r is not for drinks alone! &aKimchi&r is made from four of several different &avegetables&r. It is a &chearty&r dish, best served as a side."
-				""
-				"&aKimchi&r takes &cfour real-life hours&r to ferment."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "18BB683828ED758A"
 			rewards: [
 				{
@@ -1508,7 +1084,7 @@
 			]
 			tasks: [{
 				id: "105CF61AAE19A5F2"
-				item: "spectrum:kimchi"
+				item: { }
 				type: "item"
 			}]
 			x: 22.0d
@@ -1516,12 +1092,7 @@
 		}
 		{
 			dependencies: ["3DA421126DDA645F"]
-			description: [
-				"&bClotted Cream&r is a slightly &afermented&r version of &dMilk&r. It keeps its properties and &cwill remove current active status effects&r."
-				""
-				"&aTakes one real-hour life to ferment&r."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "506AD9F4CD125619"
 			rewards: [
 				{
@@ -1538,7 +1109,7 @@
 			]
 			tasks: [{
 				id: "26D10E539E671141"
-				item: "spectrum:clotted_cream"
+				item: { }
 				type: "item"
 			}]
 			x: 21.0d
@@ -1546,12 +1117,7 @@
 		}
 		{
 			dependencies: ["3DA421126DDA645F"]
-			description: [
-				"&aFresh Chocolate&r is a great snack! Pleasantly sweet and fruity. "
-				""
-				"&bTakes four real-life hours to ferment&r."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "4669E140C0FDDB89"
 			rewards: [
 				{
@@ -1568,7 +1134,7 @@
 			]
 			tasks: [{
 				id: "7AE43328F9ACCB6A"
-				item: "spectrum:fresh_chocolate"
+				item: { }
 				type: "item"
 			}]
 			x: 23.0d
@@ -1576,14 +1142,7 @@
 		}
 		{
 			dependencies: ["36F19B05F3EF16DD"]
-			description: [
-				"&bTorches&r have one &ccrucial weakness&r: you can only place them when you're already standing in the &ddark&r. In contract the &aRadiance Staff&r can place lights far away and in the air, &eilluminating&r large caverns at a distance. As a final goodie, these lights are &dinvisible&r, making them great for illuminating your &astructures&r atmospherically."
-				""
-				"You can right-click placed lights with the &aStaff&r to adjust the &eemitted&r light level. They can even be summoned under &9water&r."
-				""
-				"Left click to place &dlights&r."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "03588E4E9DA2A1F1"
 			rewards: [
 				{
@@ -1600,7 +1159,7 @@
 			]
 			tasks: [{
 				id: "26460DCCD270F1D8"
-				item: "spectrum:radiance_staff"
+				item: { }
 				type: "item"
 			}]
 			x: 18.5d
@@ -1608,12 +1167,7 @@
 		}
 		{
 			dependencies: ["36F19B05F3EF16DD"]
-			description: [
-				"You've finally managed to mix colors properly. What could be more natural than to try out the properties of your new &dpigments&r right away? You've had enough of the normal &cRedstone Lamps&r by now. Time to add a splash of color!"
-				""
-				"&aColored Lamps&r are surrounded by vibrant light, when &cactivated by redstone&r. Besides that, &aColored Lamps&r function similar to their boring &credstone&r counterpart."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "03E9573240625A6B"
 			rewards: [
 				{
@@ -1630,28 +1184,15 @@
 			]
 			tasks: [{
 				id: "408E9FCB4DC6C34D"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "kubejs:pigment_lamps"
-					}
-				}
-				title: "Any Colored Lamp"
+				item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
-			title: "Colored Lamps"
 			x: 18.5d
 			y: 7.5d
 		}
 		{
 			dependencies: ["36F19B05F3EF16DD"]
-			description: [
-				"As you wandered through a &aleafy cave&r, you noticed the many petals sailing through the air. You were so enchanted by this sight that you set out to design your own, colorful, variations."
-				""
-				"By using &edifferent&r pigment you can color the &dpetals&r in a wide variety of colors."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "34CFC7EDD658BB56"
 			rewards: [
 				{
@@ -1668,30 +1209,15 @@
 			]
 			tasks: [{
 				id: "71F933980C0150B9"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "kubejs:pigment_spore_blossoms"
-					}
-				}
-				title: "Any Colored Spore Blossom"
+				item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
-			title: "Colored Spore Blossoms"
 			x: 19.5d
 			y: 6.0d
 		}
 		{
 			dependencies: ["36F19B05F3EF16DD"]
-			description: [
-				"You have &ecolor&r as pure as can be. So why not create blocks with color as &dpure&r as can be!"
-				""
-				"You thought if you should call them &5Antiblocks&r, but since they are indeed blocks, that would be silly, &oright&r?"
-				""
-				"&aGlowblocks&r come in all colors and always look the same, no matter how much light falls on their surface."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "637750B4CEC5FC5C"
 			rewards: [
 				{
@@ -1706,39 +1232,17 @@
 					xp: 10
 				}
 			]
-			subtitle: "They glow in the dark"
 			tasks: [{
 				id: "0678CC4CC5D8D28B"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "kubejs:glowblocks"
-					}
-				}
-				title: "Any Glowblock"
+				item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
-			title: "Glowblocks"
 			x: 19.5d
 			y: 5.0d
 		}
 		{
 			dependencies: ["3DA421126DDA645F"]
-			description: [
-				"&dFermentation&r is a natural process - things take time and care. Since there never is a fully controlled environment, there are a lot of &avariables&r:"
-				""
-				"- &aTime&r: It takes time for the barrel to influence the contents. The longer you give the process, the &estronger&r the changes will be. Most beverages get more intense and even additional effects, when given more time than strictly required."
-				""
-				"- &cTemperature&r: The hotter it is, the more of your precious content simply evaporates over time. This is called the &6Angel's Share&r."
-				""
-				"- &9Humidity&r: The more humid the air, the more water evaporates in comparison to alcohol, making the drink &estronger&r."
-				""
-				"- &bWater Share&r: An increased rate of ingredients to water is a fine balance, but one to be played with. More thickness makes the drink &dferment faster&r, albeit at the cost of shorter status effect durations."
-				""
-				"The &aTriation Barrel&r is capable of brewing &ealcoholic drinks&r. The &eSpectrum&r devs request you confirm your age is &cgreater&r than the legal drinking age in your country before revealing the &6recipes&r. This can be done in the &eColorful World&r book under the &2Infused Beverages&r section."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "4547FDC9F22D826B"
 			rewards: [{
 				id: "1578129585C67AAA"
@@ -1747,21 +1251,14 @@
 			}]
 			tasks: [{
 				id: "212805468C2ACB82"
-				title: "Click to Acknowledge"
 				type: "checkmark"
 			}]
-			title: "Infused Beverages"
 			x: 22.0d
 			y: 10.0d
 		}
 		{
 			dependencies: ["4547FDC9F22D826B"]
-			description: [
-				"&aInfused Beverages&r can be made in a variety of ways. Make sure to check &dREI&r to make exactly what you want. "
-				""
-				"If you're not seeing most recipes, make sure to confirm your age in the &eColorful World&r book. (There's also &bhelpful info in there about the beverages you can make there too&r)"
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "27870531E5DB2434"
 			rewards: [
 				{
@@ -1778,11 +1275,7 @@
 			]
 			tasks: [{
 				id: "3FB2A8A935D61168"
-				item: {
-					Count: 1b
-					id: "spectrum:infused_beverage"
-					tag: { }
-				}
+				item: { components: { "ftbquests:missing_item": "spectrum:infused_beverage" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 23.5d
@@ -1790,14 +1283,7 @@
 		}
 		{
 			dependencies: ["4547FDC9F22D826B"]
-			description: [
-				"Curiously, the combination of &emushrooms&r and &9water&r is a perfect receptor for all forms of other bloomy notes, either rounding the taste, or creating... very peculiar ones."
-				""
-				"Each &aflower&r has a specific effect, as if you would feed it to a &5Brown Mooshroom&r."
-				""
-				"The &dfermentation&r process takes &cfour real-life hours&r. Fermenting in &dcolored wood&r makes the effect last quite a bit longer than &aSuspicious Stew&r."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "7D4FC7C4EE540298"
 			rewards: [
 				{
@@ -1814,7 +1300,7 @@
 			]
 			tasks: [{
 				id: "34307F4DE307CB37"
-				item: "spectrum:suspicious_brew"
+				item: { }
 				type: "item"
 			}]
 			x: 23.5d
@@ -1822,12 +1308,7 @@
 		}
 		{
 			dependencies: ["76C17AECFEBFA7E3"]
-			description: [
-				"With the &dmagic&r inherent in &6gemstone dusts&r you have already managed to change seedlings. What's stopping you from trying it on other plants? "
-				""
-				"&aGlistering Melon Plants&r are like &2Melons&r but produce &aGlistering Melons&r instead of normal &2Melons&r."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "7D119AD86EC808A8"
 			rewards: [
 				{
@@ -1844,7 +1325,7 @@
 			]
 			tasks: [{
 				id: "07760F634B6EA6E0"
-				item: "spectrum:glistering_melon_seeds"
+				item: { }
 				type: "item"
 			}]
 			x: 15.0d
@@ -1852,12 +1333,7 @@
 		}
 		{
 			dependencies: ["279B9340FED331B8"]
-			description: [
-				"To create &cbrown pigment&r, you needed a way to darken an &6orange&r tone. And then it occurred to you. It's so logical when you think about it! The &dthree gems&r you found correspond to the &5three basic colors&r of color theory. By mixing all three colors you can create a &dshard&r that is so dark it almost looks unreal."
-				""
-				"The creation of this '&ablackest of blacks&r' in the &bFusion Shrine&r has to be performed in a way that absolutely &cno unregulated light can pollute the crystal&r. So midnight on a new moon it is. Best to bring a &eclock&r with you."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "69D153E6D7F2C335"
 			rewards: [
 				{
@@ -1875,7 +1351,7 @@
 			shape: "square"
 			tasks: [{
 				id: "509287A195097A5E"
-				item: "spectrum:onyx_shard"
+				item: { }
 				type: "item"
 			}]
 			x: 13.0d
@@ -1883,14 +1359,7 @@
 		}
 		{
 			dependencies: ["69D153E6D7F2C335"]
-			description: [
-				"Your &aPigment Pedestal&r can be upgraded with your newly created &bOnyx Shards&r to further increase its magical powers."
-				""
-				"Alongside the upgrade to the &aPedestal&r itself, you will need to upgrade your &eSpectrum Focus&r into a &5&lSpectrum Temple&r. The requirements for this quest are if you are upgrading your current setup into the &5Temple&r. If you plan to make a new setup, consult the &eColorful World&r book for the complete checklist. Additionally, you might find it useful to use the &dVisualize&r functionality to help you build this multiblock&r."
-				"{image:statech:textures/item/spectrum_temple.png width:240 height:135 align:1}"
-			]
-			hide: true
-			icon: "spectrum:pedestal_onyx"
+			hide_until_deps_visible: true
 			id: "79D0A62E07C283FF"
 			rewards: [
 				{
@@ -1917,94 +1386,46 @@
 				{
 					count: 4L
 					id: "74A81B11060780C8"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "kubejs:polished_gemstones"
-						}
-					}
-					title: "Four Polished Gemstones"
+					item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					count: 8L
 					id: "4848D2E9AD7513A5"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "kubejs:gemstone_lamps"
-						}
-					}
-					title: "Eight Gemstone Lamps"
+					item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					count: 16L
 					id: "02DB7121567D62D0"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "kubejs:polished_crest_blocks"
-						}
-					}
-					title: "16 Polished Crest Blocks"
+					item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					count: 28L
 					id: "67008E568629679D"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "kubejs:polished_pillar_blocks"
-						}
-					}
-					title: "28 Polished Pillars"
+					item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					count: 92L
 					id: "315318A640750799"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "kubejs:polished_blocks"
-						}
-					}
-					title: "92 Polished Blocks"
+					item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					count: 16L
 					id: "1A74776435036FFE"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "kubejs:gemstone_chiseled_blocks"
-						}
-					}
-					title: "Any Sixteen Gemstone Chiseled Blocks"
+					item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 			]
-			title: "The Spectrum Temple"
 			x: 9.5d
 			y: 10.5d
 		}
 		{
 			dependencies: ["69D153E6D7F2C335"]
-			description: [
-				"Gentle resonances are amplified by &aOnyx&r to such an extent that they can even be measured &bthrough walls&r, given a suitable receiver. Based on your previous experiments with &dgemstone shards&r it was easy for you to devise such transmitter and receiver systems. These relays do not react well to &cfast changing signals&r though."
-				""
-				"Click the &bWireless Redstone&r with empty hands to toggle sending/receiving. Change the &efrequency&r of transmissions by using &ddye/pigment&r, so signals do not overlap. &oRange: 16 Blocks&r"
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "76C95D1636ACFBE8"
 			rewards: [
 				{
@@ -2021,7 +1442,7 @@
 			]
 			tasks: [{
 				id: "7561A0FF08B70DB3"
-				item: "spectrum:redstone_wireless"
+				item: { }
 				type: "item"
 			}]
 			x: 13.0d
@@ -2029,8 +1450,7 @@
 		}
 		{
 			dependencies: ["79D0A62E07C283FF"]
-			description: ["Now through all your hard work, you can finally make &6Brown Saplings&r. This means you now have access to &eBrown Pigments&r!"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "26A04A375B71024D"
 			rewards: [
 				{
@@ -2047,7 +1467,7 @@
 			]
 			tasks: [{
 				id: "0D28F7CFFFE67F7F"
-				item: "spectrum:brown_sapling"
+				item: { }
 				type: "item"
 			}]
 			x: 8.5d
@@ -2055,12 +1475,7 @@
 		}
 		{
 			dependencies: ["26A04A375B71024D"]
-			description: [
-				"The &bNature's Staff&r uses the magics of the &eNature&r and &aFertility&r elements to increase the &dnatural growth of plants&r."
-				""
-				"Hold right-click to start the process. Consumes &2Vegetal&r to function."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "093508D0AF9EEB98"
 			rewards: [
 				{
@@ -2077,7 +1492,7 @@
 			]
 			tasks: [{
 				id: "0D4CBFC6DB886460"
-				item: "spectrum:natures_staff"
+				item: { }
 				type: "item"
 			}]
 			x: 8.5d
@@ -2085,8 +1500,7 @@
 		}
 		{
 			dependencies: ["69D153E6D7F2C335"]
-			description: ["There seems to be something &dmagical&r about the &eflow of time&r. This clock, formed from witnesses of &etime&r, is to show you a way in this &dnever-ending stream&r of beginning and passing - &omoon phases&r."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "4775934D01F0D2AD"
 			rewards: [
 				{
@@ -2103,7 +1517,7 @@
 			]
 			tasks: [{
 				id: "67C3047AB21E4FCF"
-				item: "spectrum:crescent_clock"
+				item: { }
 				type: "item"
 			}]
 			x: 12.0d
@@ -2111,14 +1525,7 @@
 		}
 		{
 			dependencies: ["79D0A62E07C283FF"]
-			description: [
-				"For a long time now, those annoying monsters that always &aappear at night&r are no longer a threat to you and only serve as a &bresource supplier&r, if at all. But that doesn't stop them from pursuing you further. You spend more time keeping those pesky monsters out of your base than you care to admit. "
-				""
-				"Then you remember the &egemstone glass&r recipe you thought up earlier. With a a bit of &dmagical energy&r, it should be no problem to make it not only &ctransparent&r for you, but also &o&2passable&r (and not for them!)."
-				""
-				"&aSemi-permeable Glass&r comes in all gemstone colors, common, tinted, and glowing variants. It looks exactly like its &bmundane counterpart&r but has the special property that &eplayers can pass through it without problems&r, while all other creatures will bounce off it like a fly off a window."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "6E21A61FDCAC98CF"
 			rewards: [
 				{
@@ -2135,28 +1542,15 @@
 			]
 			tasks: [{
 				id: "45425DE150290CEB"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "spectrum:player_only_glass"
-					}
-				}
-				title: "Any Semi-permeable Glasses"
+				item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
-			title: "Semi-permeable Glass"
 			x: 9.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["79D0A62E07C283FF"]
-			description: [
-				"The &bPigment Pedestal&r and the &aFusion Shrine&r have already proven their worth. But there is still plenty of room for &dimprovement&r. You can choose to upgrade them as you progress. Each &eupgrade&r improves the properties of your structures in different ways, depending on what's most important you personally. Additional ones of the same type have a decreased effect."
-				""
-				"The first &eupgrade&r you can make now is the &bAcceleration Upgrade&r. This &eupgrade&r will decrease the crafting time of the &bPigment Pedestal&r and the &aFusion Shrine&r. Consult the &6Colorful World&r book for the exact placement within the multiblocks."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "2EAC02B57A95690D"
 			rewards: [
 				{
@@ -2173,23 +1567,15 @@
 			]
 			tasks: [{
 				id: "58A236DC99AC4853"
-				item: "spectrum:upgrade_speed"
+				item: { }
 				type: "item"
 			}]
-			title: "Structure Upgrades"
 			x: 10.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["69D153E6D7F2C335"]
-			description: [
-				"&aCalcite&r and &bBasalt&r keep the energies of the &dgems&r in check as long as they completely enclose the &dgeode&r, that much is certain. Sometimes, however, the &denergy&r accumulated over centuries is so strong that it tears a hole in the &dgeode&r."
-				""
-				"You &erecreated the whole thing in miniature&r. For sure your new construction holds a lot of &5magical energy&r."
-				""
-				"&aGemstone Runes&r come in all &dgemstone colors&r and the frame can be built out of &aPolished Calcite&r or &bPolished Basalt&r."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "2AD4B66F46202B39"
 			rewards: [
 				{
@@ -2206,28 +1592,15 @@
 			]
 			tasks: [{
 				id: "0AE90B6F93D43E78"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "kubejs:gemstone_chiseled_blocks"
-					}
-				}
-				title: "Any Gemstone Rune"
+				item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
-			title: "Gemstone Runes"
 			x: 14.0d
 			y: 12.5d
 		}
 		{
 			dependencies: ["69D153E6D7F2C335"]
-			description: [
-				"With your proficiency in using the &aFusion Shrine&r, you can now produce &eEnchanted Golden Apples&r. These &dmagically&r infused &capples&r are the rarest and most powerful food in the game. "
-				""
-				"Eating one provides you with &5insanely strong status effects and extra hearts&r."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "364F8795045AA737"
 			rewards: [
 				{
@@ -2244,22 +1617,15 @@
 			]
 			tasks: [{
 				id: "2FD9C54305606841"
-				item: "minecraft:enchanted_golden_apple"
+				item: { }
 				type: "item"
 			}]
 			x: 13.0d
-			y: 9.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["79D0A62E07C283FF"]
-			description: [
-				"Having dealt with the &dgems&r long enough, you now find yourself able to shape these fragile resources in the finest ways."
-				""
-				"Slowly swaying in the wind, the &achimes&r sounds remind you of the &ebeginning of your journey&r - the first time you set foot in a &dgeode&r."
-				""
-				"Each &aChime&r emits the soothing sound of its corresponding &dgemstone&r."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "7F1AC4CD106746EB"
 			rewards: [
 				{
@@ -2276,36 +1642,15 @@
 			]
 			tasks: [{
 				id: "26254AAFF6974F32"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "kubejs:gemstone_chimes"
-					}
-				}
-				title: "Any Gemstone Chime"
+				item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
-			title: "Gemstone Chimes"
 			x: 11.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["79D0A62E07C283FF"]
-			description: [
-				"Now that you're familiar with &dpigment&r, you see no reason to lug it around like you did in the &eMiddle Ages&r. You have found a way to convert &dpigment&r into a higher form of energy. "
-				""
-				"You called it &aink&r."
-				""
-				"&dPigment&r can be converted to &aInk&r using the &bColor Picker&r and then extracted into containers, like &eInk Flasks&r."
-				""
-				"Only &cdrawback&r: deprived of its physical form, there is &cno way to transform &aInk &cback into &dPigment&r."
-				""
-				"&l&6Transfer&r"
-				""
-				"&aInk&r behaves very much like a liquid. It flows from where it is &babundant&r to where is &clittle&r. When two objects that store &aInk&r are connected, such as a &bColor Picker&r and an &eInk Flask&r - the &aInk&r between the two containers slowly &cevens out&r. The &2greater&r the difference, the &9faster&r the &eFlask&r is getting filled."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "7E51043487053BA7"
 			rewards: [
 				{
@@ -2322,7 +1667,7 @@
 			]
 			tasks: [{
 				id: "4CFB94E6CB2C142D"
-				item: "spectrum:color_picker"
+				item: { }
 				type: "item"
 			}]
 			x: 10.5d
@@ -2330,12 +1675,7 @@
 		}
 		{
 			dependencies: ["7E51043487053BA7"]
-			description: [
-				"The &bInk Flask&r is able to hold a sizable amount of &aInk&r of a single color."
-				""
-				"You can use your &ePaintbrush&r to launch &dmagical&r balls of &aInk&r at your foes. Doing so costs &c100 mB worth of &aInk&r from your &bFlask&r."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "189BF9932FBFCF62"
 			rewards: [
 				{
@@ -2359,18 +1699,16 @@
 				}
 				{
 					id: "73E329D1829B68BF"
-					item: "spectrum:ink_flask"
+					item: { }
 					type: "item"
 				}
 			]
-			title: "Ink Flasks"
 			x: 10.5d
 			y: 14.0d
 		}
 		{
 			dependencies: ["79D0A62E07C283FF"]
-			description: ["Your &aprowess&r has unlocked more &bancient knowledge&r. You hear the cries of the &cNether&r reach out to you, \"&o&dThere's ore under the lava, tear it out&r\"."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "241243142B547B6C"
 			rewards: [
 				{
@@ -2392,14 +1730,12 @@
 				id: "000AF2DAD8C84073"
 				type: "advancement"
 			}]
-			title: "The New Hotness"
 			x: 7.0d
 			y: 10.5d
 		}
 		{
 			dependencies: ["241243142B547B6C"]
-			description: ["&cStratine&r is a very &4heavy&r ore is scattered around the depths of the &cNether&r. It's probably &enot the best idea to carry &llarge&r&e amounts of it home at once."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "791C2898ADBEFEED"
 			rewards: [
 				{
@@ -2417,7 +1753,7 @@
 			shape: "square"
 			tasks: [{
 				id: "3450627E027A1668"
-				item: "spectrum:stratine_fragments"
+				item: { }
 				type: "item"
 			}]
 			x: 5.0d
@@ -2425,12 +1761,7 @@
 		}
 		{
 			dependencies: ["791C2898ADBEFEED"]
-			description: [
-				"You always spend a lot of &ctime placing blocks&r. You could almost think that this is the main reason for your existence. Placing a lot of similar blocks is &ctedious&r. Or more like: &owas&r tedious."
-				""
-				"Crouch click to get a &dselection&r of all available &eplacement modi&r."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "15615777888AF057"
 			rewards: [
 				{
@@ -2447,7 +1778,7 @@
 			]
 			tasks: [{
 				id: "5FDF87C22CC9A800"
-				item: "spectrum:constructors_staff"
+				item: { }
 				type: "item"
 			}]
 			x: 4.0d
@@ -2455,14 +1786,7 @@
 		}
 		{
 			dependencies: ["791C2898ADBEFEED"]
-			description: [
-				"The &bPigment Pedestal&r is wonderful for &dautomatically crafting items&r. But if you need the same few items over and over again, you'll have to &crearrange&r your whole construction."
-				""
-				"Of course, you have found a more than adequate &asolution&r for that."
-				""
-				"The &aFabrication Chest&r has four slots for crafting tablets. The recipes you have defined in these are always kept in stock - as long as the ingredients in the chest allow it."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "6231CBE19EFB5E0A"
 			rewards: [
 				{
@@ -2479,7 +1803,7 @@
 			]
 			tasks: [{
 				id: "3C736027DCA0490F"
-				item: "spectrum:restocking_chest"
+				item: { }
 				type: "item"
 			}]
 			x: 6.0d
@@ -2487,14 +1811,7 @@
 		}
 		{
 			dependencies: ["791C2898ADBEFEED"]
-			description: [
-				"Ambition has taken hold of you. This is your first steps towards changing the world. &dEmpowered&r by the potent energy of your &aOnyx&r and &cStratine&r, this second &aorganism&r you created is clearly... more active than your last creation."
-				""
-				"&l&cAnd DEFINITELY hungrier. WAY hungrier.&r"
-				""
-				"Maybe one of the &esturdiest materials&r you know can satisfy their hunger? What has to be done has to be done."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "335C906466E23E12"
 			rewards: [
 				{
@@ -2512,7 +1829,7 @@
 			shape: "square"
 			tasks: [{
 				id: "3C6F87B30EE33447"
-				item: "spectrum:bottle_of_failing"
+				item: { }
 				type: "item"
 			}]
 			x: 5.0d
@@ -2520,12 +1837,7 @@
 		}
 		{
 			dependencies: ["791C2898ADBEFEED"]
-			description: [
-				"The &aMermaids Brush&r is an inconspicuous plant that grows in the &9deepest&r depths of the oceans, forever untouched by human influence. They grow a &bsingle blossom&r, which slowly develops into a &efiligree shaped seed&r. They can only be harvested with &cshears&r."
-				""
-				"The &5Mermaids Gem&r once fully grown, will float to the surface of the sea to be carried away by the soft waves. &dMermaids&r have a strong bond with the &9water&r - obviously..."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "0EB9D10AAC86F6A2"
 			rewards: [
 				{
@@ -2547,18 +1859,12 @@
 				id: "7C0E5A11A9470F09"
 				type: "advancement"
 			}]
-			title: "Under the Sea"
 			x: 1.5d
 			y: 10.5d
 		}
 		{
 			dependencies: ["0EB9D10AAC86F6A2"]
-			description: [
-				"On quiet days on your patio, you could observe that the &5Mermaid Gems&r have a very special attraction to &bmarine&r life. Add to that they naturally float on &9water&r you used one as a bobber."
-				""
-				"And lo and behold, not only does it &aincrease your success&r, but it also has quite a few other interesting &dside effects&r. "
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "4AC9357C15BC7097"
 			rewards: [
 				{
@@ -2575,17 +1881,7 @@
 			]
 			tasks: [{
 				id: "098BED06B008EF67"
-				item: {
-					Count: 1b
-					id: "spectrum:lagoon_rod"
-					tag: {
-						Damage: 0
-						Enchantments: [{
-							id: "minecraft:lure"
-							lvl: 3s
-						}]
-					}
-				}
+				item: { components: { "ftbquests:missing_item": "spectrum:lagoon_rod" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 0.5d
@@ -2593,14 +1889,7 @@
 		}
 		{
 			dependencies: ["0EB9D10AAC86F6A2"]
-			description: [
-				"Like a caveman, you've always run around manually &eilluminating&r, or closing unsightly looking cave exits in your immediate vicinity. To relieve you of this work you took the self-replicating abilities of &dFading&r as an inspiration to develop the &aBlock Flooder&r."
-				""
-				"Thrown into a cave entrance, pond, or ravine, they are filled - in 5% of the cases, the result even looks acceptable!"
-				""
-				"To fill the gaps it pulls matching blocks directly from your &cinventory&r. If you don't have any matching blocks it will fall back on &7cobblestone&r."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "6422E4C08274C040"
 			rewards: [
 				{
@@ -2617,7 +1906,7 @@
 			]
 			tasks: [{
 				id: "045496E59E5C42FA"
-				item: "spectrum:block_flooder"
+				item: { }
 				type: "item"
 			}]
 			x: 2.5d
@@ -2625,14 +1914,7 @@
 		}
 		{
 			dependencies: ["0EB9D10AAC86F6A2"]
-			description: [
-				"In the meantime, you have come into possession of many &anew materials&r. It's time to take a close look at each of them to see what effect they have on your &dpotions&r."
-				""
-				"Instead of &eBlaze Powder&r the &aPotion Workshop&r runs on &6Mermaid Gems&r. Main advantage is that you don't have to fill your bottles with water before."
-				""
-				"There's a lot to unpack here, so I suggest checking out the corresponding sections in the &eColorful World&r book (under the &dMagical Blocks&r section)"
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "0C9FB8ACA6735D41"
 			rewards: [
 				{
@@ -2649,23 +1931,14 @@
 			]
 			tasks: [{
 				id: "26FD2826B54E9C01"
-				item: "spectrum:potion_workshop"
+				item: { }
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.0d
 			y: 13.5d
 		}
 		{
 			dependencies: ["0EB9D10AAC86F6A2"]
-			description: [
-				"Those pesky &5Endermen&r! They always show up at night and &csteal blocks&r off the ground right from under your nose. You have the feeling that the whole area here will be nothing but a single crater landscape in a month."
-				""
-				"The &5Endermen&r come to this world to place these blocks, but what is it? And &oWHY&r do they leave it here?"
-				""
-				"Now that you hold one in your hands... they are &ceverywhere&r! How didn't you notice earlier? Anyways, you are sure that you can take advantage of this interesting material."
-				""
-				"&cNote this is exceptionally rare, and you might want to make a good farm for &5Endermen&c to get one&r."
-			]
 			id: "2B82C5F0AAD5CAF1"
 			rewards: [
 				{
@@ -2686,14 +1959,12 @@
 				id: "2B2248E5E044D17B"
 				type: "advancement"
 			}]
-			title: "Enderman Secrets"
 			x: 1.5d
 			y: 8.5d
 		}
 		{
 			dependencies: ["0EB9D10AAC86F6A2"]
-			description: ["&cMud&r. It is &cMud&r. Not particularly interesting in itself. But what is practical is the collision of the mud with &9water&r or &alava&r. This creates dirt or coarse dirt respectively. "]
-			hide: true
+			hide_until_deps_visible: true
 			id: "0962AE5DABE7E763"
 			rewards: [
 				{
@@ -2710,22 +1981,15 @@
 			]
 			tasks: [{
 				id: "143E8F58B1061163"
-				item: "spectrum:mud_bucket"
+				item: { }
 				type: "item"
 			}]
-			x: 0.5d
+			x: 1.0d
 			y: 13.5d
 		}
 		{
 			dependencies: ["0EB9D10AAC86F6A2"]
-			description: [
-				"The pure energy of &dgemstones&r in their liquid form. It is said to have a healing effect."
-				""
-				"It has special &dtransformative properties&r, what happens when &ayou&r step in it though?"
-				""
-				"Combining it with various &eother liquids&r results in all kinds of weird looking materials to form. Best to try in the &cnether&r too!"
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "6D24FBE1A1BB0488"
 			rewards: [
 				{
@@ -2743,7 +2007,7 @@
 			shape: "square"
 			tasks: [{
 				id: "383FCEB77F866189"
-				item: "spectrum:liquid_crystal_bucket"
+				item: { }
 				type: "item"
 			}]
 			x: -2.0d
@@ -2751,12 +2015,7 @@
 		}
 		{
 			dependencies: ["6D24FBE1A1BB0488"]
-			description: [
-				"Placing &eLiquid Crystal&r above &cLava&r in the &4Nether&r will produce &aBlazing Crystal&r."
-				""
-				"Perhaps you can &dcrush it&r? "
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "106FB249D0B77D0E"
 			rewards: [
 				{
@@ -2773,7 +2032,7 @@
 			]
 			tasks: [{
 				id: "21CF3675B01D0024"
-				item: "spectrum:blazing_crystal"
+				item: { }
 				type: "item"
 			}]
 			x: -1.0d
@@ -2781,25 +2040,7 @@
 		}
 		{
 			dependencies: ["2042DB84897AC123"]
-			description: [
-				"In your search for the perfect tool, you've found that the &5Enchanting Table&r often doesn't do your bidding. Using this highly modified &5Enchanting Table&r should resolve most of the issue you had with your original one."
-				""
-				"It allows you to:"
-				"- create new &dEnchanted Books&r"
-				"- upgrade those &dBooks&r"
-				"- enchant items &cwithout consuming&r &dEnchanted Books&r"
-				""
-				"&l&eThe &aEnchanter&e needs a &bFocus Structure&e to work.&r"
-				"{image:statech:textures/item/spectrum_enchanter.png width:240 height:135 align:1}"
-				""
-				"The &aEnchanter&r's abilities can be enhanced via &eUpgrades&r. Place them on top of the four &dGemstone Blocks&r."
-				""
-				"If you need help building the structure, remember you can &5Visualize&r it by placing the &aEnchanter&r block down then right clicking it!"
-				""
-				"Once you right-click the &aEnchanter&r with a fully built structure, you will unlock the recipes for books you can create. There's a lot you can do with this structure, make sure to check out the &Enchanting&r section in the &eColorful World&r book."
-			]
-			hide: true
-			icon: "spectrum:enchanter"
+			hide_until_deps_visible: true
 			id: "02FF55D076CC56D6"
 			rewards: [
 				{
@@ -2818,102 +2059,58 @@
 			tasks: [
 				{
 					id: "4B00AA61F49897B8"
-					item: "spectrum:enchanter"
+					item: { }
 					type: "item"
 				}
 				{
 					count: 8L
 					id: "18C2FE983DC6D996"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "kubejs:spectrum_item_bowls"
-						}
-					}
-					title: "8x Either Item Bowl"
+					item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "21150A597AD1E2B5"
-					item: "spectrum:liquid_crystal_bucket"
+					item: { }
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "0E49F79E7E70D235"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "kubejs:polished_gemstones"
-						}
-					}
-					title: "4x Polished Gemstone Blocks"
+					item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					count: 8L
 					id: "5A5D79F7F5CD9BD9"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "kubejs:gemstone_lamps"
-						}
-					}
-					title: "8x Gemstone Lamps"
+					item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					count: 12L
 					id: "21983C88538FAB05"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "kubejs:polished_pillar_blocks"
-						}
-					}
-					title: "12x Polished Pillars"
+					item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					count: 24L
 					id: "2D28565C24ACC2E1"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "kubejs:polished_slabs"
-						}
-					}
-					title: "24x Polished Slabs"
+					item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					count: 159L
 					id: "147A7CCB25D3F747"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "kubejs:polished_blocks"
-						}
-					}
-					title: "159x Polished Blocks"
+					item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 			]
-			title: "The Enchanter"
 			x: -5.25d
 			y: 12.0d
 		}
 		{
 			dependencies: ["72A0F9EDC836DDCF"]
-			description: ["Need help &5Visualizing&r the multiblocks? For the &aPedestal&r there is a button in the GUI to toggle the &5Visualization&r, but for others, right-clicking should do the trick!"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "00F3A5AD1D36B50C"
 			rewards: [{
 				id: "6DB0EC4D0460875A"
@@ -2923,23 +2120,14 @@
 			size: 0.75d
 			tasks: [{
 				id: "50D55CFFADA15149"
-				title: "Click to Acknowledge"
 				type: "checkmark"
 			}]
-			title: "Visualize the Future"
 			x: 10.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["6D24FBE1A1BB0488"]
-			description: [
-				"Whenever you pick up one of those &alittle green orbs&r that appear whenever you &ckill&r an enemy, you get smarter &osupposedly&r."
-				""
-				"However, the inevitable death by &cclumsiness&r means that you always lose this &aexperience&r quickly. Crystallized and safely stored in your chests, however, they will be as safe as can be."
-				""
-				"A &bKnowledge Gem&r can hold up to &a10,000 experience&r. &dEnchanting&r it with &eEfficiency&r increases that limit, &6Quick Charge&r boosts the pushing / pulling of &axp&r."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "2042DB84897AC123"
 			rewards: [
 				{
@@ -2956,7 +2144,7 @@
 			]
 			tasks: [{
 				id: "527E2719B89B6DAA"
-				item: "spectrum:knowledge_gem"
+				item: { }
 				type: "item"
 			}]
 			x: -3.5d
@@ -2964,20 +2152,7 @@
 		}
 		{
 			dependencies: ["2B82C5F0AAD5CAF1"]
-			description: [
-				"You already thought that the moment you put the recipe on paper that this creation will be something special."
-				""
-				"The combination of the power of the &5End&r, &credstone&r, and &dmagic&r gives it &cvery strange&r properties."
-				""
-				"Depending on the strength of the applied &credstone signal&r, this block takes on &edifferent properties&r. Without &credstone&r, it is completely solid; when a &credstone signal&r reaches it, it becomes transparent, almost like glass. "
-				""
-				"However, it reaches its most curious state when a &credstone&r signal of &6full strength&r is applied..."
-				""
-				"To make it even stranger, &aEnder Glass&r seems to respond to the last applied signal alone, not the strongest."
-				""
-				"Truly a curiosity from the &5End&r."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "34D9947BA1B6AADF"
 			rewards: [
 				{
@@ -2994,7 +2169,7 @@
 			]
 			tasks: [{
 				id: "07519634386814DE"
-				item: "spectrum:ender_glass"
+				item: { }
 				type: "item"
 			}]
 			x: 2.5d
@@ -3002,12 +2177,7 @@
 		}
 		{
 			dependencies: ["2B82C5F0AAD5CAF1"]
-			description: [
-				"Placing an &5Ender Chest&r, opening it, and mining it with an &denchanted pickaxe&r is not what you think of as fun. That's why you invented this thing."
-				""
-				"You can open the &aBag of Holding&r to get access to your personal &5Ender Chest&r wherever you are!"
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "487475F7A6127B57"
 			rewards: [
 				{
@@ -3024,7 +2194,7 @@
 			]
 			tasks: [{
 				id: "5663490B1172D90F"
-				item: "spectrum:bag_of_holding"
+				item: { }
 				type: "item"
 			}]
 			x: 3.5d
@@ -3032,13 +2202,7 @@
 		}
 		{
 			dependencies: ["6D24FBE1A1BB0488"]
-			description: [
-				"If you place the &aSugar Stick&r so that its underside is &9immersed&r in &bLiquid Crystal&r, you can grow your own &eRock Candies&r! You must drop &7Sugar&r into the &bLiquid Crystal&r to start the process."
-				""
-				"You may even be able &5to add other stuff than just plain &7Sugar&r."
-			]
-			hide: true
-			icon: "spectrum:rock_candy"
+			hide_until_deps_visible: true
 			id: "5869B2AB61FF7F64"
 			rewards: [
 				{
@@ -3053,65 +2217,24 @@
 					xp: 10
 				}
 			]
-			subtitle: "Goodbye teeth"
 			tasks: [
 				{
 					id: "19B57FFC87475869"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "kubejs:sugar_sticks"
-						}
-					}
-					title: "Sugar Sticks"
+					item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					id: "1B20F133B8F9C3E2"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "spectrum:rock_candy"
-						}
-					}
-					title: "Rock Candies"
+					item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 			]
-			title: "Rock Candies"
 			x: -1.5d
 			y: 8.5d
 		}
 		{
 			dependencies: ["2563B78CFC661CCB"]
-			description: [
-				"You had more than enough time to develop your own individual fighting style. To best support this style, you've designed a range of &ematching gear&r out of &dinteresting materials&r."
-				""
-				"&cDisadvantage&r: The shards used in the production are kind of brittle. Therefore, this equipment has a comparatively low durability. They can be &erepaired&r in &aAnvils&r by using &dGemstone Shards&r."
-				""
-				"To take advantage of their unique properties, you will need some unique materials:"
-				"- &aHelmet&r: &oWhen nothingness meets &cHell&r"
-				"- &aChestplate&r: &oThe &eGolden Ratio&r"
-				"- &aLeggings&r: &oThe source of &5nightmares&r"
-				"- &aBoots&r: Mourning of the &cNether&r"
-				""
-				"Once you have obtained those materials, you can make the &ecorresponding piece of armor&r"
-				""
-				"&l&bFetchling Helmet&r"
-				"Gives attackers &dWeakness&r and &aSlowness&r when they hit you, letting you slip through their claws like a shadow."
-				""
-				"&l&bFerocious Chestplate&r"
-				"Grants &eAbsorption&r and &6Resistance&r when you get hit, making you a massive wall for a short duration."
-				""
-				"&l&bSylph Leggings&r"
-				"Gives you a short burst of &cRegeneration&r on hit, making you get right back up after each hit."
-				""
-				"&l&bOread Boots&r"
-				"Gives a short burst of &aSpeed&r and &dInvisiblity&r when you get hit, giving you an opportunity to retreat. Perfect for ranged combat."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "2EBBE17461F3CDCE"
 			rewards: [
 				{
@@ -3129,57 +2252,31 @@
 			tasks: [
 				{
 					id: "28D4873A2A02951F"
-					item: {
-						Count: 1b
-						id: "spectrum:fetchling_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
+					item: { components: { "ftbquests:missing_item": "spectrum:fetchling_helmet" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					id: "2D67A8858CF73434"
-					item: {
-						Count: 1b
-						id: "spectrum:ferocious_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
+					item: { components: { "ftbquests:missing_item": "spectrum:ferocious_chestplate" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					id: "5BF5AA2D3D636389"
-					item: {
-						Count: 1b
-						id: "spectrum:sylph_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
+					item: { components: { "ftbquests:missing_item": "spectrum:sylph_leggings" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					id: "20236FD4BD8742FB"
-					item: {
-						Count: 1b
-						id: "spectrum:oread_boots"
-						tag: {
-							Damage: 0
-						}
-					}
+					item: { components: { "ftbquests:missing_item": "spectrum:oread_boots" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 			]
-			title: "Gemstone Armor"
 			x: 12.5d
 			y: -4.0d
 		}
 		{
 			dependencies: ["6D24FBE1A1BB0488"]
-			description: ["Not just the bags under your eyes that are evidence of your lack of sleep. There are those &dcreatures&r that come haunt you straight out of your missed nightmares when you don't regularly lie down to sleep - almost like they feel cheated. This here is the manifestation of &erelaxation&r, no sleep necessary. After just a few minutes of wear, you feel physically and mentally refreshed. You also recover from &cnegative effects&r more quickly."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "6B46181AB163E890"
 			rewards: [
 				{
@@ -3196,7 +2293,7 @@
 			]
 			tasks: [{
 				id: "14B8DE4AAC28B2D6"
-				item: "spectrum:whispy_circlet"
+				item: { }
 				type: "item"
 			}]
 			x: -2.5d
@@ -3204,12 +2301,7 @@
 		}
 		{
 			dependencies: ["36F19B05F3EF16DD"]
-			description: [
-				"Your pickaxe, which was sinfully expensive to &denchant&r, almost broken and each additional broken blocks hurts your nerves more than the tool itself? May the tool not be able to be rescued, at least the &dEnchantments&r will! This &aCanvas&r can not only capture color: Used on a tool, the &dEnchantments&r are exchanged."
-				""
-				"Once used, an image of the item you used it on will be drawn on the &aCanvas&r. You can then apply those &dEnchantments&r on another tool."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "2F730917882858ED"
 			rewards: [
 				{
@@ -3226,7 +2318,7 @@
 			]
 			tasks: [{
 				id: "5B4774E7FD286CE7"
-				item: "spectrum:enchantment_canvas"
+				item: { }
 				type: "item"
 			}]
 			x: 18.5d
@@ -3234,12 +2326,7 @@
 		}
 		{
 			dependencies: ["2B82C5F0AAD5CAF1"]
-			description: [
-				"Designed resembling an ordinary &ehopper&r in form and function, the &5Ender Hopper&r has the special ability to put all items above it and from inventories directly into your &dEnder Chest&r."
-				""
-				"The &5Ender Hopper&r only works while you are online."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "65397110B48EC4A1"
 			rewards: [
 				{
@@ -3256,7 +2343,7 @@
 			]
 			tasks: [{
 				id: "1B85AE7C8CA99B45"
-				item: "spectrum:ender_hopper"
+				item: { }
 				type: "item"
 			}]
 			x: 0.5d
@@ -3264,12 +2351,7 @@
 		}
 		{
 			dependencies: ["2B82C5F0AAD5CAF1"]
-			description: [
-				"The &5Ender Dropper&r is the counterpart to the &5Ender Hopper&r. With every &credstone pulse&r it ejects an item from your personal &dEnder Chest&r."
-				""
-				"&cBeware&r: The &5Ender Dropper&r only works as long as you are online. And who is stopping anyone from placing a button next to it and emptying your &dEnder Chest&r?"
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "6A36CD98289D9C05"
 			rewards: [
 				{
@@ -3286,7 +2368,7 @@
 			]
 			tasks: [{
 				id: "35FCE141D5326F16"
-				item: "spectrum:ender_dropper"
+				item: { }
 				type: "item"
 			}]
 			x: -0.5d
@@ -3294,8 +2376,7 @@
 		}
 		{
 			dependencies: ["0EB9D10AAC86F6A2"]
-			description: ["The ends of this pickaxe are studded with &bTopaz&r to cut even the most delicate material from stone. The &aTender Pickaxe&r comes pre-enchanted with &dSilk Touch&r."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "6EBE0A34CCFA8E5B"
 			rewards: [
 				{
@@ -3312,17 +2393,7 @@
 			]
 			tasks: [{
 				id: "2930BC41947F1935"
-				item: {
-					Count: 1b
-					id: "spectrum:tender_pickaxe"
-					tag: {
-						Damage: 0
-						Enchantments: [{
-							id: "minecraft:silk_touch"
-							lvl: 1s
-						}]
-					}
-				}
+				item: { components: { "ftbquests:missing_item": "spectrum:tender_pickaxe" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 1.5d
@@ -3330,12 +2401,7 @@
 		}
 		{
 			dependencies: ["335C906466E23E12"]
-			description: [
-				"You must be careful when freeing the &dmicroorganisms&r in the &aBottle of Failing&r as they are ravenous. They will spread to connecting blocks over time and consume the block entirely. "
-				""
-				"They have a &especial interest&r in eating &5a certain black block that was once &clava&r."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "1416BED5BCB49E7A"
 			rewards: [
 				{
@@ -3357,18 +2423,12 @@
 				id: "7842E0E19FAAB7DB"
 				type: "advancement"
 			}]
-			title: "A New Material"
 			x: 5.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["1416BED5BCB49E7A"]
-			description: [
-				"The &dObsidian&r was literally pulverized. This is what you call &cpower&r!"
-				""
-				"The result was this sturdy &areagent&r. Very powerful!"
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "7478E4BA8E84755E"
 			rewards: [
 				{
@@ -3386,7 +2446,7 @@
 			shape: "square"
 			tasks: [{
 				id: "2BACC5001294A3D6"
-				item: "spectrum:neolith"
+				item: { }
 				type: "item"
 			}]
 			x: 1.5d
@@ -3397,17 +2457,7 @@
 				"7478E4BA8E84755E"
 				"2B82C5F0AAD5CAF1"
 			]
-			description: [
-				"The most interesting thing about the &dEndermen&r is, without question, their &eteleportation&r ability. You were pretty successful replicating it! However, to determine the destination of the teleport, you must first take a snapshot of the position. &o&dEndermen&f don't have to do that - why?&r "
-				""
-				"A &climitation&r of the &aEnder Splice&r is that it can only be used in the &bsame dimension it is bound to&r."
-				""
-				"&l&eUsage&r"
-				"By charging it with a long right-click, you bind it to your current position. The second use will teleport you back to that original location. &eIt can even be used on other players&r."
-				""
-				"&dEnchanting&r an &aEnder Splice&r with &5Unbreaking&r by using the &bEnchanter&r decreases the chance of it breaking on use."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "01963B54FBC1B9BC"
 			rewards: [
 				{
@@ -3424,7 +2474,7 @@
 			]
 			tasks: [{
 				id: "41FA4CD0D52D1DA8"
-				item: "spectrum:ender_splice"
+				item: { }
 				type: "item"
 			}]
 			x: 1.5d
@@ -3432,8 +2482,7 @@
 		}
 		{
 			dependencies: ["7478E4BA8E84755E"]
-			description: ["By infusing &dNeolith&r with a glove you've been able to produce the &aGloves of Dawn's Grasp&r. These &aGloves&r &eincrease your reach&r. You can further extend your reach by infusing it with even more &bBlue Ink&r."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "6C6C6B98EC394D86"
 			rewards: [
 				{
@@ -3450,7 +2499,7 @@
 			]
 			tasks: [{
 				id: "45D84AE685970B6D"
-				item: "spectrum:gloves_of_dawns_grasp"
+				item: { }
 				type: "item"
 			}]
 			x: 3.5d
@@ -3458,18 +2507,7 @@
 		}
 		{
 			dependencies: ["7478E4BA8E84755E"]
-			description: [
-				"The latest findings from your last experiment make you strive for more and more. Squeeze every last ounce of energy out of your &dgemstones&r."
-				""
-				"&5Neolith&r is the key! Yes, it is must be! If you combine all the gems you have collected so far with it, something must be created that holds &eincredible power&r. Alone for you and ONLY for you, master of &dpigment&r!"
-				""
-				"Fusing those &dmagical energies&r must result in an incredible source of power - with a display to match. Best to make sure your &aShrine&r and everything around it is fortified. &o&lI'm not kidding, make sure nothing important is near your &aShrine&f, expect a &ccleanup&r. You can use &3Polished Calcite&r / &ePolished Basalt&r to protect the area."
-				""
-				"When you're ready, put &dAmethyst&r, &eCitrine&r, &bTopaz&r, &dOnyx&r, and &5Neolith&r shards in a &aFusion Shrine&r alongside some &dLiquid Crystal&r during a clear day."
-				""
-				"&cRequires daytime and a clear sky&r."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "78893EE17272B594"
 			rewards: [
 				{
@@ -3491,20 +2529,12 @@
 				id: "647F5D5D797196AA"
 				type: "advancement"
 			}]
-			title: "Unstable and Dangerous"
 			x: -2.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["78893EE17272B594"]
-			description: [
-				"This abomination of a &dGemstone&r radiates an eerie aura."
-				""
-				"It looks closely connected at best. No wonder it &cfalls apart in your hands&r in no time. Total failure."
-				""
-				"While the chaos that ensued &odefinitely&r was not the outcome you craved for, the result still does hold immense power. So much in fact, that if not used quick it crumbles into dust. And then there is that &eaggressive blackish fluid&r that manifested in the process. Because of its color you named it &aMidnight Solution&r."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "2F2CCBE02F25FA4A"
 			rewards: [
 				{
@@ -3522,7 +2552,7 @@
 			shape: "square"
 			tasks: [{
 				id: "4A93D54DDC87B2FD"
-				item: "spectrum:midnight_aberration"
+				item: { }
 				type: "item"
 			}]
 			x: -4.0d
@@ -3530,8 +2560,7 @@
 		}
 		{
 			dependencies: ["2F2CCBE02F25FA4A"]
-			description: ["The liquid which was created during the creation of the &aMidnight Aberration&r... it &cdamages&r everything it touches. It seems to have varying effects depending on what lands in it. Enchanted items lose their &dmagical powers&r, and some items change altogether. However, most interesting is that &bcreatures killed by it&r drop a &emysterious fragment&r."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "5DDD25BF16AA9D1F"
 			rewards: [
 				{
@@ -3553,18 +2582,12 @@
 				id: "3EC92E202EF9CB65"
 				type: "advancement"
 			}]
-			title: "It's not Oil"
 			x: -6.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["5DDD25BF16AA9D1F"]
-			description: [
-				"Creatures that die in &aMidnight Solution&r drop &bMidnight Chips&r. These resemble the &eMidnight Aberration&r you failed to create before, just way, way smaller. "
-				""
-				"Creatures killed by this process also seem to &edrop items as if they were killed by a player&r."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "3D298F4F967B58C9"
 			rewards: [
 				{
@@ -3582,7 +2605,7 @@
 			shape: "square"
 			tasks: [{
 				id: "671B6DBE3BCE6FF5"
-				item: "spectrum:midnight_chip"
+				item: { }
 				type: "item"
 			}]
 			x: -8.0d
@@ -3590,8 +2613,7 @@
 		}
 		{
 			dependencies: ["3D298F4F967B58C9"]
-			description: ["This strange blocks let your &evision penetrate ground and rock&r. Placed directly on a wall or on the ground, it allows you to glimpse the other side."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "21DA194C6F634DA6"
 			rewards: [
 				{
@@ -3608,7 +2630,7 @@
 			]
 			tasks: [{
 				id: "15E109ABD1AF4144"
-				item: "spectrum:universe_spyhole"
+				item: { }
 				type: "item"
 			}]
 			x: -8.0d
@@ -3616,12 +2638,7 @@
 		}
 		{
 			dependencies: ["106FB249D0B77D0E"]
-			description: [
-				"&cFiery Powder&r can be obtained by crushing &4Blazing Crystals&r (and less efficiently, &cMagma Blocks&r)."
-				""
-				"It will be a useful crafting material in the future."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "08D0CC69D9F44D99"
 			rewards: [
 				{
@@ -3638,7 +2655,7 @@
 			]
 			tasks: [{
 				id: "7B31B901EDC7E50F"
-				item: "spectrum:fiery_powder"
+				item: { }
 				type: "item"
 			}]
 			x: -1.0d
@@ -3646,8 +2663,7 @@
 		}
 		{
 			dependencies: ["6D24FBE1A1BB0488"]
-			description: ["As &9water&r tried to flow to a full block of &aLiquid Crystal&r the crystal turned solid. Since even a light touch is enough to give you a &bcold shiver&r, you call it &bFrostbite Crystal&r."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "534FDA2A12212007"
 			rewards: [
 				{
@@ -3664,7 +2680,7 @@
 			]
 			tasks: [{
 				id: "2E86D970A5307841"
-				item: "spectrum:frostbite_crystal"
+				item: { }
 				type: "item"
 			}]
 			x: -3.0d
@@ -3672,8 +2688,7 @@
 		}
 		{
 			dependencies: ["534FDA2A12212007"]
-			description: ["Crushing &bFrostbite Crystal&r with an anvil yields this ice cold powder, which almost makes your hand freeze just by holding it. Crushing &9Ice&r seems to work too, albeit with much less yield."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "64227AF7157BBF43"
 			rewards: [
 				{
@@ -3690,7 +2705,7 @@
 			]
 			tasks: [{
 				id: "1D275B6DEAB137FB"
-				item: "spectrum:blizzard_powder"
+				item: { }
 				type: "item"
 			}]
 			x: -3.0d
@@ -3698,14 +2713,7 @@
 		}
 		{
 			dependencies: ["5DDD25BF16AA9D1F"]
-			description: [
-				"The sun in the palm of your hand sounded far better in theory."
-				""
-				"Now that it sits there... well it burns. The simple fact that it exists is almost a miracle -- really, it should have &cexploded&r in the barrel - an unstable, shimmering amalgam of ethanol blended with a cocktail of accelerants that hates existing."
-				""
-				"A single wrong move could easily &ccause it to detonate&r, taking everything nearby with it, &cincluding yourself&r. And yet, for all those reasons, and yet more, the &esoft, warm glow&r of the gel elicits endless curiosity, all things are drawn to the &cflame&r. There is no question that what is effectively a high yield &dmagical&r explosive bears endless potential. All you need is a little care, a small mountain of it, and a hint of &6reckless abandon&r."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "484F2708933663B2"
 			rewards: [
 				{
@@ -3722,7 +2730,7 @@
 			]
 			tasks: [{
 				id: "6894B842D9432B2C"
-				item: "spectrum:incandescent_amalgam"
+				item: { }
 				type: "item"
 			}]
 			x: -6.0d
@@ -3730,8 +2738,7 @@
 		}
 		{
 			dependencies: ["7478E4BA8E84755E"]
-			description: ["There is a new Ore to be found in the &aOverworld&r in all biomes. It's a rich &1blue ore&r that generates &cvery deep down&r under the surface, and is fairly rare. No, it is not &bDiamonds&r..."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "2756277E0B589F3E"
 			rewards: [
 				{
@@ -3753,18 +2760,12 @@
 				id: "231F7CE2463D2F04"
 				type: "advancement"
 			}]
-			title: "A New Ore"
 			x: 1.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["2756277E0B589F3E"]
-			description: [
-				"&bAzurite&r is a rich blue ore, which at a distance, can almost be mistaken for &bLapis&r. In its natural form, it contains many impurities, which must first be removed, before it can be used."
-				""
-				"It is found deep underground and seems to be able to intensify any &dPigments&r energy."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "4F4496330FB45B35"
 			rewards: [
 				{
@@ -3782,7 +2783,7 @@
 			shape: "square"
 			tasks: [{
 				id: "3EAF12C2931BDB16"
-				item: "spectrum:raw_azurite"
+				item: { }
 				type: "item"
 			}]
 			x: -2.5d
@@ -3790,8 +2791,7 @@
 		}
 		{
 			dependencies: ["4F4496330FB45B35"]
-			description: ["&eRefining&r &bAzurite&r is not a cheap task. In this refined ingot form, &bAzurite&r can be used for a lot more recipes."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "15712326AA2EB3F8"
 			rewards: [
 				{
@@ -3808,7 +2808,7 @@
 			]
 			tasks: [{
 				id: "150A9972386FF601"
-				item: "spectrum:refined_azurite"
+				item: { }
 				type: "item"
 			}]
 			x: -2.5d
@@ -3816,15 +2816,7 @@
 		}
 		{
 			dependencies: ["15712326AA2EB3F8"]
-			description: [
-				"The results of combining &bAzurite&r and the protective properties of &bBlue Pigment&r really sparked your interest. The material seemed to surround itself with a transparent aura, which took some effort to penetrate when you reached for the lump."
-				""
-				"&b&lAzure Dike&r"
-				"A &dmagical aura&r surrounding your body, &eshielding&r you from incoming damage. Slowly, but steadily recharges up to a specific amount."
-				""
-				"&cEach piece&r of &bAzure Dike Equipment&r increases the &amaximum amount of protection&r."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "72E6A9F7DBBC7DC9"
 			rewards: [
 				{
@@ -3842,32 +2834,26 @@
 			tasks: [
 				{
 					id: "34357F269125A18E"
-					item: "spectrum:azure_dike_belt"
+					item: { }
 					type: "item"
 				}
 				{
 					id: "144E416FF4259386"
-					item: "spectrum:azure_dike_ring"
+					item: { }
 					type: "item"
 				}
 				{
 					id: "4A92C5F643A7BC8E"
-					item: "spectrum:shieldgrasp_amulet"
+					item: { }
 					type: "item"
 				}
 			]
-			title: "Azure Dike Equipment"
 			x: -2.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["4F4496330FB45B35"]
-			description: [
-				"Your last experiment was not only &cdangerous&r, but also quite a pain to get rid of. Just in case anything ever gets out of hand again, you created this &emodified variant&r. This time, though, to heal instead of flooding your base. &oYeah that's probably better&r."
-				""
-				"&aDecay Away&r gets rid of &e99% of all self-replicating microorganisms&r."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "387FADE23CEE5FA7"
 			rewards: [
 				{
@@ -3884,7 +2870,7 @@
 			]
 			tasks: [{
 				id: "3140C0F7AE5D9828"
-				item: "spectrum:bottle_of_decay_away"
+				item: { }
 				type: "item"
 			}]
 			x: -4.0d
@@ -3892,12 +2878,7 @@
 		}
 		{
 			dependencies: ["4F4496330FB45B35"]
-			description: [
-				"This is it: the &eperfection of your recipe&r. A little failure definitely couldn't stop you. This may be the one thing &caggressive enough&r to destroy even some materials previously deemed &6&ounbreakable&r. If you are not careful, you may &cruin the world&r. A necessary sacrifice really."
-				""
-				"You won't even make it subtle. This stuff is &4&l&oNASTY&r by design, you didn't call it a &aBottle of Ruin&r for nothing."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "0FFD788283204691"
 			rewards: [
 				{
@@ -3916,7 +2897,7 @@
 			size: 2.0d
 			tasks: [{
 				id: "038967D239DCC4F6"
-				item: "spectrum:bottle_of_ruin"
+				item: { }
 				type: "item"
 			}]
 			x: -6.0d
@@ -3924,16 +2905,7 @@
 		}
 		{
 			dependencies: ["4F4496330FB45B35"]
-			description: [
-				"Created with all the knowledge you have gathered, you have created the &aSpirit Instiller&r. It serves to be able to connect the &eenergies&r of two items, with the help of a third object to &bbind&r them. An almost spiritual process."
-				""
-				"The &aSpirit Instiller&r needs a &5Focus Structure&r to work. To &5Visualize&r and rotate the structure hologram in the direction you want it to, click on the placed &aSpirit Instiller&r itself."
-				"{image:statech:textures/item/spectrum_spirit_instiller.png width:240 height:135 align:1}"
-				""
-				"The &aSpirit Instiller&r's abilities can be enhanced via &eUpgrades&r. Place them on the two &dOnyx Chiseled Blocks&r."
-			]
-			hide: true
-			icon: "spectrum:spirit_instiller"
+			hide_until_deps_visible: true
 			id: "25F95E67C39CDCBC"
 			rewards: [
 				{
@@ -3952,122 +2924,64 @@
 			tasks: [
 				{
 					id: "502EDB3F7BD28DCB"
-					item: "spectrum:spirit_instiller"
+					item: { }
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "577946C36493BF4C"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "kubejs:spectrum_item_bowls"
-						}
-					}
-					title: "2x Item Bowls"
+					item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "544827C736EC35B9"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "kubejs:notched_polished_blocks"
-						}
-					}
-					title: "2x Notched Polished Blocks"
+					item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "1D517B02F0448CEA"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "kubejs:chiseled_polished_blocks"
-						}
-					}
-					title: "2x Chiseled Polished Blocks"
+					item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "1798316FBC33C7C4"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "kubejs:gemstone_chiseled_blocks"
-						}
-					}
-					title: "2x Gemstone Chiseled Blocks"
+					item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					count: 6L
 					id: "66BF01AE1EF2010B"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "kubejs:polished_pillar_blocks"
-						}
-					}
-					title: "6x Polished Pillars"
+					item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					count: 17L
 					id: "326781AC5DF798FB"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "kubejs:polished_slabs"
-						}
-					}
-					title: "17x Polished Slabs"
+					item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					count: 41L
 					id: "2E2C7F5F076068F3"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "kubejs:polished_blocks"
-						}
-					}
-					title: "41x Polished Blocks"
+					item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "23928F71A1DF57CD"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "kubejs:gemstone_chimes"
-						}
-					}
-					title: "2x Gemstone Chimes"
+					item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 			]
-			title: "The Spirit Instiller"
 			x: -6.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["15712326AA2EB3F8"]
-			description: ["The &bPigment Pedestal&r devours vast amounts of &dGemstone Powder&r. Now you should be able to cushion the consumption of your structures a little..."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "4E5EFF72EF9394A7"
 			rewards: [
 				{
@@ -4084,7 +2998,7 @@
 			]
 			tasks: [{
 				id: "7671E5AA13723C94"
-				item: "spectrum:upgrade_efficiency"
+				item: { }
 				type: "item"
 			}]
 			x: -1.5d
@@ -4092,8 +3006,7 @@
 		}
 		{
 			dependencies: ["26A04A375B71024D"]
-			description: ["With all &dPigments&r available to you, the &bnight sky&r becomes clearer to you. You're able to notice &eShooting Stars&r with your &aSpyglass&r. Find where they land to collect your own &5Stardust&r!"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "3DCAFF0B0A60BFFD"
 			rewards: [
 				{
@@ -4110,7 +3023,7 @@
 			]
 			tasks: [{
 				id: "7D4C3432CF88D08A"
-				item: "spectrum:stardust"
+				item: { }
 				type: "item"
 			}]
 			x: 7.5d
@@ -4118,14 +3031,7 @@
 		}
 		{
 			dependencies: ["3DCAFF0B0A60BFFD"]
-			description: [
-				"In your search for a block that is passable for you, but doesn't destroy the look of your buildings, &aShooting Stars&r were a great help."
-				""
-				"With the intensifying power of &dOnyx&r, you were able to strengthen the particles to such an extend that they became a solid."
-				""
-				"Another practical feature of &5Ethereal Platforms&r is that the platform reacts only to living creatures. Objects, such as items, &esimply pass through it&r."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "3876E98B8F77544F"
 			rewards: [
 				{
@@ -4142,7 +3048,7 @@
 			]
 			tasks: [{
 				id: "279554CBD5D0F76D"
-				item: "spectrum:ethereal_platform"
+				item: { }
 				type: "item"
 			}]
 			x: 7.5d
@@ -4150,8 +3056,7 @@
 		}
 		{
 			dependencies: ["79D0A62E07C283FF"]
-			description: ["In the &aPlains&r biome you have found regular &aClovers&r before. Usually they only have &ethree&r leaves, perhaps you'll get lucky and find one with &dfour&r?"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "68951CC5CE4F3221"
 			rewards: [
 				{
@@ -4172,18 +3077,12 @@
 				id: "0D9D07CF6CFA395D"
 				type: "advancement"
 			}]
-			title: "Feelin' Lucky Punk?"
 			x: 9.5d
 			y: 12.5d
 		}
 		{
 			dependencies: ["68951CC5CE4F3221"]
-			description: [
-				"The &aFour-Leaved Clover&r is an rare variant to that of the normal &aClover&r. With its inherent luckiness comes some &dmagical properties&r you can utilize!"
-				""
-				"You can replicate them by using &eBonemeal&r!"
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "67FFABA54C58A939"
 			rewards: [
 				{
@@ -4200,7 +3099,7 @@
 			]
 			tasks: [{
 				id: "74071983ADC2B802"
-				item: "spectrum:four_leaf_clover"
+				item: { }
 				type: "item"
 			}]
 			x: 9.5d
@@ -4208,8 +3107,7 @@
 		}
 		{
 			dependencies: ["67FFABA54C58A939"]
-			description: ["This collection of &esmall vials&r is able to store &ball kinds of Ink&r, albeit &cjust small amounts of it&r."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "1AC510ACD580FA67"
 			rewards: [
 				{
@@ -4226,7 +3124,7 @@
 			]
 			tasks: [{
 				id: "6B10DE11755EEDF5"
-				item: "spectrum:ink_assortment"
+				item: { }
 				type: "item"
 			}]
 			x: 8.5d
@@ -4234,12 +3132,7 @@
 		}
 		{
 			dependencies: ["67FFABA54C58A939"]
-			description: [
-				"Getting from point A to point B is tedious. Especially in the case of &dGeodes&r, they are usually far away, so the journey there takes quite some time. With these &aSeven League Boots&r you are are much more mobile than before."
-				""
-				"They &eincrease both &5Movement Speed&e and &bStep Height&r. &dEnchanting&r them with the &6Power&r &denchant&r further increases the &5Movement Speed&r bonus."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "59FD9AE95823DE89"
 			rewards: [
 				{
@@ -4256,7 +3149,7 @@
 			]
 			tasks: [{
 				id: "3009EFDC21839D19"
-				item: "spectrum:seven_league_boots"
+				item: { }
 				type: "item"
 			}]
 			x: 9.5d
@@ -4264,12 +3157,7 @@
 		}
 		{
 			dependencies: ["67FFABA54C58A939"]
-			description: [
-				"This dainty ring has it all: with the help of a little (or a lot of) &dPink Ink&r, it strengthens you from the inside out and grants you &eadditional hearts&r."
-				""
-				"&5Infuse&r it with &eadditional&r &dPink Ink&r to increase the amount of &eextra hearts&r provided."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "71DCCEF26234CA68"
 			rewards: [
 				{
@@ -4286,7 +3174,7 @@
 			]
 			tasks: [{
 				id: "21725D81F6FA3645"
-				item: "spectrum:heartsingers_reward"
+				item: { }
 				type: "item"
 			}]
 			x: 10.5d
@@ -4294,12 +3182,7 @@
 		}
 		{
 			dependencies: ["75AB88DBDE2147E2"]
-			description: [
-				"Dug into the ground by &dlightning strikes&r, you found these stones vibrating in your hand due to the inherent static. Used in the &aFusion Shrine&r, you can use them to summon &dthunderstorms&r yourself. "
-				""
-				"Because of their &evolatile nature&r, they do not react too nicely to explosions..."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "4BBB975D039AFCC9"
 			rewards: [
 				{
@@ -4316,7 +3199,7 @@
 			]
 			tasks: [{
 				id: "684D7F6667320140"
-				item: "spectrum:storm_stone"
+				item: { }
 				type: "item"
 			}]
 			x: -4.5d
@@ -4324,11 +3207,6 @@
 		}
 		{
 			dependencies: ["7478E4BA8E84755E"]
-			description: [
-				"&dThunderstorms&r are a powerful display of &anature&r. There are &etremendous energies at hand&r."
-				""
-				"Sometimes, you are able to find &bweird shards&r at places where &dlightning struck&r. There even is a way to &cfocus&r &dlightning&r at a specific position, to make gathering them even more efficient."
-			]
 			id: "75AB88DBDE2147E2"
 			rewards: [
 				{
@@ -4349,26 +3227,12 @@
 				id: "38A1FFF83FE4FF92"
 				type: "advancement"
 			}]
-			title: "Ride the Lightning"
 			x: -2.0d
 			y: 5.5d
 		}
 		{
 			dependencies: ["4BBB975D039AFCC9"]
-			description: [
-				"Climbing mountains or misshapen caves is always very time-consuming. If you don't see an option to scramble up over misshapen ledges, you have no choice but to carve a path into the rock."
-				""
-				"Using your new &aTake-Off Belt&r you are able to put great vertical distances behind you, saving time and sparing your beautiful nature from destruction."
-				""
-				"Sneak to charge a &ehigh jump&r, getting more powerful the longer you charge."
-				""
-				"&e&lPower&r "
-				"The &ePower&r &denchantment&r increases the jump height even further."
-				""
-				"&e&lFeather Falling&r"
-				"&eFeather Falling&r will grant a short slow fall effect, allowing you to better navigate to where you want to land. A high level of &eFeather Falling&r may be a very viable way to safely descend down those cliffs again, actually."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "4E86F1220392F9B2"
 			rewards: [
 				{
@@ -4385,7 +3249,7 @@
 			]
 			tasks: [{
 				id: "43357F1ACFE8C0B9"
-				item: "spectrum:take_off_belt"
+				item: { }
 				type: "item"
 			}]
 			x: -6.0d
@@ -4393,19 +3257,7 @@
 		}
 		{
 			dependencies: ["4BBB975D039AFCC9"]
-			description: [
-				"In a painting you have seen a fantastic creature that seems to be made of &eSoul Sand&r and &dWither Skeleton Skulls&r. For hours you waited in a &cNether Fortress&r, only to almost lose your head yourself while searching for a &dWither Skeleton&r with a spine loose enough to drop its skull. "
-				""
-				"But then there were the &aCreepers&r! Once struck by &elightning&r, they explode so hefty that &ctheir explosion blow the heads off his opponents right off their necks&r. As if struck by &elightning&r you thought out this new &denchantment&r using &bStorm Stones&r. And so &aTreasure Hunter&r was born, allowing you to &ecollect heads from all kinds of mobs&r."
-				""
-				"&5&lCharacteristics&r"
-				"- Max level: 3"
-				"- Applicable to melee weapons"
-				"- Mutually exclusive with &dLooting&r"
-				""
-				"Upgrading &aTreasure Hunter&r from level 1 to level 2 is fairly cheap at first. This price will quickly increase to more and more &dPigment&r and &aExperience&r for each additional level."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "37F47D35BDC365DD"
 			rewards: [
 				{
@@ -4422,32 +3274,15 @@
 			]
 			tasks: [{
 				id: "5B0EA265F521FA3E"
-				item: {
-					Count: 1b
-					id: "minecraft:enchanted_book"
-					tag: {
-						StoredEnchantments: [{
-							id: "spectrum:treasure_hunter"
-							lvl: 1s
-						}]
-					}
-				}
+				item: { count: 1, id: "minecraft:enchanted_book" }
 				type: "item"
 			}]
-			title: "Treasure Hunter"
 			x: -6.0d
 			y: 7.5d
 		}
 		{
 			dependencies: ["4BBB975D039AFCC9"]
-			description: [
-				"Placed in &dGeodes&r, the &aCrystal Apothecary&r automatically harvests fully grown &dGemstone Clusters&r."
-				""
-				"Normally all your other constructions and even crops do pretty much freeze in time when you are away, but this construct &eseems to continue working even when you're away&r. Weird..."
-				""
-				"While it is not as efficient as breaking the clusters with a &bPickaxe&r, the ease of use surely comes in handy!"
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "016C5422152ED3A2"
 			rewards: [
 				{
@@ -4464,7 +3299,7 @@
 			]
 			tasks: [{
 				id: "6325F9A0EE813AC9"
-				item: "spectrum:crystal_apothecary"
+				item: { }
 				type: "item"
 			}]
 			x: -6.0d
@@ -4472,8 +3307,7 @@
 		}
 		{
 			dependencies: ["37F47D35BDC365DD"]
-			description: ["Kill an animal with a weapon &denchanted&r with &aTreasure Hunter&r to collect its &bhead&r!"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "2F573191E628806B"
 			rewards: [
 				{
@@ -4494,20 +3328,12 @@
 				id: "7CA37C469F5EA555"
 				type: "advancement"
 			}]
-			title: "Don't Lose Your Head"
 			x: -8.0d
 			y: 7.5d
 		}
 		{
 			dependencies: ["2F573191E628806B"]
-			description: [
-				"Manifestations of a &acreature&r in &eblock form&r. "
-				""
-				"Using them, walking on them, or hitting them with a projectile &ctriggers&r an action that is &bspecifically associated with that creature&r."
-				""
-				"There's a lot of them, so I recommend checking your &eColorful World&r book or &dREI&r for a breakdown of what each of them do!"
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "29714DA3D453B509"
 			rewards: [
 				{
@@ -4524,30 +3350,15 @@
 			]
 			tasks: [{
 				id: "54AADD811AFC5E57"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "spectrum:mob_blocks"
-					}
-				}
-				title: "Any Idol"
+				item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
-			title: "Idols"
 			x: -8.0d
 			y: 9.0d
 		}
 		{
 			dependencies: ["2F573191E628806B"]
-			description: [
-				"Your whole \"&ecreating life&r\" thing has worked rather mixed so far. But slowly you feel you are able to move something. "
-				""
-				"Creating life from nothing is a &cdifficult thing&r, but combining &aexisting knowledge&r? You feel a bit like &dFrankenstein&r himself. &oIs that a good thing? Bad? You are not sure at all..."
-				""
-				"Now. What would your &acreation&r like to &ceat&r?"
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "73AA2CF77878D66D"
 			rewards: [
 				{
@@ -4564,7 +3375,7 @@
 			]
 			tasks: [{
 				id: "41334B05DAE3A4A6"
-				item: "spectrum:egg_laying_wooly_pig_head"
+				item: { }
 				type: "item"
 			}]
 			x: -9.5d
@@ -4572,8 +3383,7 @@
 		}
 		{
 			dependencies: ["4BBB975D039AFCC9"]
-			description: ["For the most part the experience &dPigment Pedestal&r crafting rewards is pretty much negligible. But by using this &aKnowledge Focus&r you could dramatically increase the amount gained."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "5883AD6C322BB079"
 			rewards: [
 				{
@@ -4590,7 +3400,7 @@
 			]
 			tasks: [{
 				id: "1B22A0C6A5A3205C"
-				item: "spectrum:upgrade_experience"
+				item: { }
 				type: "item"
 			}]
 			x: -6.0d
@@ -4598,17 +3408,7 @@
 		}
 		{
 			dependencies: ["25F95E67C39CDCBC"]
-			description: [
-				"With the &aSpirit Instiller&r you are able to breathe new life into a once dead creature. It will materialize in the form of a &bMemory&r."
-				""
-				"To remember the &bmemories&r about a creature, you need its &dHead&r, as well as its most beloved item and &aVegetal&r as a bonding agent. Using &dNeolith&r seems to completely overpower the &denergies&r of the creature, making the resulting &bmemory&r unrecognizable, until it manifests."
-				""
-				"&5&lManifesting&r"
-				"&dMemories&r need a certain &eamount of time&r to manifest, almost like an &begg&r. You have to place them down and wait. Depending on the creature, it may be &areasonably quick&r, or &ctake forever&r."
-				""
-				"Placing them on top of &ecertain blocks&r seems to &aspeed up that process&r or &cstop it entirely&r."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "34F1028EEADD4A2D"
 			rewards: [
 				{
@@ -4625,23 +3425,20 @@
 			]
 			tasks: [{
 				id: "57B107805D539DE4"
-				item: "spectrum:memory"
+				item: { }
 				type: "item"
-				weak_nbt_match: true
 			}]
 			x: -8.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["0FFD788283204691"]
-			description: ["Your new fancy, and &cdangerous&r, &dmicroorganisms&r are ready to feast. Able to tear through anything, where will &eyou set them free&r?"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "2D1439DDE82F3122"
 			rewards: [
 				{
 					count: 4
 					id: "32F6405F9E83F936"
-					item: "spectrum:bedrock_dust"
 					type: "item"
 				}
 				{
@@ -4657,24 +3454,17 @@
 				id: "70F7EE82DA6E2592"
 				type: "advancement"
 			}]
-			title: "Groundbreaking"
 			x: -8.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["2D1439DDE82F3122"]
-			description: [
-				"Even &aBedrock&r was not strong enough to withstand your newly created \"&alife&r\". It broke through the &aBedrock&r like &edandelions&r through &7concrete&r."
-				""
-				"Should you be reading this while &csome of that stuff is still roaming around free, you should change that as soon as possible&r. Otherwise you &lWILL&r regret it. Luckily, you already invented a &asuitable counteragent&r."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "7014D92425B9A412"
 			rewards: [
 				{
 					count: 2
 					id: "7CD6DF6F034D6C42"
-					item: "spectrum:bedrock_dust"
 					type: "item"
 				}
 				{
@@ -4686,7 +3476,7 @@
 			shape: "square"
 			tasks: [{
 				id: "6EBF2C57BDAB290A"
-				item: "spectrum:bedrock_dust"
+				item: { }
 				type: "item"
 			}]
 			x: -10.0d
@@ -4694,14 +3484,12 @@
 		}
 		{
 			dependencies: ["7014D92425B9A412"]
-			description: ["The chunks of &aBedrock&r are so sturdy, that a normal &eCrafting Table&r can't handle them. But your &dPigment Pedestal&r handles it no problem. These seem so sturdy, that &bnot even a Wither would be able to break them&r."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "2D7BE87A5FB3661C"
 			rewards: [
 				{
 					count: 2
 					id: "7E21996CD8FA9F57"
-					item: "spectrum:bedrock_dust"
 					type: "item"
 				}
 				{
@@ -4712,7 +3500,7 @@
 			]
 			tasks: [{
 				id: "53B97C80B289410A"
-				item: "spectrum:bedrock_storage_block"
+				item: { }
 				type: "item"
 			}]
 			x: -10.0d
@@ -4720,18 +3508,12 @@
 		}
 		{
 			dependencies: ["2D7BE87A5FB3661C"]
-			description: [
-				"You've already used your anvil (lots of anvils, to be precise) plenty. However, both &aItem Crushing&r, &erepairing&r, and &denchanting tools&r always damage them so quickly that they become irreparably damaged. To make the anvil more durable - or even &dindestructable&r - &aBedrock&r seems like the perfect choice."
-				""
-				"The &aBedrock Anvil&r allows you to &crename items for free&r and has &bno maximum repair limit&r. In addition, you can also &eadd descriptions to your items&r. &oTip: type a newline to split your text into multiple lines.( backslash n if you didn't know)&r"
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "2B872739CB58F0CE"
 			rewards: [
 				{
 					count: 2
 					id: "64B58C91AEA8CC1D"
-					item: "spectrum:bedrock_dust"
 					type: "item"
 				}
 				{
@@ -4742,7 +3524,7 @@
 			]
 			tasks: [{
 				id: "3573AD44945DA32B"
-				item: "spectrum:bedrock_anvil"
+				item: { }
 				type: "item"
 			}]
 			x: -10.0d
@@ -4750,21 +3532,12 @@
 		}
 		{
 			dependencies: ["7014D92425B9A412"]
-			description: [
-				"The problem with &bhoppers&r is that, on the one hand, they are not only slow, but also poorly suited for larger farms due to their non-existent range."
-				""
-				"With a bit of application of blue pigment, all items in a large radius around the crate can easily be brought to safety."
-				""
-				"&aBlack Hole Chests&r have a radius of 12 blocks. You can disable them by placing a block on top. It offers &efilters&r to specify which items it should accept&r."
-			]
-			hide: true
-			icon: "spectrum:black_hole_chest"
+			hide_until_deps_visible: true
 			id: "045A4D9B10FD6495"
 			rewards: [
 				{
 					count: 2
 					id: "6FCEC8C09D7AD432"
-					item: "spectrum:bedrock_dust"
 					type: "item"
 				}
 				{
@@ -4775,16 +3548,15 @@
 			]
 			tasks: [{
 				id: "449F46F9DEBFF167"
-				item: "spectrum:black_hole_chest"
+				item: { }
 				type: "item"
 			}]
 			x: -9.0d
 			y: -2.5d
 		}
 		{
-			dependencies: ["2D1439DDE82F3122"]
-			description: ["Finally that pesky ruin that taunted you with a Bedrock barrier is no longer an issue. Get in there and claim your prize."]
-			hide: true
+			dependencies: ["0FFD788283204691"]
+			hide_until_deps_visible: true
 			id: "5D38CA7587283F41"
 			rewards: [
 				{
@@ -4800,23 +3572,17 @@
 				}
 			]
 			tasks: [{
-				advancement: "spectrum:solve_wireless_redstone_preservation_ruin"
+				advancement: "spectrum:enter_wireless_redstone_puzzle_structure"
 				criterion: ""
-				id: "2D517F03F37D08DC"
+				id: "7F24649F30649DC8"
 				type: "advancement"
 			}]
-			title: "The Bedrock Ruins"
-			x: -8.0d
-			y: -2.5d
+			x: -6.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["15712326AA2EB3F8"]
-			description: [
-				"Carrying around enough &bInk&r with you to maintain your &dmagical equipment&r has become both a chore and a space hog in your inventory."
-				""
-				"It's time for a new creation: the &aPigment Palette&r. It is capable of storing sizable amounts of &bInk&r to supply all your &dmagical devices&r and equipment."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "00FC26B4CA8F9C0D"
 			rewards: [
 				{
@@ -4833,7 +3599,7 @@
 			]
 			tasks: [{
 				id: "7951005876489DCA"
-				item: "spectrum:pigment_palette"
+				item: { }
 				type: "item"
 			}]
 			x: -3.5d
@@ -4841,12 +3607,7 @@
 		}
 		{
 			dependencies: ["5D38CA7587283F41"]
-			description: [
-				"These leaves seem to belong to a flower you don't know. Did it once bloom here? Was it once grown by those who came before you? Perhaps a souvenir from a world you yourself have never entered? yet it looks like it was plucked just &e5 minutes ago&r."
-				""
-				"You feel something whenever you touch the petal: &crestlessness&r"
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "04778F1077A6A8D1"
 			rewards: [
 				{
@@ -4863,16 +3624,15 @@
 			]
 			tasks: [{
 				id: "3A2380C09CF0E7C2"
-				item: "spectrum:blood_orchid_petal"
+				item: { }
 				type: "item"
 			}]
-			x: -8.0d
-			y: -4.0d
+			x: -6.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["72E6A9F7DBBC7DC9"]
-			description: ["Now with your Dike powered equipment, you can tackle the Dike ruins. These are structures found in the deepslate layer that are surrounded by Preservation Stone with a Dike Gate."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "05EC1F81947AEBC0"
 			rewards: [
 				{
@@ -4888,19 +3648,17 @@
 				}
 			]
 			tasks: [{
-				advancement: "spectrum:solve_dike_gate_preservation_ruin"
+				advancement: "spectrum:enter_ancient_ruins"
 				criterion: ""
-				id: "478F343BDCEFCAE9"
+				id: "5F14418FCEE3E5BD"
 				type: "advancement"
 			}]
-			title: "The Dike Ruins"
 			x: -2.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["05EC1F81947AEBC0"]
-			description: ["The remaining &denergy&r of this plant form aeons ago is barely still perceptible. So light and vulnerable that you think &cany wrong move could breathe the last bit of life out of your fragile bulb&r."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "480F404D4D9627C1"
 			rewards: [
 				{
@@ -4917,7 +3675,7 @@
 			]
 			tasks: [{
 				id: "2B7417145493FA25"
-				item: "spectrum:hibernating_jade_vine_seeds"
+				item: { }
 				type: "item"
 			}]
 			x: -2.5d
@@ -4925,13 +3683,7 @@
 		}
 		{
 			dependencies: ["480F404D4D9627C1"]
-			description: [
-				"Once almost a &clost cause&r you now have an ace up your sleeve:"
-				"With the help of the &aSpirit Instiller&r you are sure that you can breathe life back into the little bulb."
-				""
-				"To &agrow&r them, place them on the &eunderside&r of a fence and ensure they only are exposed to &7Moonlight&r."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "67B26D6E4C9CA284"
 			rewards: [
 				{
@@ -4948,36 +3700,96 @@
 			]
 			tasks: [{
 				id: "6925191FC4F8736A"
-				item: "spectrum:germinated_jade_vine_seeds"
+				item: { }
 				type: "item"
 			}]
 			x: -2.5d
 			y: -6.0d
 		}
 		{
-			dependencies: ["7014D92425B9A412"]
-			description: [
-				"The &astrongest material&r you could make so far was &bNetherite&r. However, repairing &bNetherite&r armor had the disadvantage that it was more expensive than making the armor itself. In addition, the protection decreased with every scratch. All this is less problematic when the armor &ocannot&r be damaged. "
-				""
-				"&e&lBedrock Helmet&r"
-				"The &eBedrock Helmet&r comes &dpre-enchanted&r with &2Projectile Protection V&r."
-				""
-				"&e&lBedrock Chestplate&r"
-				"The &eBedrock Chestplate&r comes &dpre-enchanted&r with &3Protection V&r."
-				""
-				"&e&lBedrock Leggings&r"
-				"The &eBedrock Leggings&r come &dpre-enchanted&r with &5Blast Protection V&r."
-				""
-				"&e&lBedrock Boots&r"
-				"The &eBedrock Boots&r come &dpre-enchanted&r with &cFire Protection V&r."
+			dependencies: ["6B419998589E17A8"]
+			hide_until_deps_visible: true
+			id: "010E868EE13FAAEC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2479D720693E058C"
+					table_id: 5901057256958333207L
+					type: "random"
+				}
+				{
+					id: "619AAA16A3368F39"
+					type: "xp"
+					xp: 10
+				}
 			]
-			hide: true
+			tasks: [{
+				id: "6AC16195B8FFCDB4"
+				item: { }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["352D2FF3E6003244"]
+			hide_until_deps_visible: true
+			id: "6B419998589E17A8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "19228A4C81C1A920"
+					table_id: 5901057256958333207L
+					type: "random"
+				}
+				{
+					id: "4D21070E8AFA8A2D"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				advancement: "spectrum:enter_color_mixing_puzzle_structure"
+				criterion: ""
+				id: "4CCD7764C924714D"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6B419998589E17A8"]
+			hide_until_deps_visible: true
+			id: "71F0082A37B7A610"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7380C8C2CE342673"
+					table_id: 5901057256958333207L
+					type: "random"
+				}
+				{
+					id: "04B71A3AC501135A"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "2C9AA5DE33C30A56"
+				item: { }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7014D92425B9A412"]
+			hide_until_deps_visible: true
 			id: "0B03023E3D249F86"
 			rewards: [
 				{
 					count: 2
 					id: "63759B4BA59EFA9E"
-					item: "spectrum:bedrock_dust"
 					type: "item"
 				}
 				{
@@ -4988,79 +3800,39 @@
 			]
 			shape: "square"
 			size: 1.5d
-			subtitle: "The Ultimate Drip"
 			tasks: [
 				{
 					id: "73824C17EDC97587"
-					item: {
-						Count: 1b
-						id: "spectrum:bedrock_helmet"
-						tag: {
-							Enchantments: [{
-								id: "minecraft:projectile_protection"
-								lvl: 5s
-							}]
-						}
-					}
+					item: { components: { "ftbquests:missing_item": "spectrum:bedrock_helmet" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					id: "5D6BD55F973F2CFA"
-					item: {
-						Count: 1b
-						id: "spectrum:bedrock_chestplate"
-						tag: {
-							Enchantments: [{
-								id: "minecraft:protection"
-								lvl: 5s
-							}]
-						}
-					}
+					item: { components: { "ftbquests:missing_item": "spectrum:bedrock_chestplate" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					id: "1564AFD7D10A0233"
-					item: {
-						Count: 1b
-						id: "spectrum:bedrock_leggings"
-						tag: {
-							Enchantments: [{
-								id: "minecraft:blast_protection"
-								lvl: 5s
-							}]
-						}
-					}
+					item: { components: { "ftbquests:missing_item": "spectrum:bedrock_leggings" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					id: "6C282B3CCEC64B73"
-					item: {
-						Count: 1b
-						id: "spectrum:bedrock_boots"
-						tag: {
-							Enchantments: [{
-								id: "minecraft:fire_protection"
-								lvl: 5s
-							}]
-						}
-					}
+					item: { components: { "ftbquests:missing_item": "spectrum:bedrock_boots" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 			]
-			title: "Bedrock Armor"
 			x: -13.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["33981AF71D789EF7"]
-			description: ["The &eBedrock Pickaxe&r comes &dpre-enchanted&r with &2Silk Touch&r."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "402490AFDE1758ED"
 			rewards: [
 				{
 					count: 2
 					id: "3BE69788E0E4D66A"
-					item: "spectrum:bedrock_dust"
 					type: "item"
 				}
 				{
@@ -5072,16 +3844,7 @@
 			shape: "square"
 			tasks: [{
 				id: "4A0C48D9F0660DBF"
-				item: {
-					Count: 1b
-					id: "spectrum:bedrock_pickaxe"
-					tag: {
-						Enchantments: [{
-							id: "minecraft:silk_touch"
-							lvl: 1s
-						}]
-					}
-				}
+				item: { components: { "ftbquests:missing_item": "spectrum:bedrock_pickaxe" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -15.0d
@@ -5089,14 +3852,12 @@
 		}
 		{
 			dependencies: ["33981AF71D789EF7"]
-			description: ["The &eBedrock Axe&r comes &dpre-enchanted&r with &2Efficiency VI&r."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "05FBAB1D703CCB28"
 			rewards: [
 				{
 					count: 2
 					id: "577CB21A2A3B457B"
-					item: "spectrum:bedrock_dust"
 					type: "item"
 				}
 				{
@@ -5108,16 +3869,7 @@
 			shape: "square"
 			tasks: [{
 				id: "4505EB52A423691E"
-				item: {
-					Count: 1b
-					id: "spectrum:bedrock_axe"
-					tag: {
-						Enchantments: [{
-							id: "minecraft:efficiency"
-							lvl: 6s
-						}]
-					}
-				}
+				item: { components: { "ftbquests:missing_item": "spectrum:bedrock_axe" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -14.0d
@@ -5125,14 +3877,12 @@
 		}
 		{
 			dependencies: ["33981AF71D789EF7"]
-			description: ["The &eBedrock Shovel&r comes &dpre-enchanted&r with &2Efficiency VI&r."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "440F13C141F7E692"
 			rewards: [
 				{
 					count: 2
 					id: "2F87FC61FA9F62FC"
-					item: "spectrum:bedrock_dust"
 					type: "item"
 				}
 				{
@@ -5144,16 +3894,7 @@
 			shape: "square"
 			tasks: [{
 				id: "7028275D7F3D8387"
-				item: {
-					Count: 1b
-					id: "spectrum:bedrock_shovel"
-					tag: {
-						Enchantments: [{
-							id: "minecraft:efficiency"
-							lvl: 6s
-						}]
-					}
-				}
+				item: { components: { "ftbquests:missing_item": "spectrum:bedrock_shovel" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -13.0d
@@ -5161,14 +3902,12 @@
 		}
 		{
 			dependencies: ["33981AF71D789EF7"]
-			description: ["The &eBedrock Sword&r comes &dpre-enchanted&r with &2Sharpness VI&r."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "522E772BE3BA6548"
 			rewards: [
 				{
 					count: 2
 					id: "75ECFD3DA9B35446"
-					item: "spectrum:bedrock_dust"
 					type: "item"
 				}
 				{
@@ -5180,16 +3919,7 @@
 			shape: "square"
 			tasks: [{
 				id: "1583F9481DAB46A1"
-				item: {
-					Count: 1b
-					id: "spectrum:bedrock_sword"
-					tag: {
-						Enchantments: [{
-							id: "minecraft:sharpness"
-							lvl: 6s
-						}]
-					}
-				}
+				item: { components: { "ftbquests:missing_item": "spectrum:bedrock_sword" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -15.0d
@@ -5197,14 +3927,12 @@
 		}
 		{
 			dependencies: ["33981AF71D789EF7"]
-			description: ["The &eBedrock Hoe&r comes &dpre-enchanted&r with &2Fortune IV&r."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "43DA718D7DDB90BF"
 			rewards: [
 				{
 					count: 2
 					id: "541474B2E6EC00EC"
-					item: "spectrum:bedrock_dust"
 					type: "item"
 				}
 				{
@@ -5216,16 +3944,7 @@
 			shape: "square"
 			tasks: [{
 				id: "1B362DF4E5C72B9E"
-				item: {
-					Count: 1b
-					id: "spectrum:bedrock_hoe"
-					tag: {
-						Enchantments: [{
-							id: "minecraft:fortune"
-							lvl: 4s
-						}]
-					}
-				}
+				item: { components: { "ftbquests:missing_item": "spectrum:bedrock_hoe" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -12.0d
@@ -5233,14 +3952,12 @@
 		}
 		{
 			dependencies: ["33981AF71D789EF7"]
-			description: ["The &eBedrock Bow&r comes &dpre-enchanted&r with &2Power VI&r."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "5D30A11F9CDD6B03"
 			rewards: [
 				{
 					count: 2
 					id: "433C01DC4984356E"
-					item: "spectrum:bedrock_dust"
 					type: "item"
 				}
 				{
@@ -5252,16 +3969,7 @@
 			shape: "square"
 			tasks: [{
 				id: "28246B7A1BA81F4F"
-				item: {
-					Count: 1b
-					id: "spectrum:bedrock_bow"
-					tag: {
-						Enchantments: [{
-							id: "minecraft:power"
-							lvl: 6s
-						}]
-					}
-				}
+				item: { components: { "ftbquests:missing_item": "spectrum:bedrock_bow" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -14.0d
@@ -5269,14 +3977,12 @@
 		}
 		{
 			dependencies: ["33981AF71D789EF7"]
-			description: ["The &eBedrock Shears&r comes &dpre-enchanted&r with &2Silk Touch&r."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "74339E62DBCE4A7F"
 			rewards: [
 				{
 					count: 2
 					id: "7FC12A21AA678A7D"
-					item: "spectrum:bedrock_dust"
 					type: "item"
 				}
 				{
@@ -5288,16 +3994,7 @@
 			shape: "square"
 			tasks: [{
 				id: "5FB67E0FFC179864"
-				item: {
-					Count: 1b
-					id: "spectrum:bedrock_shears"
-					tag: {
-						Enchantments: [{
-							id: "minecraft:silk_touch"
-							lvl: 1s
-						}]
-					}
-				}
+				item: { components: { "ftbquests:missing_item": "spectrum:bedrock_shears" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -13.0d
@@ -5305,14 +4002,12 @@
 		}
 		{
 			dependencies: ["33981AF71D789EF7"]
-			description: ["The &eBedrock Fishing Rod&r comes &dpre-enchanted&r with &2Luck of the Sea IV&r."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "7FBD4054F14DDB35"
 			rewards: [
 				{
 					count: 2
 					id: "09ED620C3D3C569F"
-					item: "spectrum:bedrock_dust"
 					type: "item"
 				}
 				{
@@ -5324,16 +4019,7 @@
 			shape: "square"
 			tasks: [{
 				id: "2E8A67B7E70CD1B2"
-				item: {
-					Count: 1b
-					id: "spectrum:bedrock_fishing_rod"
-					tag: {
-						Enchantments: [{
-							id: "minecraft:luck_of_the_sea"
-							lvl: 4s
-						}]
-					}
-				}
+				item: { components: { "ftbquests:missing_item": "spectrum:bedrock_fishing_rod" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -12.0d
@@ -5341,23 +4027,19 @@
 		}
 		{
 			dependencies: ["7014D92425B9A412"]
-			description: ["Whenever you enter a new world, you go about the mindless, days-long task of gathering &evillagers&r around you, turning them into &azombies&r, and healing them again, only for one of them to eventually hand you a book of &dMending&r. All this, just so you don't have to &bfix your tools&r. Now that you can process &2Bedrock&r, you have a much more convenient solution anyways."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "33981AF71D789EF7"
 			shape: "square"
 			tasks: [{
 				id: "7314EE10703FF51C"
-				title: "Click to Acknowledge"
 				type: "checkmark"
 			}]
-			title: "Bedrock Tools"
 			x: -13.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["791C2898ADBEFEED"]
-			description: ["&aStratine Gems&r can rarely be dropped from &bStratine Ores&r. Once you find one, you will &eunlock a recipe to make them&r."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "160B8316AAD40B2E"
 			rewards: [
 				{
@@ -5374,7 +4056,7 @@
 			]
 			tasks: [{
 				id: "07BA26F1323ACC0B"
-				item: "spectrum:stratine_gem"
+				item: { }
 				type: "item"
 			}]
 			x: 5.0d
@@ -5382,8 +4064,7 @@
 		}
 		{
 			dependencies: ["7478E4BA8E84755E"]
-			description: ["The &cStratine Gem&r you set into this &aCirclet&r, itself a creation of the &cNether&r, can absorb high temperatures on you with ease. It even protects you from the &cblazing heat of lava&r - &bif only for a short time&r, until it has had a chance to cool down again. Pair it with something that grants you &dFire Resistance&r, you are able to swim in &clava&r almost as if it were &9water&r."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "132AEA7C9C0A85F6"
 			rewards: [
 				{
@@ -5400,7 +4081,7 @@
 			]
 			tasks: [{
 				id: "6175730D5E94D440"
-				item: "spectrum:ashen_circlet"
+				item: { }
 				type: "item"
 			}]
 			x: 3.5d
@@ -5408,15 +4089,7 @@
 		}
 		{
 			dependencies: ["04778F1077A6A8D1"]
-			description: [
-				"Extracts of the &dBlood Orchid&r have an intense effect when consumed: they may put you into a &dFrenzy&r. &eDamage, attack speed, speed, and knockback resistance are buffed&r the more you kill. But if you do not score a kill within &215 seconds&r you get &cdebuffs instead&r. The higher the effects level, the higher the amplitude."
-				""
-				"&e&lFrenzy Stacking&r"
-				"Instead of resetting the duration, &bapplying another &dFrenzy&b effect will increase its potency instead&r."
-				""
-				"To get teh most out of the effect getting one with long duration first and then stacking up on that seems to be most effective."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "2B6663972DD4C563"
 			rewards: [
 				{
@@ -5433,16 +4106,15 @@
 			]
 			tasks: [{
 				id: "3A96C4595E120F18"
-				item: "spectrum:bloodboil_syrup"
+				item: { }
 				type: "item"
 			}]
-			x: -8.0d
-			y: -5.5d
+			x: -6.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["160B8316AAD40B2E"]
-			description: ["Adrenaline does not have to be the only thing racing through your veins in state of emergency. With every &cheart lost&r, the &cStratine Gem&r in this ring shines brighter and brighter, pulsating in the same rhythm as your racing heart - &egranting you an exponential damage boost&r."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "5FEE4AF0159B2EFB"
 			rewards: [
 				{
@@ -5459,7 +4131,7 @@
 			]
 			tasks: [{
 				id: "2F2350155157A065"
-				item: "spectrum:jeopardant"
+				item: { }
 				type: "item"
 			}]
 			x: 4.0d
@@ -5467,12 +4139,7 @@
 		}
 		{
 			dependencies: ["2B6663972DD4C563"]
-			description: [
-				"As the first drop touched your lips, it already filled your body with &cimmense might&r. Just the memory of it makes your hand &otremble&r of tension. That's no good. And yet you have &enever felt more powerful and alive than you did at this very moment&r."
-				""
-				"However, is it really worth emptying the &avial&r? Should you die against all odds, the price will &cbe immense&r."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "0EE47705DA36E06C"
 			rewards: [
 				{
@@ -5489,29 +4156,15 @@
 			]
 			tasks: [{
 				id: "50D7E10973A7BD2A"
-				item: "spectrum:freigeist"
+				item: { }
 				type: "item"
 			}]
-			x: -8.0d
-			y: -7.0d
+			x: -6.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["160B8316AAD40B2E"]
-			description: [
-				"A state-of-the-art &aBlast Furnace&r, which consumes &6Orange Ink&r to smelt ores and the like."
-				""
-				"Supplying a &aKnowledge Gem&r allows you to automatically collect XP while smelting. The &bCinderhearth&r's abilities can be enhanced via &eUpgrades&r. Place them on the two chiseled blocks."
-				""
-				"&e&lUpgrades&r"
-				"Upgrades placed on the &aChiseled Blocks&r do not work automatically, but require you to supply an additional type of Ink to the &bCinderhearth&r. The higher the upgrades, the higher the consumption."
-				"- &dSpeed (Magenta Ink)&r: Faster smelt times"
-				"- &bYield (Light Blue Ink)&r: Chance to multiply the output for most blocks"
-				"- &5Experience (Purple Ink)&r: Vastly increases experience gain"
-				"- &2Efficiency (Black Ink)&r: Greatly decreases &dInk Consumption&r of the other types, including &6Orange&r."
-				"{image:statech:textures/item/spectrum_cinderharth.png width:240 height:135 align:1}"
-			]
-			hide: true
-			icon: "spectrum:cinderhearth"
+			hide_until_deps_visible: true
 			id: "2ECCF6173374E910"
 			rewards: [
 				{
@@ -5530,64 +4183,36 @@
 			tasks: [
 				{
 					id: "16BEC734EA60BD6C"
-					item: "spectrum:cinderhearth"
+					item: { }
 					type: "item"
 				}
 				{
 					count: 23L
 					id: "7869409871A6217C"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "kubejs:polished_blocks"
-						}
-					}
-					title: "23x Polished Blocks"
+					item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					count: 6L
 					id: "2A1BBCBA0C45866C"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "kubejs:polished_crest_blocks"
-						}
-					}
-					title: "6x Crest Blocks"
+					item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					id: "43285C19DC5FC9AB"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "c:glass_blocks"
-						}
-					}
-					title: "5x Glass-like Blocks"
+					item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "284F7FA0D9A22093"
-					item: {
-						Count: 2b
-						id: "itemfilters:tag"
-						tag: {
-							value: "kubejs:chiseled_polished_blocks"
-						}
-					}
-					title: "2x Chiseled Blocks"
+					item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					count: 6L
 					id: "080570FC6C6B0833"
-					item: "minecraft:lava_bucket"
+					item: { }
 					type: "item"
 				}
 			]
@@ -5599,8 +4224,7 @@
 				"5EDE88BDA0182BD7"
 				"2563B78CFC661CCB"
 			]
-			description: ["&dTime in a Bottle&r offers a way to &epassively store the time spent playing&r so that you can spend it to &bspeed up any process&r, such as a furnace smelting or machine operating."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "765220E44F7D027E"
 			rewards: [
 				{
@@ -5616,16 +4240,9 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Time is money"
 			tasks: [{
 				id: "54554F78AA9BB8E1"
-				item: {
-					Count: 1b
-					id: "timeinabottle:time_in_a_bottle"
-					tag: {
-						timeData: { }
-					}
-				}
+				item: { components: { "ftbquests:missing_item": "timeinabottle:time_in_a_bottle" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 13.0d
@@ -5633,16 +4250,7 @@
 		}
 		{
 			dependencies: ["5B1A75C2F76C6D8A"]
-			description: [
-				"Before you fully unlock the &dWarp Stone&r, you can use Warp Scrolls as temporary teleportation devices."
-				""
-				"The &dBound Scroll&r is used on existing &eWaystones&rto bind itself to that location. Using the scroll will teleport the user back to that Waystone, consuming the Scroll in the process."
-				""
-				"The &dReturn Scroll&r will teleport the user back to where they just teleported from. Useful in conjunction with the &dBound Scroll&r. Consumed on use."
-				""
-				"&dWarp Scrolls&r act as temporary &dWarp Stones&r, allowing you to select any &eWaystone&r you have previously visited, but taking a use off the Scroll each time it's used. "
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "0730D6CF32E895DB"
 			rewards: [
 				{
@@ -5658,36 +4266,29 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Don't sue me Bethesda"
 			tasks: [
 				{
 					id: "59EF3BF5517866C7"
-					item: "waystones:return_scroll"
+					item: { }
 					type: "item"
 				}
 				{
 					id: "66069FAE8406F937"
-					item: "waystones:bound_scroll"
+					item: { }
 					type: "item"
 				}
 				{
 					id: "3CD52E3D9C00172E"
-					item: "waystones:warp_scroll"
+					item: { }
 					type: "item"
 				}
 			]
-			title: "Scrolls"
 			x: 11.0d
 			y: -5.5d
 		}
 		{
 			dependencies: ["5B1A75C2F76C6D8A"]
-			description: [
-				"&dWarp Plates&r aren't very useful until you have two of them. When you place the &dWarp Plate&r, it will code an &aAttuned Shard&r to it's location. If you place another Warp Plate and place the &aAttuned Shard&r from the previous, that new &dWarp Plate&r will teleport you to the previous location."
-				""
-				"If you lose your &aAttuned Shard&r, or want multiple &dWarp Plates&r to reach a single destination, then you can place &dWarp Dust&r in the destination &dWarp Plate&r to create a new &aAttuned Shard&r for wherever you want to create a new &dWarp Plate&r."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "1CC8F1192E2178EB"
 			rewards: [
 				{
@@ -5705,7 +4306,7 @@
 			shape: "rsquare"
 			tasks: [{
 				id: "51BA7D3FE7438D53"
-				item: "waystones:warp_plate"
+				item: { }
 				type: "item"
 			}]
 			x: 12.0d
@@ -5713,8 +4314,7 @@
 		}
 		{
 			dependencies: ["2563B78CFC661CCB"]
-			description: ["&dWarp Dust&r is an important crafting component in &dWarp Scrolls&r and other &eWaystone&r related items."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "5B1A75C2F76C6D8A"
 			rewards: [
 				{
@@ -5732,7 +4332,7 @@
 			shape: "rsquare"
 			tasks: [{
 				id: "630A87404EF3617E"
-				item: "waystones:warp_dust"
+				item: { }
 				type: "item"
 			}]
 			x: 11.5d
@@ -5740,8 +4340,7 @@
 		}
 		{
 			dependencies: ["73AA2CF77878D66D"]
-			description: ["&dManifest&r the &aEgg Laying Wooly Pig&r."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "7388F834D83B886E"
 			rewards: [
 				{
@@ -5762,14 +4361,12 @@
 				id: "6A6880232579EEC5"
 				type: "advancement"
 			}]
-			title: "Once only a Tale"
 			x: -11.0d
 			y: 7.5d
 		}
 		{
 			dependencies: ["67B26D6E4C9CA284"]
-			description: ["&aJade Petals&r can be collected from grown &bJade Vines&r"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "32504A5361DEC4C7"
 			rewards: [
 				{
@@ -5786,7 +4383,7 @@
 			]
 			tasks: [{
 				id: "08A8CD31A7D01837"
-				item: "spectrum:jade_vine_petals"
+				item: { }
 				type: "item"
 			}]
 			x: -2.5d
@@ -5794,8 +4391,7 @@
 		}
 		{
 			dependencies: ["32504A5361DEC4C7"]
-			description: ["&eGilded Books&r serve as an alternative to mundane &aBooks&r for enchanting in the &bEnchanter&r. Being much more receptive for &dmagic&r, the &5enchanting process&r will be both &2faster and cheaper&r. More than that, they can even be used to &ecopy enchantments&r from all kinds of items in the &3Item Bowls&r around the &bEnchanter&r onto itself."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "645BA3F09C087441"
 			rewards: [
 				{
@@ -5812,7 +4408,7 @@
 			]
 			tasks: [{
 				id: "162C231CD4862339"
-				item: "spectrum:gilded_book"
+				item: { }
 				type: "item"
 			}]
 			x: -2.5d
@@ -5820,14 +4416,7 @@
 		}
 		{
 			dependencies: ["279B9340FED331B8"]
-			description: [
-				"While you might have collected some Waystones on your adventures, crafting them had been out of your reach until now. Holding right-click with the &dWarp Stone&r will allow you to pick any visited Waystone to teleport to. "
-				""
-				"With the &dWarp Stone&r you can create new &5Waystones&r and &5Sharestones&r."
-				""
-				"These could prove useful once you head to space..."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "1A3215B013A56DF3"
 			rewards: [
 				{
@@ -5843,16 +4432,9 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Science and magic combine!"
 			tasks: [{
 				id: "6C0E4D7A74A0984D"
-				item: {
-					Count: 1b
-					id: "waystones:warp_stone"
-					tag: {
-						Damage: 0
-					}
-				}
+				item: { count: 1, id: "waystones:warp_stone" }
 				type: "item"
 			}]
 			x: 16.5d
@@ -5860,12 +4442,7 @@
 		}
 		{
 			dependencies: ["1A3215B013A56DF3"]
-			description: [
-				"Using your &dWarp Stone&r, or just grabbing a &5Waystone&r you broke earlier, you can now get &5Waystones&r!"
-				""
-				"These allow you to set locations you can warp between, even dimensions! These aren't as practical for traveling within your base as &eTravel Anchors&r are, but they are great if you find a cool place, useful resources, or land on another planet and want to travel back there again."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "5122831846581262"
 			rewards: [
 				{
@@ -5883,14 +4460,7 @@
 			shape: "rsquare"
 			tasks: [{
 				id: "77C5AE25073B7AE1"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "structory_towers:waystones_1"
-					}
-				}
-				title: "Any Waystone"
+				item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 17.5d
@@ -5898,12 +4468,7 @@
 		}
 		{
 			dependencies: ["1A3215B013A56DF3"]
-			description: [
-				"If you find your &dWaystone&r bookmarks are getting clogged, you can consider using &5Sharestones&r."
-				""
-				"&5Sharestones&r allow you to warp between only other &5Sharestones&r of the same color, this is useful to organize the different locations you want to be warping to."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "072C7BB315337A31"
 			rewards: [
 				{
@@ -5921,14 +4486,7 @@
 			shape: "rsquare"
 			tasks: [{
 				id: "4A44D9CF80920734"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "waystones:sharestone"
-					}
-				}
-				title: "Any Sharestones"
+				item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 16.5d
@@ -5936,8 +4494,7 @@
 		}
 		{
 			dependencies: ["1A3215B013A56DF3"]
-			description: ["The &dPort Stone&r will allow you to select a destination from the list of &5Waystones&r you have previously visited, but you will not be able to warp back to the &dPortstone&r."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "5233BABEDED66C9C"
 			rewards: [
 				{
@@ -5955,7 +4512,7 @@
 			shape: "rsquare"
 			tasks: [{
 				id: "68176AD7692CEBBF"
-				item: "waystones:portstone"
+				item: { }
 				type: "item"
 			}]
 			x: 15.5d
@@ -5963,18 +4520,12 @@
 		}
 		{
 			dependencies: ["7014D92425B9A412"]
-			description: [
-				"The &aTool Leveling Table&r is an &eextremely overpowered&r method of leveling your &denchantments&r on any item. By placing the &2tool you'd like to upgrade&r in the top slot, then items you wish to contribute to &3the upgrade cost&r in the bottom slots, you can use the buttons on the right to increase the level of &5any enchantment&r."
-				""
-				"There's a reason it took you this long to be able to make it..."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "1F65755BC2B7D5C2"
 			rewards: [
 				{
 					count: 2
 					id: "5EEA23DB1697C55C"
-					item: "spectrum:bedrock_dust"
 					type: "item"
 				}
 				{
@@ -5985,7 +4536,7 @@
 			]
 			tasks: [{
 				id: "673C68C06DD2909F"
-				item: "toolleveling:tool_leveling_table"
+				item: { }
 				type: "item"
 			}]
 			x: -11.0d
@@ -5993,12 +4544,7 @@
 		}
 		{
 			dependencies: ["2563B78CFC661CCB"]
-			description: [
-				"Up until know, you've been crafting &aRunes&r by hand. This process is &eextremely inefficient&r and causes an excess of materials to be needed."
-				""
-				"Luckily for you, you've cobbled together the concept of &bThe Rune Crafting Table&r. With this, the &aRunes&r you craft will have their output &ddoubled&r! "
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "1A8CB6F7460A098B"
 			rewards: [
 				{
@@ -6015,7 +4561,7 @@
 			]
 			tasks: [{
 				id: "658CC77BD5459920"
-				item: "runes:crafting_altar"
+				item: { }
 				type: "item"
 			}]
 			x: 10.0d
@@ -6023,12 +4569,7 @@
 		}
 		{
 			dependencies: ["2563B78CFC661CCB"]
-			description: [
-				"The &aSpell Binding Table&r is a key part to any &dWizard&r's toolkit, allowing for &5Spells&r to be applied to &bStaffs&r."
-				""
-				"The &aSpell Binding Table&r follows the same logic as the &evanilla Enchanting Table&r, where surrounding it in &2Bookshelves&r will increase the level of &5Spells&r that can be acquired."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "6AFC5E814DAF426A"
 			rewards: [
 				{
@@ -6045,7 +4586,7 @@
 			]
 			tasks: [{
 				id: "2586EA176E870F2A"
-				item: "spell_engine:spell_binding"
+				item: { }
 				type: "item"
 			}]
 			x: 15.0d
@@ -6053,12 +4594,7 @@
 		}
 		{
 			dependencies: ["639C6C4B13203B5B"]
-			description: [
-				"With your &bPigment Pedestal&r you are now able to channel the powers of the &dmagically gemstones&r you've acquired into &5magical wands&r. "
-				""
-				"These do &clow damage&r at the moment, and require &dRunes&r to cast their abilities, but you will soon unveil the true power as your journey continues."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "4534E07EEB286425"
 			rewards: [
 				{
@@ -6075,24 +4611,15 @@
 			]
 			tasks: [{
 				id: "15B392AE3B65481E"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "kubejs:basic_wands"
-					}
-				}
-				title: "Any Basic Wand"
+				item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
-			title: "Basic Wands"
 			x: 4.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["4534E07EEB286425"]
-			description: ["The &cNetherite&r variant of your &dWand&r will do slightly more damage than before."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "75354DA145259C2B"
 			rewards: [
 				{
@@ -6109,24 +4636,15 @@
 			]
 			tasks: [{
 				id: "6954407381BEDE79"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "kubejs:netherite_basic_wands"
-					}
-				}
-				title: "Any Netherite Basic Wand"
+				item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
-			title: "Netherite Wands"
 			x: 4.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["4534E07EEB286425"]
-			description: ["To power your &dWand&r's abilities, you're going to need &aRunes&r. These can be crafted in a regular crafting table for now, but your &ereturn on investment&r is going to be bad until you discover the &bRunic Altar&r later..."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "2BCB1524B5A3AFA3"
 			rewards: [
 				{
@@ -6141,27 +4659,17 @@
 					xp: 10
 				}
 			]
-			subtitle: "OSRS!"
 			tasks: [{
 				id: "2EFE35A5F4181F40"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "wizards:wizard_runes"
-					}
-				}
-				title: "Basic Runes"
+				item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
-			title: "Runes"
 			x: 2.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["2563B78CFC661CCB"]
-			description: ["The innate &dmagical&r power of your &5wands&r thus far has been quite poor. However, by creating a &eset of robes&r imbued with the natural powers found in &dgemstones&r, you can increase the capabilities of your &5wand&r."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "30D18BC20D008AE2"
 			rewards: [
 				{
@@ -6176,61 +4684,34 @@
 					xp: 10
 				}
 			]
-			subtitle: "You're a wizard, Steve!"
 			tasks: [
 				{
 					id: "722B119C3A15651D"
-					item: {
-						Count: 1b
-						id: "wizards:wizard_robe_head"
-						tag: {
-							Damage: 0
-						}
-					}
+					item: { components: { "ftbquests:missing_item": "wizards:wizard_robe_head" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					id: "399A3BEC01E66FBF"
-					item: {
-						Count: 1b
-						id: "wizards:wizard_robe_chest"
-						tag: {
-							Damage: 0
-						}
-					}
+					item: { components: { "ftbquests:missing_item": "wizards:wizard_robe_chest" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					id: "7503CD85B8567D8B"
-					item: {
-						Count: 1b
-						id: "wizards:wizard_robe_legs"
-						tag: {
-							Damage: 0
-						}
-					}
+					item: { components: { "ftbquests:missing_item": "wizards:wizard_robe_legs" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					id: "5741A12EDA5D7E79"
-					item: {
-						Count: 1b
-						id: "wizards:wizard_robe_feet"
-						tag: {
-							Damage: 0
-						}
-					}
+					item: { components: { "ftbquests:missing_item": "wizards:wizard_robe_feet" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 			]
-			title: "Magical Robes"
 			x: 14.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["279B9340FED331B8"]
-			description: ["The &5Arcane Robes&r are and upgraded version of the &bWizard Robes&r that offer significant damage increases for &5Arcane&r &dmagic&r."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "073B2A926EE446C7"
 			rewards: [
 				{
@@ -6248,57 +4729,31 @@
 			tasks: [
 				{
 					id: "0F737F58CB4076D4"
-					item: {
-						Count: 1b
-						id: "wizards:arcane_robe_head"
-						tag: {
-							Damage: 0
-						}
-					}
+					item: { components: { "ftbquests:missing_item": "wizards:arcane_robe_head" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					id: "1308786507E0AA6D"
-					item: {
-						Count: 1b
-						id: "wizards:arcane_robe_chest"
-						tag: {
-							Damage: 0
-						}
-					}
+					item: { components: { "ftbquests:missing_item": "wizards:arcane_robe_chest" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					id: "74DF309CEB30208B"
-					item: {
-						Count: 1b
-						id: "wizards:arcane_robe_legs"
-						tag: {
-							Damage: 0
-						}
-					}
+					item: { components: { "ftbquests:missing_item": "wizards:arcane_robe_legs" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					id: "5167CC300EC4647A"
-					item: {
-						Count: 1b
-						id: "wizards:arcane_robe_feet"
-						tag: {
-							Damage: 0
-						}
-					}
+					item: { components: { "ftbquests:missing_item": "wizards:arcane_robe_feet" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 			]
-			title: "Arcane Robes"
 			x: 18.5d
 			y: 10.0d
 		}
 		{
 			dependencies: ["279B9340FED331B8"]
-			description: ["The &cFire Robes&r are and upgraded version of the &bWizard Robes&r that offer significant damage increases for &cFire&r &dmagic&r."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "2D6D1CA454713119"
 			rewards: [
 				{
@@ -6316,57 +4771,31 @@
 			tasks: [
 				{
 					id: "186987D088004C27"
-					item: {
-						Count: 1b
-						id: "wizards:fire_robe_head"
-						tag: {
-							Damage: 0
-						}
-					}
+					item: { components: { "ftbquests:missing_item": "wizards:fire_robe_head" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					id: "65C17EA5BDE068D0"
-					item: {
-						Count: 1b
-						id: "wizards:fire_robe_chest"
-						tag: {
-							Damage: 0
-						}
-					}
+					item: { components: { "ftbquests:missing_item": "wizards:fire_robe_chest" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					id: "12AAB4B3DA82C8DA"
-					item: {
-						Count: 1b
-						id: "wizards:fire_robe_legs"
-						tag: {
-							Damage: 0
-						}
-					}
+					item: { components: { "ftbquests:missing_item": "wizards:fire_robe_legs" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					id: "07E63D7440135066"
-					item: {
-						Count: 1b
-						id: "wizards:fire_robe_feet"
-						tag: {
-							Damage: 0
-						}
-					}
+					item: { components: { "ftbquests:missing_item": "wizards:fire_robe_feet" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 			]
-			title: "Fire Robes"
 			x: 18.5d
 			y: 11.0d
 		}
 		{
 			dependencies: ["279B9340FED331B8"]
-			description: ["The &3Frost Robes&r are and upgraded version of the &bWizard Robes&r that offer significant damage increases for &3Frost&r &dmagic&r."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "431AA8E77977167D"
 			rewards: [
 				{
@@ -6384,57 +4813,31 @@
 			tasks: [
 				{
 					id: "759B303AF503C763"
-					item: {
-						Count: 1b
-						id: "wizards:frost_robe_head"
-						tag: {
-							Damage: 0
-						}
-					}
+					item: { components: { "ftbquests:missing_item": "wizards:frost_robe_head" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					id: "36A0A9965E068415"
-					item: {
-						Count: 1b
-						id: "wizards:frost_robe_chest"
-						tag: {
-							Damage: 0
-						}
-					}
+					item: { components: { "ftbquests:missing_item": "wizards:frost_robe_chest" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					id: "21CD7A30E9F36AA1"
-					item: {
-						Count: 1b
-						id: "wizards:frost_robe_legs"
-						tag: {
-							Damage: 0
-						}
-					}
+					item: { components: { "ftbquests:missing_item": "wizards:frost_robe_legs" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					id: "0AB35B9A6BDCC2C4"
-					item: {
-						Count: 1b
-						id: "wizards:frost_robe_feet"
-						tag: {
-							Damage: 0
-						}
-					}
+					item: { components: { "ftbquests:missing_item": "wizards:frost_robe_feet" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 			]
-			title: "Frost Robes"
 			x: 19.5d
 			y: 10.5d
 		}
 		{
 			dependencies: ["79D0A62E07C283FF"]
-			description: ["With your improved abilities with your &bUpgraded Pigment Pedestal&r you can now better channel the powers of the &dgemstones&r into &apowerful Staffs&r to vanquish your foes with. They can be placed in a &eSpell Binding Table&r to apply &2new spells to them&r."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "51E26EB4EBEE53D0"
 			rewards: [
 				{
@@ -6451,24 +4854,15 @@
 			]
 			tasks: [{
 				id: "615F3F51A2F3B534"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "kubejs:basic_staffs"
-					}
-				}
-				title: "Any Staff"
+				item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
-			title: "Magic Staffs"
 			x: 8.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["51E26EB4EBEE53D0"]
-			description: ["The &aNetherite Staffs&r offer an &bincrease to damage&r to their respective spell types."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "361B361FA247EA88"
 			rewards: [
 				{
@@ -6485,28 +4879,15 @@
 			]
 			tasks: [{
 				id: "189BBEB3109D8EC5"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "kubejs:basic_netherite_staffs"
-					}
-				}
-				title: "Any Basic Netherite Staff"
+				item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
-			title: "Netherite Staffs"
 			x: 7.0d
 			y: 7.0d
 		}
 		{
 			dependencies: ["6D24FBE1A1BB0488"]
-			description: [
-				"With the creation of &bLiquid Crystal&r you can now fuse together the powers of &dRunes&r with the metals of the world into &5Rune Ingots&r. "
-				""
-				"These will allow you to create more powerful weapons to &cvanquish your foes&r."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "21BDD4D9662873A0"
 			rewards: [
 				{
@@ -6523,28 +4904,15 @@
 			]
 			tasks: [{
 				id: "1760536D483EA89E"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "kubejs:rune_ingots"
-					}
-				}
-				title: "Any Rune Ingots"
+				item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
-			title: "Rune Ingots"
 			x: -2.0d
 			y: 13.5d
 		}
 		{
 			dependencies: ["21BDD4D9662873A0"]
-			description: [
-				"&aSpellblades&r are the perfect solution for any &dmage&r looking to up their &ccombat capabilities&r. They deal &e2/3&r of your &2corresponding spell attribute&r as &3extra damage&r of that type with melee attacks, and can host &dspells that are close range and quick to cast&r."
-				""
-				"You can &aadd additional spells&r at a &eSpell Binding Table&r."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "3422A8E9630A3063"
 			rewards: [
 				{
@@ -6561,24 +4929,15 @@
 			]
 			tasks: [{
 				id: "738DB52AC636ED24"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "kubejs:basic_spellblades"
-					}
-				}
-				title: "Any Spellblade"
+				item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
-			title: "Spellblades"
 			x: -1.5d
 			y: 15.5d
 		}
 		{
 			dependencies: ["21BDD4D9662873A0"]
-			description: ["The &aRunic Armors&r offer a &edamage bonus&r to their respective spell type, while also offering &babsorption to magic proportional to the amount of &aRunic&b pieces you're wearing&r."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "7551484360A7E823"
 			rewards: [
 				{
@@ -6596,67 +4955,31 @@
 			tasks: [
 				{
 					id: "413C55BD00BC3152"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "kubejs:rune_armor_helmets"
-						}
-					}
-					title: "Any Runic Helmet"
+					item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					id: "3D10F4A50CA6F431"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "kubejs:rune_armor_chestplates"
-						}
-					}
-					title: "Any Runic Chestplate"
+					item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					id: "2DEC4B84E5B092C8"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "kubejs:rune_armor_leggings"
-						}
-					}
-					title: "Any Runic Leggings"
+					item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					id: "336B85DC10B9D956"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "kubejs:rune_armor_boots"
-						}
-					}
-					title: "Any Runic Boots"
+					item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 			]
-			title: "Runic Armor"
 			x: -2.5d
 			y: 15.5d
 		}
 		{
 			dependencies: ["3D298F4F967B58C9"]
-			description: [
-				"With the power of the &eMidnight Chip&r you can finally upgrade your &abasic Spellblades&r into the more powerful &dRunic Claymores&r. "
-				""
-				"These &etwo-handed&r weapons deal &2100% of your corresponding spell attribute&r as &cextra damage&r of that type with melee attacks. These blades &cdo not have their own spells&r added with the &eSpell Binding Table&r, but rather &3use the spells from whatever Tome you have equipped&r."
-				""
-				"Each one comes with a &espin attack of their respective element&r."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "68D2B0DF8060D9C7"
 			rewards: [
 				{
@@ -6673,30 +4996,15 @@
 			]
 			tasks: [{
 				id: "03501B1E1C263404"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "kubejs:runic_claymores"
-					}
-				}
-				title: "Any Runic Claymore"
+				item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
-			title: "Runic Claymores"
 			x: -9.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["3D298F4F967B58C9"]
-			description: [
-				"The &aInquisitor Chestplate, Leggings, and Boots&r allow you to dip into a second form of &dmagic&r, granting a significant &cdamage buff&r to &2two spell types&r. "
-				""
-				"The &aInquisitor Helmets&r offer you the choice between &aSpell Haste&r, &2Crit Chance&r, and &3Crit Damage&r for your spells. "
-				""
-				"&eMix and match and find what's best for you!&r"
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "6D7F12E254DFA7F8"
 			rewards: [
 				{
@@ -6714,65 +5022,31 @@
 			tasks: [
 				{
 					id: "1980C03D7233D789"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "kubejs:inquisitor_helmets"
-						}
-					}
-					title: "Any Inquisitor Helmet"
+					item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					id: "440842ED4AB18144"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "kubejs:inquisitor_chestplates"
-						}
-					}
-					title: "Any Inquisitor Chestplate"
+					item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					id: "5238AF1BC3F550D1"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "kubejs:inquisitor_legs"
-						}
-					}
-					title: "Any Inquisitor Leggings"
+					item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					id: "42ED9B8699959459"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "kubejs:inquisitor_boots"
-						}
-					}
-					title: "Any Inquisitor Boots"
+					item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 			]
-			title: "Inquisitor Armor"
 			x: -9.5d
 			y: 5.0d
 		}
 		{
 			dependencies: ["3D298F4F967B58C9"]
-			description: [
-				"&aRunic Orbs&r deal no extra &cmelee&r damage, and have &dspells&r that don't &edeal a whole lot of damage&r, however the &dspells&r that are available have &2incredible area of effect and versatility&r."
-				""
-				"The &aOrb&r inherits spell from &3Source Tomes&r made in &eSpell Binding Tables&r."
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "3227C8A9F947E4AD"
 			rewards: [
 				{
@@ -6789,24 +5063,15 @@
 			]
 			tasks: [{
 				id: "096095D280DF4DA5"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "kubejs:runic_orbs"
-					}
-				}
-				title: "Any Runic Orb"
+				item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
-			title: "Runic Orbs"
 			x: -9.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["36F19B05F3EF16DD"]
-			description: ["The &aMolten Rod&r is a &bFishing Rod&r tough enough to withstand the &cheat of lava&r. Results may vary...."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "2A288CED3919A8F1"
 			rewards: [
 				{
@@ -6823,13 +5088,7 @@
 			]
 			tasks: [{
 				id: "50351C1C6F21CE90"
-				item: {
-					Count: 1b
-					id: "spectrum:molten_rod"
-					tag: {
-						Damage: 0
-					}
-				}
+				item: { components: { "ftbquests:missing_item": "spectrum:molten_rod" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 19.5d
@@ -6837,13 +5096,6 @@
 		}
 		{
 			dependencies: ["6AFC5E814DAF426A"]
-			description: [
-				"&aWar Tomes&r are acquired by placing a book in the &eSpell Binding Table&r. Different &aWar Tomes&r have different purposes, but in general, they add &2spell abilities&r to use when you have a weapon. This means you can add some fire spells to a regular &bDiamond Sword&r if you'd like. "
-				""
-				"Once you create the &aWar Tome&r, don't forget to add spells to it in the &eSpell Binding Table&r!"
-				""
-				"Some weapons require a &eWar Tome&r to work, such as most of the weapons added by the &6Spellblades and Such&r mod."
-			]
 			id: "6D964D5F1E2D667F"
 			rewards: [
 				{
@@ -6860,204 +5112,11 @@
 			]
 			tasks: [{
 				id: "56FFF0F4FCE94B9C"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "kubejs:war_tomes"
-					}
-				}
-				title: "Any War Tome"
+				item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
-			title: "War Tomes"
 			x: 17.0d
 			y: 0.0d
 		}
-		{
-			dependencies: ["7014D92425B9A412"]
-			description: [
-				"And so you have broken through &abedrock itself&r, and discoverd what lies &4below&r."
-				""
-				"Your work is not yet done, for this is merely the end of the beginning. &b&lThe real work is yet to begin&r&r."
-			]
-			icon: "spectrum:moonstone_cluster"
-			id: "38FE7BB7A9B08424"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "5563DAE60C338493"
-					table_id: 2662802482107568753L
-					type: "random"
-				}
-				{
-					id: "4A60BAE761C3CA55"
-					type: "xp"
-					xp: 10
-				}
-			]
-			shape: "square"
-			size: 2.5d
-			subtitle: "The End of the Beginning"
-			tasks: [{
-				advancement: "spectrum:midgame/enter_dimension"
-				criterion: ""
-				id: "569A37803C3F6F48"
-				type: "advancement"
-			}]
-			title: "What Once Was Impenetrable"
-			x: -13.75d
-			y: -3.75d
-		}
-		{
-			dependencies: ["6B419998589E17A8"]
-			description: [
-				"You very much took a liking to the &arotating roundels&r in those &bancient structures&r. So much, that you copied their design yourself. Definitely a nice way to present your items, or keep them ready."
-				""
-				"The &eBasalt&r and &dCalcite&r version you cobbled together hold &esignificantly more items&r, up to 6 whole stacks!"
-			]
-			hide: true
-			id: "010E868EE13FAAEC"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "2479D720693E058C"
-					table_id: 5901057256958333207L
-					type: "random"
-				}
-				{
-					id: "619AAA16A3368F39"
-					type: "xp"
-					xp: 10
-				}
-			]
-			tasks: [{
-				id: "6AC16195B8FFCDB4"
-				item: "spectrum:item_roundel"
-				type: "item"
-			}]
-			x: 5.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["352D2FF3E6003244"]
-			description: [
-				"Deep underground you may find &eoutlandish structures&r, which seem to be built from &aimmensly sturdy stone&r. Whoever constructed them seemed to have knowledge way beyond your understanding. There has to be a way to get in there! If not now, then later... better keep the location in mind."
-				""
-				"The only &dRuin&r you can enter at this stage is the one that has two &bSpore Blossoms&r at the entrance. Heavily consult the &eColor Mixing&r section of the &eColorful World&r book. "
-				""
-				"&o&cHint&f: Use the &dGem Dusts&f you just created!"
-				""
-				"&oThe gray blossom can not be solved until later in progression!&r"
-			]
-			hide: true
-			id: "6B419998589E17A8"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "19228A4C81C1A920"
-					table_id: 5901057256958333207L
-					type: "random"
-				}
-				{
-					id: "4D21070E8AFA8A2D"
-					type: "xp"
-					xp: 10
-				}
-			]
-			tasks: [{
-				advancement: "spectrum:solve_color_mixing_preservation_ruin"
-				criterion: ""
-				id: "37B4EF4201895533"
-				type: "advancement"
-			}]
-			title: "The Mixing Ruins"
-			x: 6.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["6B419998589E17A8"]
-			description: ["Though seemingly left behind for quite some time now, these &aseeds&r still look very much &2alive&r. Once grown, they become &bAmaranth Bushels&r. These &bBushels&r can be used in various foods, and &eit's also the favorite food of a certain creature down the path of progression&r."]
-			hide: true
-			id: "71F0082A37B7A610"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "7380C8C2CE342673"
-					table_id: 5901057256958333207L
-					type: "random"
-				}
-				{
-					id: "04B71A3AC501135A"
-					type: "xp"
-					xp: 10
-				}
-			]
-			tasks: [{
-				id: "2C9AA5DE33C30A56"
-				item: "spectrum:amaranth_bushel"
-				type: "item"
-			}]
-			x: 6.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["0EB9D10AAC86F6A2"]
-			description: ["These hostile &cunderwater temples&r are hell to maneuver in. Luckily, in your search for treasure, you stumbled upon a &dHeart of the Sea&r. This circlet allows you to live and mine underwater as if it were the most natural thing ever. You &bswim and mine faster&r, &arequire no air&r, &eand are able to see better&r. It also &3heals&r your nearby &6Axolotl&r friends."]
-			id: "498CE428ED4058E6"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "68D288BDE8E2DA2C"
-					table_id: 6970548649776480151L
-					type: "random"
-				}
-				{
-					id: "29DC853C7004A28E"
-					type: "xp"
-					xp: 10
-				}
-			]
-			tasks: [{
-				id: "125B431D5A017C32"
-				item: "spectrum:weeping_circlet"
-				type: "item"
-			}]
-			x: 2.5d
-			y: 13.5d
-		}
-		{
-			dependencies: ["3DCAFF0B0A60BFFD"]
-			description: [
-				"To be able to fly like the birds has always been the dream of many people, &bincluding you&r."
-				""
-				"Now you have these boots. The freedom is almost overwhelming. You didn't get it quite right without a catch, but what can you do."
-				""
-				"Small clouds form under your feet as soon as you start sprinting. Those clouds are too fuzzy to jump on, but &bsafely levitate you in the air&r. There's just one kicker: &oYou better not stop sprinting high in the air&r..."
-			]
-			id: "1969361A5D724C79"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "2115DEF11E4F7673"
-					table_id: 6970548649776480151L
-					type: "random"
-				}
-				{
-					id: "3235D9597B5C12B9"
-					type: "xp"
-					xp: 10
-				}
-			]
-			tasks: [{
-				id: "4EB00B46B64995DB"
-				item: "spectrum:cotton_cloud_boots"
-				type: "item"
-			}]
-			x: 6.5d
-			y: 15.5d
-		}
 	]
-	subtitle: ["Is that you Merasmus?"]
-	title: "&aSpectrum: World of Magic&r"
 }

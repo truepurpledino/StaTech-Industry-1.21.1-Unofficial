@@ -10,11 +10,10 @@
 	emergency_items_cooldown: 300
 	grid_scale: 0.5d
 	icon: {
-		Count: 1b
-		id: "kubejs:statech_logo"
-		tag: {
-			Damage: 0
+		components: {
+			"ftbquests:missing_item": "kubejs:statech_logo"
 		}
+		id: "ftbquests:missing_item"
 	}
 	lock_message: ""
 	loot_crate_no_drop: {
@@ -24,6 +23,6 @@
 	}
 	pause_game: false
 	progression_mode: "linear"
-	title: "&eStaTech Industry"
+	show_lock_icons: true
 	version: 13
 }

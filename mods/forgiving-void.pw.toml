@@ -1,0 +1,13 @@
+name = "Forgiving Void"
+filename = "forgivingvoid-neoforge-1.21.1-21.1.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4ddd4493dafb3b992566dbb015a20b9bacd06e1c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6171035
+project-id = 271009

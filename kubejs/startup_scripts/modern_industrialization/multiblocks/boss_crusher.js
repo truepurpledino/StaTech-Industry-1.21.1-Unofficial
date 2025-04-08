@@ -16,15 +16,18 @@ MIMachineEvents.registerRecipeTypes(e => {
 MIMachineEvents.registerMachines(e => {
     // -- MOD NAMESPACE UTILITY FUNCTIONS -- // 
     let mi = (id) => `modern_industrialization:${id}`;
-    let ki = (id) => `kibe:${id}`;
-    let ad = (id) => `ad_astra:${id}`;
+    // let ki = (id) => `kibe:${id}`;
+    // let ad = (id) => `ad_astra:${id}`;
+    let cr = (id) => `create:${id}`;
     let mc = (id) => `minecraft:${id}`;
 
     const cleanStainlessSteelMachineCasing = e.memberOfBlock(mi('clean_stainless_steel_machine_casing'));
     const tintedGlassBlock = e.memberOfBlock(mc('tinted_glass'));
     const kanthalCoil = e.memberOfBlock(mi('kanthal_coil'));
-    const witherProofBlock = e.memberOfBlock(ki('wither_proof_block'));
-    const glowingSteelPillar = e.memberOfBlock(ad('glowing_steel_pillar'));
+    // const witherProofBlock = e.memberOfBlock(ki('wither_proof_block'));
+    const obsidian = e.memberOfBlock(mc('obsidian'));
+    // const glowingSteelPillar = e.memberOfBlock(ad('glowing_steel_pillar'));
+    const roseQuartzLamp = e.memberOfBlock(cr('rose_quartz_lamp'));
     const crusherHatch = e.hatchOf('item_input', 'item_output', 'energy_input', 'fluid_input', 'fluid_output');
 
     const bossCrusherShape = e.layeredShape('clean_stainless_steel_machine_casing', [
@@ -39,8 +42,10 @@ MIMachineEvents.registerMachines(e => {
         .key('p', cleanStainlessSteelMachineCasing, crusherHatch)
         .key('G', tintedGlassBlock, e.noHatch())
         .key('K', kanthalCoil, e.noHatch())
-        .key('W', witherProofBlock, e.noHatch())
-        .key('g', glowingSteelPillar, e.noHatch())
+        // .key('W', witherProofBlock, e.noHatch())
+        .key('W', obsidian, e.noHatch())
+        // .key('g', glowingSteelPillar, e.noHatch())
+        .key('g', roseQuartzLamp, e.noHatch())
         .build();
     
     e.simpleElectricCraftingMultiBlock(

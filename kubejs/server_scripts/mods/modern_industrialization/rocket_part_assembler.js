@@ -7,7 +7,7 @@ ServerEvents.recipes(e => {
     // -- MOD NAMESPACE UTILITY FUNCTIONS -- // 
     let st = (id) => `statech:modern_industrialization/rocket_part_assembler/${id}`;
     let mi = (id) => `modern_industrialization:${id}`;
-    let ad = (id) => `ad_astra:${id}`;
+    // let ad = (id) => `ad_astra:${id}`;
 
     // -- CUSTOM RECIPE UTILITY FUNCTION -- //
     let rocketAssembler = (id, eu, duration, item_inputs, item_outputs, fluid_inputs) => {
@@ -25,7 +25,7 @@ ServerEvents.recipes(e => {
 
         e.custom(newRecipe).id(id);
     }
-
+/* 
     // -- ENGINE FAN -- //
     rocketAssembler(
         st('engine_fan'),
@@ -192,5 +192,5 @@ ServerEvents.recipes(e => {
         ],
         [ { amount: 1, item: ad('calorite_engine') } ],
         [ { amount: 100, fluid: mi('molten_enderium') } ]
-    );
+    ); */
 });

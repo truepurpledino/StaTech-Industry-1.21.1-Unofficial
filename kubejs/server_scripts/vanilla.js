@@ -41,7 +41,7 @@ ServerEvents.recipes(e => {
     ],
     {
         S: '#c:strings',
-        L: '#c:leather'
+        L: '#c:leathers'
     })
     .id(st('bundle'));
 
@@ -54,8 +54,8 @@ ServerEvents.recipes(e => {
     {
         W: '#minecraft:wooden_slabs',
         C: '#minecraft:stone_tool_materials',
-        I: '#c:iron_rods',
-        R: '#c:redstone_dusts'
+        I: '#c:rods/iron',
+        R: '#c:dusts/redstone'
     })
     .id(st('piston'));
 
@@ -65,7 +65,7 @@ ServerEvents.recipes(e => {
         'RRR'
     ],
     {
-        R: '#c:iron_rods'
+        R: '#c:rods/iron'
     })
     .id(st('iron_bars'));
 
@@ -75,7 +75,7 @@ ServerEvents.recipes(e => {
         ' P '
     ],
     {
-        P: '#c:iron_plates'
+        P: '#c:plates/iron'
     })
     .id(st('bucket'));
 
@@ -87,7 +87,7 @@ ServerEvents.recipes(e => {
         L: '#minecraft:logs'
     })
     .id(st('sticks_from_log'));
-
+/* 
     // -- BUCKET ALT METALS -- //
     ALT_METALS.forEach(id => {
         e.shaped(mc('bucket'), [ 'P P', ' P '], { P: `#c:${id}_plates` }).id(st(`bucket_${id}`));
@@ -127,7 +127,7 @@ ServerEvents.recipes(e => {
     ALT_METALS.forEach(id => {
         e.shaped(mc('minecart'), ['I I', 'III'], { I: `#c:${id}_ingots` }).id(st(`minecart_${id}`));
     });
-
+ */
     // -- CLOCK -- //
     e.shaped(mc('clock'), [
         ' R ',

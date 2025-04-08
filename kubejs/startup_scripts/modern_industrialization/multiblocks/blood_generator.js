@@ -7,24 +7,26 @@ MIMachineEvents.registerMachines(e => {
     // -- MOD NAMESPACE UTILITY FUNCTIONS -- //
     let mi = (id) => `modern_industrialization:${id}`;
     let mc = (id) => `minecraft:${id}`;
-    let ad = (id) => `ad_astra:${id}`;
-    let bl = (id) => `blockus:${id}`;
+    // let ad = (id) => `ad_astra:${id}`;
+    // let bl = (id) => `blockus:${id}`;
     let cr = (id) => `create:${id}`;
-    let fb = (id) => `factory_blocks:${id}`;
-    let ap = (id) => `architects_palette:${id}`;
+    // let fb = (id) => `factory_blocks:${id}`;
+    // let ap = (id) => `architects_palette:${id}`;
 
     const steelMachineCasing = e.memberOfBlock(mi('steel_machine_casing'));
-    const steelPillar = e.memberOfBlock(ad('steel_pillar'));
+    // const steelPillar = e.memberOfBlock(ad('steel_pillar'));
     const steelPipeCasing = e.memberOfBlock(mi('steel_machine_casing_pipe'));
     const experienceBlock = e.memberOfBlock(cr('experience_block'));
-    const bonePillar = e.memberOfBlock(ap('osseous_pillar'));
-    const boneHead = e.memberOfBlock(ap('lit_osseous_skull'));
-    const boneWall = e.memberOfBlock(ap('osseous_brick_wall'));
-    const redGlazedTerracotta = e.memberOfBlock(bl('red_glazed_terracotta_pillar'));
+    const boneBlock = e.memberOfBlock(mc('bone_block'));
+    // const bonePillar = e.memberOfBlock(ap('osseous_pillar'));
+    // const boneHead = e.memberOfBlock(ap('lit_osseous_skull'));
+    // const boneWall = e.memberOfBlock(ap('osseous_brick_wall'));
+    // const redGlazedTerracotta = e.memberOfBlock(bl('red_glazed_terracotta_pillar'));
+    const redGlazedTerracotta = e.memberOfBlock(mc('red_glazed_terracotta'));
     const tintedGlass = e.memberOfBlock(mc('tinted_glass'));
-    const fanBlock = e.memberOfBlock(fb('fan_on'));
-    const ventBlock = e.memberOfBlock(fb('vent'));
-    const batteryBlock = e.memberOfBlock(fb('megacell'));
+    // const fanBlock = e.memberOfBlock(fb('fan_on'));
+    // const ventBlock = e.memberOfBlock(fb('vent'));
+    // const batteryBlock = e.memberOfBlock(fb('megacell'));
     const generatorHatch = e.hatchOf('fluid_input', 'energy_output');
 
     const bloodGeneratorShape = e.layeredShape('steel', [
@@ -36,17 +38,25 @@ MIMachineEvents.registerMachines(e => {
         [ 'PPPPPPPPP', 'PCCC#CCCP', 'PTTTTTTTP', 'PTTTTTTTP', 'PTTTTTTTP', 'PTTTTTTTP', 'PTTTTTTTP', 'PTTTTTTTP', 'PCCCCCCCP', 'PPPPPPPPP' ]
     ])
         .key('C', steelMachineCasing, generatorHatch)
-        .key('P', steelPillar, e.noHatch())
+        // .key('P', steelPillar, e.noHatch())
+        .key('P', steelMachineCasing, e.noHatch())
         .key('I', steelPipeCasing, e.noHatch())
         .key('E', experienceBlock, e.noHatch())
-        .key('B', bonePillar, e.noHatch())
-        .key('H', boneHead, e.noHatch())
-        .key('W', boneWall, e.noHatch())
+        // .key('B', bonePillar, e.noHatch())
+        // .key('H', boneHead, e.noHatch())
+        // .key('W', boneWall, e.noHatch())
+        // .key('R', redGlazedTerracotta, e.noHatch())
+        .key('B', boneBlock, e.noHatch())
+        .key('H', boneBlock, e.noHatch())
+        .key('W', boneBlock, e.noHatch())
         .key('R', redGlazedTerracotta, e.noHatch())
         .key('T', tintedGlass, e.noHatch())
-        .key('F', fanBlock, e.noHatch())
-        .key('V', ventBlock, e.noHatch())
-        .key('A', batteryBlock, e.noHatch())
+        // .key('F', fanBlock, e.noHatch())
+        // .key('V', ventBlock, e.noHatch())
+        // .key('A', batteryBlock, e.noHatch())
+        .key('F', steelMachineCasing, e.noHatch())
+        .key('V', steelMachineCasing, e.noHatch())
+        .key('A', steelMachineCasing, e.noHatch())
         .build();
 
     e.simpleGeneratorMultiBlock(

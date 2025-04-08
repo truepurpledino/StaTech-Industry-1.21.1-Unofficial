@@ -1,0 +1,13 @@
+name = "Smithing Template Viewer for JEI/EMI"
+filename = "smithingtemplateviewer-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1d9d263fb5a25dabad27d8e169c2f063c15ef56f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5871981
+project-id = 1133580

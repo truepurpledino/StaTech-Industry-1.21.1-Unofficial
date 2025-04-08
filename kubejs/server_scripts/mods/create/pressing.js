@@ -32,14 +32,14 @@ ServerEvents.recipes(e => {
     // -- BRONZE PLATE -- //
     pressing(
         st('bronze_plate'),
-        [ { tag: 'c:bronze_ingots' } ],
-        [ { item: mi('bronze_plate'), count: 1 } ]
+        [ { tag: 'c:ingots/bronze' } ],
+        [ { 'id': mi('bronze_plate'), count: 1 } ]
     );
 
     // -- TIN PLATE -- //
     pressing(
         st('tin_plate'),
-        [ { tag: 'c:tin_ingots' } ],
-        [ { item: mi('tin_plate'), count: 1 } ]
+        [ { tag: 'c:ingots/tin' } ],
+        [ { 'id': mi('tin_plate'), count: 1 } ]
     );
 });

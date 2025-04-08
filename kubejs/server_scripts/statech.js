@@ -8,65 +8,65 @@ ServerEvents.recipes(e => {
     let st = (id) => `statech:${id}`;
     let mc = (id) => `minecraft:${id}`;
     let mi = (id) => `modern_industrialization:${id}`;
-    let tr = (id) => `techreborn:${id}`;
-    let sp = (id) => `spectrum:${id}`;
+    // let tr = (id) => `techreborn:${id}`;
+    // let sp = (id) => `spectrum:${id}`;
     let kj = (id) => `kubejs:${id}`;
-    let ad = (id) => `ad_astra:${id}`;
+    // let ad = (id) => `ad_astra:${id}`;
 
-    e.smelting(kj('clear_ingot'), mc('glass'), 0.2).id(st('clear_ingot_from_glass'));
+    // e.smelting(kj('clear_ingot'), mc('glass'), 0.2).id(st('clear_ingot_from_glass'));
 
     // -- CLEAR GLASS BLOCK - //
-    e.shaped('8x ' + kj('clear_glass'), [
-        'III',
-        'I I',
-        'III'
-    ],
-    {
-        I: kj('clear_ingot')
-    })
-    .id(st('clear_glass'));
+    // e.shaped('8x ' + kj('clear_glass'), [
+        // 'III',
+        // 'I I',
+        // 'III'
+    // ],
+    // {
+        // I: kj('clear_ingot')
+    // })
+    // .id(st('clear_glass'));
     
     // -- CLEAR HELMET -- //
-    e.shaped(kj('clear_helmet'), [
-        'III',
-        'I I'
-    ],
-    {
-        I: kj('clear_ingot')
-    })
-    .id(st('clear_helmet'));
+    // e.shaped(kj('clear_helmet'), [
+        // 'III',
+        // 'I I'
+    // ],
+    // {
+        // I: kj('clear_ingot')
+    // })
+    // .id(st('clear_helmet'));
 
     // -- CLEAR CHESTPLATE -- //
-    e.shaped(kj('clear_chestplate'), [
-        'I I',
-        'III',
-        'III'
-    ],
-    {
-        I: kj('clear_ingot')
-    })
-    .id(st('clear_chestplate'));
+    // e.shaped(kj('clear_chestplate'), [
+        // 'I I',
+        // 'III',
+        // 'III'
+    // ],
+    // {
+        // I: kj('clear_ingot')
+    // })
+    // .id(st('clear_chestplate'));
 
     // -- CLEAR LEGGINGS -- //
-    e.shaped(kj('clear_leggings'), [
-        'III',
-        'I I',
-        'I I'
-    ],
-    {
-        I: kj('clear_ingot')
-    })
-    .id(st('clear_leggings'));
+    // e.shaped(kj('clear_leggings'), [
+        // 'III',
+        // 'I I',
+        // 'I I'
+    // ],
+    // {
+        // I: kj('clear_ingot')
+    // })
+    // .id(st('clear_leggings'));
 
     // -- CLEAR BOOTS -- //
-    e.shaped(kj('clear_boots'), [
-        'I I',
-        'I I'
-    ],
-    {
-        I: kj('clear_ingot')
-    })
-    .id(st('clear_boots'));
+    // e.shaped(kj('clear_boots'), [
+        // 'I I',
+        // 'I I'
+    // ],
+    // {
+        // I: kj('clear_ingot')
+    // })
+    // .id(st('clear_boots'));
 
     // ------------------- //
     // -- STATECH COINS -- //
@@ -109,13 +109,13 @@ ServerEvents.recipes(e => {
     }).id(st('tin_ore_from_common'));
 
     // -- RUBBER SAPLING -- //
-    e.shaped(tr('rubber_sapling'), [
-        'C',
-        'C'
-    ],
-    {
-        C: common
-    }).id(st('rubber_sapling_from_common'));
+    // e.shaped(tr('rubber_sapling'), [
+        // 'C',
+        // 'C'
+    // ],
+    // {
+        // C: common
+    // }).id(st('rubber_sapling_from_common'));
 
     // -- ANDESITE -- //
     e.shaped('16x ' + mc('andesite'), [
@@ -139,25 +139,25 @@ ServerEvents.recipes(e => {
     .noMirror().id('amethyst_shard_from_common');
     
     // -- TOPAZ SHARD -- //
-    e.shaped('8x ' + sp('topaz_shard'), [
-        '  C',
-        ' C ',
-        'C  '
-    ],
-    {
-        C: common
-    })
-    .noMirror().id(st('topaz_shard_from_common'));
+    // e.shaped('8x ' + sp('topaz_shard'), [
+        // '  C',
+        // ' C ',
+        // 'C  '
+    // ],
+    // {
+        // C: common
+    // })
+    // .noMirror().id(st('topaz_shard_from_common'));
 
     // -- CITRINE SHARD -- //
-    e.shaped('8x ' + sp('citrine_shard'), [
-        'C  ',
-        'C  ',
-        'C  '
-    ],
-    {
-        C: common
-    }).id(st('citrine_shard_from_common'));
+    // e.shaped('8x ' + sp('citrine_shard'), [
+        // 'C  ',
+        // 'C  ',
+        // 'C  '
+    // ],
+    // {
+        // C: common
+    // }).id(st('citrine_shard_from_common'));
 
     e.shaped('16x ' + mc('coal_ore'), [
         'C C',
@@ -289,13 +289,13 @@ ServerEvents.recipes(e => {
     }).id(st('tungsten_ore_from_legendary'));
 
     // -- MOZANITE ORE -- //
-    e.shaped('8x ' + mi('mozanite_ore'), [
+    e.shaped('8x ' + mi('monazite_ore'), [
         'CCC',
         ' C '
     ],
     {
         C: legendary
-    }).id(st('mozanite_ore_from_legendary'));
+    }).id(st('monaziite_ore_from_legendary'));
 
     // -- URANIUM ORE -- //
     e.shaped('8x ' + mi('uranium_ore'), [
@@ -308,24 +308,24 @@ ServerEvents.recipes(e => {
     }).id(st('uranium_ore_from_legendary'));
 
     // -- DESH ORE -- //
-    e.shaped('8x ' + ad('moon_desh_ore'), [
-        'CC ',
-        'C C',
-        'CC '
-    ], 
-    {
-        C: legendary
-    }).id(st('desh_ore_from_legendary'));
+    // e.shaped('8x ' + ad('moon_desh_ore'), [
+        // 'CC ',
+        // 'C C',
+        // 'CC '
+    // ], 
+    // {
+        // C: legendary
+    // }).id(st('desh_ore_from_legendary'));
 
     // -- OSTRUM ORE -- //
-    e.shaped('8x ' + ad('mars_ostrum_ore'), [
-        'CCC',
-        'C C',
-        'CCC'
-    ],
-    {
-        C: legendary
-    }).id('ostrum_ore_from_legendary');
+    // e.shaped('8x ' + ad('mars_ostrum_ore'), [
+        // 'CCC',
+        // 'C C',
+        // 'CCC'
+    // ],
+    // {
+        // C: legendary
+    // }).id('ostrum_ore_from_legendary');
 
     // -------------- //
     //     MYTHIC     //
@@ -340,79 +340,79 @@ ServerEvents.recipes(e => {
         C: mythic
     }).id(st('mending_from_mythic'));
 
-    e.shaped(Item.of(mc('enchanted_book')).enchant('yigd:soulbound', 1), [
-        'C C',
-        '   ',
-        'C C'
-    ],
-    {
-        C: mythic
-    }).id(st('soulbound_from_mythic'));
+    // e.shaped(Item.of(mc('enchanted_book')).enchant('yigd:soulbound', 1), [
+        // 'C C',
+        // '   ',
+        // 'C C'
+    // ],
+    // {
+        // C: mythic
+    // }).id(st('soulbound_from_mythic'));
 
-    e.shaped(Item.of(mc('enchanted_book')).enchant('ad_astra_giselle_addon:space_breathing', 1), [
-        'C C',
-        ' C ',
-        'C C'
-    ],
-    {
-        C: mythic
-    }).id(st('space_breathing_from_mythic'));
+    // e.shaped(Item.of(mc('enchanted_book')).enchant('ad_astra_giselle_addon:space_breathing', 1), [
+        // 'C C',
+        // ' C ',
+        // 'C C'
+    // ],
+    // {
+        // C: mythic
+    // }).id(st('space_breathing_from_mythic'));
 
     // CALORITE ORE
-    e.shaped('8x ' + ad('venus_calorite_ore'), [
-        'CCC',
-        'C  ',
-        'CCC'
-    ],
-    {
-        C: mythic
-    }).id(st('calorite_ore_from_mythic'));
+    // e.shaped('8x ' + ad('venus_calorite_ore'), [
+        // 'CCC',
+        // 'C  ',
+        // 'CCC'
+    // ],
+    // {
+        // C: mythic
+    // }).id(st('calorite_ore_from_mythic'));
 });
 
-ServerEvents.blockLootTables(e => {
-    e.addSimpleBlock('kubejs:desh_ore_sample', 'ad_astra:raw_desh');
-    e.addSimpleBlock('kubejs:ostrum_ore_sample', 'ad_astra:raw_ostrum');
-    e.addSimpleBlock('kubejs:calorite_ore_sample', 'ad_astra:raw_calorite');
-    e.addSimpleBlock('kubejs:ice_ore_sample', 'ad_astra:ice_shard'),
-    e.addSimpleBlock('kubejs:cheese_ore_sample', 'ad_astra:cheese');
-    e.addSimpleBlock('kubejs:pyrite_ore_sample', 'techreborn:pyrite_dust');
-});
+// ServerEvents.blockLootTables(e => {
+    // e.addSimpleBlock('kubejs:desh_ore_sample', 'ad_astra:raw_desh');
+    // e.addSimpleBlock('kubejs:ostrum_ore_sample', 'ad_astra:raw_ostrum');
+    // e.addSimpleBlock('kubejs:calorite_ore_sample', 'ad_astra:raw_calorite');
+    // e.addSimpleBlock('kubejs:ice_ore_sample', 'ad_astra:ice_shard'),
+    // e.addSimpleBlock('kubejs:cheese_ore_sample', 'ad_astra:cheese');
+    // e.addSimpleBlock('kubejs:pyrite_ore_sample', 'techreborn:pyrite_dust');
+// });
 
-ServerEvents.tags('worldgen/biome', e => {
+// ServerEvents.tags('worldgen/biome', e => {
     // -- MOD NAMESPACE UTILITY FUNCTIONS -- // 
-    let ad = (id) => `ad_astra:${id}`;
+    // let ad = (id) => `ad_astra:${id}`;
 
-    e.add(ad('moon'), ad('lunar_wastelands'));
+    // e.add(ad('moon'), ad('lunar_wastelands'));
 
-    const MARS_BIOMES = [
-        ad('martian_canyon_creek'),
-        ad('martian_polar_caps'),
-        ad('martian_wastelands')
-    ];
-    MARS_BIOMES.forEach(id => e.add(ad('mars'), id));
+    // const MARS_BIOMES = [
+        // ad('martian_canyon_creek'),
+        // ad('martian_polar_caps'),
+        // ad('martian_wastelands')
+    // ];
+    // MARS_BIOMES.forEach(id => e.add(ad('mars'), id));
 
-    const VENUS_BIOMES = [
-        ad('venus_wastelands'),
-        ad('infernal_venus_barrens')
-    ];
-    VENUS_BIOMES.forEach(id => e.add(ad('venus'), id));
+    // const VENUS_BIOMES = [
+        // ad('venus_wastelands'),
+        // ad('infernal_venus_barrens')
+    // ];
+    // VENUS_BIOMES.forEach(id => e.add(ad('venus'), id));
 
-    e.add(ad('mercury'), ad('mercury_deltas'));
+    // e.add(ad('mercury'), ad('mercury_deltas'));
 
-    const GLACIO_BIOMES = [
-        ad('glacio_ice_peaks'),
-        ad('glacio_snowy_barrens')
-    ];
-    GLACIO_BIOMES.forEach(id => e.add(ad('glacio'), id));
-});
+    // const GLACIO_BIOMES = [
+        // ad('glacio_ice_peaks'),
+        // ad('glacio_snowy_barrens')
+    // ];
+    // GLACIO_BIOMES.forEach(id => e.add(ad('glacio'), id));
+// });
 
 ServerEvents.tags('item', e => {
     // -- MOD NAMESPACE UTILITY FUNCTIONS -- // 
     let kj = (id) => `kubejs:${id}`;
     let mi = (id) => `modern_industrialization:${id}`;
-    let tr = (id) => `techreborn:${id}`;
-    let as = (id) => `ad_astra:${id}`;
-    let sp = (id) => `spellbladenext:${id}`;
+    // let tr = (id) => `techreborn:${id}`;
+    // let as = (id) => `ad_astra:${id}`;
+    // let sp = (id) => `spellbladenext:${id}`;
 
     const COINS = [
         kj('coin_common'),
@@ -431,9 +431,9 @@ ServerEvents.tags('item', e => {
     CLEAR_ARMOR.forEach(id => e.add(kj('clear_armor'), id));
 
     const COMMON_INGOT_TAG = [
-        as('desh_ingot'),
-        as('ostrum_ingot'),
-        as('calorite_ingot'),
+        // as('desh_ingot'),
+        // as('ostrum_ingot'),
+        // as('calorite_ingot'),
         mi('aluminum_ingot'),
         mi('annealed_copper_ingot'),
         mi('antimony_ingot'),
@@ -466,17 +466,17 @@ ServerEvents.tags('item', e => {
         mi('tungsten_ingot'),
         mi('uranium_ingot'),
         mi('uranium_235_ingot'),
-        mi('uranium_238_ingot'),
-        tr('advanced_alloy_ingot'),
-        tr('brass_ingot'),
-        tr('iridium_alloy_ingot'),
-        tr('mixed_metal_ingot'),
-        tr('refined_iron_ingot'),
-        tr('tungstensteel_ingot'),
-        tr('zinc_ingot'),
-        sp('runeblazing_ingot'),
-        sp('runegleaming_ingot'),
-        sp('runefrosted_ingot')
+        mi('uranium_238_ingot')
+        // tr('advanced_alloy_ingot'),
+        // tr('brass_ingot'),
+        // tr('iridium_alloy_ingot'),
+        // tr('mixed_metal_ingot'),
+        // tr('refined_iron_ingot'),
+        // tr('tungstensteel_ingot'),
+        // tr('zinc_ingot'),
+        // sp('runeblazing_ingot'),
+        // sp('runegleaming_ingot'),
+        // sp('runefrosted_ingot')
     ];
     COMMON_INGOT_TAG.forEach(id => { e.add('c:ingots', id) } );
 })

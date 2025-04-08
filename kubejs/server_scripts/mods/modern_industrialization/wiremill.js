@@ -25,12 +25,12 @@ ServerEvents.recipes(e => {
     }
 
     // -- POLYTETRAFLUOROETHYLENE INGOT -- //
-    wiremill(
-        st('gold_wire'),
-        2,
-        100,
-        [ { amount: 1, item: mi('gold_plate') } ],
-        [ { amount: 2, item: mi('gold_wire')}]
-    );
+    // wiremill(
+        // st('gold_wire'),
+        // 2,
+        // 100,
+        // [ { amount: 1, item: mi('gold_plate') } ],
+        // [ { amount: 2, item: mi('gold_wire')}]
+    // );
 
 });

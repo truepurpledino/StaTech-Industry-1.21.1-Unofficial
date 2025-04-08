@@ -16,13 +16,13 @@ MIMachineEvents.registerMachines(e => {
     // -- MOD NAMESPACE UTILITY FUNCTIONS -- // 
     let mi = (id) => `modern_industrialization:${id}`;
     let mc = (id) => `minecraft:${id}`;
-    let fb = (id) => `factory_blocks:${id}`;
+    // let fb = (id) => `factory_blocks:${id}`;
 
     const greenhouseHatch = e.hatchOf('item_input', 'item_output', 'energy_input', 'fluid_input');
     const steelCasing = e.memberOfBlock(mi('steel_machine_casing'));
     const glass = e.memberOfBlock(mc('glass'));
-    const metalBox = e.memberOfBlock(fb('metalbox'));
-    const rustyScaffold = e.memberOfBlock(fb('rusty_scaffold'));
+    // const metalBox = e.memberOfBlock(fb('metalbox'));
+    // const rustyScaffold = e.memberOfBlock(fb('rusty_scaffold'));
     const glowstone = e.memberOfBlock(mc('glowstone'));
     const grass = e.memberOfBlock(mc('grass_block'));
     const log = e.memberOfBlock(mc('oak_log'));
@@ -40,11 +40,13 @@ MIMachineEvents.registerMachines(e => {
     ])
         .key('S', steelCasing, greenhouseHatch)
         .key('A', grass, e.noHatch())
-        .key('M', metalBox, e.noHatch())
+        // .key('M', metalBox, e.noHatch())
+        .key('M', steelCasing, e.noHatch())
         .key('W', log, e.noHatch())
         .key('G', glass, e.noHatch())
         .key('L', leaves, e.noHatch())
-        .key('R', rustyScaffold, e.noHatch())
+        // .key('R', rustyScaffold, e.noHatch())
+        .key('R', steelCasing, e.noHatch())
         .key('O', glowstone, e.noHatch())
         .key('D', dirt, e.noHatch())
         .build();

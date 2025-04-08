@@ -7,7 +7,7 @@ ServerEvents.recipes(e => {
     // -- MOD NAMESPACE UTILITY FUNCTIONS -- // 
     let st = (id) => `statech:modern_industrialization/blast_furnace/${id}`;
     let mi = (id) => `modern_industrialization:${id}`;
-    let tr = (id) => `techreborn:${id}`;
+    // let tr = (id) => `techreborn:${id}`;
     let kj = (id) => `kubejs:${id}`;
     let mc = (id) => `minecraft:${id}`;
     
@@ -64,24 +64,24 @@ ServerEvents.recipes(e => {
     
     // -- WITHERED BONE -- //
     blastFurnace(
-        st('withered_bone'),
+        st('withered_fragment'),
         16,
         600,
         [ 
             { amount: 16, item: 'minecraft:bone' },
             { amount: 1, item: 'minecraft:blaze_powder' }
         ],
-        [ { amount: 1, item: 'architects_palette:withered_bone' } ]
+        [ { amount: 1, item: 'wstweaks:fragment' } ]
     );
 
     // -- PIZZA -- //
-    blastFurnace(
-        st('pizza'),
-        2,
-        600,
-        [ { amount: 1, item: kj('uncooked_pizza') } ],
-        [ { amount: 1, item: kj('pizza') } ]
-    );
+    // blastFurnace(
+        // st('pizza'),
+        // 2,
+        // 600,
+        // [ { amount: 1, item: kj('uncooked_pizza') } ],
+        // [ { amount: 1, item: kj('pizza') } ]
+    // );
 
     // -- UNCOOKED STEEL DUST -> STEEL INGOT -- //
     blastFurnace(
@@ -113,18 +113,6 @@ ServerEvents.recipes(e => {
         [ { amount: 1000, fluid: mi('molten_enderium') } ]
     );
 
-    // -- REFINED IRON INGOT -> STEEL INGOT -- //
-    blastFurnace(
-        st('steel_ingot_from_refined_iron'),
-        16,
-        100,
-        [
-            { amount: 3, tag: 'c:refined_iron_ingots' },
-            { amount: 1, tag: 'c:carbon_dusts' }
-        ],
-        [ { amount: 4, item: mi('steel_ingot') } ]
-    );
-
     // -- ALUMINUM EBF -- //
     blastFurnace(
         st('aluminum_ingot'),
@@ -134,25 +122,16 @@ ServerEvents.recipes(e => {
         [ { amount: 1, item: mi('aluminum_ingot') } ]
     );
 
-    // -- IRON INGOTS -> HARDENED IRON INGOT -- //
-    blastFurnace(
-        st('hardend_iron_ingot'),
-        16,
-        300,
-        [ { amount: 1, tag: 'c:iron_ingots' }, ],
-        [ { amount: 1, item: 'anim_guns:hardened_iron_ingot' } ]
-    );
-
     // -- TUNGSTEN + STEEL -> HOT TUNGSTENSTEEL -- //
     blastFurnace(
-        st('hot_tungstensteel_ingot'),
+        st('tungstensteel_hot_ingot'),
         128,
         3600,
         [
-            { amount: 1, tag: 'c:tungsten_ingots' },
-            { amount: 1, tag: 'c:steel_ingots' }
+            { amount: 1, tag: 'c:ingots/tungsten' },
+            { amount: 1, tag: 'c:ingots/steel' }
         ],
-        [ { amount: 1, item: tr('hot_tungstensteel_ingot') } ]
+        [ { amount: 1, item: mi('tungstensteel_hot_ingot') } ]
     );
 
     // -- SUPERCONDUCTOR -- //
@@ -160,7 +139,7 @@ ServerEvents.recipes(e => {
         st('superconductor_hot_ingot'),
         512,
         1200,
-        [ { amount: 1, tag: 'c:superconductor_dusts' } ],
+        [ { amount: 1, tag: 'c:dusts/superconductor' } ],
         [ { amount: 1, item: mi('superconductor_hot_ingot') } ],
         [ { amount: 50, fluid: mi('molten_nether_star') } ]
     );

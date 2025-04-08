@@ -1,0 +1,13 @@
+name = "ExtendedAE"
+filename = "ExtendedAE-1.21-2.2.6-neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e7a006f29f5e09254277d290b8be55f9f5b1d335"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6283473
+project-id = 892005

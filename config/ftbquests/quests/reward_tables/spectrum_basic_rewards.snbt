@@ -3,124 +3,45 @@
 	loot_size: 1
 	order_index: 13
 	rewards: [
-		{ count: 16, item: "minecraft:amethyst_shard" }
-		{ count: 16, item: "spectrum:topaz_shard" }
-		{ count: 16, item: "spectrum:citrine_shard" }
-		{ count: 16, item: "spectrum:amethyst_powder" }
-		{ count: 16, item: "spectrum:topaz_powder" }
-		{ count: 16, item: "spectrum:citrine_powder" }
-		{ count: 16, item: "runes:arcane_stone" }
-		{ count: 16, item: "runes:fire_stone" }
-		{ count: 16, item: "runes:frost_stone" }
-		{ count: 8, item: "minecraft:glow_ink_sac" }
-		{
-			item: {
-				Count: 1b
-				id: "spectrum:razor_falchion"
-				tag: {
-					Damage: 0
-					Enchantments: [{
-						id: "minecraft:looting"
-						lvl: 3s
-					}]
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1b
-				id: "spectrum:multitool"
-				tag: {
-					Damage: 0
-					Enchantments: [{
-						id: "minecraft:efficiency"
-						lvl: 1s
-					}]
-				}
-			}
-		}
-		{ count: 4, item: "spectrum:block_placer" }
-		{ count: 8, item: "spectrum:redstone_sand" }
-		{ count: 8, item: "waystones:warp_dust" }
-		{
-			item: {
-				Count: 1b
-				id: "spectrum:oblivion_pickaxe"
-				tag: {
-					Damage: 0
-					Enchantments: [{
-						id: "spectrum:voiding"
-						lvl: 1s
-					}]
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1b
-				id: "spectrum:bottomless_bundle"
-				tag: { }
-			}
-		}
-		{ count: 4, item: "spectrum:vegetal" }
-		{ item: "spectrum:radiance_staff" }
-		{
-			item: {
-				Count: 1b
-				id: "spectrum:lucky_pickaxe"
-				tag: {
-					Damage: 0
-					Enchantments: [{
-						id: "minecraft:fortune"
-						lvl: 3s
-					}]
-				}
-			}
-		}
-		{ item: "spectrum:enchantment_canvas" }
-		{ count: 32, item: "spectrum:polished_calcite" }
-		{ count: 32, item: "spectrum:polished_basalt" }
-		{
-			item: {
-				Count: 1b
-				id: "wizards:wand_arcane"
-				tag: {
-					Damage: 0
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1b
-				id: "wizards:wand_fire"
-				tag: {
-					Damage: 0
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1b
-				id: "wizards:wand_frost"
-				tag: {
-					Damage: 0
-				}
-			}
-		}
-		{ count: 4, item: "spectrum:topaz_basalt_lamp" }
-		{ count: 4, item: "spectrum:amethyst_basalt_lamp" }
-		{ count: 4, item: "spectrum:citrine_basalt_lamp" }
-		{ count: 3, item: "spectrum:topaz_block" }
-		{ count: 3, item: "spectrum:citrine_block" }
-		{ count: 3, item: "minecraft:amethyst_block" }
-		{ count: 8, item: "spectrum:topaz_ore" }
-		{ count: 8, item: "spectrum:amethyst_ore" }
-		{ count: 8, item: "spectrum:citrine_ore" }
-		{ item: "spectrum:private_chest" }
-		{ item: "spectrum:compacting_chest" }
-		{ item: "spectrum:titration_barrel" }
-		{ count: 16, item: "spectrum:glowing_glass" }
+		{ count: 16, id: "7159E15415D3B6FF" }
+		{ count: 16, id: "3AA23C650B2C728C" }
+		{ count: 16, id: "28251C823358B5DE" }
+		{ count: 16, id: "6C7D77E13CF881B2" }
+		{ count: 16, id: "18F7734DD74D49D1" }
+		{ count: 16, id: "6B645A446514435B" }
+		{ count: 16, id: "22D5870E89065B37" }
+		{ count: 16, id: "3EF1418C545644F0" }
+		{ count: 16, id: "5EEA479E0525ABCD" }
+		{ count: 8, id: "2E512618D7CDD42E" }
+		{ id: "2241C7CD903F3C0E", item: { components: { "ftbquests:missing_item": "spectrum:razor_falchion" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "6B047BAA014610F3", item: { components: { "ftbquests:missing_item": "spectrum:multitool" }, count: 1, id: "ftbquests:missing_item" } }
+		{ count: 4, id: "5E9E5396E26A9543" }
+		{ count: 8, id: "119F7DD09C346B03" }
+		{ count: 8, id: "5637E4733B147ABD" }
+		{ id: "52E1FF94E8612A39", item: { components: { "ftbquests:missing_item": "spectrum:oblivion_pickaxe" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "310BD97680B69991", item: { components: { "ftbquests:missing_item": "spectrum:bottomless_bundle" }, count: 1, id: "ftbquests:missing_item" } }
+		{ count: 4, id: "4D94D2B363E0A4AB" }
+		{ id: "296FF653B3EFEE92" }
+		{ id: "52FAE95BEFDFB717", item: { components: { "ftbquests:missing_item": "spectrum:lucky_pickaxe" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "5F3D635D15BE49E1" }
+		{ count: 32, id: "6674FF1EAC2BDA9C" }
+		{ count: 32, id: "7D72D1D3C4A73035" }
+		{ id: "457EB920EF2A03B8", item: { components: { "ftbquests:missing_item": "wizards:wand_arcane" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "6A2CFCD69FF8A89A", item: { components: { "ftbquests:missing_item": "wizards:wand_fire" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "20D663F21D8764C5", item: { components: { "ftbquests:missing_item": "wizards:wand_frost" }, count: 1, id: "ftbquests:missing_item" } }
+		{ count: 4, id: "5314F811245E2048" }
+		{ count: 4, id: "467DD54EE7BC507A" }
+		{ count: 4, id: "4F2BF2A1DF7655E8" }
+		{ count: 3, id: "1A71E2A3F6037FFE" }
+		{ count: 3, id: "1D437A1B7DC949F8" }
+		{ count: 3, id: "0F37762A595D8720" }
+		{ count: 8, id: "6C653830C743F945" }
+		{ count: 8, id: "2692CA498FE6FBFF" }
+		{ count: 8, id: "51659234B17349E1" }
+		{ id: "28F930923D49D282" }
+		{ id: "76C6406F2860FE3E" }
+		{ id: "499645FC17237A54" }
+		{ count: 16, id: "74B38FED7811E323" }
 	]
-	title: "Spectrum Basic Rewards"
 	use_title: true
 }

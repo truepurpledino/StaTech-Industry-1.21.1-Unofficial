@@ -3,7 +3,6 @@
 // STATECH INDUSTRY
 // -----------------------------------------
 
-MIMachineEvents.registerCasings(e => {
-    e.register('calorite_machine_casing');
-    e.register('ptfe_machine_casing');
+MIMachineEvents.registerCasings(event => {
+    event.registerNamed("ptfe_machine_casing", "Polytetrafluoroethylene Machine Casing");
 });

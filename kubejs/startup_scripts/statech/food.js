@@ -13,7 +13,7 @@ StartupEvents.registry('item', e => {
         .tooltip('§6A tasty snack for a hard working industrialist')
         .food(f => {
             f
-            .hunger(6)
+            .nutrition(6)
             .saturation(0.6);
         });
     
@@ -23,7 +23,7 @@ StartupEvents.registry('item', e => {
         .tooltip('§eUnleash the Greg')
         .food(f => {
             f
-            .hunger(6)
+            .nutrition(6)
             .saturation(0.4)
             .effect('speed', 60 * 20, 0, 1);
         })
@@ -33,7 +33,7 @@ StartupEvents.registry('item', e => {
         .displayName('Bottle of Sulfuric Acid')
         .food(f => {
             f
-            .hunger(3)
+            .nutrition(3)
             .saturation(0.2)
             .effect('poison', 200, 0, 1);
         })
@@ -45,7 +45,7 @@ StartupEvents.registry('item', e => {
         .tooltip('§3Part of a §obalanced§r§3 diet')
         .food(f => {
             f
-            .hunger(14)
+            .nutrition(14)
             .saturation(0.5)
             .effect('regeneration', 200, 0, 1);
         });
@@ -58,7 +58,7 @@ StartupEvents.registry('item', e => {
         .maxStackSize(1)
         .food(f => {
             f
-            .hunger(20)
+            .nutrition(20)
             .saturation(0.5)
         });
 
@@ -66,9 +66,9 @@ StartupEvents.registry('item', e => {
         .displayName('Pizza Dough')
         .food(f => {
             f
-            .hunger(2)
+            .nutrition(2)
             .saturation(0.4)
-            .effect('hunger', 200, 0, 1)
+            .effect('nutrition', 200, 0, 1)
         });
     
     e.create('uncooked_pizza').displayName('Uncooked Pizza');
@@ -78,14 +78,14 @@ StartupEvents.registry('item', e => {
         .displayName('Pizza Slice')
         .food(f => {
             f
-            .hunger(8)
+            .nutrition(8)
             .saturation(0.6);
         });
     e.create('pineapple_pizza_slice')
         .displayName('Pineapple Pizza Slice')
         .food(f => {
             f
-            .hunger(10)
+            .nutrition(10)
             .saturation(0.6);
         });
     
@@ -95,14 +95,14 @@ StartupEvents.registry('item', e => {
         .displayName('Concrete Pizza Slice')
         .food(f => {
             f
-            .hunger(12)
+            .nutrition(12)
             .saturation(0.5);
         });
     e.create('concrete_pineapple_pizza_slice')
         .displayName('Concrete Pineapple Pizza Slice')
         .food(f => {
             f
-            .hunger(16)
+            .nutrition(16)
             .saturation(0.6);
         });
     
@@ -110,7 +110,7 @@ StartupEvents.registry('item', e => {
         .displayName('Can of Bepsi')
         .food(f => {
             f
-            .hunger(6)
+            .nutrition(6)
             .saturation(0.4)
         })
         .useAnimation('drink');
@@ -119,7 +119,7 @@ StartupEvents.registry('item', e => {
         .displayName('Coke-a Coal-a')
         .food(f => {
             f
-            .hunger(10)
+            .nutrition(10)
             .saturation(0.5)
         })
         .useAnimation('drink');
@@ -128,7 +128,7 @@ StartupEvents.registry('item', e => {
         .displayName('Greg Cola')
         .food(f => {
             f
-            .hunger(6)
+            .nutrition(6)
             .saturation(0.5)
         })
         .useAnimation('drink');
@@ -143,7 +143,7 @@ StartupEvents.registry('item', e => {
         .displayName('Nuka Cola')
         .food(f => {
             f
-            .hunger(16)
+            .nutrition(16)
             .saturation(0.5)
         })
         .useAnimation('drink');
@@ -152,7 +152,7 @@ StartupEvents.registry('item', e => {
         .displayName('Missing Texture Cookie')
         .food(f => {
             f
-            .hunger(30)
+            .nutrition(30)
             .saturation(0.7)
         });
 });

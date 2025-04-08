@@ -1,3 +1,4 @@
 {
-  "serverOnly": false
+  "server_only": false,
+  "world_gen_unification": false
 }
