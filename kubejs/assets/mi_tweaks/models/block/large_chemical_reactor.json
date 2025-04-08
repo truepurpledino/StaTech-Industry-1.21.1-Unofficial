@@ -1,9 +1,9 @@
 {
-    "casing": "modern_industrialization:ptfe_machine_casing",
+    "casing": "modern_industrialization:chemically_inert_ptfe_casing",
     "default_overlays": {
         "fluid_auto": "modern_industrialization:block/overlays/fluid_auto",
-        "front": "mi_tweaks:block/machines/chemical_reactor/overlay_front",
-        "front_active": "mi_tweaks:block/machines/chemical_reactor/overlay_front_active",
+        "front": "modern_industrialization:block/machines/chemical_reactor/overlay_front",
+        "front_active": "modern_industrialization:block/machines/chemical_reactor/overlay_front_active",
         "item_auto": "modern_industrialization:block/overlays/item_auto",
         "output": "modern_industrialization:block/overlays/output"
     },
