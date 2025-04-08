@@ -1,3 +1,7 @@
+# StaTech-Industry-1.21.1-Unofficial
+This is a fork of [Statech Industry](https://github.com/TheStaticVoid/StaTech-Industry) that is made in the goal of porting most of the base pack to 1.21.1 and replacing some features by the use of modern MI addons such as Extended Industrialization and MI Tweaks. It is not the official port nor is it related to the 2.0 update of Statech Industry.
+
+Original description:
 # StaTech-Industry
 Minecraft 1.19.2 modpack focused on Modern Industrializations. Join us on [Discord](https://discord.gg/RDaJEnN3uS). Click [here](https://github.com/TheStaticVoid/StaTech-Industry/blob/main/MODLIST.md) for a full list of mods.
 
