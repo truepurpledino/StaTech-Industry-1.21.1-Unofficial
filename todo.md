@@ -20,3 +20,4 @@
 - [ ] Rebalance MI upgrades
 - [ ] Replace He3-He3 Fusion Reactor recipe to avoid conflicts
 - [ ] Add back Moon Ice centrifuging recipe from dust for He3
+- [ ] Adapt recipes for Banks and Tanks
