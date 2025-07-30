@@ -1,0 +1,94 @@
+{
+  "values": {
+    "modern_industrialization:calorite_gear": {
+      "components": [
+        {
+          "color": "#A9A9A9",
+          "italic": false,
+          "translate": "text.modern_industrialization.HasBetterYieldAssemblerRecipe"
+        }
+      ]
+    },
+    "modern_industrialization:capacitor": {
+      "components": [
+        {
+          "color": "#A9A9A9",
+          "italic": false,
+          "translate": "text.modern_industrialization.HasBetterYieldAssemblerRecipe"
+        }
+      ]
+    },
+    "modern_industrialization:desh_gear": {
+      "components": [
+        {
+          "color": "#A9A9A9",
+          "italic": false,
+          "translate": "text.modern_industrialization.HasBetterYieldAssemblerRecipe"
+        }
+      ]
+    },
+    "modern_industrialization:enderium_gear": {
+      "components": [
+        {
+          "color": "#A9A9A9",
+          "italic": false,
+          "translate": "text.modern_industrialization.HasBetterYieldAssemblerRecipe"
+        }
+      ]
+    },
+    "modern_industrialization:inductor": {
+      "components": [
+        {
+          "color": "#A9A9A9",
+          "italic": false,
+          "translate": "text.modern_industrialization.HasBetterYieldAssemblerRecipe"
+        }
+      ]
+    },
+    "modern_industrialization:ostrum_gear": {
+      "components": [
+        {
+          "color": "#A9A9A9",
+          "italic": false,
+          "translate": "text.modern_industrialization.HasBetterYieldAssemblerRecipe"
+        }
+      ]
+    },
+    "modern_industrialization:polytetrafluoroethylene_gear": {
+      "components": [
+        {
+          "color": "#A9A9A9",
+          "italic": false,
+          "translate": "text.modern_industrialization.HasBetterYieldAssemblerRecipe"
+        }
+      ]
+    },
+    "modern_industrialization:resistor": {
+      "components": [
+        {
+          "color": "#A9A9A9",
+          "italic": false,
+          "translate": "text.modern_industrialization.HasBetterYieldAssemblerRecipe"
+        }
+      ]
+    },
+    "modern_industrialization:tungstensteel_gear": {
+      "components": [
+        {
+          "color": "#A9A9A9",
+          "italic": false,
+          "translate": "text.modern_industrialization.HasBetterYieldAssemblerRecipe"
+        }
+      ]
+    },
+    "modern_industrialization:zinc_gear": {
+      "components": [
+        {
+          "color": "#A9A9A9",
+          "italic": false,
+          "translate": "text.modern_industrialization.HasBetterYieldAssemblerRecipe"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,13 @@
+name = "No Man's Land"
+filename = "nomansland-1.3.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1a7538580c2fa39437e46c32cc1dca1b36de7125"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6765541
+project-id = 538493

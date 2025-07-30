@@ -1,0 +1,13 @@
+name = "Omni Utils"
+filename = "omni_util-1.0.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c6f0c71127aa056d85dbe471493e985470829530"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6425785
+project-id = 1206030

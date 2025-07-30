@@ -1,0 +1,13 @@
+name = "Databank"
+filename = "databank-1.1.10.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "558359139ad5f19bb9d4af96ecbab5869df5be3e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6804897
+project-id = 1181408

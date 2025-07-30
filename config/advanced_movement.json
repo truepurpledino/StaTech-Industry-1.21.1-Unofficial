@@ -1,0 +1,12 @@
+{
+  "enableStrafing": true,
+  "manualJump": false,
+  "gravity": 0.08,
+  "friction": 0.5,
+  "accelerate": 0.1,
+  "airaccelerate": 0.2,
+  "maxairspeed": 0.1,
+  "airspeedcutoff": 0.2,
+  "maxSpeedMul": 2.2,
+  "compatibilityMode": true
+}

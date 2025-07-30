@@ -1,0 +1,13 @@
+name = "Crafting Recipe Exporter"
+filename = "craftingrecipeexporter-1.21.1-NeoForge-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "dd220b41833ecd917d46f6d79e55fdfc28fbccdf"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6509385
+project-id = 1194641

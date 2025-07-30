@@ -1,0 +1,13 @@
+name = "Statech Industry 1.21.1 Unofficial"
+author = "Static Void"
+version = "0.0.1"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "752001149ff81277271950fc79c4f493c9b3010aa8e026f8e6ef8f635b4d0a47"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.196"

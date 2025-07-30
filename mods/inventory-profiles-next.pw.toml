@@ -1,0 +1,13 @@
+name = "Inventory Profiles Next"
+filename = "InventoryProfilesNext-neoforge-1.21-2.1.10.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a8731ce04b73451af3a2b4043c6d24ae43e677c3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6768034
+project-id = 495267
