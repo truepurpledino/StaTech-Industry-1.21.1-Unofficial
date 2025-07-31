@@ -1,5 +1,6 @@
 ## To do list
-- [ ] Adapt macerator, EBF and vacuum freezer recipes in [runtime_parts_recipes.js](https://github.com/truepurpledino/StaTech-Industry/blob/1.21.1-unofficial/kubejs/server_scripts/mods/modern_industrialization/runtime_parts_recipes.js)
+- [ ] Adapt EBF and vacuum freezer recipes in [runtime_parts_recipes.js](https://github.com/truepurpledino/StaTech-Industry/blob/1.21.1-unofficial/kubejs/server_scripts/mods/modern_industrialization/runtime_parts_recipes.js)
+- [ ] Reinstate runtime generated recipes with the .hardness() parameter
 - [ ] Adapt recipes for Extended AE
 - [ ] Adapt recipes for Cognition and verify fit in pack
 - [ ] Verify and adapt all AE2 recipes
