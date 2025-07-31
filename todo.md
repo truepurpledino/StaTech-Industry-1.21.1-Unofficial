@@ -22,3 +22,4 @@
 - [ ] Add back Moon Ice centrifuging recipe from dust for He3
 - [ ] Adapt recipes for Banks and Tanks
 - [ ] Remove Sophisticated backpacks stuff from loot tables
+- [ ] Adapt recipes so trial chambers can't be turned into copper
