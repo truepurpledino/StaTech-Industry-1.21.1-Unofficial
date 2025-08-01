@@ -1,5 +1,6 @@
 {
     "ModSettings": {
+        "sort_order": "ITEM_NAME",
         "highlight_foused_items": {
             "value": false
         },
@@ -14,9 +15,6 @@
     "LockedSlotsSettings": {
         "lock_slots_disable_user_interaction": {
             "value": true
-        },
-        "locked_slots_empty_hotbar_as_semi_locked": {
-            "value": false
         }
     },
     "AutoRefillSettings": {
@@ -33,6 +31,16 @@
         "sort_inventory": {
             "main": {
                 "keys": "BUTTON_3"
+            }
+        },
+        "scroll_to_chest": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "scroll_to_inventory": {
+            "main": {
+                "keys": ""
             }
         }
     }
