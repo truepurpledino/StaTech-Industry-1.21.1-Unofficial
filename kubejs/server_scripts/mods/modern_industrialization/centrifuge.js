@@ -62,15 +62,15 @@ ServerEvents.recipes(e => {
     );
 
     // -- ICE SHARD -- //
-    // centrifuge(
-        // st('ice_shard'),
-        // 32,
-        // 300,
-        // [ { amount: 8, item: ad('ice_shard') } ],
-        // null,
-        // null,
-        // [ { amount: 100, fluid: mi('helium_3') } ]
-    // );
+    centrifuge(
+        st('ice_shard'),
+        32,
+        300,
+        [ { amount: 8, item: mi('moon_ice_dust') } ],
+        null,
+        null,
+        [ { amount: 100, fluid: mi('helium_3') } ]
+    );
 
     // -- LAVA -- //
     centrifuge(
@@ -144,34 +144,34 @@ ServerEvents.recipes(e => {
     // );
 
     // -- DARK ASHES -- //
-    // centrifuge(
-        // st('dark_ashes_dust'),
-        // 8,
-        // 1200,
-        // [ { amount: 2, item: tr('dark_ashes_dust') } ],
-        // [ { amount: 1, item: tr('ashes_dust') } ]
-    // );
+    centrifuge(
+        st('dark_ashes_dust'),
+        8,
+        400,
+        [ { amount: 2, item: mi('dark_ashes_dust') } ],
+        [ { amount: 3, item: 'supplementaries:ash' } ]
+    );
 
     // -- ASHES -- //
-    // centrifuge(
-        // st('ashes_dust'),
-        // 12,
-        // 320,
-        // [ { amount: 3, item: tr('ashes_dust') } ],
-        // [ { amount: 2, item: mi('carbon_dust') } ]
-    // );
+    centrifuge(
+        st('ashes_dust'),
+        8,
+        400,
+        [ { amount: 3, item: 'supplementaries:ash' } ],
+        [ { amount: 2, item: mi('carbon_dust') } ]
+    );
 
     // -- TUFF -- //
-    // centrifuge(
-        // st('tuff'),
-        // 8,
-        // 300,
-        // [ { amount: 16, item: mc('tuff') } ],
-        // [
-            // { amount: 18, item: tr('dark_ashes_dust') },
-            // { amount: 12, item: tr('ashes_dust') }
-        // ]
-    // );
+    centrifuge(
+        st('tuff_dust'),
+        8,
+        300,
+        [ { amount: 16, item: mi('tuff_dust') } ],
+        [
+            { amount: 18, item: mi('dark_ashes_dust') },
+            { amount: 12, item: 'supplementaries:ash' }
+        ]
+    );
 
     // -- GALENA DUST -- //
     // centrifuge(

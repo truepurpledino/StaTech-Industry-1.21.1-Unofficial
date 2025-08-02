@@ -15,6 +15,7 @@ ServerEvents.recipes(e => {
     // let bl = (id) => `blockus:${id}`;
     // let ge = (id) => `geodes:${id}`;
     let ae2 = (id) => `ae2:${id}`;
+    let eae = (id) => `extendedae:${id}`;
     // let byg = (id) => `byg:${id}`;
 
     // -- CUSTOM RECIPE UTILITY FUNCTION -- //
@@ -103,13 +104,13 @@ ServerEvents.recipes(e => {
     // );
 
     // -- CALCITE DUST FROM CALCITE -- //
-    // macerator(
-        // st('calcite_dust_from_calcite'),
-        // 8,
-        // 100,
-        // [ { amount: 1, item: mc('calcite') } ],
-        // [ { amount: 2, item: tr('calcite_dust') } ]   
-    // );
+    macerator(
+        st('calcite_dust_from_calcite'),
+        8,
+        100,
+        [ { amount: 1, item: mc('calcite') } ],
+        [ { amount: 2, item: mi('calcite_dust') } ]   
+    );
 
     // -- RAW PLATINUM FROM SHELDONITE ORE -- //
     // macerator(
@@ -121,13 +122,13 @@ ServerEvents.recipes(e => {
     // );
 
     // -- OBSIDIAN -- //
-    // macerator(
-        // st('obsidian_dust'),
-        // 8,
-        // 1200,
-        // [ { amount: 1, item: mc('obsidian') } ],
-        // [ { amount: 4, item: tr('obsidian_dust') } ]
-    // );
+    macerator(
+        st('obsidian_dust'),
+        8,
+        1200,
+        [ { amount: 1, item: mc('obsidian') } ],
+        [ { amount: 4, item: cr('powdered_obsidian') } ]
+    );
 
     // -- RAW ZINC -- //
     macerator(
@@ -169,6 +170,15 @@ ServerEvents.recipes(e => {
         200,
         [ { amount: 1, item: mc('stone') } ],
         [ { amount: 4, item: mi('stone_dust') } ]
+    );
+
+       // -- TUFF DUST -- //
+    macerator(
+        st('tuff_dust'),
+        2,
+        100,
+        [ { amount: 1, item: mc('tuff') } ],
+        [ { amount: 4, item: mi('tuff_dust') } ]
     );
 
     // -- PASTEL POWDERS -- //
@@ -255,16 +265,16 @@ ServerEvents.recipes(e => {
     // );
 
     // -- ZINC DUST ROM ASURINE -- //
-/*     macerator(
+    macerator(
         st('zinc_dust_from_asurine'),
         2,
         200,
         [ { amount: 1, item: cr('asurine') } ],
         [ 
-            { amount: 1, item: tr('zinc_dust') },
-            { amount: 1, item: tr('zinc_dust'), probability: 0.5 }
+            { amount: 1, item: mi('zinc_dust') },
+            { amount: 1, item: mi('zinc_dust'), probability: 0.5 }
         ]
-    ); */
+    ); 
 
     // -- GOLD DUST FROM OCHRUM -- //
     macerator(
@@ -291,16 +301,16 @@ ServerEvents.recipes(e => {
     );
 
     // -- QUARTZ DUST FROM RAW QUARTZ BLOCK -- //
-    // macerator(
-        // st('quartz_dust_from_quartz_block'),
-        // 2,
-        // 200,
-        // [ { amount: 1, item: 'byg:raw_quartz_block' } ],
-        // [
-            // { amount: 1, item: mi('quartz_dust') },
-            // { amount: 1, item: mi('quartz_dust'), probability: 0.5 }
-        // ]
-    // );
+    macerator(
+        st('quartz_dust_from_quartzite'),
+        2,
+        400,
+        [ { amount: 3, item: 'nomansland:quartzite' } ],
+        [
+            { amount: 2, item: mi('quartz_dust') },
+            { amount: 4, item: mi('calcite_dust') }
+        ]
+    );
 
     const COLORS = [
         'orange',

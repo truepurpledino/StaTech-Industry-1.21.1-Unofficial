@@ -16,11 +16,11 @@ ServerEvents.recipes(e => {
     // let ed = (id) => `expandeddelight:${id}`;
     // let pr = (id) => `promenade:${id}`;
     // let tr = (id) => `techreborn:${id}`;
-    // let sp = (id) => `spectrum:${id}`;
+    let pa = (id) => `pastel:${id}`;
     // let tf = (id) => `twilightforest:${id}`;
 
     // -- CUSTOM RECIPE UTILITY FUNCTION -- //
-    let greenhouse = (id, eu, duration, item_inputs, fluid_inputs, item_outputs) => {
+    let greenhouse = (id, eu, duration, item_inputs, fluid_inputs, item_outputs, adjacentBlock) => {
         let newRecipe = {
             type: mi('greenhouse'),
             eu: eu,
@@ -33,7 +33,14 @@ ServerEvents.recipes(e => {
             newRecipe['item_outputs'] = item_outputs;
         if (fluid_inputs)
             newRecipe['fluid_inputs'] = fluid_inputs;
-
+        if (adjacentBlock) 
+            newRecipe['process_conditions'] = [
+                {
+                    type: "modern_industrialization:adjacent_block",
+                    block: adjacentBlock,
+                    position: "below"
+                }
+            ];
         e.custom(newRecipe).id(id);
     }
     // This is all the saplings in the game with their corresponding logs and leaves
@@ -118,22 +125,6 @@ ServerEvents.recipes(e => {
         // [ pr('white_cherry_oak_sapling'),       pr('cherry_oak_log'),           pr('white_cherry_oak_leaves'),          mc('water') ],
         // [ pr('palm_sapling'),                   pr('palm_log'),                 pr('palm_leaves'),                      mc('water') ],
         // [ tr('rubber_sapling'),                 tr('rubber_log'),               tr('rubber_leaves'),                    mc('water') ],
-        // [ sp('orange_sapling'),                 sp('orange_log'),               sp('orange_leaves'),                    mc('water') ],
-        // [ sp('magenta_sapling'),                sp('magenta_log'),              sp('magenta_leaves'),                   mc('water') ],
-        // [ sp('light_blue_sapling'),             sp('light_blue_log'),           sp('light_blue_leaves'),                mc('water') ],
-        // [ sp('yellow_sapling'),                 sp('yellow_log'),               sp('yellow_leaves'),                    mc('water') ],
-        // [ sp('lime_sapling'),                   sp('lime_log'),                 sp('lime_leaves'),                      mc('water') ],
-        // [ sp('pink_sapling'),                   sp('pink_log'),                 sp('pink_leaves'),                      mc('water') ],
-        // [ sp('cyan_sapling'),                   sp('cyan_log'),                 sp('cyan_leaves'),                      mc('water') ],
-        // [ sp('purple_sapling'),                 sp('purple_log'),               sp('purple_leaves'),                    mc('water') ],
-        // [ sp('blue_sapling'),                   sp('blue_log'),                 sp('blue_leaves'),                      mc('water') ],
-        // [ sp('brown_sapling'),                  sp('brown_log'),                sp('brown_leaves'),                     mc('water') ],
-        // [ sp('green_sapling'),                  sp('green_log'),                sp('green_leaves'),                     mc('water') ],
-        // [ sp('red_sapling'),                    sp('red_log'),                  sp('red_leaves'),                       mc('water') ],
-        // [ sp('black_sapling'),                  sp('black_log'),                sp('black_leaves'),                     mc('water') ],
-        // [ sp('white_sapling'),                  sp('white_log'),                sp('white_leaves'),                     mc('water') ],
-        // [ sp('gray_sapling'),                   sp('gray_log'),                 sp('gray_leaves'),                      mc('water') ],
-        // [ sp('light_gray_sapling'),             sp('light_gray_log'),           sp('light_gray_leaves'),                mc('water') ],
         // [ tf('twilight_oak_sapling'),           tf('twilight_oak_log'),         tf('twilight_oak_leaves'),              mc('water') ],
         // [ tf('canopy_sapling'),                 tf('canopy_log'),               tf('canopy_leaves'),                    mc('water') ],
         // [ tf('mangrove_sapling'),               tf('mangrove_root'),            tf('mangrove_leaves'),                  mc('water') ],
@@ -145,6 +136,25 @@ ServerEvents.recipes(e => {
         // [ tf('sorting_sapling'),                tf('sorting_log'),              tf('sorting_leaves'),                   mc('water') ],
         // [ tf('rainbow_oak_sapling'),            tf('twilight_oak_log'),         tf('rainbow_oak_leaves'),               mc('water') ]
     ];
+
+    const pastelSaplingList = [
+        [ pa('orange_sapling'),                 pa('orange_log'),               pa('orange_leaves'),                    mc('water') ],
+        [ pa('magenta_sapling'),                pa('magenta_log'),              pa('magenta_leaves'),                   mc('water') ],
+        [ pa('light_blue_sapling'),             pa('light_blue_log'),           pa('light_blue_leaves'),                mc('water') ],
+        [ pa('yellow_sapling'),                 pa('yellow_log'),               pa('yellow_leaves'),                    mc('water') ],
+        [ pa('lime_sapling'),                   pa('lime_log'),                 pa('lime_leaves'),                      mc('water') ],
+        [ pa('pink_sapling'),                   pa('pink_log'),                 pa('pink_leaves'),                      mc('water') ],
+        [ pa('cyan_sapling'),                   pa('cyan_log'),                 pa('cyan_leaves'),                      mc('water') ],
+        [ pa('purple_sapling'),                 pa('purple_log'),               pa('purple_leaves'),                    mc('water') ],
+        [ pa('blue_sapling'),                   pa('blue_log'),                 pa('blue_leaves'),                      mc('water') ],
+        [ pa('brown_sapling'),                  pa('brown_log'),                pa('brown_leaves'),                     mc('water') ],
+        [ pa('green_sapling'),                  pa('green_log'),                pa('green_leaves'),                     mc('water') ],
+        [ pa('red_sapling'),                    pa('red_log'),                  pa('red_leaves'),                       mc('water') ],
+        [ pa('black_sapling'),                  pa('black_log'),                pa('black_leaves'),                     mc('water') ],
+        [ pa('white_sapling'),                  pa('white_log'),                pa('white_leaves'),                     mc('water') ],
+        [ pa('gray_sapling'),                   pa('gray_log'),                 pa('gray_leaves'),                      mc('water') ],
+        [ pa('light_gray_sapling'),             pa('light_gray_log'),           pa('light_gray_leaves'),                mc('water') ]
+    ]
 
     // For every sapling, add a regular and bone meal variant of the recipe
     saplingLogList.forEach( woodType => {
@@ -183,6 +193,46 @@ ServerEvents.recipes(e => {
                 { amount: 32, item: leaves },
                 { amount: 1, item: sapling }
             ]
+        );
+    });
+    pastelSaplingList.forEach( woodType => {
+        let sapling = woodType[0];
+        let log = woodType[1];
+        let leaves = woodType[2];
+        let fluid = woodType[3];
+        let id = `${log.split(':')[1]}_from_${sapling.split(':')[1]}`;
+
+        // Fixes duplicate ID issue between the two palm logs
+        // if (log.split(':')[1] == 'palm_log' && log.split(':')[0] == 'byg')
+            // id += '_byg';
+            
+        greenhouse(
+            st(id),
+            8,
+            1200,
+            [ { amount: 1, item: sapling, probability: 0.0 } ],
+            [ { amount: 100, fluid: fluid } ],
+            [
+                { amount: 8, item: log },
+                { amount: 16, item: leaves },
+                { amount: 1, item: sapling, probability: 0.5 },
+            ],
+            "pastel:polished_onyx_block"
+        );
+
+        fluid = mi(`nutrient_rich_${fluid.split(':')[1]}`);
+        greenhouse(
+            st(`${id}_bonemeal`),
+            8,
+            1200,
+            [ { amount: 1, item: sapling, probability: 0.0 } ],
+            [ { amount: 100, fluid: fluid } ],
+            [
+                { amount: 16, item: log },
+                { amount: 32, item: leaves },
+                { amount: 1, item: sapling }
+            ],
+            "pastel:polished_onyx_block"
         );
     });
 });

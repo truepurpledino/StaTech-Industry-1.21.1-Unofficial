@@ -1069,7 +1069,56 @@ ServerEvents.recipes(e => {
         ]
     );
 
+    //-----------------//
+    // -- SPACE AGE -- //
+    //-----------------//
+
+    // -- TIERED SPACE PROBE -- //
+    assembler(
+        st('basic_space_probe'),
+        8,
+        200,
+        [
+            { amount: 2, tag: 'c:gears/steel' },
+            { amount: 2, item: mi('electrum_cable') },
+            { amount: 1, item: kj('steel_fuel_tank') },
+            { amount: 2, item: kj('rocket_fin') },
+            { amount: 1, item: mi('aluminum_drill') },
+            { amount: 1, tag: 'modern_industrialization:item_pipes' }
+        ],
+        [ { amount: 4, item: kj('basic_space_probe') } ],
+    );
+
+    assembler(
+        st('advanced_space_probe'),
+        8,
+        200,
+        [
+            { amount: 2, tag: 'c:gears/desh' },
+            { amount: 2, item: mi('aluminum_cable') },
+            { amount: 1, item: kj('desh_fuel_tank') },
+            { amount: 2, item: kj('rocket_fin') },
+            { amount: 1, item: mi('stainless_steel_drill') },
+            { amount: 1, tag: 'modern_industrialization:item_pipes' }
+        ],
+        [ { amount: 4, item: kj('advanced_space_probe') } ],
+    );
         
+    assembler(
+        st('highly_advanced_space_probe'),
+        8,
+        200,
+        [
+            { amount: 2, tag: 'c:gears/ostrum' },
+            { amount: 2, item: mi('annealed_copper_cable') },
+            { amount: 1, item: kj('ostrum_fuel_tank') },
+            { amount: 2, item: kj('rocket_fin') },
+            { amount: 1, item: mi('titanium_drill') },
+            { amount: 1, tag: 'modern_industrialization:item_pipes' }
+        ],
+        [ { amount: 4, item: kj('highly_advanced_space_probe') } ],
+    );
+    
     // -- ENERGY FLOW CHIP -- //
     // assembler(
         // st('energy_flow_chip'),

@@ -16,7 +16,6 @@ ServerEvents.recipes(e => {
     const DELETED_RECIPE = [
         mi('materials/diamond/compressor/main'),
         mi('materials/emerald/compressor/main'),
-        mi('materials/tungstensteel/compressor/main'),
         // mi('compat/techreborn/compressor/_c_zinc_ingots_to_techreborn_zinc_plate'),
         // mi('compressor/calorite_ingot_to_plate'),
         mi('vanilla_recipes/compressor/paper_with_sugarcane'),

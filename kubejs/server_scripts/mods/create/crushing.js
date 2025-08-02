@@ -17,9 +17,23 @@ ServerEvents.recipes(e => {
         cr('crushing/raw_uranium_block'),
         cr('crushing/raw_platinum_block'),
         cr('crushing/uranium_ore'),
-        cr('crushing/platinum_ore'),
+        cr('crushing/platinum_ore')
     ];
     REMOVED_RECIPES.forEach(id => e.remove({id: id}));
+
+    const REMOVED_CRUSHED = [
+        cr('crushed_raw_platinum'),
+        cr('crushed_raw_iron'),
+        cr('crushed_raw_gold'),
+        cr('crushed_raw_copper'),
+        cr('crushed_raw_zinc'),
+        cr('crushed_raw_tin'),
+        cr('crushed_raw_lead'),
+        cr('crushed_raw_nickel'),
+        cr('crushed_raw_silver'),
+        cr('crushed_raw_uranium')
+    ];
+    REMOVED_CRUSHED.forEach(output => e.remove({output: output}));
 
     // -- CUSTOM RECIPE UTILITY FUNCTION -- //
     let crushing = (id, duration, item_inputs, item_outputs) => {

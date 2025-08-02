@@ -8,7 +8,7 @@ ServerEvents.recipes(e => {
     let st = (id) => `statech:modern_industrialization/mixer/${id}`;
     let mi = (id) => `modern_industrialization:${id}`;
     let mc = (id) => `minecraft:${id}`;
-    // let xp = (id) => `xps:${id}`;
+    let xp = (id) => `cognition:${id}`;
     let ae = (id) => `ae2:${id}`;
     // let tr = (id) => `techreborn:${id}`;
     let cr = (id) => `create:${id}`;
@@ -124,15 +124,15 @@ ServerEvents.recipes(e => {
     // );
 
     // -- LIQUID EXPERIENCE -- //
-    // mixer(
-        // st('xp_fluid'),
-        // 8,
-        // 200,
-        // [ { amount: 3, item: cr('experience_nugget') } ],
-        // null,
-        // null,
-        // [ { amount: 90, fluid: xp('xp_fluid') } ]
-    // );
+    mixer(
+        st('xp_fluid'),
+        8,
+        200,
+        [ { amount: 3, item: cr('experience_nugget') } ],
+        null,
+        null,
+        [ { amount: 90, fluid: xp('cognitium_source') } ]
+    ); 
 
     // -- STATECH ENERGY -- //
     // mixer(
@@ -264,17 +264,18 @@ ServerEvents.recipes(e => {
         [ { amount: 1000, fluid: mi('liquid_ender') } ]
     );
     
-    // -- SOULCOPPER BLEND -- //
-    // mixer(
-        // st('soul_copper_blend'),
-        // 2,
-        // 100,
-        // [
-            // { amount: 1, item: mc('raw_copper') },
-            // { amount: 1, item: mc('soul_sand') }
-        // ],
-        // [ { amount: 4, item: xp('soul_copper_blend') } ]
-    // );    
+    // -- COGNITIVE FLUX -- //
+    mixer(
+        st('cognitive_flux'),
+        2,
+        100,
+        [
+            { amount: 1, tag: 'c:dusts/lapis' },
+            { amount: 1, tag: 'c:dusts/quartz' },
+            { amount: 1, tag: 'minecraft:soul_fire_base_blocks' }
+        ],
+        [ { amount: 4, item: xp('cognitive_flux') } ]
+    ); 
 
     // -- CERTUS QUARTS CRYSTAL -- //
     mixer(

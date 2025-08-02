@@ -9,8 +9,8 @@ ServerEvents.recipes(e => {
     let mi = (id) => `modern_industrialization:${id}`;
     let kjs = (id) => `kubejs:${id}`;
 
-    // -- BLAST FURNACE REMOVED RECIPES -- //
-    let coreDrill = (id, eu, duration, item_inputs, item_outputs, fluid_inputs, fluid_outputs) => {
+    // -- CORE DRILL HELPER FUNCTION -- //
+    let coreDrill = (id, eu, duration, item_inputs, item_outputs, fluid_inputs, fluid_outputs, adjacentBlock) => {
         let newRecipe = {
             type: mi('core_drill'),
             eu: eu,
@@ -25,12 +25,19 @@ ServerEvents.recipes(e => {
             newRecipe['fluid_inputs'] = fluid_inputs;
         if (fluid_outputs)
             newRecipe['fluid_outputs'] = fluid_outputs;
-    
+        if (adjacentBlock) 
+            newRecipe['process_conditions'] = [
+                {
+                    type: "modern_industrialization:adjacent_block",
+                    block: adjacentBlock,
+                    position: "below"
+                }
+            ];
         e.custom(newRecipe).id(id);
     }
 
     coreDrill(
-        st('test'),
+        st('core_fragment_mining'),
         256,
         600,
         [ { amount: 1, item: mi('desh_drill'), probability: 0.1 } ],

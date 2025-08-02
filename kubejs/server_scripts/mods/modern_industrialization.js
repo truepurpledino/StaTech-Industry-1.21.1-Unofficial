@@ -294,7 +294,7 @@ ServerEvents.recipes(e => {
     .id(st('large_electric_furnace'));
 
     // -- SPACE PROBE LAUNCHER -- //
-    e.shaped(mi('space_probe_launcher'), [
+    e.shaped(mi('quantum_space_probe_launcher'), [
         'PUP',
         'GHG',
         'MCM'
@@ -307,7 +307,7 @@ ServerEvents.recipes(e => {
         M: mi('large_advanced_motor'),
         C: mi('calorite_machine_casing')
     })
-    .id(st('space_probe_launcher'));
+    .id(st('quantum_space_probe_launcher'));
 
     // -- INDUSTRIAL GREENHOUSE -- //
     e.shaped(mi('greenhouse'), [

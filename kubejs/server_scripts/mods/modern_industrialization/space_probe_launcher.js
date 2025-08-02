@@ -3,7 +3,7 @@
 // STATECH INDUSTRY
 // -----------------------------------------
 
-MIRecipeEvents.customCondition(event => {
+/* MIRecipeEvents.customCondition(event => {
     event.register("block_2back_2up", (ctx, recipe) => {
         // Get machine block entity
         const be = ctx.blockEntity;
@@ -21,7 +21,7 @@ MIRecipeEvents.customCondition(event => {
         return state.id === 'minecraft:diamond_block'; // <- Your target block
     },
     Text.of("Requires Diamond Block 2 blocks behind and 2 block above"));
-});
+}); */
 
 ServerEvents.recipes(e => {
     // -- MOD NAMESPACE UTILITY FUNCTIONS -- // 
@@ -31,35 +31,59 @@ ServerEvents.recipes(e => {
     let kj = (id) => `kubejs:${id}`;
 
     // -- CUSTOM RECIPE UTILITY FUNCTION -- //
-/*     let spl = (id, eu, duration, item_inputs, item_outputs) => {
+     let spl = (id, eu, duration, item_inputs, item_outputs, adjacentBlock) => {
         let newRecipe = {
             type: mi('space_probe_launcher'),
             eu: eu,
-            duration: duration,
-            process_conditions: [{'biome': 'ad_astra:orbit', 'id': 'modern_industrialization:biome'} ]
+            duration: duration
         }
 
         if (item_inputs)
             newRecipe['item_inputs'] = item_inputs;
         if (item_outputs)
             newRecipe['item_outputs'] = item_outputs;
+        if (adjacentBlock) 
+            newRecipe['process_conditions'] = [
+                {
+                    type: "modern_industrialization:adjacent_block",
+                    block: adjacentBlock,
+                    position: "below"
+                }
+            ];
         
         e.custom(newRecipe).id(id);
     } 
 
     // -- SPACE PROBE -- //
-     spl(
-        st('space_probe'),
-        128,
-        6000,
-        [ { amount: 1, item: kj('space_probe'), probability: 0.75 } ],
+    spl(
+        st('basic_space_probe'),
+        32,
+        600,
+        [ { amount: 1, item: kj('basic_space_probe'), probability: 0.10 } ],
         [ 
-            { amount: 64, item: mc('stone') }
-        ]
-    ); */
-    e.recipes.modern_industrialization.space_probe_launcher(128, 6000)
-        .itemIn("kubejs:space_probe")
-        .itemOut("64x minecraft:stone")
-        .customCondition("block_2back_2up")
-        .id("statech:space_probe_test");
+            { amount: 1, item: mi('desh_ore'), probability: 0.25  },
+            { amount: 1, item: mi('moon_ice_ore'), probability: 0.1 }
+         ],
+        "kubejs:mki_probe_computer"
+    ); 
+    spl(
+        st('advanced_space_probe'),
+        48,
+        600,
+        [ { amount: 1, item: kj('advanced_space_probe'), probability: 0.10 } ],
+        [ 
+            { amount: 1, item: mi('ostrum_ore'), probability: 0.25  }
+         ],
+        "kubejs:mkii_probe_computer"
+    ); 
+    spl(
+        st('highly_advanced_space_probe'),
+        64,
+        600,
+        [ { amount: 1, item: kj('highly_advanced_space_probe'), probability: 0.10 } ],
+        [ 
+            { amount: 1, item: mi('calorite_ore'), probability: 0.25  }
+         ],
+        "kubejs:mkiii_probe_computer"
+    ); 
 });
