@@ -1,6 +1,6 @@
 {
   "type": "modern_industrialization:cutting_machine",
-  "duration": 200,
+  "duration": 100,
   "eu": 2,
   "fluid_inputs": [
     {

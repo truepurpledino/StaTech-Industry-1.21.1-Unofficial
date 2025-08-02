@@ -9,15 +9,6 @@
         }
       ]
     },
-    "modern_industrialization:capacitor": {
-      "components": [
-        {
-          "color": "#A9A9A9",
-          "italic": false,
-          "translate": "text.modern_industrialization.HasBetterYieldAssemblerRecipe"
-        }
-      ]
-    },
     "modern_industrialization:desh_gear": {
       "components": [
         {
@@ -36,15 +27,6 @@
         }
       ]
     },
-    "modern_industrialization:inductor": {
-      "components": [
-        {
-          "color": "#A9A9A9",
-          "italic": false,
-          "translate": "text.modern_industrialization.HasBetterYieldAssemblerRecipe"
-        }
-      ]
-    },
     "modern_industrialization:ostrum_gear": {
       "components": [
         {
@@ -55,15 +37,6 @@
       ]
     },
     "modern_industrialization:polytetrafluoroethylene_gear": {
-      "components": [
-        {
-          "color": "#A9A9A9",
-          "italic": false,
-          "translate": "text.modern_industrialization.HasBetterYieldAssemblerRecipe"
-        }
-      ]
-    },
-    "modern_industrialization:resistor": {
       "components": [
         {
           "color": "#A9A9A9",
