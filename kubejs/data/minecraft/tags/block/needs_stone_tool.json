@@ -1,5 +1,5 @@
 {
-    "values": [
+  "values": [
     "modern_industrialization:advanced_fluid_input_hatch",
     "modern_industrialization:advanced_fluid_output_hatch",
     "modern_industrialization:advanced_item_input_hatch",
@@ -39,10 +39,10 @@
     "modern_industrialization:bronze_plated_bricks",
     "modern_industrialization:bronze_tank",
     "modern_industrialization:bronze_water_pump",
+    "modern_industrialization:calorite_block",
     "modern_industrialization:calorite_machine_casing",
     "modern_industrialization:calorite_machine_casing_pipe",
     "modern_industrialization:calorite_ore",
-    "modern_industrialization:calorite_pillar",
     "modern_industrialization:centrifuge",
     "modern_industrialization:chemical_reactor",
     "modern_industrialization:chemically_inert_ptfe_casing",
@@ -74,10 +74,10 @@
     "modern_industrialization:deepslate_tin_ore",
     "modern_industrialization:deepslate_tungsten_ore",
     "modern_industrialization:deepslate_uranium_ore",
+    "modern_industrialization:desh_block",
     "modern_industrialization:desh_machine_casing",
     "modern_industrialization:desh_machine_casing_pipe",
     "modern_industrialization:desh_ore",
-    "modern_industrialization:desh_pillar",
     "modern_industrialization:distillation_tower",
     "modern_industrialization:distillery",
     "modern_industrialization:electric_blast_furnace",
@@ -174,10 +174,10 @@
     "modern_industrialization:nuclear_item_hatch",
     "modern_industrialization:nuclear_reactor",
     "modern_industrialization:oil_drilling_rig",
+    "modern_industrialization:ostrum_block",
     "modern_industrialization:ostrum_machine_casing",
     "modern_industrialization:ostrum_machine_casing_pipe",
     "modern_industrialization:ostrum_ore",
-    "modern_industrialization:ostrum_pillar",
     "modern_industrialization:photosynthetic_chamber",
     "modern_industrialization:plasma_handling_iridium_machine_casing",
     "modern_industrialization:plasma_turbine",
@@ -191,6 +191,7 @@
     "modern_industrialization:quantum_barrel",
     "modern_industrialization:quantum_machine_casing",
     "modern_industrialization:quantum_machine_hull",
+    "modern_industrialization:quantum_space_probe_launcher",
     "modern_industrialization:quantum_tank",
     "modern_industrialization:quartz_ore",
     "modern_industrialization:raw_antimony_block",
@@ -240,7 +241,6 @@
     "modern_industrialization:steel_machine_casing_pipe",
     "modern_industrialization:steel_mixer",
     "modern_industrialization:steel_packer",
-    "modern_industrialization:steel_pillar",
     "modern_industrialization:steel_tank",
     "modern_industrialization:steel_unpacker",
     "modern_industrialization:steel_water_pump",
@@ -262,6 +262,7 @@
     "modern_industrialization:tungsten_block",
     "modern_industrialization:tungsten_ore",
     "modern_industrialization:tungstensteel_barrel",
+    "modern_industrialization:tungstensteel_block",
     "modern_industrialization:tungstensteel_coil",
     "modern_industrialization:tungstensteel_machine_casing",
     "modern_industrialization:tungstensteel_machine_casing_pipe",
@@ -279,5 +280,5 @@
     "modern_industrialization:vacuum_freezer",
     "modern_industrialization:yttrium_block",
     "mi_tweaks:large_chemical_reactor"
-    ]
+  ]
 }
