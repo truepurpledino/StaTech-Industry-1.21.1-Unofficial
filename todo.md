@@ -1,26 +1,26 @@
 ## To do list
 - [ ] Adapt EBF and vacuum freezer recipes in [runtime_parts_recipes.js](https://github.com/truepurpledino/StaTech-Industry/blob/1.21.1-unofficial/kubejs/server_scripts/mods/modern_industrialization/runtime_parts_recipes.js)
-- [ ] Reinstate runtime generated recipes with the .hardness() parameter
+- [x] Reinstate runtime generated recipes with the .hardness() parameter
 - [ ] Adapt recipes for Extended AE
 - [ ] Adapt recipes for Cognition and verify fit in pack
 - [ ] Verify and adapt all AE2 recipes
 - [ ] Add back benzene fluid fuel using [the new method](https://github.com/AztechMC/Modern-Industrialization/blob/7048dbcb5279d78cf41a49d02bb45ab758e7ce6f/docs/ADDING_FLUIDS.md)
 - [ ] Add back Wood Tar output from Pyrolyse Oven (might need to replace Industrial Overdrive one)
-- [ ] Finish Ad Astra bandaid fix
-- [ ] Make sprites for three new Space Probes (Moon, Mars, Venus)
+- [x] Finish Ad Astra bandaid fix
+- [x] Make sprites for three new Space Probes (Moon, Mars, Venus)
 - [ ] Readd all Statech food recipes
 - [ ] Add quest rewards
 - [ ] Add tagged quest requirements where applicable
 - [ ] Redo all ~~Spectrum~~ Pastel quests
 - [ ] Add Terminal recipe
-- [ ] Remove duplicated runtime custom part recipes where needed (use runtime_parts_recipes.js instead)
+- [x] Remove duplicated runtime custom part recipes where needed (use runtime_parts_recipes.js instead)
 - [ ] Add Boosted Diesel to fuel tank recipes for probes
 - [ ] Replace Machine Chainer recipe
 - [ ] Add back ruby, peridot and sapphire ore to worldgen and associated MI recipes
-- [ ] Add configs to required mods (e.g. IPN)
+- [x] Add configs to required mods (e.g. IPN)
 - [ ] Rebalance MI upgrades
 - [ ] Replace He3-He3 Fusion Reactor recipe to avoid conflicts
-- [ ] Add back Moon Ice centrifuging recipe from dust for He3
-- [ ] Adapt recipes for Banks and Tanks
-- [ ] Remove Sophisticated backpacks stuff from loot tables
+- [x] Add back Moon Ice centrifuging recipe from dust for He3
+- [x] Adapt recipes for Banks and Tanks
+- [x] Remove Sophisticated backpacks stuff from loot tables
 - [ ] Adapt recipes so trial chambers can't be turned into copper
