@@ -4,15 +4,20 @@
 // -----------------------------------------
 
 StartupEvents.registry('item', e => {
-    e.create('space_probe').displayName('Space Probe');
+    e.create('space_probe')
+        .displayName('Space Probe');
     
-    e.create('statech_logo').displayName('StaTech Logo');
+    e.create('statech_logo')
+        .displayName('StaTech Logo');
 
-    e.create('voice_chat').displayName('Voice Chat');
+    e.create('voice_chat')
+        .displayName('Voice Chat');
 
-    e.create('bartman').displayName('Jon Bartman');
+    e.create('bartman')
+        .displayName('Jon Bartman');
 
-    e.create('withered_soc').displayName('Withered SoC');
+    e.create('withered_soc')
+        .displayName('Withered SoC');
 
     e.create('magic_diamond')
         .displayName('Magic Diamond')
@@ -58,6 +63,15 @@ StartupEvents.registry('item', e => {
     
     e.create('calorite_engine')
         .displayName('Calorite Engine')
+    
+    e.create('basic_space_probe')
+        .displayName('Basic Space Probe')
+    
+    e.create('advanced_space_probe')
+        .displayName('Advanced Space Probe')
+    
+    e.create('highly_advanced_space_probe')
+        .displayName('Highly Advanced Space Probe')
 });
 
 ItemEvents.modification(event => {
