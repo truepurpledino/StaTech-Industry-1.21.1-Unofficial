@@ -11,29 +11,27 @@ MIMachineEvents.registerRecipeTypes(e => {
         .withItemOutputs();
 });
 
-
-
 MIMachineEvents.registerMachines(e => {
     // -- MOD NAMESPACE UTILITY FUNCTIONS -- // 
     let mi = (id) => `modern_industrialization:${id}`;
 
-    const caloriteCasing = e.memberOfBlock(mi('calorite_machine_casing'));
-    const caloritePipeCasing = e.memberOfBlock(mi('calorite_machine_casing_pipe'));
-    const tungstensteelCoil = e.memberOfBlock(mi('tungstensteel_coil'));
+    const stainlessCasing = e.memberOfBlock(mi('clean_stainless_steel_machine_casing'));
+    const caloritePipeCasing = e.memberOfBlock(mi('stainless_steel_machine_casing_pipe'));
+    const kanthalCoil = e.memberOfBlock(mi('kanthal_coil'));
     const spaceProbeHatch = e.hatchOf('item_input', 'item_output', 'energy_input');
 
-    const spaceProbeBuilder = e.layeredShape('calorite_machine_casing', [
+    const spaceProbeBuilder = e.layeredShape('clean_stainless_steel_machine_casing', [
         //y=
-        [ '  c  ', '  c  ', '  c  ', '     ', '     ', '     ', '     ', '     ' ],
-        [ ' CCC ', ' CPC ', ' CPC ', '  T  ', '  T  ', '  T  ', '  T  ', '  T  ' ],
-        [ 'cCCCc', 'cPPPc', 'cPPPc', ' T T ', ' T T ', ' T T ', ' T T ', ' T T ' ],
-        [ ' CCC ', ' CPC ', ' CPC ', '  T  ', '  T  ', '  T  ', '  T  ', '  T  ' ],
-        [ '  c  ', '  #  ', '  c  ', '     ', '     ', '     ', '     ', '     ' ]
+        [ '  c  ', '  c  ', '  c  ', '     ', '     ', '     ', '     '],
+        [ ' CCC ', ' CPC ', ' CPC ', '  K  ', '  K  ', '  K  ', '  K  '],
+        [ 'cCCCc', 'cPPPc', 'cPPPc', ' K K ', ' K K ', ' K K ', ' K K '],
+        [ ' CCC ', ' CPC ', ' CPC ', '  K  ', '  K  ', '  K  ', '  K  '],
+        [ '     ', '  #  ', '  c  ', '     ', '     ', '     ', '     ']
     ])
-        .key('C', caloriteCasing, e.noHatch())
-        .key('c', caloriteCasing, spaceProbeHatch)
+        .key('C', stainlessCasing, e.noHatch())
+        .key('c', stainlessCasing, spaceProbeHatch)
         .key('P', caloritePipeCasing, e.noHatch())
-        .key('T', tungstensteelCoil, e.noHatch())
+        .key('K', kanthalCoil, e.noHatch())
         .build();
 
     e.simpleElectricCraftingMultiBlock(
@@ -44,7 +42,7 @@ MIMachineEvents.registerMachines(e => {
         spaceProbeBuilder, // multiblock shape
 
         // REI Display configuration
-        e.progressBar(77, 33, 'arrow'),
+        e.progressBar(77, 33, 'rocket'),
         // REI Item inputs, item outputs, fluid inputs, fluid outputs
         itemInputs => itemInputs.addSlot(56, 35), 
         itemOutputs => itemOutputs.addSlots(102, 35, 4, 4),
@@ -52,7 +50,7 @@ MIMachineEvents.registerMachines(e => {
         fluidOutputs => {},
 
         /* Model Configuration */ 
-        'calorite_machine_casing', // casing of the controller
+        'clean_stainless_steel_machine_casing', // casing of the controller
         'space_probe_launcher', // overlay folder
         true, // front overlay
         false, // top overlay
