@@ -10,6 +10,7 @@ ServerEvents.recipes(e => {
     let mi = (id) => `modern_industrialization:${id}`;
     let ae = (id) => `ae2:${id}`;
     let eae = (id) => `extendedae:${id}`;
+    let mg = (id) => `megacells:${id}`;
     let wt = (id) => `ae2wtlib:${id}`;
     let mc = (id) => `minecraft:${id}`;
 
@@ -76,6 +77,17 @@ ServerEvents.recipes(e => {
         ae('network/crystal_resonance_generator'),
         ae('network/blocks/energy_dense_energy_cell'),
         eae('infinity_water_cell'),
+        eae('transform/entro_ingot'),
+        mg('transform/sky_bronze_ingot'),
+        mg('transform/sky_steel_ingot'),
+        eae('crystal_assembler'),
+        eae('assembler/sky_bronze'),
+        eae('assembler/sky_steel'),
+        eae('assembler/entro_ingot_transformation'),
+        eae('assembler/fluix_transformation'),
+        eae('cutter/logic_processor'),
+        eae('cutter/calculation_processor'),
+        eae('cutter/silicon_print'),
         eae('infinity_cobblestone_cell')
     ];
     REMOVED_RECIPES.forEach(id => e.remove( {id: id} ));
@@ -842,13 +854,6 @@ ServerEvents.recipes(e => {
 
     // -- ENTRO INFUSED INGOT -- //
     
-    /*e.replaceInput(
-    { id: eae('transform/entro_ingot') }, 
-    mc('gold_ingot'),            
-    mi('aluminum_ingot')         
-    ) 
-     */
-    
     e.custom({
         type: 'ae2:transform',
         ingredients: [
@@ -856,13 +861,49 @@ ServerEvents.recipes(e => {
             {"tag": "c:ingots/aluminum"},
             {"item": "minecraft:lapis_lazuli"}
         ],
-        tool: { tag: 'forge:tools/knives' },
         result: {
             "count": 1,
             "id": "extendedae:entro_ingot"
         }
     })
     .id(ste('entro_ingot_inworld'));
+
+    e.custom({
+        type: 'ae2:transform',
+        circumstance: {
+            "type": "fluid",
+            "tag": "minecraft:lava"
+        },
+        ingredients: [
+            {"item": "ae2:charged_certus_quartz_crystal"},
+            {"tag": "c:ingots/annealed_copper"},
+            {"item": "ae2:sky_stone_block"}
+        ],
+        result: {
+            "count": 2,
+            "id": "megacells:sky_bronze_ingot"
+        }
+    })
+    .id(ste('sky_bronze_ingot_inworld'));
+    
+    e.custom({
+        type: 'ae2:transform',
+        circumstance: {
+            "type": "fluid",
+            "tag": "minecraft:lava"
+        },
+        ingredients: [
+            {"item": "ae2:charged_certus_quartz_crystal"},
+            {"tag": "c:ingots/stainless_steel"},
+            {"item": "ae2:sky_stone_block"}
+        ],
+        result: {
+            "count": 2,
+            "id": "megacells:sky_steel_ingot"
+        }
+    })
+    .id(ste('sky_steel_ingot_inworld'));
+    
     /* e.replaceInput(
     { id: eae('assembler/entro_ingot_transformation') }, 
     mc('gold_ingot'),            
@@ -872,19 +913,20 @@ ServerEvents.recipes(e => {
 
     // -- CRYSTAL ASSEMBLER -- //
     
-    /* e.shaped(eae('crystal_assembler'), [
+    e.shaped(eae('crystal_assembler'), [
         'DCD',
         'PHP',
         'FTF'
     ],
     {
+        C: ae('semi_dark_monitor'),
         D: mi('digital_circuit'),
         H: eae('machine_frame'),
         P: ae('logic_processor'),
         F: '#ae2:glass_cable',
         T: mi('steel_tank')
     }) 
-    .id(ste('crystal_assembler')); */
+    .id(ste('crystal_assembler')); 
 
 });
 

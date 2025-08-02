@@ -62,12 +62,26 @@ ServerEvents.recipes(e => {
         'SSL'
     ],
     {
-        S: mi('steel_ingot'),
+        S: mi('bronze_ingot'),
         R: mc('redstone'),
         L: mc('lapis_lazuli'),
         E: mc('ender_pearl')
     })
     .id(st('basicmagnet'));
+
+    // -- ADVANCED MAGNET -- //
+    e.shaped(mg('advancedmagnet'), [
+        'SSR',
+        'SE ',
+        'SSL'
+    ],
+    {
+        S: mi('steel_ingot'),
+        R: mc('redstone_block'),
+        L: mc('lapis_block'),
+        E: mg('basicmagnet')
+    })
+    .id(st('advancedmagnet'));
 
     // -- REINFORCED HANG GLIDER -- //
     e.shaped(hg('glider_framework'), [

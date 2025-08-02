@@ -9,11 +9,60 @@ ServerEvents.recipes(e => {
     let mc = (id) => `minecraft:${id}`;
     let mi = (id) => `modern_industrialization:${id}`;
     // let tr = (id) => `techreborn:${id}`;
-    // let sp = (id) => `spectrum:${id}`;
+    let pa = (id) => `pastel:${id}`;
     let kj = (id) => `kubejs:${id}`;
     // let ad = (id) => `ad_astra:${id}`;
 
     // e.smelting(kj('clear_ingot'), mc('glass'), 0.2).id(st('clear_ingot_from_glass'));
+
+    // -- GLOWING PILLARS -- //
+    e.shaped('6x ' + kj('glowing_steel_pillar'), [
+        'SDS',
+        'SGS',
+        'SDS'
+    ],
+    {
+        S: '#c:plates/steel',
+        G: mc('glowstone'),
+        D: '#c:dyes/purple'
+    })
+    .id(st('glowing_steel_pillar'));
+
+    e.shaped('6x ' + kj('glowing_desh_pillar'), [
+        'SDS',
+        'SGS',
+        'SDS'
+    ],
+    {
+        S: '#c:plates/desh',
+        G: mc('glowstone'),
+        D: '#c:dyes/red'
+    })
+    .id(st('glowing_desh_pillar'));
+
+    e.shaped('6x ' + kj('glowing_ostrum_pillar'), [
+        'SDS',
+        'SGS',
+        'SDS'
+    ],
+    {
+        S: '#c:plates/ostrum',
+        G: mc('glowstone'),
+        D: '#c:dyes/lime'
+    })
+    .id(st('glowing_ostrum_pillar'));
+
+    e.shaped('6x ' + kj('glowing_calorite_pillar'), [
+        'SDS',
+        'SGS',
+        'SDS'
+    ],
+    {
+        S: '#c:plates/ostrum',
+        G: mc('glowstone'),
+        D: '#c:dyes/orange' 
+    })
+    .id(st('glowing_calorite_pillar'));
 
     // -- CLEAR GLASS BLOCK - //
     // e.shaped('8x ' + kj('clear_glass'), [
@@ -139,25 +188,25 @@ ServerEvents.recipes(e => {
     .noMirror().id('amethyst_shard_from_common');
     
     // -- TOPAZ SHARD -- //
-    // e.shaped('8x ' + sp('topaz_shard'), [
-        // '  C',
-        // ' C ',
-        // 'C  '
-    // ],
-    // {
-        // C: common
-    // })
-    // .noMirror().id(st('topaz_shard_from_common'));
+    e.shaped('8x ' + pa('topaz_shard'), [
+        '  C',
+        ' C ',
+        'C  '
+    ],
+    {
+        C: common
+    })
+    .noMirror().id(st('topaz_shard_from_common'));
 
     // -- CITRINE SHARD -- //
-    // e.shaped('8x ' + sp('citrine_shard'), [
-        // 'C  ',
-        // 'C  ',
-        // 'C  '
-    // ],
-    // {
-        // C: common
-    // }).id(st('citrine_shard_from_common'));
+    e.shaped('8x ' + pa('citrine_shard'), [
+        'C  ',
+        'C  ',
+        'C  '
+    ],
+    {
+        C: common
+    }).id(st('citrine_shard_from_common'));
 
     e.shaped('16x ' + mc('coal_ore'), [
         'C C',
@@ -295,7 +344,7 @@ ServerEvents.recipes(e => {
     ],
     {
         C: legendary
-    }).id(st('monaziite_ore_from_legendary'));
+    }).id(st('monazite_ore_from_legendary'));
 
     // -- URANIUM ORE -- //
     e.shaped('8x ' + mi('uranium_ore'), [
@@ -308,24 +357,24 @@ ServerEvents.recipes(e => {
     }).id(st('uranium_ore_from_legendary'));
 
     // -- DESH ORE -- //
-    // e.shaped('8x ' + ad('moon_desh_ore'), [
-        // 'CC ',
-        // 'C C',
-        // 'CC '
-    // ], 
-    // {
-        // C: legendary
-    // }).id(st('desh_ore_from_legendary'));
+    e.shaped('8x ' + mi('desh_ore'), [
+        'CC ',
+        'C C',
+        'CC '
+    ], 
+    {
+        C: legendary
+    }).id(st('desh_ore_from_legendary'));
 
     // -- OSTRUM ORE -- //
-    // e.shaped('8x ' + ad('mars_ostrum_ore'), [
-        // 'CCC',
-        // 'C C',
-        // 'CCC'
-    // ],
-    // {
-        // C: legendary
-    // }).id('ostrum_ore_from_legendary');
+    e.shaped('8x ' + mi('ostrum_ore'), [
+        'CCC',
+        'C C',
+        'CCC'
+    ],
+    {
+        C: legendary
+    }).id('ostrum_ore_from_legendary');
 
     // -------------- //
     //     MYTHIC     //
@@ -340,14 +389,14 @@ ServerEvents.recipes(e => {
         C: mythic
     }).id(st('mending_from_mythic'));
 
-    // e.shaped(Item.of(mc('enchanted_book')).enchant('yigd:soulbound', 1), [
-        // 'C C',
-        // '   ',
-        // 'C C'
-    // ],
-    // {
-        // C: mythic
-    // }).id(st('soulbound_from_mythic'));
+    e.shaped(Item.of(mc('enchanted_book')).enchant('yigd:soulbound', 1), [
+        'C C',
+        '   ',
+        'C C'
+    ],
+    {
+        C: mythic
+    }).id(st('soulbound_from_mythic'));
 
     // e.shaped(Item.of(mc('enchanted_book')).enchant('ad_astra_giselle_addon:space_breathing', 1), [
         // 'C C',
@@ -359,14 +408,14 @@ ServerEvents.recipes(e => {
     // }).id(st('space_breathing_from_mythic'));
 
     // CALORITE ORE
-    // e.shaped('8x ' + ad('venus_calorite_ore'), [
-        // 'CCC',
-        // 'C  ',
-        // 'CCC'
-    // ],
-    // {
-        // C: mythic
-    // }).id(st('calorite_ore_from_mythic'));
+    e.shaped('8x ' + mi('calorite_ore'), [
+        'CCC',
+        'C  ',
+        'CCC'
+    ],
+    {
+        C: mythic
+    }).id(st('calorite_ore_from_mythic'));
 });
 
 // ServerEvents.blockLootTables(e => {
@@ -574,7 +623,11 @@ ServerEvents.tags('item', event => {
         'calorite',
         'enderium',
         'polytetrafluoroethylene',
-        'stone'
+        'moon_ice',
+        'stone',
+        'tuff',
+        'calcite',
+        'dark_ashes'
     ]
 
     const baseparts = [
@@ -596,6 +649,8 @@ ServerEvents.tags('item', event => {
         "_dust", 
         "_ingot"
     ];
+
+
     const allparts = baseparts.concat(supplparts);
 
     MATERIALS.forEach(material => {
@@ -611,6 +666,30 @@ ServerEvents.tags('item', event => {
             }
         });
     });
+/* 
+    CUSTOMMATERIALS.forEach(material => {
+        const itemId = `modern_industrialization:raw_${material}`;
+        const tagCategory = "raw_materials";
+        const generictag = `c:${tagCategory}`;
+        const specifictag = `c:${tagCategory}/${material}`;
+        
+        if (Item.exists(itemId)) {
+            event.add(generictag, itemId);
+            event.add(specifictag, itemId);
+        }
+    });
+
+    CUSTOMMATERIALS.forEach(material => {
+        const itemId = `modern_industrialization:deepslate_${material}_ore`;
+        const tagCategory = "ores";
+        const generictag = `c:${tagCategory}`;
+        const specifictag = `c:${tagCategory}/${material}`;
+        
+        if (Item.exists(itemId)) {
+            event.add(generictag, itemId);
+            event.add(specifictag, itemId);
+        }
+    }); */
 
     CUSTOMMATERIALS.forEach(material => {
         allparts.forEach(part => {
