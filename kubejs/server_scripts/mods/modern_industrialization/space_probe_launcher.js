@@ -62,7 +62,7 @@ ServerEvents.recipes(e => {
         [ { amount: 1, item: kj('basic_space_probe'), probability: 0.10 } ],
         [ 
             { amount: 1, item: mi('desh_ore'), probability: 0.25  },
-            { amount: 1, item: mi('moon_ice_ore'), probability: 0.1 }
+            { amount: 1, item: mi('moon_ice_ore'), probability: 0.02 }
          ],
         "kubejs:mki_probe_computer"
     ); 
