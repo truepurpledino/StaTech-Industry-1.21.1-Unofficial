@@ -15,6 +15,7 @@ ServerEvents.recipes(e => {
     let ae = (id) => `ae2:${id}`;
     // let fd = (id) => `farmersdelight:${id}`;
     let md = (id) => `moderndynamics:${id}`;
+    let io = (id) => `industrialization_overdrive:${id}`;
     // let kb = (id) => `kibe:${id}`;
 
     // -- ASSEMBLER REMOVED RECIPES -- //
@@ -28,7 +29,8 @@ ServerEvents.recipes(e => {
         mi('assembler_generated/electric_age/battery/silicon_battery'),
         mi('assembler_generated/electric_age/battery/sodium_battery'),
         mi('assembler_generated/electric_age/battery/cadmium_battery'),
-        mi('assembler_generated/electric_age/battery/plutonium_battery')
+        mi('assembler_generated/electric_age/battery/plutonium_battery'),
+        io('machines/pyrolyse_oven/assembler')
     ];
     REMOVED_RECIPE.forEach(id => e.remove({id: id}));
 
@@ -669,18 +671,19 @@ ServerEvents.recipes(e => {
     );
 
     // -- PYROLYSE OVEN -- //
-    // assembler(
-        // st('pyrolyse_oven'),
-        // 8,
-        // 200,
-        // [
-            // { amount: 4, item: tr('cupronickel_heating_coil') },
-            // { amount: 3, item: mi('inductor') },
-            // { amount: 1, item: mi('analog_circuit') },
-            // { amount: 1, item: mi('basic_machine_hull') }
-        // ],
-        // [ { amount: 1, item: mi('pyrolyse_oven') } ]
-    // );
+    assembler(
+        st('pyrolyse_oven'),
+        8,
+        200,
+        [
+            { amount: 2, item: mi('cupronickel_wire_magnetic') },
+            { amount: 2, item: mi('analog_circuit') },
+            { amount: 2, item: mi('bronze_plated_bricks') },
+            { amount: 1, item: mi('basic_machine_hull') },
+            { amount: 2, item: mi('coke_oven') }
+        ],
+        [ { amount: 1, item: io('pyrolyse_oven') } ]
+    );
 
     // -- QUASI QUANTUM SINGULARITY FORGE -- //
     assembler(

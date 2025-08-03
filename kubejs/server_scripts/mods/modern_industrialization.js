@@ -8,6 +8,7 @@ ServerEvents.recipes(e => {
     let st = (id) => `statech:modern_industrialization/${id}`;
     let mi = (id) => `modern_industrialization:${id}`;
     let ei = (id) => `extended_industrialization:${id}`;
+    let io = (id) => `industrialization_overdrive:${id}`;
     let mc = (id) => `minecraft:${id}`;
     // let tr = (id) => `techreborn:${id}`;
     // let ad = (id) => `ad_astra:${id}`;
@@ -45,7 +46,8 @@ ServerEvents.recipes(e => {
         mi('steam_age/bronze/furnace_asbl'),
         mi('steam_age/bronze/boiler_asbl'),
         mi('tools/steam_mining_drill'),
-        mi('electric_age/component/craft/op_amp_asbl')
+        mi('electric_age/component/craft/op_amp_asbl'),
+        io('machines/pyrolyse_oven/craft')
     ];
     MI_DELETED_ITEMS.forEach(id => e.remove( {id: id} ));
     
@@ -235,18 +237,19 @@ ServerEvents.recipes(e => {
     .id(st('forge_hammer'));
 
     // -- PYROLYSE OVEN -- //
-    // e.shaped(mi('pyrolyse_oven'), [
-        // 'HIH',
-        // 'ICI',
-        // 'HAH'
-    // ],
-    // {
-        // H: mi('cupronickel_coil'),
-        // I: mi('inductor'),
-        // C: mi('basic_machine_hull'),
-        // A: mi('analog_circuit')
-    // })
-    // .id(st('pyrolyse_oven'));
+    e.shaped(io('pyrolyse_oven'), [
+        'MAM',
+        'CHC',
+        'BAB'
+    ],
+    {
+        M: mi('cupronickel_wire_magnetic'),
+        B: mi('bronze_plated_bricks'),
+        H: mi('basic_machine_hull'),
+        A: mi('analog_circuit'),
+        C: mi('coke_oven')
+    })
+    .id(io('pyrolyse_oven'));
 
     // -- ALLOY SMELTER -- //
     e.shaped(ei('electric_alloy_smelter'), [
