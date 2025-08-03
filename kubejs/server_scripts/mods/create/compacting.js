@@ -32,6 +32,6 @@ ServerEvents.recipes(e => {
             { item: mi('fire_clay_brick') },
             { item: mi('fire_clay_brick') }
         ],
-        [ { item: mi('fire_clay_bricks') } ]
+        [ { id: mi('fire_clay_bricks') } ]
     );
 });
