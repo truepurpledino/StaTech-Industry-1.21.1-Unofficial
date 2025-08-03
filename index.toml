@@ -1,6 +1,326 @@
 hash-format = "sha256"
 
 [[files]]
+file = "README.md"
+hash = "644045f22f2b2e33656944c8c271723f941968df478169c515c88d0b977c4ff3"
+
+[[files]]
+file = "config/ae2-common.toml"
+hash = "1bb477c467bc7fea88b664262777244fbc99d9b2bd94c91465804225f6a28cb6"
+
+[[files]]
+file = "config/bcc-common.toml"
+hash = "8172499259b949f033378ad886a1dd67a7d3ccd09ed0ef4a432f17806de684cc"
+
+[[files]]
+file = "config/defaultoptions/extra/journeymap/config/5.9/journeymap.minimap.config"
+hash = "a22e4ad7564ac12ebca61dcf09332bdcd37e2a61fc73b833e6cff902a277daac"
+
+[[files]]
+file = "config/defaultoptions/options.txt"
+hash = "c40179c819f0ab943035db4cf40a1bf1ebabf717e6e37b65adc220b27a597971"
+
+[[files]]
+file = "config/explorerscompass-common.toml"
+hash = "e8cbad0d6f26d74350d54ad3b6ba34afd802ac60ce336efc0dbd69c281bbf729"
+
+[[files]]
+file = "config/fancymenu/config.txt"
+hash = "dc5c04f410acdf5d91cc899197db7fbd98c4a3402849e04526479301a88bbdd5"
+
+[[files]]
+file = "config/fancymenu/customizablemenus.txt"
+hash = "9baa225235ccca76753587814f0e22d6e2f4b933c6c7ca309dbb8bf2302dc7e7"
+
+[[files]]
+file = "config/fancymenu/customization/ingame.txt"
+hash = "1f8be70e0da715aaad1e27a818a18bad6e37eb4462058eab1bdb19069afb769f"
+
+[[files]]
+file = "config/fancymenu/customization/statech_mm.txt"
+hash = "e3bf15c933ebe22b57f23f8fb7ebe4035d774b2df4bb1a048d553417b1d87ec7"
+
+[[files]]
+file = "config/fancymenu/debug.log"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "config/fancymenu/discordlogo.png"
+hash = "92af71f836c780c5880dcfd55a9061cd928d702806b503530debc1f983c51308"
+
+[[files]]
+file = "config/fancymenu/menu_identifiers.db"
+hash = "003a1c89846741e0eb9475089d4ed653896fd08e0b994667fae452b4ad894a72"
+
+[[files]]
+file = "config/fancymenu/minecraftwindow/icons/icon16x16.png"
+hash = "1822d9090ecfb277cd21435d00ab4dbc2c182a4b8a599527253bebf8618af6a9"
+
+[[files]]
+file = "config/fancymenu/minecraftwindow/icons/icon32x32.png"
+hash = "436b7cfd7e766baa237990b0294acf5a1052978243870b7bcdd8a177bb293d81"
+
+[[files]]
+file = "config/fancymenu/mm_logo.png"
+hash = "0f204550a99aabcafe213b02d22ff2dfb6724ad12354bbcc4f9c17e74188316f"
+
+[[files]]
+file = "config/fancymenu/options.txt"
+hash = "f853bec7fe076cdb194fbb87f2a343c0e8399c2552b8b0ab63ccca74d6e85783"
+
+[[files]]
+file = "config/fancymenu/panoramas/statechpanorama_01/panorama/panorama_0.png"
+hash = "3dddf36c36f99f59f4bf481887665aaccc67eeb5440e14b448733dbf2133d9a7"
+
+[[files]]
+file = "config/fancymenu/panoramas/statechpanorama_01/panorama/panorama_1.png"
+hash = "da84325aa0e8feb6dcf366205ecce012e51fc89e4feee8adf123348c0ea9a304"
+
+[[files]]
+file = "config/fancymenu/panoramas/statechpanorama_01/panorama/panorama_2.png"
+hash = "561a8eb5c8ebb045870db932d02146dd27afff680ba35fbb1f97b948cc1831b0"
+
+[[files]]
+file = "config/fancymenu/panoramas/statechpanorama_01/panorama/panorama_3.png"
+hash = "3cb78c8afb3be7cfab0bc08405b9c03ccaf2abbac1eca5e73fa8bd0f69e6d3d8"
+
+[[files]]
+file = "config/fancymenu/panoramas/statechpanorama_01/panorama/panorama_4.png"
+hash = "b1676e22b903d0cd673c49efc5f8a369e2e8d3441a4e7e98f5ebf168a9c68143"
+
+[[files]]
+file = "config/fancymenu/panoramas/statechpanorama_01/panorama/panorama_5.png"
+hash = "129b572f73c338021c854e914d52daf9bc69669665d43f7af6c7a95bdb00c648"
+
+[[files]]
+file = "config/fancymenu/panoramas/statechpanorama_01/properties.txt"
+hash = "c877aadff771b03295d9f6c674b0c3d6828b80ca4fac6b617f78d9c6ab4b679c"
+
+[[files]]
+file = "config/fancymenu/user_variables.db"
+hash = "1b287025595ebc2862c9506ced6505f23189bd6f79c03bac717ad56d90c68394"
+
+[[files]]
+file = "config/hangglider-client.toml"
+hash = "6cfde82c0a8c254b3b5b892a29ae37b38c960a70b812156de926fa87a7b44d5b"
+
+[[files]]
+file = "config/hangglider-server.toml"
+hash = "ea25f46cde87febafefb9a4c8cc44ee62e34c9e9a69944e8196b421336f868ef"
+
+[[files]]
+file = "config/inventoryprofilesnext/integrationHints/ae2.json"
+hash = "9e20c2ca2dbd1a0cf159dc97a2a522dba0d2d9e989fe4634229a124e69b085a1"
+
+[[files]]
+file = "config/inventoryprofilesnext/integrationHints/exampleIntegrationHints.json"
+hash = "ca413dea02cce69c69dccdc525fb0ec013236876eff2d142772c68db3d772d3a"
+
+[[files]]
+file = "config/inventoryprofilesnext/integrationHints/player-defined.json"
+hash = "bf9e9cca6ac27946f2a84c1829fe0f7e35a3902c1f46b0b9a6a1542a272f76c6"
+
+[[files]]
+file = "config/inventoryprofilesnext/integrationHints/supplimenteries.json"
+hash = "b12bd54d419b9277485a1c8612019107ed52b57951ae2df23f1d741db62736bd"
+
+[[files]]
+file = "config/inventoryprofilesnext/inventoryprofiles.json"
+hash = "524a4abdf83d3fb1fda77f67c57c9e68b65a668c115cd564a5360a3027aa07a7"
+
+[[files]]
+file = "config/mixed_litter-client.toml"
+hash = "c907193cc9614cabe6d11a09167d1f57fb4d7088422bc02ba80aa4eee46fd5af"
+
+[[files]]
+file = "config/modern_industrialization-server.toml"
+hash = "4db8390cb24ac4fed44c31aeec2c72eb94179ad19d24de94f8b535e5e27166eb"
+
+[[files]]
+file = "config/modern_industrialization-startup.toml"
+hash = "909c8e1654f720e6c9111b841fc4d0764eb1718615bcaf235b0e210af3d3e566"
+
+[[files]]
+file = "config/quests/chapter_groups.snbt"
+hash = "42dfc5bcfd089f550f9c8d111f528a746892196e18c111fdf927bac57f662b43"
+
+[[files]]
+file = "config/quests/chapters/1__stone_age.snbt"
+hash = "887f0bfbe227f6140bb2541fe4196c3439f357c51bb395243aa2032a3094ef6e"
+
+[[files]]
+file = "config/quests/chapters/2__the_steam_age.snbt"
+hash = "f5ec4dd1fc80926c959e1f146688caaf72418de7ff755b055512eba72d12ba80"
+
+[[files]]
+file = "config/quests/chapters/3__electrical_age.snbt"
+hash = "ee0e3872cfa7bda69caf051753c31a5b0765286d08fe9c9c070344ab7a06653d"
+
+[[files]]
+file = "config/quests/chapters/4__digital_age.snbt"
+hash = "b874c7c51a9df47fe1f23043f289a3761732d02e187d0ad487105e897f66d2dc"
+
+[[files]]
+file = "config/quests/chapters/5__nuclear_age.snbt"
+hash = "8768d5d063514341c3297974b75e727901fb5bd9c43801650d481958a0c831b7"
+
+[[files]]
+file = "config/quests/chapters/6__quantum_age.snbt"
+hash = "e7d8eb54b58a75fb8e06371b4b1f414d330a87be5ab3b9eddc74a73b5392e7f6"
+
+[[files]]
+file = "config/quests/chapters/artifacts.snbt"
+hash = "6ad836a7065d4029f339b4bbc1ef07a7289ea32b68e352b13eb07b32a1a0c174"
+
+[[files]]
+file = "config/quests/chapters/create.snbt"
+hash = "9d2d8066e9cbdd8bd0689963327cb409acfa43dd15a4fa92a12feb401ac19bb7"
+
+[[files]]
+file = "config/quests/chapters/utilities.snbt"
+hash = "053e05d20789c2d4614de3842b2094ab4e5162a12c2320cbd2c80e33fac95b87"
+
+[[files]]
+file = "config/quests/chapters/welcome.snbt"
+hash = "a8e3535cc8c381f74ff1a56e826e9cee8f5dc250282e8f57a0360fd1583182f4"
+
+[[files]]
+file = "config/quests/data.snbt"
+hash = "09dfe430c3c2bd6f9cbd78a3bfa5f7162bad49f09e81e4e3a75e4134dc23ce59"
+
+[[files]]
+file = "config/quests/lang/en_us.snbt"
+hash = "be7bc03c4b7dfc8b710f21e90ad62486f8286fd66c0d9a81c6fe53f2dfc5e68f"
+
+[[files]]
+file = "config/quests/reward_tables/chapter_2_late_rewards.snbt"
+hash = "dadeead883d43bf59b7a2ab9e3c8d3e1d60d96af1750d4ca4d6c1f123af6c284"
+
+[[files]]
+file = "config/quests/reward_tables/chapter_2_rewards.snbt"
+hash = "3aeb4181f98fd00b0efd12d28b9dc05faf0a6bc0eb2d53e00a2cb4dbda90400a"
+
+[[files]]
+file = "config/quests/reward_tables/chapter_3_common_rewards.snbt"
+hash = "5d7b6bc91a195e52bb6ca66d82b9bb8e80a064aecb064582d89fdd8276901103"
+
+[[files]]
+file = "config/quests/reward_tables/chapter_3_legendary_rewards.snbt"
+hash = "75970a38dbbebdeafb12f446d011c99b44a95d806919e7feeb5c718e11d37991"
+
+[[files]]
+file = "config/quests/reward_tables/chapter_3_rare_rewards.snbt"
+hash = "085cef3052049cfbe5accc0c1fe3431d0e12a090f37557ed1e514c90f68d0e74"
+
+[[files]]
+file = "config/quests/reward_tables/chapter_4_common_loot.snbt"
+hash = "38730f58a21ea0277ad685ee8b28c0e47cf6d31777cb20198d25006e997e9e9e"
+
+[[files]]
+file = "config/quests/reward_tables/chapter_4_rare_rewards.snbt"
+hash = "a32a7579a22b1e635cf9484a65d6ce1ba32b3e2879f396992b7c296cbcc062e7"
+
+[[files]]
+file = "config/quests/reward_tables/chapter_5_common_rewards.snbt"
+hash = "a3278d6962dd10597d28a8d0cc937fa74c0e7a3063f003eb6a543b30c73f60d0"
+
+[[files]]
+file = "config/quests/reward_tables/chapter_5_rare_rewards.snbt"
+hash = "6724b42d682820390a764d834a49c2258ec8eeea4b4fa4892728473f4da3d5bb"
+
+[[files]]
+file = "config/quests/reward_tables/chapter_6_rare_rewards.snbt"
+hash = "6a1870b4fba7a6c9426a11d48827a1fc33ff2745a3d05be3e634f674ef8bdd27"
+
+[[files]]
+file = "config/quests/reward_tables/common_chapter_1_rewards.snbt"
+hash = "578cae3abe5e7e9b9344dcf6efa5e756b3ad1c77d0df450c34fdfafd7de775f4"
+
+[[files]]
+file = "config/quests/reward_tables/create_chapter_1_rewards.snbt"
+hash = "d6ad8a37b6f095927adc0e13f16153b8b660c8b4d6832e0ef59395154abda854"
+
+[[files]]
+file = "config/quests/reward_tables/spectrum_basic_rewards.snbt"
+hash = "57a2d34c45563506436f5d94282158b3dc0a2d725bdfa5c950dcbde026ac9606"
+
+[[files]]
+file = "config/quests/reward_tables/spectrum_legendary_rewards.snbt"
+hash = "b189f9538d8014785b6a42bad65d6b00a525bacdbed6aab78e52ec95ff6df68e"
+
+[[files]]
+file = "config/quests/reward_tables/spectrum_rare_rewards.snbt"
+hash = "a8f7dc54881f8e0845dc0344ae99541deb2c3ab3a84b7306aa7d009af9c00885"
+
+[[files]]
+file = "config/quests/reward_tables/sword_choice.snbt"
+hash = "f39d4724a1ec725d4557592aef2e8411e3086761f85dfc277d9a525ac98ad70f"
+
+[[files]]
+file = "config/quests/reward_tables/twilight_forest_rewards.snbt"
+hash = "b0d3afca863e36eaa65df8fa374d837019ecdb01449de696c8f0f19b7242b028"
+
+[[files]]
+file = "config/sophisticatedbackpacks-common.toml"
+hash = "9b5ee63cbd89e3bd726f2da756a586faa8a120f3e11d4ab49c476583eef61593"
+
+[[files]]
+file = "config/sophisticatedbackpacks-server.toml"
+hash = "055a584faeb7e3f8e1dd879d861827a7679bfbe877b9cdb094f01e017ece71eb"
+
+[[files]]
+file = "config/sophisticatedcore-common.toml"
+hash = "810c148b7e351b2452a92468975dfd3c57e7ccbb034549ae887ea2061db9539d"
+
+[[files]]
+file = "config/sophisticatedstorage-client.toml"
+hash = "d851a2dfa88866f7de85ea7ea708446d8ed4eb425216506c483bebe8a27b07d1"
+
+[[files]]
+file = "config/sophisticatedstorage-common.toml"
+hash = "0c721ecf8a9a6fba8402b7ce73bf8580acdd078e9ac9c3b37c42245ca6d8c4b0"
+
+[[files]]
+file = "config/sophisticatedstorage-server.toml"
+hash = "14fd7d6fe210cb09644ef3fc07a796f3bb7e634cdb6e85fdbe949a5ca047ac96"
+
+[[files]]
+file = "config/structurify.json"
+hash = "9432deb09833a31855cb5522d41a9d6ed4a11edbf9346fe55883e1e9d33b9660"
+
+[[files]]
+file = "config/torchmaster.toml"
+hash = "4e3ea8ba9ece742baafbc846ebc26cb889249c9c442e677e773a786d2b866d20"
+
+[[files]]
+file = "config/turtlematic-common-1.toml.bak"
+hash = "435160e323114ab7ca5638d4f3ab092f107d64baf93ff1b7e111efeb743652a3"
+
+[[files]]
+file = "config/usefulslime/main.toml"
+hash = "4850db4df385110507d2246db17231ec60f2593cc32ea5edbf8b27a427441374"
+
+[[files]]
+file = "config/voicechat/translations.properties"
+hash = "693643b1d393cbb3ea7f062afc4474fcd66e4036c4f8d7c056434979cbf512d1"
+
+[[files]]
+file = "config/voicechat/username-cache.json"
+hash = "7fc24256836802e9cc22713a97f3474d1462fb84fa6ca93c2eadba113c38e13f"
+
+[[files]]
+file = "config/voicechat/voicechat-client.properties"
+hash = "aba6f7efc671b81d43df2483796c79724c467585e087e06fcc98f9651cb1ea5a"
+
+[[files]]
+file = "config/voicechat/voicechat-server.properties"
+hash = "f10ff44fbf6d2f418ecef22b14791fa4ebb6cf16f9d4b15e912c3b10389d5926"
+
+[[files]]
+file = "config/voicechat/voicechat-volumes.properties"
+hash = "58242ef3075b166845e0081281b01113a55b9d095104a68b167e7b4bc08b87c5"
+
+[[files]]
 file = "icon.png"
 hash = "d0696a76248de012624d3f05db292d52a8802f6031488238ae69259f64610553"
 
@@ -793,10 +1113,6 @@ file = "kubejs/assets/mi_tweaks/models/item/large_chemical_reactor.json"
 hash = "714083bebdd68bdad35583a0582afb60c915c8a2c7aa543d98da8819e4b9e76f"
 
 [[files]]
-file = "kubejs/assets/modern_industrialization/blockstates/alloy_smelter.json"
-hash = "3d83c3dcbbb2b5a6c560c2f07b83ed380dfeb337781f8875103b8c216bbb8622"
-
-[[files]]
 file = "kubejs/assets/modern_industrialization/blockstates/ammonia.json"
 hash = "f1120fb70661b0d59ba305e83319f8ceb9a3019b94ce0daf1c9fbebb92d8fd40"
 
@@ -815,6 +1131,10 @@ hash = "e96e5c0f8a14565806a8dafe84aa0123899c53abb3c0fe06911546626d70af5a"
 [[files]]
 file = "kubejs/assets/modern_industrialization/blockstates/brine.json"
 hash = "f1120fb70661b0d59ba305e83319f8ceb9a3019b94ce0daf1c9fbebb92d8fd40"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/blockstates/calorite_block.json"
+hash = "b779dd6930e183d7931cb7c701fc32b6e779abce7c2bca0695805ca55e12f851"
 
 [[files]]
 file = "kubejs/assets/modern_industrialization/blockstates/calorite_machine_casing.json"
@@ -867,6 +1187,10 @@ hash = "e1a108e3d24fbc30a8dc1bfada8f3cdf56a2399d1e25153f95157af45154075f"
 [[files]]
 file = "kubejs/assets/modern_industrialization/blockstates/deepslate_ostrum_ore.json"
 hash = "667f7b2d262862ed37947448dc3a2c507b6b50c4f21c7f5946bf2d9eb87f2424"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/blockstates/desh_block.json"
+hash = "1684c6e1c100016815a0b1f82eb12836410b96747da6ddea7c7b301375dae546"
 
 [[files]]
 file = "kubejs/assets/modern_industrialization/blockstates/desh_machine_casing.json"
@@ -925,20 +1249,8 @@ file = "kubejs/assets/modern_industrialization/blockstates/impure_resonating_flu
 hash = "f1120fb70661b0d59ba305e83319f8ceb9a3019b94ce0daf1c9fbebb92d8fd40"
 
 [[files]]
-file = "kubejs/assets/modern_industrialization/blockstates/large_chemical_reactor.json"
-hash = "f6ba86b3bb5ab5cf34c3833a255deb0f7e1e8bdc65596e370b89b708f5a4fe8a"
-
-[[files]]
 file = "kubejs/assets/modern_industrialization/blockstates/large_chemical_reactor.json.disabled"
 hash = "f6ba86b3bb5ab5cf34c3833a255deb0f7e1e8bdc65596e370b89b708f5a4fe8a"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/blockstates/large_steam_furnace.json"
-hash = "648755cc0cf30bf4e0959ffa1d2fc1a40223c7a80dc99492b0418bd9e9018497"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/blockstates/large_steam_macerator.json"
-hash = "7bba360b0e7b2a409d8c05b58f132ecf05e1476d8d1fa8e100365b451ec81bf6"
 
 [[files]]
 file = "kubejs/assets/modern_industrialization/blockstates/laser_engraver.json"
@@ -951,10 +1263,6 @@ hash = "f1120fb70661b0d59ba305e83319f8ceb9a3019b94ce0daf1c9fbebb92d8fd40"
 [[files]]
 file = "kubejs/assets/modern_industrialization/blockstates/lithium.json"
 hash = "f1120fb70661b0d59ba305e83319f8ceb9a3019b94ce0daf1c9fbebb92d8fd40"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/blockstates/mega_smelter.json"
-hash = "3ea4528a80f8474f963b2fc986afd0fde927442c3af6084891c1fb475e4dddb2"
 
 [[files]]
 file = "kubejs/assets/modern_industrialization/blockstates/mob_crusher.json"
@@ -993,6 +1301,10 @@ file = "kubejs/assets/modern_industrialization/blockstates/nutrient_rich_water.j
 hash = "f1120fb70661b0d59ba305e83319f8ceb9a3019b94ce0daf1c9fbebb92d8fd40"
 
 [[files]]
+file = "kubejs/assets/modern_industrialization/blockstates/ostrum_block.json"
+hash = "d7acab3a81673ee2e518de8589f9b102322bf681b1554ab03f68614a34c9ba7a"
+
+[[files]]
 file = "kubejs/assets/modern_industrialization/blockstates/ostrum_machine_casing.json"
 hash = "1fa0302768cd0383869bb7d384f4768a4d4d0f5574037c2adeea4064bf34d175"
 
@@ -1021,8 +1333,8 @@ file = "kubejs/assets/modern_industrialization/blockstates/polytetrafluoroethyle
 hash = "ae2b0ecc4e7f6471955e81044a6f8b0759d794bfa0e6f80c1421e6e88b586582"
 
 [[files]]
-file = "kubejs/assets/modern_industrialization/blockstates/pyrolyse_oven.json"
-hash = "432066a3d0f67c4b277992de0ffde350b5bee1bbdd16d31ef6fedeb63c493e88"
+file = "kubejs/assets/modern_industrialization/blockstates/quantum_space_probe_launcher.json"
+hash = "47487f589d12a0082b1040f577137f71da31da7f145a7de8e02f9f12da3d6c10"
 
 [[files]]
 file = "kubejs/assets/modern_industrialization/blockstates/raw_calorite_block.json"
@@ -1077,6 +1389,10 @@ file = "kubejs/assets/modern_industrialization/blockstates/tungstensteel_barrel.
 hash = "05e72fedd623ddde60621c676beddf66bc31057d9091ae00db36b7c15d90deca"
 
 [[files]]
+file = "kubejs/assets/modern_industrialization/blockstates/tungstensteel_block.json"
+hash = "043e953fd09196b6770507b341d4854e91497d80a58a129111605886848e2dce"
+
+[[files]]
 file = "kubejs/assets/modern_industrialization/blockstates/tungstensteel_coil.json"
 hash = "083b432e1c371af1122210296a4a484eb674a29e2254680a39f002b81314a88b"
 
@@ -1098,7 +1414,7 @@ hash = "f1120fb70661b0d59ba305e83319f8ceb9a3019b94ce0daf1c9fbebb92d8fd40"
 
 [[files]]
 file = "kubejs/assets/modern_industrialization/lang/en_us.json"
-hash = "a97fc033ac3dff07086ce953eb733c2a253edad49e45306d8c6b8a458114f33b"
+hash = "3fae5583bc1f07ac9770671841e284de0f0ec412471ff9c3364b8f56f1266d59"
 
 [[files]]
 file = "kubejs/assets/modern_industrialization/models/block/blood_generator.json"
@@ -1107,6 +1423,10 @@ hash = "f40cd3a5e9cf706a31eadd7e8adf3abae56271b0b4069a12342817d17f2d9d66"
 [[files]]
 file = "kubejs/assets/modern_industrialization/models/block/boss_crusher.json"
 hash = "3737504218c1168c2c71f7b511bc1d5f5810537cd9341c91c953d786f38cef57"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/block/calorite_block.json"
+hash = "5fbdbe07d860c208d9c3bb37b13075291fba9947645ccbf18e4171297230dbd1"
 
 [[files]]
 file = "kubejs/assets/modern_industrialization/models/block/calorite_machine_casing.json"
@@ -1119,10 +1439,6 @@ hash = "8e5b214516f6407bb0ba695b2c258bec9da17a8e3e5492d5c9512ade298c6944"
 [[files]]
 file = "kubejs/assets/modern_industrialization/models/block/calorite_ore.json"
 hash = "013fa9eadf249c325118a354865b9f067b6a385d6382b6b689cb38335402c587"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/models/block/calorite_pillar.json"
-hash = "ccbf5401aafebfb16a8d2de0c71b28dd629170cf3b0a861d5c2307d3b8593dff"
 
 [[files]]
 file = "kubejs/assets/modern_industrialization/models/block/chemically_inert_ptfe_casing.json"
@@ -1153,6 +1469,10 @@ file = "kubejs/assets/modern_industrialization/models/block/deepslate_ostrum_ore
 hash = "4b8dc0a1f424e532b2efe8d912afe48a454a2a17ffcd327c6498bb41bae35f93"
 
 [[files]]
+file = "kubejs/assets/modern_industrialization/models/block/desh_block.json"
+hash = "9033eadf3ca5c2f8312e130dfa514e3ee001181d1aba823a566dc705871051cf"
+
+[[files]]
 file = "kubejs/assets/modern_industrialization/models/block/desh_machine_casing.json"
 hash = "2771f438f2ef0ed1071870fe305b77f3591247c1d9146bc2426a9fbe61711f70"
 
@@ -1163,10 +1483,6 @@ hash = "b2ff26844c0dc06f58942628f5f9eade5069e0936a6d00212276d8797233e2d8"
 [[files]]
 file = "kubejs/assets/modern_industrialization/models/block/desh_ore.json"
 hash = "fdf267391d7580ee531d0ba0b373e0f5a495e6e46efb7c62a666f66abe375e0d"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/models/block/desh_pillar.json"
-hash = "a9b21024bb367ad1f1e9756f21045203518a8a85665dde0d64ccacfe3762ed94"
 
 [[files]]
 file = "kubejs/assets/modern_industrialization/models/block/enderium_block.json"
@@ -1201,6 +1517,10 @@ file = "kubejs/assets/modern_industrialization/models/block/moon_ice_ore.json"
 hash = "c222d1b094f1e7a139175cc6579a4923bd79eadc2187d089e9907ea66a5339ca"
 
 [[files]]
+file = "kubejs/assets/modern_industrialization/models/block/ostrum_block.json"
+hash = "299926df08a7f2bf5fc58314d83b9267cca152a5b29d2287a6e28530672f0faa"
+
+[[files]]
 file = "kubejs/assets/modern_industrialization/models/block/ostrum_machine_casing.json"
 hash = "fb299eb87403996fa6903191ea8d5511e72e4fabab134085166cb7adb828f3c9"
 
@@ -1213,10 +1533,6 @@ file = "kubejs/assets/modern_industrialization/models/block/ostrum_ore.json"
 hash = "ec75c86ace12cc00299c8d8723a1faa2db13ea4e83b8da1ad1adcab9631f8352"
 
 [[files]]
-file = "kubejs/assets/modern_industrialization/models/block/ostrum_pillar.json"
-hash = "9d040d7e545e56fb2c6bde8ee57a37b60176e1d080be4a1ce21054f4c34618e7"
-
-[[files]]
 file = "kubejs/assets/modern_industrialization/models/block/photosynthetic_chamber.json"
 hash = "fa9607f84cba77f570d9850c9a88e7f54711b0938779c5df93ebdd0ef714fdb5"
 
@@ -1227,6 +1543,10 @@ hash = "4179884d113a71175cf5cdd06df1af232946da55fd8a4127ba288f5d98fe7a9f"
 [[files]]
 file = "kubejs/assets/modern_industrialization/models/block/polytetrafluoroethylene_machine_casing_pipe.json"
 hash = "629ea06db0fef51e995a06dfb5e252ef0f72c3cc14a4ceac9acece19058c2514"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/block/quantum_space_probe_launcher.json"
+hash = "593cca10991ae845741c13af3aab88bcc643741ca45ecb654a5bacac59506763"
 
 [[files]]
 file = "kubejs/assets/modern_industrialization/models/block/raw_calorite_block.json"
@@ -1258,15 +1578,15 @@ hash = "e235729971d03cff306f631578afe6c5d52b28620c82ce897d5d358bac1f38a9"
 
 [[files]]
 file = "kubejs/assets/modern_industrialization/models/block/space_probe_launcher.json"
-hash = "36c9930d11ccb6c86101c94ff4565b18743bd7a13c82a3271dd8d33591b27a63"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/models/block/steel_pillar.json"
-hash = "190c8d8c56bf8230774fdfb2bec07fb8e6b67ebb006494ab5cd02e3364d55076"
+hash = "9cc8de21c3ae594879e32875adb5669fa2583583c12c4d7d863b997ddd7b1150"
 
 [[files]]
 file = "kubejs/assets/modern_industrialization/models/block/tungstensteel_barrel.json"
 hash = "36a6d13d5f9aea5f95db4ac2095a05b02d832e77016770cc5b2538d3d38b4eb1"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/block/tungstensteel_block.json"
+hash = "d9c6ac9e3035b77a494ddaeed4fd9267a1e83b30089b13312f680a6677caf476"
 
 [[files]]
 file = "kubejs/assets/modern_industrialization/models/block/tungstensteel_coil.json"
@@ -1305,8 +1625,16 @@ file = "kubejs/assets/modern_industrialization/models/item/brine_bucket.json"
 hash = "20ffd0b5f649c3d196e057e86e626f68aa4c33acf0b859d113fba6ab562baf38"
 
 [[files]]
+file = "kubejs/assets/modern_industrialization/models/item/calcite_dust.json"
+hash = "459534aa499f58514890ec2da2956e8b37850b52d13bc3ff6bb6c7ba0ebd2519"
+
+[[files]]
 file = "kubejs/assets/modern_industrialization/models/item/calorite_blade.json"
 hash = "f62814aa3a479f91f0918d1ceb085150462f3b198c1325c9fc02510b2c63ec54"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/item/calorite_block.json"
+hash = "fbb14b31d9c863c6474745bf1f0548597f75bb0c1f05652211fc1a472bfed4ec"
 
 [[files]]
 file = "kubejs/assets/modern_industrialization/models/item/calorite_bolt.json"
@@ -1343,10 +1671,6 @@ hash = "40df8ec28822f7b97e0b279e43dfd58b0da59086aa8ff6d6101aa8898f02467f"
 [[files]]
 file = "kubejs/assets/modern_industrialization/models/item/calorite_ore.json"
 hash = "34c1ce73033c542e541def424cce87006b5da7778953a74cb0b6ed542afb96c7"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/models/item/calorite_pillar.json"
-hash = "501e8955c727b65f1f754aac3a4e2e19e3c4482b349b63d76b16c3acae044518"
 
 [[files]]
 file = "kubejs/assets/modern_industrialization/models/item/calorite_plate.json"
@@ -1389,6 +1713,14 @@ file = "kubejs/assets/modern_industrialization/models/item/core_slurry_bucket.js
 hash = "d15d58c9d99e1bd384d148a54dd4ca29417671c2ff29f62de28399f4d36fc39e"
 
 [[files]]
+file = "kubejs/assets/modern_industrialization/models/item/dark_ashes_dust.json"
+hash = "0e1140b207a42a11693fbc14f4fba65e9bbb396518c34099b737e23b16935024"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/item/dark_ashes_tiny_dust.json"
+hash = "fb7fe088b437b4fc20f95c2311ffcfc9250fc47428567fc0dadb38e5da6858c4"
+
+[[files]]
 file = "kubejs/assets/modern_industrialization/models/item/deepslate_calorite_ore.json"
 hash = "0850f00c64821eefa56d620be33e5c8ae40a21f248c364437c2573b3f5b3595a"
 
@@ -1407,6 +1739,10 @@ hash = "717e8bca59a00be82429578ed22b3c7bf3c313131335a9d773cd104a10d0609f"
 [[files]]
 file = "kubejs/assets/modern_industrialization/models/item/deepslate_ostrum_ore.json"
 hash = "6afad3707480efafa569e376554063ee432c20c969db6cc45a96accc6d9c4d6a"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/item/desh_block.json"
+hash = "fa8f61f038089ba1f73b1ff8943d30e59da82370384f3f720cf85029afaaf095"
 
 [[files]]
 file = "kubejs/assets/modern_industrialization/models/item/desh_bolt.json"
@@ -1451,10 +1787,6 @@ hash = "51e56f0ab1e1d469be807e23d3d2427b67ac60df83c204e5610dfe7a4ffb04c9"
 [[files]]
 file = "kubejs/assets/modern_industrialization/models/item/desh_ore.json"
 hash = "6ef9ebe66c54fce8cdf60beafec268f02427553048c5eff0016d7f384ecd7b08"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/models/item/desh_pillar.json"
-hash = "3307841deb11ff467c33d8ea304075d3d26e68d3fa39a14437ae009a8a42c146"
 
 [[files]]
 file = "kubejs/assets/modern_industrialization/models/item/desh_plate.json"
@@ -1537,10 +1869,6 @@ file = "kubejs/assets/modern_industrialization/models/item/fluorite_tiny_dust.js
 hash = "7af44daacd8052eb5412bb69190bcabc5f1cde1d3f2b66cc45d32d746c5bac3b"
 
 [[files]]
-file = "kubejs/assets/modern_industrialization/models/item/gold_wire.json"
-hash = "d8e485e0cb766aa41e4974a8f6ab2e83bc8bd03d308b48409cbe4d35fd7ae930"
-
-[[files]]
 file = "kubejs/assets/modern_industrialization/models/item/greenhouse.json"
 hash = "08cfd7bb7030a21bdcf077d39d7f5d7e4e282970998186397b7dbb9235dbf3ab"
 
@@ -1613,6 +1941,10 @@ file = "kubejs/assets/modern_industrialization/models/item/nutrient_rich_water_b
 hash = "3c8ccbb2e0c50961675185acbbcedf22d3c229ae8a1182a68ec71f9a3a7c38df"
 
 [[files]]
+file = "kubejs/assets/modern_industrialization/models/item/ostrum_block.json"
+hash = "3efbd5be49f8a68d37cc6ead5ff2c49f7c522806f0eec0c30ff3b7c7c6492b18"
+
+[[files]]
 file = "kubejs/assets/modern_industrialization/models/item/ostrum_bolt.json"
 hash = "bd95e289ba22814f976fef81d2ddcc96047f105357dd877d564a46d42f8a1f8b"
 
@@ -1655,10 +1987,6 @@ hash = "0e54db3c8e5d30ef26ea37bfc4028ecdfce62a5dc5cc5885db10fd02cefdc0f0"
 [[files]]
 file = "kubejs/assets/modern_industrialization/models/item/ostrum_ore.json"
 hash = "c58bb63b7dae6dcc1f6a694b9de08b30c6ac56df21fb41d239089e1fe8ab0e19"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/models/item/ostrum_pillar.json"
-hash = "1aa577bd40ea87ee4612ada95627d901c051adbdf04a48b52dc817e11bcc7c5c"
 
 [[files]]
 file = "kubejs/assets/modern_industrialization/models/item/ostrum_plate.json"
@@ -1729,8 +2057,8 @@ file = "kubejs/assets/modern_industrialization/models/item/polytetrafluoroethyle
 hash = "806ebb137d5520d29122256b2e1b3c4f2f6416c40ae3518488b85a05f13ce1c0"
 
 [[files]]
-file = "kubejs/assets/modern_industrialization/models/item/pyrolyse_oven.json"
-hash = "e0808d72cd0d3ed33a62736636f78d942130f155fa723d0dde0fc08acf14047c"
+file = "kubejs/assets/modern_industrialization/models/item/quantum_space_probe_launcher.json"
+hash = "6dfae2552bffb8792fb5bb8aa04f2a81ec389250877c767582d2210dfa52df4b"
 
 [[files]]
 file = "kubejs/assets/modern_industrialization/models/item/raw_calorite.json"
@@ -1789,10 +2117,6 @@ file = "kubejs/assets/modern_industrialization/models/item/space_probe_launcher.
 hash = "9f218488879beb77553aa4aeda6a0a8bfb5ca57d668feb3223eedca33e0a1fa5"
 
 [[files]]
-file = "kubejs/assets/modern_industrialization/models/item/steel_pillar.json"
-hash = "bff7b09e5afac3dbc6766ad07b4465715b371335a36f88b2a717cf06f2f3d935"
-
-[[files]]
 file = "kubejs/assets/modern_industrialization/models/item/stone_dust.json"
 hash = "da5ac1ebde5e288e6a2b19dee168c1d78219b08cec5c80d3e60a7e6e8efd457f"
 
@@ -1805,8 +2129,16 @@ file = "kubejs/assets/modern_industrialization/models/item/tetrafluoroethylene_b
 hash = "fc095e86f6b9e6e99397a59c9df6e9b913a378fbb11f1eded5d13d7c5a8c42bd"
 
 [[files]]
+file = "kubejs/assets/modern_industrialization/models/item/tuff_dust.json"
+hash = "01672863bb35698626643e1122ab522854cd42d814a531f245f75a07bd5cf799"
+
+[[files]]
 file = "kubejs/assets/modern_industrialization/models/item/tungstensteel_barrel.json"
 hash = "23ea691823d187276fc18174353323cbdc8a26e25038fe47439bb736ae95813f"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/item/tungstensteel_block.json"
+hash = "f7000625dcaefb5cf172152f0e539f8dc0273e2ae1ec47779fb8756b04f0678c"
 
 [[files]]
 file = "kubejs/assets/modern_industrialization/models/item/tungstensteel_bolt.json"
@@ -1925,70 +2257,6 @@ file = "kubejs/assets/modern_industrialization/models/machine_casing/desh_machin
 hash = "b21c08bb2dfa1d0235ac3b616dd6fd8411595354f2f187f894edc6155c24e31f"
 
 [[files]]
-file = "kubejs/assets/modern_industrialization/models/machine_old/alloy_smelter.json"
-hash = "29b82e63ea3bd801e2a0e2ad944cf7bf43c395adcc55aeaf903587ecf8a729a8"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/models/machine_old/blood_generator.json"
-hash = "f0687e24d8647b6ddd217bd61aa99cd2b6cb8cf1e041224b294569abc7a0d671"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/models/machine_old/boss_crusher.json"
-hash = "fd4d724fa62182d0ccb71ee93b1eabaf3ba2e6f5a068571d3cda56ad2297176c"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/models/machine_old/core_drill.json"
-hash = "c02b692757932168a2b288411a491b4c51d4fdbef20204e1cac49e4526363d06"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/models/machine_old/greenhouse.json"
-hash = "ffc5d4451c106d9b1103d056a376a060d527e329cbc05dbbb96500ae4699d1aa"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/models/machine_old/large_chemical_reactor.json"
-hash = "7dc8062a8ef07bce9624f58ae40eb03008bdb97042e96700bcd6031e59afb5de"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/models/machine_old/large_steam_furnace.json"
-hash = "c37368414d594375e876c61103d0bf5c481c6a61b4b00678aa84cb485dc0ef07"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/models/machine_old/large_steam_macerator.json"
-hash = "669e08432a3561dac171dbd4bea5d7b8f4b2b128cc35857655ed51f9c14801d6"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/models/machine_old/laser_engraver.json"
-hash = "93d353299c91d1d824e55ca226ebd6c4c4a2c06f2eb27568262fcd7c9b920e75"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/models/machine_old/mega_smelter.json"
-hash = "fedf39993bbf92933498dc058723602d86cb9271bf7d1d224f84575d4e669b7c"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/models/machine_old/mob_crusher.json"
-hash = "e68ed12221521a8cd3d9cc90881dfca980013c519ac294327471ed35a5dbc91c"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/models/machine_old/photosynthetic_chamber.json"
-hash = "fa9607f84cba77f570d9850c9a88e7f54711b0938779c5df93ebdd0ef714fdb5"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/models/machine_old/pyrolyse_oven.json"
-hash = "0082dc42c4cf0bb1182c31e09c35041038f12d46eaae69b3aac023a499c45a0a"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/models/machine_old/rocket_part_assembler.json"
-hash = "d3c91776472bfba5ddb4c7d0a313faf3ae20e1f1c25f043cdec13c615e89d8ce"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/models/machine_old/singularity_forge.json"
-hash = "e4aadc9bba015de8ef9e5abc6a3817cdcb5829c65db101c893dd9f79490596b6"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/models/machine_old/space_probe_launcher.json"
-hash = "6057464cc05eaf1f8c3d063b6912b9eb21b70242fb9c3c7d2e895f32ef6f21e5"
-
-[[files]]
 file = "kubejs/assets/modern_industrialization/textures/block/advanced_machine_casing.png"
 hash = "6fcf386ae8f7682dfeeb47cfdda7173682128e144086a4f65cdfa57bc7ac0895"
 
@@ -2009,6 +2277,10 @@ file = "kubejs/assets/modern_industrialization/textures/block/bronze_plated_bric
 hash = "340958d76f62c3a56cd722c619cb3eaf4254b4cba3ddcf3ff4db817e04b896d4"
 
 [[files]]
+file = "kubejs/assets/modern_industrialization/textures/block/calorite_block.png"
+hash = "89f52b06b89ab7954c791f521c7fd1588829bc9863d0f4e85e96089d224d5826"
+
+[[files]]
 file = "kubejs/assets/modern_industrialization/textures/block/calorite_machine_casing.png"
 hash = "38bd67e0828773f2bd438c73a6b77862e2a48b0c72d520e90d02348e92e6b6c4"
 
@@ -2021,40 +2293,12 @@ file = "kubejs/assets/modern_industrialization/textures/block/calorite_ore.png"
 hash = "2c738b5c3a468158582c2db44d6e8a3f174f68c5b7199ebfa5a69209b1418045"
 
 [[files]]
-file = "kubejs/assets/modern_industrialization/textures/block/calorite_pillar.png"
-hash = "172cf56656d8cec7f9e04d7d990b83bff1dfdd39b9911586c5f00ca751588d79"
-
-[[files]]
 file = "kubejs/assets/modern_industrialization/textures/block/casings/bricked_bronze.png"
 hash = "89a5ff3dbef35920a2c70926887894702a5c1b4a425ca246d647b3d0f4a2778f"
 
 [[files]]
 file = "kubejs/assets/modern_industrialization/textures/block/casings/bricked_steel.png"
 hash = "f4c6037d7ca0902d24d29c2b3596c40e2afcaacf41cf4248b9a93b6f018e82be"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/textures/block/casings/calorite_machine_casing/bottom.png"
-hash = "38bd67e0828773f2bd438c73a6b77862e2a48b0c72d520e90d02348e92e6b6c4"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/textures/block/casings/calorite_machine_casing/side.png"
-hash = "38bd67e0828773f2bd438c73a6b77862e2a48b0c72d520e90d02348e92e6b6c4"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/textures/block/casings/calorite_machine_casing/top.png"
-hash = "38bd67e0828773f2bd438c73a6b77862e2a48b0c72d520e90d02348e92e6b6c4"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/textures/block/casings/ptfe_machine_casing/bottom.png"
-hash = "d795924a520ce6952476b136a4e22135e09a5035f8bb8144f0de292d0c472413"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/textures/block/casings/ptfe_machine_casing/side.png"
-hash = "d795924a520ce6952476b136a4e22135e09a5035f8bb8144f0de292d0c472413"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/textures/block/casings/ptfe_machine_casing/top.png"
-hash = "d795924a520ce6952476b136a4e22135e09a5035f8bb8144f0de292d0c472413"
 
 [[files]]
 file = "kubejs/assets/modern_industrialization/textures/block/chemically_inert_ptfe_casing.png"
@@ -2093,6 +2337,10 @@ file = "kubejs/assets/modern_industrialization/textures/block/deepslate_ostrum_o
 hash = "b82d92deb74e031a7939576512b90032cf55d25b6f43e7001f9ca09ef75f586f"
 
 [[files]]
+file = "kubejs/assets/modern_industrialization/textures/block/desh_block.png"
+hash = "a2d80decdcac9c18bf5228c29ecd10e2e462ee295addc33431503f7ed6477704"
+
+[[files]]
 file = "kubejs/assets/modern_industrialization/textures/block/desh_machine_casing.png"
 hash = "3487bbf0f74464ee6e9aaae5926b89c82d1f23173abb2d8f4fc15fd14dd8eaf4"
 
@@ -2103,10 +2351,6 @@ hash = "2deb8de2beae05f6a7288467621d15001792f7962084f5773d2d40d95b6be19b"
 [[files]]
 file = "kubejs/assets/modern_industrialization/textures/block/desh_ore.png"
 hash = "22909875f0bd92ca9799cc32200b352d1080235e247f149169e772e41ef9aa36"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/textures/block/desh_pillar.png"
-hash = "89325432b4a0e1a907185b6895078386e1ff12bae4fd82441f9bd54743293795"
 
 [[files]]
 file = "kubejs/assets/modern_industrialization/textures/block/enderium_block.png"
@@ -2149,174 +2393,6 @@ file = "kubejs/assets/modern_industrialization/textures/block/kanthal_coil_top.p
 hash = "340811aaef7df8b2e7e1678e21ada6d4fbb3e0a50b93265edfab797e1443f9c3"
 
 [[files]]
-file = "kubejs/assets/modern_industrialization/textures/block/machines/alloy_smelter/overlay_front.png"
-hash = "b24f19c6c964785bf9ae96e46ed95989715ffccd2002ebe761da77b5c69d8d61"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/textures/block/machines/alloy_smelter/overlay_front_active.png"
-hash = "4a0917a97350be76235d6287af99f80c9098a554795a661f0afb382b84f4d12c"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/textures/block/machines/blood_generator/overlay_front.png"
-hash = "2ec148da4496196ede182397731b62d18b2230a6ce3d270cada9c99faab0e27b"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/textures/block/machines/blood_generator/overlay_front_active.png"
-hash = "64582f9f40d14aa59adec127e0a459d6e47018488ebc370130b6ec563a570421"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/textures/block/machines/blood_generator/overlay_front_active.png.mcmeta"
-hash = "f2e6dc80196c6dc10b50b367ffd6adea745a9fcfcc36c43bc57e55644ed8be2c"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/textures/block/machines/core_drill/overlay_front.png"
-hash = "825af63ad86835ea1cd81c16008ef566c2f84bed025b3960324b9d02bda01ba8"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/textures/block/machines/core_drill/overlay_front_active.png"
-hash = "f577731b2917429138b6185538df763b748f2e3eef75ffccdd5e8a3b125327b3"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/textures/block/machines/core_drill/overlay_front_active.png.mcmeta"
-hash = "5c669e75699b5c3ba581b8b57becfe8ebcddca080b89cafe1d473d618df03707"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/textures/block/machines/core_drill/overlay_qchest_emissive.png"
-hash = "fbb341028b3c254cdd9e0fd1a2c577e2588b06abc74d6452fb5e32ff89b06190"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/textures/block/machines/greenhouse/overlay_front.png"
-hash = "825af63ad86835ea1cd81c16008ef566c2f84bed025b3960324b9d02bda01ba8"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/textures/block/machines/greenhouse/overlay_front_active.png"
-hash = "43fa41ab79e6bff614a3bf2f96e2649e4dd213544eff4b795746511aa4c68185"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/textures/block/machines/greenhouse/overlay_front_active.png.mcmeta"
-hash = "5c669e75699b5c3ba581b8b57becfe8ebcddca080b89cafe1d473d618df03707"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/textures/block/machines/large_steam_furnace/overlay_front.png"
-hash = "410976a469d788436a662c0bae6d4276a46723a917d198b52ea0444d5924e629"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/textures/block/machines/large_steam_furnace/overlay_front_active.png"
-hash = "d23806d3f7b4464bb20d9f084ac6eace721b4a5c1f56f3d8ba007d6a3f2f3aa9"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/textures/block/machines/large_steam_macerator/overlay_front.png"
-hash = "518ed284142838bb58ff0d16bbb556d3c138647d82d967f7e6736cd2d590254c"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/textures/block/machines/large_steam_macerator/overlay_front_active.png"
-hash = "7b38fac3eaa6631ead315086183c0108d59333c7d350adb801ea29a3afcac838"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/textures/block/machines/laser_engraver/overlay_front.png"
-hash = "a0836d386d8bccf6a98a95416e097f1158b7a1ba0d29222c96a63f9434f6a28d"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/textures/block/machines/laser_engraver/overlay_front_active.png"
-hash = "181ae88e2afa755f618f33b1c2b7da564cd77c8f548e654e8eae95902b4b35ec"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/textures/block/machines/laser_engraver/overlay_front_active.png.mcmeta"
-hash = "55006ae74d4a8cf82b379455ee30d9321ab55b8e3c0e3f2fe2074e29e9ee2f66"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/textures/block/machines/mega_smelter/overlay_front.png"
-hash = "2fd48d14abeeea51bd2aaeda794bb72a98279e6e68cd52f48a27d2f912a4b114"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/textures/block/machines/mega_smelter/overlay_front_active.png"
-hash = "2ba67749cf1ae374cee57939316f93f498ee1e93525540ecace902942d705b0a"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/textures/block/machines/mob_crusher/overlay_front.png"
-hash = "825af63ad86835ea1cd81c16008ef566c2f84bed025b3960324b9d02bda01ba8"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/textures/block/machines/mob_crusher/overlay_front_active.png"
-hash = "1008ea470e3fb87a864d5ddf4eb52972c1ba0b79eb22b2eb8ceab664d8b3573e"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/textures/block/machines/mob_crusher/overlay_front_active.png.mcmeta"
-hash = "020d0fb66269c882fcb0457cdc5cf85f5bcecbf9923d5083043f4ecada322d21"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/textures/block/machines/photosynthetic_chamber/overlay_front.png"
-hash = "3b818741eb50be1f372f3dcfc66117e9ede197d246300c3556ee8409af469eda"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/textures/block/machines/photosynthetic_chamber/overlay_front_active.png"
-hash = "4dd6f3c3d10c5ec0fb58d9e2af0a70978b2b58b861ed8ff03725042e027bdf33"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/textures/block/machines/photosynthetic_chamber/overlay_front_active.png.mcmeta"
-hash = "57f0707e88b2c6f94374039f71ff03e795cae3d9768d09a11baad8a762d3556d"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/textures/block/machines/pyrolyse_oven/overlay_front.png"
-hash = "d822fd6bdb33a5af84c3849827c629ff9c049aa34593a6a3788bb4f4d09c16c3"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/textures/block/machines/pyrolyse_oven/overlay_front_active.png"
-hash = "efeffcb35ecc91250dbca3dd7803bf376f04f2bbfc69c0067eabd9105abb96b5"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/textures/block/machines/pyrolyse_oven/overlay_front_active.png.mcmeta"
-hash = "9290d0968f9777942810ebeaf23fa7326090038da5e1bf8f606e7e9a0b6aea4b"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/textures/block/machines/rocket_part_assembler/overlay_front.png"
-hash = "d822fd6bdb33a5af84c3849827c629ff9c049aa34593a6a3788bb4f4d09c16c3"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/textures/block/machines/rocket_part_assembler/overlay_front_active.png"
-hash = "efeffcb35ecc91250dbca3dd7803bf376f04f2bbfc69c0067eabd9105abb96b5"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/textures/block/machines/rocket_part_assembler/overlay_front_active.png.mcmeta"
-hash = "9290d0968f9777942810ebeaf23fa7326090038da5e1bf8f606e7e9a0b6aea4b"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/textures/block/machines/rocket_part_assembler/overlay_top.png"
-hash = "7e0c073afa999bd7be4fc93d9564c3994b21126523efdd889e4f86a0f2fe462f"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/textures/block/machines/rocket_part_assembler/overlay_top_active.png"
-hash = "d9e30071a3a18487b32c3271eb61244ef0939e9b9e8aaadb0a6706be9005780f"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/textures/block/machines/singularity_forge/overlay_front.png"
-hash = "825af63ad86835ea1cd81c16008ef566c2f84bed025b3960324b9d02bda01ba8"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/textures/block/machines/singularity_forge/overlay_front_active.png"
-hash = "3295a8540225f0165ad55c54aa2edd1a60b09834466de630e38463a74178389a"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/textures/block/machines/singularity_forge/overlay_front_active.png.mcmeta"
-hash = "fc6defe932620a47bd7723a67150064651e9651cc7242402ec359625884aac9e"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/textures/block/machines/singularity_forge/overlay_top.png"
-hash = "7e0c073afa999bd7be4fc93d9564c3994b21126523efdd889e4f86a0f2fe462f"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/textures/block/machines/singularity_forge/overlay_top_active.png"
-hash = "036d2cea3bac146180a851c4c2a947082d08072fb9cfc9e4d7b73d6e497e9c4b"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/textures/block/machines/space_probe_launcher/overlay_front.png"
-hash = "b27db5b39f203d8341c5c2000eeea4e2b3fd6f574ac70b140d60b733fb95428a"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/textures/block/machines/space_probe_launcher/overlay_front_active.png"
-hash = "9ac2fd274434946017d782fdba1fe4006209ac618b22a250669ccc06967a5425"
-
-[[files]]
 file = "kubejs/assets/modern_industrialization/textures/block/moon_ice_ore.png"
 hash = "def36fdf8dc5955f2df53182f0586d8b7d8c592fc80164472c65aea078703295"
 
@@ -2329,6 +2405,10 @@ file = "kubejs/assets/modern_industrialization/textures/block/nuclear_casing.png
 hash = "259616123b1c0cce8325d5dfd8b0739f2e8d2e8120709a7e7eefe1e21bbc08ff"
 
 [[files]]
+file = "kubejs/assets/modern_industrialization/textures/block/ostrum_block.png"
+hash = "2631e1c7719b4b7954585a5bba6fdc314ecdce80fb65dccfbcc9779fc3a57655"
+
+[[files]]
 file = "kubejs/assets/modern_industrialization/textures/block/ostrum_machine_casing.png"
 hash = "eb654ab9b337072329da388a56ecd72a897b2b9524ef28f75201c12bf6860dc7"
 
@@ -2339,10 +2419,6 @@ hash = "feccf7435c4d67c9ac2a8dfa3eae2afcc5fc16cb8e836198fd339e834b458700"
 [[files]]
 file = "kubejs/assets/modern_industrialization/textures/block/ostrum_ore.png"
 hash = "6f6b456ed771e69ed420f8f8f32b523b31719237ae6402476570670401379f64"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/textures/block/ostrum_pillar.png"
-hash = "aa54156bc11ea903b834932d882ed41b5d676fd4f6abc74f2a36f9eb3ccc6e97"
 
 [[files]]
 file = "kubejs/assets/modern_industrialization/textures/block/plasma_handling_iridium_machine_casing.png"
@@ -2397,10 +2473,6 @@ file = "kubejs/assets/modern_industrialization/textures/block/steel_machine_casi
 hash = "fb66416cc6f92567934c685227f97bf5a7263c708a61f09c7e5666bffcb6f786"
 
 [[files]]
-file = "kubejs/assets/modern_industrialization/textures/block/steel_pillar.png"
-hash = "c1584c2513f1eac895a4ea8d880ae1820e290dcf4db53d616a3e32b14254d880"
-
-[[files]]
 file = "kubejs/assets/modern_industrialization/textures/block/superconductor_coil_side.png"
 hash = "c3f82d6e4b24725d6b348db60f869d351c7cd9273a7a662ad8ed44b51bb2689f"
 
@@ -2421,12 +2493,16 @@ file = "kubejs/assets/modern_industrialization/textures/block/tungstensteel_barr
 hash = "d2faad742605cea64c5ea453b9dbbca596b67ad36a68b50c7dc5b89413b5d587"
 
 [[files]]
+file = "kubejs/assets/modern_industrialization/textures/block/tungstensteel_block.png"
+hash = "d074d4508ec4626e3bc883ff699dd5781ca77d21b4be8bd3cd79e4d47396ca37"
+
+[[files]]
 file = "kubejs/assets/modern_industrialization/textures/block/tungstensteel_coil_side.png"
 hash = "c4c4eca6892244ade72a5562da39d7d017b2c027ed11de718ed1ecb528afbda4"
 
 [[files]]
 file = "kubejs/assets/modern_industrialization/textures/block/tungstensteel_coil_top.png"
-hash = "c4c4eca6892244ade72a5562da39d7d017b2c027ed11de718ed1ecb528afbda4"
+hash = "b567722b4bcd3ac1e6794a0d52f43b4919724e2a11b7c3c9030f09cbc4861a6e"
 
 [[files]]
 file = "kubejs/assets/modern_industrialization/textures/block/tungstensteel_machine_casing.png"
@@ -2645,6 +2721,10 @@ file = "kubejs/assets/modern_industrialization/textures/fluid/wood_tar_still.png
 hash = "4e0b40c37c420d3aa6350220488d76dbe6c93ef8795e77ed85115ad00a540791"
 
 [[files]]
+file = "kubejs/assets/modern_industrialization/textures/gui/progress_bar/rocket.png"
+hash = "8c8d7493846d8190588e663fbad2146b316ce65f1c311815130ac2d7c825c3e6"
+
+[[files]]
 file = "kubejs/assets/modern_industrialization/textures/item/aluminum_blade.png"
 hash = "5410ac9c4965cb0650f82f11656a6609a7fe87cc428f4e3fee5347128fd3a581"
 
@@ -2707,6 +2787,10 @@ hash = "d0dfdc45feaafcda6e4b36f4b866b0d25a6013f036963601f357539f9d3d35ca"
 [[files]]
 file = "kubejs/assets/modern_industrialization/textures/item/bronze_rotor.png"
 hash = "6023be83384653e0ab83da7e8f66e0ae6ff0f250c49c4bf79814f5651b81d4a9"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/textures/item/calcite_dust.png"
+hash = "84b38b31c99875a314c7a7ef903bcd6d1a48f030317548cbed05f3fb8d2489c1"
 
 [[files]]
 file = "kubejs/assets/modern_industrialization/textures/item/calorite_blade.png"
@@ -2799,6 +2883,14 @@ hash = "00fdb83fcadbb71c5a7e4a6eaae3dc4bc73192bc7399201fc5cf2a5f15778406"
 [[files]]
 file = "kubejs/assets/modern_industrialization/textures/item/core_slurry_bucket.png"
 hash = "daaec7690d5f6e9aff2a5e241d85a82df2cd66c64be4076462d0439b5ef77148"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/textures/item/dark_ashes_dust.png"
+hash = "f4a4b0bbf9d789b31c140d61868f1d953e4741e337ccaf85cf40a48bd9ff22c0"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/textures/item/dark_ashes_tiny_dust.png"
+hash = "96f81b690efa8f6b52560094882437fc997aca07412a07fdc8bef47e1f07d133"
 
 [[files]]
 file = "kubejs/assets/modern_industrialization/textures/item/desh_bolt.png"
@@ -2919,10 +3011,6 @@ hash = "a976747af937fc12a0e59ef54beb7d02c806781727fce3ceffde724f9018c290"
 [[files]]
 file = "kubejs/assets/modern_industrialization/textures/item/gold_ring.png"
 hash = "11938ef1430dfba7307bebac4e472ff4e8fe8e5c16dba2052946bd5ca9910fe5"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/textures/item/gold_wire.png"
-hash = "2557cc7df860bb2967e9f82b679c77657759cbe05c0707b26c5bdb9f4e942ce4"
 
 [[files]]
 file = "kubejs/assets/modern_industrialization/textures/item/hydrofluoric_acid_bucket.png"
@@ -3229,6 +3317,10 @@ file = "kubejs/assets/modern_industrialization/textures/item/titanium_rotor.png"
 hash = "90cda75c5d07910cc26a50d2be274f4e2acacdc1f5dbd69dd17fb2a8219d2acd"
 
 [[files]]
+file = "kubejs/assets/modern_industrialization/textures/item/tuff_dust.png"
+hash = "1c7d4002b91b8853d2565569db060f9add82fa9d87f37553c13140b14f4fdf73"
+
+[[files]]
 file = "kubejs/assets/modern_industrialization/textures/item/tungsten_large_plate.png"
 hash = "c8ae840dce6153673522b3aff0cd219a200e957437f68f83841f4972f2f68c03"
 
@@ -3369,12 +3461,16 @@ file = "kubejs/assets/zedtech.zip"
 hash = "01e63558e1c02cd7f3fcf0ea09672cbcd93c99ed2502c5b137f568c2b46baf1c"
 
 [[files]]
+file = "kubejs/client_scripts/capes.js"
+hash = "dae68571b6de46b3fa790d467f99ad15e6a91c06ddbdeae34e300ee715edf52d"
+
+[[files]]
 file = "kubejs/client_scripts/jsconfig.json"
 hash = "bf3c8597df0521316f23f9412e02e076f925275dab3af1146a54fe008dfedcb1"
 
 [[files]]
 file = "kubejs/client_scripts/main.js"
-hash = "3df46f0add819bf2602642215b5c62f0581ffdaaf97e77c80a8c4d966e05adcf"
+hash = "1c2d0e4c71ee9b7f698650a7fbb8d32204e897ed68854aa852606d381dfacfdf"
 
 [[files]]
 file = "kubejs/config/client.json"
@@ -3398,15 +3494,15 @@ hash = "d153a89cf14a9477110b27f328a7f95c540d9f42899e370fddd020315baa1602"
 
 [[files]]
 file = "kubejs/data/minecraft/tags/block/mineable/pickaxe.json"
-hash = "39aed13ace32f7692707eb6da95dda9ee9a6f2b5fb4c16425799d070acc6c5b4"
+hash = "b628b1a31b11a926bf9b94dc2cd60ed3a86608c4df7b24546cf1873d70007923"
 
 [[files]]
 file = "kubejs/data/minecraft/tags/block/needs_stone_tool.json"
-hash = "81886c57f1cea43ceda78b46450f1c158c57691b9002b82116739ab507aafdb4"
+hash = "f0df98b11441a78cfced49a92a23b431f9e107e06b01ef005bb91d534775acb5"
 
 [[files]]
 file = "kubejs/data/modern_industrialization/data_maps/item/item_tooltips.json"
-hash = "241fa6f9a632b6e43f627b8c3642d46095b4c40ef5fc8c3ba8a6ff69715914c5"
+hash = "ad54dc454f40a0a5a9324b5e5fe35131b2aeea1a64fc31ea2a1534147dda6f19"
 
 [[files]]
 file = "kubejs/data/modern_industrialization/loot_table/blocks/blood_generator.json"
@@ -3415,6 +3511,10 @@ hash = "34047cb09bcc1b6d9d9d2ec0b6f3673f61cbf22cf8a41ab5feee8ebd785ad5c6"
 [[files]]
 file = "kubejs/data/modern_industrialization/loot_table/blocks/boss_crusher.json"
 hash = "48318a4a7dc655b9a314e5d3420ef2409d82c9a13ccc603b6c3784cf53c2caad"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/loot_table/blocks/calorite_block.json"
+hash = "6d443dedacdc9fd95832d9934d9d3fe8cee1843af0c96765c13dc155ae5493cf"
 
 [[files]]
 file = "kubejs/data/modern_industrialization/loot_table/blocks/calorite_machine_casing.json"
@@ -3459,6 +3559,10 @@ hash = "dca15c46b2b9f0126b1f8a55a8392622e2778f269dc548c157f629629942595a"
 [[files]]
 file = "kubejs/data/modern_industrialization/loot_table/blocks/deepslate_ostrum_ore.json"
 hash = "a9147696b7bbba0360a1ddab19567224b81011dd62da684d1e3cd888497d6a62"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/loot_table/blocks/desh_block.json"
+hash = "82c52ebaeb52ef5af8a329bc1a1f8bf7e099246eb9fb3de60a7b5dbd31f268f3"
 
 [[files]]
 file = "kubejs/data/modern_industrialization/loot_table/blocks/desh_machine_casing.json"
@@ -3509,6 +3613,10 @@ file = "kubejs/data/modern_industrialization/loot_table/blocks/moon_ice_ore.json
 hash = "6850c1e064f185439f72dfbeebebf632101772dc670ab448769d464830d0010c"
 
 [[files]]
+file = "kubejs/data/modern_industrialization/loot_table/blocks/ostrum_block.json"
+hash = "a74a3c510940805971fc6d3508c15ba540bb46bd5bc8cd680b5169cc75c90e17"
+
+[[files]]
 file = "kubejs/data/modern_industrialization/loot_table/blocks/ostrum_machine_casing.json"
 hash = "1e63ba92bc947955818536b7532fc2a678fede7288f7a91c084ed78383f9721d"
 
@@ -3535,6 +3643,10 @@ hash = "c47c48de9679dce45490ceb0a820797ed13717d0d7eafbc55b4a621256fc3f09"
 [[files]]
 file = "kubejs/data/modern_industrialization/loot_table/blocks/polytetrafluoroethylene_machine_casing_pipe.json"
 hash = "4a44f4954c8c83f183b02c70310a916ecca6b97498746be56410894d9ddf7c38"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/loot_table/blocks/quantum_space_probe_launcher.json"
+hash = "a6f1d083f038d3d6746fa7bfa37b028211361dc28a2df7304bbadf525b12d1ea"
 
 [[files]]
 file = "kubejs/data/modern_industrialization/loot_table/blocks/raw_calorite_block.json"
@@ -3573,6 +3685,10 @@ file = "kubejs/data/modern_industrialization/loot_table/blocks/steel_pillar.json
 hash = "d11524a34af06bff9f6478c3b2e0ae204340c1aa6d62c79aa3b809e738952c73"
 
 [[files]]
+file = "kubejs/data/modern_industrialization/loot_table/blocks/tungstensteel_block.json"
+hash = "62bc981584777f7fce0ad69cd64bc5362ec10e8576d17ef0ef6ddc129cc7eab2"
+
+[[files]]
 file = "kubejs/data/modern_industrialization/loot_table/blocks/tungstensteel_coil.json"
 hash = "bb38cae46d7661ed7cfed9da5598a291a85cbc0745e7a39b69dd69a83c81d88c"
 
@@ -3593,552 +3709,944 @@ file = "kubejs/data/modern_industrialization/neoforge/biome_modifier/ore_generat
 hash = "8bc7a8a33ad00334b1652fe555846f8eb4c38683bdfca7862b59ff8d0387ebd5"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/calorite/craft/blade.json"
-hash = "647469611dc19142821d45ddd1bb24a08f918066584f7a29d32e1551c2162bf9"
+file = "kubejs/data/modern_industrialization/recipe/materials/calorite/assembler/gear.json"
+hash = "02e89d024da929b34dbd799e880c1fefbbc654ff67e9d8d83915b8ee158ec87d"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/calorite/craft/gear.json"
-hash = "45a57dc1d4cb02e0fc4e92af79b39e0239c23564669df322a3c87cc9e59ecdd4"
+file = "kubejs/data/modern_industrialization/recipe/materials/calorite/compressor/main.json"
+hash = "90888d12e3ba07eb2be3ebef201ba8d6416237d359bece6ed19eabff385fe471"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/calorite/craft/ring.json"
-hash = "6c8a59e4ca340500b7106f43c721fd165963b7c9ece97b52dcfce9b7c325c003"
+file = "kubejs/data/modern_industrialization/recipe/materials/calorite/compressor/plate.json"
+hash = "c6c9c601df9aeaf949ab7aeb9bf5e47d58398a3aa9fbe4c02de08171668b960c"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/calorite/heat_exchanger/hot_ingot.json"
-hash = "a07a8b844111821f2b60c34130db3cff0a3f4dd74256abd2716974cb9e64ef3f"
+file = "kubejs/data/modern_industrialization/recipe/materials/calorite/compressor/ring.json"
+hash = "fe58c52e87e41bb134b4ea908bf83b735a85eeb067af73d5dd56765bf3bb3c52"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/clay/craft/dust_from_tiny_dust.json"
-hash = "83ed60f6426f9598fc5a6747b666298a6a2f3472e184e913843770c4d8696206"
+file = "kubejs/data/modern_industrialization/recipe/materials/calorite/craft/blade.json"
+hash = "0b7bb78a448bb48644bef4be7bbaa1c788dfebd5831b7d7f8b8cd2c54f9cadf6"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/clay/craft/tiny_dust_from_dust.json"
-hash = "bd46ff91c3422d1a872fbbb85bd6bafd5662d358f98f6a2549f07e6a174301a2"
+file = "kubejs/data/modern_industrialization/recipe/materials/calorite/craft/block_from_ingot.json"
+hash = "96e8e808129ff64c38d89883065b556b5ed37e56041fc69704017da272bf8e3e"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/clay/macerator/ingot.json"
-hash = "23e74ca29f9e13c3b93b6f5a10d65d508517b9f832ac3c0c8f7ca424e46636ac"
+file = "kubejs/data/modern_industrialization/recipe/materials/calorite/craft/deepslate_to_ore.json"
+hash = "836f8f9fd262f3417c00be3e818eb3ac0edf1ccdb3535f5a92ba8f59a09602f6"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/clay/packer/dust.json"
-hash = "09583e39ad57ff47d6a8a98f236729ab64de60b545c23a8746037dab58e2defb"
+file = "kubejs/data/modern_industrialization/recipe/materials/calorite/craft/gear.json"
+hash = "fe3aacb4c9cb8f622d098d14f2796c38bf31f36d676397d4c642a12d279ef71f"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/clay/smelting/dust_to_ingot_blasting.json"
-hash = "5ec819e2b59b32d1236ea5bc1a556b0b76919feeed997a69f4254aa4da450ff1"
+file = "kubejs/data/modern_industrialization/recipe/materials/calorite/craft/ingot_from_block.json"
+hash = "7a7a51135621d7b2ef91047fe07a57a26179f55c37b80990432bd2d505200885"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/clay/smelting/dust_to_ingot_smelting.json"
-hash = "e4f49533e4e9061ab463243dd3eaab6c1c87261b7c21d2f96c75f66061fe90fc"
+file = "kubejs/data/modern_industrialization/recipe/materials/calorite/craft/raw_metal_block_from_raw_metal.json"
+hash = "41f9b554fc65b4a49b37f3f303c711b1a7f810e8fdf9b3a00f50a538346bdd1e"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/clay/unpacker/tiny_dust.json"
-hash = "65291dbade95467917ebd1f809ae681ad4762e4c158b9498e9baf31e3987095d"
+file = "kubejs/data/modern_industrialization/recipe/materials/calorite/craft/raw_metal_from_raw_metal_block.json"
+hash = "b5585cc48943a0e8c5395e86fe2fcc217e223b06946acee24d6d19c7f2123f11"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/desh/assembler/drill_head.json"
-hash = "9fa44eaa4abd85e18e411f185a6ef258ff67aaa7581c062ad52e8c33e1ec1902"
+file = "kubejs/data/modern_industrialization/recipe/materials/calorite/craft/ring.json"
+hash = "30f4cb43c8248b79c92ba30d78ede6649988debe107d003bbceed61a26e36c62"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/desh/assembler/gear.json"
-hash = "1234547011af44a49bdeb15422d165671820e91298c88444a0bc393c3ffdd447"
+file = "kubejs/data/modern_industrialization/recipe/materials/calorite/cutting_machine/main.json"
+hash = "76f02caef118902dda994e88499d42f5e8db200340f25dfb06962c22a900c4f6"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/desh/compressor/main.json"
-hash = "d2fecfbe4183dc24577a07f7ee8f782bb1264e539c341758f87bed0381639d0b"
+file = "kubejs/data/modern_industrialization/recipe/materials/calorite/cutting_machine/rod.json"
+hash = "2cdda80407925f1a6b2884ac16bae80665c11388bab22bd7d9f4f3fb706e14f0"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/desh/compressor/plate.json"
-hash = "55cfa20f836dcff37b4016ec9cc24b5f0a70488f91098e8e6ef935c56b2147c9"
+file = "kubejs/data/modern_industrialization/recipe/materials/calorite/heat_exchanger/hot_ingot.json"
+hash = "18aa0296d9a1e56fd82b334d0e6cfaacb39e2242ab9e7abc987f2680772e570d"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/desh/compressor/ring.json"
-hash = "21e64660eaa2413de7be1c595878d80bb00dd32f49abb7c9b644291fdec15eb7"
+file = "kubejs/data/modern_industrialization/recipe/materials/calorite/macerator/curved_plate.json"
+hash = "8914bacf7c5e0e81c9c38298dcba97d1cfc290a656c56030adc0854ae25bd195"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/desh/craft/drill_head.json"
-hash = "4e420cca903b3f9997430763b55680828a92089993ebea0d8dd0cbfd897fa8e1"
+file = "kubejs/data/modern_industrialization/recipe/materials/calorite/macerator/gear.json"
+hash = "1526a2d96f8a316b67eb8cf32872ecf489c5afcfef64f713541201eccb7173f8"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/desh/craft/gear.json"
-hash = "086ce6971cd0d6e0af9eac39f69d5278ec4d64a3d9497e920c7fecd0079e0ed8"
+file = "kubejs/data/modern_industrialization/recipe/materials/calorite/macerator/ingot.json"
+hash = "f3b48b6cc58a1658180d6a3b799fc11116b2bb0c880f4b9950e5134a4002aed3"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/desh/craft/ring.json"
-hash = "89d44464478a887a375b84cf5663c08588a9ff6c5d5070f9e1a6b35c614ffed2"
+file = "kubejs/data/modern_industrialization/recipe/materials/calorite/macerator/ore_to_raw.json"
+hash = "8bf6bbafb89a4bfc381e34e4c148d7725da4692e46328dd45f82d1365ad13f9f"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/desh/cutting_machine/main.json"
-hash = "8d97af0f460f14a0b2a974c176fbc975dbfdb6863398fbf10f3cdb7eb798824a"
+file = "kubejs/data/modern_industrialization/recipe/materials/calorite/macerator/plate.json"
+hash = "4337592e09f2b92004863dc88b318a716b231c279fa312a2f589319d3c6bd704"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/desh/cutting_machine/rod.json"
-hash = "1ab34af56208916b7841db669c11fd7ee5e265b58c4cc55d76da12df056a696a"
+file = "kubejs/data/modern_industrialization/recipe/materials/calorite/macerator/raw_metal.json"
+hash = "ea7cd4741a113e79a6089d79e49fc7dd4531c0add982e17ec24aba6aa080e2e1"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/desh/heat_exchanger/hot_ingot.json"
-hash = "4c9d4dc358945829374a39d2257b3ef4bbe8b2ce2d69f3dbc744595d619a24ab"
+file = "kubejs/data/modern_industrialization/recipe/materials/calorite/packer/blade.json"
+hash = "75ecf61590687e4771af496896cd5b6e63715bc8a11383859088713b8ad8f7a5"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/desh/vacuum_freezer/hot_ingot.json"
-hash = "6e5847bf5447fcce6ddbe47e1f7b27d542695a23a4b7bca926b0602a0634c98d"
+file = "kubejs/data/modern_industrialization/recipe/materials/calorite/packer/block.json"
+hash = "eeff65716a0e0272f1dab07a6ad4013ef51dd191070aed67427f82970edfcfb4"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/enderium/assembler/gear.json"
-hash = "f5fac3e83c1f789f19f7f990d7bc87261a921ef9ad0fca13b91d3cab38eca9e8"
+file = "kubejs/data/modern_industrialization/recipe/materials/calorite/packer/raw_metal_block.json"
+hash = "dcbe9c5d2b516842cc0ca21019080f347437d378c6b8344db15583da88355cea"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/enderium/compressor/main.json"
-hash = "955707ccbbbe7446dcc45dc10f085527fcab83a18104c5683257f3701db7fde6"
+file = "kubejs/data/modern_industrialization/recipe/materials/calorite/smelting/dust_to_ingot_blasting.json"
+hash = "d8fa6ed7efa6daa1fa622aad90984c9eec3c7b04a352a2de08453b90273cdcb3"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/enderium/compressor/ring.json"
-hash = "c9b51b407688016fe2c0656fa143857df0bc868f5da3bc2e120be45d1976ef77"
+file = "kubejs/data/modern_industrialization/recipe/materials/calorite/smelting/dust_to_ingot_smelting.json"
+hash = "83e320e704e29843d2a480ca1306342d37b2262c4b6e3f7b757dbd74c4936eb3"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/enderium/craft/block_from_ingot.json"
-hash = "a78fdb25c95f870c36dc34756f812ad81cfe09e97da94073cfd17099fdb369f6"
+file = "kubejs/data/modern_industrialization/recipe/materials/calorite/smelting/ore_deepslate_to_ingot_blasting.json"
+hash = "500b7bafdb8601b35c959237ebd030622243f6ebbd5a9845b29a988d135c8eea"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/enderium/craft/gear.json"
-hash = "ec13b2341ac04def76532f6f60b4c806d7e0201e08a42fe2178ccf17483687ec"
+file = "kubejs/data/modern_industrialization/recipe/materials/calorite/smelting/ore_deepslate_to_ingot_smelting.json"
+hash = "fd248f318268cc4d0f8f7eeff4c5924eb2105da11b212392e12cf52717845c3c"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/enderium/craft/ingot_from_block.json"
-hash = "c8252b500aea51b6fdcedd8e27c3b8e5e573d5c5bbd908a563ec83227e5a219f"
+file = "kubejs/data/modern_industrialization/recipe/materials/calorite/smelting/ore_to_ingot_blasting.json"
+hash = "08ca63ec22bc90bd57ee49e31c00da97e7c7ccce6b90604fc29c34ca88d174cc"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/enderium/craft/ingot_from_nugget.json"
-hash = "19ef5fc178b7a2894d81decc3335625bdc03d2212046e63d7c600968035a42de"
+file = "kubejs/data/modern_industrialization/recipe/materials/calorite/smelting/ore_to_ingot_smelting.json"
+hash = "ecddd95be786fd1cd2b81782e7bb29e63d0f66f87e0579b59f56991e734a7940"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/enderium/craft/nugget_from_ingot.json"
-hash = "396d8945a4eac4fab3af6dcfdf4474fe235455d2a026f162551a451a155292cb"
+file = "kubejs/data/modern_industrialization/recipe/materials/calorite/smelting/raw_metal_to_ingot_blasting.json"
+hash = "5a30386df05bfc17d20b78faeab6482bc28bde549deb17b6b3bd993ee15123e6"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/enderium/craft/ring.json"
-hash = "e536228a6626580a96c4429deaec6ecb2e2ff32f61ce66cb541439e1dc96f266"
+file = "kubejs/data/modern_industrialization/recipe/materials/calorite/smelting/raw_metal_to_ingot_smelting.json"
+hash = "23159ac65c1809a66a607de0a2b49b0bf52e2838f83d6ed0cb7c06dc68974db9"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/enderium/cutting_machine/main.json"
-hash = "939aa05fcf97035f5b95e86fc81ea2e82768ae30cd6552a9c9383bb5a8756070"
+file = "kubejs/data/modern_industrialization/recipe/materials/calorite/unpacker/ingot.json"
+hash = "52c0f32f800fa5ed86ac6c0bf649f38381fb591da7e9f66ccdd429783d8f96d5"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/enderium/cutting_machine/rod.json"
-hash = "dab2ed88e63173410d486479b22f24ed9646429df0811c1e4f5b1e25cf879710"
+file = "kubejs/data/modern_industrialization/recipe/materials/calorite/unpacker/raw_metal.json"
+hash = "74291ac51db7d4b91b0e2c73cf732f545715ed6348655c5f5084de61975c684f"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/enderium/heat_exchanger/hot_ingot.json"
-hash = "0c0566e8f42383248c21ea41bd2c3b1e6604cdf88a7efbb8d8df129f66a9a54d"
+file = "kubejs/data/modern_industrialization/recipe/materials/calorite/vacuum_freezer/hot_ingot.json"
+hash = "5c43b8121380165e54c0b1068f07b1a734164037704efd16d062c34333af254f"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/enderium/packer/block.json"
-hash = "3936e2193d95f0de71ab4fbf901ff00a328358867a050ac4298e8f1a68534805"
+file = "kubejs/data/modern_industrialization/recipe/materials/clay/craft/dust_from_tiny_dust.json"
+hash = "909ef87e6bf868866ae9c6b6a4440e10235b934fe157e2ac1afef105c27d54a4"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/enderium/packer/ingot.json"
-hash = "e699b49d1a10a2cfdab77bba45067126a5331b35d9e5a05a640900592d7bc8cc"
+file = "kubejs/data/modern_industrialization/recipe/materials/clay/craft/tiny_dust_from_dust.json"
+hash = "db1f939b675b0c49c57c2dc1c1b07ffbb3fa397579ba01309c902e491137c557"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/enderium/unpacker/ingot.json"
-hash = "d518b5cf7d3ef6cb613e2402fdb82835326fd007f88a30311bd01a5f0826a026"
+file = "kubejs/data/modern_industrialization/recipe/materials/clay/macerator/ingot.json"
+hash = "f67835d9c15bcbca6da14acccc3b22377c0ce7a8a113f497d0d1327cbf7a4cc3"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/enderium/unpacker/nugget.json"
-hash = "c8da00103bf096451a0997899925067e0baddb634e02aa0fc5ea3c2844e82d20"
+file = "kubejs/data/modern_industrialization/recipe/materials/clay/packer/dust.json"
+hash = "246b2eb692c2e2b5b699aa8adac327237d3f061599312fae1e9032b74efaa6a0"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/enderium/vacuum_freezer/hot_ingot.json"
-hash = "8f7f7c7a534ebce63f98ff1245b24799836a0371a4e776ec6d855ac93f517cf5"
+file = "kubejs/data/modern_industrialization/recipe/materials/clay/smelting/dust_to_ingot_blasting.json"
+hash = "91db8f49617a40c3e28b8a4f9789c45cf4e55c3d4581a9637e4b5b3d3dfa31d9"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/fluorite/craft/deepslate_to_ore.json"
-hash = "4f590ad7824b69a72624a102dbe15950043804db02532b615de468df61f6ed59"
+file = "kubejs/data/modern_industrialization/recipe/materials/clay/smelting/dust_to_ingot_smelting.json"
+hash = "46076402cd9cef39d27a90d4733e1f468b2237372fa8d11fbfeab170bdf3a4fd"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/fluorite/craft/dust_from_tiny_dust.json"
-hash = "fbbe78edaeba9a13786ac44473a342a635861c513591a1ee441e0d8975ab0c35"
+file = "kubejs/data/modern_industrialization/recipe/materials/clay/unpacker/tiny_dust.json"
+hash = "3cadc8f28f318dbd293a437a1f203d287fe2862e30e3c093efb252f9b68bcb2c"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/fluorite/craft/raw_metal_block_from_raw_metal.json"
-hash = "fab9f41e33e81ccb19012e895d560ba773bf99212441fde4f70f07e8af960fa6"
+file = "kubejs/data/modern_industrialization/recipe/materials/desh/assembler/drill_head.json"
+hash = "57be8cf6e96cc49b9d758e6d1048bf4be7c937f60c75c60e3c84d5e9b57957e4"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/fluorite/craft/raw_metal_from_raw_metal_block.json"
-hash = "c8655af02dcdc61fbd594262a139f017bb382d0aadbe05392c588d5b72999284"
+file = "kubejs/data/modern_industrialization/recipe/materials/desh/assembler/gear.json"
+hash = "c9381698c351e3cb506543bd3a190bd8205d4e1a94eb23177272089927ddb8a3"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/fluorite/craft/tiny_dust_from_dust.json"
-hash = "de7a815d4a2a39a5850270df91dd595c45270ff286be953ab4525ddfb5b5e502"
+file = "kubejs/data/modern_industrialization/recipe/materials/desh/compressor/main.json"
+hash = "f7683b255c7d579cce03060b81d673dd8c9cf2da3fba33a29d069352f4739478"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/fluorite/macerator/ore_to_raw.json"
-hash = "e274a1fcad47fa87a36797da5e7a7153060607520ba054d61a1fe855c59af650"
+file = "kubejs/data/modern_industrialization/recipe/materials/desh/compressor/plate.json"
+hash = "b3180599982250fccd3c2a62eb08fe30501afc69f584d9322be9ef534414a20c"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/fluorite/macerator/raw_metal.json"
-hash = "ee55b6c630956767353e56117e8070d9da2855a50254cf5f5c0b44a5ac67173e"
+file = "kubejs/data/modern_industrialization/recipe/materials/desh/compressor/ring.json"
+hash = "696bbe308fc418e1fe76a666b06222d10b62c1471808658b32427fd2b8baf4d2"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/fluorite/packer/dust.json"
-hash = "f60a91a74897ff8095aac64513de76a7e70bc6146fb658f7bc72b41840d77834"
+file = "kubejs/data/modern_industrialization/recipe/materials/desh/craft/block_from_ingot.json"
+hash = "c5e24b5e8ed6ee2a74c01ce8c50edb29dabfa39ca324d2d83f00894ddc0e8102"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/fluorite/packer/raw_metal_block.json"
-hash = "b4cf2c82dc2eecec75dae041f6a5f33655c20803182a3ae480a319b32dfb30e7"
+file = "kubejs/data/modern_industrialization/recipe/materials/desh/craft/deepslate_to_ore.json"
+hash = "a6a6867d1a70a56d4c476b9c2dced3d1455075fd1e16dc210b9d844d182b54eb"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/fluorite/unpacker/raw_metal.json"
-hash = "a579ac2f8058a46ca7a6a69dd61126521dc35db8fc9a056606b56dbd67f5a46b"
+file = "kubejs/data/modern_industrialization/recipe/materials/desh/craft/drill_head.json"
+hash = "8a7c53372b1a59b8b531af65ff30eb8617ab447c9faefb844da74e2b415a2c3b"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/fluorite/unpacker/tiny_dust.json"
-hash = "1655924d780fdf220280256e5b9c3b99a197755cc5240a57d9341ab14810ce4d"
+file = "kubejs/data/modern_industrialization/recipe/materials/desh/craft/gear.json"
+hash = "80f514c348072b4c56ffddb98970400f5d1141df08110d1d0aa20ad55ffc28c3"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/ostrum/assembler/drill_head.json"
-hash = "2862b3db823b2ae70eb24d41258994077c0beaec628d67831ea3921895a7892b"
+file = "kubejs/data/modern_industrialization/recipe/materials/desh/craft/ingot_from_block.json"
+hash = "f215690ba247447bd2bd5352e5220bd6e5eeda0ade5039fda50f6ecf83a10e90"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/ostrum/assembler/gear.json"
-hash = "62f3ccd0e23514d3b9130fb2cdc054a25f8c072f7df4bef7e75d8f133a160a8b"
+file = "kubejs/data/modern_industrialization/recipe/materials/desh/craft/raw_metal_block_from_raw_metal.json"
+hash = "a8a0b3b52dbeace84df2e2d3f2fec7fdeb4761ac500a850000c05115af1c1dfd"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/ostrum/compressor/main.json"
-hash = "9f35ba2a004928a464efd668e27d02b6699cb5780ecf428c6df83f763ad1863d"
+file = "kubejs/data/modern_industrialization/recipe/materials/desh/craft/raw_metal_from_raw_metal_block.json"
+hash = "30f7825a1dcd572041b1ba3234309bff03fa1f65cb6fbb5b68e76a7fc8d27085"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/ostrum/compressor/plate.json"
-hash = "4e96d8e4794317a37b9d325cb678f7b45bf9706d3af2cdbf68422984c5c8266a"
+file = "kubejs/data/modern_industrialization/recipe/materials/desh/craft/ring.json"
+hash = "f76783c75200905dea3f8c570062baffbf817f1ec245fc705e2612e7c76a293c"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/ostrum/compressor/ring.json"
-hash = "344e5d2e7826e5cbe71a8e9bdadc2731b07ab75755fd2e8ecf9955b938fb40f4"
+file = "kubejs/data/modern_industrialization/recipe/materials/desh/cutting_machine/main.json"
+hash = "a19e6a554ffda85bb9dfabe1d6ec0e724c73e570d47c3774f42fa3e346ad343f"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/ostrum/craft/drill_head.json"
-hash = "cce974eef2fc183b1bf8c3180a6b3945737a4665c8187847b0bc919349b8a702"
+file = "kubejs/data/modern_industrialization/recipe/materials/desh/cutting_machine/rod.json"
+hash = "c48def8cedde9d24cb22fc445317fc51c8aa2abb8a4e3a2231f1de5aeb0cd13b"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/ostrum/craft/gear.json"
-hash = "535226178c692dfe21ced8e476a708d83851ff3d485097c9321c829fb1b7fe8c"
+file = "kubejs/data/modern_industrialization/recipe/materials/desh/heat_exchanger/hot_ingot.json"
+hash = "3719804675997b1011e6b20ff8222633f85a09ff503b922e61413b58e6040f38"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/ostrum/craft/ring.json"
-hash = "f4d7966e0f92c93af46394fc2913823f18fa48c2c38f5e8ab8ed3df39dc64722"
+file = "kubejs/data/modern_industrialization/recipe/materials/desh/macerator/curved_plate.json"
+hash = "e14e6675a1bf784d77bfaea546fcee58218e962f6097f8a5fb35ab6af29be934"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/ostrum/cutting_machine/main.json"
-hash = "74fb90221546fc68cc045d03e218c1964afaf2f673251b87ab561135dbb86bc7"
+file = "kubejs/data/modern_industrialization/recipe/materials/desh/macerator/gear.json"
+hash = "a700e07b73a831cba05ab355a337fcfbf125022207eabebd9132140039fe969c"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/ostrum/cutting_machine/rod.json"
-hash = "1e1fa487b235850e843226465d1de477089951635df03dde810045ec67cf6c59"
+file = "kubejs/data/modern_industrialization/recipe/materials/desh/macerator/ingot.json"
+hash = "07c0e9ae531e15428a0cfa160aa3168cd0d30d63a82125fcf6e81de7568eb641"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/ostrum/heat_exchanger/hot_ingot.json"
-hash = "c7e4a1362615a6c65cd862e77ec3dcf9af864ed138d7a7f1600d80158a65adbf"
+file = "kubejs/data/modern_industrialization/recipe/materials/desh/macerator/ore_to_raw.json"
+hash = "4fab5ccaa10eea6e54e2cd3e01c98009ac2c18186adbfae56f46b5c691b27dfa"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/ostrum/vacuum_freezer/hot_ingot.json"
-hash = "3f1d63846a072acce08136570f81f5bcb0c2936f1c37371af8aad28d99b88bab"
+file = "kubejs/data/modern_industrialization/recipe/materials/desh/macerator/plate.json"
+hash = "19c9a285f8bbb6bafac1b17fdd73927ca5cf04ac37dcfbeb1d20e86ce142a5a3"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/polytetrafluoroethylene/assembler/gear.json"
-hash = "cb9523dcdb9a49ac7041e8dbc2d393c9c348e4a7407ac770deb0980f53609c1b"
+file = "kubejs/data/modern_industrialization/recipe/materials/desh/macerator/raw_metal.json"
+hash = "d882e1f4824f19b26584de96b1de41f21cbc05e9e92653e2583dd8e0b3c45470"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/polytetrafluoroethylene/compressor/main.json"
-hash = "e6b74fbffe1413ebc894f02f262a2854b0f5d2cb9ce756bbb05a345c9d36c1cb"
+file = "kubejs/data/modern_industrialization/recipe/materials/desh/packer/block.json"
+hash = "fac145951811cf2b437e83d1550a745b0742a97f62828842e01e1c9a1e728ed4"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/polytetrafluoroethylene/compressor/plate.json"
-hash = "5283182bbf8f29772d002a74880acbbc1a5b97f1413e20664a95d61c0951cf38"
+file = "kubejs/data/modern_industrialization/recipe/materials/desh/packer/raw_metal_block.json"
+hash = "657e1d4f9a577998a3723de85c2380d2e31d2917a3103b4fbf4cc748750cdc75"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/polytetrafluoroethylene/compressor/ring.json"
-hash = "a4fd0cb507356540243ea0810eff2580563c020094e2289cea82c934bc51d68d"
+file = "kubejs/data/modern_industrialization/recipe/materials/desh/smelting/dust_to_ingot_blasting.json"
+hash = "0f88d3ad6169d32483d14979b9517edf4bc584991c7567fe2e5761db6da06c01"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/polytetrafluoroethylene/craft/block_from_ingot.json"
-hash = "9075b3e80b4b255e619c7079474332b94c3e40c1a4d1df634563ec0d33b312f3"
+file = "kubejs/data/modern_industrialization/recipe/materials/desh/smelting/dust_to_ingot_smelting.json"
+hash = "a0a9e387075bd47714228b3f176a726eab9af4f6e719a5623ec87ed736b63e61"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/polytetrafluoroethylene/craft/dust_from_tiny_dust.json"
-hash = "d0b46fa4ad1b87bbc23ea5c02368aa0b6e44542c3d7c4ec96d301d208ceddb38"
+file = "kubejs/data/modern_industrialization/recipe/materials/desh/smelting/ore_deepslate_to_ingot_blasting.json"
+hash = "bfbe2838d992c2843ab12a19ca5b9c8a65ff691a1f9e695efd11a5502c84bbbf"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/polytetrafluoroethylene/craft/gear.json"
-hash = "66794542be0d9da6cf60f67a618267d47a5a55d79ef0a45a90d0194f0e25fe6b"
+file = "kubejs/data/modern_industrialization/recipe/materials/desh/smelting/ore_deepslate_to_ingot_smelting.json"
+hash = "b194e5ebcf583ac939e2d51d5c2e1e6a7a3ba70df59edcbb70fd349f4095f339"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/polytetrafluoroethylene/craft/ingot_from_block.json"
-hash = "e6846a0f907550b96a51f5cfc967d55ea0c5ea0d1c1a041c25b6adc786e79d9e"
+file = "kubejs/data/modern_industrialization/recipe/materials/desh/smelting/ore_to_ingot_blasting.json"
+hash = "43804da5ba7d6c51c36b5ff4a880fbaaa7f6d6fd0ddc19dfcae9fe0db7705f59"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/polytetrafluoroethylene/craft/ingot_from_nugget.json"
-hash = "045c82a1bbfb2e34e70b2f2f1c555f5bd9d2324280278320c445d06d4d43a4d9"
+file = "kubejs/data/modern_industrialization/recipe/materials/desh/smelting/ore_to_ingot_smelting.json"
+hash = "06cfb4fb1ab48b1bcb3078994d217e0a326ab893acd59c58c1f8f2124bf4a68e"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/polytetrafluoroethylene/craft/nugget_from_ingot.json"
-hash = "758b3622c1e3146bc848151f5d582067872d3689e0438c911a9ded11bba00746"
+file = "kubejs/data/modern_industrialization/recipe/materials/desh/smelting/raw_metal_to_ingot_blasting.json"
+hash = "0c57a42f3bf8fdc39ea4cacddc0b322f6cf7d407cdfe92b852cbd432edd28915"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/polytetrafluoroethylene/craft/ring.json"
-hash = "334f34bb8e300ce08f8cdfdb7a3d834a351215cb262ff7ac0ca410417de1a0b8"
+file = "kubejs/data/modern_industrialization/recipe/materials/desh/smelting/raw_metal_to_ingot_smelting.json"
+hash = "2ef5082740073780895a348a715894064b02d366c254621074640372b58e10af"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/polytetrafluoroethylene/craft/tiny_dust_from_dust.json"
-hash = "e2a20b974ed08820b7c18c34910173b4976a3a66eca0e7c1beb6ff650e6b6d37"
+file = "kubejs/data/modern_industrialization/recipe/materials/desh/unpacker/ingot.json"
+hash = "c5631731932bdc398b5a93e052a6a60bbafcbdd589d524f9ba89c31338aff230"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/polytetrafluoroethylene/cutting_machine/main.json"
-hash = "dd316164997a6308bbc9ebd27646fdfd5ff7ee12c6b7702f8fced617badb01a6"
+file = "kubejs/data/modern_industrialization/recipe/materials/desh/unpacker/raw_metal.json"
+hash = "d3df6475ce4967c2d91587475c00207898327cfb44225595543a5cb0e1f9cff8"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/polytetrafluoroethylene/cutting_machine/rod.json"
-hash = "c652980f94b24711f484dae3f2b3b8f2477a3d04368847fb797dbf1ab6999d6f"
+file = "kubejs/data/modern_industrialization/recipe/materials/desh/vacuum_freezer/hot_ingot.json"
+hash = "2e297bb61f5fb74e434f15fc3e4f39b7d30af575ff8dcac3fade49fc86f75bba"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/polytetrafluoroethylene/macerator/bolt.json"
-hash = "8a9d3e502ecb2618a6f6d90d46979a3ed03acb121d01e9ebbe5651a05fcd2533"
+file = "kubejs/data/modern_industrialization/recipe/materials/enderium/assembler/gear.json"
+hash = "e2f191b22d45921e9910511e07238208dc4f83e3c71534db0883bfdb9a55d9d9"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/polytetrafluoroethylene/macerator/curved_plate.json"
-hash = "b8b651e75b421eb857d79d2649e9a8b614c6b13d384711d47c53eb8920a4ca30"
+file = "kubejs/data/modern_industrialization/recipe/materials/enderium/compressor/main.json"
+hash = "6254e69667d5b80972024463c5d3735188a721940be847e72d570ae661a3c2c5"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/polytetrafluoroethylene/macerator/gear.json"
-hash = "ad678912c23b64cf5df6f1b4ef3e1420c085de531cb94b0291592be9815874c2"
+file = "kubejs/data/modern_industrialization/recipe/materials/enderium/compressor/ring.json"
+hash = "7483fd7ffa6728ddf6a2c5b94c08a92af73db4b3da6c66c01a5e9f0673cbfce7"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/polytetrafluoroethylene/macerator/ingot.json"
-hash = "c9ce7601c5fcac6653a1b440b4e13a48801018704ccd45f6f52bff4e9c3db1df"
+file = "kubejs/data/modern_industrialization/recipe/materials/enderium/craft/block_from_ingot.json"
+hash = "51458546d7e7698aca0496ed78190ec86b9616855edcd43ed8eb7abc8d6ad1ef"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/polytetrafluoroethylene/macerator/nugget.json"
-hash = "0b25d5d55eb55bb398709648c7816ec6efacf2e5e9aceaeb5cdafbbea03b0aff"
+file = "kubejs/data/modern_industrialization/recipe/materials/enderium/craft/gear.json"
+hash = "f9f4566cfe87d782cdcea2f3ab5e6cbee2bc20c024f147d1deae2226b4223b71"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/polytetrafluoroethylene/macerator/plate.json"
-hash = "44516d68915f931973b1bca7378f8562c91f63e7a32a7429a042ea039f2a92ad"
+file = "kubejs/data/modern_industrialization/recipe/materials/enderium/craft/ingot_from_block.json"
+hash = "355beb605ddf7328921e32d6cd5a3ebe9feb942910d7347d912bd0abe67b7caa"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/polytetrafluoroethylene/macerator/ring.json"
-hash = "30e7ff3c23a00d1091151716e10ca0fe6a748d7aa06be916d1d32764d1e2f643"
+file = "kubejs/data/modern_industrialization/recipe/materials/enderium/craft/ingot_from_nugget.json"
+hash = "308bf43510ad2b7272dad68a724293e42e2e344ffa9f9b417942c8de43fdd7bd"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/polytetrafluoroethylene/macerator/rod.json"
-hash = "5882fdc9a8e8ab027370c3126813f9b88756cadeafa270371e53e024856d26b7"
+file = "kubejs/data/modern_industrialization/recipe/materials/enderium/craft/nugget_from_ingot.json"
+hash = "3346c9445de133c6756c01d48220d482051598a5321e2b384ea0ba58d30d188d"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/polytetrafluoroethylene/packer/block.json"
-hash = "6f9d2ad610bd978e3f85eb207daaac8a4a64bae2e3a1b8e9de58720bcf1afb96"
+file = "kubejs/data/modern_industrialization/recipe/materials/enderium/craft/ring.json"
+hash = "99a3f73d5cb19d86614498e5836f49c05cb0371c2af9037d6bf5b1699c4939b4"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/polytetrafluoroethylene/packer/dust.json"
-hash = "9e56dee1bc7f722b6ef3ace22e2ac1b77cfd8b1bdfdfccaecea79be042fe78c1"
+file = "kubejs/data/modern_industrialization/recipe/materials/enderium/cutting_machine/main.json"
+hash = "439e7a635f934efa25c5f09e755b1121e12b91b891dd2b8f9995b245880fe40e"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/polytetrafluoroethylene/packer/ingot.json"
-hash = "fd584e69b20efe70ff89c71c1521db87841c211531c41b6a33a5db6af3bd10a4"
+file = "kubejs/data/modern_industrialization/recipe/materials/enderium/cutting_machine/rod.json"
+hash = "9bbbbf91674880f83e826f8d24740c700aeeeed611674903f00d7e6513f65fa6"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/polytetrafluoroethylene/smelting/dust_to_ingot_blasting.json"
-hash = "c5a1432ea14a554e63b56ebf31f7fa927d793766ddc007bdf441cee3fc26aa98"
+file = "kubejs/data/modern_industrialization/recipe/materials/enderium/heat_exchanger/hot_ingot.json"
+hash = "912386d1e0f7cf6667fb885b69a578610d8712063f1709fa72e8644df213549c"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/polytetrafluoroethylene/smelting/dust_to_ingot_smelting.json"
-hash = "2b3728c9d46050743378d0fa09acb814ec19193d747624fc6ea3a3e7c268e1ef"
+file = "kubejs/data/modern_industrialization/recipe/materials/enderium/packer/block.json"
+hash = "b9aab0af3d2b250d7aadd2577a32ae5378b9ac88d17a68d774ab86822c495039"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/polytetrafluoroethylene/smelting/tiny_dust_to_nugget_blasting.json"
-hash = "5750ced01a2bd4c832457dc3cdd7d024063edac0adf4ee98089d3165ce9086a6"
+file = "kubejs/data/modern_industrialization/recipe/materials/enderium/packer/ingot.json"
+hash = "87988016c4d52622da3ef60d0bb4004a3a504a8f011a9ba3b903c3f57a7ae8ef"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/polytetrafluoroethylene/smelting/tiny_dust_to_nugget_smelting.json"
-hash = "020953608b8f1257180be3e5b23912f19f137b86d540472389d66a4d042bff18"
+file = "kubejs/data/modern_industrialization/recipe/materials/enderium/unpacker/ingot.json"
+hash = "7723bbfe02d3eef7bfb9e958df310181ab8ff914dea437b719e70d4b16993dd1"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/polytetrafluoroethylene/unpacker/ingot.json"
-hash = "603f52249bb7cc99a0c3d1155514589fc37aff838eb8b4bd34caaf54b7e249f7"
+file = "kubejs/data/modern_industrialization/recipe/materials/enderium/unpacker/nugget.json"
+hash = "042d0315b7c0aa18a325e8ac05b15061e6032fc7bc6b696bb02e42d301d835f8"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/polytetrafluoroethylene/unpacker/nugget.json"
-hash = "bca548be8b9e078a5478c4a2700c5e2bc9300d50eccbfe45230794bac96d21d4"
+file = "kubejs/data/modern_industrialization/recipe/materials/enderium/vacuum_freezer/hot_ingot.json"
+hash = "de065346e0845cc560e669253c83715bfc2562e42505036bd6a1a65585ad536d"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/polytetrafluoroethylene/unpacker/tiny_dust.json"
-hash = "0f12db08ea2b1dccf75021f36d6b9373b3b2efbc57e45429f253efbbcfba8ec8"
+file = "kubejs/data/modern_industrialization/recipe/materials/fluorite/craft/deepslate_to_ore.json"
+hash = "cbfbac36badca3c5247483106a457dcea563d90ab3f1d1d6b241e72ec88ca819"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/stone/craft/dust_from_tiny_dust.json"
-hash = "bf5b9f6c390f3f8ae029453cdedb382a78f32aa7215bce0e0e1dcb13bce82448"
+file = "kubejs/data/modern_industrialization/recipe/materials/fluorite/craft/dust_from_tiny_dust.json"
+hash = "902fe1ded83b2c2674af83546f1638f3ef4eae3aadccdaef6aae02879ed2fa5f"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/stone/craft/tiny_dust_from_dust.json"
-hash = "8c417b9842d9cbed0375ed63b47cdad6bedcfbdd058b9907f62b626299c9aad3"
+file = "kubejs/data/modern_industrialization/recipe/materials/fluorite/craft/raw_metal_block_from_raw_metal.json"
+hash = "e1439d3085e8aea132936cc092f5b9bd0c75cf209e07989465f9e5b904498228"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/stone/packer/dust.json"
-hash = "f8300a04e4fe1483dacb507442ae407bbedc82f2f97f0f4e5874006d5bbbb105"
+file = "kubejs/data/modern_industrialization/recipe/materials/fluorite/craft/raw_metal_from_raw_metal_block.json"
+hash = "49f634bcfcf7e6dcc393e46f697e2eab6a482a4f12b027a6cc1a670e29275f6a"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/stone/unpacker/tiny_dust.json"
-hash = "160bc30dc68bdf9af5ae69c8c781f7e3949c379a0ded5229568c935e421f8cb3"
+file = "kubejs/data/modern_industrialization/recipe/materials/fluorite/craft/tiny_dust_from_dust.json"
+hash = "1fc0b1b277e8a8b1e45a2fa104d044c4b8fedea6c932751effb0529780f09d65"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/tungstensteel/assembler/barrel.json"
-hash = "cfc0f43bbcd14a1666a8247dd6453116b978fd71f18af3da890f4a14a9690851"
+file = "kubejs/data/modern_industrialization/recipe/materials/fluorite/macerator/ore_to_raw.json"
+hash = "75609439150053bf2f56136a8f206a200b2668d0831dac569f3bd094a6cd92e5"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/tungstensteel/assembler/cable_styrene_rubber.json"
-hash = "452135e65d82d0e10852a7b7cdc9b43590e710106d04eb7d63789d315f0f7776"
+file = "kubejs/data/modern_industrialization/recipe/materials/fluorite/macerator/raw_metal.json"
+hash = "d4cddb770946954c3f13322c5d7f12075766d495a7a09c991061594291bba12c"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/tungstensteel/assembler/cable_synthetic_rubber.json"
-hash = "5cdeb9aeab6ed0ee99d0842d80c65d897d12a3fd2be837d86677ea8eb76a2524"
+file = "kubejs/data/modern_industrialization/recipe/materials/fluorite/packer/dust.json"
+hash = "b8dd944b3d6b0583ecb69e601a20a7e1445d874a339953c1c5eead2c9806ab6b"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/tungstensteel/assembler/coil.json"
-hash = "fca4137064147aaf172533c29b49b8ba9d0255d406672a1380012088fa72dd68"
+file = "kubejs/data/modern_industrialization/recipe/materials/fluorite/packer/raw_metal_block.json"
+hash = "8458b6cd86eb95bb8a2b002d996ac05d807267ea089f7f0d6f28b50349087fba"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/tungstensteel/assembler/gear.json"
-hash = "9271fec8504e1f64bbe4c705fd7762f561b3b1e7e9febfa6ce55f23f646c3601"
+file = "kubejs/data/modern_industrialization/recipe/materials/fluorite/unpacker/raw_metal.json"
+hash = "39a3a9820f230727aba26848ee6b033f7f472af22516dcd6244f818baa26bfde"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/tungstensteel/assembler/tank.json"
-hash = "35e11af95f74ba6faa68c20fff930f65f1ccf96b7d306d3cb2c0f1b6f38fb316"
+file = "kubejs/data/modern_industrialization/recipe/materials/fluorite/unpacker/tiny_dust.json"
+hash = "439ac1fb807442baa00a41047dabdbcffa05ea1d4ad31e6bfd90187fd24efb45"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/tungstensteel/compressor/main.json"
-hash = "cb451bb011e4b921bce3792c9c978d68d0efe1c492f17a781e04c2efa16b7d3d"
+file = "kubejs/data/modern_industrialization/recipe/materials/moon_ice/craft/deepslate_to_ore.json"
+hash = "c1506124d9f71cab6cfeb5438a0775a6a094a8897a3b9d2c6b01635d713427ef"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/tungstensteel/compressor/plate.json"
-hash = "586c18a959805214e41e8004988702788b8b6f21812f3acee418ac1bb4a74b51"
+file = "kubejs/data/modern_industrialization/recipe/materials/moon_ice/craft/dust_from_tiny_dust.json"
+hash = "430a4385c02c14ebc81fb305d6bc00254ed859eea73a0be80dcefea7f5422ef1"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/tungstensteel/compressor/ring.json"
-hash = "31a6bdb41db2aaa6cb50b84061b595f8d06280719e6407f2a1d3c46d6a324c07"
+file = "kubejs/data/modern_industrialization/recipe/materials/moon_ice/craft/raw_metal_block_from_raw_metal.json"
+hash = "bd0b0ba42b5b0af10fecdbb8b120d8a078fad7d73cc21d93756df35d2c21568f"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/tungstensteel/craft/barrel.json"
-hash = "5ec06c5e5900e0278913e8f3de51b581a4fdc79cf72e7f22b1f1db6b6e2e67ec"
+file = "kubejs/data/modern_industrialization/recipe/materials/moon_ice/craft/raw_metal_from_raw_metal_block.json"
+hash = "27ec09c36a64a53ea00ed070f58a357f04a38e6a4c2bacede5b496cd04a4583a"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/tungstensteel/craft/cable.json"
-hash = "ccc6b4f28abe92fd06fded773aba245385589424d272a6dc5e5135f5ae863e9b"
+file = "kubejs/data/modern_industrialization/recipe/materials/moon_ice/craft/tiny_dust_from_dust.json"
+hash = "3eb7601eb2577ac2f5657e6c36d56cf72bffe4f88142a4e8d3e2a25e3dd3db8f"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/tungstensteel/craft/coil.json"
-hash = "27ede4dc061d3c408b83f608f1675e2b17ebcc7e192cc4e9476204c865032750"
+file = "kubejs/data/modern_industrialization/recipe/materials/moon_ice/macerator/ore_to_raw.json"
+hash = "275581008a5f5ccb10b1cf3a354306e0abef9842d5b9cff4b21c7952de80370c"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/tungstensteel/craft/gear.json"
-hash = "f91f0fad522cf1559302b3d56745c5ac2bf9558da4e6fc75c49f8df39c9abb04"
+file = "kubejs/data/modern_industrialization/recipe/materials/moon_ice/macerator/raw_metal.json"
+hash = "1812bd116c24fa1ec8f4e5b3d057ffa8507f527265258dca20c54b0adf68b8a8"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/tungstensteel/craft/large_plate.json"
-hash = "495bb8e7d8b2d4651b96ca396d977b33e95a7461d5f09e78f0f679191f645174"
+file = "kubejs/data/modern_industrialization/recipe/materials/moon_ice/packer/dust.json"
+hash = "82e252fd0e54abe6908b1d3e6432bba583441a5cf0a21abd6ffa27b5e0c5e0fa"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/tungstensteel/craft/ring.json"
-hash = "e384192234d6a53b529f29332889003a3bab73520ef11d3dd96d28c77cb3109c"
+file = "kubejs/data/modern_industrialization/recipe/materials/moon_ice/packer/raw_metal_block.json"
+hash = "4e5c3f9578101c68900b933c1a359f408270fee5bdfb98f20f5f7c2ff69dec8f"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/tungstensteel/craft/tank.json"
-hash = "a7d7fededf17f5eeddae85417ae930087e692b8c5b852476939b23e4f28c41da"
+file = "kubejs/data/modern_industrialization/recipe/materials/moon_ice/unpacker/raw_metal.json"
+hash = "88b5cff789b981d7fbb5bcc77b45b2053a352151a4ca5ed8532dced7ab435382"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/tungstensteel/cutting_machine/main.json"
-hash = "f89cd4ce900680aa8d0b71c7c54e4b463f783af19faa96a465b7c5dee3e475a4"
+file = "kubejs/data/modern_industrialization/recipe/materials/moon_ice/unpacker/tiny_dust.json"
+hash = "a4b756c15a040c2b00c14298e91c5f4f0402d095b16bf61b51d03780ed308cae"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/tungstensteel/cutting_machine/rod.json"
-hash = "682e4b40785a46e0faa9959c89fbdc5f243276246c2f82b0e68eb575aa58a382"
+file = "kubejs/data/modern_industrialization/recipe/materials/ostrum/assembler/drill_head.json"
+hash = "7aac78ef2b9598367a380aa65c7adc0682e59e1ce3f50f4adb2b6cba08ffd447"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/tungstensteel/heat_exchanger/hot_ingot.json"
-hash = "4b1eab1f787d0de7039b3d1d31d63393323e981d9a4b9ee3a9e9464c371622e4"
+file = "kubejs/data/modern_industrialization/recipe/materials/ostrum/assembler/gear.json"
+hash = "04707d2913e7ba542469ac0e06155d63adadd8becc4ea75b39d3315d0ae2bbb8"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/tungstensteel/packer/cable.json"
-hash = "70fcbfc70a2009e4ef497566580d3b51c77c0d1c8da46e0e4685d580bd62a75f"
+file = "kubejs/data/modern_industrialization/recipe/materials/ostrum/compressor/main.json"
+hash = "98f99a6ab4730aa6c5f92c009b71d4d81eb01aa98587bbcd2d27aa22511409f5"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/tungstensteel/packer/large_plate.json"
-hash = "3f78451ab164cf73fddfb65c233aa05d06c80cf12bc491c56c9e55370c094928"
+file = "kubejs/data/modern_industrialization/recipe/materials/ostrum/compressor/plate.json"
+hash = "829b150a121277bb93f186aa99f20ba820622b5ffe7d09bf825ffcbb9d23c5de"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/tungstensteel/unpacker/coil.json"
-hash = "8f10fac08f033b724da90b0787388723f2176bba6a48b69776902f663d22ee87"
+file = "kubejs/data/modern_industrialization/recipe/materials/ostrum/compressor/ring.json"
+hash = "ef6d2b3382587443f6aff09a7a6d42bc6bd8ac99b8f236e5690b0238ddb681ea"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/tungstensteel/vacuum_freezer/hot_ingot.json"
-hash = "71b9f64438661b647a2acaee822b983022e95e00edfd4b5ddfc0e94dc17c49df"
+file = "kubejs/data/modern_industrialization/recipe/materials/ostrum/craft/block_from_ingot.json"
+hash = "4699efb28a3866f3bca157382fc2a9d7a0b40de093639edcf60d1f3b037a3a89"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/tungstensteel/wiremill/wire.json"
-hash = "c9c80eee911c6392f632e015e372a4617b64f3a8f885d5460b60eb9d4f1a29ac"
+file = "kubejs/data/modern_industrialization/recipe/materials/ostrum/craft/deepslate_to_ore.json"
+hash = "b1fa3d745bfd655a58082f4333b73cca486d4816299ee22ffe768bd0ebef2ab2"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/zinc/assembler/drill_head.json"
-hash = "bab6078722f5292cccd6adcbf179e4cc0319b65d06996a6ef470a623a98b3862"
+file = "kubejs/data/modern_industrialization/recipe/materials/ostrum/craft/drill_head.json"
+hash = "6bdb15d489eac77fcc44915dab9e3d375a9a9deea8146a2d9d3d109d4af76e30"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/zinc/assembler/gear.json"
-hash = "00406d9c71d638cfa3d07ab4bf4c10bc7acd782a1291d3d1683e4381d7657e65"
+file = "kubejs/data/modern_industrialization/recipe/materials/ostrum/craft/gear.json"
+hash = "2717b27922d6c5e261bd2058c267113af318dbc74506f9975703428fcf1d1638"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/zinc/compressor/main.json"
-hash = "3c0f954724ba0e60c12dba2fd09a00361c972d18e9059a380a2c17957e751f7d"
+file = "kubejs/data/modern_industrialization/recipe/materials/ostrum/craft/ingot_from_block.json"
+hash = "a99c4b2c6e46e5af053122860562b348ea6c642de9758566d776fa602cd25890"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/zinc/compressor/plate.json"
-hash = "ed273ac974efba538d4c0fd2e13c7d6984b3d5522ced5cf1e14e5e19930cdb94"
+file = "kubejs/data/modern_industrialization/recipe/materials/ostrum/craft/raw_metal_block_from_raw_metal.json"
+hash = "f15f0f545e48df9674df2952f984c2f36bb440ce8d5d92e3a6c56476167d80fd"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/zinc/compressor/ring.json"
-hash = "0ed748a39536bf46167f00f2666896f18135a9fee8e3f1493b46d8b629b58cb5"
+file = "kubejs/data/modern_industrialization/recipe/materials/ostrum/craft/raw_metal_from_raw_metal_block.json"
+hash = "b87e5f5c0cce937fddb40ce81fa5e07d9be7bd46e392255a53f6f9847b7f4276"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/zinc/craft/drill_head.json"
-hash = "6773429d7f2c806c4c0fb24488e88f433a9fcab5ff56fd6b97aa5304730bac4f"
+file = "kubejs/data/modern_industrialization/recipe/materials/ostrum/craft/ring.json"
+hash = "ac7753ef7cc0e7b4c6789e923a46d7698e914329ac9339405c982d2951506130"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/zinc/craft/gear.json"
-hash = "3c50303440056acd84b9b3430a50eccd61a15ef485d547be45be139f8a4a3966"
+file = "kubejs/data/modern_industrialization/recipe/materials/ostrum/cutting_machine/main.json"
+hash = "fddfb41dd3d744fe601d8ad1e85c6f51fc1eeefd886529751ab25b9e151ab6ee"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/zinc/craft/ring.json"
-hash = "09d0e07710618212e2f234d633f1af09cf970f47ad935eac4cc68f1b9194d685"
+file = "kubejs/data/modern_industrialization/recipe/materials/ostrum/cutting_machine/rod.json"
+hash = "9b1f6cdf2653111f1009927f1eb28851a482f7b558dedc37036b978dde39a575"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/zinc/cutting_machine/main.json"
-hash = "70fd472f003816510d4c1db3db12531c853b29b79fa683783f483fed2ca39045"
+file = "kubejs/data/modern_industrialization/recipe/materials/ostrum/heat_exchanger/hot_ingot.json"
+hash = "a62c193da620e099727913475f0212a591b43461e015cedff5f43dd8643d7125"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/zinc/cutting_machine/rod.json"
-hash = "8c38d513fbcc2059713525987793b4294e55629cf9abdb1b83966c67015c91a1"
+file = "kubejs/data/modern_industrialization/recipe/materials/ostrum/macerator/curved_plate.json"
+hash = "008d096ffa90ac42199bd983850d1a4fecfef10ad293c85cb23e52a9ebbd72d9"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/zinc/macerator/bolt.json"
-hash = "430b0b73e59ec1ce9a54064f34164e3c27fc43eed01f76779098054b0e5b770c"
+file = "kubejs/data/modern_industrialization/recipe/materials/ostrum/macerator/gear.json"
+hash = "fb199895db5766d458aeeebcc1ea820cdf64cf103c2eaf6efde1176f113a5946"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/zinc/macerator/drill_head.json"
-hash = "3474669735c0dcf80bcb77a2f2c5fe7ee641d5643d293dd6880c03554c69cf7c"
+file = "kubejs/data/modern_industrialization/recipe/materials/ostrum/macerator/ingot.json"
+hash = "2361c95bf877e818a4bf1e87551495ab1b6b5511d9f683d2f286dbe32f532e89"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/zinc/macerator/ring.json"
-hash = "4319e7d008f90a52075898918db89d956e7a454eb3d1a2f2b5384e19d24996ec"
+file = "kubejs/data/modern_industrialization/recipe/materials/ostrum/macerator/ore_to_raw.json"
+hash = "993d6dfcf8a07ed2b063aeb773a88c58f069aa4ef844066559f7b86cf5f1d7a4"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/recipe/materials/to disable/zinc/macerator/rod.json"
-hash = "87f21bf5c2d4cc696aad6bd29ad0bc40fe06206959cddd4043cd21c58342bebb"
+file = "kubejs/data/modern_industrialization/recipe/materials/ostrum/macerator/plate.json"
+hash = "69d88331b0a0fb284bceb765dcb4a9d47aefe17aea91883872aac495d4da26b6"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/ostrum/macerator/raw_metal.json"
+hash = "0aa699392fcba49bdaf1216b048ad1fb29d50ac0b807d4a1fa47a95c6ead8ec2"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/ostrum/packer/block.json"
+hash = "5ed6c65ac3587ec8d2ad9c5e165f4ad1f0671cfac890e46e98df8866e47f5f82"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/ostrum/packer/raw_metal_block.json"
+hash = "950e635b7358d73757c544fd9ddf4f395020ced135caafbb0d71cb4ee73e8d96"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/ostrum/smelting/dust_to_ingot_blasting.json"
+hash = "8ead9664adb913a3224c018596dd9a34dc6df178fcb88a18433cdacb03f175ae"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/ostrum/smelting/dust_to_ingot_smelting.json"
+hash = "ddfb9ee62ec50e52c2080352776eb74f38d9a0619433255f44146ff18687cc79"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/ostrum/smelting/ore_deepslate_to_ingot_blasting.json"
+hash = "f61b59666f4273fe5f66b8d1060bc29e388f167e93a8013dcce0fd232bf28997"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/ostrum/smelting/ore_deepslate_to_ingot_smelting.json"
+hash = "831f1f8bc7e77a95b6c63e963863df5168447bc928b5e19e555b7659a6fce1cf"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/ostrum/smelting/ore_to_ingot_blasting.json"
+hash = "e079877bcd37966a10807550ac6eabaa442fdcf9f8680d08e471c82a8c8cebd8"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/ostrum/smelting/ore_to_ingot_smelting.json"
+hash = "2aad6c50d2c51ff0d788efc706c91939e6deb1ffe66f3425d6946b0169707f5a"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/ostrum/smelting/raw_metal_to_ingot_blasting.json"
+hash = "2d052cf8b9633343fe97c7051bbb1ba0e95d1c603def2094bbc880270eff8bce"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/ostrum/smelting/raw_metal_to_ingot_smelting.json"
+hash = "6d58150ae3544dadd70e8b9bcd332c4c2758d663b7b5945cd57a415e17eeed62"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/ostrum/unpacker/ingot.json"
+hash = "868165025c1376eb4fb48ca989504283dbc87c2a7d7c887dfd64be77eff5ceef"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/ostrum/unpacker/raw_metal.json"
+hash = "266256ff6a9e9a72e111ca672d7488ed9414994c8161e5f0116ce14aa960c62b"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/ostrum/vacuum_freezer/hot_ingot.json"
+hash = "85a2488d7fb4b6f682deec7f27240749d1744c1338ec77f4fe63f5f9e09a7a8f"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/polytetrafluoroethylene/assembler/gear.json"
+hash = "81afb9b1d53d20d15609f4e8191c79941eb111ee0b39eef125fbabe0af1b235b"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/polytetrafluoroethylene/compressor/main.json"
+hash = "c057d9dc7ddd106c1a259653c0fa816ec47a0d5c5937f2fb4b41969bf14ac937"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/polytetrafluoroethylene/compressor/plate.json"
+hash = "dae735838b6f43717733901ddb2c7722625bcbd2e7b9cb2eb1e2145f7aa85c08"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/polytetrafluoroethylene/compressor/ring.json"
+hash = "0c7a5c00211934df016307c75280182dbe6628c2cd281c4ceda98c4c952de28a"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/polytetrafluoroethylene/craft/block_from_ingot.json"
+hash = "6226252c4c2a6f6235ef99b783a4271ba5b58f36895a5d769c31445ebf50500b"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/polytetrafluoroethylene/craft/dust_from_tiny_dust.json"
+hash = "384249a339044369dbe9c996ab2743d3cff5af34bb586931b4c1a0d5c356e56e"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/polytetrafluoroethylene/craft/gear.json"
+hash = "961676556736d95374be84590af0b070f89b56ea63b512e3e307e69ce3f4be4b"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/polytetrafluoroethylene/craft/ingot_from_block.json"
+hash = "76f87f42ad9e06d1673e402c9a734ae9884d727554b39902e9807cafb5355a6b"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/polytetrafluoroethylene/craft/ingot_from_nugget.json"
+hash = "a64835cba23c988f57e3d9a5c1589268a984a8e6ea0b6cdd835cf2cad9b2727a"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/polytetrafluoroethylene/craft/nugget_from_ingot.json"
+hash = "258dc0e4fc4c3fac178052c155f6dada133bc307dbb4fd5ec44a3cc8d3f0ae89"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/polytetrafluoroethylene/craft/ring.json"
+hash = "e4e3dfd07a982d88b4570f28cf238c62d5a822e199e23a4caea1a2db374ede39"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/polytetrafluoroethylene/craft/tiny_dust_from_dust.json"
+hash = "8a2cd92dae83d163e9e3fd11f9a77c47bbb95b2b8c0cc554a8e855f5e4d5ef83"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/polytetrafluoroethylene/cutting_machine/main.json"
+hash = "089b5bbb13ea66391fa33dd534a4f03b983c69d10b16cbbf95fc9ea244be2082"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/polytetrafluoroethylene/cutting_machine/rod.json"
+hash = "951cd75e59cb613925a5323f82164656add4dd29c4a62c9e83f1e9527864ef87"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/polytetrafluoroethylene/macerator/bolt.json"
+hash = "ac8b58e7a26b79a6ae921ccf94d359848b2beaa2567104a688f0e163c0f9d6ab"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/polytetrafluoroethylene/macerator/curved_plate.json"
+hash = "3f6ff66f9f7cd4202dc27fc4af2cd93d5ab95bec8a4209570c23cff756458155"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/polytetrafluoroethylene/macerator/gear.json"
+hash = "ec1b31f7ea6a5a61804775271177b4793fb57e3582652902ed61a5ff64cd8b89"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/polytetrafluoroethylene/macerator/ingot.json"
+hash = "1d3003cb4663d7fa94a10862efc2836da72e5c94c7e201b92553bd0bd9aa05d0"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/polytetrafluoroethylene/macerator/nugget.json"
+hash = "66475a10991cc868aadd697bf92ab8f4f11ce3c68e53a8993e89b76ec48029e8"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/polytetrafluoroethylene/macerator/plate.json"
+hash = "a70206ecb914b5c7715f3a463012b38ecd9c57eef1e003abd8ab1642a36952e4"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/polytetrafluoroethylene/macerator/ring.json"
+hash = "71ba8a71b140719735b453350764f0fc7a529b8efa4ce9c774f6b189b012e316"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/polytetrafluoroethylene/macerator/rod.json"
+hash = "387f20e0e4d829d6f5148cba0c0dacd6e19a747c6c534959f6a9e2b0c6e5558b"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/polytetrafluoroethylene/packer/block.json"
+hash = "cb312e476a24d7bec30c1f8abebad5934617497b904ec9b0f6933d8ff9b92e5f"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/polytetrafluoroethylene/packer/dust.json"
+hash = "47b9942fbf32bf6d58d947144934e3f14edcf8d972357deb6e58ab599669b9db"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/polytetrafluoroethylene/packer/ingot.json"
+hash = "e5863c70a1b86e5d4d76836e16ca50fd6e92afeaef25757bab65f58c2a441e1e"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/polytetrafluoroethylene/smelting/dust_to_ingot_blasting.json"
+hash = "5454668a6959068696a0f52fce3ac9ce6a9267e88eb1567f0d4c0f9986060d8e"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/polytetrafluoroethylene/smelting/dust_to_ingot_smelting.json"
+hash = "b0af6b55f7d4ce3aed98dacdf5238eb287a7c7af728a1ae9f31f4e3a3f18eb6b"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/polytetrafluoroethylene/smelting/tiny_dust_to_nugget_blasting.json"
+hash = "dc73533c62ac6cf7aa3022629361ab43c21cdd02efc9aa38b929b86582046f23"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/polytetrafluoroethylene/smelting/tiny_dust_to_nugget_smelting.json"
+hash = "e99fd74f63292cabd87a74c6064576afdd0ea7db96fbef4c1345b3658a5e86d7"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/polytetrafluoroethylene/unpacker/ingot.json"
+hash = "eaa21952161608d3a593f7a7b760fa20eb4c1ddafc105d0817b4eb412ab4fa6d"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/polytetrafluoroethylene/unpacker/nugget.json"
+hash = "5771b2502f4fa94942dffe97642b8da6d907f447cd2181298dd0281c0b964ab9"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/polytetrafluoroethylene/unpacker/tiny_dust.json"
+hash = "a38707cc74fea6babb5c54ffe72310d02adf7d80a321d8e7628317bdf520b587"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/tungstensteel/assembler/barrel.json"
+hash = "21f2a70e9efc80ac2c97a1ce7d0543e5c69ff6a50d2af90f7e27e1c5a2d1a7be"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/tungstensteel/assembler/cable_styrene_rubber.json"
+hash = "9bd285cdc64bc54da807396cd15779b565d559341e2f15de7c842dbf725f0106"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/tungstensteel/assembler/cable_synthetic_rubber.json"
+hash = "5750791c01c16a80bf4077dd34103d2883344045f96fc07df83c77f2303be7d7"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/tungstensteel/assembler/coil.json"
+hash = "bc18a139e42d7bfab4d70d39458311c1b1f23a497d9cd2355096b6827009a8bb"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/tungstensteel/assembler/gear.json"
+hash = "48a11c09666aca214f86b4eaaf81252f596e1347d4b315882709da8a06472fed"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/tungstensteel/assembler/tank.json"
+hash = "4b5a9439b58dd87104edef1eb1f68fe479e391dda61e98a256254974eb37f476"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/tungstensteel/compressor/main.json"
+hash = "367c36ae09ecdb277b24a69293094f4a910fc216e462470b66e5e2e1127fc2d0"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/tungstensteel/compressor/plate.json"
+hash = "39b5690aaf8d96c57fe65634b36716adde1169006c318125c361a21a4470a754"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/tungstensteel/compressor/ring.json"
+hash = "83e4ee778e24c23f3bd66afad91495ac0e78a9b08b032239ff8cd45dbc1aa732"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/tungstensteel/craft/barrel.json"
+hash = "a0cd792bc1b384c869274698874f6e58787e86ee9b7cfef0f11e7872da998f82"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/tungstensteel/craft/block_from_ingot.json"
+hash = "03f97940d7109b22ace43a2a59b127d0f8fa5bf7c9aa69850129c1b4442d04aa"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/tungstensteel/craft/cable.json"
+hash = "0b35e86aa6785cc936c8e9eb765b60aa236f38b83a7d0978773c84418686ace7"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/tungstensteel/craft/coil.json"
+hash = "2232c866a63f1739116702b3882d4cf995cd0c42701c02022227cd8f396273a8"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/tungstensteel/craft/gear.json"
+hash = "ccc7235d1ea89477b27ad047d99f14ee6b82a55d50337b7a5675406987596c49"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/tungstensteel/craft/ingot_from_block.json"
+hash = "49a74d13a86b51fcd1a24e5757f6f43d9f540492129646358f152d0692408ad6"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/tungstensteel/craft/large_plate.json"
+hash = "a50cc5f8fce4892ff8a7e7d93b8ea165e3afc091992311120a367d2f82d954a4"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/tungstensteel/craft/ring.json"
+hash = "f367314dd9b30e5583637bbdb892ad8987055c9a34558734a5ec94c5210f44ad"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/tungstensteel/craft/tank.json"
+hash = "2804dde610986e4f17dcae562bbfb8a90080e41d2d385dc83a8691fd1dd89bde"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/tungstensteel/cutting_machine/main.json"
+hash = "c02e574ad592e8f2fd408baec1898825827ab32075ca259c837391d57dcbb4cb"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/tungstensteel/cutting_machine/rod.json"
+hash = "a82379d9a2800a57c8b38fe87f9b4892ce432d7f5a1fc831e3a39cb1c3283acc"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/tungstensteel/heat_exchanger/hot_ingot.json"
+hash = "aa63de9586f43ed0aa5937ae9c1e2521a7b271ef125edcc2293fe9ffb7bccb57"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/tungstensteel/packer/block.json"
+hash = "201ee79c87f38df8d0559136ada93892a583abb62e1d4b28992001c4705eb8ca"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/tungstensteel/packer/cable.json"
+hash = "93f7a264c72e43a9a5595f2f37625dc3c5b631a512bacf58c1bfd27d8dfcc4d6"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/tungstensteel/packer/large_plate.json"
+hash = "dd7a2290a31fd80922c921adc59cd2b2b894f6e3456050cecab40d0435498566"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/tungstensteel/unpacker/coil.json"
+hash = "6f494bf776df87d34094104716a74b1570802ef7d246d212499e9bcb7c8a505b"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/tungstensteel/unpacker/ingot.json"
+hash = "dc8ddbf6ef72040da37c36b504c92720fdbb30a84ddae97b5911625c9cc48be1"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/tungstensteel/vacuum_freezer/hot_ingot.json"
+hash = "87a30e9fc51e46b74fe7dad4011da909bb1c84ee1aae65dd186357d6e80a656d"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/tungstensteel/wiremill/wire.json"
+hash = "b2a89c13cd43551b00e54f41f88ffbaed65d3f7800ecb19209d76ede7fe947fd"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/zinc/assembler/drill_head.json"
+hash = "e29cfad21bcba7e113957bb2357a53cd55cade02d701efe208fa611d9d7bd319"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/zinc/assembler/gear.json"
+hash = "3cf8cda5e834a2cc3ee0c69f08537b634ac19b30bf369765b6c192c2d37a19bf"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/zinc/compressor/main.json"
+hash = "c43397721517ebcbadd642fc575e00f2608c9bdbe097e3fdba78684c2ccc7921"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/zinc/compressor/plate.json"
+hash = "edee457447b10fae767992e3b236dbaa117fd242af52de13fc7019f0ec7adfa0"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/zinc/compressor/ring.json"
+hash = "ab7cc07690a5790917237b5e931679429861b273b74f9878e4ee7c81af53573c"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/zinc/craft/drill_head.json"
+hash = "2a787c63e93ddfd316107ffaf1271729ab0129e595006aa4a63fcf78b58e1273"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/zinc/craft/dust_from_tiny_dust.json"
+hash = "2ae22d0479ad34a0e9b0e02f3624d4dff45613dc2e648d1f66e24c07b27b5861"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/zinc/craft/gear.json"
+hash = "7f25a0473d9546bfd4c6cd60c722579323cb58b7bea73e831952751e3a094ccc"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/zinc/craft/ring.json"
+hash = "c110c4bfe34cff6ab65e7eecf3460962f754e884cf6553a7786c152cadc65bcd"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/zinc/craft/tiny_dust_from_dust.json"
+hash = "c69cc2f5daf714c57f4c2e7693f517ec3ca8e4d6fa2392fbbf6f10128eac9c7c"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/zinc/cutting_machine/main.json"
+hash = "5cc4b2004565f2a5dbe8b5042ddc0ab9ca937908b9ff18c75d57b45030670da4"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/zinc/cutting_machine/rod.json"
+hash = "64ee2a1ae5c022c4c15d81318f8151d352a8a4e609d2f1573bd72ad69b6b5a48"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/zinc/macerator/bolt.json"
+hash = "720941001f2570868736acc081bf6c0bf70ae99f928b61a1bb6e849a04afcde1"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/zinc/macerator/curved_plate.json"
+hash = "15dec8d0e9553d08804ebc7f319829458d78f96849bfd1c660182044c2922add"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/zinc/macerator/drill_head.json"
+hash = "d434cc3e04a7d6dbf30ceb0029515e7d1c8755670eecc12a6de352fb7ec3df5c"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/zinc/macerator/gear.json"
+hash = "239773b80dff1b73da42a216718640967dd950267ab40853c2921410af56e452"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/zinc/macerator/ingot.json"
+hash = "65faa8b5ef4969a04380bd46c5154265997fe56eb3f31947c3c51efa92ae00d6"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/zinc/macerator/plate.json"
+hash = "3bb0540666e5b541df321e948d47a8712395f4cfe857c81a0284de1a420dd337"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/zinc/macerator/ring.json"
+hash = "088d9d560b96d8bcfd3ac691c94c410db3fb518cbdb4645c3e625f36392182b4"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/zinc/macerator/rod.json"
+hash = "eb72ab0f9db36fc9b41995d487d1f94585e7ce155bd9ea06e1738fb595a9495d"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/zinc/packer/dust.json"
+hash = "e35242000a6e728ee3fc53cd2af9815914136cf87febf3c0622757988ef2c74f"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/zinc/smelting/dust_to_ingot_blasting.json"
+hash = "10b33eade3b56300b1f5c9880f41b1c1b7b73d42bbae82554fffc2e0558fe023"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/zinc/smelting/dust_to_ingot_smelting.json"
+hash = "889f825ef923727c0c908dcffa3433d6894ff568224d13145c462bdb25047978"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/recipe/materials/zinc/unpacker/tiny_dust.json"
+hash = "1a557ff66e64d89a95d0240c34b5db13e69251b3d622862f24a35a59239813a4"
 
 [[files]]
 file = "kubejs/data/modern_industrialization/tags/block/barrels.json"
@@ -4381,8 +4889,12 @@ file = "kubejs/disabled/server_scripts/mods/yigd.js"
 hash = "2a8040a1d4d57df40d14cd6ef6e2e5bbe46d54d41b13ef256d1a832f5de630d3"
 
 [[files]]
+file = "kubejs/server_scripts/ad_astra_replacement.js"
+hash = "3cf7098415b1c62610fa32fc30a57f8461aadade59ad8ecb6ec6d2fec04f8add"
+
+[[files]]
 file = "kubejs/server_scripts/ae2.js"
-hash = "1b5b8cf4a508934b1ca217445d451f07ebb90d28c04dbbe9c11518fa824cde19"
+hash = "3af3eca9b8d82f2a23cb545482bdb6e623ebdb89384ac0c9ce4bfb3be1b90a6d"
 
 [[files]]
 file = "kubejs/server_scripts/claim_interact_whitelist.js"
@@ -4398,7 +4910,19 @@ hash = "d0672f01f75ae2d7a06db198a7379d974f93a9a61f92e234bb8a7eec0851fc36"
 
 [[files]]
 file = "kubejs/server_scripts/mods.js"
-hash = "cd37504c1f5fec7729a544344521f1df219dde86089365568016d2f85395f836"
+hash = "d680dceda70c5df7ce732b8510175eedbc6bb8f4a95e1aca6445447d4cb5c789"
+
+[[files]]
+file = "kubejs/server_scripts/mods/bankandtankstorage.js"
+hash = "c190c083bfd1f979ae6dfd6edb968d41d803bcccf045b25b25d151d46615af37"
+
+[[files]]
+file = "kubejs/server_scripts/mods/building_gadgets.js"
+hash = "579b23abf7d280697aa941b43dce033e31f484d7efe4a3161467c492abf7eb44"
+
+[[files]]
+file = "kubejs/server_scripts/mods/cognition.js"
+hash = "156ac87edef2156775c858833fb5cc719c546937b80e2c60e0ff51be409b2760"
 
 [[files]]
 file = "kubejs/server_scripts/mods/create.js"
@@ -4410,7 +4934,7 @@ hash = "d76319207a9839b33a0f6799fad9ad4fe52bb8bd8250ec5235d82144d2a117ee"
 
 [[files]]
 file = "kubejs/server_scripts/mods/create/crushing.js"
-hash = "c887aa7382e5fbf7fb84374f05dceb467101d22723e61528d7e18cc49c3176eb"
+hash = "7f43a013dcbdbd6d82af6e142d1fbae97aeaf2680fde9316fa95a4e9b56dc571"
 
 [[files]]
 file = "kubejs/server_scripts/mods/create/mixing.js"
@@ -4438,11 +4962,11 @@ hash = "d11f98ad4b3179b14ec8e72b4b6a4a2fea6e411d6abcc4e8e7abfafeb263ddfc"
 
 [[files]]
 file = "kubejs/server_scripts/mods/modern_industrialization.js"
-hash = "9d2eb2dc7c4f296fc5116bb6ae734b18ec98e11fe1abdd66109d6401dad60beb"
+hash = "ee45a996e612d502fe9901a25da7011703da5f49ceb65e351191aa180e9445d7"
 
 [[files]]
 file = "kubejs/server_scripts/mods/modern_industrialization/assembler.js"
-hash = "cb4ef43883dae69ab35cdde9d03de867037d534ffed9c270341fdf8fd7e2af63"
+hash = "f8a2af6fc7970b89eb6d78ff78d4de20db04890f0912d7b8254a095a02b56e46"
 
 [[files]]
 file = "kubejs/server_scripts/mods/modern_industrialization/blast_furnace.js"
@@ -4454,7 +4978,7 @@ hash = "3a3e6afb87c28f55e1eefacc8a57885186aad0a36aee89638a3da7085a5e2540"
 
 [[files]]
 file = "kubejs/server_scripts/mods/modern_industrialization/centrifuge.js"
-hash = "3b2dc7720af39f698fe7d4a7805cc02b317e2d4c2d6e6984037f8f8952d53a48"
+hash = "b22a2162036dd16938fd0ef99dd9880122ab0f03eb6688e7139c0914e2988f0c"
 
 [[files]]
 file = "kubejs/server_scripts/mods/modern_industrialization/chemical_reactor.js"
@@ -4462,11 +4986,11 @@ hash = "c5abf46ca9d366517621edd477e40c6e682ee12089c4738a75ef2f6f02f860a5"
 
 [[files]]
 file = "kubejs/server_scripts/mods/modern_industrialization/compressor.js"
-hash = "573f2147d0d5e4a27c64c6af23a36eb9f51c01a6be2b386488431bba6185437f"
+hash = "987488058fab60e5c0e6f08b561857e9426533aa81d7ccf6e0529ecca704878b"
 
 [[files]]
 file = "kubejs/server_scripts/mods/modern_industrialization/core_drill.js"
-hash = "a5bc40087f322e282b7b2daaa9bfa6296675f13cce295e12f2fb9b0796b22d3a"
+hash = "4aaf4b39d334ca3544b81e4b9f92f73ca7936e8cd5a29f2af9599e5e7a4e9615"
 
 [[files]]
 file = "kubejs/server_scripts/mods/modern_industrialization/cutting_machine.js"
@@ -4498,7 +5022,7 @@ hash = "b0d182e7574b764592306becdf3625bf4f3327a240ee9b6c56b11e553c0c8de6"
 
 [[files]]
 file = "kubejs/server_scripts/mods/modern_industrialization/greenhouse.js"
-hash = "15c57f7e5212ac60cd281961d13736c6985d34fc5ad7ec3ae5cb34f827adea85"
+hash = "f84a7e549a5bf05e659bf6652659d16f47e63c587c9e031af6b8341a6cc3b6a6"
 
 [[files]]
 file = "kubejs/server_scripts/mods/modern_industrialization/heat_exchanger.js"
@@ -4518,11 +5042,11 @@ hash = "4ffdb77fe3401da5c07673435d10c80b12232df5a9cfaafcb2336f7c17d3e7f6"
 
 [[files]]
 file = "kubejs/server_scripts/mods/modern_industrialization/macerator.js"
-hash = "ceb9499851003609201aee981ea1573311b565014e12a26b7ff724b4e55437bc"
+hash = "0a9925b1f4cbe8f56b730a29ac147a67aaff99c0f023f22c6a8cdbfe8d70c9ae"
 
 [[files]]
 file = "kubejs/server_scripts/mods/modern_industrialization/mixer.js"
-hash = "51bb220c57619e9bee003d0c0b0e0d9a8f6df8d0253c208e12d4b9f4eb4d19c2"
+hash = "2f72cfe3be3329a27b8cf6c66cdb46d562951958efdfce8064ce1de148b1e313"
 
 [[files]]
 file = "kubejs/server_scripts/mods/modern_industrialization/mob_crusher.js"
@@ -4541,6 +5065,10 @@ file = "kubejs/server_scripts/mods/modern_industrialization/pyrolyse_oven.js.dis
 hash = "a55273ba22194e65a0927c1344414fbbf5f5d4efd82bb906f917852b1f21fec9"
 
 [[files]]
+file = "kubejs/server_scripts/mods/modern_industrialization/quantum_space_probe_launcher.js"
+hash = "1356bbadb5903f6a3a966ed69f251fddc23293517b79aface8e72732bddd08b8"
+
+[[files]]
 file = "kubejs/server_scripts/mods/modern_industrialization/quarry.js"
 hash = "a6d4946d23a74bc5c5599561a2982221d9950d8bb50e2571869cd42eadb8f389"
 
@@ -4549,7 +5077,7 @@ file = "kubejs/server_scripts/mods/modern_industrialization/rocket_part_assemble
 hash = "89301a5802cd52d089616668bc78be97ec138bd62f190c3a2bd11722a95d1c12"
 
 [[files]]
-file = "kubejs/server_scripts/mods/modern_industrialization/runtime_parts_recipes.js"
+file = "kubejs/server_scripts/mods/modern_industrialization/runtime_parts_recipes.js.disabled"
 hash = "bbcd772a1c8ec5a4e4a5adb35e969578607e2b593d13cfdac35b51cf8eb54305"
 
 [[files]]
@@ -4558,7 +5086,7 @@ hash = "5e5e18ce56469c19bbe7d61a00abfb0275f6fa8f1e5abcb94e571c31cf8ac069"
 
 [[files]]
 file = "kubejs/server_scripts/mods/modern_industrialization/space_probe_launcher.js"
-hash = "d272cbf641a11ea2551e0d4f6d6148296e70e2551ecb054db049b407234ff24b"
+hash = "555556fb1fd60e4f6977e406f5e7dfa031b12a141ced11b9c23613a212efd41f"
 
 [[files]]
 file = "kubejs/server_scripts/mods/modern_industrialization/vacuum_freezer.js"
@@ -4570,7 +5098,11 @@ hash = "ab4f619f6a357c6b4e58965b1483a6c3bbe005e355be62a0e9e345704faba605"
 
 [[files]]
 file = "kubejs/server_scripts/mods/sophisticatedbackpacks.js"
-hash = "e3ff9d42372a6b0f1b7ceb1b4911eaac631d3480339f7123dd7d3ed001a54860"
+hash = "c6f709ec4fc82d3385be4726c059a57fe41c9eea5936dc121716fc24e07b3508"
+
+[[files]]
+file = "kubejs/server_scripts/mods/sophisticatedstorage.js"
+hash = "8ebe27b6e5c7ee22071163e0746ff49c12c91049f07f786be0a83f3c5dec5662"
 
 [[files]]
 file = "kubejs/server_scripts/silent_reload.js"
@@ -4582,7 +5114,7 @@ hash = "7206b71c7bc4f709ed2540c1bc96f506f2d15ae803ec0eccea331c76e4e187ce"
 
 [[files]]
 file = "kubejs/server_scripts/statech.js"
-hash = "6d42eeccd9e8c9d86323576bc61b0bc20ed5ab9e5962b73779f84d74fb0cf292"
+hash = "015119b7cfe381c09d5b89b23b69ccbd185c8442e4d8ac3556e4a1e6e11c2381"
 
 [[files]]
 file = "kubejs/server_scripts/statech_food.js"
@@ -4630,7 +5162,7 @@ hash = "ad3abae34f5e2f95b283432eaf76a4471d08aeda17379d6b908c3b029827691f"
 
 [[files]]
 file = "kubejs/startup_scripts/modern_industrialization/materials.js"
-hash = "d172957187b02bd20cd57666af6a3b762a17c44ce209ee04efe11d5a90d56f05"
+hash = "ed8bd02e40d614127003164378ef0da4d478431ef22b861236dfc797e739b2e0"
 
 [[files]]
 file = "kubejs/startup_scripts/modern_industrialization/multiblocks/blood_generator.js"
@@ -4653,12 +5185,16 @@ file = "kubejs/startup_scripts/modern_industrialization/multiblocks/mob_crusher.
 hash = "653e58cbe590a4b03a72e4333a9ce941185dfe4c4f5e6cc1f28ef25950876364"
 
 [[files]]
+file = "kubejs/startup_scripts/modern_industrialization/multiblocks/quantum_space_probe_launcher.js"
+hash = "efc0829b177634943cabd8faa70bc606ec53f8c87027e34a3ecefe0f02853a6b"
+
+[[files]]
 file = "kubejs/startup_scripts/modern_industrialization/multiblocks/singularity_forge.js"
 hash = "bc869170706a7a7f29b78826f03a713fed48d97c1ab2da4b8846e1bcb57c5d15"
 
 [[files]]
 file = "kubejs/startup_scripts/modern_industrialization/multiblocks/space_probe_launcher.js"
-hash = "8e2f39c9770b92db694d2ad3794894211f760b6f48c16f22c79b1d27da8348a4"
+hash = "2a06c38ab7f1d0abb3d9bd3a46484e94e328bea9f012830301dbc250fefe9e33"
 
 [[files]]
 file = "kubejs/startup_scripts/modern_industrialization/sounds.js.disabled"
@@ -4690,7 +5226,7 @@ hash = "7e176f807da66268053a15400e9e926b6405e746ea93256b38dfcdff17ff8001"
 
 [[files]]
 file = "kubejs/startup_scripts/statech/misc.js"
-hash = "e30303cb8dcaa4ebd34d5b5eaff1bb177cd73d3d33f428b9a1901f64d258e106"
+hash = "8fb83e42562a0bd908a034dc5d64f91e37a56ae4cce820c98af051d8b45d0c32"
 
 [[files]]
 file = "kubejs/startup_scripts/statech/mob_models.js"
@@ -4823,6 +5359,11 @@ metafile = true
 [[files]]
 file = "mods/alternate-current.pw.toml"
 hash = "571293a6ddb6b5ea7b9c1f5454d0cfc584a5aa50397942bea4906d3b54e02e02"
+metafile = true
+
+[[files]]
+file = "mods/angel-ring.pw.toml"
+hash = "c992e48cefb478dadc3f59a3523ede9586c4142e0c63a1ece6f621b1b7489110"
 metafile = true
 
 [[files]]
@@ -5046,6 +5587,31 @@ hash = "f4f8b5eb8c1427b6bd83ca70a3dbec9845b8c5a37b9ba72b9a49ee0e45136562"
 metafile = true
 
 [[files]]
+file = "mods/create-easy-structures.pw.toml"
+hash = "5b610876dae9779654c74b1a71d15c0303a39eb62459201921b30f4731985e18"
+metafile = true
+
+[[files]]
+file = "mods/create-let-the-adventure-begin.pw.toml"
+hash = "369c99df1f0ee16ebbc80548ee1d4bec127f732c8dae4ce97f2f718735892327"
+metafile = true
+
+[[files]]
+file = "mods/create-rustic-structures.pw.toml"
+hash = "c4802fe430d0a5aac62eabeb195db7771d7e6907ba5f68b5ca231cf33d61b3a8"
+metafile = true
+
+[[files]]
+file = "mods/create-structures-arise.pw.toml"
+hash = "40d43d44f432dbb48d3c25e3e9b7a4e51961a6d218fbfd87117015a668358be7"
+metafile = true
+
+[[files]]
+file = "mods/create-vibrant-vaults.pw.toml"
+hash = "edfc5cfd0224c45873c197c9352eadbe17171f737784581fe32ab963f59f27a3"
+metafile = true
+
+[[files]]
 file = "mods/create.pw.toml"
 hash = "1070f0faa541f5be34e84140f981d12e08d6d4ee753a7b0b0938c3b8760b2bd2"
 metafile = true
@@ -5068,6 +5634,11 @@ metafile = true
 [[files]]
 file = "mods/curios.pw.toml"
 hash = "f92e7a06645e41ea1934dc420eb2772edb1708c0d71cb427baef8cf753acb934"
+metafile = true
+
+[[files]]
+file = "mods/custom-ore-veins.pw.toml"
+hash = "3fd8553f69dd4dbfaa9f68d9cc028d39ae216ffc3b3156011617cb5451a123e2"
 metafile = true
 
 [[files]]
@@ -5211,6 +5782,11 @@ hash = "f39a61db733e387f4e979d449f5f4f17bae8bab662b3b2711f9b84de6d9d2240"
 metafile = true
 
 [[files]]
+file = "mods/flight-api.pw.toml"
+hash = "3ed30bdb4af57724acbe28a85399d43ac2c93bbb8f338ecdb0718f1bb98452d9"
+metafile = true
+
+[[files]]
 file = "mods/forgiving-void.pw.toml"
 hash = "06c4bc84c5db897e85b16b9627c8113a574a6bd793b67c155751bc21108d00e2"
 metafile = true
@@ -5308,6 +5884,11 @@ metafile = true
 [[files]]
 file = "mods/hang-glider.pw.toml"
 hash = "70112a7b08034441ac4d4d97a41b9efe45e52dbdae7f1cc65979ab48e9fe74f7"
+metafile = true
+
+[[files]]
+file = "mods/haydenapi.pw.toml"
+hash = "1786d9195462da4c4fbb62eca162a1cba82c1b25e73a1a064aa52d07b18306e2"
 metafile = true
 
 [[files]]
@@ -5438,6 +6019,16 @@ metafile = true
 [[files]]
 file = "mods/lootr.pw.toml"
 hash = "20084e6c096135548dbceb71e6adb7ed2cdaa66dc4e3e2e3bc2055091e109bbe"
+metafile = true
+
+[[files]]
+file = "mods/lukis-ancient-cities.pw.toml"
+hash = "302e8514957c57413857fb47a771155b2e84bd7c7d5f2dbdff3c1c6e0e865bd6"
+metafile = true
+
+[[files]]
+file = "mods/lukis-grand-capitals.pw.toml"
+hash = "04cf03daaecfc55b6b8385b52f46f76886dcc132c3976dd573b4ac3904591462"
 metafile = true
 
 [[files]]
@@ -5591,11 +6182,6 @@ hash = "d9401738f5964a2c97898c834ebfe0578a0a69066a70363aed80747405e8bc5e"
 metafile = true
 
 [[files]]
-file = "mods/omni-utils.pw.toml"
-hash = "537b4ddb89053eff0fd7e2a0aff14cd87ed0f9bceaaafa26b7de5e60a772dcd0"
-metafile = true
-
-[[files]]
 file = "mods/openblocks-elevator.pw.toml"
 hash = "bc3e79ec7c82f0e4b752ba7f41709e1e87e25169cf96b7c38dafefeaf876a80f"
 metafile = true
@@ -5608,6 +6194,11 @@ metafile = true
 [[files]]
 file = "mods/packet-fixer.pw.toml"
 hash = "accee6b1ffe7457b74a7b7f90536556bd1df0edb9f6091f2e7505a72b48bb080"
+metafile = true
+
+[[files]]
+file = "mods/pastel.pw.toml"
+hash = "e7f2b04077b40ab5d4cf64f1dbb32087f512a284cb1eebb9868e0dd2ff5e50f8"
 metafile = true
 
 [[files]]
@@ -5731,6 +6322,21 @@ hash = "6d9eaf43c14c66465e87bf03cc5cb5ecef57b3f2e8063c52f6332d33689d30be"
 metafile = true
 
 [[files]]
+file = "mods/structory-towers.pw.toml"
+hash = "27cb7f620013f352abc153571992b5ae6e75f4a6b94844d36f8361d27d360f5c"
+metafile = true
+
+[[files]]
+file = "mods/structure-layout-optimizer.pw.toml"
+hash = "0c38310c2d00eccd1614d57d67cf23b9e672326418c9dd9e55658ea674e0cdfc"
+metafile = true
+
+[[files]]
+file = "mods/structurify.pw.toml"
+hash = "a1f8e553d9131f30bf41d931e5498ad23d22c666ec22678e39b59730701f3201"
+metafile = true
+
+[[files]]
 file = "mods/supermartijn642s-config-lib.pw.toml"
 hash = "2e42245826ce70d4ad673addb0e5244da388841f1484f03ee5a9426ee33b2229"
 metafile = true
@@ -5841,6 +6447,11 @@ hash = "79dafea8766243a169973c4289714058df1731991cd5e303270db8e7d7c0a506"
 metafile = true
 
 [[files]]
+file = "mods/yacl.pw.toml"
+hash = "5aaab5c3140ac335cf0345f9f280fc5774a2834faecc290272b3d24b8a97274a"
+metafile = true
+
+[[files]]
 file = "mods/yeetusexperimentus.pw.toml"
 hash = "7c6f2e38a6932f846738747fd6cff3af239748a84e89350f6c967c8ac72a65d6"
 metafile = true
@@ -5867,3 +6478,7 @@ hash = "0179bd74a3f79bcff7ad4888eff55b1a48e90a59707decd38f55590e072442b0"
 [[files]]
 file = "resourcepacks/Craftoria Emissive Ores 1.0.zip"
 hash = "8d969c5b8660fc78f0a53717c8f312436e5ac1299ccabb0b8a74d8035b017f3c"
+
+[[files]]
+file = "todo.md"
+hash = "9fc425f36356fc8389b0df1c8df78ea3757464c13b2e128849fb5cf95c93c699"

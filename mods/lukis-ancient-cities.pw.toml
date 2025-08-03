@@ -1,0 +1,13 @@
+name = "Luki's Ancient Cities"
+filename = "lukis-ancient-cities-1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2ab5748e9b8c472c7487de13b6807373ab8dbe17"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6735646
+project-id = 1190728

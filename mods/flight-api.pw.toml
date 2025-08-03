@@ -1,0 +1,13 @@
+name = "Flight API"
+filename = "flightapi-neoforge-1.0.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e8f5f464bf469b67923af5697a8a614f6e9704e1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6301121
+project-id = 1219748

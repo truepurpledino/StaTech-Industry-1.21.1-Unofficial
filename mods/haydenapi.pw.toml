@@ -1,0 +1,13 @@
+name = "HaydenAPI"
+filename = "haydenapi-neoforge-1.0.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1def897f47edc4fd38cbb1955b7c9c842e002d08"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6302841
+project-id = 1219737

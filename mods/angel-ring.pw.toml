@@ -1,0 +1,13 @@
+name = "Angel Ring"
+filename = "angelring-1.21.1-neoforge-3.0.0+beta.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "bd0f8c8a3a13cebc84f58673f6487f3b8b222e99"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6304658
+project-id = 333396
