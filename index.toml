@@ -325,10 +325,6 @@ file = "icon.png"
 hash = "d0696a76248de012624d3f05db292d52a8802f6031488238ae69259f64610553"
 
 [[files]]
-file = "kubejs/README.txt"
-hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
-
-[[files]]
 file = "kubejs/assets/capejs/textures/capes/admin.png"
 hash = "20b3872bdd23ecb068632e0c1ec810b94cd272e119a2f716eb72f717f7561e9a"
 
@@ -5637,11 +5633,6 @@ hash = "f92e7a06645e41ea1934dc420eb2772edb1708c0d71cb427baef8cf753acb934"
 metafile = true
 
 [[files]]
-file = "mods/custom-ore-veins.pw.toml"
-hash = "3fd8553f69dd4dbfaa9f68d9cc028d39ae216ffc3b3156011617cb5451a123e2"
-metafile = true
-
-[[files]]
 file = "mods/dark-mode-everywhere.pw.toml"
 hash = "d49b12a00673ee8de5b5df8ec5956bf81da551eff4d2a38b230a089b765f2c42"
 metafile = true
@@ -6476,8 +6467,9 @@ file = "packwizignore"
 hash = "0179bd74a3f79bcff7ad4888eff55b1a48e90a59707decd38f55590e072442b0"
 
 [[files]]
-file = "resourcepacks/Craftoria Emissive Ores 1.0.zip"
-hash = "8d969c5b8660fc78f0a53717c8f312436e5ac1299ccabb0b8a74d8035b017f3c"
+file = "resourcepacks/craftoria-emissive-ores.pw.toml"
+hash = "29712e2818631de366a5956bb30302506b1d97a753a8ed47288aa620e4a4b04a"
+metafile = true
 
 [[files]]
 file = "todo.md"
