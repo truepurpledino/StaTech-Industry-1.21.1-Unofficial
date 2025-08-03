@@ -35,55 +35,55 @@ ServerEvents.recipes(e => {
     splashing(
         st('fluid_pipe_cleaning'),
         [ { tag: mi('fluid_pipes') } ],
-        [ { item: mi('fluid_pipe') } ]
+        [ { id: mi('fluid_pipe') } ]
     );
 
     // -- BULK WASHING MI ITEM PIPES -- //
     splashing(
         st('item_pipe_cleaning'),
         [ { tag: mi('item_pipes') } ],
-        [ { item: mi('item_pipe') } ]
+        [ { id: mi('item_pipe') } ]
     );
 
     // -- BULK WASHING MI ME WIRES -- //
     splashing(
         st('me_wire_cleaning'),
         [ { tag: mi('me_wires') } ],
-        [ { item: mi('me_wire') } ]
+        [ { id: mi('me_wire') } ]
     );
 
     // -- BULK WASHING AE2 SMART CABLES -- //
     splashing(
         st('smart_cable_cleaning'),
         [ { tag: ae('smart_cable') } ],
-        [ { item: ae('fluix_smart_cable') } ]
+        [ { id: ae('fluix_smart_cable') } ]
     );
 
     // -- BULK WASHING AE2 COVERED CABLES -- //
     splashing(
         st('covered_cable_cleaning'),
         [ { tag: ae('covered_cable') } ],
-        [ { item: ae('fluix_covered_cable') } ]
+        [ { id: ae('fluix_covered_cable') } ]
     );
 
     // -- BULK WASHING AE2 GLASS CABLES -- // 
     splashing(
         st('glass_cable_cleaning'),
         [ { tag: ae('glass_cable') } ],
-        [ { item: ae('fluix_glass_cable') } ]
+        [ { id: ae('fluix_glass_cable') } ]
     );
 
     // -- BULK WASHING AE2 DENSE COVERED CABLES -- //
     splashing(
         st('dense_cable_cleaning'),
         [ { tag: ae('covered_dense_cable') } ],
-        [ { item: ae('fluix_covered_dense_cable') } ]
+        [ { id: ae('fluix_covered_dense_cable') } ]
     );
 
     // -- BULK WASHING AE2 DENSE SMART CABLES -- // 
     splashing(
         st('smart_dense_cable_cleaning'),
         [ { tag: ae('smart_dense_cable') } ],
-        [ { item: ae('fluix_smart_dense_cable') } ]
+        [ { id: ae('fluix_smart_dense_cable') } ]
     );
 });
