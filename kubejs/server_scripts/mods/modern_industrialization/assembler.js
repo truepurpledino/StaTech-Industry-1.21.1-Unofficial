@@ -625,19 +625,19 @@ ServerEvents.recipes(e => {
     );
 
     // -- LARGE CHEMICAL REACTOR -- //
-    // assembler(
-        // st('large_chemical_reactor'),
-        // 8,
-        // 200,
-        // [ 
-            // { amount: 4, item: mi('polytetrafluoroethylene_plate') },
-            // { amount: 2, item: mi('advanced_motor') },
-            // { amount: 1, item: mi('digital_circuit') },
-            // { amount: 1, item: mi('chemical_reactor') },
-            // { amount: 1, item: mi('turbo_machine_hull') }
-        // ],
-        // [ { amount: 1, item: mit('large_chemical_reactor') } ]
-    // );
+    assembler(
+        st('large_chemical_reactor'),
+        8,
+        200,
+        [ 
+            { amount: 4, item: mi('polytetrafluoroethylene_plate') },
+            { amount: 2, item: mi('advanced_motor') },
+            { amount: 1, item: mi('digital_circuit') },
+            { amount: 1, item: mi('chemical_reactor') },
+            { amount: 1, item: mi('turbo_machine_hull') }
+        ],
+        [ { amount: 1, item: mit('large_chemical_reactor') } ]
+    );
 
     // -- MEGA SMELTER -- //
     // assembler(
@@ -701,6 +701,22 @@ ServerEvents.recipes(e => {
         8,
         200,
         [
+            { amount: 2, item: mi('stainless_steel_gear') },
+            { amount: 2, item: mi('advanced_motor') },
+            { amount: 2, item: mi('stainless_steel_machine_casing_pipe') },
+            { amount: 1, item: mi('digital_circuit') },
+            { amount: 1, item: mi('clean_stainless_steel_machine_casing') },
+            { amount: 1, item: mi('turbo_machine_hull') }
+        ],
+        [ { amount: 1, item: mi('space_probe_launcher') } ]
+    );
+
+    // -- QUANTUM SPACE PROBE LAUNCHER -- //
+    assembler(
+        st('quantum_space_probe_launcher'),
+        8,
+        200,
+        [
             { amount: 2, item: mi('calorite_gear') },
             { amount: 2, item: mi('large_advanced_motor') },
             { amount: 2, item: mi('calorite_machine_casing_pipe') },
@@ -708,7 +724,7 @@ ServerEvents.recipes(e => {
             { amount: 1, item: mi('calorite_machine_casing') },
             { amount: 1, item: mi('highly_advanced_machine_hull') }
         ],
-        [ { amount: 1, item: mi('space_probe_launcher') } ]
+        [ { amount: 1, item: mi('quantum_space_probe_launcher') } ]
     );
 
     // -- UNCOOKED PIZZA -- //
@@ -1118,7 +1134,7 @@ ServerEvents.recipes(e => {
         ],
         [ { amount: 4, item: kj('highly_advanced_space_probe') } ],
     );
-    
+        
     // -- ENERGY FLOW CHIP -- //
     // assembler(
         // st('energy_flow_chip'),

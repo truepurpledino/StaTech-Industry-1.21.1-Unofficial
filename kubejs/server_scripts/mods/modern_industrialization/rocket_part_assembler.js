@@ -90,7 +90,7 @@ ServerEvents.recipes(e => {
             { amount: 1, item: mi('steel_tank') }
         ],
         [ { amount: 1, item: kjs('steel_fuel_tank') } ],
-        [ { amount: 100, fluid: mi('molten_enderium') } ]
+        [ { amount: 250, fluid: mi('boosted_diesel') } ]
     );
 
     // -- DESH TANK -- //
@@ -105,7 +105,7 @@ ServerEvents.recipes(e => {
             { amount: 1, tag: 'c:glass_blocks' }
         ],
         [ { amount: 1, item: kjs('desh_fuel_tank') } ],
-        [ { amount: 100, fluid: mi('molten_enderium') } ]
+        [ { amount: 500, fluid: mi('boosted_diesel') } ]
     );
 
     // -- OSTRUM TANK -- //
@@ -120,7 +120,7 @@ ServerEvents.recipes(e => {
             { amount: 1, tag: 'c:glass_blocks' }
         ],
         [ { amount: 1, item: kjs('ostrum_fuel_tank') } ],
-        [ { amount: 100, fluid: mi('molten_enderium') } ]
+        [ { amount: 750, fluid: mi('boosted_diesel') } ]
     );
 
     // -- CALORITE TANK -- //
@@ -135,7 +135,7 @@ ServerEvents.recipes(e => {
             { amount: 1, tag: 'c:glass_blocks' }
         ],
         [ { amount: 1, item: kjs('calorite_fuel_tank') } ],
-        [ { amount: 100, fluid: mi('molten_enderium') } ]
+        [ { amount: 1000, fluid: mi('boosted_diesel') } ]
     )
 
     // -- STEEL ENGINE -- //

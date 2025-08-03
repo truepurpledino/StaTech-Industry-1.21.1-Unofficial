@@ -294,6 +294,22 @@ ServerEvents.recipes(e => {
     .id(st('large_electric_furnace'));
 
     // -- SPACE PROBE LAUNCHER -- //
+    e.shaped(mi('space_probe_launcher'), [
+        'PUP',
+        'GHG',
+        'MCM'
+    ],
+    {
+        P: mi('stainless_steel_machine_casing_pipe'),
+        U: mi('digital_circuit'),
+        G: mi('stainless_steel_gear'),
+        H: mi('turbo_machine_hull'),
+        M: mi('advanced_motor'),
+        C: mi('clean_stainless_steel_machine_casing')
+    })
+    .id(st('space_probe_launcher'));
+
+    // -- QUANTUM SPACE PROBE LAUNCHER -- //
     e.shaped(mi('quantum_space_probe_launcher'), [
         'PUP',
         'GHG',
