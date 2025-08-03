@@ -24,3 +24,5 @@
 - [x] Adapt recipes for Banks and Tanks
 - [x] Remove Sophisticated backpacks stuff from loot tables
 - [ ] Adapt recipes so trial chambers can't be turned into copper
+- [ ] More custom progress bars (greenhouse, laser engraver)
+
