@@ -11,7 +11,8 @@ ServerEvents.recipes(e => {
     
     // -- BUILDING GADGETS REMOVED RECIPES -- //
     const REMOVED_RECIPES = [
-        xp('cognitive_flux')
+        xp('cognitive_flux'),
+        xp('cognitive_alloy')        
     ]; 
     REMOVED_RECIPES.forEach(id => e.remove( {id: id} ));
 
