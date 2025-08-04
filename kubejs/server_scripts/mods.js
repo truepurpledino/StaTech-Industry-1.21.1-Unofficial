@@ -11,6 +11,9 @@ ServerEvents.recipes(e => {
     let es = (id) => `enderstorage:${id}`;
     let mi = (id) => `modern_industrialization:${id}`;
     let hg = (id) => `hangglider:${id}`;
+    let mr = (id) => `morered:${id}`;
+    let ar = (id) => `angelring:${id}`;
+    let gag = (id) => `gag:${id}`;
 
     // -- REMOVED RECIPES -- //
     const MODS_DELETED = [
@@ -20,10 +23,18 @@ ServerEvents.recipes(e => {
         es('ender_pouch'),
         es('ender_tank'),
         hg('reinforced_hang_glider'),
-        hg('glider_framework')
+        hg('glider_framework'),
+        mr('red_alloy_ingot'),
+        ar('angel_ring'),
+        ar('diamond_ring'),
+        ar('angel_ring'),
+        gag('time_sand_pouch'),
+        gag('pigment_jar_mixing'),
+        gag('pigment_jar_from_dye'),
+        gag('pigment_jar_splitting')
     ];
     MODS_DELETED.forEach(id => e.remove({ id: id }));
-
+    e.remove({ output: gag('pigment_jar') })
 
     // -- ENDER CHEST -- //
     e.shaped(es('ender_chest'), [
