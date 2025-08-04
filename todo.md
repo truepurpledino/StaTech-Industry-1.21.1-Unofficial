@@ -25,4 +25,8 @@
 - [x] Remove Sophisticated backpacks stuff from loot tables
 - [ ] Adapt recipes so trial chambers can't be turned into copper
 - [ ] More custom progress bars (greenhouse, laser engraver)
+- [ ] Replace PonderJS scripts with GuideME entries that follow the MI format
+- [ ] Add Travel Anchors custom recipes
+- [ ] Update mods
+
 
