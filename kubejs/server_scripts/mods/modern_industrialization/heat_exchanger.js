@@ -7,7 +7,13 @@ ServerEvents.recipes(e => {
     // -- MOD NAMESPACE UTILITY FUNCTIONS -- // 
     let mi = (id) => `modern_industrialization:${id}`;
     // let tr = (id) => `techreborn:${id}`;
+    let mc = (id) => `minecraft:${id}`;
     let st = (id) => `statech:modern_industrialization/heat_exchanger/${id}`;
+
+    const REMOVED_RECIPES = [
+        mi('materials/heat_exchanger/lava')
+    ];
+    REMOVED_RECIPES.forEach(id => e.remove( {id: id} ));
 
     // -- CUSTOM RECIPE UTILITY FUNCTION -- //
     let heatExchanger = (id, eu, duration, item_inputs, item_outputs, fluid_inputs, fluid_outputs) => {
@@ -28,6 +34,19 @@ ServerEvents.recipes(e => {
 
         e.custom(newRecipe).id(id);
     }
+
+    heatExchanger(
+        st('lava_power'),
+        8,
+        20,
+        null,
+        [ { amount: 1, item: mc('obsidian'), probability: 0.02 } ],
+        [ 
+            { amount: 10, fluid: mc('lava') },
+            { amount: 125, fluid: mc('water') }
+         ],
+        [ { amount: 2000, fluid: mi('steam') } ]
+    );
 
     // -- TUNGSTENSTEEL INGOT -- //
     // heatExchanger(
