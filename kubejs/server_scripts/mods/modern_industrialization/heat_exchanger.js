@@ -37,15 +37,15 @@ ServerEvents.recipes(e => {
 
     heatExchanger(
         st('lava_power'),
-        8,
+        16,
         20,
         null,
-        [ { amount: 1, item: mc('obsidian'), probability: 0.02 } ],
+        [ { amount: 1, item: mc('obsidian'), probability: 0.01 } ],
         [ 
             { amount: 10, fluid: mc('lava') },
-            { amount: 125, fluid: mc('water') }
+            { amount: 250, fluid: mc('water') }
          ],
-        [ { amount: 2000, fluid: mi('steam') } ]
+        [ { amount: 4000, fluid: mi('steam') } ]
     );
 
     // -- TUNGSTENSTEEL INGOT -- //
