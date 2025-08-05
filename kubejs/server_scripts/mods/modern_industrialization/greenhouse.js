@@ -138,12 +138,12 @@ ServerEvents.recipes(event => {
             8,
             1200,
             [ { amount: 1, item: sapling, probability: 0.0 } ],
-            [ { amount: 100, fluid: fluid } ],
             [
                 { amount: 8, item: log },
                 { amount: 16, item: leaves },
                 { amount: 1, item: sapling, probability: 0.5 },
-            ]
+            ],
+            [ { amount: 100, fluid: fluid } ]
         );
 
         fluid = mi(`nutrient_rich_${fluid.split(':')[1]}`);
@@ -153,12 +153,12 @@ ServerEvents.recipes(event => {
             8,
             1200,
             [ { amount: 1, item: sapling, probability: 0.0 } ],
-            [ { amount: 100, fluid: fluid } ],
             [
                 { amount: 16, item: log },
                 { amount: 32, item: leaves },
                 { amount: 1, item: sapling }
-            ]
+            ],
+            [ { amount: 100, fluid: fluid } ]
         );
     });
     pastelSaplingList.forEach( woodType => {
@@ -178,12 +178,12 @@ ServerEvents.recipes(event => {
             8,
             1200,
             [ { amount: 1, item: sapling, probability: 0.0 } ],
-            [ { amount: 100, fluid: fluid } ],
             [
                 { amount: 8, item: log },
                 { amount: 16, item: leaves },
                 { amount: 1, item: sapling, probability: 0.5 },
             ],
+            [ { amount: 100, fluid: fluid } ],
             'pastel:polished_onyx_block',
             'below'
         );
@@ -195,12 +195,12 @@ ServerEvents.recipes(event => {
             8,
             1200,
             [ { amount: 1, item: sapling, probability: 0.0 } ],
-            [ { amount: 100, fluid: fluid } ],
             [
                 { amount: 16, item: log },
                 { amount: 32, item: leaves },
                 { amount: 1, item: sapling }
             ],
+            [ { amount: 100, fluid: fluid } ],
             'pastel:polished_onyx_block',
             'below'
         );
