@@ -3,14 +3,9 @@
 // STATECH INDUSTRY
 // -----------------------------------------
 
-ServerEvents.recipes(e => {
+ServerEvents.recipes(event => {
     // -- MOD NAMESPACE UTILITY FUNCTIONS -- // 
     let st = (id) => `statech:modern_industrialization/compressor/${id}`;
-    let mi = (id) => `modern_industrialization:${id}`;
-    let mc = (id) => `minecraft:${id}`;
-    // let tr = (id) => `techreborn:${id}`;
-    let cr = (id) => `create:${id}`;
-    let kj = (id) => `kubejs:${id}`;
 
     // -- COMPRESSOR REMOVED RECIPES -- //
     const DELETED_RECIPE = [
@@ -22,23 +17,7 @@ ServerEvents.recipes(e => {
         // mi('compressor/desh_ingot_to_plate'),
         // mi('compat/techreborn/compressor/techreborn_lazurite_dust_to_techreborn_lazurite_plate')
     ];
-    DELETED_RECIPE.forEach(id => e.remove({id: id}));
-
-    // -- CUSTOM RECIPE UTILITY FUNCTION -- //
-    let compressor = (id, eu, duration, item_inputs, item_outputs) => {
-        let newRecipe = {
-            type: mi('compressor'),
-            eu: eu,
-            duration: duration
-        }
-
-        if (item_inputs) 
-            newRecipe['item_inputs'] = item_inputs;
-        if (item_outputs)
-            newRecipe['item_outputs'] = item_outputs;
-        
-        e.custom(newRecipe).id(id);
-    }
+    DELETED_RECIPE.forEach(id => event.remove({id: id}));
 
     // -- NETHERITE NUGGET -> NETHERITE INGOT -- //
     // compressor(
@@ -60,6 +39,7 @@ ServerEvents.recipes(e => {
 
     // -- DIAMOND PLATE -- //
     compressor(
+        event,
         st('diamond_plate'),
         48,
         400,
@@ -69,6 +49,7 @@ ServerEvents.recipes(e => {
 
     // -- EMERALD PLATE -- //
     compressor(
+        event,
         st('emerald_plate'),
         48,
         400,
@@ -78,6 +59,7 @@ ServerEvents.recipes(e => {
 
     // -- BRICKS -- //
     compressor(
+        event,
         st('bricks'),
         2,
         300,
@@ -87,6 +69,7 @@ ServerEvents.recipes(e => {
 
     // -- FIRE CLAY BRICKS -- //
     compressor(
+        event,
         st('fire_clay_bricks'),
         2,
         300,
@@ -96,6 +79,7 @@ ServerEvents.recipes(e => {
 
     // -- STONE -- //
     compressor(
+        event,
         st('stone'),
         2,
         200,
@@ -123,6 +107,7 @@ ServerEvents.recipes(e => {
 
     // -- PAPER -- //
     compressor(
+        event,
         st('paper'),
         2,
         100,

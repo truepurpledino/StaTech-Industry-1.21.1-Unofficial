@@ -3,36 +3,15 @@
 // STATECH INDUSTRY
 // -----------------------------------------
 
-ServerEvents.recipes(e => {
+ServerEvents.recipes(event => {
     // -- MOD NAMESPACE UTILITY FUNCTIONS -- // 
     let st = (id) => `statech:modern_industrialization/cutting_machine/${id}`;
-    let mi = (id) => `modern_industrialization:${id}`;
-    let kj = (id) => `kubejs:${id}`;
 
     // -- CUTTING MACHINE VARIABLE CONSTANTS -- //
     const lubricantAmount = 10;
-
-    // -- CUSTOM RECIPE UTILITY FUNCTION -- //
-    let cuttingMachine = (id, eu, duration, item_inputs, item_outputs) => {
-        let newRecipe = {
-            type: mi('cutting_machine'),
-            eu: eu,
-            duration: duration,
-            fluid_inputs: [
-                { amount: lubricantAmount, fluid:  mi('lubricant') }
-            ]
-        }
-
-        if (item_inputs)
-            newRecipe['item_inputs'] = item_inputs;
-        if (item_outputs)
-            newRecipe['item_outputs'] = item_outputs;
-        
-        e.custom(newRecipe).id(id);
-    }
     
     let recipesToRemove = [];
-    e.forEachRecipe({ type: mi('cutting_machine') }, recipe => {
+    event.forEachRecipe({ type: mi('cutting_machine') }, recipe => {
         recipesToRemove.push(recipe.getId());
         let recipeJson = recipe.json;
         let inputs = recipeJson.get('fluid_inputs');
@@ -50,13 +29,14 @@ ServerEvents.recipes(e => {
                 recipeJson.get('fluid_inputs').add('amount', lubricantAmount);
             }
         }
-        e.custom(recipeJson).id(st(recipe.getPath()));
+        event.custom(recipeJson).id(st(recipe.getPath()));
     }); 
 
-    recipesToRemove.forEach(id => e.remove({id: id}));  
+    recipesToRemove.forEach(id => event.remove({id: id}));  
 
     // -- EMPTY CAN -- //
     cuttingMachine(
+        event,
         st('empty_can'),
         2,
         200,
@@ -66,6 +46,7 @@ ServerEvents.recipes(e => {
 
     // -- PIZZA SLICE -- //
     cuttingMachine(
+        event,
         st('pizza_slice'),
         2,
         200,
@@ -75,6 +56,7 @@ ServerEvents.recipes(e => {
 
     // -- CONCRETE PIZZA SLICE -- //
     cuttingMachine(
+        event,
         st('concrete_pizza_slice'),
         8,
         200,

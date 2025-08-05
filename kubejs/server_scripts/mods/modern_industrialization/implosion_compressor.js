@@ -3,38 +3,20 @@
 // STATECH INDUSTRY
 // -----------------------------------------
 
-ServerEvents.recipes(e => {
+ServerEvents.recipes(event => {
     // -- MOD NAMESPACE UTILITY FUNCTIONS -- // 
     let st = (id) => `statech:modern_industrialization/implosion_compressor/${id}`;
-    let mi = (id) => `modern_industrialization:${id}`;
-    // let tr = (id) => `techreborn:${id}`;
-    let kj = (id) => `kubejs:${id}`;
 
     // -- IMPLOSION COMPRESSOR REMOVED RECIPES -- //
     const REMOVED_RECIPE = [
         mi('electric_age/component/implosion_compressor/singularity'),
         mi('vanilla_recipes/implosion_compressor/nether_star')
     ]
-    REMOVED_RECIPE.forEach(id => e.remove({id: id}));
-
-    // -- CUSTOM RECIPE UTILITY FUNCTION -- //
-    let implosionCompressor = (id, eu, duration, item_inputs, item_outputs) => {
-        let newRecipe = {
-            type: mi('implosion_compressor'),
-            eu: eu,
-            duration: duration
-        }
-
-        if (item_inputs)
-            newRecipe['item_inputs'] = item_inputs;
-        if (item_outputs)   
-            newRecipe['item_outputs'] = item_outputs;
-    
-        e.custom(newRecipe).id(id);
-    }
+    REMOVED_RECIPE.forEach(id => event.remove({id: id}));
 
     // -- ULTRADENSE METAL BALL -- //
     implosionCompressor(
+        event,
         st('ultradense_metal_ball'),
         512,
         600,

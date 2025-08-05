@@ -3,46 +3,10 @@
 // STATECH INDUSTRY
 // -----------------------------------------
 
-ServerEvents.recipes(e => {
+ServerEvents.recipes(event => {
     // -- MOD NAMESPACE UTILITY FUNCTIONS -- // 
     let st = (id) => `statech:modern_industrialization/greenhouse/${id}`;
-    let mi = (id) => `modern_industrialization:${id}`;
-    let mc = (id) => `minecraft:${id}`;
-    // let ap = (id) => `architects_palette:${id}`;
-    // let bl = (id) => `blockus:${id}`;
-    // let bg = (id) => `byg:${id}`;
-    // let cd = (id) => `culturaldelights:${id}`;
-    // let ec = (id) => `ecologics:${id}`;
-    // let ed = (id) => `expandeddelight:${id}`;
-    // let pr = (id) => `promenade:${id}`;
-    // let tr = (id) => `techreborn:${id}`;
-    let pa = (id) => `pastel:${id}`;
-    // let tf = (id) => `twilightforest:${id}`;
 
-    // -- CUSTOM RECIPE UTILITY FUNCTION -- //
-    let greenhouse = (id, eu, duration, item_inputs, fluid_inputs, item_outputs, adjacentBlock) => {
-        let newRecipe = {
-            type: mi('greenhouse'),
-            eu: eu,
-            duration: duration
-        }
-
-        if (item_inputs)
-            newRecipe['item_inputs'] = item_inputs;
-        if (item_outputs)
-            newRecipe['item_outputs'] = item_outputs;
-        if (fluid_inputs)
-            newRecipe['fluid_inputs'] = fluid_inputs;
-        if (adjacentBlock) 
-            newRecipe['process_conditions'] = [
-                {
-                    type: "modern_industrialization:adjacent_block",
-                    block: adjacentBlock,
-                    position: "below"
-                }
-            ];
-        e.custom(newRecipe).id(id);
-    }
     // This is all the saplings in the game with their corresponding logs and leaves
     const saplingLogList = [    
         // Sapling                              Log                             Leaves                                  Fluid
@@ -169,6 +133,7 @@ ServerEvents.recipes(e => {
             // id += '_byg';
             
         greenhouse(
+            event,
             st(id),
             8,
             1200,
@@ -183,6 +148,7 @@ ServerEvents.recipes(e => {
 
         fluid = mi(`nutrient_rich_${fluid.split(':')[1]}`);
         greenhouse(
+            event,
             st(`${id}_bonemeal`),
             8,
             1200,
@@ -207,6 +173,7 @@ ServerEvents.recipes(e => {
             // id += '_byg';
             
         greenhouse(
+            event,
             st(id),
             8,
             1200,
@@ -217,11 +184,13 @@ ServerEvents.recipes(e => {
                 { amount: 16, item: leaves },
                 { amount: 1, item: sapling, probability: 0.5 },
             ],
-            "pastel:polished_onyx_block"
+            'pastel:polished_onyx_block',
+            'below'
         );
 
         fluid = mi(`nutrient_rich_${fluid.split(':')[1]}`);
         greenhouse(
+            event,
             st(`${id}_bonemeal`),
             8,
             1200,
@@ -232,7 +201,8 @@ ServerEvents.recipes(e => {
                 { amount: 32, item: leaves },
                 { amount: 1, item: sapling }
             ],
-            "pastel:polished_onyx_block"
+            'pastel:polished_onyx_block',
+            'below'
         );
     });
 });

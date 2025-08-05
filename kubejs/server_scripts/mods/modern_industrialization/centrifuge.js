@@ -3,42 +3,19 @@
 // STATECH INDUSTRY
 // -----------------------------------------
 
-ServerEvents.recipes(e => {
+ServerEvents.recipes(event => {
     // -- MOD NAMESPACE UTILITY FUNCTIONS -- // 
     let st = (id) => `statech:modern_industrialization/centrifuge/${id}`;
-    let mi = (id) => `modern_industrialization:${id}`;
-    let mc = (id) => `minecraft:${id}`;
-    // let ad = (id) => `ad_astra:${id}`;
-    // let tr = (id) => `techreborn:${id}`;
 
     // -- CENTRIFUGE REMOVED RECIPES -- //
     const REMOVED_RECIPES = [
         mi('vanilla_recipes/centrifuge/lava')
     ];
-    REMOVED_RECIPES.forEach(id => e.remove({id: id}));
-
-    // -- CUSTOM RECIPE UTILITY FUNCTION -- //
-    let centrifuge = (id, eu, duration, item_inputs, item_outputs, fluid_inputs, fluid_outputs) => {
-        let newRecipe = {
-            type: mi('centrifuge'),
-            eu: eu,
-            duration: duration
-        }
-
-        if (item_inputs)
-            newRecipe['item_inputs'] = item_inputs;
-        if (item_outputs)
-            newRecipe['item_outputs'] = item_outputs;
-        if (fluid_inputs)
-            newRecipe['fluid_inputs'] = fluid_inputs;
-        if (fluid_outputs)
-            newRecipe['fluid_outputs'] = fluid_outputs;
-
-        e.custom(newRecipe).id(id);
-    }
+    REMOVED_RECIPES.forEach(id => event.remove({id: id}));
 
     // -- CARBON DUST FROM LIGNITE -- //
     centrifuge(
+        event,
         st('carbon_dust_from_lignite'),
         16,
         400,
@@ -48,6 +25,7 @@ ServerEvents.recipes(e => {
 
     // -- CORE SLURRY -- //
     centrifuge(
+        event,
         st('core_slurry'),
         32,
         300,
@@ -63,6 +41,7 @@ ServerEvents.recipes(e => {
 
     // -- ICE SHARD -- //
     centrifuge(
+        event,
         st('ice_shard'),
         32,
         300,
@@ -74,6 +53,7 @@ ServerEvents.recipes(e => {
 
     // -- LAVA -- //
     centrifuge(
+        event,
         st('lava'),
         32,
         600,
@@ -89,6 +69,7 @@ ServerEvents.recipes(e => {
 
     // -- ROTTEN FLESH -- //
     centrifuge(
+        event,
         st('rotten_flesh'),
         16,
         200,
@@ -100,6 +81,7 @@ ServerEvents.recipes(e => {
 
     // -- GLOWSTONE -- //
     centrifuge(
+        event,
         st('glowstone'),
         32,
         1800,
@@ -145,6 +127,7 @@ ServerEvents.recipes(e => {
 
     // -- DARK ASHES -- //
     centrifuge(
+        event,
         st('dark_ashes_dust'),
         8,
         400,
@@ -154,6 +137,7 @@ ServerEvents.recipes(e => {
 
     // -- ASHES -- //
     centrifuge(
+        event,
         st('ashes_dust'),
         8,
         400,
@@ -163,6 +147,7 @@ ServerEvents.recipes(e => {
 
     // -- TUFF -- //
     centrifuge(
+        event,
         st('tuff_dust'),
         8,
         300,

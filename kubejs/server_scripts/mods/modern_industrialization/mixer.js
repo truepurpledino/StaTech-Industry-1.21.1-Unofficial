@@ -3,46 +3,19 @@
 // STATECH INDUSTRY
 // -----------------------------------------
 
-ServerEvents.recipes(e => {
+ServerEvents.recipes(event => {
     // -- MOD NAMESPACE UTILITY FUNCTIONS -- // 
     let st = (id) => `statech:modern_industrialization/mixer/${id}`;
-    let mi = (id) => `modern_industrialization:${id}`;
-    let mc = (id) => `minecraft:${id}`;
-    let xp = (id) => `cognition:${id}`;
-    let ae = (id) => `ae2:${id}`;
-    // let tr = (id) => `techreborn:${id}`;
-    let cr = (id) => `create:${id}`;
-    let kj = (id) => `kubejs:${id}`;
-    // let cd = (id) => `culturaldelights:${id}`;
 
     // -- MIXER REMOVED RECIPES -- //
     const REMOVED_RECIPES = [
         mi('materials/mixer/fire_clay_dust')
     ];
-    REMOVED_RECIPES.forEach(id => e.remove({id: id}));
-
-    // -- CUSTOM RECIPE UTILITY FUNCTION -- //
-    let mixer = (id, eu, duration, item_inputs, item_outputs, fluid_inputs, fluid_outputs) => {
-        let newRecipe = {
-            type: mi('mixer'),
-            eu: eu,
-            duration: duration
-        }
-
-        if (item_inputs)
-            newRecipe['item_inputs'] = item_inputs;
-        if (item_outputs)
-            newRecipe['item_outputs'] = item_outputs;
-        if (fluid_inputs)
-            newRecipe['fluid_inputs'] = fluid_inputs;
-        if (fluid_outputs)
-            newRecipe['fluid_outputs'] = fluid_outputs;
-        
-        e.custom(newRecipe).id(id);
-    }
+    REMOVED_RECIPES.forEach(id => event.remove({id: id}));
 
     // -- NETHERRACK -- //
     mixer(
+        event,
         st('netherrack'),
         8,
         200,
@@ -53,6 +26,7 @@ ServerEvents.recipes(e => {
 
     // -- SALT WATER -- //
     mixer(
+        event,
         st('salt_water'),
         2,
         200,
@@ -77,6 +51,7 @@ ServerEvents.recipes(e => {
 
     // -- NUTRIENT RICH WATER -- //
     mixer(
+        event,
         st('nutrient_rich_water'),
         8,
         200,
@@ -88,6 +63,7 @@ ServerEvents.recipes(e => {
 
     // -- NUTRIENT RICH LIQUID ENDER -- //
     mixer(
+        event,
         st('nutrient_rich_liquid_ender'),
         8,
         200,
@@ -99,6 +75,7 @@ ServerEvents.recipes(e => {
 
     // -- NUTRIENT RICH BLOOD -- //
     mixer(
+        event,
         st('nutrient_rich_blood'),
         8,
         200,
@@ -125,6 +102,7 @@ ServerEvents.recipes(e => {
 
     // -- LIQUID EXPERIENCE -- //
     mixer(
+        event,
         st('xp_fluid'),
         8,
         200,
@@ -245,6 +223,7 @@ ServerEvents.recipes(e => {
 
     // -- DOUGH -- //
     mixer(
+        event,
         st('dough'),
         2,
         100,
@@ -255,6 +234,7 @@ ServerEvents.recipes(e => {
 
     // -- LIQUID ENDER -- // 
     mixer(
+        event,
         st('liquid_ender'),
         8,
         200,
@@ -266,6 +246,7 @@ ServerEvents.recipes(e => {
     
     // -- COGNITIVE FLUX -- //
     mixer(
+        event,
         st('cognitive_flux'),
         2,
         100,
@@ -279,6 +260,7 @@ ServerEvents.recipes(e => {
 
     // -- CERTUS QUARTS CRYSTAL -- //
     mixer(
+        event,
         st('certus_quartz_crystal'),
         8,
         100,
@@ -292,6 +274,7 @@ ServerEvents.recipes(e => {
 
     // -- DAMAGED BUDDING CERTUS QUARTZ -- //
     mixer(
+        event,
         st('damaged_budding_certus_quartz'),
         8,
         200,
@@ -305,6 +288,7 @@ ServerEvents.recipes(e => {
 
     // -- CHIPPED BUDDING CERTUS QUARTZ -- //
     mixer(
+        event,
         st('chipped_budding_certus_quartz'),
         8,
         200,
@@ -318,6 +302,7 @@ ServerEvents.recipes(e => {
 
     // -- FLAWED BUDDING CERTUS QUARTZ -- //
     mixer(
+        event,
         st('flawed_budding_certus_quartz'),
         8,
         200,
@@ -331,6 +316,7 @@ ServerEvents.recipes(e => {
     
     // -- DRILLING FLUID -- //
     mixer(
+        event,
         st('drilling_fluid'),
         8,
         400,
@@ -345,6 +331,7 @@ ServerEvents.recipes(e => {
 
     // -- GRASS BLOCK RECIPE PARITY -- //
     mixer(
+        event,
         st('grass_block'),
         2,
         100,
@@ -358,6 +345,7 @@ ServerEvents.recipes(e => {
 
     // -- FIRE CLAY DUST -- //
     mixer(
+        event,
         st('fire_clay_dust'),
         2,
         100,
@@ -370,6 +358,7 @@ ServerEvents.recipes(e => {
 
     // -- LIQUID CONCRETE -- //
     mixer(
+        event,
         st('liquid_concrete'),
         8,
         200,

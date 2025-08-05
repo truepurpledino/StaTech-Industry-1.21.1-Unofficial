@@ -3,36 +3,9 @@
 // STATECH INDUSTRY
 // -----------------------------------------
 
-ServerEvents.recipes(e => {
+ServerEvents.recipes(event => {
     // -- MOD NAMESPACE UTILITY FUNCTIONS -- // 
     let st = (id) => `statech:modern_industrialization/macerator/${id}`;
-    let mi = (id) => `modern_industrialization:${id}`;
-    let mc = (id) => `minecraft:${id}`;
-    let cr = (id) => `create:${id}`;
-    // let ed = (id) => `expandeddelight:${id}`;
-    // let tr = (id) => `techreborn:${id}`;
-    let pa = (id) => `pastel:${id}`;
-    // let bl = (id) => `blockus:${id}`;
-    // let ge = (id) => `geodes:${id}`;
-    let ae2 = (id) => `ae2:${id}`;
-    let eae = (id) => `extendedae:${id}`;
-    // let byg = (id) => `byg:${id}`;
-
-    // -- CUSTOM RECIPE UTILITY FUNCTION -- //
-    let macerator = (id, eu, duration, item_inputs, item_outputs) => {
-        let newRecipe = {
-            type: mi('macerator'),
-            eu: eu,
-            duration: duration
-        }
-
-        if (item_inputs)
-            newRecipe['item_inputs'] = item_inputs;
-        if (item_outputs)
-            newRecipe['item_outputs'] = item_outputs;
-        
-        e.custom(newRecipe).id(id);
-    }
 
     // -- PYRITE DUST -- //
     // macerator(
@@ -69,6 +42,7 @@ ServerEvents.recipes(e => {
 
     // -- WHEAT DOUGH -- //
     macerator(
+        event,
         st('wheat_flour'),
         2,
         200,
@@ -105,6 +79,7 @@ ServerEvents.recipes(e => {
 
     // -- CALCITE DUST FROM CALCITE -- //
     macerator(
+        event,
         st('calcite_dust_from_calcite'),
         8,
         100,
@@ -123,6 +98,7 @@ ServerEvents.recipes(e => {
 
     // -- OBSIDIAN -- //
     macerator(
+        event,
         st('obsidian_dust'),
         8,
         1200,
@@ -132,6 +108,7 @@ ServerEvents.recipes(e => {
 
     // -- RAW ZINC -- //
     macerator(
+        event,
         st('raw_zinc'),
         2,
         200,
@@ -165,6 +142,7 @@ ServerEvents.recipes(e => {
 
     // -- STONE DUST -- //
     macerator(
+        event,
         st('stone_dust'),
         2,
         200,
@@ -174,6 +152,7 @@ ServerEvents.recipes(e => {
 
        // -- TUFF DUST -- //
     macerator(
+        event,
         st('tuff_dust'),
         2,
         100,
@@ -195,6 +174,7 @@ ServerEvents.recipes(e => {
         DATA.forEach(data => {
             let gemID = data.inputName.includes('amethyst') ? mc(data.inputName) : pa(data.inputName);
             macerator(
+                event,
                 st(`${gemName}_powder_from_${data.inputName}`),
                 2,
                 200,
@@ -218,6 +198,7 @@ ServerEvents.recipes(e => {
 
     // -- QUITOXIC POWDER -- //
     macerator(
+        event,
         st('quitoxic_powder'),
         2,
         200,
@@ -266,6 +247,7 @@ ServerEvents.recipes(e => {
 
     // -- ZINC DUST ROM ASURINE -- //
     macerator(
+        event,
         st('zinc_dust_from_asurine'),
         2,
         200,
@@ -278,6 +260,7 @@ ServerEvents.recipes(e => {
 
     // -- GOLD DUST FROM OCHRUM -- //
     macerator(
+        event,
         st('gold_dust_from_ochrum'),
         2,
         200,
@@ -290,6 +273,7 @@ ServerEvents.recipes(e => {
 
     // -- IRON DUST FROM CRIMSITE -- //
     macerator(
+        event,
         st('iron_dust_from_crimsite'),
         2,
         200,
@@ -302,6 +286,7 @@ ServerEvents.recipes(e => {
 
     // -- QUARTZ DUST FROM RAW QUARTZ BLOCK -- //
     macerator(
+        event,
         st('quartz_dust_from_quartzite'),
         2,
         400,
@@ -333,6 +318,7 @@ ServerEvents.recipes(e => {
     COLORS.forEach(color => {
         // -- MACERATE SPECTRUM LOG -- //
         macerator(
+            event,
             st(`${color}_log`),
             8,
             200,
@@ -345,6 +331,7 @@ ServerEvents.recipes(e => {
 
         // -- MACERATE SPECTRUM LEAVES -- //
         macerator(
+            event,
             st(`${color}_leaves`),
             8,
             200,
@@ -385,11 +372,12 @@ ServerEvents.recipes(e => {
 
     CERTUS_DUST_DATA.forEach(data=>{
         macerator(
+            event,
             st(`certus_quartz_dust_from_${data.inputName}`),
             2,
             200,
-            [ { amount: 1, item: ae2(data.inputName) } ],
-            [ { amount: data.outputAmount, item: ae2('certus_quartz_dust') } ]
+            [ { amount: 1, item: ae(data.inputName) } ],
+            [ { amount: data.outputAmount, item: ae('certus_quartz_dust') } ]
         );
     });
     
@@ -410,14 +398,15 @@ ServerEvents.recipes(e => {
     ];
 
 /*     const SPECTRUM_TWO = [
-        { in: "certus_quartz", out: ae2("certus_quartz_dust") },
-        { in: "fluix", out: ae2("fluix_dust")}
+        { in: "certus_quartz", out: ae("certus_quartz_dust") },
+        { in: "fluix", out: ae("fluix_dust")}
     ];
  */
     let recipeForSpBudsAndClusters = (inputOutputNames, numberOfOutput) => {
         inputOutputNames.forEach(data => {
             let outName = data.out.slice(data.out.indexOf(':') + 1, data.out.length);
             macerator(
+                event,
                 st(`${outName}_from_small_${data.in}_bud`),
                 2,
                 200,
@@ -425,6 +414,7 @@ ServerEvents.recipes(e => {
                 [ { amount: numberOfOutput[0], item: data.out } ],
             );
             macerator(
+                event,
                 st(`${outName}_from_large_${data.in}_bud`),
                 2,
                 200,
@@ -432,6 +422,7 @@ ServerEvents.recipes(e => {
                 [ { amount: numberOfOutput[1], item: data.out } ],
             );
             macerator(
+                event,
                 st(`${outName}_from_${data.in}_cluster`),
                 2,
                 200,

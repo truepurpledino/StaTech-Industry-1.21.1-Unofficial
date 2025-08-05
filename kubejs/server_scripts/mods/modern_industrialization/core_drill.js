@@ -3,45 +3,17 @@
 // STATECH INDUSTRY
 // -----------------------------------------
 
-ServerEvents.recipes(e => {
+ServerEvents.recipes(event => {
     // -- MOD NAMESPACE UTILITY FUNCTIONS -- // 
     let st = (id) => `statech:modern_industrialization/core_drill/${id}`;
-    let mi = (id) => `modern_industrialization:${id}`;
-    let kjs = (id) => `kubejs:${id}`;
-
-    // -- CORE DRILL HELPER FUNCTION -- //
-    let coreDrill = (id, eu, duration, item_inputs, item_outputs, fluid_inputs, fluid_outputs, adjacentBlock) => {
-        let newRecipe = {
-            type: mi('core_drill'),
-            eu: eu,
-            duration: duration
-        }
-
-        if (item_inputs) 
-            newRecipe['item_inputs'] = item_inputs;
-        if (item_outputs)
-            newRecipe['item_outputs'] = item_outputs;
-        if (fluid_inputs) 
-            newRecipe['fluid_inputs'] = fluid_inputs;
-        if (fluid_outputs)
-            newRecipe['fluid_outputs'] = fluid_outputs;
-        if (adjacentBlock) 
-            newRecipe['process_conditions'] = [
-                {
-                    type: "modern_industrialization:adjacent_block",
-                    block: adjacentBlock,
-                    position: "below"
-                }
-            ];
-        e.custom(newRecipe).id(id);
-    }
 
     coreDrill(
+        event,
         st('core_fragment_mining'),
         256,
         600,
         [ { amount: 1, item: mi('desh_drill'), probability: 0.1 } ],
-        [ { amount: 1, item: kjs('core_fragment') } ],
+        [ { amount: 1, item: kj('core_fragment') } ],
         [ { amount: 1000, fluid: mi('drilling_fluid') } ],
         [ { amount: 500, fluid: mi('core_slurry') } ]
     );

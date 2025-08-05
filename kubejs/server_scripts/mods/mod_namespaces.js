@@ -1,0 +1,19 @@
+// -----------------------------------------
+// CREATED BY STATIC FOR USE IN
+// STATECH INDUSTRY
+// -----------------------------------------
+
+let mi = (id) => `modern_industrialization:${id}`;
+let ei = (id) => `extended_industrialization:${id}`;
+let mc = (id) => `minecraft:${id}`;
+let ae = (id) => `ae2:${id}`;
+let kj = (id) => `kubejs:${id}`;
+let mr = (id) => `morered:${id}`;
+let xp = (id) => `cognition:${id}`;
+let mt = (id) => `mi_tweaks:${id}`;
+let md = (id) => `moderndynamics:${id}`;
+let io = (id) => `industrialization_overdrive:${id}`;
+let cr = (id) => `create:${id}`;
+let pa = (id) => `pastel:${id}`;
+let ws = (id) => `wstweaks:${id}`;
+let ea = (id) => `extendedae:${id}`;

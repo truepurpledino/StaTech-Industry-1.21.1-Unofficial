@@ -3,18 +3,9 @@
 // STATECH INDUSTRY
 // -----------------------------------------
 
-ServerEvents.recipes(e => {
+ServerEvents.recipes(event => {
     // -- MOD NAMESPACE UTILITY FUNCTIONS -- // 
     let st = (id) => `statech:modern_industrialization/packer/${id}`;
-    let mi = (id) => `modern_industrialization:${id}`;
-    let mc = (id) => `minecraft:${id}`;
-    // let ad = (id) => `ad_astra:${id}`;
-    // let tr = (id) => `techreborn:${id}`;
-    let ae = (id) => `ae2:${id}`;
-    // let bl = (id) => `blockus:${id}`;
-    // let pd = (id) => `pineapple_delight:${id}`;
-    let kj = (id) => `kubejs:${id}`;
-    let md = (id) => `moderndynamics:${id}`;
 
     // -- PACKER REMOVED RECIPES -- //
     const REMOVED_RECIPE = [
@@ -25,26 +16,11 @@ ServerEvents.recipes(e => {
         mi('compat/ae2/printed_silicon'),
         mi('compat/ae2/printed_silicon_from_ingot')
     ];
-    REMOVED_RECIPE.forEach(id => e.remove({id: id}));
-
-    // -- CUSTOM RECIPE UTILITY FUNCTION -- //
-    let packer = (id, eu, duration, item_inputs, item_outputs) => {
-        let newRecipe = {
-            type: mi('packer'),
-            eu: eu,
-            duration: duration
-        }
-
-        if (item_inputs)
-            newRecipe['item_inputs'] = item_inputs;
-        if (item_outputs)
-            newRecipe['item_outputs'] = item_outputs;
-        
-        e.custom(newRecipe).id(id);
-    }
+    REMOVED_RECIPE.forEach(id => event.remove({id: id}));
 
     // -- FLUIX GLASS CABLE -- //
     packer(
+        event,
         st('fluix_glass_cable'),
         8,
         200,
@@ -57,6 +33,7 @@ ServerEvents.recipes(e => {
 
     // -- FLUIX ME COVERED CABLE -- //
     packer(
+        event,
         st('fluix_me_covered_cable'),
         8,
         200,
@@ -69,6 +46,7 @@ ServerEvents.recipes(e => {
 
     // -- FLUIX ME DENSE COVERED CABLE -- //
     packer(
+        event,
         st('fluix_covered_dense_cable'),
         8,
         200,
@@ -78,6 +56,7 @@ ServerEvents.recipes(e => {
 
     // -- FLUIX ME SMART CABLE -- //
     packer(
+        event,
         st('fluix_smart_cable'),
         8,
         200,
@@ -91,6 +70,7 @@ ServerEvents.recipes(e => {
 
     // -- FLUIX ME DENSE SMART CABLE -- //
     packer(
+        event,
         st('fluix_smart_dense_cable_packed'),
         8,
         200,
@@ -100,6 +80,7 @@ ServerEvents.recipes(e => {
 
     // -- FLUIX DENSE ME SMART CABLE -- //
     packer(
+        event,
         st('fluix_smart_dense_cable'),
         8,
         200,
@@ -150,6 +131,7 @@ ServerEvents.recipes(e => {
 /* 
     // -- EV EU CABLE -- //
     packer(
+    event,
         st('ev_eu_cable'),
         4,
         200,
@@ -162,6 +144,7 @@ ServerEvents.recipes(e => {
 
     // -- HV EU CABLE -- //
     packer(
+    event,
         st('hv_eu_cable'),
         4,
         200,
@@ -174,6 +157,7 @@ ServerEvents.recipes(e => {
 
     // -- MV EU CABLE -- //
     packer(
+    event,
         st('mv_eu_cable'),
         4,
         200,
@@ -186,6 +170,7 @@ ServerEvents.recipes(e => {
 
     // -- LV EU CABLE -- //
     packer(
+    event,
         st('lv_eu_cable'),
         4,
         200,
@@ -198,6 +183,7 @@ ServerEvents.recipes(e => {
 
     // -- LARGE STEAM MACERATOR -- //
     packer(
+    event,
         st('large_steam_macerator'),
         4,
         200,
@@ -272,6 +258,7 @@ ServerEvents.recipes(e => {
 
     // -- CHAIN -- //
     packer(
+        event,
         st('chain'),
         2,
         100,
@@ -294,6 +281,7 @@ ServerEvents.recipes(e => {
 
     // -- CERTUS QUARTZ BLOCK -- //
     packer(
+        event,
         st('quartz_block'),
         8,
         200,

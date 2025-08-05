@@ -3,41 +3,19 @@
 // STATECH INDUSTRY
 // -----------------------------------------
 
-ServerEvents.recipes(e => {
+ServerEvents.recipes(event => {
     // -- MOD NAMESPACE UTILITY FUNCTIONS -- // 
-    let mi = (id) => `modern_industrialization:${id}`;
-    // let tr = (id) => `techreborn:${id}`;
-    let mc = (id) => `minecraft:${id}`;
     let st = (id) => `statech:modern_industrialization/electrolyzer/${id}`;
 
     // -- ELECTROLYZER REMOVED RECIPES -- //
     const DELETED_RECIPE = [
         mi('materials/electrolyzer/salt_electrolysis')
     ];
-    DELETED_RECIPE.forEach(id => e.remove({id: id}));
-
-    // -- CUSTOM RECIPE UTILITY FUNCTION -- //
-    let electrolyzer = (id, eu, duration, item_inputs, item_outputs, fluid_inputs, fluid_outputs) => {
-        let newRecipe = {
-            type: mi('electrolyzer'),
-            eu: eu,
-            duration: duration
-        }
-
-        if (item_inputs)
-            newRecipe['item_inputs'] = item_inputs;
-        if (item_outputs)
-            newRecipe['item_outputs'] = item_outputs;
-        if (fluid_inputs)
-            newRecipe['fluid_inputs'] = fluid_inputs;
-        if (fluid_outputs)
-            newRecipe['fluid_outputs'] = fluid_outputs;
-        
-        e.custom(newRecipe).id(id);
-    }
+    DELETED_RECIPE.forEach(id => event.remove({id: id}));
 
     // -- BRINE -- //
     electrolyzer(
+        event,
         st('brine'),
         32,
         400,
@@ -54,6 +32,7 @@ ServerEvents.recipes(e => {
 
     // -- CLAY -- //
     electrolyzer(
+        event,
         st('clay_dust'),
         32,
         1200,
@@ -69,6 +48,7 @@ ServerEvents.recipes(e => {
 
     // -- SALT -- //
     electrolyzer(
+        event,
         st('salt_dust'),
         16,
         400,
@@ -80,6 +60,7 @@ ServerEvents.recipes(e => {
 
     // -- HYDROCHLORIC ACID -- //
     electrolyzer(
+        event,
         st('hydrochloric_acid'),
         16,
         400,
@@ -94,6 +75,7 @@ ServerEvents.recipes(e => {
 
     // -- CHLOROFORM -- //
     electrolyzer(
+        event,
         st('chloroform'),
         16,
         400,
