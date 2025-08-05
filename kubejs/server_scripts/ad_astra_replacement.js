@@ -3,17 +3,13 @@
 // STATECH INDUSTRY UNOFFICIAL
 // -----------------------------------------
 
-ServerEvents.recipes(e => {
+ServerEvents.recipes(event => {
 
         // -- MOD NAMESPACE UTILITY FUNCTIONS -- // 
     let st = (id) => `statech:space_age/${id}`;
-    let mi = (id) => `modern_industrialization:${id}`;
-    let ae = (id) => `ae2:${id}`;
-    let mc = (id) => `minecraft:${id}`;
-    let kj = (id) => `kubejs:${id}`;
     
     // -- PROBE COMPUTERS -- //
-    e.shaped(kj('mki_probe_computer'), [
+    event.shaped(kj('mki_probe_computer'), [
         'SCS',
         'THD',
         'SES'
@@ -28,7 +24,7 @@ ServerEvents.recipes(e => {
     })
     .id(st('mki_probe_computer'));
 
-    e.shaped(kj('mkii_probe_computer'), [
+    event.shaped(kj('mkii_probe_computer'), [
         'SCS',
         'THD',
         'SES'
@@ -43,7 +39,7 @@ ServerEvents.recipes(e => {
     })
     .id(st('mkii_probe_computer'));
 
-    e.shaped(kj('mkiii_probe_computer'), [
+    event.shaped(kj('mkiii_probe_computer'), [
         'SCS',
         'THD',
         'SES'
@@ -59,7 +55,7 @@ ServerEvents.recipes(e => {
     .id(st('mkiii_probe_computer'));
 
     // -- TIERED SPACE PROBES -- //
-    e.shaped("4x " + kj('basic_space_probe'), [
+    event.shaped("4x " + kj('basic_space_probe'), [
         'GCD',
         'FTC',
         'IFG'
@@ -74,7 +70,7 @@ ServerEvents.recipes(e => {
     })
     .id(st('basic_space_probe'));
 
-    e.shaped("4x " + kj('advanced_space_probe'), [
+    event.shaped("4x " + kj('advanced_space_probe'), [
         'GCD',
         'FTC',
         'IFG'
@@ -89,7 +85,7 @@ ServerEvents.recipes(e => {
     })
     .id(st('advanced_space_probe'));
     
-    e.shaped("4x " + kj('highly_advanced_space_probe'), [
+    event.shaped("4x " + kj('highly_advanced_space_probe'), [
         'GCD',
         'FTC',
         'IFG'

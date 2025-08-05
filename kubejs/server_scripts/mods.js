@@ -3,41 +3,33 @@
 // STATECH INDUSTRY
 // -----------------------------------------
 
-ServerEvents.recipes(e => {
+ServerEvents.recipes(event => {
     // -- MOD NAMESPACE UTILITY FUNCTIONS -- // 
     let st = (id) => `statech:mods/${id}`;
-    let mc = (id) => `minecraft:${id}`;
-    let mg = (id) => `simplemagnets:${id}`;
-    let es = (id) => `enderstorage:${id}`;
-    let mi = (id) => `modern_industrialization:${id}`;
-    let hg = (id) => `hangglider:${id}`;
-    let mr = (id) => `morered:${id}`;
-    let ar = (id) => `angelring:${id}`;
-    let gag = (id) => `gag:${id}`;
 
     // -- REMOVED RECIPES -- //
     const MODS_DELETED = [
-        mg('basicmagnet'),
-        mg('advancedmagnet'),
+        sm('basicmagnet'),
+        sm('advancedmagnet'),
         es('ender_chest'),
         es('ender_pouch'),
         es('ender_tank'),
         hg('reinforced_hang_glider'),
         hg('glider_framework'),
         mr('red_alloy_ingot'),
-        ar('angel_ring'),
-        ar('diamond_ring'),
-        ar('angel_ring'),
+        an('angel_ring'),
+        an('diamond_ring'),
+        an('angel_ring'),
         gag('time_sand_pouch'),
         gag('pigment_jar_mixing'),
         gag('pigment_jar_from_dye'),
         gag('pigment_jar_splitting')
     ];
-    MODS_DELETED.forEach(id => e.remove({ id: id }));
-    e.remove({ output: gag('pigment_jar') })
+    MODS_DELETED.forEach(id => event.remove({ id: id }));
+    event.remove({ output: gag('pigment_jar') })
 
     // -- ENDER CHEST -- //
-    e.shaped(es('ender_chest'), [
+    event.shaped(es('ender_chest'), [
         'BWB',
         'OCO',
         'BEB'
@@ -52,7 +44,7 @@ ServerEvents.recipes(e => {
         .id(st('ender_chest'));
 
     // -- ENDER TANK -- //
-    e.shaped(es('ender_tank'), [
+    event.shaped(es('ender_tank'), [
         'BWB',
         'OTO',
         'BEB'
@@ -67,7 +59,7 @@ ServerEvents.recipes(e => {
     .id(st('ender_tank'));
 
     // -- BASIC MAGNET -- //
-    e.shaped(mg('basicmagnet'), [
+    event.shaped(sm('basicmagnet'), [
         'SSR',
         'SE ',
         'SSL'
@@ -81,7 +73,7 @@ ServerEvents.recipes(e => {
     .id(st('basicmagnet'));
 
     // -- ADVANCED MAGNET -- //
-    e.shaped(mg('advancedmagnet'), [
+    event.shaped(sm('advancedmagnet'), [
         'SSR',
         'SE ',
         'SSL'
@@ -90,12 +82,12 @@ ServerEvents.recipes(e => {
         S: mi('steel_ingot'),
         R: mc('redstone_block'),
         L: mc('lapis_block'),
-        E: mg('basicmagnet')
+        E: sm('basicmagnet')
     })
     .id(st('advancedmagnet'));
 
     // -- REINFORCED HANG GLIDER -- //
-    e.shaped(hg('glider_framework'), [
+    event.shaped(hg('glider_framework'), [
         ' R ',
         'R R',
         'RRR'
@@ -106,7 +98,7 @@ ServerEvents.recipes(e => {
     .id(st('glider_framework'));
 
     // -- GLIDER FRAMWORK -- //
-    e.shaped(hg('reinforced_hang_glider'), [
+    event.shaped(hg('reinforced_hang_glider'), [
         'SGS'
     ],
     {

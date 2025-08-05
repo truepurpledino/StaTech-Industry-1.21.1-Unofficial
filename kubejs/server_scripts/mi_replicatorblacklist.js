@@ -4,24 +4,7 @@
 // -----------------------------------------
 
 // This list is a modified version from the AOF6 modpack
-ServerEvents.tags('item', e => {
-    // -- MOD NAMESPACE UTILITY FUNCTIONS -- // 
-    let ae = (id) => `ae2:${id}`;
-    let mi = (id) => `modern_industrialization:${id}`;
-    // let tr = (id) => `techreborn:${id}`;
-    // let im = (id) => `inmis:${id}`;
-    // let ic = (id) => `ironchests:${id}`;
-    let cr = (id) => `create:${id}`;
-    // let sp = (id) => `spectrum:${id}`;
-    // let ed = (id) => `extended_drawers:${id}`;
-    // let kb = (id) => `kibe:${id}`;
-    let ar = (id) => `artifacts:${id}`;
-    let su = (id) => `supplementaries:${id}`;
-    // let xp = (id) => `xps:${id}`;
-    // let wa = (id) => `wands:${id}`;
-    // let qm = (id) => `quarrymod:${id}`;
-    // let ch = (id) => `chisel:${id}`;
-
+ServerEvents.tags('item', event => {
     const ITEMS = [
         // kb('tank'),
         // kb('angel_ring'),
@@ -159,5 +142,5 @@ ServerEvents.tags('item', e => {
 
     ];
 
-    ITEMS.forEach(id => e.add(mi('replicator_blacklist'), id));
+    ITEMS.forEach(id => event.add(mi('replicator_blacklist'), id));
 });
