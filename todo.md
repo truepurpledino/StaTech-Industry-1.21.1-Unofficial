@@ -4,7 +4,7 @@
 - [ ] Adapt recipes for Extended AE
 - [ ] Adapt recipes for Cognition and verify fit in pack
 - [ ] Verify and adapt all AE2 recipes
-- [ ] Add back benzene fluid fuel using [the new method](https://github.com/AztechMC/Modern-Industrialization/blob/7048dbcb5279d78cf41a49d02bb45ab758e7ce6f/docs/ADDING_FLUIDS.md)
+- [X] Add back benzene fluid fuel using [the new method](https://github.com/AztechMC/Modern-Industrialization/blob/7048dbcb5279d78cf41a49d02bb45ab758e7ce6f/docs/ADDING_FLUIDS.md)
 - [X] Add back Wood Tar output from Pyrolyse Oven (might need to replace Industrial Overdrive one)
 - [x] Finish Ad Astra bandaid fix
 - [x] Make sprites for three new Space Probes (Moon, Mars, Venus)
@@ -12,10 +12,10 @@
 - [ ] Add quest rewards
 - [ ] Add tagged quest requirements where applicable
 - [ ] Redo all ~~Spectrum~~ Pastel quests
-- [ ] Add Terminal recipe
+- [X] Add Terminal recipe
 - [x] Remove duplicated runtime custom part recipes where needed (use runtime_parts_recipes.js instead)
 - [X] Add Boosted Diesel to fuel tank recipes for probes
-- [ ] Replace Machine Chainer recipe
+- [X] Replace Machine Chainer recipe
 - [ ] Add back ruby, peridot and sapphire ore to worldgen and associated MI recipes
 - [x] Add configs to required mods (e.g. IPN)
 - [ ] Rebalance MI upgrades

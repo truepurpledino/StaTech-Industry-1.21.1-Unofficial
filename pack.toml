@@ -1,12 +1,12 @@
 name = "Statech Industry 1.21.1 Unofficial"
 author = "Static Void"
-version = "0.0.2a"
+version = "0.0.3a"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "e38336fdd6e7ff6ad43e8886b9a3b3a34911f154dbd3cbc0169a48ec2b4eec8d"
+hash = "f28e3f2ed72609c8660a8b922141338ae2740718ebe266dd2b1134eefdca1527"
 
 [versions]
 minecraft = "1.21.1"
