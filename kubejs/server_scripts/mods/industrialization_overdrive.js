@@ -10,8 +10,6 @@ ServerEvents.recipes(e => {
     let ei = (id) => `extended_industrialization:${id}`;
     let io = (id) => `industrialization_overdrive:${id}`;
     let mc = (id) => `minecraft:${id}`;
-    // let tr = (id) => `techreborn:${id}`;
-    // let ad = (id) => `ad_astra:${id}`;
     let cr = (id) => `create:${id}`;
     let ae = (id) => `ae2:${id}`;
     let kj = (id) => `kubejs:${id}`;
@@ -19,9 +17,7 @@ ServerEvents.recipes(e => {
     // -- EXTENDED INDUSTRIALIZATION REMOVED RECIPES -- //
     const IO_DELETED_ITEMS = [
         io('machines/multi_processing_array/craft'),
-        io('machines/multi_processing_array/assembler'),
-        io('shaped/craft/terminal'),
-        io('shaped/craft/terminal/assembler')
+        io('shaped/craft/terminal')
     ];
     IO_DELETED_ITEMS.forEach(id => e.remove( {id: id} ));
 
@@ -39,6 +35,18 @@ ServerEvents.recipes(e => {
         M: mi('large_advanced_motor')
     })
     .id(st('multi_processing_array'));
+
+    // -- MULTIBLOCK BUILDER (TERMINAL) -- //
+    e.shaped(io('terminal'), [
+        'AGA',
+        'ACA'
+    ],
+    {
+        A: '#c:plates/aluminum',
+        G: '#c:glass_panes',
+        C: mi('analog_circuit')
+    })
+    .id(st('terminal'));
 });
 
 

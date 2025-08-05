@@ -7,6 +7,7 @@ ServerEvents.recipes(e => {
     // -- MOD NAMESPACE UTILITY FUNCTIONS -- // 
     let st = (id) => `statech:modern_industrialization/assembler/${id}`;
     let mi = (id) => `modern_industrialization:${id}`;
+    let ei = (id) => `extended_industrialization:${id}`;
     let mit = (id) => `mi_tweaks:${id}`;
     // let tr = (id) => `techreborn:${id}`;
     // let ad = (id) => `ad_astra:${id}`;
@@ -30,7 +31,16 @@ ServerEvents.recipes(e => {
         mi('assembler_generated/electric_age/battery/sodium_battery'),
         mi('assembler_generated/electric_age/battery/cadmium_battery'),
         mi('assembler_generated/electric_age/battery/plutonium_battery'),
-        io('machines/pyrolyse_oven/assembler')
+        io('machines/pyrolyse_oven/assembler'),
+        mi('machines/machine_chainer/assembler'),
+        ei('tool/assembler/tesla_handheld_receiver'),
+        ei('machines/large_electric_furnace/assembler'),
+        ei('machines/alloy_smelter/assembler/electric'),
+        ei('machines/processing_array/assembler'),
+        ei('machines/bending_machine/assembler/bronze'),
+        ei('machines/bending_machine/assembler/electric'),
+        io('machines/multi_processing_array/assembler'),
+        io('shaped/craft/terminal/assembler')
     ];
     REMOVED_RECIPE.forEach(id => e.remove({id: id}));
 
@@ -534,19 +544,64 @@ ServerEvents.recipes(e => {
     );
     
     // -- ALLOY SMELTER -- //
-    // assembler(
-        // st('alloy_smelter'),
-        // 8,
-        // 200,
-        // [
-            // { amount: 2, item: mi('analog_circuit') },
-            // { amount: 2, item: mi('inductor') },
-            // { amount: 2, item: mi('cupronickel_wire_magnetic') },
-            // { amount: 2, item: mi('tin_cable') },
-            // { amount: 1, item: mi('electric_furnace') }
-        // ],
-        // [ { amount: 1, item: mi('alloy_smelter') } ]
-    // );
+    assembler(
+        st('alloy_smelter'),
+        8,
+        200,
+        [
+            { amount: 2, item: mi('analog_circuit') },
+            { amount: 2, item: mi('inductor') },
+            { amount: 2, item: mi('cupronickel_wire_magnetic') },
+            { amount: 2, item: mi('tin_cable') },
+            { amount: 1, item: mi('electric_furnace') }
+        ],
+        [ { amount: 1, item: ei('electric_alloy_smelter') } ]
+    );
+
+    // -- TESLA HANDHELD RECEIVER -- //
+    assembler(
+        st('tesla_handheld_receiver'),
+        8,
+        200,
+        [
+            { amount: 1, item: ei('silver_tesla_top_load') },
+            { amount: 2, item: mi('transistor') },
+            { amount: 2, item: mi('diode') },
+            { amount: 1, item: mi('cupronickel_coil') },
+            { amount: 1, item: mi('electronic_circuit') }
+        ],
+        [ { amount: 1, item: ei('tesla_handheld_receiver') } ]
+    );
+
+    // -- MULTIBLOCK BUILDER (TERMINAL) -- //
+    assembler(
+        st('terminal'),
+        8,
+        200,
+        [
+            { amount: 4, tag: 'c:plates/aluminum' },
+            { amount: 1, item: mi('analog_circuit') },
+            { amount: 1, tag: 'c:glass_panes' }
+        ],
+        [ { amount: 1, item: io('terminal') } ]
+    );
+
+    // -- MACHINE CHAINER -- //
+    assembler(
+        st('machine_chainer'),
+        8,
+        200,
+        [
+            { amount: 1, item: mi('advanced_machine_hull') },
+            { amount: 4, item: mi('large_motor') },
+            { amount: 4, item: mi('large_pump') },
+            { amount: 64, tag: 'modern_industrialization:item_pipes' },
+            { amount: 64, tag: 'modern_industrialization:fluid_pipes' },
+            { amount: 64, item: mi('electrum_cable') }
+        ],
+        [ { amount: 1, item: ei('machine_chainer') } ],
+        [ { amount: 250, fluid: mi('polyethylene') } ]
+    );
 
     // -- LASER ENGRAVER -- //
     assembler(
@@ -564,21 +619,21 @@ ServerEvents.recipes(e => {
     );
 
     // -- PHOTOSYNTHETIC CHAMBER -- //
-    // assembler(
-        // st('photosynthetic_chamber'),
-        // 8,
-        // 200,
-        // [
-            // { amount: 2, item: mi('inductor') },
-            // { amount: 2, item: mi('motor') },
-            // { amount: 1, item: mi('pump') },
-            // { amount: 1, item: mi('steel_tank') },
-            // { amount: 1, item: mc('dirt') },
-            // { amount: 1, tag: 'c:glass_blocks' },
-            // { amount: 1, item: mi('basic_machine_hull') }
-        // ],
-        // [ { amount: 1, item: mi('photosynthetic_chamber') } ]
-    // );
+    assembler(
+        st('photosynthetic_chamber'),
+        8,
+        200,
+        [
+            { amount: 2, item: mi('inductor') },
+            { amount: 2, item: mi('motor') },
+            { amount: 1, item: mi('pump') },
+            { amount: 1, item: mi('steel_tank') },
+            { amount: 1, item: mc('dirt') },
+            { amount: 1, tag: 'c:glass_blocks' },
+            { amount: 1, item: mi('basic_machine_hull') }
+        ],
+        [ { amount: 1, item: mi('photosynthetic_chamber') } ]
+    );
 
     // -- ROCKET PART ASSEMBLER -- //
     assembler(

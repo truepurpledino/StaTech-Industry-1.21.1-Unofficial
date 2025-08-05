@@ -17,50 +17,19 @@ ServerEvents.recipes(e => {
 
     // -- EXTENDED INDUSTRIALIZATION REMOVED RECIPES -- //
     const EI_DELETED_ITEMS = [
-        ei('machines/large_electric_furnace/assembler'),
         ei('machines/large_electric_furnace/craft'),
         ei('machines/bending_machine/assembler/bronze'),
-        ei('machines/bending_machine/craft/bronze'),
         ei('machines/bending_machine/assembler/electric'),
+        // ei('machines/bending_machine/craft/bronze'),
         ei('machines/bending_machine/craft/electric'),
         ei('machines/bending_machine/unpacker/downgrade_steel'),
         ei('machines/bending_machine/packer/upgrade_steel'),
-        ei('machines/bending_machine/craft/upgrade_steel'),
+        // ei('machines/bending_machine/craft/upgrade_steel'),
         ei('machines/alloy_smelter/craft/electric'),
-        ei('machines/alloy_smelter/assembler/electric'),
         ei('machines/processing_array/craft'),
-        ei('machines/processing_array/assembler')
+        ei('tool/craft/tesla_handheld_receiver')
     ];
     EI_DELETED_ITEMS.forEach(id => e.remove( {id: id} ));
-
-    // -- LARGE CHEMICAL REACTOR -- //
-    // e.shaped(mi('large_chemical_reactor'), [
-        // 'PRP',
-        // 'UHU',
-        // 'PCP'
-    // ],
-    // {
-        // P: '#c:plates/polytetrafluoroethylene',
-        // R: mi('chemical_reactor'),
-        // U: mi('advanced_motor'),
-        // H: mi('turbo_machine_hull'),
-        // C: mi('digital_circuit')
-    // })
-    // .id(st('large_chemical_reactor'));
-
-    // -- PYROLYSE OVEN -- //
-    // e.shaped(mi('pyrolyse_oven'), [
-        // 'HIH',
-        // 'ICI',
-        // 'HAH'
-    // ],
-    // {
-        // H: mi('cupronickel_coil'),
-        // I: mi('inductor'),
-        // C: mi('basic_machine_hull'),
-        // A: mi('analog_circuit')
-    // })
-    // .id(st('pyrolyse_oven'));
 
     // -- ALLOY SMELTER -- //
     e.shaped(ei('electric_alloy_smelter'), [
@@ -76,6 +45,21 @@ ServerEvents.recipes(e => {
         F: mi('electric_furnace')
     })
     .id(st('electric_alloy_smelter'));
+
+    // -- TESLA HANDHELD RECEIVER -- //
+    e.shaped(ei('tesla_handheld_receiver'), [
+        'S  ',
+        'CTT',
+        'EDD'
+    ],
+    {
+        S: ei('silver_tesla_top_load'),
+        E: mi('electronic_circuit'),
+        T: mi('transistor'),
+        D: mi('diode'),
+        C: mi('cupronickel_coil')
+    })
+    .id(st('tesla_handheld_receiver'));
 
     // -- MEGA SMELTER -- //
     e.shaped(ei('large_electric_furnace'), [
