@@ -7,15 +7,10 @@ ServerEvents.recipes(e => {
     // -- MOD NAMESPACE UTILITY FUNCTIONS -- // 
     let st = (id) => `statech:modern_industrialization/cutting_machine/${id}`;
     let mi = (id) => `modern_industrialization:${id}`;
-    let mc = (id) => `minecraft:${id}`;
-    // let ca = (id) => `createaddition:${id}`;
     let kj = (id) => `kubejs:${id}`;
-    // let fd = (id) => `farmersdelight:${id}`;
 
     // -- CUTTING MACHINE VARIABLE CONSTANTS -- //
     const lubricantAmount = 10;
-    const gsonJsonArray = Java.loadClass('com.google.gson.JsonArray');
-
 
     // -- CUSTOM RECIPE UTILITY FUNCTION -- //
     let cuttingMachine = (id, eu, duration, item_inputs, item_outputs) => {
@@ -24,7 +19,7 @@ ServerEvents.recipes(e => {
             eu: eu,
             duration: duration,
             fluid_inputs: [
-                { amount: lubricantAmount, fluid: c }
+                { amount: lubricantAmount, fluid:  mi('lubricant') }
             ]
         }
 
@@ -41,60 +36,49 @@ ServerEvents.recipes(e => {
         recipesToRemove.push(recipe.getId());
         let recipeJson = recipe.json;
         let inputs = recipeJson.get('fluid_inputs');
-        console.log("fluid inputs for cutting machine:" + recipe.getId() + "with inputs arranged as" + inputs)
-        let amount;/* 
-        amount = inputs.get('amount');
-        recipeJson.get('fluid_inputs').add('amount', lubricantAmount); */
+        let amount;
+
+
+        if (inputs.get(0) != null) {
+            amount = inputs.get(0).get('amount');
+            if (amount == 1) {
+                recipeJson.get('fluid_inputs').get(0).add('amount', lubricantAmount);
+            }
+        } else {
+            amount = inputs.get('amount');
+            if (amount == 1) {
+                recipeJson.get('fluid_inputs').add('amount', lubricantAmount);
+            }
+        }
         e.custom(recipeJson).id(st(recipe.getPath()));
     }); 
 
     recipesToRemove.forEach(id => e.remove({id: id}));  
-});
-
-
-    // -- STRAW -- //
-    // cuttingMachine(
-        // st('straw'),
-        // 2,
-        // 100,
-        // [ { amount: 1, item: mc('bamboo') } ],
-        // [ { amount: 1, item: ca('straw') } ]
-    // );
 
     // -- EMPTY CAN -- //
-    // cuttingMachine(
-        // st('empty_can'),
-        // 2,
-        // 200,
-        // [ { amount: 1, tag: 'c:tin_plates' } ],
-        // [ { amount: 4, item: kj('empty_can') } ]
-    // );
+    cuttingMachine(
+        st('empty_can'),
+        2,
+        200,
+        [ { amount: 1, tag: 'c:plates/tin' } ],
+        [ { amount: 4, item: kj('empty_can') } ]
+    );
 
     // -- PIZZA SLICE -- //
-    // cuttingMachine(
-        // st('pizza_slice'),
-        // 2,
-        // 200,
-        // [ { amount: 1, item: kj('pizza') } ],
-        // [ { amount: 8, item: kj('pizza_slice') } ]
-    // );
+    cuttingMachine(
+        st('pizza_slice'),
+        2,
+        200,
+        [ { amount: 1, item: kj('pizza') } ],
+        [ { amount: 8, item: kj('pizza_slice') } ]
+    );
 
     // -- CONCRETE PIZZA SLICE -- //
-    // cuttingMachine(
-        // st('concrete_pizza_slice'),
-        // 8,
-        // 200,
-        // [ { amount: 1, item: kj('concrete_pizza') } ],
-        // [ { amount: 8, item: kj('concrete_pizza_slice') } ]
-    // );
-
-    // -- MINCED BEEF -- //
-    // cuttingMachine(
-        // st('minced_beef'),
-        // 2,
-        // 200,
-        // [ { amount: 1, item: mc('beef') } ],
-        // [ { amount: 4, item: fd('minced_beef') } ]
-    // );
-
-
+    cuttingMachine(
+        st('concrete_pizza_slice'),
+        8,
+        200,
+        [ { amount: 1, item: kj('concrete_pizza') } ],
+        [ { amount: 8, item: kj('concrete_pizza_slice') } ]
+    );
+});
