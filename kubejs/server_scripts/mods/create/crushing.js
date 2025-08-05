@@ -3,12 +3,9 @@
 // STATECH INDUSTRY
 // -----------------------------------------
 
-ServerEvents.recipes(e => {
+ServerEvents.recipes(event => {
     // -- MOD NAMESPACE UTILITY FUNCTIONS -- //     
     let st = (id) => `statech:create/crushing/${id}`;
-    let cr = (id) => `create:${id}`;
-    let mc = (id) => `minecraft:${id}`;
-    let mi = (id) => `modern_industrialization:${id}`;
 
     // -- CREATE CRUSHING REMOVED RECIPES -- //
     const REMOVED_RECIPES = [
@@ -19,7 +16,7 @@ ServerEvents.recipes(e => {
         cr('crushing/uranium_ore'),
         cr('crushing/platinum_ore')
     ];
-    REMOVED_RECIPES.forEach(id => e.remove({id: id}));
+    REMOVED_RECIPES.forEach(id => event.remove({id: id}));
 
     const REMOVED_CRUSHED = [
         cr('crushed_raw_platinum'),
@@ -33,7 +30,7 @@ ServerEvents.recipes(e => {
         cr('crushed_raw_silver'),
         cr('crushed_raw_uranium')
     ];
-    REMOVED_CRUSHED.forEach(output => e.remove({output: output}));
+    REMOVED_CRUSHED.forEach(output => event.remove({output: output}));
 
     // -- CUSTOM RECIPE UTILITY FUNCTION -- //
     let crushing = (id, duration, item_inputs, item_outputs) => {
@@ -47,7 +44,7 @@ ServerEvents.recipes(e => {
         if (item_outputs)
             newRecipe['results'] = item_outputs;
 
-        e.custom(newRecipe).id(id);
+        event.custom(newRecipe).id(id);
     }
 
     // -- BRICK DUST FROM BRICKS -- //

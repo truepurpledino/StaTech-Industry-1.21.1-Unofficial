@@ -3,19 +3,16 @@
 // STATECH INDUSTRY
 // -----------------------------------------
 
-ServerEvents.recipes(e => {
+ServerEvents.recipes(event => {
     // -- MOD NAMESPACE UTILITY FUNCTIONS -- // 
     let st = (id) => `statech:create/splashing/${id}`;
-    let cr = (id) => `create:${id}`;
-    let mi = (id) => `modern_industrialization:${id}`;
-    let ae = (id) => `ae2:${id}`;
 
     // -- CREATE SPLASHING REMOVED RECIPES -- //
     const REMOVED_RECIPES = [
         cr('splashing/modern_industrialization/crushed_raw_uranium'),
         cr('splashing/modern_industrialization/crushed_raw_platinum')
     ];
-    REMOVED_RECIPES.forEach(id => e.remove({id: id}));
+    REMOVED_RECIPES.forEach(id => event.remove({id: id}));
 
     // -- CUSTOM RECIPE UTILITY FUNCTION -- //
     let splashing = (id, item_inputs, item_outputs) => {
@@ -28,7 +25,7 @@ ServerEvents.recipes(e => {
         if (item_outputs)
             newRecipe['results'] = item_outputs;
 
-        e.custom(newRecipe).id(id);
+        event.custom(newRecipe).id(id);
     }
 
     // -- BULK WASHING MI FLUID PIPES -- //

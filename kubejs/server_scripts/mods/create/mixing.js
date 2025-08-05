@@ -3,17 +3,12 @@
 // STATECH INDUSTRY
 // -----------------------------------------
 
-ServerEvents.recipes(e => {
+ServerEvents.recipes(event => {
     // -- MOD NAMESPACE UTILITY FUNCTIONS -- // 
     let st = (id) => `statech:create/mixing/${id}`;
-    let cr = (id) => `create:${id}`;
-    let mi = (id) => `modern_industrialization:${id}`;
-    let ae = (id) => `ae2:${id}`;
-    // let xp = (id) => `xps:${id}`;
-    let mc = (id) => `minecraft:${id}`
     
     // Remove the create compat recipe for ae2 mixing
-    e.remove( {type: cr('mixing'), output: ae('fluix_crystal') });
+    event.remove( {type: cr('mixing'), output: ae('fluix_crystal') });
     // e.remove( {type: cr('mixing'), output: xp('xp_berries_seeds') });
 
     // -- CUSTOM RECIPE UTILITY FUNCTION -- //
@@ -28,7 +23,7 @@ ServerEvents.recipes(e => {
         if (item_outputs)
             newRecipe['results'] = item_outputs;
 
-        e.custom(newRecipe).id(id);
+        event.custom(newRecipe).id(id);
     }
 
     // -- XP BERRIES SEEDS FIX -- //
