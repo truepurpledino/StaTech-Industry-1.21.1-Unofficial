@@ -2,15 +2,12 @@
 // CREATED BY DINO FOR USE IN
 // STATECH INDUSTRY UNOFFICIAL
 // -----------------------------------------
-ServerEvents.recipes(e => {
+ServerEvents.recipes(event => {
     // -- MOD NAMESPACE UTILITY FUNCTIONS -- // 
     let st = (id) => `statech:bankstorage/${id}`;
-    let bs = (id) => `bankstorage:${id}`;
-    let ts = (id) => `tankstorage:${id}`;
-    let mi = (id) => `modern_industrialization:${id}`;
     
- /*    e.remove({ mod: "bankstorage", output: "bank_1" }) */
-    e.custom({
+ /*    event.remove({ mod: "bankstorage", output: "bank_1" }) */
+    event.custom({
         "type": "bankstorage:copy_components_or_assign_uuid",
         "pattern": [
             "NIN",
@@ -33,8 +30,8 @@ ServerEvents.recipes(e => {
             "count": 1
         }
     }).id(st('bank_1'));
-    e.remove({ id: "bankstorage:bank_1"})
-    // Adapted from Monifactory scripts, see https://github.com/ThePansmith/Monifactory/blob/main/kubejs/server_scripts/mods/Sophisticated_Storage.js
+    event.remove({ id: "bankstorage:bank_1"})
+    // Adapted from Monifactory scripts, see https://github.com/ThePansmith/Monifactory/blob/main/kubejs/server_scripts/mods/Sophisticated_Storagevent.js
 
     const bankMaterials = [
         ["_1", null, null],
@@ -50,8 +47,8 @@ ServerEvents.recipes(e => {
 
         let outputBank = `bankstorage:bank${material[0]}`
         let inputBank = `bankstorage:bank${bankMaterials[index - 1][0]}`
-        e.remove({ mod: "bankstorage", output: outputBank })
-        e.custom({
+        event.remove({ mod: "bankstorage", output: outputBank })
+        event.custom({
             "type": "bankstorage:copy_components_or_assign_uuid",
             "pattern": [
                 "NIN",

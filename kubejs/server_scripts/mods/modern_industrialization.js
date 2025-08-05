@@ -3,18 +3,9 @@
 // STATECH INDUSTRY UNOFFICIAL
 // -----------------------------------------
 
-ServerEvents.recipes(e => {
+ServerEvents.recipes(event => {
     // -- MOD NAMESPACE UTILITY FUNCTIONS -- // 
     let st = (id) => `statech:modern_industrialization/${id}`;
-    let mi = (id) => `modern_industrialization:${id}`;
-    let ei = (id) => `extended_industrialization:${id}`;
-    let io = (id) => `industrialization_overdrive:${id}`;
-    let mc = (id) => `minecraft:${id}`;
-    // let tr = (id) => `techreborn:${id}`;
-    // let ad = (id) => `ad_astra:${id}`;
-    let cr = (id) => `create:${id}`;
-    let ae = (id) => `ae2:${id}`;
-    let kj = (id) => `kubejs:${id}`;
 
     // -- MODERN INDUSTRIALIZATION REMOVED RECIPES -- //
     const MI_DELETED_ITEMS = [
@@ -49,13 +40,13 @@ ServerEvents.recipes(e => {
         mi('electric_age/component/craft/op_amp_asbl'),
         io('machines/pyrolyse_oven/craft')
     ];
-    MI_DELETED_ITEMS.forEach(id => e.remove( {id: id} ));
+    MI_DELETED_ITEMS.forEach(id => event.remove( {id: id} ));
     
     // -- CONVERSION RECIPE FOR EXISTING WORLDS -- //
-    e.shapeless(mi('laser_engraver'), [ ae('inscriber') ]).id(st('laser_engraver_conversion'));
+    event.shapeless(mi('laser_engraver'), [ ae('inscriber') ]).id(st('laser_engraver_conversion'));
 
     // -- BLOOD GENERATOR -- //
-    e.shaped(mi('blood_generator'), [
+    event.shaped(mi('blood_generator'), [
         'RCR',
         'THT',
         'PCP'
@@ -70,7 +61,7 @@ ServerEvents.recipes(e => {
     .id(st('blood_generator'));
 
     // -- LARGE STEAM MACERATOR -- // 
-    // e.shaped(mi('large_steam_macerator'), [
+    // event.shaped(mi('large_steam_macerator'), [
         // 'BBB',
         // 'BMB',
         // 'BBB'
@@ -82,7 +73,7 @@ ServerEvents.recipes(e => {
     // .id(st('large_steam_macerator'));
 
     // -- BOSS CRUSHER -- // 
-    e.shaped(mi('boss_crusher'), [
+    event.shaped(mi('boss_crusher'), [
         'RCR',
         'PHP',
         'MCM'
@@ -97,7 +88,7 @@ ServerEvents.recipes(e => {
     .id(st('boss_crusher'));
 
     // -- LARGE STEAM FURNACE -- //
-    // e.shaped(mi('large_steam_furnace'), [
+    // event.shaped(mi('large_steam_furnace'), [
         // 'BBB',
         // 'BFB',
         // 'BCB'
@@ -110,7 +101,7 @@ ServerEvents.recipes(e => {
     // .id(st('large_steam_furnace'));
 
     // -- CHEMICALLY INERT PTFE CASING -- //
-    e.shaped(mi('chemically_inert_ptfe_casing'), [
+    event.shaped(mi('chemically_inert_ptfe_casing'), [
         'PPP',
         'PGP',
         'PPP'
@@ -122,7 +113,7 @@ ServerEvents.recipes(e => {
     .id(st('chemically_inert_ptfe_casing'));
 
     // -- POLYTETRAFLUOROETHYLENE PIPE MACHINE CASING -- // 
-    e.shaped('2x ' + mi('polytetrafluoroethylene_machine_casing_pipe'), [
+    event.shaped('2x ' + mi('polytetrafluoroethylene_machine_casing_pipe'), [
         'C C',
         'CMC',
         'C C'
@@ -134,7 +125,7 @@ ServerEvents.recipes(e => {
     .id(st('ptfe_machine_casing_pipe'));
 
     // -- LARGE CHEMICAL REACTOR -- //
-    // e.shaped(mi('large_chemical_reactor'), [
+    // event.shaped(mi('large_chemical_reactor'), [
         // 'PRP',
         // 'UHU',
         // 'PCP'
@@ -149,7 +140,7 @@ ServerEvents.recipes(e => {
     // .id(st('large_chemical_reactor'));
 
     // -- PHOTOSYNTHETIC CHAMBER -- //
-    e.shaped(mi('photosynthetic_chamber'), [
+    event.shaped(mi('photosynthetic_chamber'), [
         'MGM',
         'IHI',
         'PDT',
@@ -166,7 +157,7 @@ ServerEvents.recipes(e => {
     .id(st('photosynthetic_chamber'));
 
     // -- CORE MINING DRILL -- //
-    e.shaped(mi('core_drill'), [
+    event.shaped(mi('core_drill'), [
         'MSM',
         'CHC',
         'SDS'
@@ -181,7 +172,7 @@ ServerEvents.recipes(e => {
     .id(st('core_drill'));
 
     // -- SINGULARITY FORGE -- //
-    e.shaped(mi('singularity_forge'), [
+    event.shaped(mi('singularity_forge'), [
         'PPP',
         'CHC',
         'PPP'
@@ -194,7 +185,7 @@ ServerEvents.recipes(e => {
     .id(st('singularity_forge'));
 
     // -- STEAM MINING DRILL -- // 
-    e.shaped(mi('steam_mining_drill'), [
+    event.shaped(mi('steam_mining_drill'), [
         'FDD',
         'PHD',
         'BPF'
@@ -209,7 +200,7 @@ ServerEvents.recipes(e => {
     .id(st('steam_mining_drill'));
 
     // -- MOB CRUSHER -- // 
-    e.shaped(mi('mob_crusher'), [
+    event.shaped(mi('mob_crusher'), [
         'RCR',
         'PHP',
         'MCM'
@@ -224,7 +215,7 @@ ServerEvents.recipes(e => {
     .id(st('mob_crusher'));
     
     // -- FORGE HAMMER -- //
-    e.shaped(mi('forge_hammer'), [
+    event.shaped(mi('forge_hammer'), [
         'PPP',
         ' B ',
         'III'
@@ -237,7 +228,7 @@ ServerEvents.recipes(e => {
     .id(st('forge_hammer'));
 
     // -- PYROLYSE OVEN -- //
-    e.shaped(io('pyrolyse_oven'), [
+    event.shaped(io('pyrolyse_oven'), [
         'MAM',
         'CHC',
         'BAB'
@@ -252,7 +243,7 @@ ServerEvents.recipes(e => {
     .id(io('pyrolyse_oven'));
 
     // -- ALLOY SMELTER -- //
-    e.shaped(ei('electric_alloy_smelter'), [
+    event.shaped(ei('electric_alloy_smelter'), [
         'MAM',
         'IFI',
         'TAT'
@@ -267,7 +258,7 @@ ServerEvents.recipes(e => {
     .id(st('electric_alloy_smelter'));
 
     // -- ROCKET PART ASSEMBLER -- //
-    e.shaped(mi('rocket_part_assembler'), [
+    event.shaped(mi('rocket_part_assembler'), [
         'RMR',
         'GHG',
         'APA'
@@ -283,7 +274,7 @@ ServerEvents.recipes(e => {
     .id(st('rocket_part_assembler'));
 
     // -- MEGA SMELTER -- //
-    e.shaped(ei('large_electric_furnace'), [
+    event.shaped(ei('large_electric_furnace'), [
         'MCM',
         'FHF',
         'MCM'
@@ -297,7 +288,7 @@ ServerEvents.recipes(e => {
     .id(st('large_electric_furnace'));
 
     // -- SPACE PROBE LAUNCHER -- //
-    e.shaped(mi('space_probe_launcher'), [
+    event.shaped(mi('space_probe_launcher'), [
         'PUP',
         'GHG',
         'MCM'
@@ -313,7 +304,7 @@ ServerEvents.recipes(e => {
     .id(st('space_probe_launcher'));
 
     // -- QUANTUM SPACE PROBE LAUNCHER -- //
-    e.shaped(mi('quantum_space_probe_launcher'), [
+    event.shaped(mi('quantum_space_probe_launcher'), [
         'PUP',
         'GHG',
         'MCM'
@@ -329,7 +320,7 @@ ServerEvents.recipes(e => {
     .id(st('quantum_space_probe_launcher'));
 
     // -- INDUSTRIAL GREENHOUSE -- //
-    e.shaped(mi('greenhouse'), [
+    event.shaped(mi('greenhouse'), [
         'MCM',
         'RHR',
         'PCP'
@@ -344,7 +335,7 @@ ServerEvents.recipes(e => {
     .id(st('greenhouse'));
 
     // -- LASER ENGRAVER -- //
-    e.shaped(mi('laser_engraver'), [
+    event.shaped(mi('laser_engraver'), [
         'CGC',
         'MHM',
         'ACA'
@@ -359,7 +350,7 @@ ServerEvents.recipes(e => {
     .id('laser_engraver');
 
     // -- CALORITE MACHINE CASING -- //
-    e.shaped(mi('calorite_machine_casing'), [
+    event.shaped(mi('calorite_machine_casing'), [
         'PPP',
         'PGP',
         'PPP'
@@ -371,7 +362,7 @@ ServerEvents.recipes(e => {
     .id(st('calorite_machine_casing'));
 
     // -- CALORITE MACHINE PIPE CASING -- // 
-    e.shaped(mi('calorite_machine_casing_pipe'), [
+    event.shaped(mi('calorite_machine_casing_pipe'), [
         'C C',
         'CMC',
         'C C'
@@ -383,7 +374,7 @@ ServerEvents.recipes(e => {
     .id(st('calorite_machine_casing_pipe'));
 
     // -- DESH DRILL -- //
-    e.shaped('4x ' + mi('desh_drill'), [
+    event.shaped('4x ' + mi('desh_drill'), [
         'GIH',
         'MUI',
         'CMG'
@@ -399,7 +390,7 @@ ServerEvents.recipes(e => {
     .id(st('desh_drill'));
 
     // ZINC DRILL // 
-    e.shaped('4x ' + mi('zinc_drill'), [
+    event.shaped('4x ' + mi('zinc_drill'), [
         '  H',
         'GR ',
         'BG '
@@ -413,7 +404,7 @@ ServerEvents.recipes(e => {
     .id(st('zinc_drill'));
 
     // -- BRONZE FURNACE -- //
-    e.shaped(mi('bronze_furnace'), [
+    event.shaped(mi('bronze_furnace'), [
         'PPP',
         'PCP',
         'PFP'
@@ -426,7 +417,7 @@ ServerEvents.recipes(e => {
     .id(st('bronze_furnace'));
 
     // -- BRONZE BOILER -- //
-    e.shaped(mi('bronze_boiler'), [
+    event.shaped(mi('bronze_boiler'), [
         'PTP',
         'PCP',
         'FFF'
@@ -440,13 +431,13 @@ ServerEvents.recipes(e => {
     .id(st('bronze_boiler'));
 
     // -- CLEAR FLUID FROM CREATIVE TANK -- //
-    e.shapeless(mi('creative_tank'), mi('creative_tank')).id(st('clear_fluids_from_creative_tank'));
+    event.shapeless(mi('creative_tank'), mi('creative_tank')).id(st('clear_fluids_from_creative_tank'));
 
     // -- CLEAR ITEM FROM CREATIVE BARREL -- //
-    e.shapeless(mi('creative_barrel'), mi('creative_barrel')).id(st('clear_items_from_creative_barrel'));
+    event.shapeless(mi('creative_barrel'), mi('creative_barrel')).id(st('clear_items_from_creative_barrel'));
 
     // -- Gravichestplate -- //
-    e.shaped(mi('gravichestplate'), [
+    event.shaped(mi('gravichestplate'), [
         'PUP',
         'PJP',
         'CLC'
@@ -461,35 +452,35 @@ ServerEvents.recipes(e => {
     .id(st('gravichestplate'));
 /* 
     // -- Quantum Helmet -- //
-    e.smithing(
+    event.smithing(
         mi('quantum_helmet'),
         tr('quantum_helmet'),
         mi('quantum_upgrade')
     )
     .id(st('quantum_helmet'));
     // -- Quantum Chestplate -- //
-    e.smithing(
+    event.smithing(
         mi('quantum_chestplate'),
         tr('quantum_chestplate'),
         mi('quantum_upgrade')
     )
     .id(st('quantum_chestplate'));
     // -- Quantum Leggings -- //
-    e.smithing(
+    event.smithing(
         mi('quantum_leggings'),
         tr('quantum_leggings'),
         mi('quantum_upgrade')
     )
     .id(st('quantum_leggings'));
     // -- Quantum Boots -- //
-    e.smithing(
+    event.smithing(
         mi('quantum_boots'),
         tr('quantum_boots'),
         mi('quantum_upgrade')
     )
     .id(st('quantum_boots'));
     // -- Quantum Sword -- //
-    e.smithing(
+    event.smithing(
         mi('quantum_sword'),
         tr('nanosaber'),
         mi('quantum_upgrade')
@@ -497,7 +488,7 @@ ServerEvents.recipes(e => {
     .id(st('quantum_sword')); */
 });
 
-ServerEvents.tags('item', e => {
+ServerEvents.tags('item', event => {
     // -- MOD NAMESPACE UTILITY FUNCTIONS -- // 
     let mi = (id) => `modern_industrialization:${id}`;
 
@@ -506,26 +497,26 @@ ServerEvents.tags('item', e => {
         mi('tin_cable'),
         mi('silver_cable')
     ];
-    LV_WIRE.forEach(id => { e.add('kubejs:lv_wire', id) });
+    LV_WIRE.forEach(id => { event.add('kubejs:lv_wire', id) });
 
     const MV_WIRE = [
         mi('cupronickel_cable'),
         mi('electrum_cable')
     ];
-    MV_WIRE.forEach(id => { e.add('kubejs:mv_wire', id) });
+    MV_WIRE.forEach(id => { event.add('kubejs:mv_wire', id) });
 
     const HV_WIRE = [
         mi('aluminum_cable'),
         mi('kanthal_cable')
     ]
-    HV_WIRE.forEach(id => { e.add('kubejs:hv_wire', id) });
+    HV_WIRE.forEach(id => { event.add('kubejs:hv_wire', id) });
 
     const EV_WIRE = [
         mi('annealed_copper_cable'),
         mi('platinum_cable'),
         mi('tungstensteel_cable')
     ]
-    EV_WIRE.forEach(id => { e.add('kubejs:ev_wire', id) });
+    EV_WIRE.forEach(id => { event.add('kubejs:ev_wire', id) });
 
     const ENERGY_INPUT_HATCH = [
         mi('lv_energy_input_hatch'),
@@ -534,7 +525,7 @@ ServerEvents.tags('item', e => {
         mi('ev_energy_input_hatch'),
         mi('superconductor_energy_input_hatch')
     ];
-    ENERGY_INPUT_HATCH.forEach(id => { e.add('kubejs:energy_input_hatch', id) });
+    ENERGY_INPUT_HATCH.forEach(id => { event.add('kubejs:energy_input_hatch', id) });
 
     const ENERGY_OUTPUT_HATCH = [
         mi('lv_energy_output_hatch'),
@@ -543,7 +534,7 @@ ServerEvents.tags('item', e => {
         mi('ev_energy_output_hatch'),
         mi('superconductor_energy_output_hatch')
     ];
-    ENERGY_OUTPUT_HATCH.forEach(id => { e.add('kubejs:energy_output_hatch', id) });
+    ENERGY_OUTPUT_HATCH.forEach(id => { event.add('kubejs:energy_output_hatch', id) });
 
     const FLUID_INPUT_HATCH = [
         mi('bronze_fluid_input_hatch'),
@@ -552,7 +543,7 @@ ServerEvents.tags('item', e => {
         mi('turbo_fluid_input_hatch'),
         mi('highly_advanced_fluid_input_hatch'),
     ];
-    FLUID_INPUT_HATCH.forEach(id => { e.add('kubejs:fluid_input_hatch', id) });
+    FLUID_INPUT_HATCH.forEach(id => { event.add('kubejs:fluid_input_hatch', id) });
 
     const FLUID_OUTPUT_HATCH = [
         mi('bronze_fluid_output_hatch'),
@@ -561,7 +552,7 @@ ServerEvents.tags('item', e => {
         mi('turbo_fluid_output_hatch'),
         mi('highly_advanced_fluid_output_hatch'),
     ];
-    FLUID_OUTPUT_HATCH.forEach(id => { e.add('kubejs:fluid_output_hatch', id) });
+    FLUID_OUTPUT_HATCH.forEach(id => { event.add('kubejs:fluid_output_hatch', id) });
 
     const ITEM_INPUT_HATCH = [
         mi('bronze_item_input_hatch'),
@@ -570,7 +561,7 @@ ServerEvents.tags('item', e => {
         mi('turbo_item_input_hatch'),
         mi('highly_advanced_item_input_hatch'),
     ];
-    ITEM_INPUT_HATCH.forEach(id => { e.add('kubejs:item_input_hatch', id) });
+    ITEM_INPUT_HATCH.forEach(id => { event.add('kubejs:item_input_hatch', id) });
 
     const ITEM_OUTPUT_HATCH = [
         mi('bronze_item_output_hatch'),
@@ -579,13 +570,13 @@ ServerEvents.tags('item', e => {
         mi('turbo_item_output_hatch'),
         mi('highly_advanced_item_output_hatch'),
     ];
-    ITEM_OUTPUT_HATCH.forEach(id => { e.add('kubejs:item_output_hatch', id) });
+    ITEM_OUTPUT_HATCH.forEach(id => { event.add('kubejs:item_output_hatch', id) });
 
     const NUCLEAR_INPUT_HATCH = [
         mi('nuclear_fluid_hatch'),
         mi('nuclear_item_hatch')
     ];
-    NUCLEAR_INPUT_HATCH.forEach(id => { e.add('kubejs:nuclear_hatch', id) });
+    NUCLEAR_INPUT_HATCH.forEach(id => { event.add('kubejs:nuclear_hatch', id) });
 
     const NUCLEAR_FUEL = [
         mi('uranium_fuel_rod'),
@@ -604,7 +595,7 @@ ServerEvents.tags('item', e => {
         mi('he_mox_fuel_rod_double'),
         mi('he_mox_fuel_rod_quad')
     ];
-    NUCLEAR_FUEL.forEach(id => { e.add('kubejs:nuclear_fuel', id) });
+    NUCLEAR_FUEL.forEach(id => { event.add('kubejs:nuclear_fuel', id) });
 
     const DEPLETED_FUEL = [
         mi('uranium_fuel_rod_depleted'),
@@ -613,33 +604,33 @@ ServerEvents.tags('item', e => {
         mi('le_mox_fuel_rod_depleted'),
         mi('he_mox_fuel_rod_depleted')
     ];
-    DEPLETED_FUEL.forEach(id => { e.add('kubejs:depleted_nuclear_fuel', id) });
+    DEPLETED_FUEL.forEach(id => { event.add('kubejs:depleted_nuclear_fuel', id) });
 });
 
 // Block tagging provided by kevintok
 // ServerEvents.tags('block', e => {
-    // e.add('c:lignite_coal_ores', 'modern_industrialization:lignite_coal_ore')
-    // e.add('c:lignite_coal_ores', 'modern_industrialization:deepslate_lignite_coal_ore')
-    // e.add('c:antimony_ores', 'modern_industrialization:antimony_ore')
-    // e.add('c:antimony_ores', 'modern_industrialization:deepslate_antimony_ore')
-    // e.add('c:bauxite_ores', 'modern_industrialization:bauxite_ore')
-    // e.add('c:bauxite_ores', 'modern_industrialization:deepslate_bauxite_ore')
-    // e.add('c:iridium_ores', 'modern_industrialization:iridium_ore')
-    // e.add('c:iridium_ores', 'modern_industrialization:deepslate_iridium_ore')
-    // e.add('c:lead_ores', 'modern_industrialization:lead_ore')
-    // e.add('c:lead_ores', 'modern_industrialization:deepslate_lead_ore')
-    // e.add('c:mozanite_ores', 'modern_industrialization:mozanite_ore')
-    // e.add('c:mozanite_ores', 'modern_industrialization:deepslate_mozanite_ore')
-    // e.add('c:nickel_ores', 'modern_industrialization:nickel_ore')
-    // e.add('c:nickel_ores', 'modern_industrialization:deepslate_nickel_ore')
-    // e.add('c:platinum_ores', 'modern_industrialization:platinum_ore')
-    // e.add('c:salt_ores', 'modern_industrialization:salt_ore')
-    // e.add('c:salt_ores', 'modern_industrialization:deepslate_salt_ore')
-    // e.add('c:tin_ores', 'modern_industrialization:tin_ore')
-    // e.add('c:tin_ores', 'modern_industrialization:deepslate_tin_ore')
-    // e.add('c:titanium_ores', 'modern_industrialization:titanium_ore')
-    // e.add('c:tungsten_ores', 'modern_industrialization:tungsten_ore')
-    // e.add('c:tungsten_ores', 'modern_industrialization:deepslate_tungsten_ore')
-    // e.add('c:uranium_ores', 'modern_industrialization:uranium_ore')
-    // e.add('c:uranium_ores', 'modern_industrialization:deepslate_uranium_ore')
+    // event.add('c:lignite_coal_ores', 'modern_industrialization:lignite_coal_ore')
+    // event.add('c:lignite_coal_ores', 'modern_industrialization:deepslate_lignite_coal_ore')
+    // event.add('c:antimony_ores', 'modern_industrialization:antimony_ore')
+    // event.add('c:antimony_ores', 'modern_industrialization:deepslate_antimony_ore')
+    // event.add('c:bauxite_ores', 'modern_industrialization:bauxite_ore')
+    // event.add('c:bauxite_ores', 'modern_industrialization:deepslate_bauxite_ore')
+    // event.add('c:iridium_ores', 'modern_industrialization:iridium_ore')
+    // event.add('c:iridium_ores', 'modern_industrialization:deepslate_iridium_ore')
+    // event.add('c:lead_ores', 'modern_industrialization:lead_ore')
+    // event.add('c:lead_ores', 'modern_industrialization:deepslate_lead_ore')
+    // event.add('c:mozanite_ores', 'modern_industrialization:mozanite_ore')
+    // event.add('c:mozanite_ores', 'modern_industrialization:deepslate_mozanite_ore')
+    // event.add('c:nickel_ores', 'modern_industrialization:nickel_ore')
+    // event.add('c:nickel_ores', 'modern_industrialization:deepslate_nickel_ore')
+    // event.add('c:platinum_ores', 'modern_industrialization:platinum_ore')
+    // event.add('c:salt_ores', 'modern_industrialization:salt_ore')
+    // event.add('c:salt_ores', 'modern_industrialization:deepslate_salt_ore')
+    // event.add('c:tin_ores', 'modern_industrialization:tin_ore')
+    // event.add('c:tin_ores', 'modern_industrialization:deepslate_tin_ore')
+    // event.add('c:titanium_ores', 'modern_industrialization:titanium_ore')
+    // event.add('c:tungsten_ores', 'modern_industrialization:tungsten_ore')
+    // event.add('c:tungsten_ores', 'modern_industrialization:deepslate_tungsten_ore')
+    // event.add('c:uranium_ores', 'modern_industrialization:uranium_ore')
+    // event.add('c:uranium_ores', 'modern_industrialization:deepslate_uranium_ore')
 // });

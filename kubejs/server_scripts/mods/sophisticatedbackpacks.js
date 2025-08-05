@@ -3,14 +3,12 @@
 // STATECH INDUSTRY UNOFFICIAL
 // -----------------------------------------
 
-ServerEvents.recipes(e => {
+ServerEvents.recipes(event => {
     // -- MOD NAMESPACE UTILITY FUNCTIONS -- // 
     let st = (id) => `statech:sophisticatedbackpacks/${id}`;
-    let sb = (id) => `sophisticatedbackpacks:${id}`;
-    let mi = (id) => `modern_industrialization:${id}`;
     
  
-    // Adapted from Monifactory scripts, see https://github.com/ThePansmith/Monifactory/blob/main/kubejs/server_scripts/mods/Sophisticated_Storage.js
+    // Adapted from Monifactory scripts, see https://github.com/ThePansmith/Monifactory/blob/main/kubejs/server_scripts/mods/Sophisticated_Storagevent.js
 
     const sophBackpacksMaterials = [
         ["", null, null],
@@ -25,8 +23,8 @@ ServerEvents.recipes(e => {
 
         let outputBackpack = `sophisticatedbackpacks:${material[0]}backpack`
         let inputBackpack = `sophisticatedbackpacks:${sophBackpacksMaterials[index - 1][0]}backpack`
-        e.remove({ mod: "sophisticatedbackpacks", output: outputBackpack })
-        e.custom({
+        event.remove({ mod: "sophisticatedbackpacks", output: outputBackpack })
+        event.custom({
             "type": "sophisticatedbackpacks:backpack_upgrade",
             "key": {
                 "N": {

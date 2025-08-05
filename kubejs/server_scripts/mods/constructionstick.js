@@ -3,12 +3,9 @@
 // STATECH INDUSTRY
 // -----------------------------------------
 
-ServerEvents.recipes(e => {
+ServerEvents.recipes(event => {
     // -- MOD NAMESPACE UTILITY FUNCTIONS -- // 
     let st = (id) => `statech:cognition/${id}`;
-    let cs = (id) => `constructionstick:${id}`;
-    let mc = (id) => `minecraft:${id}`;
-    let mi = (id) => `modern_industrialization:${id}`;
     
     // -- COSNTRUCTION STICKS REMOVED RECIPES -- //
     const REMOVED_RECIPES = [
@@ -18,10 +15,10 @@ ServerEvents.recipes(e => {
         // cs('template_replacement'),
         cs('template_unbreakable')
     ]; 
-    REMOVED_RECIPES.forEach(id => e.remove( {id: id} ));
+    REMOVED_RECIPES.forEach(id => event.remove( {id: id} ));
 
     // -- BATTERY TEMPLATE -- // 
-    e.shaped(cs('template_battery'), [
+    event.shaped(cs('template_battery'), [
         ' GR',
         'GBG',
         'RG '
@@ -34,7 +31,7 @@ ServerEvents.recipes(e => {
     .id(st('template_battery')); 
 
     // -- UNBREAKABLE TEMPLATE -- // 
-    e.shaped(cs('template_unbreakable'), [
+    event.shaped(cs('template_unbreakable'), [
         ' GT',
         'GNG',
         'TG '

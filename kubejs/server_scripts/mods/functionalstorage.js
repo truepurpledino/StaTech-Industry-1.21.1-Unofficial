@@ -3,12 +3,9 @@
 // STATECH INDUSTRY UNOFFICIAL
 // -----------------------------------------
 
-ServerEvents.recipes(e => {
+ServerEvents.recipes(event => {
     // -- MOD NAMESPACE UTILITY FUNCTIONS -- // 
     let st = (id) => `statech:functionalstorage/${id}`;
-    let fs= (id) => `functionalstorage:${id}`;
-    let mfs= (id) => `morefunctionalstorage:${id}`;
-    let mi = (id) => `modern_industrialization:${id}`;
     
     // -- FUNCTIONAL STORAGE REMOVED RECIPES -- //
     const REMOVED_RECIPES = [
@@ -40,10 +37,10 @@ ServerEvents.recipes(e => {
         fs('framed_fluid_2'),
         fs('framed_fluid_4')
     ]; 
-    REMOVED_RECIPES.forEach(id => e.remove( {id: id} ));
+    REMOVED_RECIPES.forEach(id => event.remove( {id: id} ));
 
     // -- ALUMINUM (COPPER) UPGRADE -- // 
-    e.shaped(fs('copper_upgrade'), [
+    event.shaped(fs('copper_upgrade'), [
         'PDP'
     ],
     {
@@ -53,7 +50,7 @@ ServerEvents.recipes(e => {
     .id(st('aluminum_upgrade')); 
 
     // -- STAINLESS STEEL (GOLD) UPGRADE -- // 
-    e.shaped(fs('gold_upgrade'), [
+    event.shaped(fs('gold_upgrade'), [
         'PUP'
     ],
     {
@@ -63,7 +60,7 @@ ServerEvents.recipes(e => {
     .id(st('stainless_steel_upgrade')); 
 
     // -- TITANIUM (DIAMOND) UPGRADE -- // 
-    e.shaped(fs('diamond_upgrade'), [
+    event.shaped(fs('diamond_upgrade'), [
         'PUP'
     ],
     {
@@ -73,7 +70,7 @@ ServerEvents.recipes(e => {
     .id(st('titanium_upgrade')); 
 
     // -- TUNGSTENSTEEL (NETHERITE) UPGRADE -- // 
-    e.shaped(fs('netherite_upgrade'), [
+    event.shaped(fs('netherite_upgrade'), [
         'PUP'
     ],
     {

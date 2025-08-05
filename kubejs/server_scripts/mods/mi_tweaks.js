@@ -3,18 +3,9 @@
 // STATECH INDUSTRY UNOFFICIAL
 // -----------------------------------------
 
-ServerEvents.recipes(e => {
+ServerEvents.recipes(event => {
     // -- MOD NAMESPACE UTILITY FUNCTIONS -- // 
     let st = (id) => `statech:modern_industrialization/${id}`;
-    let mi = (id) => `modern_industrialization:${id}`;
-    let mit = (id) => `mi_tweaks:${id}`;
-    let ei = (id) => `extended_industrialization:${id}`;
-    let mc = (id) => `minecraft:${id}`;
-    // let tr = (id) => `techreborn:${id}`;
-    // let ad = (id) => `ad_astra:${id}`;
-    let cr = (id) => `create:${id}`;
-    let ae = (id) => `ae2:${id}`;
-    let kj = (id) => `kubejs:${id}`;
 
     // -- EXTENDED INDUSTRIALIZATION REMOVED RECIPES -- //
 /*     const MI_TWEAKS_DELETED_ITEMS = [
@@ -32,10 +23,10 @@ ServerEvents.recipes(e => {
         ei('machines/processing_array/craft'),
         ei('machines/processing_array/assembler')
     ];
-    MI_TWEAKS_DELETED_ITEMS.forEach(id => e.remove( {id: id} ));
+    MI_TWEAKS_DELETED_ITEMS.forEach(id => event.remove( {id: id} ));
  */
     // -- LARGE CHEMICAL REACTOR -- //
-    e.shaped(mit('large_chemical_reactor'), [
+    event.shaped(mt('large_chemical_reactor'), [
         'PRP',
         'UHU',
         'PCP'
@@ -50,7 +41,7 @@ ServerEvents.recipes(e => {
     .id(st('large_chemical_reactor'));
 
     // -- PYROLYSE OVEN -- //
-    // e.shaped(mi('pyrolyse_oven'), [
+    // event.shaped(mi('pyrolyse_oven'), [
         // 'HIH',
         // 'ICI',
         // 'HAH'

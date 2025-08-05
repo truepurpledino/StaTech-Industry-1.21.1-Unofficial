@@ -3,19 +3,15 @@
 // STATECH INDUSTRY
 // -----------------------------------------
 
- ServerEvents.recipes(e => {
+ ServerEvents.recipes(event => {
     // -- MOD NAMESPACE UTILITY FUNCTIONS -- // 
     let st = (id) => `statech:gag/${id}`;
-    let mi = (id) => `modern_industrialization:${id}`;
-    let mc = (id) => `minecraft:${id}`;
-    let pa = (id) => `pastel:${id}`;
-    let gag = (id) => `gag:${id}`;
 
     // Remove the default Time in a Bottle recipe
-    e.remove({id: gag('time_sand_pouch')});
+    event.remove({id: gag('time_sand_pouch')});
 
     // -- TIME IN A BOTTLE -- // 
-    e.custom({
+    event.custom({
         type: pa('pedestal'),
         time: 400,
         tier: 'simple',

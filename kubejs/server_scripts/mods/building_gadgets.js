@@ -3,11 +3,9 @@
 // STATECH INDUSTRY
 // -----------------------------------------
 
-ServerEvents.recipes(e => {
+ServerEvents.recipes(event => {
     // -- MOD NAMESPACE UTILITY FUNCTIONS -- // 
     let st = (id) => `statech:building_gadgets/${id}`;
-    let bg = (id) => `buildinggadgets2:${id}`;
-    let mi = (id) => `modern_industrialization:${id}`;
     
     // -- BUILDING GADGETS REMOVED RECIPES -- //
     const REMOVED_RECIPES = [
@@ -18,10 +16,10 @@ ServerEvents.recipes(e => {
         bg('gadget_destruction'),
         bg('template_manager')
     ]; 
-    REMOVED_RECIPES.forEach(id => e.remove( {id: id} ));
+    REMOVED_RECIPES.forEach(id => event.remove( {id: id} ));
 
     // -- BUILDING GADGET -- //
-    e.shaped(bg('gadget_building'), [
+    event.shaped(bg('gadget_building'), [
         'IRI',
         'DCD',
         'ILI'
@@ -36,7 +34,7 @@ ServerEvents.recipes(e => {
     .id(st('gadget_building'));
 
     // -- EXCHANGING GADGET -- // 
-    e.shaped(bg('gadget_exchanging'), [
+    event.shaped(bg('gadget_exchanging'), [
         'IRI',
         'DCD',
         'IRI'
@@ -50,7 +48,7 @@ ServerEvents.recipes(e => {
     .id(st('gadget_exchanging'));
 
     // -- COPY & PASTE GADGET -- //
-    e.shaped(bg('gadget_copy_paste'), [
+    event.shaped(bg('gadget_copy_paste'), [
         'IRI',
         'ECE',
         'ILI'
@@ -65,7 +63,7 @@ ServerEvents.recipes(e => {
     .id(st('gadget_copy_paste'));
 
     // -- DESTRUCTION GADGET -- //
-    e.shaped(bg('gadget_destruction'), [
+    event.shaped(bg('gadget_destruction'), [
         'IRI',
         'ECE',
         'ILI'
@@ -80,7 +78,7 @@ ServerEvents.recipes(e => {
     .id(st('gadget_destruction'));
 
     // -- TEMPLATE MANAGER -- // 
-    e.shaped(bg('template_manager'), [
+    event.shaped(bg('template_manager'), [
         'GRG',
         'EFE',
         'GCG'

@@ -3,21 +3,19 @@
 // STATECH INDUSTRY
 // -----------------------------------------
 
-ServerEvents.recipes(e => {
+ServerEvents.recipes(event => {
     // -- MOD NAMESPACE UTILITY FUNCTIONS -- // 
     let st = (id) => `statech:cognition/${id}`;
-    let xp = (id) => `cognition:${id}`;
-    let mi = (id) => `modern_industrialization:${id}`;
     
     // -- BUILDING GADGETS REMOVED RECIPES -- //
     const REMOVED_RECIPES = [
         xp('cognitive_flux'),
         xp('cognitive_alloy')        
     ]; 
-    REMOVED_RECIPES.forEach(id => e.remove( {id: id} ));
+    REMOVED_RECIPES.forEach(id => event.remove( {id: id} ));
 
     // --  -- // 
-/*     e.shaped(bg('template_manager'), [
+/*     event.shaped(bg('template_manager'), [
         'GRG',
         'EFE',
         'GCG'
