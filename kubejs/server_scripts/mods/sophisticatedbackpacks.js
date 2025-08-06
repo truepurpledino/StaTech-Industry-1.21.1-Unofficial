@@ -6,19 +6,16 @@
 ServerEvents.recipes(event => {
     // -- MOD NAMESPACE UTILITY FUNCTIONS -- // 
     let st = (id) => `statech:sophisticatedbackpacks/${id}`;
+    
 
     const SOPH_DELETED = [
         sb('stack_upgrade_omega_tier'),
         sb('compacting_upgrade'),
-        ss('backpack_compacting_upgrade_from_storage_compacting_upgrade'),
         sb('advanced_compacting_upgrade'),
-        ss('backpack_advanced_compacting_upgrade_from_storage_advanced_compacting_upgrade'),
         sb('pump_upgrade'),
         sb('battery_upgrade'),
         sb('magnet_upgrade'),
-        sb('backpack_magnet_upgrade_from_storage_magnet_upgrade'),
         sb('advanced_magnet_upgrade'),
-        sb('backpack_advanced_magnet_upgrade_from_storage_advanced_magnet_upgrade'),
         sb('advanced_pump_upgrade'),
         sb('feeding_upgrade'),
         sb('upgrade_base')
@@ -33,7 +30,7 @@ ServerEvents.recipes(event => {
     ],
     {
         S: mc('string'),
-        I: 'c:plates/bronze',
+        I: '#c:plates/bronze',
         L: mc('leather')
     })
     .id(st('upgrade_base')); 
@@ -73,8 +70,8 @@ ServerEvents.recipes(event => {
         D: sb('magnet_upgrade'),
         M: sm('advancedmagnet')
     })
-    .id(st('advanced_magnet_upgrade'));   
- 
+    .id(st('advanced_magnet_upgrade')); 
+
     // Adapted from Monifactory scripts, see https://github.com/ThePansmith/Monifactory/blob/main/kubejs/server_scripts/mods/Sophisticated_Storagevent.js
 
     const sophBackpacksMaterials = [
