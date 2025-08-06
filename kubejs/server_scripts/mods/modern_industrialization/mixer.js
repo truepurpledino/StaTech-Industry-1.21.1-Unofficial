@@ -313,6 +313,65 @@ ServerEvents.recipes(event => {
         [ { amount: 1, item: ae('flawed_budding_quartz') } ],
         [ { amount: 1000, fluid: mc('water'), probability: 0 } ]
     );
+
+    // -- ENTRO CRYSTAL -- //
+    mixer(
+        event,
+        st('entro_crystal'),
+        8,
+        100,
+        [
+            { amount: 1, item: ea('entro_dust') },
+            { amount: 1, tag: 'c:gems/fluix' }
+        ],
+        [ { amount: 2, item: ea('entro_crystal') } ],
+        [ { amount: 1000, fluid: mc('water'), probability: 0 } ]
+    );
+
+    // -- ENTRO INFUSED INGOT -- //
+    mixer(
+        event,
+        st('entro_ingot'),
+        8,
+        100,
+        [
+            { amount: 1, item: ea('entro_dust') },
+            { amount: 1, tag: 'c:ingots/aluminum' },
+            { amount: 1, tag: 'c:gems/lapis' }
+        ],
+        [ { amount: 2, item: ea('entro_ingot') } ],
+        [ { amount: 1000, fluid: mc('water'), probability: 0 } ]
+    );
+
+    // -- SKY BRONZE INGOT -- //
+    mixer(
+        event,
+        st('sky_bronze_ingot'),
+        8,
+        100,
+        [
+            { amount: 1, item: ae('charged_certus_quartz_crystal') },
+            { amount: 1, tag: 'c:ingots/annealed_copper' },
+            { amount: 1, item: ae('sky_stone_block') }
+        ],
+        [ { amount: 2, item: mg('sky_bronze_ingot') } ],
+        [ { amount: 1000, fluid: mc('lava'), probability: 0 } ]
+    );
+
+    // -- SKY STEEL INGOT -- //
+    mixer(
+        event,
+        st('sky_steel_ingot'),
+        8,
+        100,
+        [
+            { amount: 1, item: ae('charged_certus_quartz_crystal') },
+            { amount: 1, tag: 'c:ingots/stainless_steel' },
+            { amount: 1, item: ae('sky_stone_block') }
+        ],
+        [ { amount: 2, item: mg('sky_steel_ingot') } ],
+        [ { amount: 1000, fluid: mc('lava'), probability: 0 } ]
+    );
     
     // -- DRILLING FLUID -- //
     mixer(

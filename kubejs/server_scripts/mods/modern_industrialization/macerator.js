@@ -60,13 +60,14 @@ ServerEvents.recipes(event => {
     // );
 
     // -- CALCITE DUST FROM LIMESTONE -- //
-    // macerator(
-        // st('calcite_dust_from_limestone'),
-        // 8,
-        // 100,
-        // [ { amount: 1, item: cr('limestone') } ],
-        // [ { amount: 2, item: tr('calcite_dust') } ]
-    // );
+    macerator(
+        event,
+        st('calcite_dust_from_limestone'),
+        8,
+        100,
+        [ { amount: 1, item: cr('limestone') } ],
+        [ { amount: 2, item: mi('calcite_dust') } ]
+    );
 
     // -- CALCITE DUST FROM BLOCKUS LIMESTONE -- // 
     // macerator(
@@ -129,16 +130,17 @@ ServerEvents.recipes(event => {
     // );
 
     // -- FLAX TO STRING -- //
-    // macerator(
-        // st('flax_to_string'),
-        // 2,
-        // 200,
-        // [ { amount: 1, item: 'supplementaries:flax' } ],
-        // [
-            // { amount: 2, item: 'minecraft:string' },
-            // { amount: 1, item: 'minecraft:string', probability: 0.25 }
-        // ]
-    // );
+    macerator(
+        event,
+        st('flax_to_string'),
+        2,
+        200,
+        [ { amount: 1, item: 'supplementaries:flax' } ],
+        [
+            { amount: 2, item: 'minecraft:string' },
+            { amount: 1, item: 'minecraft:string', probability: 0.25 }
+        ]
+    );
 
     // -- STONE DUST -- //
     macerator(
@@ -234,16 +236,17 @@ ServerEvents.recipes(event => {
     // );
 
     // -- COPPER FROM VERIDIUM -- //
-    // macerator(
-        // st('copper_dust_from_veridium'),
-        // 2,
-        // 200,
-        // [ { amount: 1, item: cr('veridium') } ],
-        // [ 
-            // { amount: 1, item: mi('copper_dust') },
-            // { amount: 1, item: mi('copper_dust'), probability: 0.5 }
-        // ]
-    // );
+    macerator(
+        event,
+        st('copper_dust_from_veridium'),
+        2,
+        200,
+        [ { amount: 1, item: cr('veridium') } ],
+        [ 
+            { amount: 1, item: mi('copper_dust') },
+            { amount: 1, item: mi('copper_dust'), probability: 0.5 }
+        ]
+    );
 
     // -- ZINC DUST ROM ASURINE -- //
     macerator(
@@ -284,7 +287,7 @@ ServerEvents.recipes(event => {
         ]
     );
 
-    // -- QUARTZ DUST FROM RAW QUARTZ BLOCK -- //
+    // -- QUARTZ DUST FROM QUARTZITE -- //
     macerator(
         event,
         st('quartz_dust_from_quartzite'),
@@ -295,6 +298,16 @@ ServerEvents.recipes(event => {
             { amount: 2, item: mi('quartz_dust') },
             { amount: 4, item: mi('calcite_dust') }
         ]
+    );
+
+    // -- ENTRO DUST FROM ENTRO CRYSTAL -- //
+    macerator(
+        event,
+        st('entro_dust_from_entro_crystal'),
+        2,
+        400,
+        [ { amount: 1, item: ea('entro_crystal') } ],
+        [ { amount: 1, item: ea('entro_dust') } ]
     );
 
     const COLORS = [

@@ -74,6 +74,10 @@ ServerEvents.recipes(event => {
         ea('transform/entro_ingot'),
         mg('transform/sky_bronze_ingot'),
         mg('transform/sky_steel_ingot'),
+        mg('transform/sky_osmium_ingot'),
+        mg('transform/sky_osmium_ingot'),
+        mg('crafting/sky_osmium_ingot_from_sky_osmium_block'),
+        mg('crafting/sky_osmium_block'),
         ea('crystal_assembler'),
         ea('assembler/sky_bronze'),
         ea('assembler/sky_steel'),
@@ -82,6 +86,7 @@ ServerEvents.recipes(event => {
         ea('cutter/logic_processor'),
         ea('cutter/calculation_processor'),
         ea('cutter/silicon_print'),
+        ea('fixer/certus_flawed'), // Could be readded, needs balancing //
         ea('infinity_cobblestone_cell')
     ];
     REMOVED_RECIPES.forEach(id => event.remove( {id: id} ));
@@ -861,6 +866,10 @@ ServerEvents.recipes(event => {
         }
     })
     .id(ste('entro_ingot_inworld'));
+
+    //------------------//
+    // -- MEGA CELLS -- //
+    //------------------//
 
     event.custom({
         type: 'ae2:transform',
