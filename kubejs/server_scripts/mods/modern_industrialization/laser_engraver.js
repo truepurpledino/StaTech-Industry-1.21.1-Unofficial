@@ -70,6 +70,32 @@ ServerEvents.recipes(event => {
         [ { amount: 1, item: ae('printed_logic_processor') } ]
     );
 
+    // -- PRINTED CONCURRENT CIRCUIT -- //
+    laserEngraver(
+        event,
+        st('concurrent_circuit'),
+        32,
+        200,
+        [
+            { amount: 1, item: ea('concurrent_processor_press'), probability: 0.0 },
+            { amount: 1, item: ea('entro_ingot') }
+        ],
+        [ { amount: 1, item: ea('concurrent_processor_print') } ]
+    );
+
+    // -- PRINTED ACCUMULATION CIRCUIT -- //
+    laserEngraver(
+        event,
+        st('accumulation_circuit'),
+        32,
+        200,
+        [
+            { amount: 1, item: mg('accumulation_processor_press'), probability: 0.0 },
+            { amount: 1, item: mg('sky_steel_ingot') }
+        ],
+        [ { amount: 1, item: mg('printed_accumulation_processor') } ]
+    );
+
     // -- SILICON PRESS -- //
     laserEngraver(
         event,
@@ -120,6 +146,32 @@ ServerEvents.recipes(event => {
             { amount: 1, item: mc('iron_block') }
         ],
         [ { amount: 1, item: ae('logic_processor_press') } ]
+    );
+
+    // -- ACCUMULATION PRESS -- //
+    laserEngraver(
+        event,
+        st('dupe_accumulation_press'),
+        32,
+        200,
+        [
+            { amount: 1, item: mg('accumulation_processor_press'), probability: 0.0 },
+            { amount: 1, item: mc('iron_block') }
+        ],
+        [ { amount: 1, item: mg('accumulation_processor_press') } ]
+    );
+
+    // -- CONCURRENT PRESS -- //
+    laserEngraver(
+        event,
+        st('dupe_concurrent_press'),
+        32,
+        200,
+        [
+            { amount: 1, item: ea('concurrent_processor_press'), probability: 0.0 },
+            { amount: 1, item: mc('iron_block') }
+        ],
+        [ { amount: 1, item: ea('concurrent_processor_press') } ]
     );
 
     // -- CRUSHER MODELS -- //

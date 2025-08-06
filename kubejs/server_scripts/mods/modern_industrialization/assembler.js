@@ -14,8 +14,8 @@ ServerEvents.recipes(event => {
         mi('assembler_generated/steam_age/bronze/furnace'),
         mi('assembler_generated/steam_age/bronze/boiler'),
         mi('assembler_generated/electric_age/component/craft/op_amp'),
-        mi('assembler_generated/electric_age/battery/lv_battery'),
-        mi('assembler_generated/electric_age/battery/silicon_battery'),
+/*         mi('assembler_generated/electric_age/battery/lv_battery'),
+        mi('assembler_generated/electric_age/battery/silicon_battery'), */
         mi('assembler_generated/electric_age/battery/sodium_battery'),
         mi('assembler_generated/electric_age/battery/cadmium_battery'),
         mi('assembler_generated/electric_age/battery/plutonium_battery'),
@@ -133,7 +133,7 @@ ServerEvents.recipes(event => {
     );
 
     // -- REDSTONE BATTERY -- //
-    assembler(
+/*     assembler(
         event,
         st('redstone_battery'),
         8,
@@ -146,10 +146,10 @@ ServerEvents.recipes(event => {
         ],
         [ { amount: 2, item: mi('redstone_battery') } ],
         [ { amount: 100, fluid: mi('lithium') } ]
-    );
+    ); */
 
     // -- SILICON BATTERY -- //
-    assembler(
+/*     assembler(
         event,
         st('silicon_battery'),
         8,
@@ -162,7 +162,7 @@ ServerEvents.recipes(event => {
         ],
         [ { amount: 2, item: mi('silicon_battery') } ],
         [ { amount: 100, fluid: mi('lithium') } ]
-    );
+    ); */
 
     // -- SODIUM BATTERY -- //
     assembler(
@@ -212,18 +212,33 @@ ServerEvents.recipes(event => {
         [ { amount: 100, fluid: mi('lithium') } ]
     );
 
-    // -- RED CELL BATTERY -- //
-    // assembler(
-        // st('red_cell_battery'),
-        // 8,
-        // 200,
-        // [
-            // { amount: 2, tag: 'c:lead_plates' },
-            // { amount: 2, item: mi('redstone_battery') },
-            // { amount: 1, item: mi('copper_cable') }
-        // ],
-        // [ { amount: 1, item: tr('red_cell_battery') } ]
-    // );
+    // -- CONCURRENT PROCESSOR -- //
+    assembler(
+        event,
+        st('concurrent_processor'),
+        16,
+        200,
+        [
+            { amount: 1, item: ea('concurrent_processor_print') },
+            { amount: 1, item: ae('printed_silicon') }
+        ],
+        [ { amount: 1, item: ea('concurrent_processor') } ],
+        [ { amount: 90, fluid: mi('molten_redstone') } ]
+    );
+
+    // -- ACCUMULATION PROCESSOR -- //
+    assembler(
+        event,
+        st('accumulation_processor'),
+        16,
+        200,
+        [
+            { amount: 1, item: mg('printed_accumulation_processor') },
+            { amount: 1, item: ae('printed_silicon') }
+        ],
+        [ { amount: 1, item: mg('accumulation_processor') } ],
+        [ { amount: 90, fluid: mi('molten_redstone') } ]
+    );
 
     // -- QUARTZ FIBER -- //
     assembler(

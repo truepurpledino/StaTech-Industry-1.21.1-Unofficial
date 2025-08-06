@@ -7,7 +7,20 @@ ServerEvents.recipes(event => {
     // -- MOD NAMESPACE UTILITY FUNCTIONS -- // 
     let st = (id) => `statech:megacells/${id}`;
 
-    
+    const ingotsToPlates = [
+        ["sky_steel_ingot", "sky_steel_plate"],
+        ["sky_bronze_ingot", "sky_bronze_plate"]
+    ]
+
+    // -- REPLACE INGOTS INTO PLATES FOR CELLS -- //
+    ingotsToPlates.forEach(([ingot, plate]) => {
+        event.replaceInput(
+            { id: /megacells:cells.*/ },
+            `megacells:${ingot}`,
+            `modern_industrialization:${plate}`
+        )
+    })
+
     // -- EXTENDED AE REMOVED RECIPES -- //
     const REMOVED_RECIPES = [
         mg('transform/sky_bronze_ingot'),
