@@ -162,7 +162,39 @@ MIMaterialEvents.addMaterials(e => {
                 })
                 .rawMetal("copper", true).rawMetal("iridium", false)
                 .defaultRecipes();
-        });        
+        });    
+
+    e.createMaterial("Entro", "entro", 0x3ed19b,
+        builder => {
+            builder
+                .hardness("average")
+                .materialSet("shiny")
+                .addParts("plate")
+                .addExternalPart("ingot", "extendedae:entro_ingot")
+                .defaultRecipes();
+        });
+
+    e.createMaterial("Sky Bronze", "sky_bronze", 0xa47b48,
+        builder => {
+            builder
+                .hardness("hard")
+                .addParts("plate")
+                .addExternalPart("ingot", "megacells:sky_bronze_ingot")
+                .addExternalPart("block", "megacells:sky_bronze_block")
+                .defaultRecipes();
+        });
+
+    e.createMaterial("Sky Steel", "sky_steel", 0x262726,
+        builder => {
+            builder
+                .hardness("hard")
+                .addParts("plate")
+                .addExternalPart("ingot", "megacells:sky_steel_ingot")
+                .addExternalPart("block", "megacells:sky_steel_block")
+                .defaultRecipes();
+        });          
+          
+          
 
 });
 

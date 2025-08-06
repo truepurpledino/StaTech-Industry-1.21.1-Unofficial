@@ -614,7 +614,10 @@ ServerEvents.tags('item', event => {
         'stone',
         'tuff',
         'calcite',
-        'dark_ashes'
+        'dark_ashes',
+        'sky_steel',
+        'sky_bronze',
+        'entro'
     ]
 
     const baseparts = [
