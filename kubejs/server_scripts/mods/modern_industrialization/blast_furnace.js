@@ -140,4 +140,16 @@ ServerEvents.recipes(event => {
         null,
         [ { amount: 1000, fluid: mi('fluorine') } ]
     );
+
+    // -- BERYLLIUM HOT INGOT -- //
+    blastFurnace(
+        event,
+        st('beryllium_hot_ingot'),
+        96,
+        300,
+        [ { amount: 1, item: mi('beryllium_dust') } ], 
+        [ { amount: 1, item: mi('beryllium_hot_ingot') } ],
+        null,
+        [ { amount: 1000, fluid: mi('oxygen') } ]
+    );
 });

@@ -207,21 +207,83 @@ MIMaterialEvents.addMaterials(event => {
                 .addExternalPart('ingot', 'megacells:sky_steel_ingot')
                 .addExternalPart('block', 'megacells:sky_steel_block')
                 .defaultRecipes();
-        });          
-          
-          
+        });
 
+    e.createMaterial('Sapphire', 'sapphire', 0x4873f2,
+        builder => {
+            builder
+                .hardness('hard')
+                .materialSet('shiny')
+                .addParts('plate', 'dust', 'crushed_dust', 'gem')
+                .ore({
+                    'generate': true,
+                    'ore_set': 'diamond',
+                    'vein_size': 3,
+                    'veins_per_chunk': 4,
+                    'max_y': 24
+                })
+                .rawMetal('copper') 
+                .defaultRecipes();
+        });    
+
+    e.createMaterial('Peridot', 'peridot', 0x59f261,
+        builder => {
+            builder
+                .hardness('hard')
+                .materialSet('shiny')
+                .addParts('plate', 'dust', 'crushed_dust', 'gem')
+                .ore({
+                    'generate': true,
+                    'ore_set': 'diamond',
+                    'vein_size': 3,
+                    'veins_per_chunk': 4,
+                    'max_y': 24
+                })
+                .rawMetal('copper') 
+                .defaultRecipes();
+        }); 
+
+    e.createMaterial('Ruby', 'corundum', 0xfc3232, // Name is corundum because modifyMaterial doesn't allow for adding ores
+        builder => {
+            builder
+                .hardness('hard')
+                .materialSet('shiny')
+                .addParts('plate', 'crushed_dust', 'gem')
+                .addExternalPart('dust', 'modern_industrialization:ruby_dust')
+                .ore({
+                    'generate': true,
+                    'ore_set': 'diamond',
+                    'vein_size': 3,
+                    'veins_per_chunk': 4,
+                    'max_y': 24
+                })
+                .rawMetal('copper')
+                .defaultRecipes(); 
+        });
+        
+    e.createMaterial('Boron', 'boron', 0x878376,
+        builder => {
+            builder
+                .hardness('hard')
+                .materialSet('shiny')
+                .addParts('dust', 'tiny_dust')
+                .defaultRecipes();
+        });
+        
+    e.createMaterial('Kernite', 'kernite', 0xc2d7e8, // Ore for boron
+        builder => {
+            builder
+                .hardness('hard')
+                .addParts('dust', 'tiny_dust', 'crushed_dust')
+                .ore({
+                    'generate': false,
+                    'ore_set': 'iron'
+                })
+                .rawMetal('iron', true).rawMetal('copper', false)
+                .defaultRecipes();
+        });
 });
 
-/* MIMaterialEvents.modifyMaterial('ruby',
-    e => {
-        event.builder
-            .hardness('average')
-            .ore({
-                'generate': true,
-                'ore_set': 'nether_gold',
-                'vein_size': 2,
-                'veins_per_chunk': 3,
-                'max_y': 90
-            })
-}) */
+MIMaterialEvents.modifyMaterial('beryllium', event => {
+    event.builder.addParts('hot_ingot')
+});

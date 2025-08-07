@@ -9,7 +9,8 @@ ServerEvents.recipes(event => {
 
     // -- ELECTROLYZER REMOVED RECIPES -- //
     const DELETED_RECIPE = [
-        mi('materials/electrolyzer/salt_electrolysis')
+        mi('materials/electrolyzer/salt_electrolysis'),
+        mi('materials/electrolyzer/beryllium_dust')
     ];
     DELETED_RECIPE.forEach(id => event.remove({id: id}));
 
@@ -52,7 +53,7 @@ ServerEvents.recipes(event => {
         st('salt_dust'),
         16,
         400,
-        [ { amount: 2, tag: 'c:salt_dusts' } ],
+        [ { amount: 2, tag: 'c:dusts/salt' } ],
         [ { amount: 1, item: mi('sodium_dust') } ],
         [ { amount: 100, fluid: mc('water') } ],
         [ { amount: 125, fluid: mi('chlorine') } ]
@@ -87,4 +88,37 @@ ServerEvents.recipes(event => {
             { amount: 600, fluid: mi('chlorine') }
         ]
     );
+
+    // -- BERYLLIUM DUST -- //
+    electrolyzer(
+        event,
+        st('beryllium_dust'),
+        32,
+        200,
+        null,
+        [ { amount: 3, item: mi('beryllium_dust') } ],
+        [ { amount: 1100, fluid: mi('beryllium_chloride') } ],
+        [ { amount: 200, fluid: mi('chlorine') } ]
+    );
+
+    // -- WASTE BERYL AMMONIA SOLUTION PROCESSING -- //
+    electrolyzer(
+        event,
+        st('waste_beryl_ammonia_solution_processing'),
+        16,
+        400,
+        null,
+        [ 
+            { amount: 1, item: mi('sulfur_dust') },
+            { amount: 1, item: mi('aluminum_dust') },
+            { amount: 3, item: mi('silicon_dust') } 
+        ],
+        [ { amount: 4500, fluid: mi('waste_beryl_ammonia_solution') } ],
+        [
+            { amount: 200, fluid: mc('water') },
+            { amount: 4000, fluid: mi('ammonia') }
+        ]
+    ); 
+
+
 });

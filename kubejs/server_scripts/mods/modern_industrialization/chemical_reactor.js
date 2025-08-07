@@ -170,4 +170,77 @@ ServerEvents.recipes(event => {
         ],
         [ { amount: 2000, fluid: mi('hydrofluoric_acid') } ]
     );
+    
+    // -- BERYLLIUM SULFATE -- //
+    chemicalReactor(
+        event,
+        st('beryllium_sulfate'),
+        16,
+        100,
+        [ { amount: 3, item: mi('emerald_crushed_dust') } ],
+        null,
+        [ { amount: 150, fluid: mi('sulfuric_acid') } ],
+        [ { amount: 300, fluid: mi('beryllium_sulfate') } ]
+    );
+    
+    // -- BERYLLIUM SULFATE ALTERNATIVE -- //
+    chemicalReactor(
+        event,
+        st('beryllium_sulfate_alt'),
+        16,
+        50,
+        [ { amount: 5, item: mi('emerald_dust') } ],
+        null,
+        [ { amount: 150, fluid: mi('sulfuric_acid') } ],
+        [ { amount: 300, fluid: mi('beryllium_sulfate') } ]
+    );
+
+    // -- BERYLLIUM HYDROXIDE -- //
+    chemicalReactor(
+        event,
+        st('beryllium_hydroxide'),
+        24,
+        300,
+        null,
+        null,
+        [
+            { amount: 2250, fluid: mi('beryllium_sulfate') },
+            { amount: 7000, fluid: mi('ammonia') }
+        ],
+        [ 
+            { amount: 1200, fluid: mi('beryllium_hydroxide') },
+            { amount: 8000, fluid: mi('waste_beryl_ammonia_solution') } 
+        ]
+    );
+
+    // -- BERYLLIUM CHLORIDE -- //
+    chemicalReactor(
+        event,
+        st('beryllium_chloride'),
+        16,
+        200,
+        [ { amount: 2, item: mi('carbon_dust') } ],
+        null,
+        [
+            { amount: 800, fluid: mi('beryllium_hydroxide') },
+            { amount: 300, fluid: mi('chlorine') }
+        ],
+        [ { amount: 1100, fluid: mi('beryllium_chloride') } ]
+    );
+
+    // -- AMMONIA -- //
+    chemicalReactor(
+        event,
+        st('ammonia'),
+        8,
+        200,
+        null,
+        null,
+        [ 
+            { amount: 250, fluid: mi('nitrogen') },
+            { amount: 750, fluid: mi('hydrogen') }
+        ],
+        [ { amount: 1000, fluid: mi('ammonia') } ]
+    );
+
 });
