@@ -52,7 +52,7 @@ ServerEvents.recipes(event => {
         'SDS'
     ],
     {
-        S: '#c:plates/ostrum',
+        S: '#c:plates/calorite',
         G: mc('glowstone'),
         D: '#c:dyes/orange' 
     })
@@ -572,34 +572,34 @@ ServerEvents.tags('item', event => {
     }); */
 
     const MATERIALS = [
-        "copper", 
-        "iron", 
-        "steel", 
-        "bronze", 
-        "tin", 
-        "lead", 
-        "silver", 
-        "gold",
-        "nickel", 
-        "zinc", 
-        "aluminum", 
-        "platinum", 
-        "tungsten", 
-        "titanium",
-        "chromium", 
-        "manganese", 
-        "electrum",
-        "invar", 
-        "enderium", 
-        "annealed_copper", 
-        "stainless_steel",
-        "battery_alloy",
-        "cupronickel",
-        "kanthal",
-        "iridium",
-        "silicon",
-        "superconductor",
-        "blastproof_alloy"
+        'copper', 
+        'iron', 
+        'steel', 
+        'bronze', 
+        'tin', 
+        'lead', 
+        'silver', 
+        'gold',
+        'nickel', 
+        'zinc', 
+        'aluminum', 
+        'platinum', 
+        'tungsten', 
+        'titanium',
+        'chromium', 
+        'manganese', 
+        'electrum',
+        'invar', 
+        'enderium', 
+        'annealed_copper', 
+        'stainless_steel',
+        'battery_alloy',
+        'cupronickel',
+        'kanthal',
+        'iridium',
+        'silicon',
+        'superconductor',
+        'blastproof_alloy'
     ];
 
     const CUSTOMMATERIALS = [
@@ -617,27 +617,31 @@ ServerEvents.tags('item', event => {
         'dark_ashes',
         'sky_steel',
         'sky_bronze',
-        'entro'
+        'entro',
+        'corundum',
+        'sapphire',
+        'peridot'
     ]
 
     const baseparts = [
-        "_rotor", 
-        "_curved_plate", 
-        "_blade", 
-        "_large_plate", 
-        "_bolt", 
-        "_ring", 
-        "_hot_ingot", 
-        "_double_ingot",
-        "_drill_head"
+        '_rotor', 
+        '_curved_plate', 
+        '_blade', 
+        '_large_plate', 
+        '_bolt', 
+        '_ring', 
+        '_hot_ingot', 
+        '_double_ingot',
+        '_drill_head'
     ];
     const supplparts = [
-        "_plate", 
-        "_gear", 
-        "_rod", 
-        "_tiny_dusts", 
-        "_dust", 
-        "_ingot"
+        '_plate', 
+        '_gear', 
+        '_rod', 
+        '_tiny_dusts', 
+        '_dust', 
+        '_ingot',
+        '_ore'
     ];
 
 
@@ -646,7 +650,7 @@ ServerEvents.tags('item', event => {
     MATERIALS.forEach(material => {
         baseparts.forEach(part => {
             const itemId = `modern_industrialization:${material}${part}`;
-            const tagCategory = part.slice(1) + "s";
+            const tagCategory = part.slice(1) + 's';
             const generictag = `c:${tagCategory}`;
             const specifictag = `c:${tagCategory}/${material}`;
             
@@ -709,7 +713,7 @@ ServerEvents.tags('item', event => {
 /* 
     CUSTOMMATERIALS.forEach(material => {
         const itemId = `modern_industrialization:raw_${material}`;
-        const tagCategory = "raw_materials";
+        const tagCategory = 'raw_materials';
         const generictag = `c:${tagCategory}`;
         const specifictag = `c:${tagCategory}/${material}`;
         
@@ -721,7 +725,7 @@ ServerEvents.tags('item', event => {
 
     CUSTOMMATERIALS.forEach(material => {
         const itemId = `modern_industrialization:deepslate_${material}_ore`;
-        const tagCategory = "ores";
+        const tagCategory = 'ores';
         const generictag = `c:${tagCategory}`;
         const specifictag = `c:${tagCategory}/${material}`;
         
@@ -734,7 +738,7 @@ ServerEvents.tags('item', event => {
     CUSTOMMATERIALS.forEach(material => {
         allparts.forEach(part => {
             const itemId = `modern_industrialization:${material}${part}`;
-            const tagCategory = part.slice(1) + "s";
+            const tagCategory = part.slice(1) + 's';
             const generictag = `c:${tagCategory}`;
             const specifictag = `c:${tagCategory}/${material}`;
             
