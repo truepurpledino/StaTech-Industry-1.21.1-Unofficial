@@ -14,6 +14,7 @@ ServerEvents.recipes(event => {
         cr('blasting/platinum_ingot_compat_modern_industrialization'),
         cr('smelting/silver_ingot_compat_modern_industrialization'),
         cr('blasting/silver_ingot_compat_modern_industrialization'),
+        cr('crafting/kinetics/mechanical_press')
         // cr('smelting/lead_ingot_compat_techreborn'),
         // cr('blasting/lead_ingot_compat_techreborn'),
         // cr('blasting/tin_ingot_compat_techreborn'),
@@ -31,6 +32,19 @@ ServerEvents.recipes(event => {
         // .id(st('dough'))
         // .replaceIngredient('kibe:water_wooden_bucket', 'kibe:wooden_bucket');
 
+    // -- MECHANICAL PRESS -- //
+    event.shaped(cr('mechanical_press'), [
+        ' S ',
+        'PCP',
+        ' B '
+    ],
+    {
+        S: cr('shaft'),
+        C: cr('andesite_casing'),
+        P: mi('iron_large_plate'),
+        B: mc('iron_block')
+    }).id(st('mechanical_press'));
+
     // -- TANK -- //
     event.shaped(cr('fluid_tank'), [
         'CGC',
@@ -41,8 +55,7 @@ ServerEvents.recipes(event => {
         C: '#c:plates/copper',
         S: '#c:plates/steel',
         G: '#c:glass_blocks'
-    })
-    .id('statech:create/fluid_tank');
+    }).id('statech:create/fluid_tank');
 
     // -- SPRINKLER FROM SLICE AND DICE -- //
     // event.shaped(sd('sprinkler'), [

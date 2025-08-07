@@ -42,8 +42,8 @@ ServerEvents.recipes(event => {
     ];
     MI_DELETED_ITEMS.forEach(id => event.remove( {id: id} ));
     
-    // -- CONVERSION RECIPE FOR EXISTING WORLDS -- //
-    event.shapeless(mi('laser_engraver'), [ ae('inscriber') ]).id(st('laser_engraver_conversion'));
+    // -- LARGE IRON PLATE -- // 
+    event.shapeless(mi('iron_large_plate'), [ jh('iron_hammer'), mc('iron_block')]).damageIngredient(jh('iron_hammer')).id(st('iron_large_plate'));
 
     // -- BLOOD GENERATOR -- //
     event.shaped(mi('blood_generator'), [
@@ -217,15 +217,14 @@ ServerEvents.recipes(event => {
     // -- FORGE HAMMER -- //
     event.shaped(mi('forge_hammer'), [
         'PPP',
-        ' B ',
-        'III'
-    ],
+        ' I ',
+        'BBB'
+    ], 
     {
-        P: '#c:plates/iron',
-        B: '#c:ingots/bronze',
-        I: '#c:ingots/iron'
-    })
-    .id(st('forge_hammer'));
+        P: mi('iron_large_plate'),
+        I: '#c:ingots/iron',
+        B: '#c:storage_blocks/iron'
+    }).id(st('forge_hammer'));
 
     // -- PYROLYSE OVEN -- //
     event.shaped(io('pyrolyse_oven'), [

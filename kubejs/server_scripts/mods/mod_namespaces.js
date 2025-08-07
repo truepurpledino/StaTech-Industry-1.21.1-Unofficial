@@ -36,3 +36,4 @@ let mg = (id) => `megacells:${id}`;
 let es = (id) => `enderstorage:${id}`;
 let hg = (id) => `hangglider:${id}`;
 let an = (id) => `angelring:${id}`;
+let jh = (id) => `justhammers:${id}`;
