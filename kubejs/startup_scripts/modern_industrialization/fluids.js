@@ -253,4 +253,44 @@ MIRegistrationEvents.registerFluids(event => {
         true,
         'low'
     );
+
+    // -- WASTE BERYL AMMONIA SOLUTION -- //
+    event.register(
+        'Waste Beryl Ammonia Solution',
+        'waste_beryl_ammonia_solution',
+        0xbfbda0,
+        'water',
+        true,
+        'low'
+    );
+
+    // -- BERYLLIUM SULFATE -- //
+    event.register(
+        'Beryllium Sulfate',
+        'beryllium_sulfate',
+        0x236e69,
+        'water',
+        false,
+        'medium'
+    );
+
+    // -- BERYLLIUM HYDROXIDE -- //
+    event.register(
+        'Beryllium Hydroxide',
+        'beryllium_hydroxide',
+        0x3fa4ca,
+        'water',
+        false,
+        'high'
+    );
+
+    // -- BERYLLIUM CHLORIDE -- //
+    event.register(
+        'Beryllium Chloride',
+        'beryllium_chloride',
+        0x375bc9,
+        'water',
+        false,
+        'medium'
+    );
 });
