@@ -5,30 +5,26 @@
 
 let CORE_DRILL;
 
-MIMachineEvents.registerRecipeTypes(e => {
-    CORE_DRILL = e.register('core_drill')
+MIMachineEvents.registerRecipeTypes(event => {
+    CORE_DRILL = event.register('core_drill')
         .withItemInputs()
         .withFluidInputs()
         .withItemOutputs()
         .withFluidOutputs();
 });
 
-MIMachineEvents.registerMachines(e => {
-    // -- MOD NAMESPACE UTILITY FUNCTIONS -- // 
-    let mi = (id) => `modern_industrialization:${id}`;
-    let kjs = (id) => `kubejs:${id}`;
-
-    const coreDrillHatch = e.hatchOf('item_input', 'item_output', 'energy_input', 'fluid_input', 'fluid_output');
-    const stainlessSteelCasing = e.memberOfBlock(mi('clean_stainless_steel_machine_casing'));
-    const stainlessSteelPipeCasing = e.memberOfBlock(mi('stainless_steel_machine_casing_pipe'));
-    const deshBlock = e.memberOfBlock(mi('desh_machine_casing'));
-    const deshPipe = e.memberOfBlock(mi('desh_machine_casing_pipe'));
-    const glowingIronPillar = e.memberOfBlock(kjs('glowing_steel_pillar'));
-    const glowingOstrumPillar = e.memberOfBlock(kjs('glowing_ostrum_pillar'));
-    const caloritePipeCasing = e.memberOfBlock(mi('calorite_machine_casing_pipe'));
-    const caloriteMachineCasing = e.memberOfBlock(mi('calorite_machine_casing'));
+MIMachineEvents.registerMachines(event => {
+    const coreDrillHatch = event.hatchOf('item_input', 'item_output', 'energy_input', 'fluid_input', 'fluid_output');
+    const stainlessSteelCasing = event.memberOfBlock(mi('clean_stainless_steel_machine_casing'));
+    const stainlessSteelPipeCasing = event.memberOfBlock(mi('stainless_steel_machine_casing_pipe'));
+    const deshBlock = event.memberOfBlock(mi('desh_machine_casing'));
+    const deshPipe = event.memberOfBlock(mi('desh_machine_casing_pipe'));
+    const glowingIronPillar = event.memberOfBlock(kj('glowing_steel_pillar'));
+    const glowingOstrumPillar = event.memberOfBlock(kj('glowing_ostrum_pillar'));
+    const caloritePipeCasing = event.memberOfBlock(mi('calorite_machine_casing_pipe'));
+    const caloriteMachineCasing = event.memberOfBlock(mi('calorite_machine_casing'));
     //          1                   2               3                  4                5               6                   7                   7               8                   9               10
-    const coreDrillShape = e.layeredShape('desh_machine_casing', [
+    const coreDrillShape = event.layeredShape('desh_machine_casing', [
         [ 'OS         SO', 'OS         SO', 'OS         SO', '             ', '             ', '             ', '             ', '             ', '             '],
         [ 'SZ         ZS', 'SZ         ZS', 'SZ         ZS', ' OS       SO ', ' OS       SO ', ' OS       SO ', '    IIIII    ', '             ', '             '],
         [ '             ', '             ', '             ', ' SZ       ZS ', ' SZ       ZS ', ' SZZ     ZZS ', '  IIcCCCcII  ', '             ', '             '],
@@ -43,19 +39,19 @@ MIMachineEvents.registerMachines(e => {
         [ 'SZ         ZS', 'SZ         ZS', 'SZ         ZS', ' OS       SO ', ' OS       SO ', ' OS       SO ', '    IIIII    ', '             ', '             '],
         [ 'OS         SO', 'OS         SO', 'OS         SO', '             ', '             ', '             ', '             ', '             ', '             ']
     ])
-        .key('O', glowingOstrumPillar, e.noHatch())
-        .key('S', stainlessSteelCasing, e.noHatch())
-        .key('P', deshPipe, e.noHatch())
-        .key('c', caloritePipeCasing, e.noHatch())
-        .key('C', caloriteMachineCasing, e.noHatch())
-        .key('I', glowingIronPillar, e.noHatch())
+        .key('O', glowingOstrumPillar, event.noHatch())
+        .key('S', stainlessSteelCasing, event.noHatch())
+        .key('P', deshPipe, event.noHatch())
+        .key('c', caloritePipeCasing, event.noHatch())
+        .key('C', caloriteMachineCasing, event.noHatch())
+        .key('I', glowingIronPillar, event.noHatch())
         .key('d', deshBlock, coreDrillHatch)
-        .key('D', deshBlock, e.noHatch())
-        .key('Z', stainlessSteelPipeCasing, e.noHatch())
+        .key('D', deshBlock, event.noHatch())
+        .key('Z', stainlessSteelPipeCasing, event.noHatch())
 
         .build();
 
-    e.simpleElectricCraftingMultiBlock(
+    event.simpleElectricCraftingMultiBlock(
         // General parameters
         'Core Mining Drill', // English name
         'core_drill', // internal name
@@ -63,7 +59,7 @@ MIMachineEvents.registerMachines(e => {
         coreDrillShape, // multiblock shape
 
         // REI Display configuration
-        e.progressBar(77, 33, 'triple_arrow'),
+        event.progressBar(77, 33, 'triple_arrow'),
         // REI Item Inputs, item, outputs, fluid inputs, fluid outputs
         itemInputs => itemInputs.addSlot(56, 35), 
         itemOutputs => itemOutputs.addSlot(102, 35),

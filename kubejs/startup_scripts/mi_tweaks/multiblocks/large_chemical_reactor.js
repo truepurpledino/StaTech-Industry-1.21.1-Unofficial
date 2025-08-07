@@ -5,8 +5,8 @@
 
 let LARGE_CHEMICAL_REACTOR;
 
-MIMachineEvents.registerRecipeTypes(e => {
-    LARGE_CHEMICAL_REACTOR = e.register('large_chemical_reactor')
+MIMachineEvents.registerRecipeTypes(event => {
+    LARGE_CHEMICAL_REACTOR = event.register('large_chemical_reactor')
         .withItemInputs()
         .withItemOutputs()
         .withFluidInputs()
@@ -54,9 +54,4 @@ console.log("loading MITweaksMachineEvents.registerBatchMultiblocks large_chemic
 		0.5
 		
 	);
-
-console.log("loaded MITweaksMachineEvents.registerBatchMultiblocks large_chemical_reactor.js in startup_scripts/mi_tweaks")
 });
-
-
-console.log("loaded large_chemical_reactor.js in startup_scripts/mi_tweaks")

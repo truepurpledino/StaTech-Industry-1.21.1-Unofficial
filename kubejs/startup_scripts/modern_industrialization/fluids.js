@@ -3,9 +3,9 @@
 // STATECH INDUSTRY
 // -----------------------------------------
 
-MIRegistrationEvents.registerFluids(e => {
+MIRegistrationEvents.registerFluids(event => {
     // -- DRAGON'S BLOOD -- //
-    e.register(
+    event.register(
         'Dragon\'s Blood',           // English name
         'dragons_blood',             // internal name
         0x910c95,                    // Hex color code
@@ -15,7 +15,7 @@ MIRegistrationEvents.registerFluids(e => {
     );
 
     // -- IMPURE RESONATING FLUID -- //
-    e.register(
+    event.register(
         'Impure Resonating Fluid',   // English name
         'impure_resonating_fluid',   // internal name
         0x22d43b,                    // Hex color code
@@ -25,7 +25,7 @@ MIRegistrationEvents.registerFluids(e => {
     );
 
     // -- SALT WATER -- //
-    e.register(
+    event.register(
         'Salt Water',               // English name
         'salt_water',               // internal name
         0x033a6b,                   // Hex color code
@@ -35,7 +35,7 @@ MIRegistrationEvents.registerFluids(e => {
     );
 
     // -- BRINE -- //
-    e.register(
+    event.register(
         'Brine',                    // English name
         'brine',                    // internal name
         0xefec82,                   // Hex color code
@@ -45,7 +45,7 @@ MIRegistrationEvents.registerFluids(e => {
     )
 
     // -- NUTRIENT RICH WATER -- //
-    e.register(
+    event.register(
         'Nutrient Rich Water',      // English name
         'nutrient_rich_water',      // internal name
         0xdaffdb,                   // Hex color code
@@ -55,7 +55,7 @@ MIRegistrationEvents.registerFluids(e => {
     );
 
     // -- NUTRIENT RICH LIQUID ENDER -- //
-    e.register(
+    event.register(
         'Nutrient Rich Liquid Ender', // English name
         'nutrient_rich_liquid_ender', // internal name
         0x218b7a,                     // Hex color code
@@ -65,7 +65,7 @@ MIRegistrationEvents.registerFluids(e => {
     );
 
     //-- NUTRIENT RICH BLOOD -- //
-    e.register(
+    event.register(
         'Nutrient Rich Blood',        // English name
         'nutrient_rich_blood',        // internal name
         0xe53246,                     // Hex color code
@@ -75,7 +75,7 @@ MIRegistrationEvents.registerFluids(e => {
     );
 
     // -- MOLTEN NETHER STAR -- //
-    e.register(
+    event.register(
         'Molten Nether Star',     // English name
         'molten_nether_star',     // internal name
         0xe9e9e9,       // Hex color code
@@ -85,7 +85,7 @@ MIRegistrationEvents.registerFluids(e => {
     );
     
     // -- IMPURE LIQUID NETHER STAR -- //
-    e.register(
+    event.register(
         'Impure Liquid Nether Star',     // English name
         'impure_liquid_nether_star',     // internal name
         0xe6ded7,       // Hex color code
@@ -95,7 +95,7 @@ MIRegistrationEvents.registerFluids(e => {
     );
     
     // -- LITHIUM -- //
-    e.register(
+    event.register(
         'Lithium',      // English name
         'lithium',      // internal name
         0xb2b2b2,       // Hex color code
@@ -105,7 +105,7 @@ MIRegistrationEvents.registerFluids(e => {
     );
 
     // -- NEUTRONIUM -- //
-    e.register(
+    event.register(
         'Neutronium',
         'neutronium',
         0x1a1a1a,
@@ -115,7 +115,7 @@ MIRegistrationEvents.registerFluids(e => {
     );
     
     // -- BLOOD -- //
-    e.register(
+    event.register(
         'Blood',        // English name
         'blood',        // internal name
         0xc11326,       // Hex color code
@@ -125,7 +125,7 @@ MIRegistrationEvents.registerFluids(e => {
     );
 
     // -- CONCRETE -- //
-    e.register(
+    event.register(
         'Concrete',     // English name
         'concrete',     // internal name
         0x505050,       // Hex color code
@@ -135,7 +135,7 @@ MIRegistrationEvents.registerFluids(e => {
     );
 
     // -- DRILLING FLUID -- //
-    e.register(
+    event.register(
         'Drilling Fluid',
         'drilling_fluid',
         0xf4fc58,
@@ -145,7 +145,7 @@ MIRegistrationEvents.registerFluids(e => {
     );
     
     // -- CORE SLURRY -- //
-    e.register(
+    event.register(
         'Core Slurry',
         'core_slurry',
         0x211500,
@@ -155,7 +155,7 @@ MIRegistrationEvents.registerFluids(e => {
     );
 
     // -- WOOD TAR -- //
-    e.register(
+    event.register(
         'Wood Tar',
         'wood_tar',
         0x2a200e,
@@ -165,7 +165,7 @@ MIRegistrationEvents.registerFluids(e => {
     );
 
     // -- POLYTETRAFLUROETHYLENE -- //
-    e.register(
+    event.register(
         'Polytetrafluoroethylene',
         'polytetrafluoroethylene',
         0x454545,
@@ -175,7 +175,7 @@ MIRegistrationEvents.registerFluids(e => {
     );
 
     // -- TETRAFLUOROETHYLENE -- //
-    e.register(
+    event.register(
         'Tetrafluoroethylene',
         'tetrafluoroethylene',
         0x4c4c4c,
@@ -185,7 +185,7 @@ MIRegistrationEvents.registerFluids(e => {
     )
 
     // -- HYDROFLOURIC ACID -- //
-    e.register(
+    event.register(
         'Hydrofluoric Acid',
         'hydrofluoric_acid',
         0x419ad2,
@@ -195,7 +195,7 @@ MIRegistrationEvents.registerFluids(e => {
     );
 
     // -- CHLOROFORM -- //
-    e.register(
+    event.register(
         'Chloroform',
         'chloroform',
         0xefefef,
@@ -205,7 +205,7 @@ MIRegistrationEvents.registerFluids(e => {
     );
 
     // -- FLUORINE -- // 
-    e.register(
+    event.register(
         'Fluorine',
         'fluorine',
         0xe8fb97,
@@ -215,7 +215,7 @@ MIRegistrationEvents.registerFluids(e => {
     );
 
     // -- LIQUID ENDER -- //
-    e.register(
+    event.register(
         'Liquid Ender',
         'liquid_ender',
         0x105e51,
@@ -225,7 +225,7 @@ MIRegistrationEvents.registerFluids(e => {
     );
 
     // -- MOLTEN ENDERIUM -- //
-    e.register(
+    event.register(
         'Molten Enderium',
         'molten_enderium',
         0x105e51,
@@ -235,7 +235,7 @@ MIRegistrationEvents.registerFluids(e => {
     );
 
     // -- NITRIC ACID -- //
-    e.register(
+    event.register(
         'Nitric Acid',
         'nitric_acid',
         0xfcf8c9,
@@ -245,7 +245,7 @@ MIRegistrationEvents.registerFluids(e => {
     );
 
     // -- AMMONIA -- //
-    e.register(
+    event.register(
         'Ammonia',
         'ammonia',
         0xdee4e8,

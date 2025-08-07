@@ -3,194 +3,209 @@
 // STATECH INDUSTRY
 // -----------------------------------------
 
-MIMaterialEvents.addMaterials(e => {
-    e.createMaterial("Desh", "desh", 0xe9ba5d,
+MIMaterialEvents.addMaterials(event => {
+    event.createMaterial('Cobalt', 'cobalt', 0x0100b0,
         builder => {
             builder
-                .hardness("average")
-				.addParts("plate", "hot_ingot", "ingot", "rod", "gear", "ring", "bolt", "curved_plate", "drill", "drill_head", "dust")
+                .materialSet('shiny')
+                .addParts('tiny_dust', 'dust', 'crushed_dust', 'hot_ingot', 'ingot', 'nugget', 'plate', 'curved_plate', 'rod', 'ring', 'bolt', 'gear', 'drill', 'drill_head', 'blade', 'rotor')
+                .ore({
+                    'generate': false,
+                    'ore_set': 'diamond'
+                })
+                .block('iron')
+                .rawMetal('copper', true).rawMetal('iron', false)
+                .defaultRecipes();
+        });
+
+
+    event.createMaterial('Desh', 'desh', 0xe9ba5d,
+        builder => {
+            builder
+                .hardness('average')
+				.addParts('plate', 'hot_ingot', 'ingot', 'rod', 'gear', 'ring', 'bolt', 'curved_plate', 'drill', 'drill_head', 'dust')
                 .machineCasing(12.0)
                 .pipeCasing(12.0)
                 .ore({
-                    "generate": false,
-                    "ore_set": "iron"
+                    'generate': false,
+                    'ore_set': 'iron'
                 })
-                .block("iron")
-                .rawMetal("copper", true).rawMetal("copper", false)
+                .block('iron')
+                .rawMetal('copper', true).rawMetal('copper', false)
                 .defaultRecipes()
         });
 
-    e.createMaterial("Ostrum", "ostrum", 0xbd7666,
+    event.createMaterial('Ostrum', 'ostrum', 0xbd7666,
         builder => {
             builder
-                .hardness("average")
-				.addParts("plate", "hot_ingot", "ingot", "rod", "gear", "ring", "bolt", "curved_plate", "drill", "drill_head", "dust")
+                .hardness('average')
+				.addParts('plate', 'hot_ingot', 'ingot', 'rod', 'gear', 'ring', 'bolt', 'curved_plate', 'drill', 'drill_head', 'dust')
                 .machineCasing(12.0)
                 .pipeCasing(12.0)
                 .ore({
-                    "generate": false,
-                    "ore_set": "iron"
+                    'generate': false,
+                    'ore_set': 'iron'
                 })
-                .block("iron")
-                .rawMetal("copper", true).rawMetal("copper", false)
+                .block('iron')
+                .rawMetal('copper', true).rawMetal('copper', false)
                 .defaultRecipes()
         });
 
-        e.createMaterial("Tungstensteel", "tungstensteel", 0x677680,
+        event.createMaterial('Tungstensteel', 'tungstensteel', 0x677680,
         builder => {
             builder
-                .hardness("very_hard")
-				.addParts("plate", "hot_ingot", "ingot", "rod", "gear", "ring", "coil", "bolt", "large_plate", "curved_plate", "wire")
-                .barrel("Tungstensteel Barrel", "tungstensteel_barrel", 16384)
-                .tank("Tungstensteel Tank", "tungstensteel_tank", 256)
-                .cable("ev")
-                .block("iron")
+                .hardness('very_hard')
+				.addParts('plate', 'hot_ingot', 'ingot', 'rod', 'gear', 'ring', 'coil', 'bolt', 'large_plate', 'curved_plate', 'wire')
+                .barrel('Tungstensteel Barrel', 'tungstensteel_barrel', 16384)
+                .tank('Tungstensteel Tank', 'tungstensteel_tank', 256)
+                .cable('ev')
+                .block('iron')
                 .machineCasing(12.0)
                 .pipeCasing(12.0)
                 .defaultRecipes()
         });
     
-    e.createMaterial("Calorite", "calorite", 0xb63044,
+    event.createMaterial('Calorite', 'calorite', 0xb63044,
         builder => {
             builder
-                .hardness("hard")
-				.addParts("plate", "hot_ingot", "ingot", "rod", "gear", "ring", "blade", "bolt", "curved_plate", "dust")
+                .hardness('hard')
+				.addParts('plate', 'hot_ingot', 'ingot', 'rod', 'gear', 'ring', 'blade', 'bolt', 'curved_plate', 'dust')
                 .machineCasing(12.0)
                 .pipeCasing(12.0)
                 .ore({
-                    "generate": false,
-                    "ore_set": "iron"
+                    'generate': false,
+                    'ore_set': 'iron'
                 })
-                .block("iron")
-                .rawMetal("copper", true).rawMetal("copper", false)
+                .block('iron')
+                .rawMetal('copper', true).rawMetal('copper', false)
                 .defaultRecipes()
         });
     
-    e.createMaterial("Zinc", "zinc", 0xb9e9c1,
+    event.createMaterial('Zinc', 'zinc', 0xb9e9c1,
         builder => {
             builder
-                .hardness("soft")
-				.addParts("rod", "ring", "gear", "curved_plate", "plate", "bolt", "drill_head", "drill", "tiny_dust", "dust")
+                .hardness('soft')
+				.addParts('rod', 'ring', 'gear', 'curved_plate', 'plate', 'bolt', 'drill_head', 'drill', 'tiny_dust', 'dust')
 				.defaultRecipes()
-				.addExternalPart("ingot", "create:zinc_ingot")
+				.addExternalPart('ingot', 'create:zinc_ingot')
         });
     
-    e.createMaterial("Clay", "clay", 0xa3acc7,
+    event.createMaterial('Clay', 'clay', 0xa3acc7,
         builder => {
             builder
-                .hardness("soft")
-				.addParts("dust", "tiny_dust")
-                .addExternalPart("ingot", "minecraft:clay_ball")
+                .hardness('soft')
+				.addParts('dust', 'tiny_dust')
+                .addExternalPart('ingot', 'minecraft:clay_ball')
                 .defaultRecipes();
             
         });
     
-    e.createMaterial("Stone", "stone", 0x767676,
+    event.createMaterial('Stone', 'stone', 0x767676,
         builder => {
             builder
-                .hardness("hard")
-				.addParts("dust", "tiny_dust")
+                .hardness('hard')
+				.addParts('dust', 'tiny_dust')
         });    
 
-    e.createMaterial("Dark Ashes", "dark_ashes", 0x292828,
+    event.createMaterial('Dark Ashes', 'dark_ashes', 0x292828,
         builder => {
             builder
-                .hardness("hard")
-				.addParts("dust", "tiny_dust")
+                .hardness('hard')
+				.addParts('dust', 'tiny_dust')
         });  
 
-    e.createMaterial("Calcite", "calcite", 0xefedf0,
+    event.createMaterial('Calcite', 'calcite', 0xefedf0,
         builder => {
             builder
-                .hardness("average")
-				.addParts("dust")
+                .hardness('average')
+				.addParts('dust')
         });
     
-    e.createMaterial("Tuff", "tuff", 0x8a8774,
+    event.createMaterial('Tuff', 'tuff', 0x8a8774,
         builder => {
             builder
-                .hardness("average")
-				.addParts("dust")
+                .hardness('average')
+				.addParts('dust')
         });
 
-    e.createMaterial("Fluorite", "fluorite", 0xe4ed9b,
+    event.createMaterial('Fluorite', 'fluorite', 0xe4ed9b,
         builder => {
             builder
-                .hardness("average")
-				.addParts("dust", "tiny_dust")
+                .hardness('average')
+				.addParts('dust', 'tiny_dust')
                 .ore({
-                    "generate": true,
-                    "ore_set": "nether_gold",
-                    "vein_size": 4,
-                    "veins_per_chunk": 5,
-                    "max_y": 90
+                    'generate': true,
+                    'ore_set': 'nether_gold',
+                    'vein_size': 4,
+                    'veins_per_chunk': 5,
+                    'max_y': 90
                 })
-                .rawMetal("copper", true).rawMetal("iridium", false)
+                .rawMetal('copper', true).rawMetal('iridium', false)
                 .defaultRecipes()
         });
     
-    e.createMaterial("Polytetrafluoroethylene (PTFE)", "polytetrafluoroethylene", 0x454545,
+    event.createMaterial('Polytetrafluoroethylene (PTFE)', 'polytetrafluoroethylene', 0x454545,
         builder => {
             builder
-                .hardness("soft")
-				.addParts("ingot", "nugget", "dust", "tiny_dust", "plate", "curved_plate", "gear", "ring", "rod", "bolt")
-                .specialCasing("Chemically Inert PTFE Casing", "chemically_inert_ptfe_casing", 8.0)
+                .hardness('soft')
+				.addParts('ingot', 'nugget', 'dust', 'tiny_dust', 'plate', 'curved_plate', 'gear', 'ring', 'rod', 'bolt')
+                .specialCasing('Chemically Inert PTFE Casing', 'chemically_inert_ptfe_casing', 8.0)
                 .pipeCasing(8.0)
-                .block("iron")
+                .block('iron')
                 .defaultRecipes();
 	    });
 
-    e.createMaterial("Enderium", "enderium", 0x105e51,
+    event.createMaterial('Enderium', 'enderium', 0x105e51,
         builder => {
             builder
-                .hardness("hard")
-                .addParts("ingot", "nugget", "hot_ingot", "plate", "gear", "ring", "rod", "bolt")
-                .block("iron")
+                .hardness('hard')
+                .addParts('ingot', 'nugget', 'hot_ingot', 'plate', 'gear', 'ring', 'rod', 'bolt')
+                .block('iron')
                 .machineCasing(12.0)
                 .pipeCasing(12.0)
                 .defaultRecipes();
         });
 
-    e.createMaterial("Moon Ice", "moon_ice", 0x62bbf7,
+    event.createMaterial('Moon Ice', 'moon_ice', 0x62bbf7,
         builder => {
             builder
-                .hardness("hard")
-                .addParts("dust", "tiny_dust")
+                .hardness('hard')
+                .addParts('dust', 'tiny_dust')
                 .ore({
-                    "generate": false,
-                    "ore_set": "nether_gold"
+                    'generate': false,
+                    'ore_set': 'nether_gold'
                 })
-                .rawMetal("copper", true).rawMetal("iridium", false)
+                .rawMetal('copper', true).rawMetal('iridium', false)
                 .defaultRecipes();
         });    
 
-    e.createMaterial("Entro", "entro", 0x3ed19b,
+    event.createMaterial('Entro', 'entro', 0x3ed19b,
         builder => {
             builder
-                .hardness("average")
-                .materialSet("shiny")
-                .addParts("plate")
-                .addExternalPart("ingot", "extendedae:entro_ingot")
+                .hardness('average')
+                .materialSet('shiny')
+                .addParts('plate')
+                .addExternalPart('ingot', 'extendedae:entro_ingot')
                 .defaultRecipes();
         });
 
-    e.createMaterial("Sky Bronze", "sky_bronze", 0xa47b48,
+    event.createMaterial('Sky Bronze', 'sky_bronze', 0xa47b48,
         builder => {
             builder
-                .hardness("hard")
-                .addParts("plate")
-                .addExternalPart("ingot", "megacells:sky_bronze_ingot")
-                .addExternalPart("block", "megacells:sky_bronze_block")
+                .hardness('hard')
+                .addParts('plate')
+                .addExternalPart('ingot', 'megacells:sky_bronze_ingot')
+                .addExternalPart('block', 'megacells:sky_bronze_block')
                 .defaultRecipes();
         });
 
-    e.createMaterial("Sky Steel", "sky_steel", 0x262726,
+    event.createMaterial('Sky Steel', 'sky_steel', 0x262726,
         builder => {
             builder
-                .hardness("hard")
-                .addParts("plate")
-                .addExternalPart("ingot", "megacells:sky_steel_ingot")
-                .addExternalPart("block", "megacells:sky_steel_block")
+                .hardness('hard')
+                .addParts('plate')
+                .addExternalPart('ingot', 'megacells:sky_steel_ingot')
+                .addExternalPart('block', 'megacells:sky_steel_block')
                 .defaultRecipes();
         });          
           
@@ -198,15 +213,15 @@ MIMaterialEvents.addMaterials(e => {
 
 });
 
-/* MIMaterialEvents.modifyMaterial("ruby",
+/* MIMaterialEvents.modifyMaterial('ruby',
     e => {
-        e.builder
-            .hardness("average")
+        event.builder
+            .hardness('average')
             .ore({
-                "generate": true,
-                "ore_set": "nether_gold",
-                "vein_size": 2,
-                "veins_per_chunk": 3,
-                "max_y": 90
+                'generate': true,
+                'ore_set': 'nether_gold',
+                'vein_size': 2,
+                'veins_per_chunk': 3,
+                'max_y': 90
             })
 }) */
