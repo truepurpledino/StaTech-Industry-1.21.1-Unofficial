@@ -101,6 +101,34 @@ ServerEvents.recipes(event => {
         [ { amount: 200, fluid: mi('chlorine') } ]
     );
 
+    // -- PERIDOT DUST -- //
+    electrolyzer(
+        event,
+        st('peridot_dust'),
+        16,
+        500,
+        [ { amount: 9, tag: 'c:dusts/peridot' } ],
+        [
+            // { amount: 2, item: tr('magnesium_dust') },
+            { amount: 2, item: mi('iron_dust') },
+            { amount: 1, item: mi('silicon_dust') }
+        ],
+        null,
+        [ { amount: 100, fluid: mi('oxygen') } ]
+    );
+
+    // -- SAPPHIRE DUST -- //
+    electrolyzer(
+        event,
+        st('sapphire_dust'),
+        16,
+        600,
+        [ { amount: 8, tag: 'c:dusts/sapphire' } ],
+        [ { amount: 2, item: mi('aluminum_dust') } ],
+        null,
+        [ { amount: 100, fluid: mi('oxygen') } ]
+    );
+
     // -- WASTE BERYL AMMONIA SOLUTION PROCESSING -- //
     electrolyzer(
         event,
