@@ -21,7 +21,8 @@ ServerEvents.recipes(event => {
         ei('machines/alloy_smelter/craft/electric'),
         ei('machines/alloy_smelter/assembler/electric'),
         ei('machines/processing_array/craft'),
-        ei('machines/processing_array/assembler')
+        ei('machines/processing_array/assembler'),
+        ei('tool/craft/steam_chainsaw')
     ];
     EI_DELETED_ITEMS.forEach(id => event.remove( {id: id} ));
 
@@ -40,19 +41,20 @@ ServerEvents.recipes(event => {
     // })
     // .id(st('large_chemical_reactor'));
 
-    // -- PYROLYSE OVEN -- //
-    // event.shaped(mi('pyrolyse_oven'), [
-        // 'HIH',
-        // 'ICI',
-        // 'HAH'
-    // ],
-    // {
-        // H: mi('cupronickel_coil'),
-        // I: mi('inductor'),
-        // C: mi('basic_machine_hull'),
-        // A: mi('analog_circuit')
-    // })
-    // .id(st('pyrolyse_oven'));
+    // -- STEAM CHAINSAW -- //
+    event.shaped(ei('steam_chainsaw'), [
+        'FDD',
+        'PGD',
+        'BPF'
+    ],
+    {
+        F: mc('furnace'),
+        D: '#c:gems/diamond',
+        P: '#c:large_plates/steel',
+        G: '#c:gears/copper',
+        B: mc('bucket')
+    })
+    .id(st('steam_chainsaw'));
 
     // -- ALLOY SMELTER -- //
     event.shaped(ei('electric_alloy_smelter'), [
