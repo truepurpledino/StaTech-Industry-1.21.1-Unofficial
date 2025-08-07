@@ -854,3 +854,13 @@ ServerEvents.tags('item', event => {
     BUDDING_BLOCKS.forEach(id => event.add('kubejs:budding_certus', id) );
 
 })
+
+    // -- ADD INFO ON HOW TO GENERATE SKYSTONE -- //
+RecipeViewerEvents.addInformation('item', event => {
+	event.add('ae2:sky_stone_block', [
+		'Sky Stone Dust, which can be smelted into Sky Stone, can be obtained passively via an ME Annihilation Plane pointed upward at the world height limit.'
+	]);
+	event.add('ae2:sky_dust', [
+		'Sky Stone Dust can be obtained passively via an ME Annihilation Plane pointed upward at the world height limit.'
+	]);
+})

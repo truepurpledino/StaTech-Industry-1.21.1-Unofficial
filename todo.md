@@ -1,7 +1,7 @@
 ## To do list
 - [ ] Adapt EBF and vacuum freezer recipes in [runtime_parts_recipes.js](https://github.com/truepurpledino/StaTech-Industry/blob/1.21.1-unofficial/kubejs/server_scripts/mods/modern_industrialization/runtime_parts_recipes.js)
 - [x] Reinstate runtime generated recipes with the .hardness() parameter
-- [ ] Adapt recipes for Extended AE
+- [x] Adapt recipes for Extended AE
 - [ ] Adapt recipes for Cognition and verify fit in pack
 - [ ] Verify and adapt all AE2 recipes
 - [X] Add back benzene fluid fuel using [the new method](https://github.com/AztechMC/Modern-Industrialization/blob/7048dbcb5279d78cf41a49d02bb45ab758e7ce6f/docs/ADDING_FLUIDS.md)
