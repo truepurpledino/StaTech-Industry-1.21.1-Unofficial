@@ -5,6 +5,21 @@
 
 
 StartupEvents.registry('block', event => {
+    const decorativeCopper = [
+        ['decorative_waxed_copper_block', 'Decorative Waxed Block of Copper'],
+        ['decorative_waxed_oxidized_copper', 'Decorative Waxed Oxidized Copper']
+    ];
+
+    decorativeCopper.forEach(([id, name]) => {
+        event.create(`kubejs:${id}`)
+        .displayName(name)
+        .soundType('copper')
+        .requiresTool(true)
+        .hardness(3)
+        .tagBlock('minecraft:mineable/pickaxe') 
+        .tagBlock('minecraft:needs_iron_tool')
+    });
+
     const glowingPillars = [
         ['glowing_calorite_pillar', 'Glowing Calorite Pillar'],
         ['glowing_desh_pillar', 'Glowing Desh Pillar'],
