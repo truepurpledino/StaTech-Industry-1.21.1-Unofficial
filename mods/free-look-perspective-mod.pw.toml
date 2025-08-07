@@ -1,0 +1,13 @@
+name = "Free Look or Perspective [NeoForge]"
+filename = "free_look_neoforge 1.21.0 - 1.21.6 V11.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "fe23e98816bae90012f477f7e076617202f98f65"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6665534
+project-id = 969891

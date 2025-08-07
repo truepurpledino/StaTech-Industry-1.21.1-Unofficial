@@ -1,0 +1,13 @@
+name = "Expanded Delight"
+filename = "expandeddelight-0.1.3.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b243462a5ba8ba09aac2734f26cfd8326ad08e8d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6125094
+project-id = 620770
