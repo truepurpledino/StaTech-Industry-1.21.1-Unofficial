@@ -22,7 +22,8 @@ ServerEvents.recipes(event => {
         ei('machines/alloy_smelter/assembler/electric'),
         ei('machines/processing_array/craft'),
         ei('machines/processing_array/assembler'),
-        ei('tool/craft/steam_chainsaw')
+        ei('tool/craft/steam_chainsaw'),
+        ei('tool/craft/tesla_handheld_receiver')
     ];
     EI_DELETED_ITEMS.forEach(id => event.remove( {id: id} ));
 
@@ -55,6 +56,22 @@ ServerEvents.recipes(event => {
         B: mc('bucket')
     })
     .id(st('steam_chainsaw'));
+
+    // -- TESLA HANDHELD RECEIVER -- //
+    event.shaped(ei('tesla_handheld_receiver'), [
+        'S  ',
+        'CDD',
+        'ETT'
+    ],
+    {
+        S: ei('silver_tesla_top_load'),
+        D: mi('diode'),
+        T: mi('transistor'),
+        C: mi('cupronickel_coil'),
+        E: mi('electronic_circuit')
+    })
+    .id(st('tesla_handheld_receiver'));
+
 
     // -- ALLOY SMELTER -- //
     event.shaped(ei('electric_alloy_smelter'), [

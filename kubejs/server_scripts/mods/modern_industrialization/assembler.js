@@ -20,7 +20,8 @@ ServerEvents.recipes(event => {
         mi('assembler_generated/electric_age/battery/cadmium_battery'),
         mi('assembler_generated/electric_age/battery/plutonium_battery'),
         mi('machines/machine_chainer/assembler'),
-        io('machines/pyrolyse_oven/assembler')
+        io('machines/pyrolyse_oven/assembler'),
+        ei('tool/assembler/tesla_handheld_receiver')
     ];
     REMOVED_RECIPE.forEach(id => event.remove({id: id}));
 
