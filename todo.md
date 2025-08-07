@@ -16,17 +16,17 @@
 - [x] Remove duplicated runtime custom part recipes where needed (use runtime_parts_recipes.js instead)
 - [X] Add Boosted Diesel to fuel tank recipes for probes
 - [X] Replace Machine Chainer recipe
-- [ ] Add back ruby, peridot and sapphire ore to worldgen and associated MI recipes
+- [X] Add back ruby, peridot and sapphire ore to worldgen and associated MI recipes
 - [x] Add configs to required mods (e.g. IPN)
 - [ ] Rebalance MI upgrades
 - [ ] Replace He3-He3 Fusion Reactor recipe to avoid conflicts
 - [x] Add back Moon Ice centrifuging recipe from dust for He3
 - [x] Adapt recipes for Banks and Tanks
 - [x] Remove Sophisticated backpacks stuff from loot tables
-- [ ] Adapt recipes so trial chambers can't be turned into copper
+- [X] Adapt recipes so trial chambers can't be turned into copper
 - [ ] More custom progress bars (greenhouse, laser engraver)
 - [ ] Replace PonderJS scripts with GuideME entries that follow the MI format
-- [ ] Add Travel Anchors custom recipes
+- [X] Add Travel Anchors custom recipes
 - [ ] Update mods
 
 

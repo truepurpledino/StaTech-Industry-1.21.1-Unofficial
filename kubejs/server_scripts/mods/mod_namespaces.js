@@ -37,3 +37,4 @@ let es = (id) => `enderstorage:${id}`;
 let hg = (id) => `hangglider:${id}`;
 let an = (id) => `angelring:${id}`;
 let jh = (id) => `justhammers:${id}`;
+let ta = (id) => `travelanchors:${id}`;
