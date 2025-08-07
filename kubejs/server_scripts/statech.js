@@ -656,6 +656,56 @@ ServerEvents.tags('item', event => {
             }
         });
     });
+
+    CUSTOMMATERIALS.forEach(material => {
+        const itemId = `modern_industrialization:deepslate_${material}_ore`;
+        const generictag = `c:ores`;
+        const specifictag = `c:ores/${material}`;
+        
+        if (Item.exists(itemId)) {
+            event.add(generictag, itemId);
+            event.add(specifictag, itemId);
+        }
+    });
+
+    CUSTOMMATERIALS.forEach(material => {
+        const itemId = `modern_industrialization:raw_${material}`;
+        const generictag = `c:raw_materials`;
+        const specifictag = `c:raw_materials/${material}`;
+        
+        if (Item.exists(itemId)) {
+            event.add(generictag, itemId);
+            event.add(specifictag, itemId);
+        }
+    });
+
+    CUSTOMMATERIALS.forEach(material => {
+        const itemId = `modern_industrialization:raw_${material}_block`;
+        const generictag = `c:storage_blocks`;
+        const specifictag = `c:storage_blocks/${material}`;
+        
+        if (Item.exists(itemId)) {
+            event.add(generictag, itemId);
+            event.add(specifictag, itemId);
+        }
+    });
+
+    const GEMS = [
+        'corundum',
+        'sapphire',
+        'peridot'
+    ];
+
+    GEMS.forEach(gem => {
+        const itemId = `modern_industrialization:${gem}`;
+        const generictag = `c:gems`;
+        const specifictag = `c:gems/${gem}`;
+        
+        if (Item.exists(itemId)) {
+            event.add(generictag, itemId);
+            event.add(specifictag, itemId);
+        }
+    });
 /* 
     CUSTOMMATERIALS.forEach(material => {
         const itemId = `modern_industrialization:raw_${material}`;
