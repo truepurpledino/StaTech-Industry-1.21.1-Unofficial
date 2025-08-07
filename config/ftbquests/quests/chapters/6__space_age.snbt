@@ -10,7 +10,7 @@
 		id: "2DE9E34991852EA5"
 		tasks: [{
 			id: "75FE1266A9AA8614"
-			item: { components: { "relics:data": { abilities: { abilities: { dissection: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { distance: { initialValue: 30.18786d }, time: { initialValue: 8.76979d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "relics:space_dissector" }
+			item: { components: { "ftbquests:missing_item": "relics:space_dissector" }, count: 1, id: "ftbquests:missing_item" }
 			type: "item"
 		}]
 		x: 0.5d

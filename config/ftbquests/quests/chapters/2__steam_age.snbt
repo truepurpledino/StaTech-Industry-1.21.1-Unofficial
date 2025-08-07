@@ -77,97 +77,6 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["09BD2A9838CDFDA2"]
-			id: "0A9F35D7B4116B23"
-			shape: "rsquare"
-			tasks: [{
-				id: "6237BC850F9E7AAD"
-				item: { count: 1, id: "ironchest:iron_chest" }
-				type: "item"
-			}]
-			x: -3.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["412958496FE9150E"]
-			id: "09BD2A9838CDFDA2"
-			shape: "rsquare"
-			tasks: [{
-				id: "4C41A625073860D5"
-				item: { count: 1, id: "ironchest:copper_chest" }
-				type: "item"
-			}]
-			x: -2.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["0A9F35D7B4116B23"]
-			id: "0ADC8FAED5365C56"
-			shape: "rsquare"
-			tasks: [{
-				id: "0BD2E8C05A4D4DCE"
-				item: { count: 1, id: "ironchest:gold_chest" }
-				type: "item"
-			}]
-			x: -4.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["0ADC8FAED5365C56"]
-			id: "5F6730DEA1F9BF4A"
-			shape: "rsquare"
-			tasks: [{
-				id: "0A93460C8BEFFE16"
-				item: { count: 1, id: "ironchest:diamond_chest" }
-				type: "item"
-			}]
-			x: -5.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["5F6730DEA1F9BF4A"]
-			id: "20D08B1855228C83"
-			shape: "rsquare"
-			tasks: [{
-				id: "26B1C2C662C247DE"
-				item: { count: 1, id: "ironchest:obsidian_chest" }
-				type: "item"
-			}]
-			x: -6.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["5F6730DEA1F9BF4A"]
-			id: "4311515E65C183F6"
-			shape: "rsquare"
-			tasks: [{
-				id: "7135050DA04A6742"
-				item: { count: 1, id: "ironchest:crystal_chest" }
-				type: "item"
-			}]
-			x: -6.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["412958496FE9150E"]
-			id: "445CFAFF2EC221A7"
-			shape: "rsquare"
-			tasks: [
-				{
-					id: "495E67CCB8DAB703"
-					item: { count: 1, id: "storagedrawers:compacting_drawers_2" }
-					type: "item"
-				}
-				{
-					id: "52AD25A18575BB72"
-					item: { count: 1, id: "storagedrawers:compacting_drawers_3" }
-					type: "item"
-				}
-			]
-			x: -2.0d
-			y: 0.5d
-		}
-		{
 			dependencies: ["412958496FE9150E"]
 			id: "6C0000F5F41F4D69"
 			shape: "rsquare"
@@ -1001,8 +910,8 @@
 				item: { count: 1, id: "modern_industrialization:steam_mining_drill" }
 				type: "item"
 			}]
-			x: 35.0d
-			y: 2.5d
+			x: 32.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["26A89C51A7B9FFDE"]
@@ -1021,18 +930,6 @@
 				}
 			]
 			x: 31.5d
-			y: 3.5d
-		}
-		{
-			dependencies: ["26A89C51A7B9FFDE"]
-			id: "6248A0CF0932510F"
-			shape: "rsquare"
-			tasks: [{
-				id: "6EE1C7412E57A714"
-				item: { count: 1, id: "dankstorage:dank_1" }
-				type: "item"
-			}]
-			x: 32.5d
 			y: 3.5d
 		}
 		{

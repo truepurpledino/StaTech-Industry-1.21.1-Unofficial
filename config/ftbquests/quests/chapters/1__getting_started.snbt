@@ -156,42 +156,6 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["250141B40163F07F"]
-			id: "29681DF9CDBB91CB"
-			shape: "rsquare"
-			tasks: [{
-				id: "553255DE755DC4BC"
-				item: { count: 1, id: "storagedrawers:controller" }
-				type: "item"
-			}]
-			x: -1.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["250141B40163F07F"]
-			id: "0E00C082C48F2DF8"
-			shape: "rsquare"
-			tasks: [{
-				id: "285EB1138F0FFA3C"
-				item: { count: 1, id: "storagedrawers:controller_io" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["250141B40163F07F"]
-			id: "6B3459AEC70892F5"
-			shape: "rsquare"
-			tasks: [{
-				id: "3DFC6561F9D8A690"
-				item: { count: 1, id: "storagedrawers:drawer_key" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: -3.5d
-		}
-		{
 			dependencies: ["1BD496A10E957F25"]
 			id: "7464978AD0091E70"
 			shape: "rsquare"

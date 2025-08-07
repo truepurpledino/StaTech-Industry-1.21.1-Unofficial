@@ -345,7 +345,7 @@
 				item: { count: 1, id: "modern_industrialization:aluminum_tank" }
 				type: "item"
 			}]
-			x: 9.5d
+			x: 10.0d
 			y: -2.0d
 		}
 		{
@@ -357,19 +357,7 @@
 				item: { count: 1, id: "modern_industrialization:aluminum_barrel" }
 				type: "item"
 			}]
-			x: 10.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["300F4E3AAD5B0212"]
-			id: "635CE0B6A5F179A4"
-			shape: "rsquare"
-			tasks: [{
-				id: "2FAEBE510702CCAA"
-				item: { count: 1, id: "dankstorage:dank_2" }
-				type: "item"
-			}]
-			x: 11.5d
+			x: 11.0d
 			y: -2.0d
 		}
 		{
@@ -381,7 +369,7 @@
 				item: { count: 1, id: "modern_industrialization:configurable_tank" }
 				type: "item"
 			}]
-			x: 9.5d
+			x: 10.0d
 			y: -3.0d
 		}
 		{

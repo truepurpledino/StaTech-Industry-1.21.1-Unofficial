@@ -1329,7 +1329,7 @@
 			id: "4967744B2F4C6A94"
 			tasks: [{
 				id: "43E2693A67624F1A"
-				item: { count: 1, id: "dankstorage:dank_3" }
+				item: { components: { "ftbquests:missing_item": "dankstorage:dank_3" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 27.0d
