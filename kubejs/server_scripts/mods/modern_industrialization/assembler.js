@@ -19,6 +19,7 @@ ServerEvents.recipes(event => {
         mi('assembler_generated/electric_age/battery/sodium_battery'),
         mi('assembler_generated/electric_age/battery/cadmium_battery'),
         mi('assembler_generated/electric_age/battery/plutonium_battery'),
+        mi('machines/machine_chainer/assembler'),
         io('machines/pyrolyse_oven/assembler')
     ];
     REMOVED_RECIPE.forEach(id => event.remove({id: id}));
@@ -1007,6 +1008,24 @@ ServerEvents.recipes(event => {
         [ { amount: 1, tag: 'c:rods/wooden' } ],
         [ { amount: 1, item: mc('redstone_torch') } ],
         [ { amount: 50, fluid: mi('molten_redstone') } ]
+    );
+
+    // -- MACHINE CHAINER -- //
+    assembler(
+        event,
+        st('machine_chainer'),
+        8,
+        200,
+        [ 
+            { amount: 1, item: mi('advanced_machine_hull') },
+            { amount: 4, item: mi('large_motor') },
+            { amount: 4, item: mi('large_pump') },
+            { amount: 64, tag: 'modern_industrialization:item_pipes' },
+            { amount: 64, tag: 'modern_industrialization:fluid_pipes' },
+            { amount: 64, item: mi('electrum_cable') }
+         ],
+        [ { amount: 1, item: ei('machine_chainer') } ],
+        [ { amount: 50, fluid: mi('polyethylene') } ]
     );
 
     // -------------------------
