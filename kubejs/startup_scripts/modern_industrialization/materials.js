@@ -209,7 +209,7 @@ MIMaterialEvents.addMaterials(event => {
                 .defaultRecipes();
         });
 
-    e.createMaterial('Sapphire', 'sapphire', 0x4873f2,
+    event.createMaterial('Sapphire', 'sapphire', 0x4873f2,
         builder => {
             builder
                 .hardness('hard')
@@ -226,7 +226,7 @@ MIMaterialEvents.addMaterials(event => {
                 .defaultRecipes();
         });    
 
-    e.createMaterial('Peridot', 'peridot', 0x59f261,
+    event.createMaterial('Peridot', 'peridot', 0x59f261,
         builder => {
             builder
                 .hardness('hard')
@@ -243,7 +243,7 @@ MIMaterialEvents.addMaterials(event => {
                 .defaultRecipes();
         }); 
 
-    e.createMaterial('Ruby', 'corundum', 0xfc3232, // Name is corundum because modifyMaterial doesn't allow for adding ores
+    event.createMaterial('Ruby', 'corundum', 0xfc3232, // Name is corundum because modifyMaterial doesn't allow for adding ores
         builder => {
             builder
                 .hardness('hard')
@@ -261,7 +261,7 @@ MIMaterialEvents.addMaterials(event => {
                 .defaultRecipes(); 
         });
         
-    e.createMaterial('Boron', 'boron', 0x878376,
+    event.createMaterial('Boron', 'boron', 0x878376,
         builder => {
             builder
                 .hardness('hard')
@@ -270,7 +270,7 @@ MIMaterialEvents.addMaterials(event => {
                 .defaultRecipes();
         });
         
-    e.createMaterial('Kernite', 'kernite', 0xc2d7e8, // Ore for boron
+    event.createMaterial('Kernite', 'kernite', 0xc2d7e8, // Ore for boron
         builder => {
             builder
                 .hardness('hard')
