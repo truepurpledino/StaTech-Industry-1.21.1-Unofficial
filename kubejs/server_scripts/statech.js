@@ -620,7 +620,8 @@ ServerEvents.tags('item', event => {
         'entro',
         'corundum',
         'sapphire',
-        'peridot'
+        'peridot',
+        'clay'
     ]
 
     const baseparts = [
@@ -638,7 +639,7 @@ ServerEvents.tags('item', event => {
         '_plate', 
         '_gear', 
         '_rod', 
-        '_tiny_dusts', 
+        '_tiny_dust', 
         '_dust', 
         '_ingot',
         '_ore'
@@ -684,7 +685,7 @@ ServerEvents.tags('item', event => {
     });
 
     CUSTOMMATERIALS.forEach(material => {
-        const itemId = `modern_industrialization:raw_${material}_block`;
+        const itemId = `modern_industrialization:${material}_block`;
         const generictag = `c:storage_blocks`;
         const specifictag = `c:storage_blocks/${material}`;
         

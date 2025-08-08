@@ -268,6 +268,7 @@ ServerEvents.recipes(event => {
 
     // -- MIXED BLASTPROOF INGOT -- //
     packer(
+        event,
         st('mixed_blastproof_ingot'),
         32,
         600,
