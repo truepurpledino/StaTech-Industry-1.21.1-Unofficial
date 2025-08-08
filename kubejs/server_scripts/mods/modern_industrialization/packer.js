@@ -267,17 +267,17 @@ ServerEvents.recipes(event => {
     );
 
     // -- MIXED BLASTPROOF INGOT -- //
-    // packer(
-        // st('mixed_blastproof_ingot'),
-        // 32,
-        // 600,
-        // [
-            // { amount: 1, item: mi('titanium_ingot') },
-            // { amount: 1, item: mi('tungsten_ingot') },
-            // { amount: 1, item: mi('ostrum_ingot') }
-        // ],
-        // [ { amount: 1, item: mi('mixed_ingot_blastproof') } ]
-    // );
+    packer(
+        st('mixed_blastproof_ingot'),
+        32,
+        600,
+        [
+            { amount: 1, item: mi('titanium_ingot') },
+            { amount: 1, item: mi('tungsten_ingot') },
+            { amount: 1, item: mi('ostrum_ingot') }
+        ],
+        [ { amount: 1, item: mi('mixed_ingot_blastproof') } ]
+    );
 
     // -- CERTUS QUARTZ BLOCK -- //
     packer(
