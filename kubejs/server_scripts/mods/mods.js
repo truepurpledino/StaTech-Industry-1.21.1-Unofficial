@@ -23,7 +23,8 @@ ServerEvents.recipes(event => {
         gag('time_sand_pouch'),
         gag('pigment_jar_mixing'),
         gag('pigment_jar_from_dye'),
-        gag('pigment_jar_splitting')
+        gag('pigment_jar_splitting'),
+        ec('explorers_compass')
     ];
     MODS_DELETED.forEach(id => event.remove({ id: id }));
     event.remove({ output: gag('pigment_jar') })
@@ -106,5 +107,18 @@ ServerEvents.recipes(event => {
         G: hg('hang_glider')
     })
     .id(st('reinforced_hang_glider'));
+
+    // -- EXPLORER'S COMPASS -- //
+    event.shaped(ec('explorerscompass'), [
+        'WSW',
+        'SCS',
+        'WSW'
+    ],
+    {
+        S: mi('steel_plate'),
+        C: mc('compass'),
+        W: mc('cobweb')
+    })
+    .id(st('explorerscompass'));
 });
 
