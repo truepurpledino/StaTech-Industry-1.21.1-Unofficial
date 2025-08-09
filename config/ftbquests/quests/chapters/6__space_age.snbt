@@ -3,17 +3,175 @@
 	default_quest_shape: ""
 	filename: "6__space_age"
 	group: "0C181DF09185DA57"
+	icon: {
+		id: "kubejs:mki_probe_computer"
+	}
 	id: "5C132A91B86C59B5"
 	order_index: 6
 	quest_links: [ ]
-	quests: [{
-		id: "2DE9E34991852EA5"
-		tasks: [{
-			id: "75FE1266A9AA8614"
-			item: { components: { "ftbquests:missing_item": "relics:space_dissector" }, count: 1, id: "ftbquests:missing_item" }
-			type: "item"
-		}]
-		x: 0.5d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			dependencies: ["4DEB3A5701AD3744"]
+			id: "1F7CD79E5CB9821E"
+			size: 2.0d
+			tasks: [{
+				id: "2A11FB574E6CF379"
+				item: { count: 1, id: "modern_industrialization:space_probe_launcher" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1F7CD79E5CB9821E"]
+			id: "53E67D11D3D273B1"
+			size: 2.0d
+			tasks: [{
+				id: "47B61D628F75A12F"
+				item: { count: 1, id: "kubejs:basic_space_probe" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"53E67D11D3D273B1"
+				"141AE6600B0DA228"
+			]
+			id: "11825C288F04BC30"
+			size: 2.0d
+			tasks: [{
+				id: "191BC872173E4914"
+				item: { count: 1, id: "modern_industrialization:desh_ingot" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["11825C288F04BC30"]
+			id: "0B55848F472EC20D"
+			size: 2.0d
+			tasks: [{
+				id: "2E9664261F86C127"
+				item: { count: 1, id: "kubejs:advanced_space_probe" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["1F7CD79E5CB9821E"]
+			id: "141AE6600B0DA228"
+			size: 2.0d
+			tasks: [{
+				id: "64613D6D9F937DA6"
+				item: { count: 1, id: "kubejs:mki_probe_computer" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["11825C288F04BC30"]
+			id: "1221CAF28FBAF917"
+			size: 2.0d
+			tasks: [{
+				id: "652187EA2E47B93C"
+				item: { count: 1, id: "kubejs:mkii_probe_computer" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["41C6121EB29BDCD0"]
+			id: "5CCAA55B945384C9"
+			size: 2.0d
+			tasks: [{
+				id: "7742A19B14715990"
+				item: { count: 1, id: "kubejs:highly_advanced_space_probe" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -13.0d
+		}
+		{
+			dependencies: [
+				"0B55848F472EC20D"
+				"1221CAF28FBAF917"
+			]
+			id: "41C6121EB29BDCD0"
+			size: 2.0d
+			tasks: [{
+				id: "4C02393B97234F64"
+				item: { count: 1, id: "modern_industrialization:ostrum_ingot" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["41C6121EB29BDCD0"]
+			id: "3DE02D1C71CBD94F"
+			size: 2.0d
+			tasks: [{
+				id: "6BB163C0941FD409"
+				item: { count: 1, id: "kubejs:mkiii_probe_computer" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["53E67D11D3D273B1"]
+			id: "5C676AF9206DA51C"
+			tasks: [{
+				id: "0D5A07AC9986733E"
+				item: { count: 1, id: "modern_industrialization:raw_moon_ice" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5C676AF9206DA51C"]
+			id: "3C57C65402826CF2"
+			tasks: [{
+				id: "60DB2BB09CF91F3A"
+				item: { count: 1, id: "modern_industrialization:helium_3_bucket" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6E9A3C5B39C9628F"]
+			id: "21670AF21E774955"
+			size: 2.0d
+			tasks: [{
+				id: "0240C1E283B7302B"
+				item: { count: 1, id: "kubejs:space_probe" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -18.0d
+		}
+		{
+			dependencies: [
+				"5CCAA55B945384C9"
+				"3DE02D1C71CBD94F"
+			]
+			id: "6E9A3C5B39C9628F"
+			size: 2.0d
+			tasks: [{
+				id: "5DE3AFB4D818141C"
+				item: { count: 1, id: "modern_industrialization:calorite_ingot" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -16.0d
+		}
+	]
 }

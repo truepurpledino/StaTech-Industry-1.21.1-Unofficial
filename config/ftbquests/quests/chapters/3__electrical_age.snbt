@@ -32,7 +32,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: -2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["2969BA6B88D1EC15"]
@@ -43,28 +43,30 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: -1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["2969BA6B88D1EC15"]
 			id: "6DC076765D6033C3"
 			tasks: [{
-				id: "37CA2112FA41D819"
-				type: "checkmark"
+				id: "364265C246046EB3"
+				item: { count: 1, id: "modern_industrialization:photosynthetic_chamber" }
+				type: "item"
 			}]
 			x: -2.5d
-			y: -0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2969BA6B88D1EC15"]
 			id: "06AB394FC4DB1809"
 			size: 2.0d
 			tasks: [{
-				id: "4FECD59976058E0C"
-				type: "checkmark"
+				id: "701705F3D30E4F54"
+				item: { count: 1, id: "modern_industrialization:greenhouse" }
+				type: "item"
 			}]
 			x: 0.0d
-			y: -3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["2969BA6B88D1EC15"]
@@ -75,7 +77,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["2969BA6B88D1EC15"]
@@ -86,7 +88,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["2969BA6B88D1EC15"]
@@ -97,7 +99,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: 1.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["2969BA6B88D1EC15"]
@@ -108,7 +110,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: 0.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["2969BA6B88D1EC15"]
@@ -119,7 +121,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: -1.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["2969BA6B88D1EC15"]
@@ -130,7 +132,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: -2.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["2969BA6B88D1EC15"]
@@ -141,7 +143,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: -3.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["2969BA6B88D1EC15"]
@@ -180,13 +182,23 @@
 		}
 		{
 			dependencies: ["3CB99CD2A9021136"]
+			icon: {
+				id: "extended_industrialization:lv_solar_panel"
+			}
 			id: "682E5B8C67942AF8"
 			size: 2.0d
-			tasks: [{
-				id: "67C75C44B8CCD13C"
-				item: { count: 1, id: "extended_industrialization:lv_solar_panel" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "67C75C44B8CCD13C"
+					item: { count: 1, id: "extended_industrialization:lv_solar_panel" }
+					type: "item"
+				}
+				{
+					id: "16C7A6A9248BCB2D"
+					item: { count: 1, id: "extended_industrialization:lv_photovoltaic_cell" }
+					type: "item"
+				}
+			]
 			x: 2.0d
 			y: 5.5d
 		}
@@ -460,6 +472,81 @@
 				type: "item"
 			}]
 			x: 16.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["300F4E3AAD5B0212"]
+			id: "1C258EF6AC025D80"
+			shape: "rsquare"
+			tasks: [{
+				id: "2E515D3A21D90B7B"
+				item: { count: 1, id: "sophisticatedbackpacks:gold_backpack" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["300F4E3AAD5B0212"]
+			id: "6AA0D51C9FF2DF97"
+			rewards: [{
+				id: "0628F803476897F0"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "22785A2B9F44435E"
+				item: { count: 1, id: "bankstorage:bank_4" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["300F4E3AAD5B0212"]
+			id: "174F0D4FABC53DF1"
+			shape: "rsquare"
+			tasks: [{
+				id: "4A463F60319EB774"
+				item: { count: 1, id: "functionalstorage:copper_upgrade" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2BCB2D286CA1B2B1"]
+			id: "37D2B90173E5852A"
+			size: 2.0d
+			tasks: [{
+				id: "147B874519812FFC"
+				item: { count: 1, id: "industrialization_overdrive:pyrolyse_oven" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["37D2B90173E5852A"]
+			id: "0C79576CA134241A"
+			tasks: [{
+				id: "509B654B2F61D653"
+				item: { count: 1, id: "modern_industrialization:wood_tar_bucket" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2969BA6B88D1EC15"]
+			id: "21F3205C40C9D424"
+			tasks: [{
+				id: "76273F22647475F1"
+				item: { count: 1, id: "modern_industrialization:basic_upgrade" }
+				type: "item"
+			}]
+			x: -3.5d
 			y: 2.5d
 		}
 	]

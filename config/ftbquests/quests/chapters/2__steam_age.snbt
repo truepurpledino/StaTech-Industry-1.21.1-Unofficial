@@ -326,7 +326,7 @@
 				item: { count: 1, id: "modern_industrialization:battery_alloy_dust" }
 				type: "item"
 			}]
-			x: 11.0d
+			x: 11.5d
 			y: 7.0d
 		}
 		{
@@ -337,7 +337,7 @@
 				item: { count: 1, id: "modern_industrialization:invar_dust" }
 				type: "item"
 			}]
-			x: 12.0d
+			x: 12.5d
 			y: 7.0d
 		}
 		{
@@ -348,7 +348,7 @@
 				item: { count: 1, id: "modern_industrialization:cupronickel_dust" }
 				type: "item"
 			}]
-			x: 13.0d
+			x: 13.5d
 			y: 7.0d
 		}
 		{
@@ -359,7 +359,7 @@
 				item: { count: 1, id: "modern_industrialization:electrum_dust" }
 				type: "item"
 			}]
-			x: 14.0d
+			x: 14.5d
 			y: 7.0d
 		}
 		{
@@ -692,7 +692,7 @@
 				type: "item"
 			}]
 			x: 35.0d
-			y: -4.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["26A89C51A7B9FFDE"]
@@ -817,7 +817,7 @@
 				type: "checkmark"
 			}]
 			x: 2.5d
-			y: -4.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["78AB0A6DF24A608F"]
@@ -828,7 +828,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: -4.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["3AAC60DF5729CB7F"]
@@ -851,15 +851,15 @@
 				}
 			]
 			x: 3.5d
-			y: -5.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["26A89C51A7B9FFDE"]
 			id: "0C6FF5ECDBA86079"
 			shape: "rsquare"
 			tasks: [{
-				id: "5B08D8F123E428B9"
-				item: { count: 1, id: "simplemagnets:basicmagnet" }
+				id: "46B59F4F7F0A50B7"
+				item: { count: 1, id: "simplemagnets:advancedmagnet" }
 				type: "item"
 			}]
 			x: 31.0d
@@ -929,8 +929,8 @@
 					type: "item"
 				}
 			]
-			x: 31.5d
-			y: 3.5d
+			x: 30.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["26A89C51A7B9FFDE"]
@@ -1272,14 +1272,300 @@
 			y: 2.5d
 		}
 		{
-			id: "21F3205C40C9D424"
+			id: "12926ADD337786A7"
+			rewards: [{
+				id: "096A65D240D64E5A"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
 			tasks: [{
-				id: "76273F22647475F1"
-				item: { count: 1, id: "modern_industrialization:basic_upgrade" }
+				id: "7FEE1E32B30864CE"
+				item: { count: 1, id: "bankstorage:bank_2" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7758D929EC7EE49B"]
+			id: "20E6BE71E8BA5585"
+			rewards: [{
+				id: "053C42492B8424DA"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "290DC8526F2F06B7"
+				item: { count: 1, id: "cognition:cognitive_flux" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["20E6BE71E8BA5585"]
+			id: "3B28AE165B04B6EB"
+			rewards: [{
+				id: "42E137F745717482"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "0524B051D756B71F"
+				item: { count: 1, id: "cognition:cognitive_amalgam" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["3B28AE165B04B6EB"]
+			id: "55F613974F17ED0A"
+			rewards: [{
+				id: "486CDF0B9AD1CA72"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "564DE3BD02C3CE0A"
+				item: { count: 1, id: "cognition:cognitive_alloy" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["55F613974F17ED0A"]
+			id: "07437EF0F03724CC"
+			rewards: [{
+				id: "688436EA2AF0DA5B"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "2209B3625266FAC5"
+				item: { count: 1, id: "cognition:experience_obelisk" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["74B14DB45316C4F8"]
+			id: "5E0C8E80FD41ECC3"
+			rewards: [{
+				id: "47A78719B8E4688F"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "114BB39F7CD134F2"
+				item: { count: 1, id: "simplemagnets:basicmagnet" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["726994F1ADADFD28"]
+			id: "547CCB129043BEE6"
+			shape: "rsquare"
+			tasks: [{
+				id: "52AA085735BF5D28"
+				item: { count: 1, id: "extended_industrialization:steam_chainsaw" }
+				type: "item"
+			}]
+			x: 31.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["26A89C51A7B9FFDE"]
+			id: "64ACC11C34E6D116"
+			rewards: [{
+				id: "4184DF3257425AA5"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "53A67A9EE7C607FA"
+				item: { count: 1, id: "bankstorage:bank_3" }
+				type: "item"
+			}]
+			x: 35.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["26A89C51A7B9FFDE"]
+			id: "3D5D5FE41A66780D"
+			shape: "rsquare"
+			tasks: [{
+				id: "04DF7E002108285E"
+				item: { count: 1, id: "sophisticatedbackpacks:iron_backpack" }
 				type: "item"
 			}]
 			x: 35.5d
-			y: -6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["26A89C51A7B9FFDE"]
+			id: "1C7BF59D48BD8137"
+			rewards: [{
+				id: "296A3005AA8F640A"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "32E22BD1C9540636"
+					item: { count: 1, id: "travelanchors:travel_anchor" }
+					type: "item"
+				}
+				{
+					id: "464503D4ABCA85D8"
+					item: { count: 1, id: "travelanchors:travel_staff" }
+					type: "item"
+				}
+			]
+			x: 30.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2121C4F2CF127435"]
+			id: "1C56D3421ED7758F"
+			shape: "rsquare"
+			tasks: [{
+				id: "01B1A759F4888DE6"
+				item: { count: 1, id: "extended_industrialization:machine_config_card" }
+				type: "item"
+			}]
+			x: 35.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["587FF748139BA962"]
+			id: "5777143D023A9131"
+			rewards: [{
+				id: "33F7B84F58D08DA2"
+				type: "xp"
+				xp: 10
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "22519E5AFEEFE6DB"
+				item: { count: 1, id: "extended_industrialization:bronze_solar_boiler" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2121C4F2CF127435"]
+			id: "17B61F8F9CAC32E2"
+			rewards: [{
+				id: "70CF16094CCF2971"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "1F4A931FF5D23838"
+				item: { count: 1, id: "modern_industrialization:redstone_control_module" }
+				type: "item"
+			}]
+			x: 36.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2F5AA3AA2794D431"]
+			id: "34718CDC46F0441E"
+			tasks: [{
+				id: "44C1C92F89A331D9"
+				item: { count: 1, id: "extended_industrialization:large_configurable_chest" }
+				type: "item"
+			}]
+			x: 33.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["412958496FE9150E"]
+			id: "181F0CD6428732B2"
+			rewards: [{
+				id: "0005B37BAC0B954C"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "4FDB7FEDCF9F4563"
+				item: { count: 1, id: "sophisticatedstorage:basic_to_copper_tier_upgrade" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["181F0CD6428732B2"]
+			id: "6B3BEC96CBAB7760"
+			rewards: [{
+				id: "7DCF70F1AA2A5325"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "4CDF68A9DFBD6961"
+				item: { count: 1, id: "sophisticatedstorage:copper_to_iron_tier_upgrade" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6B3BEC96CBAB7760"]
+			id: "37A8157AB01079F0"
+			rewards: [{
+				id: "37CA5AC5C9DD341B"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "1A4C8B1128098C5E"
+				item: { count: 1, id: "sophisticatedstorage:iron_to_gold_tier_upgrade" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4410F770254B4F8F"]
+			id: "0E0589CA933ED840"
+			size: 2.0d
+			tasks: [{
+				id: "74081535984EAA6E"
+				item: { count: 1, id: "extended_industrialization:steel_solar_boiler" }
+				type: "item"
+			}]
+			x: 37.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7B0D4508DF6DE961"]
+			id: "1EB39E0BB9C59E54"
+			tasks: [{
+				id: "25215EADA043FD7E"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -3.5d
 		}
 	]
 }
