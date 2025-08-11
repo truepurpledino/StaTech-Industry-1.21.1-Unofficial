@@ -13,16 +13,10 @@ MIMachineEvents.registerRecipeTypes(event => {
 });
 
 MIMachineEvents.registerMachines(event => {
-    // -- MOD NAMESPACE UTILITY FUNCTIONS -- // 
-    let mi = (id) => `modern_industrialization:${id}`;
-    // let ad = (id) => `ad_astra:${id}`;
-    let kjs = (id) => `kubejs:${id}`;
-    let ch = (id) => `chisel:${id}`;
-
     const singularityForgeHatch = event.hatchOf('item_input', 'item_output', 'energy_input', 'fluid_input');
     const plasmaCasing = event.memberOfBlock(mi('plasma_handling_iridium_machine_casing'));
     const iridiumPipeCasing = event.memberOfBlock(mi('iridium_machine_casing_pipe'));
-    const glowingCaloritePillar = event.memberOfBlock(kjs('glowing_calorite_pillar'));
+    const glowingCaloritePillar = event.memberOfBlock(kj('glowing_calorite_pillar'));
     const superConductorCoil = event.memberOfBlock(mi('superconductor_coil'));
     const crypticEndRod = event.memberOfBlock('minecraft:end_rod');
     const llamaPurpleWool = event.memberOfBlock(ch('llama/purple_wool'));

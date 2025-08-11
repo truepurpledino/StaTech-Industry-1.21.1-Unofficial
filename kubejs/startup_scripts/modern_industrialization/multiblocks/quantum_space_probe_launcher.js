@@ -14,9 +14,6 @@ MIMachineEvents.registerRecipeTypes(e => {
 
 
 MIMachineEvents.registerMachines(e => {
-    // -- MOD NAMESPACE UTILITY FUNCTIONS -- // 
-    let mi = (id) => `modern_industrialization:${id}`;
-
     const caloriteCasing = e.memberOfBlock(mi('calorite_machine_casing'));
     const caloritePipeCasing = e.memberOfBlock(mi('calorite_machine_casing_pipe'));
     const tungstensteelCoil = e.memberOfBlock(mi('tungstensteel_coil'));

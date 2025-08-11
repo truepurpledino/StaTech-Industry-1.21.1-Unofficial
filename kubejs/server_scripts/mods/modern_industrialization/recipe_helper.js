@@ -171,3 +171,7 @@ let spl = (event, id, eu, duration, item_inputs, item_outputs, adjacent_block, a
 let vacuumFreezer = (event, id, eu, duration, item_inputs, item_outputs, fluid_inputs, fluid_outputs) => {
     event.custom(newMachineRecipe(mi('vacuum_freezer'), eu, duration, item_inputs, item_outputs, fluid_inputs, fluid_outputs)).id(id);
 }
+
+let telescope = (event, id, eu, duration, item_inputs, item_outputs, fluid_inputs) => {
+    event.custom(newMachineRecipe(mi('telescope'), eu, duration, item_inputs, item_outputs, fluid_inputs)).id(id);
+}
