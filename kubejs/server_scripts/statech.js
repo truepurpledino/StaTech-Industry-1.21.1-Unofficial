@@ -617,7 +617,9 @@ ServerEvents.tags('item', event => {
         'corundum',
         'sapphire',
         'peridot',
-        'clay'
+        'clay',
+        'kernite',
+        'cobalt'
     ]
 
     const baseparts = [
