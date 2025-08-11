@@ -19,8 +19,7 @@ ServerEvents.recipes(event => {
         S: '#c:plates/steel',
         G: mc('glowstone'),
         D: '#c:dyes/purple'
-    })
-    .id(st('glowing_steel_pillar'));
+    }).id(st('glowing_steel_pillar'));
 
     event.shaped('6x ' + kj('glowing_desh_pillar'), [
         'SDS',
@@ -31,8 +30,7 @@ ServerEvents.recipes(event => {
         S: '#c:plates/desh',
         G: mc('glowstone'),
         D: '#c:dyes/red'
-    })
-    .id(st('glowing_desh_pillar'));
+    }).id(st('glowing_desh_pillar'));
 
     event.shaped('6x ' + kj('glowing_ostrum_pillar'), [
         'SDS',
@@ -43,8 +41,7 @@ ServerEvents.recipes(event => {
         S: '#c:plates/ostrum',
         G: mc('glowstone'),
         D: '#c:dyes/lime'
-    })
-    .id(st('glowing_ostrum_pillar'));
+    }).id(st('glowing_ostrum_pillar'));
 
     event.shaped('6x ' + kj('glowing_calorite_pillar'), [
         'SDS',
@@ -55,8 +52,7 @@ ServerEvents.recipes(event => {
         S: '#c:plates/calorite',
         G: mc('glowstone'),
         D: '#c:dyes/orange' 
-    })
-    .id(st('glowing_calorite_pillar'));
+    }).id(st('glowing_calorite_pillar'));
 
     // -- CLEAR GLASS BLOCK - //
     // event.shaped('8x ' + kj('clear_glass'), [

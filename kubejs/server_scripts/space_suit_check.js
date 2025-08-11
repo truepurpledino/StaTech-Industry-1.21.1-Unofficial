@@ -6,11 +6,11 @@
 let tickCounter = 0;
 
 PlayerEvents.tick(event => {
-    if (event.player.level.dimension == 'statech:space') {
+    if (!event.player.isCreative() && event.player.level.dimension == 'statech:space') {
         if (tickCounter % 100 == 0) {
             tickCounter = 0;
 
-            let spaceSuitId = 'minecraft:diamond_chestplate';
+            let spaceSuitId = kj('personal_space_shield');
             let hasSuit = false;
 
             event.player.inventory.allItems.forEach(item => {
