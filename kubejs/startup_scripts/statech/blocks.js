@@ -50,6 +50,14 @@ StartupEvents.registry('block', event => {
         .tagBlock('minecraft:mineable/pickaxe') 
         .tagBlock('minecraft:needs_iron_tool');
     
+    event.create(`kubejs:computer_casing`)
+        .displayName('Computer Casing')
+        .soundType('copper')
+        .requiresTool(true)
+        .hardness(3)
+        .tagBlock('minecraft:mineable/pickaxe') 
+        .tagBlock('minecraft:needs_iron_tool');
+    
     const tieredProbeComputers = [
         ['mki_probe_computer', 'Mk I Probe Computer'],
         ['mkii_probe_computer', 'Mk II Probe Computer'],
