@@ -72,6 +72,9 @@ StartupEvents.registry('item', event => {
     
     event.create('highly_advanced_space_probe')
         .displayName('Highly Advanced Space Probe')
+    
+    event.create('boron_quartz_blend')
+        .displayName('Boron-Quartz Blend')
 });
 
 ItemEvents.modification(event => {

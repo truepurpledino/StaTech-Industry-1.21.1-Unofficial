@@ -118,16 +118,17 @@ ServerEvents.recipes(event => {
     );
 
     // -- ZINC DUST -- //
-    // macerator(
-        // st('zinc_dust'),
-        // 2,
-        // 200,
-        // [ { amount: 1, tag: 'c:raw_zinc_ores' } ],
-        // [
-            // { amount: 1, item: tr('zinc_dust') },
-            // { amount: 1, item: tr('zinc_dust'), probability: 0.50 }
-        // ]
-    // );
+    macerator(
+        event,
+        st('zinc_dust'),
+        2,
+        200,
+        [ { amount: 1, tag: 'c:raw_materials/zinc' } ],
+        [
+            { amount: 1, item: mi('zinc_dust') },
+            { amount: 1, item: mi('zinc_dust'), probability: 0.50 }
+        ]
+    );
 
     // -- FLAX TO STRING -- //
     macerator(

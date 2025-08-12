@@ -129,6 +129,24 @@ ServerEvents.recipes(event => {
         [ { amount: 100, fluid: mi('oxygen') } ]
     );
 
+    // -- KERNITE DUST -- //
+    electrolyzer(
+        event,
+        st('kernite_dust'),
+        16,
+        600,
+        [ { amount: 9, tag: 'c:dusts/kernite' } ],
+        [ 
+            { amount: 2, item: mi('sodium_dust') },
+            { amount: 4, item: mi('boron_dust') }
+        ],
+        null,
+        [ 
+            { amount: 200, fluid: mc('water') },
+            { amount: 400, fluid: mi('oxygen') }
+        ]
+    );
+
     // -- WASTE BERYL AMMONIA SOLUTION PROCESSING -- //
     electrolyzer(
         event,

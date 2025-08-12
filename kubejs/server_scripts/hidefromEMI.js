@@ -43,7 +43,9 @@ RecipeViewerEvents.removeEntriesCompletely('item', event => {
         mi('raw_sapphire'),
         mi('raw_sapphire_block'),
         mi('raw_peridot'),
-        mi('raw_peridot_block')
+        mi('raw_peridot_block'),
+        mi('raw_kernite'),
+        mi('raw_kernite_block')
     ];
     FAKE_MATERIALS.forEach(id => event.remove(id)); 
 });

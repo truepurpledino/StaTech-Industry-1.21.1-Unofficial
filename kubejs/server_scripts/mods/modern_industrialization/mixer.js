@@ -257,6 +257,19 @@ ServerEvents.recipes(event => {
         ],
         [ { amount: 4, item: xp('cognitive_flux') } ]
     ); 
+    
+    // -- BORON-QUARTZ BLEND -- //
+    mixer(
+        event,
+        st('boron_quartz_blend'),
+        2,
+        100,
+        [
+            { amount: 2, tag: 'c:dusts/boron' },
+            { amount: 4, tag: 'c:dusts/quartz' }
+        ],
+        [ { amount: 6, item: kj('boron_quartz_blend') } ]
+    ); 
 
     // -- CERTUS QUARTS CRYSTAL -- //
     mixer(

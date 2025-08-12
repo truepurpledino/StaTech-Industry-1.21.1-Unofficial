@@ -40,6 +40,16 @@ StartupEvents.registry('block', event => {
         .placementState((event) => event.set(BlockProperties.AXIS, event.clickedFace.axis))
     });
     
+    event.create(`kubejs:borosilicate_glass`)
+        .displayName('Borosilicate Glass')
+        .glassSoundType()
+        .requiresTool(true)
+        .hardness(2)
+        .defaultTranslucent()
+        .transparent(true)
+        .tagBlock('minecraft:mineable/pickaxe') 
+        .tagBlock('minecraft:needs_iron_tool');
+    
     const tieredProbeComputers = [
         ['mki_probe_computer', 'Mk I Probe Computer'],
         ['mkii_probe_computer', 'Mk II Probe Computer'],

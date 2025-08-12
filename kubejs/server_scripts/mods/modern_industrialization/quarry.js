@@ -100,7 +100,8 @@ ServerEvents.recipes(event => {
             { amount: 1, item: mi('salt_ore'), probability: 0.12 },
             { amount: 1, item: mi('quartz_ore'), probability: 0.2 },
             { amount: 1, item: mi('corundum_ore'), probability: 0.15 },
-            { amount: 1, item: mi('sapphire_ore'), probability: 0.15 }
+            { amount: 1, item: mi('sapphire_ore'), probability: 0.15 },
+            { amount: 1, item: mi('kernite_ore'), probability: 0.20 }
         ]
     );
 

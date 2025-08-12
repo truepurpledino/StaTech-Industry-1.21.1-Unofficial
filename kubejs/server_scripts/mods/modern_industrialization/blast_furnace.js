@@ -141,6 +141,20 @@ ServerEvents.recipes(event => {
         [ { amount: 1000, fluid: mi('fluorine') } ]
     );
 
+    // -- BOROSILICATE GLASS -- //
+    blastFurnace(
+        event,
+        st('fluorine'),
+        16,
+        200,
+        [ 
+            { amount: 6, item: kj('boron_quartz_blend') },
+            { amount: 2, item: mc('sand') }
+
+         ],
+        [ { amount: 1, item: kj('borosilicate_glass') } ]
+    );
+
     // -- BERYLLIUM HOT INGOT -- //
     blastFurnace(
         event,
