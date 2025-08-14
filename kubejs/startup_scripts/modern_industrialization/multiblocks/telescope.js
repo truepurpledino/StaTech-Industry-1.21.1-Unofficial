@@ -28,15 +28,16 @@ MIMachineEvents.registerMachines(event => {
         ['            ', '            ', '       SS   ', '     SS     ', '   SS       ', '            ', '            '],
         ['            ', '            ', '            ', '     O R    ', '            ', '            ', '            '],
         ['            ', '            ', '          VT', 'R    T TKPPT', '          VT', '            ', '            '],
-        ['            ', '          VT', '  POVTVPOT G', 'PTTKP P    G', '  POVTVPOT G', '          VT', '            '],
-        ['       R    ', 'R      TKPPT', 'PTTKPPP    G', 'P          G', 'PTTKPPP    G', 'R      TKPPT', '       R    '],
-        ['            ', '          VT', '  POVTVPOT G', 'PT#KP P    G', '  POVTVPOT G', '          VT', '            '],
+        ['            ', '          VT', '  POVTVPOT G', 'PtTKP P    G', '  POVTVPOT G', '          VT', '            '],
+        ['       R    ', 'R      TKPPT', 'PttKPPP    G', 'P          G', 'PttKPPP    G', 'R      TKPPT', '       R    '],
+        ['            ', '          VT', '  POVTVPOT G', 'Pt#KP P    G', '  POVTVPOT G', '          VT', '            '],
         ['            ', '            ', '          VT', 'R    T TKPPT', '          VT', '            ', '            '],
         ['            ', '            ', '            ', '     O R    ', '            ', '            ', '            '],
         ['            ', '            ', '       SS   ', '     SS     ', '   SS       ', '            ', '            '],
         ['            ', '            ', '       SS   ', '     SS     ', '   SS       ', '            ', '            ']
     ])
-        .key('T', tungstensteelMachineCasing, telescopeHatch)
+        .key('T', tungstensteelMachineCasing, event.noHatch())
+        .key('t', tungstensteelMachineCasing, telescopeHatch)
         .key('P', tungstensteelMachinePipeCasing, event.noHatch())
         .key('K', korpBlock4, event.noHatch())
         .key('O', korpBlock9, event.noHatch())
