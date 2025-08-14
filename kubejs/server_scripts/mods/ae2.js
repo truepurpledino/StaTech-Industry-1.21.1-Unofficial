@@ -118,6 +118,21 @@ ServerEvents.recipes(event => {
     })
     .id(st('blank_pattern'));
 
+     // -- CRYSTAL RESONANCE GENERATOR -- //
+    event.shaped(ae('crystal_resonance_generator'), [
+        'ACA',
+        'FHF',
+        'AEA'
+    ],
+    {
+        A: '#c:plates/aluminum',
+        C: mi('cupronickel_coil'),
+        F: ae('fluix_block'),
+        H: mi('basic_machine_hull'),
+        E: ae('engineering_processor')
+    })
+    .id(st('crystal_resonance_generator'));
+
 /*     // -- ME SECURITY TERMINAL -- //
     event.shaped(ae('security_station'), [
         'SCS',
