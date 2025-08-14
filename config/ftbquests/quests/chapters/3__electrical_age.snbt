@@ -26,6 +26,28 @@
 		{
 			dependencies: ["2969BA6B88D1EC15"]
 			id: "65E66BED260A6632"
+			rewards: [
+				{
+					count: 3
+					id: "4DAB8BE60A2AB91D"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "7040D93DFED65FAD"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "52E798D10AF95BF4"
+					table_id: 8811145634920634486L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "6368FC849543715B"
 				item: { count: 1, id: "modern_industrialization:electric_water_pump" }
@@ -37,6 +59,28 @@
 		{
 			dependencies: ["2969BA6B88D1EC15"]
 			id: "33106BD719EDE5A5"
+			rewards: [
+				{
+					count: 3
+					id: "7F8C8A758251DAAA"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "46CFF5DD80CDF0D8"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "55ED413C8336C942"
+					table_id: 8811145634920634486L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "4FFACF6EB66C875F"
 				item: { count: 1, id: "modern_industrialization:electric_unpacker" }
@@ -48,6 +92,28 @@
 		{
 			dependencies: ["2969BA6B88D1EC15"]
 			id: "6DC076765D6033C3"
+			rewards: [
+				{
+					count: 3
+					id: "4C16905F6447B83A"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "5E44D19916D30002"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1D8067AB30162983"
+					table_id: 8811145634920634486L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "364265C246046EB3"
 				item: { count: 1, id: "modern_industrialization:photosynthetic_chamber" }
@@ -59,6 +125,28 @@
 		{
 			dependencies: ["2969BA6B88D1EC15"]
 			id: "06AB394FC4DB1809"
+			rewards: [
+				{
+					count: 3
+					id: "71DE18FBB7544C3D"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "718F96F17B25BAB1"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5F710B7570CDF953"
+					table_id: 8811145634920634486L
+					type: "random"
+				}
+			]
 			size: 2.0d
 			tasks: [{
 				id: "701705F3D30E4F54"
@@ -71,6 +159,28 @@
 		{
 			dependencies: ["2969BA6B88D1EC15"]
 			id: "19F684E8FC74E971"
+			rewards: [
+				{
+					count: 3
+					id: "7541C60FBE6ECE42"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "0D0567652D898909"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "15600D4FC00035A1"
+					table_id: 8811145634920634486L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "66782E25EA4FC08D"
 				item: { count: 1, id: "modern_industrialization:polarizer" }
@@ -82,6 +192,28 @@
 		{
 			dependencies: ["2969BA6B88D1EC15"]
 			id: "54CA233681EC29E6"
+			rewards: [
+				{
+					count: 3
+					id: "2B574C7552417168"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "603DB895DBFC0A31"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "68ABFEAD3163F293"
+					table_id: 8811145634920634486L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "2D225EAC4B72B942"
 				item: { count: 1, id: "modern_industrialization:electric_packer" }
@@ -93,6 +225,28 @@
 		{
 			dependencies: ["2969BA6B88D1EC15"]
 			id: "3E87F9A3771AA4A4"
+			rewards: [
+				{
+					count: 3
+					id: "59E9FE260E1091D7"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "41C485A1C7BE2B84"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3619F8032FAFDF41"
+					table_id: 8811145634920634486L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "7862D9B62E46AE0D"
 				item: { count: 1, id: "modern_industrialization:electric_wiremill" }
@@ -104,6 +258,28 @@
 		{
 			dependencies: ["2969BA6B88D1EC15"]
 			id: "1107C9B96B0FB6BD"
+			rewards: [
+				{
+					count: 3
+					id: "66484EBE2C92E0B0"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "381D164E26895F04"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "627FF4FD21727646"
+					table_id: 8811145634920634486L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "7A4741BB4AB2E22C"
 				item: { count: 1, id: "modern_industrialization:lv_storage_unit" }
@@ -115,6 +291,28 @@
 		{
 			dependencies: ["2969BA6B88D1EC15"]
 			id: "54A2937E381920FC"
+			rewards: [
+				{
+					count: 3
+					id: "713C6FC8CD773749"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "2036840DDDBA3934"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3F85BC01B6E56E0A"
+					table_id: 8811145634920634486L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "2DB53CC87EE25B92"
 				item: { count: 1, id: "modern_industrialization:electric_mixer" }
@@ -126,6 +324,28 @@
 		{
 			dependencies: ["2969BA6B88D1EC15"]
 			id: "2FA4E183EB7E1413"
+			rewards: [
+				{
+					count: 3
+					id: "2C6494516550ABEC"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "015994E4CC358E96"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1452F789A27A6DBB"
+					table_id: 8811145634920634486L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "7B9DE75B60057C1F"
 				item: { count: 1, id: "modern_industrialization:electric_cutting_machine" }
@@ -137,6 +357,28 @@
 		{
 			dependencies: ["2969BA6B88D1EC15"]
 			id: "741C06785329D26C"
+			rewards: [
+				{
+					count: 3
+					id: "5A6BE3579443E89E"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "753E25C6B176F03C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0DCCEC5FD5CA9EA5"
+					table_id: 8811145634920634486L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "0B45B124D456CA3E"
 				item: { count: 1, id: "modern_industrialization:electric_compressor" }
@@ -148,6 +390,11 @@
 		{
 			dependencies: ["2969BA6B88D1EC15"]
 			id: "3CB99CD2A9021136"
+			rewards: [{
+				id: "347FFBCB623983D5"
+				type: "xp"
+				xp: 10
+			}]
 			size: 2.0d
 			tasks: [{
 				id: "54CC1F1EA6428133"
@@ -159,6 +406,28 @@
 		{
 			dependencies: ["3CB99CD2A9021136"]
 			id: "43E5FC3194CF1BBC"
+			rewards: [
+				{
+					count: 3
+					id: "6110C7664FF555DC"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "53FC13B0DC54CC2F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "486C94C743EC5B84"
+					table_id: 8811145634920634486L
+					type: "random"
+				}
+			]
 			size: 2.0d
 			tasks: [{
 				id: "64BC655D8E9BB22B"
@@ -171,6 +440,28 @@
 		{
 			dependencies: ["3CB99CD2A9021136"]
 			id: "011FCD9F3A6FB5C6"
+			rewards: [
+				{
+					count: 3
+					id: "2896AD3BB46D87FB"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "2A3309E2B9128EEC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "43B2D1634FE38520"
+					table_id: 8811145634920634486L
+					type: "random"
+				}
+			]
 			size: 2.0d
 			tasks: [{
 				id: "065736B9C519C7AD"
@@ -186,6 +477,28 @@
 				id: "extended_industrialization:lv_solar_panel"
 			}
 			id: "682E5B8C67942AF8"
+			rewards: [
+				{
+					count: 3
+					id: "7F0421990B0B087B"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "15A641E61CDAA82B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6C38818D92D9CB43"
+					table_id: 8811145634920634486L
+					type: "random"
+				}
+			]
 			size: 2.0d
 			tasks: [
 				{
@@ -210,6 +523,28 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "775B112F460EB130"
+			rewards: [
+				{
+					count: 3
+					id: "2BF706C03BA152AB"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "2414430416CA4419"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "047BB36907C48D0A"
+					table_id: 8811145634920634486L
+					type: "random"
+				}
+			]
 			size: 2.0d
 			tasks: [{
 				id: "2604360A89DF2F8D"
@@ -222,6 +557,28 @@
 		{
 			dependencies: ["775B112F460EB130"]
 			id: "5FFB2A58D1AADDC0"
+			rewards: [
+				{
+					count: 3
+					id: "67F7F6C47D69F428"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "3C1A1ADCC6C4AD34"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "25D7E5531D3A6FA0"
+					table_id: 8811145634920634486L
+					type: "random"
+				}
+			]
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
@@ -235,6 +592,28 @@
 		{
 			dependencies: ["2969BA6B88D1EC15"]
 			id: "725C5828090A1560"
+			rewards: [
+				{
+					count: 3
+					id: "30C1A48A8BB6DD7A"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "305318963883EB15"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6D8E78976D59315A"
+					table_id: 8811145634920634486L
+					type: "random"
+				}
+			]
 			size: 2.0d
 			tasks: [{
 				id: "08A3052C3C889E47"
@@ -247,6 +626,28 @@
 		{
 			dependencies: ["2969BA6B88D1EC15"]
 			id: "073D42A6E727665A"
+			rewards: [
+				{
+					count: 3
+					id: "5B4721C5AFDCFDCC"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "6613DC4F991CD563"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5B22D15E22AB027C"
+					table_id: 8811145634920634486L
+					type: "random"
+				}
+			]
 			size: 2.0d
 			tasks: [{
 				id: "5D5393E3C77A7612"
@@ -259,6 +660,28 @@
 		{
 			dependencies: ["2969BA6B88D1EC15"]
 			id: "7C70B4621C93F658"
+			rewards: [
+				{
+					count: 3
+					id: "6BE0FE1544F433BD"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "4A1AE0A519E9A734"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5332AD991FDC57E0"
+					table_id: 8811145634920634486L
+					type: "random"
+				}
+			]
 			size: 2.0d
 			tasks: [{
 				id: "1B5635C6C7C40700"
@@ -271,6 +694,28 @@
 		{
 			dependencies: ["725C5828090A1560"]
 			id: "4915E23CC60FBD06"
+			rewards: [
+				{
+					count: 3
+					id: "0AD8805973371EE2"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "47254B60D2B00BE0"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6C1776AA2E4A67B0"
+					table_id: 8811145634920634486L
+					type: "random"
+				}
+			]
 			size: 2.0d
 			tasks: [{
 				id: "45EADA2B1DDC18ED"
@@ -283,6 +728,28 @@
 		{
 			dependencies: ["073D42A6E727665A"]
 			id: "2BCB2D286CA1B2B1"
+			rewards: [
+				{
+					count: 3
+					id: "3A9C0AA2ABC90A97"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "281A9C3E3E11AA36"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4B03EB868A9D0A24"
+					table_id: 8811145634920634486L
+					type: "random"
+				}
+			]
 			size: 2.0d
 			tasks: [{
 				id: "7E8EC4C893C0B08F"
@@ -298,6 +765,28 @@
 				id: "modern_industrialization:electric_blast_furnace"
 			}
 			id: "45976F62A09069E6"
+			rewards: [
+				{
+					count: 3
+					id: "702BCB5F29A7EE24"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "21C432DC3EDC776B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "14A8229D5CF5D469"
+					table_id: 8811145634920634486L
+					type: "random"
+				}
+			]
 			size: 2.0d
 			tasks: [
 				{
@@ -339,6 +828,28 @@
 		{
 			dependencies: ["45976F62A09069E6"]
 			id: "300F4E3AAD5B0212"
+			rewards: [
+				{
+					count: 5
+					id: "6D7310C670A1C3E8"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "19B860A222FFFEE7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "663ACD0DCCCE7F13"
+					table_id: 5706018968149530875L
+					type: "random"
+				}
+			]
 			size: 2.0d
 			tasks: [{
 				id: "5CF9A7786FEF9241"
@@ -351,6 +862,28 @@
 		{
 			dependencies: ["300F4E3AAD5B0212"]
 			id: "4D79C193C61832E6"
+			rewards: [
+				{
+					count: 5
+					id: "6F4A499B42ADDBA3"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "0005FC180C080BEC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "73712E43ABAD1233"
+					table_id: 5706018968149530875L
+					type: "random"
+				}
+			]
 			shape: "rsquare"
 			tasks: [{
 				id: "6B059CC872FA4607"
@@ -363,6 +896,28 @@
 		{
 			dependencies: ["300F4E3AAD5B0212"]
 			id: "6A6FE8745D183151"
+			rewards: [
+				{
+					count: 5
+					id: "71B3B38FED68E49A"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "23A681C4E324A4C8"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2E2C4A98BFEB38EB"
+					table_id: 5706018968149530875L
+					type: "random"
+				}
+			]
 			shape: "rsquare"
 			tasks: [{
 				id: "5E6D02B79E996157"
@@ -375,6 +930,28 @@
 		{
 			dependencies: ["4D79C193C61832E6"]
 			id: "1E92F7CFB2F27612"
+			rewards: [
+				{
+					count: 5
+					id: "08A7C4C1C5FFC833"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "00685CA905065B37"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "224A19775E31FFC8"
+					table_id: 5706018968149530875L
+					type: "random"
+				}
+			]
 			shape: "rsquare"
 			tasks: [{
 				id: "66E59EB433890568"
@@ -387,6 +964,28 @@
 		{
 			dependencies: ["300F4E3AAD5B0212"]
 			id: "47D3834E67A0995D"
+			rewards: [
+				{
+					count: 5
+					id: "6741D5E180141A73"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "3AF2E52A514DF861"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "151F1A3275FFD1DC"
+					table_id: 5706018968149530875L
+					type: "random"
+				}
+			]
 			size: 2.0d
 			tasks: [{
 				id: "58E96024DEBC9096"
@@ -402,6 +1001,28 @@
 				"323919C5F7774E1B"
 			]
 			id: "35F8044D376C6428"
+			rewards: [
+				{
+					count: 5
+					id: "0FC07B66A9350A61"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "1D2A40DCA35FAF5D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "51B8505F200AE177"
+					table_id: 5706018968149530875L
+					type: "random"
+				}
+			]
 			shape: "gear"
 			size: 3.0d
 			tasks: [{
@@ -415,6 +1036,28 @@
 		{
 			dependencies: ["45976F62A09069E6"]
 			id: "2FFABD480EBC7D1D"
+			rewards: [
+				{
+					count: 5
+					id: "0D0FBB735E730410"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "4951EFBD91DD9328"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0CCC248867A430C3"
+					table_id: 5706018968149530875L
+					type: "random"
+				}
+			]
 			size: 2.0d
 			tasks: [{
 				id: "5E56AA48D287E202"
@@ -427,6 +1070,28 @@
 		{
 			dependencies: ["2FFABD480EBC7D1D"]
 			id: "55A551DC9366416E"
+			rewards: [
+				{
+					count: 5
+					id: "4E5F7E2D2773AE74"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "51DC1EAA3CA52612"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3E4D69D3F5D3065D"
+					table_id: 5706018968149530875L
+					type: "random"
+				}
+			]
 			size: 1.0d
 			tasks: [{
 				id: "7C4BBC086A611DF7"
@@ -439,6 +1104,28 @@
 		{
 			dependencies: ["2FFABD480EBC7D1D"]
 			id: "401B2BB7771F2A18"
+			rewards: [
+				{
+					count: 5
+					id: "2A01AB24B1272C49"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "78840305A8BF1F19"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6EC71A37350D0D3A"
+					table_id: 5706018968149530875L
+					type: "random"
+				}
+			]
 			size: 2.0d
 			tasks: [
 				{
@@ -465,6 +1152,28 @@
 		{
 			dependencies: ["401B2BB7771F2A18"]
 			id: "323919C5F7774E1B"
+			rewards: [
+				{
+					count: 5
+					id: "020DF58F456F8743"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "19EE9CC26271CE30"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "54D675B73B46CFCE"
+					table_id: 5706018968149530875L
+					type: "random"
+				}
+			]
 			size: 2.0d
 			tasks: [{
 				id: "09FBB31D69615B5F"
@@ -477,6 +1186,28 @@
 		{
 			dependencies: ["300F4E3AAD5B0212"]
 			id: "1C258EF6AC025D80"
+			rewards: [
+				{
+					count: 5
+					id: "5A8A49898E141E86"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "6DC6F76BB4C8C03D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2AB466802206A8D5"
+					table_id: 5706018968149530875L
+					type: "random"
+				}
+			]
 			shape: "rsquare"
 			tasks: [{
 				id: "2E515D3A21D90B7B"
@@ -489,11 +1220,33 @@
 		{
 			dependencies: ["300F4E3AAD5B0212"]
 			id: "6AA0D51C9FF2DF97"
-			rewards: [{
-				id: "0628F803476897F0"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "0628F803476897F0"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "3A9792A106A5E305"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "5842B80D5FC8D2A4"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "47303DA23545BF52"
+					table_id: 5706018968149530875L
+					type: "random"
+				}
+			]
 			shape: "rsquare"
 			tasks: [{
 				id: "22785A2B9F44435E"
@@ -506,6 +1259,28 @@
 		{
 			dependencies: ["300F4E3AAD5B0212"]
 			id: "174F0D4FABC53DF1"
+			rewards: [
+				{
+					count: 5
+					id: "62B42D9DFDD3036C"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "73C33CE316129EA7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5C63B730C40B2255"
+					table_id: 5706018968149530875L
+					type: "random"
+				}
+			]
 			shape: "rsquare"
 			tasks: [{
 				id: "4A463F60319EB774"
@@ -518,6 +1293,28 @@
 		{
 			dependencies: ["2BCB2D286CA1B2B1"]
 			id: "37D2B90173E5852A"
+			rewards: [
+				{
+					count: 3
+					id: "7A1F2C0AFB8F9044"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "150F35804F98A5BE"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "612AF10B0DC5DFE4"
+					table_id: 8811145634920634486L
+					type: "random"
+				}
+			]
 			size: 2.0d
 			tasks: [{
 				id: "147B874519812FFC"
@@ -530,6 +1327,28 @@
 		{
 			dependencies: ["37D2B90173E5852A"]
 			id: "0C79576CA134241A"
+			rewards: [
+				{
+					count: 3
+					id: "3695CAAE1A962112"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "08BDF0362F7BA945"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "01EE626A7F828AC9"
+					table_id: 8811145634920634486L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "509B654B2F61D653"
 				item: { count: 1, id: "modern_industrialization:wood_tar_bucket" }
@@ -541,6 +1360,28 @@
 		{
 			dependencies: ["2969BA6B88D1EC15"]
 			id: "21F3205C40C9D424"
+			rewards: [
+				{
+					count: 3
+					id: "2D7B312D3941B2D2"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "798BA8D1D681EDD3"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5A9ED0219EB209B8"
+					table_id: 8811145634920634486L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "76273F22647475F1"
 				item: { count: 1, id: "modern_industrialization:basic_upgrade" }
