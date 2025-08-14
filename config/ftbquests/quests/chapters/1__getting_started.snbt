@@ -16,6 +16,27 @@
 				id: "modern_industrialization:forge_hammer"
 			}
 			id: "74C1F78B349FC947"
+			rewards: [
+				{
+					id: "2A5D6840B0FF6D4F"
+					item: {
+						count: 1
+						id: "kubejs:coin_common"
+					}
+					type: "item"
+				}
+				{
+					id: "6F2828E33CB3D8B8"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1848A291445BD254"
+					table_id: 2474147679282294712L
+					type: "random"
+				}
+			]
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [
@@ -35,6 +56,21 @@
 		}
 		{
 			id: "1BD496A10E957F25"
+			rewards: [
+				{
+					id: "4F7D3C6536D3727E"
+					item: {
+						count: 1
+						id: "kubejs:coin_common"
+					}
+					type: "item"
+				}
+				{
+					id: "7EB3A9BC2AB2FCD4"
+					type: "xp"
+					xp: 10
+				}
+			]
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
@@ -49,6 +85,27 @@
 		{
 			dependencies: ["1BD496A10E957F25"]
 			id: "339F676C828C790D"
+			rewards: [
+				{
+					id: "178A32CBFEEBF8AD"
+					item: {
+						count: 1
+						id: "kubejs:coin_common"
+					}
+					type: "item"
+				}
+				{
+					id: "10E45D2B755E82E7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3BB9409BF94CFC11"
+					table_id: 2474147679282294712L
+					type: "random"
+				}
+			]
 			size: 2.0d
 			tasks: [{
 				count: 32L
@@ -62,6 +119,27 @@
 		{
 			dependencies: ["339F676C828C790D"]
 			id: "0BD4ABE561F1F2F7"
+			rewards: [
+				{
+					id: "137E9E978EB79232"
+					item: {
+						count: 1
+						id: "kubejs:coin_common"
+					}
+					type: "item"
+				}
+				{
+					id: "70A5BDBCE7108D5E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "56BCAC6ACB04C00F"
+					table_id: 2474147679282294712L
+					type: "random"
+				}
+			]
 			size: 2.0d
 			tasks: [{
 				id: "1610BCD0D7539A2C"
@@ -74,6 +152,27 @@
 		{
 			dependencies: ["0BD4ABE561F1F2F7"]
 			id: "4679B4825F85EBB5"
+			rewards: [
+				{
+					id: "4B04DD8D943C97F7"
+					item: {
+						count: 1
+						id: "kubejs:coin_common"
+					}
+					type: "item"
+				}
+				{
+					id: "7BCC6EACD9DA98C5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "019735ED403A011A"
+					table_id: 2474147679282294712L
+					type: "random"
+				}
+			]
 			size: 2.0d
 			tasks: [{
 				id: "2B9E9E9C9E8AEF1F"
@@ -86,6 +185,27 @@
 		{
 			dependencies: ["1BD496A10E957F25"]
 			id: "13FB4D096D94C939"
+			rewards: [
+				{
+					id: "58209D5E3DC8DD3A"
+					item: {
+						count: 1
+						id: "kubejs:coin_common"
+					}
+					type: "item"
+				}
+				{
+					id: "4A485F7B1D5EDA2A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "28D883800065358D"
+					table_id: 2474147679282294712L
+					type: "random"
+				}
+			]
 			shape: "rsquare"
 			tasks: [{
 				id: "41C4B6BE72489D1B"
@@ -98,6 +218,27 @@
 		{
 			dependencies: ["1BD496A10E957F25"]
 			id: "35B6D5329AD5C0F9"
+			rewards: [
+				{
+					id: "14335509E74AB3FD"
+					item: {
+						count: 1
+						id: "kubejs:coin_common"
+					}
+					type: "item"
+				}
+				{
+					id: "4AEE8E3542488172"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0E383C9C1DCB6543"
+					table_id: 2474147679282294712L
+					type: "random"
+				}
+			]
 			shape: "rsquare"
 			tasks: [{
 				id: "133ABB577737B679"
@@ -110,6 +251,27 @@
 		{
 			dependencies: ["1BD496A10E957F25"]
 			id: "2DA8C540DA9C30D7"
+			rewards: [
+				{
+					id: "30A33E3D4675E718"
+					item: {
+						count: 1
+						id: "kubejs:coin_common"
+					}
+					type: "item"
+				}
+				{
+					id: "7C27ED53342FCF32"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0A8CAA09AEA5C29D"
+					table_id: 2474147679282294712L
+					type: "random"
+				}
+			]
 			shape: "rsquare"
 			tasks: [{
 				id: "22A02FE049F04A43"
@@ -122,6 +284,27 @@
 		{
 			dependencies: ["1BD496A10E957F25"]
 			id: "0F6AA50379841563"
+			rewards: [
+				{
+					id: "5678484780880296"
+					item: {
+						count: 1
+						id: "kubejs:coin_common"
+					}
+					type: "item"
+				}
+				{
+					id: "10B447C27A8D5D44"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "42413E48010F9961"
+					table_id: 2474147679282294712L
+					type: "random"
+				}
+			]
 			shape: "rsquare"
 			tasks: [{
 				id: "5ADB3BD3F95DD00E"
@@ -134,6 +317,27 @@
 		{
 			dependencies: ["1BD496A10E957F25"]
 			id: "2BA611005741BE40"
+			rewards: [
+				{
+					id: "67C22B26C9EEFF7D"
+					item: {
+						count: 1
+						id: "kubejs:coin_common"
+					}
+					type: "item"
+				}
+				{
+					id: "1EE630E63809EC48"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "752C80E2CFCFB28C"
+					table_id: 2474147679282294712L
+					type: "random"
+				}
+			]
 			shape: "rsquare"
 			tasks: [{
 				id: "652439700E399AF8"
@@ -146,6 +350,27 @@
 		{
 			dependencies: ["1BD496A10E957F25"]
 			id: "250141B40163F07F"
+			rewards: [
+				{
+					id: "1E3F0729E9B41AAC"
+					item: {
+						count: 1
+						id: "kubejs:coin_common"
+					}
+					type: "item"
+				}
+				{
+					id: "418D3C6237A9F4D3"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "413A4F61AEE04AD4"
+					table_id: 2474147679282294712L
+					type: "random"
+				}
+			]
 			shape: "rsquare"
 			tasks: [{
 				id: "08E9CCE92AD74778"
@@ -158,6 +383,27 @@
 		{
 			dependencies: ["1BD496A10E957F25"]
 			id: "7464978AD0091E70"
+			rewards: [
+				{
+					id: "5D22B053DBDFB323"
+					item: {
+						count: 1
+						id: "kubejs:coin_common"
+					}
+					type: "item"
+				}
+				{
+					id: "745CEAD8D833600B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3E44FB4AADB39009"
+					table_id: 2474147679282294712L
+					type: "random"
+				}
+			]
 			shape: "rsquare"
 			tasks: [
 				{
@@ -177,11 +423,32 @@
 		{
 			dependencies: ["1BD496A10E957F25"]
 			id: "7C22C0CF7E733D13"
-			rewards: [{
-				id: "4151BE9854BF92BB"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "4151BE9854BF92BB"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3A94DBBC0884F6CD"
+					item: {
+						count: 1
+						id: "kubejs:coin_common"
+					}
+					type: "item"
+				}
+				{
+					id: "2726537F6E0F0083"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "20800479FEBE4445"
+					table_id: 2474147679282294712L
+					type: "random"
+				}
+			]
 			shape: "rsquare"
 			tasks: [{
 				id: "50657096074EC9EA"
@@ -194,6 +461,27 @@
 		{
 			dependencies: ["339F676C828C790D"]
 			id: "48D186B5AAECDD4E"
+			rewards: [
+				{
+					id: "79A454286A8172F2"
+					item: {
+						count: 1
+						id: "kubejs:coin_common"
+					}
+					type: "item"
+				}
+				{
+					id: "4A6257E81C19F612"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "22EFE66C2072F7A7"
+					table_id: 2474147679282294712L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "0220401C9E22DC6F"
 				item: { count: 1, id: "bankstorage:bank_1" }
@@ -205,6 +493,27 @@
 		{
 			dependencies: ["48D186B5AAECDD4E"]
 			id: "7CB40077EB4E575B"
+			rewards: [
+				{
+					id: "69C4429B5CD67DEA"
+					item: {
+						count: 1
+						id: "kubejs:coin_common"
+					}
+					type: "item"
+				}
+				{
+					id: "7EB589BDD43B9982"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "64C6481FF6FE7571"
+					table_id: 2474147679282294712L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "406C2ED09CA8B2D6"
 				item: { count: 1, id: "bankstorage:bank_dock" }
@@ -216,11 +525,32 @@
 		{
 			dependencies: ["1BD496A10E957F25"]
 			id: "69FC7941B3DAFDA5"
-			rewards: [{
-				id: "4495CAA26BF2651E"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "4495CAA26BF2651E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7264F9A44E98CA23"
+					item: {
+						count: 1
+						id: "kubejs:coin_common"
+					}
+					type: "item"
+				}
+				{
+					id: "084D458007579780"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7191B94EE7A2531F"
+					table_id: 2474147679282294712L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "35BCE02C75FD5E87"
 				item: { count: 1, id: "craftingstation:crafting_station" }

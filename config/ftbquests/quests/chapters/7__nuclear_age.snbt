@@ -79,7 +79,7 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["2F0042673C0E3910"]
+			dependencies: ["36521C02297A6BBD"]
 			id: "56A30502A268BB60"
 			rewards: [{
 				id: "72780BA84473D92A"
@@ -92,8 +92,8 @@
 				item: { count: 1, id: "modern_industrialization:mixed_plate_nuclear" }
 				type: "item"
 			}]
-			x: 6.5d
-			y: -1.5d
+			x: 8.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["56A30502A268BB60"]
@@ -109,7 +109,7 @@
 				item: { count: 1, id: "modern_industrialization:nuclear_alloy_plate" }
 				type: "item"
 			}]
-			x: 8.5d
+			x: 10.0d
 			y: -1.5d
 		}
 		{
@@ -154,7 +154,7 @@
 					type: "item"
 				}
 			]
-			x: 10.5d
+			x: 12.0d
 			y: -1.5d
 		}
 		{
@@ -169,7 +169,7 @@
 				id: "491DF9EF198E39A7"
 				type: "checkmark"
 			}]
-			x: 10.5d
+			x: 12.0d
 			y: -3.0d
 		}
 		{
@@ -187,7 +187,7 @@
 				item: { count: 1, id: "modern_industrialization:quantum_circuit" }
 				type: "item"
 			}]
-			x: 7.5d
+			x: 8.5d
 			y: 5.5d
 		}
 		{
@@ -221,7 +221,7 @@
 				item: { count: 1, id: "modern_industrialization:tritium_bucket" }
 				type: "item"
 			}]
-			x: 9.5d
+			x: 11.0d
 			y: 0.5d
 		}
 		{
@@ -310,7 +310,7 @@
 				item: { count: 1, id: "modern_industrialization:uranium_fuel_rod" }
 				type: "item"
 			}]
-			x: 13.0d
+			x: 14.5d
 			y: 2.5d
 		}
 		{
@@ -327,7 +327,7 @@
 				item: { count: 1, id: "modern_industrialization:uranium_fuel_rod_depleted" }
 				type: "item"
 			}]
-			x: 11.5d
+			x: 13.0d
 			y: 2.5d
 		}
 		{
@@ -362,7 +362,7 @@
 					type: "item"
 				}
 			]
-			x: 7.5d
+			x: 8.5d
 			y: 2.5d
 		}
 		{
@@ -379,7 +379,7 @@
 				item: { count: 1, id: "modern_industrialization:nuke" }
 				type: "item"
 			}]
-			x: 11.5d
+			x: 13.0d
 			y: 4.0d
 		}
 		{
@@ -447,7 +447,7 @@
 				item: { count: 1, id: "modern_industrialization:plutonium_dust" }
 				type: "item"
 			}]
-			x: 10.0d
+			x: 11.5d
 			y: 2.5d
 		}
 		{
@@ -464,7 +464,7 @@
 				item: { count: 1, id: "modern_industrialization:uranium_dust" }
 				type: "item"
 			}]
-			x: 11.5d
+			x: 13.0d
 			y: 0.5d
 		}
 		{
@@ -488,7 +488,7 @@
 					type: "item"
 				}
 			]
-			x: 13.0d
+			x: 14.5d
 			y: 0.5d
 		}
 		{
@@ -505,7 +505,7 @@
 				item: { count: 1, id: "modern_industrialization:quantum_machine_hull" }
 				type: "item"
 			}]
-			x: 7.5d
+			x: 8.5d
 			y: 8.0d
 		}
 		{
@@ -604,6 +604,61 @@
 			}]
 			x: -0.5d
 			y: 2.5d
+		}
+		{
+			dependencies: ["2F0042673C0E3910"]
+			id: "2296FC027EAF34E2"
+			tasks: [{
+				id: "3AE4934C709D066D"
+				item: { count: 1, id: "modern_industrialization:beryllium_sulfate_bucket" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2296FC027EAF34E2"]
+			id: "4CFA1740855847FE"
+			tasks: [{
+				id: "536B4B262E615A8C"
+				item: { count: 1, id: "modern_industrialization:beryllium_hydroxide_bucket" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4CFA1740855847FE"]
+			id: "3E7BA3A61D2C897C"
+			tasks: [{
+				id: "24A81AB791249D81"
+				item: { count: 1, id: "modern_industrialization:beryllium_chloride_bucket" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3E7BA3A61D2C897C"]
+			id: "1AA057FA136ECE2D"
+			tasks: [{
+				id: "599D47A555E96164"
+				item: { count: 1, id: "modern_industrialization:beryllium_dust" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1AA057FA136ECE2D"]
+			id: "36521C02297A6BBD"
+			tasks: [{
+				id: "633B0213114A4356"
+				item: { count: 1, id: "modern_industrialization:beryllium_ingot" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
 		}
 	]
 }

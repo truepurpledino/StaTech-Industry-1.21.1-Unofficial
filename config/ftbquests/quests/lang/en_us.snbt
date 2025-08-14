@@ -2109,6 +2109,7 @@
 		""
 		"It's time to up the &etech-level with these new machine hulls&r. &aNuclear Reactors&r and &3refining your processing chains&r will be needed to advanced through this chapter."
 	]
+	quest.2F0042673C0E3910.title: "Start of EV"
 	quest.2F133B5C4B1027C7.quest_desc: [
 		"&aFluid Hoppers&f are quite pricey in their Iron cost, but they will allow you to easily transfer fluids between two containers."
 		""
@@ -5556,6 +5557,9 @@
 		"These cables can transfer up to &e8192 EU/t&r and have an internal buffer of&6 8192 EU&r."
 	]
 	quest.7FD9582038C29150.title: "HV Cables"
+	reward_table.2255F034A97A6FB8.title: "chapter 1 common"
+	reward_table.2F502BDF8D994F1C.title: "chapter 2 common"
+	reward_table.4464DD5400E19514.title: "chapter 2 rare"
 	task.001551D902C63896.title: "NYI"
 	task.005451BD8D8A7C98.title: "Click to Acknowledge"
 	task.009F34F7B8D3FB45.title: "NYI"
