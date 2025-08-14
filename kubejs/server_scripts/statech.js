@@ -619,7 +619,8 @@ ServerEvents.tags('item', event => {
         'peridot',
         'clay',
         'kernite',
-        'cobalt'
+        'cobalt',
+        'acrylonitrile_butadiene_styrene'
     ]
 
     const baseparts = [

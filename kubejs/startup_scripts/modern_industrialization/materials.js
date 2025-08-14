@@ -154,6 +154,15 @@ MIMaterialEvents.addMaterials(event => {
                 .block('iron')
                 .defaultRecipes();
 	    });
+    
+    event.createMaterial('Acrylonitrile Butadiene Styrene (ABS)', 'acrylonitrile_butadiene_styrene', 0xfcefd6,
+        builder => {
+            builder
+                .hardness('soft')
+				.addParts('ingot', 'dust', 'plate', 'curved_plate')
+                .block('iron')
+                .defaultRecipes();
+	    });
 
     event.createMaterial('Enderium', 'enderium', 0x105e51,
         builder => {

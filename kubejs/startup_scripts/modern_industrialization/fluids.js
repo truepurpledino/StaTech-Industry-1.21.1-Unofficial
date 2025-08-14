@@ -293,4 +293,24 @@ MIRegistrationEvents.registerFluids(event => {
         false,
         'medium'
     );
+
+    // -- ACRYLONITRILE -- //
+    event.register(
+        'Acrylonitrile',
+        'acrylonitrile',
+        0xc9976e,
+        'water',
+        false,
+        'medium'
+    );
+
+    // -- ACRYLONITRILE BUTADIENE STYRENE -- //
+    event.register(
+        'Acrylonitrile Butadiene Styrene (ABS)',
+        'acrylonitrile_butadiene_styrene',
+        0xfcefd6,
+        'water',
+        false,
+        'high'
+    );
 });

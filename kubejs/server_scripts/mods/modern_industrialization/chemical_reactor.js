@@ -233,7 +233,7 @@ ServerEvents.recipes(event => {
         event,
         st('ammonia'),
         8,
-        200,
+        400,
         null,
         null,
         [ 
@@ -241,6 +241,41 @@ ServerEvents.recipes(event => {
             { amount: 750, fluid: mi('hydrogen') }
         ],
         [ { amount: 1000, fluid: mi('ammonia') } ]
+    );
+
+    // -- ACRYLONITRILE -- //
+    chemicalReactor(
+        event,
+        st('acrylonitrile'),
+        32,
+        200,
+        [ { amount: 1, item: mi('antimony_tiny_dust'), probability: 0.8 } ],
+        null,
+        [ 
+            { amount: 200, fluid: mi('propene') },
+            { amount: 200, fluid: mi('ammonia') },
+            { amount: 300, fluid: mi('oxygen') }
+        ],
+        [ 
+            { amount: 200, fluid: mi('acrylonitrile') },
+            { amount: 600, fluid: mc('water'), probability: 0.9 }
+         ]
+    );
+
+    // -- ACRYLONITRILE BUTADIENE STYRENE -- //
+    chemicalReactor(
+        event,
+        st('acrylonitrile_butadiene_styrene'),
+        8,
+        200,
+        [ { amount: 1, item: mi('chromium_tiny_dust')} ],
+        null,
+        [ 
+            { amount: 250, fluid: mi('acrylonitrile') },
+            { amount: 250, fluid: mi('styrene_butadiene') },
+            { amount: 50, fluid: mi('sulfuric_acid') }
+        ],
+        [ { amount: 700, fluid: mi('acrylonitrile_butadiene_styrene') } ]
     );
 
 });

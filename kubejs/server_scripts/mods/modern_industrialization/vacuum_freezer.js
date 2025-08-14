@@ -17,6 +17,17 @@ ServerEvents.recipes(event => {
         [ { amount: 1, item: mi('polytetrafluoroethylene_ingot') } ],
         [ { amount: 100, fluid: mi('polytetrafluoroethylene')}]
     );
+    
+    // -- ACRYLONITRILE BUTADIENE STYRENE INGOT -- //
+    vacuumFreezer(
+        event,
+        st('abs_ingot'),
+        32,
+        200,
+        null,
+        [ { amount: 1, item: mi('acrylonitrile_butadiene_styrene_ingot') } ],
+        [ { amount: 150, fluid: mi('acrylonitrile_butadiene_styrene')}]
+    );
 
     // -- TUNGSTENSTEEL INGOT -- //
     // vacuumFreezer(
