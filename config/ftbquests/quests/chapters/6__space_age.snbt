@@ -14,11 +14,18 @@
 			dependencies: ["4DEB3A5701AD3744"]
 			id: "1F7CD79E5CB9821E"
 			size: 2.0d
-			tasks: [{
-				id: "2A11FB574E6CF379"
-				item: { count: 1, id: "modern_industrialization:space_probe_launcher" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2A11FB574E6CF379"
+					item: { count: 1, id: "modern_industrialization:space_probe_launcher" }
+					type: "item"
+				}
+				{
+					id: "0A46D4B198C5A206"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:energy_input_hatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
 			x: 1.0d
 			y: 0.0d
 		}

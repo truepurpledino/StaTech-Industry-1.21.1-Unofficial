@@ -79,6 +79,11 @@
 					item: { count: 40, id: "modern_industrialization:fusion_chamber" }
 					type: "item"
 				}
+				{
+					id: "2925568E6FC1DD32"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:energy_input_hatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
 			]
 			x: 2.25d
 			y: 0.5d
@@ -438,11 +443,18 @@
 			}]
 			shape: "square"
 			size: 2.0d
-			tasks: [{
-				id: "06B2620A392D7946"
-				item: { count: 1, id: "modern_industrialization:singularity_forge" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "06B2620A392D7946"
+					item: { count: 1, id: "modern_industrialization:singularity_forge" }
+					type: "item"
+				}
+				{
+					id: "6BC8E61805B47B44"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:energy_input_hatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
 			x: 10.25d
 			y: 0.5d
 		}
@@ -456,11 +468,18 @@
 			}]
 			shape: "square"
 			size: 1.5d
-			tasks: [{
-				id: "3D8AFE27AFEA8A7F"
-				item: { count: 1, id: "modern_industrialization:core_drill" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3D8AFE27AFEA8A7F"
+					item: { count: 1, id: "modern_industrialization:core_drill" }
+					type: "item"
+				}
+				{
+					id: "0E8A5C744F2B7940"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:energy_input_hatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
 			x: 4.25d
 			y: 0.5d
 		}

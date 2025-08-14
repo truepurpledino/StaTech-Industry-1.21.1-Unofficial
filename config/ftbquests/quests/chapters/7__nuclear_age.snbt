@@ -11,6 +11,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["18CE795EB630611E"]
 			id: "2F0042673C0E3910"
 			rewards: [{
 				id: "684D19B399B4F784"
@@ -285,11 +286,18 @@
 			}]
 			shape: "square"
 			size: 1.5d
-			tasks: [{
-				id: "63CEF38E23A9D486"
-				item: { count: 1, id: "modern_industrialization:quantum_space_probe_launcher" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "63CEF38E23A9D486"
+					item: { count: 1, id: "modern_industrialization:quantum_space_probe_launcher" }
+					type: "item"
+				}
+				{
+					id: "3C60ABCB2979A2E5"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:energy_input_hatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
 			x: 3.5d
 			y: 4.5d
 		}

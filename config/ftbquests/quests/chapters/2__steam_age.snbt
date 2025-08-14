@@ -1048,22 +1048,22 @@
 				}
 				{
 					id: "589F426DE0D734E2"
-					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(modern_industrialization:fluid_input_hatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:fluid_input_hatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
 					id: "7F2915A7CEE76E01"
-					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(modern_industrialization:fluid_output_hatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:fluid_output_hatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
 					id: "263444CA8BBFE180"
-					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(modern_industrialization:item_input_hatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:item_input_hatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
 					id: "6BB46AB516F670EE"
-					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(modern_industrialization:item_output_hatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:item_output_hatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 			]
@@ -1313,17 +1313,17 @@
 				}
 				{
 					id: "4003DF22E9F29CAF"
-					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(modern_industrialization:fluid_input_hatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:fluid_input_hatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
 					id: "549173CDF1544314"
-					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(modern_industrialization:item_input_hatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:item_input_hatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
 					id: "4D2579B878EE1D0D"
-					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(modern_industrialization:item_output_hatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:item_output_hatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 			]
@@ -1435,7 +1435,7 @@
 				item: { count: 1, id: "modern_industrialization:rubber_sheet" }
 				type: "item"
 			}]
-			x: 30.5d
+			x: 30.0d
 			y: -4.0d
 		}
 		{
@@ -1489,7 +1489,7 @@
 					type: "item"
 				}
 			]
-			x: 33.0d
+			x: 32.5d
 			y: -4.0d
 		}
 		{
@@ -1523,7 +1523,7 @@
 				item: { count: 1, id: "modern_industrialization:analog_circuit" }
 				type: "item"
 			}]
-			x: 33.0d
+			x: 32.5d
 			y: -8.5d
 		}
 		{
@@ -1559,7 +1559,7 @@
 				item: { count: 1, id: "modern_industrialization:steel_ingot" }
 				type: "item"
 			}]
-			x: 33.0d
+			x: 32.5d
 			y: 0.0d
 		}
 		{
@@ -1659,7 +1659,7 @@
 				item: { count: 1, id: "modern_industrialization:config_card" }
 				type: "item"
 			}]
-			x: 35.0d
+			x: 34.5d
 			y: -3.5d
 		}
 		{
@@ -1699,6 +1699,9 @@
 		}
 		{
 			dependencies: ["1CB630CE60F8B860"]
+			icon: {
+				id: "modern_industrialization:steam_quarry"
+			}
 			id: "4609310E0F2CBE02"
 			rewards: [
 				{
@@ -1749,17 +1752,17 @@
 				}
 				{
 					id: "4B8D8848A930FAD0"
-					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(modern_industrialization:item_input_hatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:item_input_hatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
 					id: "7B5A9951D239D081"
-					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(modern_industrialization:item_output_hatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:item_output_hatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
 					id: "00C980F4D867390D"
-					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(modern_industrialization:fluid_input_hatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:fluid_input_hatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 			]
@@ -2522,7 +2525,7 @@
 			size: 2.0d
 			tasks: [{
 				id: "23C98B88322298BA"
-				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(modern_industrialization:cables/lv)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:lv_wire)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 40.0d
@@ -2744,7 +2747,7 @@
 				item: { count: 1, id: "modern_industrialization:portable_storage_unit" }
 				type: "item"
 			}]
-			x: 32.5d
+			x: 32.0d
 			y: -10.5d
 		}
 		{
@@ -2778,7 +2781,7 @@
 				item: { count: 1, id: "modern_industrialization:configurable_chest" }
 				type: "item"
 			}]
-			x: 33.5d
+			x: 33.0d
 			y: -10.5d
 		}
 		{
@@ -2837,21 +2840,21 @@
 				}
 				{
 					id: "3CE135A5298E5A62"
-					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(modern_industrialization:fluid_input_hatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:fluid_input_hatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
 					id: "1FEE1621403E20F6"
-					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(modern_industrialization:fluid_output_hatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:fluid_output_hatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
 					id: "47212208CD54413D"
-					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(modern_industrialization:item_input_hatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:item_input_hatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 			]
-			x: 30.5d
+			x: 30.0d
 			y: -8.5d
 		}
 		{
@@ -2904,17 +2907,17 @@
 				}
 				{
 					id: "1F0A2F22DEFCA291"
-					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(modern_industrialization:fluid_input_hatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:fluid_input_hatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
 					id: "2024A3B3CA873BFF"
-					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(modern_industrialization:item_input_hatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:item_input_hatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
 					id: "603B7FEBD79D0F0D"
-					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(modern_industrialization:item_output_hatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:item_output_hatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 			]
@@ -3156,7 +3159,7 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["726994F1ADADFD28"]
+			dependencies: ["26A89C51A7B9FFDE"]
 			id: "547CCB129043BEE6"
 			rewards: [
 				{
@@ -3339,7 +3342,7 @@
 				item: { count: 1, id: "extended_industrialization:machine_config_card" }
 				type: "item"
 			}]
-			x: 35.0d
+			x: 34.5d
 			y: -4.5d
 		}
 		{
@@ -3417,7 +3420,7 @@
 				item: { count: 1, id: "modern_industrialization:redstone_control_module" }
 				type: "item"
 			}]
-			x: 36.0d
+			x: 35.5d
 			y: -4.0d
 		}
 		{
@@ -3450,7 +3453,7 @@
 				item: { count: 1, id: "extended_industrialization:large_configurable_chest" }
 				type: "item"
 			}]
-			x: 33.5d
+			x: 33.0d
 			y: -11.5d
 		}
 		{
@@ -3613,6 +3616,18 @@
 			}]
 			x: 1.5d
 			y: -3.5d
+		}
+		{
+			dependencies: ["26A89C51A7B9FFDE"]
+			id: "473E19E8841D003F"
+			shape: "rsquare"
+			tasks: [{
+				id: "0AE2A52951572011"
+				item: { count: 1, id: "extended_industrialization:steel_alloy_smelter" }
+				type: "item"
+			}]
+			x: 29.5d
+			y: 3.5d
 		}
 	]
 }
