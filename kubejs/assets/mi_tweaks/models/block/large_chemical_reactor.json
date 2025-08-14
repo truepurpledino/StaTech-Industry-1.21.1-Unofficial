@@ -9,4 +9,3 @@
     },
     "loader": "modern_industrialization:machine"
 }
-console.log("loaded large_chemical_reactor.json in assets")

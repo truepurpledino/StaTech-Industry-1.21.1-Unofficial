@@ -1,4 +1,3 @@
 {
     "parent": "mi_tweaks:block/large_chemical_reactor"
 }
-console.log("loaded large_chemical_reactor.json in assets")

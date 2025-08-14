@@ -20,6 +20,7 @@ ServerEvents.recipes(event => {
         300,
         [ { amount: 4, tag: mc('logs') } ],
         [ { amount: 6, item: mc('charcoal') } ],
+        null,
         [ { amount: 250, fluid: mi('wood_tar') } ]
     );
 });
