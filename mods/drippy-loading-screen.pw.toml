@@ -1,6 +1,6 @@
 name = "Drippy Loading Screen"
 filename = "drippyloadingscreen_neoforge_3.0.12_MC_1.21.1.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"

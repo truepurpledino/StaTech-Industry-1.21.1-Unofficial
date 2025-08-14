@@ -1,6 +1,6 @@
 name = "Falling Leaves (NeoForge/Forge)"
 filename = "fallingleaves-1.21.1-2.5.1.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"

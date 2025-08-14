@@ -1,6 +1,6 @@
 name = "Monocle"
 filename = "monocle-0.2.2.ms.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"

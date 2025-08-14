@@ -1,6 +1,6 @@
 name = "Free Look or Perspective [NeoForge]"
 filename = "free_look_neoforge 1.21.0 - 1.21.6 V11.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"

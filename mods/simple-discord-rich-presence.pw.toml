@@ -1,6 +1,6 @@
 name = "Simple Discord Rich Presence (Forge /  Fabric)"
 filename = "SimpleDiscordRichPresence-neoforge-87.0.1-build.49+mc1.21.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"

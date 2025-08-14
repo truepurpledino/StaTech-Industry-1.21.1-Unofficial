@@ -1,6 +1,6 @@
 name = "FPS Reducer"
 filename = "FpsReducer2-neoforge-1.21-2.10.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"

@@ -1,6 +1,6 @@
 name = "Modern World Creation"
 filename = "modernworldcreation_neoforge_2.0.1_MC_1.21.1.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"
