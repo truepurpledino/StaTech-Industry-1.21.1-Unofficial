@@ -12,3 +12,5 @@ let ch = (id) => `chisel:${id}`;
 let xt = (id) => `xtonesreworked:${id}`;
 let sl = (id) => `simplylight:${id}`;
 let ei = (id) => `extended_industrialization:${id}`;
+let ae = (id) => `ae2:${id}`;
+let me = (id) => `megacells:${id}`;

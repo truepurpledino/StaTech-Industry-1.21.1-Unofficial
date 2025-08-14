@@ -175,3 +175,7 @@ let vacuumFreezer = (event, id, eu, duration, item_inputs, item_outputs, fluid_i
 let telescope = (event, id, eu, duration, item_inputs, item_outputs, fluid_inputs) => {
     event.custom(newMachineRecipe(mi('telescope'), eu, duration, item_inputs, item_outputs, fluid_inputs)).id(id);
 }
+
+let supercomputer = (event, id, eu, duration, item_inputs, item_outputs, fluid_inputs) => {
+    event.custom(newMachineRecipe(mi('supercomputer'), eu, duration, item_inputs, item_outputs, fluid_inputs)).id(id);
+}

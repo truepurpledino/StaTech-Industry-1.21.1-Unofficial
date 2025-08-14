@@ -9,5 +9,6 @@ MIMachineEvents.registerCasings(event => {
     event.registerNamed('ptfe_machine_casing', 'Polytetrafluoroethylene Machine Casing');
 	event.registerBlockImitation('chemically_inert_ptfe_casing', 'modern_industrialization:chemically_inert_ptfe_casing');
 	event.registerBlockImitation('tungstensteel_machine_casing', 'modern_industrialization:tungstensteel_machine_casing');
+	event.registerBlockImitation('sky_steel_machine_casing', 'megacells:sky_steel_block');
 });
 
