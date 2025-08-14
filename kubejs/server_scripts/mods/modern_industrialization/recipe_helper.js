@@ -143,7 +143,6 @@ let unpacker = (event, id, eu, duration, item_inputs, item_outputs) => {
     event.custom(newMachineRecipe(mi('unpacker'), eu, duration, item_inputs, item_outputs)).id(id);
 }
 
-
 let photoChamber = (event, id, eu, duration, item_inputs, item_outputs, fluid_inputs) => {
     event.custom(newMachineRecipe(mi('photosynthetic_chamber'), eu, duration, item_inputs, item_outputs, fluid_inputs)).id(id);
 }
