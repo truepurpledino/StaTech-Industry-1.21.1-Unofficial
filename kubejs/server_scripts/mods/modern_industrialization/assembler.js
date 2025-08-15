@@ -24,6 +24,17 @@ ServerEvents.recipes(event => {
         ei('tool/assembler/tesla_handheld_receiver')
     ];
     REMOVED_RECIPE.forEach(id => event.remove({id: id}));
+    
+    // -- LENS MOLD -- //
+    assembler(
+        event,
+        st('lens_mold'),
+        32,
+        200,
+        [ { amount: 4, item: mi('stainless_steel_plate') } ],
+        [ { amount: 1, item: kj('lens_mold')} ],
+        [ { amount: 100, fluid: mi('polytetrafluoroethylene') } ]
+    )
 
     // -- PERSONAL SPACE SHIELD -- //
     assembler(

@@ -4,7 +4,7 @@
 // -----------------------------------------
 
 // Generic function for adding MI machine recipes
-let newMachineRecipe = (type, eu, duration, item_inputs, item_outputs, fluid_inputs, fluid_outputs, adjacentBlock, adjacentBlockPos) => {
+let newMachineRecipe = (type, eu, duration, item_inputs, item_outputs, fluid_inputs, fluid_outputs, process_conditions) => {
     let newRecipe = {
         type: type,
         eu: eu,
@@ -15,13 +15,7 @@ let newMachineRecipe = (type, eu, duration, item_inputs, item_outputs, fluid_inp
     if (item_outputs) newRecipe['item_outputs'] = item_outputs;
     if (fluid_inputs) newRecipe['fluid_inputs'] = fluid_inputs;
     if (fluid_outputs) newRecipe['fluid_outputs'] = fluid_outputs;
-    if (adjacentBlock && adjacentBlockPos) newRecipe['process_conditions'] = [
-        {
-            type: mi('adjacent_block'),
-            block: adjacentBlock,
-            position: adjacentBlockPos
-        }
-    ]
+    if (process_conditions) newRecipe['process_conditions'] = process_conditions;
 
     return newRecipe;
 }
@@ -92,7 +86,15 @@ let fusion = (event, id, eu, duration, fluid_inputs, fluid_outputs) => {
 }
 
 let greenhouse = (event, id, eu, duration, item_inputs, item_outputs, fluid_inputs, adjacent_block, adjacent_block_pos) => {
-    event.custom(newMachineRecipe(mi('greenhouse'), eu, duration, item_inputs, item_outputs, fluid_inputs, null, adjacent_block, adjacent_block_pos)).id(id);
+    let process_conditions;
+    if (adjacent_block && adjacent_block_pos) {
+        process_conditions = [{
+            type: mi('adjacent_block'),
+            block: adjacent_block,
+            position: adjacent_block_pos
+        }];
+    }
+    event.custom(newMachineRecipe(mi('greenhouse'), eu, duration, item_inputs, item_outputs, fluid_inputs, null, process_conditions)).id(id);
 }
 
 let heatExchanger = (event, id, eu, duration, item_inputs, item_outputs, fluid_inputs, fluid_outputs) => {
@@ -164,7 +166,15 @@ let singularityForge = (event, id, eu, duration, item_inputs, item_outputs, flui
 }
 
 let spl = (event, id, eu, duration, item_inputs, item_outputs, adjacent_block, adjacent_block_pos) => {
-    event.custom(newMachineRecipe(mi('space_probe_launcher'), eu, duration, item_inputs, item_outputs, null, null, adjacent_block, adjacent_block_pos)).id(id);
+    let process_conditions = [{
+        type: mi('adjacent_block'),
+        block: adjacent_block,
+        position: adjacent_block_pos
+    }, {
+        type: mi('dimension'),
+        dimension: 'statech:space'
+    }];
+    event.custom(newMachineRecipe(mi('space_probe_launcher'), eu, duration, item_inputs, item_outputs, null, null, process_conditions)).id(id);
 }
 
 let vacuumFreezer = (event, id, eu, duration, item_inputs, item_outputs, fluid_inputs, fluid_outputs) => {
@@ -172,7 +182,11 @@ let vacuumFreezer = (event, id, eu, duration, item_inputs, item_outputs, fluid_i
 }
 
 let telescope = (event, id, eu, duration, item_inputs, item_outputs, fluid_inputs) => {
-    event.custom(newMachineRecipe(mi('telescope'), eu, duration, item_inputs, item_outputs, fluid_inputs)).id(id);
+    let process_conditions = [{
+        type: mi('dimension'),
+        dimension: 'statech:space'
+    }];
+    event.custom(newMachineRecipe(mi('telescope'), eu, duration, item_inputs, item_outputs, fluid_inputs, null, process_conditions)).id(id);
 }
 
 let supercomputer = (event, id, eu, duration, item_inputs, item_outputs, fluid_inputs) => {

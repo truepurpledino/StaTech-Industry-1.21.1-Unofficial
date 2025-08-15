@@ -27,6 +27,16 @@ ServerEvents.recipes(event => {
     // -- MOD NAMESPACE UTILITY FUNCTIONS -- // 
     let st = (id) => `statech:modern_industrialization/space_probe_launcher/${id}`;
 
+    // not a fan of using the MI recipe format, but I could not get the full tank with nbt to work with traditional methods
+    // -- RESEARCH PROBE (STAR) -- //
+    event.recipes.modern_industrialization.space_probe_launcher(32, 600)
+        .itemIn(kj('research_probe'))
+        .itemIn(kj('star_location_telemetry'))
+        .itemOut(Item.of('modern_industrialization:aluminum_tank[modern_industrialization:fluid_storage={amount:64000L,resource:{id:"modern_industrialization:stellar_plasma"}}]'))
+        .dimension('statech:space')
+        .adjacentBlock(kj('mki_probe_computer'), 'below')
+        .id(st('research_probe_star'));
+        
     // -- SPACE PROBE -- //
     spl(
         event,
@@ -41,6 +51,7 @@ ServerEvents.recipes(event => {
         kj('mki_probe_computer'),
         'below'
     ); 
+
     spl(
         event,
         st('advanced_space_probe'),
@@ -53,6 +64,7 @@ ServerEvents.recipes(event => {
         kj('mkii_probe_computer'),
         'below'
     ); 
+    
     spl(
         event,
         st('highly_advanced_space_probe'),

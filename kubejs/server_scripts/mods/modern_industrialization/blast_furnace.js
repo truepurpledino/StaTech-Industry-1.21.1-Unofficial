@@ -16,6 +16,20 @@ ServerEvents.recipes(event => {
     ];
     REMOVED_RECIPES.forEach(id => event.remove({id: id}));
 
+    // -- SHORT RANGE LENS -- //
+    blastFurnace(
+        event,
+        st('short_range_lens'),
+        24,
+        200,
+        [
+            { amount: 1, item: kj('lens_mold'), probability: 0.0 },
+            { amount: 1, item: mi('silicon_dust') }
+        ],
+        [ { amount: 1, item: kj('short_range_lens'), probability: 0.3 } ],
+        [ { amount: 200, fluid: mi('oxygen') } ]
+    );
+
     // -- NETHER STAR -> MOLTEN NETHER STAR -- //
     blastFurnace(
         event,

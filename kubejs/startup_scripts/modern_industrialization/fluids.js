@@ -4,6 +4,16 @@
 // -----------------------------------------
 
 MIRegistrationEvents.registerFluids(event => {
+    // -- STELLAR PLASMA -- //
+    event.register(
+        'Stellar Plasma',           // English name
+        'stellar_plasma',           // internal name
+        0xF2D23A,                   // Hex color code
+        'plasma',                   // Texture type
+        false,                      // is a gas?
+        'high',                     // opacity
+    );
+
     // -- DRAGON'S BLOOD -- //
     event.register(
         'Dragon\'s Blood',           // English name

@@ -6,6 +6,58 @@
 ServerEvents.recipes(event => {
     // -- MOD NAMESPACE UTILITY FUNCTIONS -- // 
     let st = (id) => `statech:modern_industrialization/laser_engraver/${id}`;
+
+    // -- STAR LOCATION TELEMETRY -- //
+    laserEngraver(
+        event,
+        st('star_location_telemetry'),
+        16,
+        200,
+        [
+            { amount: 1, item: kj('star_data') },
+            { amount: 1, item: mi('digital_circuit_board') }
+        ],
+        [ { amount: 1, item: kj('star_location_telemetry') } ]
+    );
+
+    // -- PLANETARY LOCATION TELEMETRY -- //
+    laserEngraver(
+        event,
+        st('planetary_location_telemetry'),
+        16,
+        200,
+        [
+            { amount: 1, item: kj('planetary_data') },
+            { amount: 1, item: mi('digital_circuit_board') }
+        ],
+        [ { amount: 1, item: kj('planetary_location_telemetry') } ]
+    );
+
+    // -- BLACK HOLE LOCATION TELEMETRY -- //
+    laserEngraver(
+        event,
+        st('black_hole_location_telemetry'),
+        16,
+        200,
+        [
+            { amount: 1, item: kj('black_hole_data') },
+            { amount: 1, item: mi('digital_circuit_board') }
+        ],
+        [ { amount: 1, item: kj('black_hole_location_telemetry') } ]
+    );
+
+    // -- ANOMALY LOCATION TELEMETRY -- //
+    laserEngraver(
+        event,
+        st('anomaly_location_telemetry'),
+        16,
+        200,
+        [
+            { amount: 1, item: kj('anomalous_stellar_data') },
+            { amount: 1, item: mi('digital_circuit_board') }
+        ],
+        [ { amount: 1, item: kj('anomaly_location_telemetry') } ]
+    );
     
     // -- PRINTED SILICON -- //
     laserEngraver(
