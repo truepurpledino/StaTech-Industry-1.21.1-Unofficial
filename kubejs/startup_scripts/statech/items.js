@@ -48,7 +48,7 @@ StartupEvents.registry('item', event => {
     event.create('star_imploder')
         .rarity('Epic')
         .displayName('Star Imploder')
-        .tooltip('§aDeliver using a Research Probe, causes a star to enter supernova');
+        .tooltip('§aDeliver using a Research Probe\n§cCauses a star to enter supernova');
     
     event.create('dark_matter')
         .displayName('Dark Matter')
@@ -56,7 +56,7 @@ StartupEvents.registry('item', event => {
     
     event.create('antimatter_housing')
         .displayName('Antimatter Housing')
-        .tooltip('§aUsed to safely store antimatter\n$cDon\'t drop it...');
+        .tooltip('§aUsed to safely store antimatter\n§cDon\'t drop it...');
     
     event.create('antimatter')
         .displayName('Antimatter')
