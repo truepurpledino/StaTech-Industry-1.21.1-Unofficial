@@ -30,6 +30,18 @@ ServerEvents.recipes(event => {
         M: mi('large_advanced_motor')
     })
     .id(st('multi_processing_array'));
+
+    // -- MULTIBLOCK BUILDER (TERMINAL) -- //
+    event.shaped(io('terminal'), [
+        'AGA',
+        'ACA'
+    ],
+    {
+        A: '#c:plates/aluminum',
+        G: '#c:glass_panes',
+        C: mi('analog_circuit')
+    })
+    .id(st('terminal'));
 });
 
 
