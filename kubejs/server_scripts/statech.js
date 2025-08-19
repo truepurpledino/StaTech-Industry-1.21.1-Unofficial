@@ -621,7 +621,8 @@ ServerEvents.tags('item', event => {
         'kernite',
         'cobalt',
         'acrylonitrile_butadiene_styrene',
-        'boron'
+        'boron',
+        'fluorite'
     ]
 
     const baseparts = [
