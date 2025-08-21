@@ -39,3 +39,4 @@ let an = (id) => `angelring:${id}`;
 let jh = (id) => `justhammers:${id}`;
 let ta = (id) => `travelanchors:${id}`;
 let ec = (id) => `explorerscompass:${id}`;
+let nm = (id) => `nomansland:${id}`;

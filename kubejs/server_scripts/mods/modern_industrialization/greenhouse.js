@@ -18,7 +18,12 @@ ServerEvents.recipes(event => {
         [ mc('acacia_sapling'),                 mc('acacia_log'),               mc('acacia_leaves'),                    mc('water') ],
         [ mc('mangrove_propagule'),             mc('mangrove_log'),             mc('mangrove_leaves'),                  mc('water') ],
         [ mc('crimson_fungus'),                 mc('crimson_stem'),             mc('nether_wart_block'),                mi('blood') ],
-        [ mc('warped_fungus'),                  mc('warped_stem'),              mc('warped_wart_block'),                mi('blood') ]
+        [ mc('warped_fungus'),                  mc('warped_stem'),              mc('warped_wart_block'),                mi('blood') ],
+        [ nm('pine_sapling'),                   nm('pine_log'),                 nm('pine_leaves'),                      mc('water') ],
+        [ nm('maple_sapling'),                  nm('maple_log'),                nm('maple_leaves'),                     mc('water') ],
+        [ nm('red_maple_sapling'),              nm('maple_log'),                nm('red_maple_leaves'),                 mc('water') ],
+        [ nm('walnut_sapling'),                 nm('walnut_log'),               nm('walnut_leaves'),                    mc('water') ],
+        [ nm('willow_sapling'),                 nm('willow_log'),               nm('willow_leaves'),                    mc('water') ]
         // [ ap('twisted_sapling'),                ap('twisted_log'),              ap('twisted_leaves'),                   mi('blood') ],
         // [ bl('white_oak_sapling'),              bl('white_oak_sapling'),        bl('white_oak_leaves'),                 mc('water') ],
         // [ bl('legacy_sapling'),                 bl('legacy_log'),               bl('legacy_leaves'),                    mc('water') ],

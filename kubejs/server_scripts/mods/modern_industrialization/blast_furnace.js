@@ -158,7 +158,7 @@ ServerEvents.recipes(event => {
     // -- BOROSILICATE GLASS -- //
     blastFurnace(
         event,
-        st('fluorine'),
+        st('borosilicate_glass'),
         16,
         200,
         [ 
