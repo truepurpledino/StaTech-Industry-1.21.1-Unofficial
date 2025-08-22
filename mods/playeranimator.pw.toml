@@ -1,6 +1,6 @@
 name = "playerAnimator"
 filename = "player-animation-lib-forge-2.0.1+1.21.1.jar"
-side = "client"
+side = "both"
 
 [download]
 hash-format = "sha1"

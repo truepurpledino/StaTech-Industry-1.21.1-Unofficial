@@ -1,0 +1,6 @@
+#Inventory sorter blacklists
+[blacklists]
+	#Container blacklist
+	containerBlacklist = ["ae2:controller_networkstatus", "ae2:inscriber", "ae2:formationplane", "ae2:energy_level_emitter", "ae2:cellworkbench", "ae2:condenser", "ae2:drive", "ae2:craftingstatus", "ae2:basic_cell_chest", "curios:curios_container", "ae2:export_bus", "ae2:craftingterm", "ae2:craftconfirm", "ae2:craftingcpu", "ae2:craftamount"]
+	#Slot type blacklist
+	slotBlacklist = ["net.p3pp3rf1y.sophisticatedcore.upgrades.FilterLogicContainer$FilterLogicSlot", "net.p3pp3rf1y.sophisticatedcore.common.gui.SlotSuppliedHandler", "net.p3pp3rf1y.sophisticatedcore.common.gui.FilterSlotItemHandler", "com.simibubi.create.content.logistics.redstoneRequester.RedstoneRequesterMenu$SorterProofSlot", "net.p3pp3rf1y.sophisticatedcore.common.gui.StorageInventorySlot", "net.p3pp3rf1y.sophisticatedcore.common.gui.StorageContainerMenuBase$StorageUpgradeSlot"]

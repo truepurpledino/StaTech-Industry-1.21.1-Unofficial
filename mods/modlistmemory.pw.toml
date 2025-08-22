@@ -1,6 +1,6 @@
 name = "ModListMemory"
 filename = "modlistmemory-neoforge-1.0.0+1.21+bm-1.1.15.jar"
-side = "client"
+side = "both"
 
 [download]
 hash-format = "sha1"

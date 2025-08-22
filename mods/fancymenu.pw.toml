@@ -1,6 +1,6 @@
 name = "FancyMenu"
 filename = "fancymenu_neoforge_3.6.4_MC_1.21.1.jar"
-side = "client"
+side = "both"
 
 [download]
 hash-format = "sha1"

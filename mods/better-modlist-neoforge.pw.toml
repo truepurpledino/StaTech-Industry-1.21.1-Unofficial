@@ -1,6 +1,6 @@
 name = "Better Modlist"
 filename = "better_modlist-1.1.19.jar"
-side = "client"
+side = "both"
 
 [download]
 hash-format = "sha1"

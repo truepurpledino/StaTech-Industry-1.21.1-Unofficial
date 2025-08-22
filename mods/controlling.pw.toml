@@ -1,6 +1,6 @@
 name = "Controlling"
 filename = "Controlling-neoforge-1.21.1-19.0.5.jar"
-side = "client"
+side = "both"
 
 [download]
 hash-format = "sha1"

@@ -1,6 +1,6 @@
 name = "Colorful Hearts"
 filename = "colorfulhearts-neoforge-1.21.1-10.5.9.jar"
-side = "client"
+side = "both"
 
 [download]
 hash-format = "sha1"

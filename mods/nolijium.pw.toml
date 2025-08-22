@@ -1,6 +1,6 @@
 name = "Nolijium"
 filename = "nolijium-0.5.6.jar"
-side = "client"
+side = "both"
 
 [download]
 hash-format = "sha1"

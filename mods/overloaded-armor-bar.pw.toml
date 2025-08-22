@@ -1,6 +1,6 @@
 name = "Overloaded Armor Bar"
 filename = "overloadedarmorbar-neoforge-1.21-2.jar"
-side = "client"
+side = "both"
 
 [download]
 hash-format = "sha1"

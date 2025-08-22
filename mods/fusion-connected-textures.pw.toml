@@ -1,6 +1,6 @@
 name = "Fusion (Connected Textures)"
 filename = "fusion-1.2.10-neoforge-mc1.21.jar"
-side = "client"
+side = "both"
 
 [download]
 hash-format = "sha1"

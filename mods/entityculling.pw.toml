@@ -1,6 +1,6 @@
 name = "Entity Culling Fabric/Forge"
 filename = "entityculling-neoforge-1.8.2-mc1.21.jar"
-side = "client"
+side = "both"
 
 [download]
 hash-format = "sha1"

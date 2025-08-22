@@ -1,6 +1,6 @@
 name = "TooManyRecipeViewers (TMRV)"
 filename = "toomanyrecipeviewers-0.6.2+mc.21.1.jar"
-side = "client"
+side = "both"
 
 [download]
 hash-format = "sha1"
