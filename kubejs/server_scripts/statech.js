@@ -643,7 +643,8 @@ ServerEvents.tags('item', event => {
         '_tiny_dust', 
         '_dust', 
         '_ingot',
-        '_ore'
+        '_ore',
+        '_nugget'
     ];
 
 
