@@ -8,8 +8,8 @@ ServerEvents.recipes(event => {
     let st = (id) => `statech:megacells/${id}`;
 
     const ingotsToPlates = [
-        ["sky_steel_ingot", "sky_steel_plate"],
-        ["sky_bronze_ingot", "sky_bronze_plate"]
+        ['sky_steel_ingot', 'sky_steel_plate'],
+        ['sky_bronze_ingot', 'sky_bronze_plate']
     ]
 
     // -- REPLACE INGOTS INTO PLATES FOR CELLS -- //
@@ -35,17 +35,17 @@ ServerEvents.recipes(event => {
      event.custom({
         type: 'ae2:transform',
         circumstance: {
-            "type": "fluid",
-            "tag": "minecraft:lava"
+            'type': 'fluid',
+            'tag': 'minecraft:lava'
         },
         ingredients: [
-            {"item": "ae2:charged_certus_quartz_crystal"},
-            {"tag": "c:ingots/annealed_copper"},
-            {"item": "ae2:sky_stone_block"}
+            {'item': 'ae2:charged_certus_quartz_crystal'},
+            {'tag': 'c:ingots/annealed_copper'},
+            {'item': 'ae2:sky_stone_block'}
         ],
         result: {
-            "count": 2,
-            "id": "megacells:sky_bronze_ingot"
+            'count': 2,
+            'id': 'megacells:sky_bronze_ingot'
         }
     })
     .id(st('sky_bronze_ingot_inworld'));
@@ -53,21 +53,39 @@ ServerEvents.recipes(event => {
     event.custom({
         type: 'ae2:transform',
         circumstance: {
-            "type": "fluid",
-            "tag": "minecraft:lava"
+            'type': 'fluid',
+            'tag': 'minecraft:lava'
         },
         ingredients: [
-            {"item": "ae2:charged_certus_quartz_crystal"},
-            {"tag": "c:ingots/stainless_steel"},
-            {"item": "ae2:sky_stone_block"}
+            {'item': 'ae2:charged_certus_quartz_crystal'},
+            {'tag': 'c:ingots/stainless_steel'},
+            {'item': 'ae2:sky_stone_block'}
         ],
         result: {
-            "count": 2,
-            "id": "megacells:sky_steel_ingot"
+            'count': 2,
+            'id': 'megacells:sky_steel_ingot'
         }
     })
     .id(st('sky_steel_ingot_inworld'));
 
-
-
+    event.custom({
+        type: 'extendedae:crystal_assembler',
+        input_items: [
+            {
+                ingredient: { item: 'ae2:logic_processor_press' }
+            },
+            {
+                amount: 4,
+                ingredient: { item: 'modern_industrialization:sky_steel_plate' }
+            },
+            {
+                amount: 4,
+                ingredient: { item: 'modern_industrialization:sky_bronze_plate' }
+            }
+        ],
+        output: {
+            id: 'megacells:accumulation_processor_press',
+            count: 1
+        }
+    });
 })
