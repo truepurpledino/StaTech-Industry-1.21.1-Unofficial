@@ -1,0 +1,7 @@
+{
+	ultimine_enable: {
+		name: "ultimine_enable"
+		power: 5
+		ftbultimine.max_blocks: 64.0d
+	}
+}

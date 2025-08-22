@@ -13,6 +13,14 @@
 		{
 			dependencies: ["35F8044D376C6428"]
 			id: "54AA08D0869CB19B"
+			rewards: [{
+				command: "/ftbranks add @p ultimine_enable"
+				icon: {
+					id: "artifacts:pickaxe_heater"
+				}
+				id: "497512166D146948"
+				type: "command"
+			}]
 			shape: "hexagon"
 			size: 3.0d
 			tasks: [{
