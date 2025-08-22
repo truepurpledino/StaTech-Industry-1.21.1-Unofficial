@@ -442,7 +442,7 @@ hash = "4db8390cb24ac4fed44c31aeec2c72eb94179ad19d24de94f8b535e5e27166eb"
 
 [[files]]
 file = "config/modern_industrialization-startup.toml"
-hash = "12fc3b68392f50c87e33d1679e02419034f5d155d8851878d611eb4a2a39a2d4"
+hash = "994a6909bd9e3a9b529324bd3ada88e65c2a0b3c7695dfa06088d6f50ea2a75d"
 
 [[files]]
 file = "config/paperdoll.json"
@@ -8273,7 +8273,7 @@ metafile = true
 
 [[files]]
 file = "mods/pastel.pw.toml"
-hash = "2f75d781a7d8c509de3793348edab9ce3e6cdcbceb50a3193323712cfed6fcc7"
+hash = "ef39803bc82cbd30c1f0447898baaf1aca7b97e7b253e70acfd77f361266b41d"
 metafile = true
 
 [[files]]
