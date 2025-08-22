@@ -663,6 +663,20 @@ ServerEvents.tags('item', event => {
         });
     });
 
+    MATERIALS.forEach(material => {
+        baseparts.forEach(part => {
+            const itemId = `modern_industrialization:${material}_wire`;
+            const tagCategory = 'wires';
+            const generictag = `c:${tagCategory}`;
+            const specifictag = `c:${tagCategory}/${material}`;
+            
+            if (Item.exists(itemId)) {
+                event.add(generictag, itemId);
+                event.add(specifictag, itemId);
+            }
+        });
+    });
+
     CUSTOMMATERIALS.forEach(material => {
         const itemId = `modern_industrialization:deepslate_${material}_ore`;
         const generictag = `c:ores`;
