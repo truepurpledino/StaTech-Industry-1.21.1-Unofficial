@@ -39,17 +39,17 @@ ServerEvents.recipes(event => {
     event.remove({ output: /^sophisticatedstorage:limited_barrel.+$/ })
     
     const sophStorageMaterials = [
-        ["", null, null],
-        ["copper_", "copper"],
-        ["iron_", "iron"],
-        ["gold_", "gold"],
-        ["diamond_", "diamond"]
+        ['', null, null],
+        ['copper_', 'copper'],
+        ['iron_', 'iron'],
+        ['gold_', 'gold'],
+        ['diamond_', 'diamond']
     ]
 
     const storageContainers = [
-        "chest",
-        "barrel",
-        "shulker_box"
+        'chest',
+        'barrel',
+        'shulker_box'
     ]
 
     sophStorageMaterials.forEach((material, index) => {
@@ -58,30 +58,71 @@ ServerEvents.recipes(event => {
         storageContainers.forEach(container => {
             let outputStorage = `sophisticatedstorage:${material[0]}${container}`
             let inputStorage = `sophisticatedstorage:${sophStorageMaterials[index - 1][0]}${container}`
-            event.remove({ mod: "sophisticatedstorage", output: outputStorage })
+            event.remove({ mod: 'sophisticatedstorage', output: outputStorage })
             event.custom({
-                "type": "sophisticatedstorage:storage_tier_upgrade",
-                "key": {
-                    "N": {
-                        "tag": (`c:plates/${material[1]}`)
+                'type': 'sophisticatedstorage:storage_tier_upgrade',
+                'key': {
+                    'N': {
+                        'tag': (`c:plates/${material[1]}`)
                     },
-                    "C": {
-                        "item": inputStorage
+                    'C': {
+                        'item': inputStorage
                     }
                 },
-                "pattern": [
-                    "NNN",
-                    "NCN",
-                    "NNN"
+                'pattern': [
+                    'NNN',
+                    'NCN',
+                    'NNN'
                 ],
-                "result": {
-                    "count": 1,
-                    "id": outputStorage
+                'result': {
+                    'count': 1,
+                    'id': outputStorage
                 }
             }).id(st(`${material[0]}${container}_upgrade`));
         });
     });
 
+    const containerUpgrades = [
+        'basic_tier_upgrade',
+        'basic_to_copper_tier_upgrade',
+        'basic_to_iron_tier_upgrade',
+        'basic_to_gold_tier_upgrade',
+        'basic_to_diamond_tier_upgrade',
+        'basic_to_netherite_tier_upgrade',
+        'copper_to_iron_tier_upgrade',
+        'copper_to_gold_tier_upgrade',
+        'copper_to_diamond_tier_upgrade',
+        'copper_to_netherite_tier_upgrade',
+        'iron_to_gold_tier_upgrade',
+        'iron_to_diamond_tier_upgrade',
+        'iron_to_netherite_tier_upgrade',
+        'gold_to_diamond_tier_upgrade',
+        'gold_to_netherite_tier_upgrade',
+        'diamond_to_netherite_tier_upgrade'
+    ]
+
+    const upgradeMaterials = [
+        'copper',
+        'iron',
+        'gold',
+        'diamond'
+    ]
+
+    containerUpgrades.forEach(upgradeId => {
+        upgradeMaterials.forEach(material => {
+            const inputItem = material === 'diamond' 
+                ? 'minecraft:diamond'
+                : mc(`${material}_ingot`)
+
+            const outputItem = mi(`${material}_plate`)
+
+            event.replaceInput(
+                { output: ss(upgradeId) },
+                inputItem,
+                outputItem
+            )
+        });
+    });
 })
 
 
