@@ -119,6 +119,36 @@ ServerEvents.recipes(event => {
         [ { amount: 1, item: mi('aluminum_ingot') } ]
     );
 
+    // -- DESH EBF -- //
+    blastFurnace(
+        event,
+        st('desh_ingot'),
+        16,
+        600,
+        [ { amount: 1, item: mi('desh_dust') } ],
+        [ { amount: 1, item: mi('desh_hot_ingot') } ]
+    );
+
+    // -- OSTRUM EBF -- //
+    blastFurnace(
+        event,
+        st('ostrum_ingot'),
+        24,
+        600,
+        [ { amount: 1, item: mi('ostrum_dust') } ],
+        [ { amount: 1, item: mi('ostrum_hot_ingot') } ]
+    );
+
+    // -- CALORITE EBF -- //
+    blastFurnace(
+        event,
+        st('calorite_ingot'),
+        32,
+        600,
+        [ { amount: 1, item: mi('calorite_dust') } ],
+        [ { amount: 1, item: mi('calorite_hot_ingot') } ]
+    );
+
     // -- TUNGSTEN + STEEL -> HOT TUNGSTENSTEEL -- //
     blastFurnace(
         event,
