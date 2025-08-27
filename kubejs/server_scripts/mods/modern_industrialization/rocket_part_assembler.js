@@ -40,8 +40,8 @@ ServerEvents.recipes(event => {
     rocketAssembler(
         event,
         st('rocket_fin'),
-        32, 
-        900, 
+        16, 
+        600, 
         [
             { amount: 2, tag: 'c:plates/steel' },
             { amount: 3, item: mi('steel_curved_plate') }
