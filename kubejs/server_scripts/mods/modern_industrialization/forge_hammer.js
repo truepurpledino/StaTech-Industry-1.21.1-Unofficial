@@ -95,14 +95,16 @@ ServerEvents.recipes(event => {
     ORE_RECIPES.forEach(id => event.remove({id : id}));
 
     // -- CUSTOM RECIPE UTILITY FUNCTION -- //
-    let forgeHammer = (id, damage, item_inputs, item_outputs) => {
+    let forgeHammer = (id, damage, input_count, input_item, item_outputs) => {
         let newRecipe = {
             type: mi('forge_hammer'),
             damage: damage
         }
 
-        if (item_inputs)
-            newRecipe['ingredient'] = item_inputs;
+        if (input_count)
+            newRecipe['count'] = input_count;
+        if (input_item)
+            newRecipe['ingredient'] = input_item;
         if (item_outputs)
             newRecipe['result'] = item_outputs;
 
@@ -114,7 +116,8 @@ ServerEvents.recipes(event => {
         forgeHammer(
             st(`${material}_crushed_dust`),
             10,
-            { count: 1, tag: `c:ores/${material}` },
+            1,
+            { tag: `c:ores/${material}` },
             { count: 2, id: mi(`${material}_crushed_dust`) }
         );
     
@@ -122,7 +125,8 @@ ServerEvents.recipes(event => {
         forgeHammer(
             st(`${material}_dust`),
             25,
-            { count: 1, tag: `c:ores/${material}` },
+            1,
+            { tag: `c:ores/${material}` },
             { count: 4, id: mi(`${material}_dust`) }
         );
     
@@ -130,7 +134,8 @@ ServerEvents.recipes(event => {
         forgeHammer(
             st(`${material}_dust_alt`),
             15,
-            { count: 1, item: mi(`${material}_crushed_dust`) },
+            1,
+            { item: mi(`${material}_crushed_dust`) },
             { count: 2, id: mi(`${material}_dust`) }
         );
     });
@@ -141,14 +146,16 @@ ServerEvents.recipes(event => {
             forgeHammer(
                 st(`raw_${material}_from_ore`),
                 20,
-                { count: 1, tag: `c:ores/${material}` },
+                1,
+                { tag: `c:ores/${material}` },
                 { count: 4, id: mc(`raw_${material}`) }
             );
         } else {
             forgeHammer(
                 st(`raw_${material}_from_ore`),
                 20,
-                { count: 1, tag: `c:ores/${material}` },
+                1,
+                { tag: `c:ores/${material}` },
                 { count: 4, id: mi(`raw_${material}`) }
             );
         }
@@ -157,7 +164,8 @@ ServerEvents.recipes(event => {
         forgeHammer(
             st(`${material}_dust_from_ore`),
             60,
-            { count: 1, tag: `c:ores/${material}` },
+            1,
+            { tag: `c:ores/${material}` },
             { count: 8, id: mi(`${material}_dust`) }
         );
     
@@ -165,7 +173,8 @@ ServerEvents.recipes(event => {
         forgeHammer(
             st(`${material}_dust_from_raw_metal`),
             15,
-            { count: 1, tag: `c:raw_materials/${material}` },
+            1,
+            { tag: `c:raw_materials/${material}` },
             { count: 2, id: mi(`${material}_dust`) }
         );
     }); 
@@ -175,19 +184,22 @@ ServerEvents.recipes(event => {
         forgeHammer(
             st(`${material}_bolt_from_double_ingot`),
             50,
-            { count: 1, item: mi(`${material}_double_ingot`) },
+            1,
+            { item: mi(`${material}_double_ingot`) },
             { count: 4, id: mi(`${material}_bolt`) }
         );
         forgeHammer(
             st(`${material}_bolt_from_ingot`),
             30,
-            { count: 1, tag: `c:ingots/${material}` },
+            1,
+            { tag: `c:ingots/${material}` },
             { count: 2, id: mi(`${material}_bolt`) }
         );
         forgeHammer(
             st(`${material}_bolt_from_rod`),
             10,
-            { count: 1, item: mi(`${material}_rod`) },
+            1,
+            { item: mi(`${material}_rod`) },
             { count: 2, id: mi(`${material}_bolt`) }
         );
 
@@ -196,13 +208,15 @@ ServerEvents.recipes(event => {
             forgeHammer(
                 st(`${material}_curved_plate_from_double_ingot`),
                 30,
-                { count: 1, item: mi(`${material}_double_ingot`) },
+                1,
+                { item: mi(`${material}_double_ingot`) },
                 { count: 1, id: mi(`${material}_curved_plate`) }
             );
             forgeHammer(
                 st(`${material}_curved_plate_from_ingot`),
                 20,
-                { count: 2, tag: `c:ingots/${material}` },
+                2,
+                { tag: `c:ingots/${material}` },
                 { count: 1, id: mi(`${material}_curved_plate`) }
             );
         }
@@ -211,13 +225,15 @@ ServerEvents.recipes(event => {
         forgeHammer(
             st(`${material}_plate_from_double_ingot`),
             10,
-            { count: 1, item: mi(`${material}_double_ingot`) },
+            1,
+            { item: mi(`${material}_double_ingot`) },
             { count: 1, id: mi(`${material}_plate`) }
         );
         forgeHammer(
             st(`${material}_plate_from_ingot`),
             10,
-            { count: 2, tag: `c:ingots/${material}` },
+            2,
+            { tag: `c:ingots/${material}` },
             { count: 1, id: mi(`${material}_plate`) }
         );
 
@@ -225,19 +241,22 @@ ServerEvents.recipes(event => {
         forgeHammer(
             st(`${material}_ring_from_double_ingot`),
             50,
-            { count: 1, item: mi(`${material}_double_ingot`) },
+            1,
+            { item: mi(`${material}_double_ingot`) },
             { count: 2, id: mi(`${material}_ring`) }
         );
         forgeHammer(
             st(`${material}_ring_from_ingot`),
             30,
-            { count: 1, tag: `c:ingots/${material}` },
+            1,
+            { tag: `c:ingots/${material}` },
             { count: 1, id: mi(`${material}_ring`) }
         );
         forgeHammer(
             st(`${material}_ring_from_rod`),
             10,
-            { count: 1, item: mi(`${material}_rod`) },
+            1,
+            { item: mi(`${material}_rod`) },
             { count: 1, id: mi(`${material}_ring`) }
         );
 
@@ -245,13 +264,15 @@ ServerEvents.recipes(event => {
         forgeHammer(
             st(`${material}_rod_from_double_ingot`),
             10,
-            { count: 1, item: mi(`${material}_double_ingot`) },
+            1,
+            { item: mi(`${material}_double_ingot`) },
             { count: 2, id: mi(`${material}_rod`) }
         );
         forgeHammer(
             st(`${material}_rod_from_ingot`),
             10,
-            { count: 1, tag: `c:ingots/${material}` },
+            1,
+            { tag: `c:ingots/${material}` },
             { count: 1, id: mi(`${material}_rod`) }
         );
 
@@ -259,13 +280,15 @@ ServerEvents.recipes(event => {
         forgeHammer(
             st(`${material}_dust_from_ingot`),
             10,
-            { count: 1, tag: `c:ingots/${material}` },
+            1,
+            { tag: `c:ingots/${material}` },
             { count: 1, id: mi(`${material}_dust`) }
         );
         forgeHammer(
             st(`${material}_tiny_dust_from_nugget`),
             10,
-            { count: 1, tag: `c:nuggets/${material}` },
+            1,
+            { tag: `c:nuggets/${material}` },
             { count: 1, id: mi(`${material}_tiny_dust`) }
         );
     });
@@ -274,7 +297,8 @@ ServerEvents.recipes(event => {
     forgeHammer(
         st('brick_dust'),
         20,
-        { count: 1, item: mc('brick') },
+        1,
+        { item: mc('brick') },
         { count: 1, id: mi('brick_dust') }
     );
 
@@ -282,7 +306,8 @@ ServerEvents.recipes(event => {
     forgeHammer(
         st('clay_dust'),
         20,
-        { count: 1, item: mc('clay_ball') },
+        1,
+        { item: mc('clay_ball') },
         { count: 1, id: mi('clay_dust') }
     );
 });

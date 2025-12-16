@@ -38,7 +38,7 @@ ServerEvents.recipes(event => {
     // -- FEEDING UPGRADE -- //
     event.shaped(sb('feeding_upgrade'), [
         ' C ',
-        'ABM',
+        'GDM',
         ' F '
     ],
     {

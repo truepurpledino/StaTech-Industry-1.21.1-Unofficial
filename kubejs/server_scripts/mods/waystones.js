@@ -56,9 +56,9 @@ ServerEvents.recipes(event => {
         },
         experience: 10.0,
         pattern: [
-            'Swy',
+            'SWS',
             'WFW',
-            'Swy'
+            'SWS'
         ],
         key: {
             W: { item: wy('warp_dust') },
