@@ -170,10 +170,10 @@ let spl = (event, id, eu, duration, item_inputs, item_outputs, adjacent_block, a
         type: mi('adjacent_block'),
         block: adjacent_block,
         position: adjacent_block_pos
-    }, {
+    }/* , {
         type: mi('dimension'),
         dimension: 'statech:space'
-    }];
+    } */];
     event.custom(newMachineRecipe(mi('space_probe_launcher'), eu, duration, item_inputs, item_outputs, null, null, process_conditions)).id(id);
 }
 
