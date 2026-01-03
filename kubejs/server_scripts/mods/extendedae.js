@@ -38,7 +38,9 @@ ServerEvents.recipes(event => {
         ea('assembler/logic_processor'),
         ea('assembler/accumulation_processor'),
         ea('assembler/concurrent_processor'),
-        ea('assembler/engineering_processor')
+        ea('assembler/engineering_processor'),
+        ea('quartz_blend'),
+        ea('quartz_blend_alt')
     ];
     REMOVED_RECIPES.forEach(id => event.remove( {id: id} ));
     

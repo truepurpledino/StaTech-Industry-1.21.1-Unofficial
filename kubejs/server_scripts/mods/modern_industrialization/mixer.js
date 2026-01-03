@@ -443,6 +443,20 @@ ServerEvents.recipes(event => {
         [ { amount: 500, fluid: mi('concrete') } ]
     );
 
+    // -- QUARTZ BLEND -- //
+    mixer(
+        event,
+        st('quartz_blend'),
+        8,
+        200,
+        [
+            { amount: 1, item: ae('certus_quartz_dust') },
+            { amount: 6, tag: 'c:sands' },
+            { amount: 2, item: mc('coal') }
+        ],
+        [ { amount: 6, item: ea('quartz_blend') } ]
+    );
+
     // -- UTILITY FUNCTION FOR THE FOLLOWING FOREACH -- //
     // let mixerConsumable = (fluid, amount) => {
         // if (amount < 100)
