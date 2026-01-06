@@ -36,7 +36,7 @@ ServerEvents.recipes(event => {
     let crushing = (id, duration, item_inputs, item_outputs) => {
         let newRecipe = {
             type: cr('crushing'),
-            processingTime: duration
+            processing_time: duration
         }
 
         if (item_inputs)
@@ -52,7 +52,7 @@ ServerEvents.recipes(event => {
         st('brick_dust_from_bricks'),
         400,
         [ { item: mc('bricks') } ],
-        [ { count: 4, item: mi('brick_dust') } ]
+        [ { count: 4, id: mi('brick_dust') } ]
     );
 
     // -- BRICK DUST FROM BRICK -- //
@@ -60,7 +60,7 @@ ServerEvents.recipes(event => {
         st('brick_dust_from_brick'),
         100,
         [ { item: mc('brick') } ],
-        [ { item: mi('brick_dust') } ]
+        [ { id: mi('brick_dust') } ]
     );
 
     // -- CLAY DUST FROM CLAY -- //
@@ -68,7 +68,7 @@ ServerEvents.recipes(event => {
         st('clay_dust_from_clay'),
         400,
         [ { item: mc('clay') } ],
-        [ { count: 4, item: mi('clay_dust') } ]
+        [ { count: 4, id: mi('clay_dust') } ]
     );
 
     // -- CLAY DUST FROM CLAY BALL -- // 
@@ -76,6 +76,6 @@ ServerEvents.recipes(event => {
         st('clay_dust_from_clay_ball'),
         100,
         [ { item: mc('clay_ball') } ],
-        [ { item: mi('clay_dust') } ]
+        [ { id: mi('clay_dust') } ]
     );
 });
