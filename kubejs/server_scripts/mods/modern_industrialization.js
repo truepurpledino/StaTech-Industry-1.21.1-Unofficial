@@ -14,7 +14,6 @@ ServerEvents.recipes(event => {
         mi('vanilla_recipes/steel_forge_hammer_asbl'),
         mi('materials/bronze_dust'),
         mi('materials/bronze_tiny_dust'),
-        mi('materials/fire_clay_dust'),
         mi('vanilla_recipes/steam_bucket'),
         mi('vanilla_recipes/steam_bucket_exported_mi_furnace'),
         mi('materials/uncooked_steel_dust'),
