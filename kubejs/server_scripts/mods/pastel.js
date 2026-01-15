@@ -286,36 +286,36 @@ ServerEvents.recipes(event => {
         ]
     }); */
 
-    // -- QUITOXIC REEDS -- //
-    event.custom({
-        id: st('quitoxic_reeds_from_coins'),
-        type: pa('pedestal'),
-        time: 200,
-        tier: 'simple',        
-        colors: {
-            "pastel:cyan": 0,
-            "pastel:magenta": 0,
-            "pastel:yellow": 0,
-            "pastel:black": 0,
-            "pastel:white": 0
-        },
-        experience: 10.0,
-        pattern: [
-            '   ',
-            ' C ',
-            '   '
-        ],
-        key: {
-            C: { item: kj('coin_rare') }
-        },
-        result: {
-            id: pa('quitoxic_reeds'),
-            count: 3
-        },
-        required_advancement: [
-            pa('collect_quitoxic_reeds')
-        ]
-    });
+    // // -- QUITOXIC REEDS -- //
+    // event.custom({
+    //     id: st('quitoxic_reeds_from_coins'),
+    //     type: pa('pedestal'),
+    //     time: 200,
+    //     tier: 'simple',        
+    //     colors: {
+    //         "pastel:cyan": 0,
+    //         "pastel:magenta": 0,
+    //         "pastel:yellow": 0,
+    //         "pastel:black": 0,
+    //         "pastel:white": 0
+    //     },
+    //     experience: 10.0,
+    //     pattern: [
+    //         '   ',
+    //         ' C ',
+    //         '   '
+    //     ],
+    //     key: {
+    //         C: { item: kj('coin_rare') }
+    //     },
+    //     result: {
+    //         id: pa('quitoxic_reeds'),
+    //         count: 3
+    //     },
+    //     required_advancement: [
+    //         pa('collect_quitoxic_reeds')
+    //     ]
+    // });
 
     /* event.stonecutting(pa('amethyst_storage_block'), bl('polished_amethyst')); */
 });
