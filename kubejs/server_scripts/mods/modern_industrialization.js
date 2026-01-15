@@ -42,7 +42,7 @@ ServerEvents.recipes(event => {
     ];
     MI_DELETED_ITEMS.forEach(id => event.remove( {id: id} ));
 
-    event.shaped(mi('fire_clay_dust'), [
+    event.shaped('3x ' + mi('fire_clay_dust'), [
         'BC ',
         'CB '
     ],
