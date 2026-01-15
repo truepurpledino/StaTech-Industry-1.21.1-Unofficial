@@ -20,16 +20,4 @@ ServerEvents.recipes(event => {
 
         event.custom(newRecipe).id(id);
     }
-
-    // -- FIRECLAY BRICKS -- // 
-    compacting(
-        st('fire_clay_bricks'),
-        [
-            { item: mi('fire_clay_brick') },
-            { item: mi('fire_clay_brick') },
-            { item: mi('fire_clay_brick') },
-            { item: mi('fire_clay_brick') }
-        ],
-        [ { id: mi('fire_clay_bricks') } ]
-    );
 });

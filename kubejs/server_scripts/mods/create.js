@@ -14,7 +14,6 @@ ServerEvents.recipes(event => {
         cr('blasting/platinum_ingot_compat_modern_industrialization'),
         cr('smelting/silver_ingot_compat_modern_industrialization'),
         cr('blasting/silver_ingot_compat_modern_industrialization'),
-        cr('crafting/kinetics/mechanical_press')
         // cr('smelting/lead_ingot_compat_techreborn'),
         // cr('blasting/lead_ingot_compat_techreborn'),
         // cr('blasting/tin_ingot_compat_techreborn'),
@@ -31,19 +30,6 @@ ServerEvents.recipes(event => {
     // event.shapeless(cr('dough'), [ cr('wheat_flour'), 'kibe:water_wooden_bucket' ] )
         // .id(st('dough'))
         // .replaceIngredient('kibe:water_wooden_bucket', 'kibe:wooden_bucket');
-
-    // -- MECHANICAL PRESS -- //
-    event.shaped(cr('mechanical_press'), [
-        ' S ',
-        'PCP',
-        ' B '
-    ],
-    {
-        S: cr('shaft'),
-        C: cr('andesite_casing'),
-        P: mi('iron_large_plate'),
-        B: mc('iron_block')
-    }).id(st('mechanical_press'));
 
     // -- TANK -- //
     event.shaped(cr('fluid_tank'), [

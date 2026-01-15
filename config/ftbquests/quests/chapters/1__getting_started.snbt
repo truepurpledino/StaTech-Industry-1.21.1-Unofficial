@@ -11,7 +11,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["4679B4825F85EBB5"]
+			dependencies: ["5892304ACC9BF894"]
 			icon: {
 				id: "modern_industrialization:forge_hammer"
 			}
@@ -51,7 +51,7 @@
 					type: "item"
 				}
 			]
-			x: 10.0d
+			x: 8.0d
 			y: 0.0d
 		}
 		{
@@ -117,7 +117,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["339F676C828C790D"]
+			dependencies: ["5892304ACC9BF894"]
 			id: "0BD4ABE561F1F2F7"
 			rewards: [
 				{
@@ -140,47 +140,14 @@
 					type: "random"
 				}
 			]
-			size: 2.0d
+			shape: "rsquare"
 			tasks: [{
 				id: "1610BCD0D7539A2C"
 				item: { count: 1, id: "justhammers:iron_hammer" }
 				type: "item"
 			}]
 			x: 5.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["0BD4ABE561F1F2F7"]
-			id: "4679B4825F85EBB5"
-			rewards: [
-				{
-					id: "4B04DD8D943C97F7"
-					item: {
-						count: 1
-						id: "kubejs:coin_common"
-					}
-					type: "item"
-				}
-				{
-					id: "7BCC6EACD9DA98C5"
-					type: "xp"
-					xp: 10
-				}
-				{
-					exclude_from_claim_all: true
-					id: "019735ED403A011A"
-					table_id: 2474147679282294712L
-					type: "random"
-				}
-			]
-			size: 2.0d
-			tasks: [{
-				id: "2B9E9E9C9E8AEF1F"
-				item: { count: 1, id: "modern_industrialization:iron_large_plate" }
-				type: "item"
-			}]
-			x: 7.5d
-			y: 0.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1BD496A10E957F25"]
@@ -557,6 +524,33 @@
 				type: "item"
 			}]
 			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["339F676C828C790D"]
+			id: "5892304ACC9BF894"
+			size: 2.0d
+			tasks: [
+				{
+					count: 8L
+					id: "44E9C750EDF6D433"
+					item: { count: 1, id: "minecraft:raw_iron" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "2695C8F8CF92ECA3"
+					item: { count: 1, id: "minecraft:raw_copper" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "74528B2805F0A37D"
+					item: { count: 1, id: "modern_industrialization:raw_tin" }
+					type: "item"
+				}
+			]
+			x: 5.0d
 			y: 0.0d
 		}
 	]

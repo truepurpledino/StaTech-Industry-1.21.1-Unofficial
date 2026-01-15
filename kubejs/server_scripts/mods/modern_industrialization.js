@@ -12,8 +12,6 @@ ServerEvents.recipes(event => {
         mi('forge_hammer'),
         mi('guidebook'),
         mi('vanilla_recipes/steel_forge_hammer_asbl'),
-        mi('materials/bronze_dust'),
-        mi('materials/bronze_tiny_dust'),
         mi('vanilla_recipes/steam_bucket'),
         mi('vanilla_recipes/steam_bucket_exported_mi_furnace'),
         mi('materials/uncooked_steel_dust'),
@@ -31,18 +29,53 @@ ServerEvents.recipes(event => {
         mi('materials/tungstensteel/craft/coil'),
         mi('armor/gravichestplate'),
         mi('electric_age/component/craft/ultradense_metal_ball_asbl'),
-        mi('materials/fire_clay_bricks'),
         // mi('compat/techreborn/macerator/minecraft_clay_ball_to_techreborn_clay_dust'),
         mi('steam_age/bronze/furnace_asbl'),
         mi('steam_age/bronze/boiler_asbl'),
         mi('tools/steam_mining_drill'),
         mi('electric_age/component/craft/op_amp_asbl'),
-        io('machines/pyrolyse_oven/craft')
+        io('machines/pyrolyse_oven/craft'),
+        mi('materials/iron/craft/hammer'),
+        mi('materials/steel/craft/hammer'),
+        mi('materials/diamond/craft/hammer')
     ];
     MI_DELETED_ITEMS.forEach(id => event.remove( {id: id} ));
-    
-    // -- LARGE IRON PLATE -- // 
-    event.shapeless(mi('iron_large_plate'), [ jh('iron_hammer'), mc('iron_block')]).damageIngredient(jh('iron_hammer')).id(st('iron_large_plate'));
+
+        // -- IRON HAMMER -- //
+    event.shaped(mi('iron_hammer'), [
+        'III',
+        'ISI',
+        ' S '
+    ],
+    {
+        I: '#c:ingots/iron',
+        S: '#c:rods/wooden'
+    })
+    .id(st('iron_hammer'));
+
+    // -- STEEL HAMMER -- //
+    event.shaped(mi('steel_hammer'), [
+        'III',
+        'ISI',
+        ' S '
+    ],
+    {
+        I: '#c:ingots/steel',
+        S: '#c:rods/wooden'
+    })
+    .id(st('steel_hammer'));
+
+    // -- DIAMOND HAMMER -- //
+    event.shaped(mi('diamond_hammer'), [
+        'DDD',
+        'DSD',
+        ' S '
+    ],
+    {
+        D: '#c:gems/diamond',
+        S: '#c:rods/wooden'
+    })
+    .id(st('diamond_hammer'));
 
     // -- BLOOD GENERATOR -- //
     event.shaped(mi('blood_generator'), [

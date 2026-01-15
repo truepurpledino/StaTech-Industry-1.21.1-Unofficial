@@ -538,11 +538,7 @@
 	quest.0B97D95040E7FAE1.quest_desc: ["Now here's something more worth your time from the &eCrafting Stations&r mod. The &aCrafting Station&r is based off of &6Tinker's Construct&r's implementation and features &2showing adjacent inventories' items&r within the table itself. This is going to be very helpful as you move into &eModern Industrialization&r and have to deal with &dmicrocrafting&r."]
 	quest.0B97D95040E7FAE1.quest_subtitle: "An early game best friend"
 	quest.0BC17503972F9151.quest_desc: ["The &bEncased Chain Drive&r can be used to transfer the same rotation direction down a straight line. "]
-	quest.0BD4ABE561F1F2F7.quest_desc: [
-		"&aHammers&r from the &9Just Hammers&r mod aren't a great tool for properly forming &bplates and other factory materials&r, but they are a great tool for &csmashing things&r! "
-		""
-		"The &aIron Hammer&r from &9Just Hammers&r has the ability to aid you in the &cprimitive plates&r in the next quest."
-	]
+	quest.0BD4ABE561F1F2F7.quest_desc: ["&aHammers&r from the &9Just Hammers&r mod are a great tool that allow you to mine in a 3x3!"]
 	quest.0BD4ABE561F1F2F7.title: "Smashing!"
 	quest.0BED1964F760756C.quest_desc: [
 		"&bFluix ME Glass Cables&r are the simplest cable to make, transfers power and up to &d16 channels&r. It comes in 17 different colors, the default being Fluix, and can be dyed any color using any of the 16 dyes."
@@ -3106,7 +3102,6 @@
 		""
 		"&bTakes four real-life hours to ferment&r."
 	]
-	quest.4679B4825F85EBB5.quest_desc: ["You're going to struggle to properly form metals into the shapes you need to begin your factory. You'll need a &aproper workstation&r to achieve this goal. Using a &ehammer&r on an &biron block&r will form a &aLarge Iron Plate&r, which is flat enough to be the top of your &6Forge Hammer&r. "]
 	quest.46B810CC193254EA.quest_desc: [
 		"So when channels become a nuisance, you can turn to &bME P2P Tunnels&r. When configured for ME, they allow you to move channels from point to point. This allows you to move up to 64 channels per pair of &bME P2P Tunnel&r."
 		""
@@ -3978,6 +3973,7 @@
 	]
 	quest.587FF748139BA962.quest_subtitle: "Steampunk!"
 	quest.5883AD6C322BB079.quest_desc: ["For the most part the experience &dPigment Pedestal&r crafting rewards is pretty much negligible. But by using this &aKnowledge Focus&r you could dramatically increase the amount gained."]
+	quest.5892304ACC9BF894.title: "Basic Mineral Acquisition"
 	quest.58C2A1D3B3129D29.quest_desc: ["The &cNetherite Chest&r is the ultimate upgrade for your chest, boasting a capacity of &e91 item stacks&r."]
 	quest.58F52B959643FF34.quest_desc: [
 		"Welcome to &aStaTech Industry&r &d2.0&r!"
