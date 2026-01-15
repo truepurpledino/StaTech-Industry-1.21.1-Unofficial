@@ -37,11 +37,22 @@ ServerEvents.recipes(event => {
         io('machines/pyrolyse_oven/craft'),
         mi('materials/iron/craft/hammer'),
         mi('materials/steel/craft/hammer'),
-        mi('materials/diamond/craft/hammer')
+        mi('materials/diamond/craft/hammer'),
+        mi('materials/fire_clay_dust')
     ];
     MI_DELETED_ITEMS.forEach(id => event.remove( {id: id} ));
 
-        // -- IRON HAMMER -- //
+    event.shaped(mi('fire_clay_dust'), [
+        'BC ',
+        'CB '
+    ],
+    {
+        C: '#c:dusts/clay',
+        B: '#c:dusts/brick'
+    })
+    .id(st('fire_clay_dust'));
+    
+    // -- IRON HAMMER -- //
     event.shaped(mi('iron_hammer'), [
         'III',
         'ISI',
