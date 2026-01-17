@@ -1,13 +1,13 @@
 name = "Get It Together, Drops!"
-filename = "getittogetherdrops-neoforge-1.21-1.3.2.jar"
+filename = "getittogetherdrops-neoforge-1.21.5-1.4.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "45f1f23219d319b8e3f0bde45c8e4dfacec49cc3"
+hash = "ead940a50f69313802960c497e252acd3956334f"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5575483
+file-id = 6775278
 project-id = 411045

@@ -1,13 +1,13 @@
 name = "Simple Discord Rich Presence (Forge /  Fabric)"
-filename = "SimpleDiscordRichPresence-neoforge-87.0.1-build.49+mc1.21.jar"
+filename = "SimpleDiscordRichPresence-neoforge-88.0.0-build.51+mc1.21.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "c9d24801dc56876284f3e8f6c29e42a19732252a"
+hash = "301555034a806b337abafdbe5b349513ea630839"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5577776
+file-id = 7396367
 project-id = 334853

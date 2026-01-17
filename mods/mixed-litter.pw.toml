@@ -1,13 +1,13 @@
 name = "Mixed Litter"
-filename = "mixed_litter-0.1.2.jar"
+filename = "mixed_litter-1.0.3.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "85e1b31215e1f44ffa7beb25a2c20818bb7b6813"
+hash = "6f8e97e22a6f989674f3945f5268e2e4ab42ea2f"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6637770
+file-id = 7240064
 project-id = 1221222

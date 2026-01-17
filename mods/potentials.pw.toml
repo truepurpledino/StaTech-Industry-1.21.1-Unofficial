@@ -1,13 +1,13 @@
 name = "Potentials"
-filename = "potentials-neoforge-1.21-0.7.0.jar"
+filename = "potentials-neoforge-1.21-0.7.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "dd86bbe13035549bf67628ecdf8c272f0bfd1621"
+hash = "c2525c00049e1773a813ed240ac96914c01e0b3f"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6672803
+file-id = 6912628
 project-id = 1165185

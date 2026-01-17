@@ -1,13 +1,13 @@
 name = "Raise Sound Limit Simplified"
-filename = "rsls-neoforge-1.1.8.jar"
+filename = "rsls-neoforge-1.1.14.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "8876aa56857dca387db020725c5dee223f284003"
+hash = "ec118ae73f8fcd6ae429ec4d775b2b1455893b39"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6300177
+file-id = 7359975
 project-id = 646146
