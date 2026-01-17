@@ -29,7 +29,6 @@ ServerEvents.recipes(event => {
         mi('materials/tungstensteel/craft/coil'),
         mi('armor/gravichestplate'),
         mi('electric_age/component/craft/ultradense_metal_ball_asbl'),
-        // mi('compat/techreborn/macerator/minecraft_clay_ball_to_techreborn_clay_dust'),
         mi('steam_age/bronze/furnace_asbl'),
         mi('steam_age/bronze/boiler_asbl'),
         mi('tools/steam_mining_drill'),
@@ -42,6 +41,7 @@ ServerEvents.recipes(event => {
     ];
     MI_DELETED_ITEMS.forEach(id => event.remove( {id: id} ));
 
+    // -- FIRE CLAY DUST -- //
     event.shaped('3x ' + mi('fire_clay_dust'), [
         'BC ',
         'CB '

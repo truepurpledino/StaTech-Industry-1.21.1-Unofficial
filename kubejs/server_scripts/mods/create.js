@@ -14,6 +14,7 @@ ServerEvents.recipes(event => {
         cr('blasting/platinum_ingot_compat_modern_industrialization'),
         cr('smelting/silver_ingot_compat_modern_industrialization'),
         cr('blasting/silver_ingot_compat_modern_industrialization'),
+        cr('crafting/appliances/chain_from_zinc')
         // cr('smelting/lead_ingot_compat_techreborn'),
         // cr('blasting/lead_ingot_compat_techreborn'),
         // cr('blasting/tin_ingot_compat_techreborn'),

@@ -41,3 +41,4 @@ let ta = (id) => `travelanchors:${id}`;
 let ec = (id) => `explorerscompass:${id}`;
 let nm = (id) => `nomansland:${id}`;
 let us = (id) => `usefulslime:${id}`;
+let tm = (id) => `torchmaster:${id}`;

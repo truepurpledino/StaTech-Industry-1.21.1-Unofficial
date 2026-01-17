@@ -3,12 +3,19 @@
 // STATECH INDUSTRY
 // -----------------------------------------
 
- ServerEvents.recipes(event => {
+ServerEvents.recipes(event => {
     // -- MOD NAMESPACE UTILITY FUNCTIONS -- // 
     let st = (id) => `statech:gag/${id}`;
 
     // Remove the default Time in a Bottle recipe
-    event.remove({id: gag('time_sand_pouch')});
+    const GAG_REMOVED_RECIPES = [
+        gag('time_sand_pouch'),
+        gag('pigment_jar_mixing'),
+        gag('pigment_jar_from_dye'),
+        gag('pigment_jar_splitting')
+    ];
+    GAG_REMOVED_RECIPES.forEach(id => event.remove( {id: id} ));
+    event.remove({ output: gag('pigment_jar') });
 
     // -- TIME IN A BOTTLE -- // 
     event.custom({
@@ -40,6 +47,5 @@
             count: 1
         },
         required_advancement: pa('build_basic_pedestal_structure')
-    })
-    .id(st('time_sand_pouch'));
+    }).id(st('time_sand_pouch'));
 }); 

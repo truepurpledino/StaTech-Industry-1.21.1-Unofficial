@@ -139,7 +139,7 @@
 			tasks: [{
 				count: 4L
 				id: "438555415CFF3C15"
-				item: { count: 4, id: "moderndynamics:hv_cable" }
+				item: { count: 1, id: "moderndynamics:hv_cable" }
 				type: "item"
 			}]
 			x: -0.5d
@@ -203,6 +203,7 @@
 		{
 			dependencies: ["2216B63E764E0EBE"]
 			id: "630587BC35741E37"
+			shape: "rsquare"
 			tasks: [{
 				id: "4468622AE9AAA6FD"
 				item: { count: 1, id: "modern_industrialization:gravichestplate" }
@@ -357,13 +358,13 @@
 				{
 					count: 16L
 					id: "5A7D8C501EA1842A"
-					item: { count: 16, id: "modern_industrialization:blastproof_casing" }
+					item: { count: 1, id: "modern_industrialization:blastproof_casing" }
 					type: "item"
 				}
 				{
 					count: 12L
 					id: "044FE6D9EA66389E"
-					item: { count: 12, id: "modern_industrialization:solid_titanium_machine_casing" }
+					item: { count: 1, id: "modern_industrialization:solid_titanium_machine_casing" }
 					type: "item"
 				}
 			]
@@ -464,7 +465,7 @@
 				{
 					count: 2L
 					id: "0289B95CA8CE6B38"
-					item: { count: 2, id: "modern_industrialization:random_access_memory" }
+					item: { count: 1, id: "modern_industrialization:random_access_memory" }
 					type: "item"
 				}
 			]
@@ -528,31 +529,31 @@
 				{
 					count: 36L
 					id: "78A4AE6A43E3220B"
-					item: { count: 36, id: "modern_industrialization:clean_stainless_steel_machine_casing" }
+					item: { count: 1, id: "modern_industrialization:clean_stainless_steel_machine_casing" }
 					type: "item"
 				}
 				{
 					count: 5L
 					id: "6704436F492419E4"
-					item: { count: 5, id: "create:rose_quartz_lamp" }
+					item: { count: 1, id: "create:rose_quartz_lamp" }
 					type: "item"
 				}
 				{
 					count: 8L
 					id: "5182235EAE7B0EC2"
-					item: { count: 8, id: "modern_industrialization:kanthal_coil" }
+					item: { count: 1, id: "modern_industrialization:kanthal_coil" }
 					type: "item"
 				}
 				{
 					count: 14L
 					id: "6B4329201B90BCF1"
-					item: { count: 17, id: "minecraft:obsidian" }
+					item: { count: 1, id: "minecraft:obsidian" }
 					type: "item"
 				}
 				{
 					count: 36L
 					id: "07C37699698B3C0C"
-					item: { count: 36, id: "minecraft:tinted_glass" }
+					item: { count: 1, id: "minecraft:tinted_glass" }
 					type: "item"
 				}
 				{
@@ -632,7 +633,7 @@
 			tasks: [{
 				count: 4L
 				id: "54EBD820739A2A0C"
-				item: { count: 4, id: "modern_industrialization:highly_advanced_upgrade" }
+				item: { count: 1, id: "modern_industrialization:highly_advanced_upgrade" }
 				type: "item"
 			}]
 			x: 14.0d
@@ -644,7 +645,7 @@
 			tasks: [{
 				count: 4L
 				id: "6D7295881BF74F85"
-				item: { count: 4, id: "modern_industrialization:titanium_drill" }
+				item: { count: 1, id: "modern_industrialization:titanium_drill" }
 				type: "item"
 			}]
 			x: 12.5d
@@ -990,7 +991,7 @@
 			tasks: [{
 				count: 2L
 				id: "0623A950951267F5"
-				item: { count: 2, id: "extendedae:wireless_connect" }
+				item: { count: 1, id: "extendedae:wireless_connect" }
 				type: "item"
 			}]
 			x: -3.5d
@@ -1109,6 +1110,18 @@
 			}]
 			x: 7.5d
 			y: -2.0d
+		}
+		{
+			dependencies: ["630587BC35741E37"]
+			id: "3ABDB1EB5F10B093"
+			shape: "rsquare"
+			tasks: [{
+				id: "4F52FFE918B544CD"
+				item: { count: 1, id: "angelring:angel_ring" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
 		}
 	]
 }

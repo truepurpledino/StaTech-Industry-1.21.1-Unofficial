@@ -135,13 +135,13 @@
 				{
 					count: 68L
 					id: "473DE1799305D6C6"
-					item: { count: 60, id: "modern_industrialization:nuclear_casing" }
+					item: { count: 1, id: "modern_industrialization:nuclear_casing" }
 					type: "item"
 				}
 				{
 					count: 27L
 					id: "4631402EDE7252CA"
-					item: { count: 27, id: "modern_industrialization:nuclear_alloy_machine_casing_pipe" }
+					item: { count: 1, id: "modern_industrialization:nuclear_alloy_machine_casing_pipe" }
 					type: "item"
 				}
 				{
@@ -366,7 +366,7 @@
 				{
 					count: 2L
 					id: "39AFBFF28E7BCC78"
-					item: { count: 2, id: "modern_industrialization:cooling_cell" }
+					item: { count: 1, id: "modern_industrialization:cooling_cell" }
 					type: "item"
 				}
 			]
@@ -531,7 +531,7 @@
 			tasks: [{
 				count: 16L
 				id: "09585A61634E37FD"
-				item: { count: 16, id: "modern_industrialization:tungstensteel_coil" }
+				item: { count: 1, id: "modern_industrialization:tungstensteel_coil" }
 				type: "item"
 			}]
 			x: 5.5d

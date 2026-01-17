@@ -9,4 +9,7 @@ ServerEvents.recipes(event => {
 
     // -- SLIME SLING UNBREAKABLE -- //
     event.replaceOutput( {id: us('slime_sling')}, us('slime_sling'), Item.of(us('slime_sling[unbreakable={}]')));
+
+    // -- SLIME BOOTS UNBREAKABLE -- //
+    event.replaceOutput( {id: us('slime_boots')}, us('slime_boots'), Item.of(us('slime_boots[unbreakable={}]')));
 });

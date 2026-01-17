@@ -1,7 +1,6 @@
 {
 	chapter.0404FA2EB5C66F71.title: "&94 - Adv. Electronics"
 	chapter.1A02A3EECEB4BD3F.title: "&d8 - Quantum Age"
-	chapter.1ABCCB5C8BC2FE1D.title: "Utilities"
 	chapter.1E4B3098D73D738C.title: "&a&lWelcome"
 	chapter.21E9255A61D5A82D.title: "&33 - Electrical Age"
 	chapter.37521162FC1896A6.title: "&a1 - Getting Started"
@@ -234,7 +233,12 @@
 		"&eThey may not be required, but they can be &2VERY&e helpful&r!"
 	]
 	quest.0480052F3F1EDAFC.title: "Chapter Progression"
-	quest.04D26675230550D4.quest_desc: ["&eBuilding Wands&r return! They're &cslightly different&r than you might remember, press '&6y&r' to open their &aconfiguration menu&r while holding one!"]
+	quest.04D26675230550D4.quest_desc: [
+		"&aConstruction Sticks&r are a replacement to the &eBuilding Wands&r mod (which isn't available on this version). These feature &3multiple tiers&r and a &dfew useful upgrades&r."
+		""
+		"TODO: bind default config button"
+	]
+	quest.04D26675230550D4.title: "Construction Sticks"
 	quest.05105071C0E09EB7.quest_desc: ["The highest tier fluid storage cell that can store up to 262144 bytes of information."]
 	quest.0548E4DEA1B29E91.quest_desc: [
 		"The early game of this pack is focused around the &eCreate&r mod. For this, you will need a lot of &aAndesite&r. Luckily, this quest rewards you with &esome extra&r. Once you have a &6Bronze Mixer&r you will unlock a recipe to make &aAndesite&r renewable!"
@@ -720,7 +724,10 @@
 	quest.0F270CF21E4D9F32.quest_desc: [
 		"Want a peaceful place filled with nothing to build your factory? The &dVoid Portal&r block, when right-clicked, will teleport you to a &avoid dimension&r. Here you can build out a platform to construct all the processing lines and automation you'll need to progress."
 		""
-		"Note that you will be placed in the &avoid dimension&r at the &esame coordinates&r you use the &dportal&r. Best to move your &dportal&r if it's overlapping with someone elses base. "
+		"Note that you will be placed in the &avoid dimension&r at the &esame coordinates&r you use the &dportal&r. Best to move your &dportal&r if it's overlapping with someone elses base."
+		""
+		"The void dimension is constantly day and does not allow hostile mobs to spawn!"
+		" "
 	]
 	quest.0F270CF21E4D9F32.title: "Void Dimension"
 	quest.0F56A61DD1E8BC5D.quest_desc: [
@@ -1034,8 +1041,8 @@
 	quest.1709043780838C78.quest_desc: ["This modpack &4does NOT&r includes &aSimply Swords&f and &eBetter Combat&f. Together these &4do NOT&r &6overhaul the combat of vanilla Minecraft completely&r and offer a broad variety of &3weapons&r to try out."]
 	quest.1709043780838C78.quest_subtitle: "It's dangerous to go alone!"
 	quest.1709043780838C78.title: "Vanilla Combat"
-	quest.171B6274F48C81EA.quest_desc: ["Did you &cforget to sleep&r for a bit and have to deal with the &amost annoying mob&r in the game? At least the &bPhantom Membranes&r allow you to upgrade your glider for enhanced speed!"]
-	quest.171B6274F48C81EA.title: "add after packer"
+	quest.171B6274F48C81EA.quest_desc: ["In addition to the other uses of the &aSteel Packer&r, you can now &dreinforce&r your &3Hang Glider&r for more speed!"]
+	quest.171B6274F48C81EA.title: "Reinforced Hang Glider"
 	quest.1724FEEB2622FB70.quest_desc: [
 		"&dTungsten&r is an incredibly tough material that you will be needing moving forward. Due to its special characteristics, it can't be smelted in normal means and will need to be processed through an &2Implosion Compressor&r in order to get a decent amount."
 		""
@@ -1051,6 +1058,13 @@
 	quest.173001AFD7DFE49B.quest_subtitle: "It's getting cold in here"
 	quest.173001AFD7DFE49B.title: "The Vacuum Freezer"
 	quest.1734CB7253E53672.quest_desc: ["Combining Hydrogen with Chlorine will produce &aHydrochloric Acid&r."]
+	quest.17392DB9C05AAA2C.quest_desc: [
+		"The &aTemporal Pouch&r &3stores time passively&r while you play. You can right click a block with it to speed up the &bblock's tick speed&r! This allows you to speed up some machines on demand if you need to. &cBeware&r, the power consumption also goes up with the faster speed!"
+		""
+		"If you're reading ahead in the &6quest book&r, you can craft this item &bearlier&r in the &dWorld of Magic&r chapter. However if magic is not your thing, you can craft it using circuits. How? &l&dMagic&r&r!"
+	]
+	quest.17392DB9C05AAA2C.quest_subtitle: "Time in a (bottle) bag!"
+	quest.17392DB9C05AAA2C.title: "Temporal Pouch"
 	quest.174F0D4FABC53DF1.quest_desc: ["The &bAluminum Upgrade&r can allow Drawers' storage to be multiplied by 2, allowing them to hold a maximum of &632768 items&r when fully upgraded."]
 	quest.17B61F8F9CAC32E2.quest_desc: ["The &aRedstone Control Module&r is an upgrade for your machines that allows you to control when they run using &credstone&r. By defualt, the module is operating with &6High Power&r. This means that the machine &bwill not run&r unless it's given a &cRedstone signal&r. You can invert this by &3shift+right clicking&r the &aRedstone Control Module&r in your hand. Doing so puts it in &6Low Power&r mode, which means the machine &bwill only run&r when not powered by a &cRedstone signal&r."]
 	quest.17C488042DB187A3.quest_desc: ["The wearer cannot be knocked back"]
@@ -1065,13 +1079,6 @@
 	]
 	quest.181D80626F6D57FB.quest_desc: ["While powerful, the &aBoss Crusher&r isn't perfect. Killing the &cWither&r doesn't produce a pristine &dNether Star&r as if you killed it normally. Instead you only will receive &2500mB&r of &2Impure Liquid Nether Star&r per &dWither model&r. This will need to be purified before it can be used."]
 	quest.181F0CD6428732B2.quest_desc: ["With &cCopper Plates&r, you can upgrade your normal chests or barrels to &ehold more items&r. This one can store up to &236 stacks of items&r."]
-	quest.183ED29E27120099.quest_desc: ["The &aBig Torch&f is a block that cancels any mob spawning that requires no light in a configurable area. It's useful to protect your base and to clean caves and dungeons."]
-	quest.1853C266F78A8777.quest_desc: [
-		"&aChimes&f add a nice ambient sound to your base, as well as offering protection from those pesky phantoms! Each type has a different sound, see which one you like best!"
-		""
-		"Phantoms do not approach/attack players who are near &bchiming wind chimes&f. You can tie/untie a wind chime by crouch + right-clicking the block with an empty hand. Tied Wind Chimes reduce chiming sounds and movement of a Wind Chime, along with allowing Phantoms to approach once again."
-	]
-	quest.1853C266F78A8777.title: "Chimes"
 	quest.186B17ECD172A61D.quest_desc: [
 		"The &aDiesel Generator&r can burn various kinds of fuel to generate EU. You can check &dREI&r for how much EU each fuel produces. The &aDiesel Generator&r will produce up to 256 EU/t and will only connect to MV cables."
 		""
@@ -1238,6 +1245,7 @@
 		""
 		"Once you have the &6MI&r &aStorage Units&r you can right click them to charge it."
 	]
+	quest.1C02850B615D4688.quest_desc: ["With access to the &eForge Hammer&r you can now make the &3Iron Plates&r needed for your first &abucket&r!"]
 	quest.1C030F5D0DA882DC.quest_desc: [
 		"Throughout your progression in this &3questbook&r you will earn &eStaTech Coins&r. These can be used to &acraft certain materials&r you may be needing in your adventure. "
 		""
@@ -1580,7 +1588,6 @@
 	]
 	quest.23D9328B5F627E65.quest_desc: ["Getting to the &eQuantum Circuits&r in their own is an accomplishment. These are used for all the end game MI machines and materials."]
 	quest.23D9328B5F627E65.quest_subtitle: "The Final Circuit"
-	quest.23F80A11A2F9C821.quest_desc: ["Time in a &mbottle&r pouch!"]
 	quest.24027FEAD3837B46.quest_desc: ["The &bLinked Controller&r can be used to remotely activate &aRedstone Links&r by pressing a bound button."]
 	quest.240A32C6B7DD0DD5.quest_desc: [
 		"The &bSpace Suit&r is a required set of armor that will allow you to breathe (&ctemporarily&r) on planets that do not have rich enough atmospheres to breath in."
@@ -1940,9 +1947,9 @@
 	quest.2BD62007FC53BA59.title: "Colored Saplings"
 	quest.2C1964927A0F7BE3.quest_desc: ["The &bME Pattern Provider&r is the home of your encoded recipes. These need to be put on the same network as your &dCrafting CPU&r itself. When the &dCrafting CPU&e needs to craft the primary result of that pattern, it'll delegate this to the &bPattern Provider&r. Normally the &bPattern Provider&r will then push out the ingredients to an adjancent block (a &aMolecular Assembler&r for crafting recipes, for example), and crafting continues once the result enters the network again. This can be achieved by pushing the crafting result back into the &bPattern Provider&r, an &cME Interface&r, or any other means that would import the crafting result into the network. &aMolecular Assemblers&r are smart enough to automatically return the crafting result to the same &bPattern Provider&r that provided the ingredients, leaving you to focus on ensuring the &eProcessing Recipes&r outputs are put into the network when they're done."]
 	quest.2C84E1C3D7590A49.quest_desc: [
-		"The popular &edirewolf20's Building Gadgets&f have been thankfully ported to &dFabric&f and renamed under &bst'ructure tools&f. These function similarly to the &eBuilding Gadget&f versions and will be insanely helpful in building."
+		"&aBuilding Gadgets&r is a classic mod, and now that we're on &eNeoForge&r we have the real version instead of a pretty buggy port!"
 		""
-		"They are pretty powerful, so they are now locked behind &2Electronic Circuits&f."
+		"&bThese are incredibly powerful&r. You can charge them by right clicking on &dMI storage units&r with them!"
 	]
 	quest.2C84E1C3D7590A49.title: "Building Gadgets"
 	quest.2CA069F476518EB2.quest_desc: [
@@ -1963,7 +1970,6 @@
 		"An emulated screen has &224 lines&r, which could be divided into different sources. However, a source can also use several ones. To define on which line a &eSource Blocks&r starts, this can be configured in the related &6Display Link&r."
 	]
 	quest.2CAE593AF156CFA8.title: "Source \\& Target Block"
-	quest.2CC0A9C9926FB030.quest_desc: ["Illuminates a big area by placing invisible lights automatically."]
 	quest.2CC2860405BF4D13.quest_desc: [
 		"The &bTurbo Diesel Generator&r can produce up to &e1024 EU/t&r. You can &dREI&r for a list of fuels and how much &2EU per mB&r they produce."
 		""
@@ -2646,6 +2652,11 @@
 		"&cBe wary of using these extensively on a server&r, as they are significantly more laggy than MI pipes."
 	]
 	quest.3AAC60DF5729CB7F.title: "Modern Dynamics Fluid Pipe"
+	quest.3ABDB1EB5F10B093.quest_desc: [
+		"The &aAngel Ring&r moves the abilities of the &dGravichestplate&r to a ring slot, allowing you to keep whatever armor you were using previously."
+		""
+		"This item can be unlocked earlier in the &dWorld of Magic&r chapter if you feel inclined to tinker in some &6Pastel (Spectrum)&r."
+	]
 	quest.3AD3E65C11D8C2A5.quest_desc: [
 		"Now that you're generating power, it's probably best to create a &dbuffer&r. This way while you're not fully stressing your power network you're creating a backlog for when you may be using it faster than you can produce. "
 		""
@@ -2681,14 +2692,6 @@
 		"The next batch of quests offer various ways of &agenerating power&r. If you aren't sure, I highly recommend making a &6Steam Turbine&r."
 	]
 	quest.3CB99CD2A9021136.title: "Electricity and Tiers"
-	quest.3CCE573B3AFB429D.quest_desc: [
-		"This item combo is a modded Minecraft classic. You can charge the &aSlime Sling&f up and it will launch you in the opposite direction. The &bSlime Boots&f will negate all fall damage and cause you to bounce. "
-		""
-		"In tandem, you can use it to traverse your world very fast."
-		""
-		"I've modified the &bSlime Boots&f to be &dUnbreakable&f, you're welcome."
-	]
-	quest.3CCE573B3AFB429D.title: "Bouncy Transportation"
 	quest.3CECE50DB2609499.quest_desc: ["Similarly to the old &aVacuum Hoppers&r, this upgrade allows pulling nearby dropped items and experience orbs to its own inventory."]
 	quest.3CFDE88A93CFBD93.quest_desc: [
 		"Similar to the regular &aDense Covered Cables&r, the &bFluix ME Smart Dense Cables&r carry &d64 channels&r instead of the default 16. Shows load similarly to &eFluix ME Smart Cable&r with each line lit representing four channels in use."
@@ -2703,12 +2706,14 @@
 	quest.3D3251680D5863BD.quest_desc: ["The &bToolbox&r allows you to store commonly used &eCreate&r items and access them while the &bToolbox&r is placed in the world nearby. It can be opened with a keybind, which you will need to set in the controls under the &dAccess Nearby Toolboxes&r."]
 	quest.3D53CF98BD92C153.quest_desc: ["The &dObsidian Barrel&r has the same storage as the &bDiamond Barrel&r."]
 	quest.3D5C1FD71120C918.quest_desc: [
-		"A throwback to the classic &eOptifine&r feature without having to have that mod installed! (Trust me it &cbreaks everything&r!)"
+		"A mod that implements a simular zoom functionality to that of Optifine."
 		""
-		"Press '&dC&r' to zoom in on what you're aiming at. You can stack this effect with a &aSpyglass&r for &2maximum zoomage&r."
+		"Press '&dZ&r' to zoom in on what you're aiming at. You can stack this effect with a &aSpyglass&r for &2maximum zoomage&r."
+		""
+		"You can also use your &ascroll wheel&r to adjust the zoom level."
 	]
 	quest.3D5C1FD71120C918.quest_subtitle: "I can see clearly now"
-	quest.3D5C1FD71120C918.title: "LogicalZoom"
+	quest.3D5C1FD71120C918.title: "Zume"
 	quest.3D96C9B7CE5C705B.quest_desc: ["The &aExplorer's Compass&r is similar to the &2Nature's Compass&r in concept, except it will &efocus in on any structure in the game&r. This can be extremely useful if you want to find a nice place to &dloot&r or &aexplore&r."]
 	quest.3D9FBCB1A33F11F4.quest_desc: [
 		"The &aME Interface&r is the only component which can be used as a part, or as a block. Crafting an &aME Interface&r in either form by itself produces the other form. The thin form is useful if you want to provide &2several different interfaces&r in a &esingle block&r of physical space, but each will need its own &dchannel&r. The block form lets multiple other blocks connect to a single &aME interface&r, using only one &dchannel&r for the interface."
@@ -3209,7 +3214,6 @@
 		""
 		"In addition to it's storage, it has options to &9automatically pickup blocks&r, &3pickup from a filter&r, or &dvoid blocks&r. Think of all that Cobblestone you no longer have to sort through in your inventory!"
 	]
-	quest.4901BE91F31B97A6.quest_desc: ["The &aCooler&f automatically will feed the player with the food stored within. It can be placed or opened with shift-right click while holding it."]
 	quest.4915E23CC60FBD06.quest_desc: ["The &aAlloy Smelter&r is used to... &3smelt alloys&r. It allows you to make &aalloys&r by combining the &2ingots&r rather than &ddusts&r in the &6mixer&r and then &csmelting&r them. "]
 	quest.493839A115C46F71.quest_desc: ["The &dVoid Bucket&r does not carry any liquids, instead it deletes any liquid you pick up with it. "]
 	quest.494104440623C825.quest_desc: [
@@ -5131,6 +5135,8 @@
 	]
 	quest.74C1F78B349FC947.quest_subtitle: "Birthplace of Industry"
 	quest.74C1F78B349FC947.title: "Tools of the Trade"
+	quest.74DAF493D8AA79A8.quest_subtitle: "Not quite as important"
+	quest.74DAF493D8AA79A8.title: "Diamonds!"
 	quest.74FD4A8145A0576F.quest_desc: ["&aStainless Steel&r opens up the ability to create &bAdvanced Components&r. These will be needed for HV and EV tier crafting."]
 	quest.74FD4A8145A0576F.title: "Advanced Components"
 	quest.75354DA145259C2B.quest_desc: ["The &cNetherite&r variant of your &dWand&r will do slightly more damage than before."]
@@ -5266,6 +5272,12 @@
 	]
 	quest.7839B0187F555DC9.quest_subtitle: "To the Stars"
 	quest.78427B969C4E2188.quest_desc: ["&cFiery Tears&r are an exclusive item dropped from the &cUr-Ghast&r. You can use them to make &4Fiery Ingots&r, which can be used to make special sets of &aarmor and tools&r. The &2Fiery Pickaxe&r features auto-smelting, while the &3Fiery Sword&r has a built in &dFire Aspect&r. Lastly, the &bFiery Armors&r will light attackers &eon fire&r."]
+	quest.78429A291627AA16.quest_desc: [
+		"The &aFeral Flare Lantern&r will progressively start to &dlight the area around it&r by placing invisible light sources. This is great if you have a big lawn base or underground base and want to &eillimunate it quickly&r."
+		""
+		"If you'd like to clean up any of these &cinvisible light sources&r, you will have to craft a &3Frozen Pearl&r right click the area to remove it."
+	]
+	quest.78429A291627AA16.quest_subtitle: "For the cave bases!"
 	quest.786ACF473177AA23.quest_desc: ["With the &bTurbo Machine Hulls&r you now have access to &aUltimate Solar Panels&r. This will generate &e48 EU/t&r during the day, and&6 8 EU/t at night&r. By this point you probably have better power generation, but this is free and could be good for any automations you want to setup away from your base."]
 	quest.7872342E2E86BA04.quest_desc: ["Instead of loading fuel into your &eRocket&r &cby hand&r, wouldn't it be &3much easier&r to &bpipe the fluid into a machine&r to fuel it? Of course it would be! The &aFuel Loader&r takes in &6Fuel&r or &3Cryofuel&r and &dloads it into nearby Rockets or Rovers&r. "]
 	quest.787CC6E0C5E2D17A.quest_desc: [
@@ -5460,8 +5472,6 @@
 		"Finally, you can access that &3new tier of chest / backpack&r."
 	]
 	quest.7DE1DE92C45C81BB.title: "Diamond \\& Emerald Plates"
-	quest.7DF831878A6CF9FF.quest_desc: ["Thanks to a mod, the &aTotem of Undying&f can now be equipped in a &etrinket slot&f. This means you can keep your shield in your offhand and not fear death as long as it's equipped."]
-	quest.7DF831878A6CF9FF.quest_subtitle: "Wearable invulnerability"
 	quest.7E211328EEB3CB9C.quest_desc: [
 		"The &bME Storage Monitor&r is a simple way to see the current level of a specified item. There are several interactions to modify it."
 		"- Right-click with item: Will display the current stored amount of that item if not locked"
@@ -5850,6 +5860,7 @@
 	task.640C892CFC379263.title: "NYI"
 	task.6467AAF803854F25.title: "Click to Acknowledge"
 	task.64A220722290404A.title: "Click to Acknowledge"
+	task.66635FA796FF3AD2.title: "Any Construction Stick"
 	task.6669413B45FFEE73.title: "Click to Acknowledge"
 	task.66BF01AE1EF2010B.title: "6x Polished Pillars"
 	task.66C4FDD390BFCFAE.title: "NYI"

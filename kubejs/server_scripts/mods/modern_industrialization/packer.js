@@ -18,6 +18,19 @@ ServerEvents.recipes(event => {
     ];
     REMOVED_RECIPE.forEach(id => event.remove({id: id}));
 
+    // -- REINFORCED HANG GLIDER -- //
+    packer(
+        event,
+        st('reinforced_hang_glider'),
+        8,
+        200,
+        [
+            { amount: 1, item: hg('hang_glider') },
+            { amount: 2, item: mi('steel_plate') }
+        ],
+        [ { amount: 1, item: hg('reinforced_hang_glider') } ]
+    );
+
     // -- FLUIX GLASS CABLE -- //
     packer(
         event,

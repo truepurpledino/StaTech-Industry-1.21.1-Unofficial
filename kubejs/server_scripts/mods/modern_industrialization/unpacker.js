@@ -7,11 +7,10 @@ ServerEvents.recipes(event => {
     // -- MOD NAMESPACE UTILITY FUNCTIONS -- // 
     let st = (id) => `statech:modern_industrialization/unpacker/${id}`;
 
-    // -- PACKER REMOVED RECIPES -- //
-/*     const REMOVED_RECIPE = [
-        mi('materials/packer/mixed_ingot_blastproof')
+    // -- UNPACKER REMOVED RECIPES -- //
+    const REMOVED_RECIPE = [
     ];
-    REMOVED_RECIPE.forEach(id => event.remove({id: id})); */
+    REMOVED_RECIPE.forEach(id => event.remove({id: id})); 
 
     // -- DECORATIVE COPPER BLOCK -- //
     unpacker(

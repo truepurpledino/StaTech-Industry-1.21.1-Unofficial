@@ -8,14 +8,29 @@
 		id: "kubejs:bartman"
 	}
 	id: "1E4B3098D73D738C"
-	images: [{
-		height: 6.0d
-		image: "statech:item/mm_logo"
-		rotation: 0.0d
-		width: 6.0d
-		x: 0.0d
-		y: -6.0d
-	}]
+	images: [
+		{
+			height: 6.0d
+			image: "statech:item/mm_logo"
+			rotation: 0.0d
+			width: 6.0d
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			click: "https://discord.gg/RDaJEnN3uS"
+			height: 1.5d
+			hover: [
+				"Find yourself stuck and need help? "
+				"Or if you just want to chat, come join the Discord!"
+			]
+			image: "statech:textures/item/discordlogo.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 2.5d
+			y: 1.5d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -58,11 +73,12 @@
 					xp: 5
 				}
 			]
+			shape: "rsquare"
 			tasks: [{
 				id: "39C63B199AA904F9"
 				type: "checkmark"
 			}]
-			x: 3.0d
+			x: 2.5d
 			y: 0.0d
 		}
 		{
@@ -76,11 +92,12 @@
 				type: "xp"
 				xp: 5
 			}]
+			shape: "rsquare"
 			tasks: [{
 				id: "50932E4F50C38E5E"
 				type: "checkmark"
 			}]
-			x: -3.0d
+			x: -2.5d
 			y: 0.0d
 		}
 		{
@@ -94,11 +111,12 @@
 				type: "xp"
 				xp: 5
 			}]
+			shape: "rsquare"
 			tasks: [{
 				id: "40F284523C7D1EE5"
 				type: "checkmark"
 			}]
-			x: -3.0d
+			x: -2.5d
 			y: -1.0d
 		}
 		{
@@ -112,12 +130,13 @@
 				type: "xp"
 				xp: 5
 			}]
+			shape: "rsquare"
 			tasks: [{
 				id: "5188560E06DDBDE2"
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: 2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["58F52B959643FF34"]
@@ -130,12 +149,130 @@
 				type: "xp"
 				xp: 5
 			}]
+			shape: "rsquare"
 			tasks: [{
 				id: "23998E6F98104B1C"
 				type: "checkmark"
 			}]
 			x: 0.0d
 			y: -2.5d
+		}
+		{
+			dependencies: ["58F52B959643FF34"]
+			icon: {
+				id: "minecraft:chest"
+			}
+			id: "285D484647B28F7C"
+			rewards: [{
+				id: "79E8F21EB634874C"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "569515177B4B1050"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["58F52B959643FF34"]
+			icon: {
+				id: "nomansland:maple_sapling"
+			}
+			id: "571425ED36DA521C"
+			rewards: [{
+				id: "450AC7A949C1BE02"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6A3D3DA3D5DA4D06"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["58F52B959643FF34"]
+			icon: {
+				id: "javd:portal_block"
+			}
+			id: "0F270CF21E4D9F32"
+			rewards: [{
+				id: "559D70A9914748F4"
+				item: {
+					count: 1
+					id: "javd:portal_block"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6669413B45FFEE73"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["58F52B959643FF34"]
+			icon: {
+				id: "modern_industrialization:item_pipe"
+			}
+			id: "44CD2B9B89F9183C"
+			rewards: [{
+				id: "76FE68EC0D66AB23"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "205CF878A2DFA3D1"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["58F52B959643FF34"]
+			icon: {
+				id: "modonomicon:leaflet"
+			}
+			id: "6C661605F1DBEE4D"
+			rewards: [{
+				id: "5A35AE7006AA7D24"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "70B13DBDC276B4EA"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["58F52B959643FF34"]
+			icon: {
+				id: "minecraft:spyglass"
+			}
+			id: "3D5C1FD71120C918"
+			rewards: [{
+				id: "5FEEAC4234C0F3C3"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "70399A65136F784E"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -1.0d
 		}
 	]
 }

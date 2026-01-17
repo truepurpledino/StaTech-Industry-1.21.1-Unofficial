@@ -94,7 +94,7 @@
 				}
 			]
 			x: 0.0d
-			y: 2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["412958496FE9150E"]
@@ -129,40 +129,6 @@
 			}]
 			x: 1.5d
 			y: 3.0d
-		}
-		{
-			dependencies: ["412958496FE9150E"]
-			id: "17392DB9C05AAA2C"
-			rewards: [
-				{
-					count: 5
-					id: "2B043FEE24FF33E0"
-					item: {
-						count: 1
-						id: "kubejs:coin_common"
-					}
-					type: "item"
-				}
-				{
-					id: "79D06EE7B53CC5C9"
-					type: "xp"
-					xp: 10
-				}
-				{
-					exclude_from_claim_all: true
-					id: "19B9648CAFB81AE4"
-					table_id: 3409273157072801564L
-					type: "random"
-				}
-			]
-			shape: "rsquare"
-			tasks: [{
-				id: "027EE48A086CCBFE"
-				item: { count: 1, id: "gag:time_sand_pouch" }
-				type: "item"
-			}]
-			x: -1.0d
-			y: 2.0d
 		}
 		{
 			dependencies: ["412958496FE9150E"]
@@ -233,7 +199,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["0EF2CBA4F28AC98C"]
+			dependencies: ["420CD966462CB7CD"]
 			id: "171B6274F48C81EA"
 			rewards: [
 				{
@@ -263,8 +229,8 @@
 				item: { count: 1, id: "hangglider:reinforced_hang_glider" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: 4.0d
+			x: 29.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["412958496FE9150E"]
@@ -297,8 +263,8 @@
 				item: { count: 1, id: "measurements:tape_measure" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 2.0d
+			x: -2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["412958496FE9150E"]
@@ -1043,7 +1009,7 @@
 				{
 					count: 20L
 					id: "0570456BDA6D1664"
-					item: { count: 20, id: "minecraft:bricks" }
+					item: { count: 1, id: "minecraft:bricks" }
 					type: "item"
 				}
 				{
@@ -1194,7 +1160,7 @@
 				{
 					count: 4L
 					id: "391B3A59AEF6088D"
-					item: { count: 4, id: "modern_industrialization:coke_dust" }
+					item: { count: 1, id: "modern_industrialization:coke_dust" }
 					type: "item"
 				}
 			]
@@ -1308,7 +1274,7 @@
 				{
 					count: 29L
 					id: "6415E4C2F05E3637"
-					item: { count: 29, id: "modern_industrialization:fire_clay_bricks" }
+					item: { count: 1, id: "modern_industrialization:fire_clay_bricks" }
 					type: "item"
 				}
 				{
@@ -1735,19 +1701,19 @@
 				{
 					count: 12L
 					id: "7F57354C4506E04C"
-					item: { count: 12, id: "modern_industrialization:steel_machine_casing" }
+					item: { count: 1, id: "modern_industrialization:steel_machine_casing" }
 					type: "item"
 				}
 				{
 					count: 6L
 					id: "480C0FE83583225E"
-					item: { count: 6, id: "modern_industrialization:steel_machine_casing_pipe" }
+					item: { count: 1, id: "modern_industrialization:steel_machine_casing_pipe" }
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "52BAF4AB5880BC16"
-					item: { count: 4, id: "minecraft:chain" }
+					item: { count: 1, id: "minecraft:chain" }
 					type: "item"
 				}
 				{
@@ -2230,8 +2196,8 @@
 					type: "item"
 				}
 			]
-			x: 30.0d
-			y: 2.5d
+			x: 29.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["26A89C51A7B9FFDE"]
@@ -2441,7 +2407,7 @@
 				{
 					count: 22L
 					id: "30DB077C163474AA"
-					item: { count: 23, id: "modern_industrialization:bronze_plated_bricks" }
+					item: { count: 1, id: "modern_industrialization:bronze_plated_bricks" }
 					type: "item"
 				}
 				{
@@ -2632,7 +2598,7 @@
 				{
 					count: 5L
 					id: "564F665E0C6756BD"
-					item: { count: 5, id: "minecraft:glass" }
+					item: { count: 1, id: "minecraft:glass" }
 					type: "item"
 				}
 				{
@@ -2823,19 +2789,19 @@
 				{
 					count: 24L
 					id: "58B3510CDA3EC450"
-					item: { count: 24, id: "modern_industrialization:bronze_plated_bricks" }
+					item: { count: 1, id: "modern_industrialization:bronze_plated_bricks" }
 					type: "item"
 				}
 				{
 					count: 6L
 					id: "1E9DF90560C1CEBE"
-					item: { count: 6, id: "modern_industrialization:heatproof_machine_casing" }
+					item: { count: 1, id: "modern_industrialization:heatproof_machine_casing" }
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "104396EA77E164FE"
-					item: { count: 3, id: "modern_industrialization:bronze_machine_casing_pipe" }
+					item: { count: 1, id: "modern_industrialization:bronze_machine_casing_pipe" }
 					type: "item"
 				}
 				{
@@ -2896,13 +2862,13 @@
 				{
 					count: 16L
 					id: "704E947DD439D21E"
-					item: { count: 16, id: "modern_industrialization:bronze_plated_bricks" }
+					item: { count: 1, id: "modern_industrialization:bronze_plated_bricks" }
 					type: "item"
 				}
 				{
 					count: 6L
 					id: "2BEE5E62350CB9B0"
-					item: { count: 6, id: "modern_industrialization:fire_clay_bricks" }
+					item: { count: 1, id: "modern_industrialization:fire_clay_bricks" }
 					type: "item"
 				}
 				{
@@ -3118,45 +3084,6 @@
 			}]
 			x: 11.5d
 			y: 8.5d
-		}
-		{
-			dependencies: ["74B14DB45316C4F8"]
-			id: "5E0C8E80FD41ECC3"
-			rewards: [
-				{
-					id: "47A78719B8E4688F"
-					type: "xp"
-					xp: 10
-				}
-				{
-					count: 5
-					id: "586FA3C7C1DAD85F"
-					item: {
-						count: 1
-						id: "kubejs:coin_common"
-					}
-					type: "item"
-				}
-				{
-					id: "3DD0668B53D670A8"
-					type: "xp"
-					xp: 10
-				}
-				{
-					exclude_from_claim_all: true
-					id: "4136F8D3F67F24E3"
-					table_id: 3409273157072801564L
-					type: "random"
-				}
-			]
-			shape: "rsquare"
-			tasks: [{
-				id: "114BB39F7CD134F2"
-				item: { count: 1, id: "simplemagnets:basicmagnet" }
-				type: "item"
-			}]
-			x: 5.0d
-			y: -2.5d
 		}
 		{
 			dependencies: ["26A89C51A7B9FFDE"]
@@ -3626,8 +3553,37 @@
 				item: { count: 1, id: "extended_industrialization:steel_alloy_smelter" }
 				type: "item"
 			}]
-			x: 29.5d
-			y: 3.5d
+			x: 30.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["412958496FE9150E"]
+			id: "78429A291627AA16"
+			shape: "rsquare"
+			tasks: [{
+				id: "58ED734F684A9B09"
+				item: { count: 1, id: "torchmaster:feral_flare_lantern" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["412958496FE9150E"]
+			id: "375463DA61D3A69C"
+			rewards: [{
+				id: "74B7EFFEBC5B868C"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "59BCFDB711AEDCD5"
+				item: { count: 1, id: "gag:escape_rope" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
 		}
 	]
 }

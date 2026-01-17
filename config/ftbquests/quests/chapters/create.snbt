@@ -1157,7 +1157,7 @@
 			tasks: [{
 				count: 2L
 				id: "4727CB0BE10CD8C6"
-				item: { count: 2, id: "create:crushing_wheel" }
+				item: { count: 1, id: "create:crushing_wheel" }
 				type: "item"
 			}]
 			x: -12.0d
