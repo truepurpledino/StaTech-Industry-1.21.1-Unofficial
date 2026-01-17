@@ -7378,11 +7378,6 @@ hash = "ea82dd0fd005b3446286cf40e826d56b9a7b5dbb22173606a707676f35b72990"
 metafile = true
 
 [[files]]
-file = "mods/chimes.pw.toml"
-hash = "0d2e7702d089dfbe466a8336f2a4c4fc2f08ef2198a77fc7f3748b0015cfa6b7"
-metafile = true
-
-[[files]]
 file = "mods/chisel-reborn.pw.toml"
 hash = "8c683f7856a4176c63d841e640bda56afbe7e009a73eddf822d2a9d752a94990"
 metafile = true
