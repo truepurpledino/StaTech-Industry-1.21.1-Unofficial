@@ -13,6 +13,7 @@ Thumbs.db
 *.bak
 *.jar
 *.disabled
+*.exe
 
 saves/
 logs/
