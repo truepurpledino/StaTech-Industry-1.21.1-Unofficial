@@ -668,5 +668,16 @@
 			x: 8.0d
 			y: -1.0d
 		}
+		{
+			dependencies: ["23D9328B5F627E65"]
+			id: "476429148032E34F"
+			tasks: [{
+				id: "46EEBB6124A908ED"
+				item: { count: 1, id: "extended_industrialization:processing_array" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 5.5d
+		}
 	]
 }

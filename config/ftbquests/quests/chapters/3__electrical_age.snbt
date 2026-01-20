@@ -2273,5 +2273,17 @@
 			x: 14.5d
 			y: 4.5d
 		}
+		{
+			dependencies: ["323919C5F7774E1B"]
+			id: "0D8A544874243020"
+			shape: "rsquare"
+			tasks: [{
+				id: "2F9204CF371049B0"
+				item: { count: 1, id: "extended_industrialization:electric_farmer" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: 5.5d
+		}
 	]
 }

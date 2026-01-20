@@ -315,20 +315,6 @@ ServerEvents.recipes(event => {
     })
     .id(st('rocket_part_assembler'));
 
-    // -- MEGA SMELTER -- //
-    event.shaped(ei('large_electric_furnace'), [
-        'MCM',
-        'FHF',
-        'MCM'
-    ],
-    {
-        M: mi('cupronickel_wire_magnetic'),
-        C: mi('electronic_circuit'),
-        F: mi('electric_furnace'),
-        H: mi('advanced_machine_hull')
-    })
-    .id(st('large_electric_furnace'));
-
     // -- SPACE PROBE LAUNCHER -- //
     event.shaped(mi('space_probe_launcher'), [
         'PUP',

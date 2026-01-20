@@ -25,6 +25,21 @@ ServerEvents.recipes(event => {
     ];
     REMOVED_RECIPE.forEach(id => event.remove({id: id}));
     
+    // -- LARGE STEAM MACERATOR -- //
+    assembler(
+        event,
+        st('large_steam_macerator'),
+        8,
+        200,
+        [
+            { amount: 2, item: mi('bronze_macerator') },
+            { amount: 2, item: mi('bronze_plated_bricks') },
+            { amount: 4, item: mi('bronze_curved_plate') },
+            { amount: 1, item: mi('steel_machine_casing') }
+        ],
+        [ { amount: 1, item: ei('large_steam_macerator') } ]
+    );
+
     // -- LENS MOLD -- //
     assembler(
         event,
@@ -34,7 +49,7 @@ ServerEvents.recipes(event => {
         [ { amount: 4, item: mi('stainless_steel_plate') } ],
         [ { amount: 1, item: kj('lens_mold')} ],
         [ { amount: 100, fluid: mi('polytetrafluoroethylene') } ]
-    )
+    );
 
     // -- PERSONAL SPACE SHIELD -- //
     assembler(

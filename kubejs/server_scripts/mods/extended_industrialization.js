@@ -5,25 +5,27 @@
 
 ServerEvents.recipes(event => {
     // -- MOD NAMESPACE UTILITY FUNCTIONS -- // 
-    let st = (id) => `statech:modern_industrialization/${id}`;
+    let st = (id) => `statech:extended_industrialization/${id}`;
 
     // -- EXTENDED INDUSTRIALIZATION REMOVED RECIPES -- //
     const EI_DELETED_ITEMS = [
         ei('machines/large_electric_furnace/assembler'),
         ei('machines/large_electric_furnace/craft'),
-        ei('machines/bending_machine/assembler/bronze'),
-        ei('machines/bending_machine/craft/bronze'),
-        ei('machines/bending_machine/assembler/electric'),
-        ei('machines/bending_machine/craft/electric'),
-        ei('machines/bending_machine/unpacker/downgrade_steel'),
-        ei('machines/bending_machine/packer/upgrade_steel'),
-        ei('machines/bending_machine/craft/upgrade_steel'),
+        // ei('machines/bending_machine/assembler/bronze'),
+        // ei('machines/bending_machine/craft/bronze'),
+        // ei('machines/bending_machine/assembler/electric'),
+        // ei('machines/bending_machine/craft/electric'),
+        // ei('machines/bending_machine/unpacker/downgrade_steel'),
+        // ei('machines/bending_machine/packer/upgrade_steel'),
+        // ei('machines/bending_machine/craft/upgrade_steel'),
         ei('machines/alloy_smelter/craft/electric'),
         ei('machines/alloy_smelter/assembler/electric'),
         ei('machines/processing_array/craft'),
         ei('machines/processing_array/assembler'),
         ei('tool/craft/steam_chainsaw'),
-        ei('tool/craft/tesla_handheld_receiver')
+        ei('tool/craft/tesla_handheld_receiver'),
+        ei('machines/large_steam_macerator/craft'),
+        ei('machines/large_steam_macerator/assembler')
     ];
     EI_DELETED_ITEMS.forEach(id => event.remove( {id: id} ));
 
@@ -42,6 +44,19 @@ ServerEvents.recipes(event => {
     // })
     // .id(st('large_chemical_reactor'));
 
+    // -- LARGE STEAM MACERATOR -- //
+    event.shaped(ei('large_steam_macerator'), [
+        'PBP',
+        'MCM',
+        'PBP'
+    ],
+    {
+        P: mi('bronze_curved_plate'),
+        B: mi('bronze_plated_bricks'),
+        M: mi('bronze_macerator'),
+        C: mi('steel_machine_casing')
+    }).id(st('large_steam_macerator'));
+
     // -- STEAM CHAINSAW -- //
     event.shaped(ei('steam_chainsaw'), [
         'FDD',
@@ -54,8 +69,7 @@ ServerEvents.recipes(event => {
         P: '#c:large_plates/steel',
         G: '#c:gears/copper',
         B: mc('bucket')
-    })
-    .id(st('steam_chainsaw'));
+    }).id(st('steam_chainsaw'));
 
     // -- TESLA HANDHELD RECEIVER -- //
     event.shaped(ei('tesla_handheld_receiver'), [
@@ -69,8 +83,7 @@ ServerEvents.recipes(event => {
         T: mi('transistor'),
         C: mi('cupronickel_coil'),
         E: mi('electronic_circuit')
-    })
-    .id(st('tesla_handheld_receiver'));
+    }).id(st('tesla_handheld_receiver'));
 
 
     // -- ALLOY SMELTER -- //
@@ -85,8 +98,7 @@ ServerEvents.recipes(event => {
         I: mi('inductor'),
         T: mi('tin_cable'),
         F: mi('electric_furnace')
-    })
-    .id(st('electric_alloy_smelter'));
+    }).id(st('electric_alloy_smelter'));
 
     // -- MEGA SMELTER -- //
     event.shaped(ei('large_electric_furnace'), [
@@ -99,8 +111,7 @@ ServerEvents.recipes(event => {
         C: mi('electronic_circuit'),
         F: mi('electric_furnace'),
         H: mi('advanced_machine_hull')
-    })
-    .id(st('large_electric_furnace'));
+    }).id(st('large_electric_furnace'));
 
     // -- ELECTRIC BENDING MACHINES -- //
     event.shaped(ei('electric_bending_machine'), [
@@ -115,8 +126,7 @@ ServerEvents.recipes(event => {
         P: mi('piston'),
         H: mi('basic_machine_hull'),
         E: mi('electronic_circuit')
-    })
-    .id(st('electric_bending_machine'));
+    }).id(st('electric_bending_machine'));
 
     // -- PROCESSING ARRAY -- //
     event.shaped(ei('processing_array'), [
@@ -129,8 +139,7 @@ ServerEvents.recipes(event => {
         G: '#c:glass_blocks',
         A: mi('assembler'),
         Q: mi('quantum_circuit')
-    })
-    .id(st('processing_array'));
+    }).id(st('processing_array'));
 });
 
 
