@@ -13,7 +13,6 @@ ServerEvents.recipes(event => {
         fs('gold_upgrade'),
         fs('diamond_upgrade'),
         fs('netherite_upgrade'),
-        fs('void_upgrade'),
         fs('iron_downgrade'),
         fs('dripping_upgrade'),
         fs('water_generator_upgrade'),
@@ -78,4 +77,5 @@ ServerEvents.recipes(event => {
         P: '#c:plates/tungstensteel'
     })
     .id(st('tungstensteel_upgrade')); 
+
 });
