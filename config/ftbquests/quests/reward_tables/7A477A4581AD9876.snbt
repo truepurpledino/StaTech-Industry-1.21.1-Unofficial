@@ -449,5 +449,22 @@
 				id: "modern_industrialization:piston"
 			}
 		}
+		{
+			count: 6
+			id: "6840A118EE218D62"
+			item: {
+				count: 1
+				id: "modern_industrialization:tin_rotor"
+			}
+		}
+		{
+			count: 6
+			id: "3455DF929C42FC9F"
+			item: {
+				count: 1
+				id: "modern_industrialization:copper_rotor"
+			}
+		}
 	]
+	use_title: true
 }

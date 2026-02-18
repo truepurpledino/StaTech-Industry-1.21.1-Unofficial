@@ -128,7 +128,7 @@
 			}
 		}
 		{
-			count: 8
+			count: 6
 			id: "289934F1D2A7E6F7"
 			item: {
 				count: 1
@@ -279,4 +279,5 @@
 			}
 		}
 	]
+	use_title: true
 }

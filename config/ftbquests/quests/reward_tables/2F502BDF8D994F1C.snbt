@@ -396,4 +396,5 @@
 			}
 		}
 	]
+	use_title: true
 }

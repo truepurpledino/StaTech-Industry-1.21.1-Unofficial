@@ -70,41 +70,6 @@
 			}
 		}
 		{ id: "70ACE8051B71BA45", item: { count: 1, id: "sophisticatedstorage:basic_to_diamond_tier_upgrade" } }
-		{ id: "6290D38B37C89066", item: { count: 1, id: "modern_industrialization:robot_arm" } }
-		{ id: "48DB25FBA6806FF5", item: { count: 1, id: "modern_industrialization:analog_circuit" } }
-		{ id: "7FEBA5EC2B6F9806", item: { count: 1, id: "modern_industrialization:motor" } }
-		{
-			count: 4
-			id: "5B2E9856D175412A"
-			item: {
-				count: 1
-				id: "modern_industrialization:resistor"
-			}
-		}
-		{
-			count: 4
-			id: "3C56612C195CF435"
-			item: {
-				count: 1
-				id: "modern_industrialization:inductor"
-			}
-		}
-		{
-			count: 4
-			id: "6B7EB389F0C0E117"
-			item: {
-				count: 1
-				id: "modern_industrialization:analog_circuit_board"
-			}
-		}
-		{
-			count: 4
-			id: "56EBEA52E45B267E"
-			item: {
-				count: 1
-				id: "modern_industrialization:capacitor"
-			}
-		}
 		{
 			count: 32
 			id: "7228A1AC541CBC3F"
@@ -119,14 +84,6 @@
 			item: {
 				count: 1
 				id: "modern_industrialization:invar_dust"
-			}
-		}
-		{
-			count: 2
-			id: "4CD7485C2E683DA7"
-			item: {
-				count: 1
-				id: "modern_industrialization:redstone_battery"
 			}
 		}
 		{
@@ -307,5 +264,46 @@
 		{ id: "2A73C2631535737A", item: { count: 1, id: "artifacts:rooted_boots" } }
 		{ id: "2CA2CCBB13AF5BE4", item: { count: 1, id: "artifacts:strider_shoes" } }
 		{ id: "18A5AEFC82DB9427", item: { count: 1, id: "artifacts:whoopee_cushion" } }
+		{
+			count: 2
+			id: "599763B6DE388E38"
+			item: {
+				count: 1
+				id: "modern_industrialization:steel_block"
+			}
+		}
+		{
+			count: 48
+			id: "745C279644956B98"
+			item: {
+				count: 1
+				id: "modern_industrialization:rubber_sheet"
+			}
+		}
+		{
+			count: 32
+			id: "6B1FFAB932C0A320"
+			item: {
+				count: 1
+				id: "modern_industrialization:copper_plate"
+			}
+		}
+		{
+			count: 32
+			id: "6883FFCC308EB98A"
+			item: {
+				count: 1
+				id: "modern_industrialization:steel_rod"
+			}
+		}
+		{
+			count: 8
+			id: "4243F3442B3BEA42"
+			item: {
+				count: 1
+				id: "modern_industrialization:steel_rod_magnetic"
+			}
+		}
 	]
+	use_title: true
 }
