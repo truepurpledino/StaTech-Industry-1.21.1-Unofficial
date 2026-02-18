@@ -40,6 +40,22 @@ ServerEvents.recipes(event => {
     })
     .id(st('large_chemical_reactor'));
 
+    // -- LARGE SCALE ASSEMBLER -- //
+    event.shaped(mt('large_scale_assembler'), [
+        'TGT',
+        'MAP',
+        'TCT'
+    ],
+    {
+        G: kj('borosilicate_glass'),
+        A: mi('assembler'),
+        M: mi('advanced_motor'),
+        P: mi('advanced_pump'),
+        C: mi('processing_unit'),
+        T: mi('tungstensteel_large_plate')
+    })
+    .id(st('large_scale_assembler'));
+
     // -- PYROLYSE OVEN -- //
     // event.shaped(mi('pyrolyse_oven'), [
         // 'HIH',
