@@ -21,14 +21,15 @@ ServerEvents.recipes(event => {
         )
     })
 
-    // -- EXTENDED AE REMOVED RECIPES -- //
+    // -- MEGA CELLS REMOVED RECIPES -- //
     const REMOVED_RECIPES = [
         mg('transform/sky_bronze_ingot'),
         mg('transform/sky_steel_ingot'),
         mg('transform/sky_osmium_ingot'),
         mg('transform/sky_osmium_ingot'),
         mg('crafting/sky_osmium_ingot_from_sky_osmium_block'),
-        mg('crafting/sky_osmium_block')
+        mg('crafting/sky_osmium_block'),
+        mg('crafting/bulk_cell_component')
     ];
     REMOVED_RECIPES.forEach(id => event.remove( {id: id} ));
     

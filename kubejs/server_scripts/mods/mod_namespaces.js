@@ -42,3 +42,4 @@ let ec = (id) => `explorerscompass:${id}`;
 let nm = (id) => `nomansland:${id}`;
 let us = (id) => `usefulslime:${id}`;
 let tm = (id) => `torchmaster:${id}`;
+let bae = (id) => `bigger_ae2:${id}`;
