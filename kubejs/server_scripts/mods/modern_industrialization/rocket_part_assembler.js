@@ -73,7 +73,8 @@ ServerEvents.recipes(event => {
         [
             { amount: 4, item: mi('steel_ring') },
             { amount: 2, item: mi('advanced_pump') },
-            { amount: 1, item: mi('steel_tank') }
+            { amount: 8, item: mi('steel_plate') },
+            { amount: 1, tag: 'c:glass_blocks' }
         ],
         [ { amount: 1, item: kj('steel_fuel_tank') } ],
         [ { amount: 250, fluid: mi('boosted_diesel') } ]

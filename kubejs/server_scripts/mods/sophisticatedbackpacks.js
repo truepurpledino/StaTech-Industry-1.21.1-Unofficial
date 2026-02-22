@@ -16,8 +16,10 @@ ServerEvents.recipes(event => {
         sb('battery_upgrade'),
         sb('magnet_upgrade'),
         sb('advanced_magnet_upgrade'),
+        sb('advanced_magnet_upgrade_from_basic'),
         sb('advanced_pump_upgrade'),
         sb('feeding_upgrade'),
+        sb('tank_upgrade'),
         sb('upgrade_base')
     ];
     SOPH_DELETED.forEach(id => event.remove({ id: id })); 
@@ -71,6 +73,19 @@ ServerEvents.recipes(event => {
         M: sm('advancedmagnet')
     })
     .id(st('advanced_magnet_upgrade')); 
+
+    // -- TANK UPGRADE -- //
+    event.shaped(sb('tank_upgrade'), [
+        ' T ',
+        'RDR',
+        ' R '
+    ],
+    {
+        D: sb('upgrade_base'),
+        T: mi('steel_tank'),
+        R: mc('redstone')
+    })
+    .id(st('tank_upgrade')); 
 
     // Adapted from Monifactory scripts, see https://github.com/ThePansmith/Monifactory/blob/main/kubejs/server_scripts/mods/Sophisticated_Storagevent.js
 

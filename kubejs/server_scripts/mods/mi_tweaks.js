@@ -56,6 +56,22 @@ ServerEvents.recipes(event => {
     })
     .id(st('large_scale_assembler'));
 
+    // -- BULK COMPACTOR -- //
+    event.shaped(mt('bulk_compactor'), [
+        'PDP',
+        'MCM',
+        'PHP'
+    ],
+    {
+        D: mi('digital_circuit'),
+        C: mi('electric_compressor'),
+        M: mi('advanced_motor'),
+        H: mi('turbo_machine_hull'),
+        P: mi('steel_large_plate')
+    })
+    .id(st('bulk_compactor'));
+
+
     // -- PYROLYSE OVEN -- //
     // event.shaped(mi('pyrolyse_oven'), [
         // 'HIH',

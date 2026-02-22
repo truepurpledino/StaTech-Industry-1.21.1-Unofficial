@@ -296,6 +296,8 @@
     "modern_industrialization:uranium_ore",
     "modern_industrialization:vacuum_freezer",
     "modern_industrialization:yttrium_block",
-    "mi_tweaks:large_chemical_reactor"
+    "mi_tweaks:large_chemical_reactor",
+    "mi_tweaks:large_scale_assembler",
+    "mi_tweaks:bulk_compactor"
   ]
 }
