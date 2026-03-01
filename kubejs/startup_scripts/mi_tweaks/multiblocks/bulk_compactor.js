@@ -19,7 +19,7 @@ MITweaksMachineEvents.registerBatchMultiblocks((event) => {
     const steelPipeCasing = event.memberOfBlock('modern_industrialization:steel_machine_casing_pipe');
     const borosilicateGlass = event.memberOfBlock('kubejs:borosilicate_glass');
     const Block = event.memberOfBlock('modern_industrialization:desh_block');
-    const bulkcompactorShape = event.layeredShape('modern_industrialization:steel_plated_bricks_casing', [
+    const bulkcompactorShape = event.layeredShape('steel', [
         [ 'bbb', ' B ', ' B ', ' b ' ],
         [ 'bDb', 'P P', 'PDP', 'bbb' ],
         [ 'b#b', ' G ', ' G ', ' b ' ]
@@ -45,7 +45,7 @@ MITweaksMachineEvents.registerBatchMultiblocks((event) => {
         // fluidInputs => fluidInputs.addSlots(30, 47, 3, 1), fluidInputs => fluidInputs.addSlots(116, 47, 3, 1),
 
         /* Model configuration */
-        'modern_industrialization:steel_plated_bricks_casing', // casing of the controller
+        'steel', // casing of the controller
         'compressor', // overlay folder
         true, // front overlay
         true, // top overlay

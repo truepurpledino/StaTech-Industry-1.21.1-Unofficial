@@ -1,5 +1,5 @@
 {
-    "casing": "modern_industrialization:steel_plated_bricks_casing",
+    "casing": "steel",
     "default_overlays": {
         "fluid_auto": "modern_industrialization:block/overlays/fluid_auto",
         "top": "modern_industrialization:block/machines/compressor/overlay_top",
