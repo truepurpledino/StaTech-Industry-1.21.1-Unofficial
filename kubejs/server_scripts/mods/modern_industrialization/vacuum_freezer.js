@@ -31,6 +31,7 @@ ServerEvents.recipes(event => {
 
     // -- TUNGSTENSTEEL INGOT -- //
     vacuumFreezer(
+        event,
         st('tungstensteel_ingot'),
         64,
         600,
