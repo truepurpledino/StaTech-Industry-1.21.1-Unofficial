@@ -105,11 +105,11 @@ ServerEvents.recipes(event => {
         event,
         st('xp_fluid'),
         8,
-        200,
-        [ { amount: 3, item: cr('experience_nugget') } ],
+        50,
+        [ { amount: 4, item: cr('experience_nugget') } ],
         null,
         null,
-        [ { amount: 90, fluid: xp('cognitium_source') } ]
+        [ { amount: 120, fluid: xp('cognitium_source') } ]
     ); 
 
     // -- STATECH ENERGY -- //

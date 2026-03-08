@@ -30,15 +30,15 @@ ServerEvents.recipes(event => {
     );
 
     // -- TUNGSTENSTEEL INGOT -- //
-    // vacuumFreezer(
-        // st('tungstensteel_ingot'),
-        // 64,
-        // 600,
-        // [ { amount: 1, item: mi('tungstensteel_hot_ingot') } ],
-        // [ { amount: 1, item: mi('tungstensteel_ingot') } ],
-        // null,
-        // null
-    // );
+    vacuumFreezer(
+        st('tungstensteel_ingot'),
+        64,
+        600,
+        [ { amount: 1, item: mi('tungstensteel_hot_ingot') } ],
+        [ { amount: 1, item: mi('tungstensteel_ingot') } ],
+        null,
+        null
+    );
 
     // -- CONCRETE BAR -- //
     vacuumFreezer(

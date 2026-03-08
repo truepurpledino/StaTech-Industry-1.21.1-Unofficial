@@ -597,6 +597,32 @@ ServerEvents.recipes(event => {
         ],
         [ { amount: 2, item: mi('polytetrafluoroethylene_machine_casing_pipe') } ]
     );
+
+    // -- TUNGSTENSTEEL MACHINE CASING -- //
+    assembler(
+        event,
+        st('tungstensteel_machine_casing'),
+        8,
+        200,
+        [
+            { amount: 8, item: mi('tungstensteel_plate') },
+            { amount: 1, item: mi('tungstensteel_gear') }
+        ],
+        [ { amount: 1, item: mi('tungstensteel_machine_casing') } ]
+    );
+
+    // -- TUNGSTENSTEEL PIPE CASING -- //
+    assembler(
+        event,
+        st('tungstensteel_machine_casing_pipe'),
+        8,
+        200,
+        [
+            { amount: 1, item: mi('tungstensteel_machine_casing') },
+            { amount: 6, item: mi('tungstensteel_curved_plate') }
+        ],
+        [ { amount: 2, item: mi('tungstensteel_machine_casing_pipe') } ]
+    );
     
     // -- ALLOY SMELTER -- //
     // assembler(

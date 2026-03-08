@@ -167,6 +167,30 @@ ServerEvents.recipes(event => {
     })
     .id(st('ptfe_machine_casing_pipe'));
 
+    // -- TUNGSTENSTEEL MACHINE CASING -- // 
+    event.shaped(mi('tungstensteel_machine_casing'), [
+        'PPP',
+        'PGP',
+        'PPP'
+    ],
+    {
+        P: mi('tungstensteel_plate'),
+        G: mi('tungstensteel_gear')
+    })
+    .id(st('tungstensteel_machine_casing'));
+
+    // -- TUNGSTENSTEEL PIPE MACHINE CASING -- // 
+    event.shaped('2x ' + mi('tungstensteel_machine_casing_pipe'), [
+        'C C',
+        'CMC',
+        'C C'
+    ],
+    {
+        C: mi('tungstensteel_curved_plate'),
+        M: mi('tungstensteel_machine_casing')
+    })
+    .id(st('tungstensteel_machine_casing_pipe'));
+
     // -- LARGE CHEMICAL REACTOR -- //
     // event.shaped(mi('large_chemical_reactor'), [
         // 'PRP',
