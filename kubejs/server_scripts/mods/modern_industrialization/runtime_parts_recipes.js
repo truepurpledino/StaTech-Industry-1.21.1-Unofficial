@@ -1,17 +1,11 @@
 ServerEvents.recipes(e => {
     // -- MOD NAMESPACE UTILITY FUNCTIONS -- // 
-    let st = (id) => `statech:modern_industrialization/${id}`;
-    let mi = (id) => `modern_industrialization:${id}`;
-    let ei = (id) => `extended_industrialization:${id}`;
-    let mc = (id) => `minecraft:${id}`;
-    // let ca = (id) => `createaddition:${id}`;
-    let kj = (id) => `kubejs:${id}`;
-    // let fd = (id) => `farmersdelight:${id}`;
+    let st = (id) => `statech:modern_industrialization/auto_gen/${id}`;
 
     // -- CUSTOM RECIPE UTILITY FUNCTION -- //
 
     // CUTTING MACHINE, 1 mb LUBCRICANT
-    let cuttingMachine = (id, eu, duration, item_inputs, item_outputs) => {
+/*     let cuttingMachine = (id, eu, duration, item_inputs, item_outputs) => {
         let newRecipe = {
             type: mi('cutting_machine'),
             eu: eu,
@@ -26,10 +20,10 @@ ServerEvents.recipes(e => {
             newRecipe['item_outputs'] = item_outputs;
         
         e.custom(newRecipe).id(id);
-    }
+    } */
 
     // COMPRESSOR
-    let compressor = (id, eu, duration, item_inputs, item_outputs) => {
+/*     let compressor = (id, eu, duration, item_inputs, item_outputs) => {
         let newRecipe = {
             type: mi('compressor'),
             eu: eu,
@@ -41,7 +35,7 @@ ServerEvents.recipes(e => {
             newRecipe['item_outputs'] = item_outputs;
         
         e.custom(newRecipe).id(id);
-    }
+    } */
 
     // BENDING MACHINE
     let bending = (id, eu, duration, item_inputs, item_outputs) => {
@@ -58,8 +52,8 @@ ServerEvents.recipes(e => {
         e.custom(newRecipe).id(id);
     }
 
-    // VACUUM FREEZER
-    let vacuumFreezer = (id, eu, duration, item_inputs, item_outputs, fluid_inputs, fluid_outputs) => {
+    // VACUUM FREEZER // THIS SHOULD BE ADDED BACK, would make tiered VF recipes
+/*     let vacuumFreezer = (id, eu, duration, item_inputs, item_outputs, fluid_inputs, fluid_outputs) => {
         let newRecipe = {
             type: mi('vacuum_freezer'),
             eu: eu,
@@ -76,10 +70,10 @@ ServerEvents.recipes(e => {
             newRecipe['fluid_outputs'] = fluid_outputs;
         
         e.custom(newRecipe).id(id);
-    }
+    } */
 
     // WIREMILL
-    let wiremill = (id, eu, duration, item_inputs, item_outputs) => {
+/*     let wiremill = (id, eu, duration, item_inputs, item_outputs) => {
         let newRecipe = {
             type: mi('wiremill'),
             eu: eu,
@@ -91,10 +85,10 @@ ServerEvents.recipes(e => {
             newRecipe['item_outputs'] = item_outputs;
         
         e.custom(newRecipe).id(id);
-    }
+    } */
 
     // PACKER
-    let packer = (id, eu, duration, item_inputs, item_outputs) => {
+/*     let packer = (id, eu, duration, item_inputs, item_outputs) => {
         let newRecipe = {
             type: mi('packer'),
             eu: eu,
@@ -106,10 +100,10 @@ ServerEvents.recipes(e => {
             newRecipe['item_outputs'] = item_outputs;
         
         e.custom(newRecipe).id(id);
-    }
+    } */
 
     // ASSEMBLER
-    let assembler = (id, eu, duration, item_inputs, item_outputs, fluid_inputs, fluid_outputs) => {
+/*     let assembler = (id, eu, duration, item_inputs, item_outputs, fluid_inputs, fluid_outputs) => {
         let newRecipe = {
             type: mi('assembler'),
             eu: eu,
@@ -125,7 +119,7 @@ ServerEvents.recipes(e => {
             newRecipe['fluid_outputs'] = fluid_outputs;
 
         e.custom(newRecipe).id(id);
-    }
+    } */
 
     
 
@@ -176,15 +170,15 @@ ServerEvents.recipes(e => {
         var name = tier.name;
         var duration = tier.duration;
         MACHINE_FUNCTIONS[name] = {
-            cutting: function(output, input, result) { return cuttingMachine(output, 2, duration, input, result); },
+/*             cutting: function(output, input, result) { return cuttingMachine(output, 2, duration, input, result); },
             compressor: function(output, input, result) { return compressor(output, 2, duration, input, result); },
             wiremill: function(output, input, result) { return wiremill(output, 2, duration, input, result); },
-            packer: function(output, input, result) { return packer(output, 2, duration, input, result); },
+            packer: function(output, input, result) { return packer(output, 2, duration, input, result); }, */
             bending: function(output, input, result) { return bending(output, 2, duration/2, input, result); },
-            vacuumfreeze: function(output, input, result) { return vacuumFreezer(output, 32, duration*0.8, input, result); },
+/*             vacuumfreeze: function(output, input, result) { return vacuumFreezer(output, 32, duration*0.8, input, result); },
             assembler: function(output, itemInputs, itemOutputs, fluidInputs, fluidOutputs) {
-                return assembler(output, 2, duration, itemInputs, itemOutputs, fluidInputs, fluidOutputs);
-            }
+                return assembler(output, 2, duration, itemInputs, itemOutputs, fluidInputs, fluidOutputs); 
+            }*/
         };
     });
 
@@ -323,7 +317,7 @@ ServerEvents.recipes(e => {
                     var fluidOutputs = part.fluidOutputs || [];
 
                     // Assembler with fluid variants
-                    if (Array.isArray(part.fluidInputsVariants)) {
+/*                     if (Array.isArray(part.fluidInputsVariants)) {
                         part.fluidInputsVariants.forEach(function(fluidInputs, index) {
                             machineFunction(
                                 st(part.machine + '/' + material + part.suffix + '_variant' + (index + 1)),
@@ -345,7 +339,7 @@ ServerEvents.recipes(e => {
                             fluidInputs,
                             fluidOutputs
                         );
-                    }
+                    } */
                     // Bending machine addendum
                     if (part.machine === 'compressor' &&
                         (part.suffix === '_curved_plate' || part.suffix === '_ring')) {
