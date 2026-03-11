@@ -21,7 +21,12 @@ ServerEvents.recipes(event => {
         mi('assembler_generated/electric_age/battery/plutonium_battery'),
         mi('machines/machine_chainer/assembler'),
         io('machines/pyrolyse_oven/assembler'),
-        ei('tool/assembler/tesla_handheld_receiver')
+        ei('tool/assembler/tesla_handheld_receiver')/* ,
+        mi('materials/uranium/assembler/fuel_rod'),
+        mi('materials/he_uranium/assembler/fuel_rod'),
+        mi('materials/le_uranium/assembler/fuel_rod'),
+        mi('materials/he_mox/assembler/fuel_rod'),
+        mi('materials/le_mox/assembler/fuel_rod') */
     ];
     REMOVED_RECIPE.forEach(id => event.remove({id: id}));
     
@@ -1278,7 +1283,122 @@ ServerEvents.recipes(event => {
         ],
         [ { amount: 4, item: kj('highly_advanced_space_probe') } ],
     );
+
+    //---------------------//
+    // -- NUCLEAR REMIX -- //
+    //---------------------//
+
+
+    // 4x fuel cost for all rods
+/*     assembler(
+        event,
+        st('uranium_fuel_rod'),
+        16,
+        200,
+        [
+            { amount: 2, item: mi('blastproof_alloy_curved_plate') },
+            { amount: 1, item: mi('large_motor') },
+            { amount: 2, item: mi('robot_arm') },
+            { amount: 64, item: mi('uranium_rod') },
+            { amount: 8, item: mi('uranium_rod') }
+        ],
+        [ { amount: 1, item: mi('uranium_fuel_rod') } ],
+    ); 
+
+    assembler(
+        event,
+        st('le_uranium_fuel_rod'),
+        16,
+        200,
+        [
+            { amount: 2, item: mi('blastproof_alloy_curved_plate') },
+            { amount: 1, item: mi('large_motor') },
+            { amount: 2, item: mi('robot_arm') },
+            { amount: 64, item: mi('le_uranium_rod') },
+            { amount: 8, item: mi('le_uranium_rod') }
+        ],
+        [ { amount: 1, item: mi('le_uranium_fuel_rod') } ],
+    );  
         
+    assembler(
+        event,
+        st('he_uranium_fuel_rod'),
+        16,
+        200,
+        [
+            { amount: 2, item: mi('blastproof_alloy_curved_plate') },
+            { amount: 1, item: mi('large_motor') },
+            { amount: 2, item: mi('robot_arm') },
+            { amount: 64, item: mi('he_uranium_rod') },
+            { amount: 8, item: mi('he_uranium_rod') }
+        ],
+        [ { amount: 1, item: mi('he_uranium_fuel_rod') } ],
+    );  
+        
+    assembler(
+        event,
+        st('le_mox_fuel_rod'),
+        16,
+        200,
+        [
+            { amount: 2, item: mi('blastproof_alloy_curved_plate') },
+            { amount: 1, item: mi('large_motor') },
+            { amount: 2, item: mi('robot_arm') },
+            { amount: 64, item: mi('le_mox_rod') },
+            { amount: 8, item: mi('le_mox_rod') }
+        ],
+        [ { amount: 1, item: mi('le_mox_fuel_rod') } ],
+    ); 
+        
+    assembler(
+        event,
+        st('he_mox_fuel_rod'),
+        16,
+        200,
+        [
+            { amount: 2, item: mi('blastproof_alloy_curved_plate') },
+            { amount: 1, item: mi('large_motor') },
+            { amount: 2, item: mi('robot_arm') },
+            { amount: 64, item: mi('he_mox_rod') },
+            { amount: 8, item: mi('he_mox_rod') }
+        ],
+        [ { amount: 1, item: mi('he_mox_fuel_rod') } ],
+    );  */
+
+    //---------------------//
+    // -- CREATE COMPAT -- //
+    //---------------------//
+
+    // -- ELECTRON TUBE -- //
+    assembler(
+        event,
+        st('electron_tube'),
+        8,
+        100,
+        [
+            { amount: 1, item: mi('iron_plate') },
+            { amount: 1, item: cr('polished_rose_quartz') }
+        ],
+        [ { amount: 1, item: cr('electron_tube') } ],
+    );  
+
+    // -- ELECTRON TUBE -- //
+    assembler(
+        event,
+        st('electron_tube'),
+        8,
+        100,
+        [
+            { amount: 1, item: mi('iron_plate') },
+            { amount: 1, item: cr('polished_rose_quartz') }
+        ],
+        [ { amount: 1, item: cr('electron_tube') } ],
+    );  
+
+    //-----------------------//
+    // -- TECH REBORN OLD -- //
+    //-----------------------//
+
     // -- ENERGY FLOW CHIP -- //
     // assembler(
         // st('energy_flow_chip'),

@@ -38,22 +38,23 @@ ServerEvents.recipes(event => {
     );
 
     // -- ZINC DRILL -- //
-    // quarry(
-        // st('zinc_drill'),
-        // 4,
-        // 600,
-        // [ { amount: 1, item: mi('zinc_drill'), probability: 0.1 } ],
-        // [ 
-            // { amount: 1, item: cr('zinc_ore'), probability: 0.5 },
-            // { amount: 16, item: mc('andesite'), probability: 0.7 },
-            // { amount: 16, item: cr('asurine'), probability: 0.4 },
-            // { amount: 16, item: cr('crimsite'), probability: 0.3 },
-            // { amount: 16, item: cr('limestone'), probability: 0.6 },
-            // { amount: 16, item: cr('ochrum'), probability: 0.6 },
-            // { amount: 16, item: cr('scoria'), probability: 0.4 },
-            // { amount: 16, item: cr('veridium'), probability: 0.3 }
-        // ]
-    // );
+    quarry(
+        event,
+        st('zinc_drill'),
+        4,
+        600,
+        [ { amount: 1, item: mi('zinc_drill'), probability: 0.1 } ],
+        [ 
+            { amount: 1, item: cr('zinc_ore'), probability: 0.5 },
+            { amount: 16, item: mc('andesite'), probability: 0.7 },
+            { amount: 16, item: cr('asurine'), probability: 0.4 },
+            { amount: 16, item: cr('crimsite'), probability: 0.3 },
+            { amount: 16, item: cr('limestone'), probability: 0.6 },
+            { amount: 16, item: cr('ochrum'), probability: 0.6 },
+            { amount: 16, item: cr('scoria'), probability: 0.4 },
+            { amount: 16, item: cr('veridium'), probability: 0.3 }
+        ]
+    );
 
     // -- GOLD DRILL -- //
     quarry(
@@ -72,7 +73,7 @@ ServerEvents.recipes(event => {
             { amount: 1, item: mc('ancient_debris'), probability: 0.05 },
             { amount: 16, item: mc('glowstone'), probability: 0.15 },
             { amount: 8, item: mc('nether_quartz_ore'), probability: 0.15 },
-            { amount: 1, item: mc('nether_gold_ore'), probability: 0.25 }
+            { amount: 1, item: mc('nether_gold_ore'), probability: 0.3 }
             // { amount: 1, item: bg('emeraldite_ore'), probability: 0.1 },
             // { amount: 1, item: bg('pendorite_ore'), probability: 0.1 },
             // { amount: 1, item: bg('anthracite_ore'), probability: 0.15 },
@@ -99,9 +100,9 @@ ServerEvents.recipes(event => {
             { amount: 1, item: mi('bauxite_ore'), probability: 0.4 },
             { amount: 1, item: mi('salt_ore'), probability: 0.12 },
             { amount: 1, item: mi('quartz_ore'), probability: 0.2 },
-            { amount: 1, item: mi('corundum_ore'), probability: 0.15 },
-            { amount: 1, item: mi('sapphire_ore'), probability: 0.15 },
-            { amount: 1, item: mi('kernite_ore'), probability: 0.20 }
+            { amount: 1, item: mi('corundum_ore'), probability: 0.075 },
+            { amount: 1, item: mi('sapphire_ore'), probability: 0.10 },
+            { amount: 1, item: mi('kernite_ore'), probability: 0.10 }
         ]
     );
 
@@ -119,7 +120,7 @@ ServerEvents.recipes(event => {
             { amount: 1, item: mi('platinum_ore'), probability: 0.12 },
             { amount: 1, item: mc('emerald_ore'), probability: 0.1 },
             // { amount: 1, item: tr('sheldonite_ore'), probability: 0.12 },
-            { amount: 1, item: mi('peridot_ore'), probability: 0.25 }
+            { amount: 1, item: mi('peridot_ore'), probability: 0.1 }
             // { amount: 1, item: tr('sodalite_ore'), probability: 0.25 }
         ]
     );
