@@ -11,7 +11,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["5892304ACC9BF894"]
+			dependencies: ["4679B4825F85EBB5"]
 			icon: {
 				id: "modern_industrialization:forge_hammer"
 			}
@@ -51,7 +51,7 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
+			x: 10.0d
 			y: 0.0d
 		}
 		{
@@ -117,7 +117,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["5892304ACC9BF894"]
+			dependencies: ["339F676C828C790D"]
 			id: "0BD4ABE561F1F2F7"
 			rewards: [
 				{
@@ -140,17 +140,50 @@
 					type: "random"
 				}
 			]
-			shape: "rsquare"
+			size: 2.0d
 			tasks: [{
 				id: "1610BCD0D7539A2C"
 				item: { count: 1, id: "justhammers:iron_hammer" }
 				type: "item"
 			}]
 			x: 5.0d
-			y: -2.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["74DAF493D8AA79A8"]
+			dependencies: ["0BD4ABE561F1F2F7"]
+			id: "4679B4825F85EBB5"
+			rewards: [
+				{
+					id: "4B04DD8D943C97F7"
+					item: {
+						count: 1
+						id: "kubejs:coin_common"
+					}
+					type: "item"
+				}
+				{
+					id: "7BCC6EACD9DA98C5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "019735ED403A011A"
+					table_id: 2474147679282294712L
+					type: "random"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "2B9E9E9C9E8AEF1F"
+				item: { count: 1, id: "modern_industrialization:iron_large_plate" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1BD496A10E957F25"]
 			id: "13FB4D096D94C939"
 			rewards: [
 				{
@@ -179,8 +212,8 @@
 				item: { count: 1, id: "torchmaster:megatorch" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 4.0d
+			x: 0.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["1BD496A10E957F25"]
@@ -528,105 +561,10 @@
 		}
 		{
 			dependencies: ["339F676C828C790D"]
-			id: "5892304ACC9BF894"
-			size: 2.0d
-			tasks: [
-				{
-					count: 8L
-					id: "44E9C750EDF6D433"
-					item: { count: 1, id: "minecraft:raw_iron" }
-					type: "item"
-				}
-				{
-					count: 8L
-					id: "2695C8F8CF92ECA3"
-					item: { count: 1, id: "minecraft:raw_copper" }
-					type: "item"
-				}
-				{
-					count: 8L
-					id: "74528B2805F0A37D"
-					item: { count: 1, id: "modern_industrialization:raw_tin" }
-					type: "item"
-				}
-			]
-			x: 5.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["5892304ACC9BF894"]
-			id: "74DAF493D8AA79A8"
-			shape: "rsquare"
-			tasks: [{
-				id: "077A685923E670FD"
-				item: { count: 1, id: "minecraft:diamond" }
-				type: "item"
-			}]
-			x: 5.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["13FB4D096D94C939"]
-			id: "59FAC14685681DC8"
-			rewards: [{
-				id: "3F00B015BA6703B6"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "777868E8C51FAC57"
-				item: { count: 1, id: "torchmaster:dreadlamp" }
-				type: "item"
-			}]
-			x: 5.0d
-			y: 5.5d
-		}
-		{
-			dependencies: ["1BD496A10E957F25"]
-			id: "04D26675230550D4"
-			rewards: [{
-				id: "2DE108FBB625EEE0"
-				type: "xp"
-				xp: 10
-			}]
-			shape: "rsquare"
-			tasks: [{
-				id: "66635FA796FF3AD2"
-				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(constructionstick:construction_sticks)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
-			x: 0.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["1BD496A10E957F25"]
-			id: "4280BD3627ECC8A2"
-			rewards: [{
-				id: "2F4056E0171418AF"
-				type: "xp"
-				xp: 10
-			}]
-			shape: "rsquare"
-			tasks: [{
-				id: "0D9844D1C8B36A8A"
-				item: { count: 1, id: "comforts:sleeping_bag_white" }
-				type: "item"
-			}]
-			x: -2.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["5892304ACC9BF894"]
-			id: "5E0C8E80FD41ECC3"
+			id: "568452070C18EBE2"
 			rewards: [
 				{
-					id: "47A78719B8E4688F"
-					type: "xp"
-					xp: 10
-				}
-				{
-					count: 5
-					id: "586FA3C7C1DAD85F"
+					id: "458908CCF47BC630"
 					item: {
 						count: 1
 						id: "kubejs:coin_common"
@@ -634,25 +572,56 @@
 					type: "item"
 				}
 				{
-					id: "3DD0668B53D670A8"
+					id: "144475DF68240B1C"
 					type: "xp"
 					xp: 10
 				}
 				{
 					exclude_from_claim_all: true
-					id: "4136F8D3F67F24E3"
-					table_id: 3409273157072801564L
+					id: "28D690AA70290A69"
+					table_id: 2474147679282294712L
 					type: "random"
 				}
 			]
-			shape: "rsquare"
 			tasks: [{
-				id: "114BB39F7CD134F2"
-				item: { count: 1, id: "simplemagnets:basicmagnet" }
+				id: "4CA3D3B005F97D5E"
+				item: { count: 1, id: "tankstorage:tank_1" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: 2.5d
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["568452070C18EBE2"]
+			id: "76D4C6F0EFD1849A"
+			rewards: [
+				{
+					id: "6823890FB32CDF98"
+					item: {
+						count: 1
+						id: "kubejs:coin_common"
+					}
+					type: "item"
+				}
+				{
+					id: "3435DF1916260495"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4AFD40E5C5184165"
+					table_id: 2474147679282294712L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "1414E786929629EE"
+				item: { count: 1, id: "tankstorage:tank_dock" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.5d
 		}
 	]
 }

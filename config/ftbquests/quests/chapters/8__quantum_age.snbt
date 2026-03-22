@@ -35,13 +35,13 @@
 				{
 					count: 15L
 					id: "7CA685D0F46B0D2D"
-					item: { count: 1, id: "modern_industrialization:plasma_handling_iridium_machine_casing" }
+					item: { count: 15, id: "modern_industrialization:plasma_handling_iridium_machine_casing" }
 					type: "item"
 				}
 				{
 					count: 18L
 					id: "3F2B881F769078D9"
-					item: { count: 1, id: "modern_industrialization:iridium_machine_casing_pipe" }
+					item: { count: 18, id: "modern_industrialization:iridium_machine_casing_pipe" }
 					type: "item"
 				}
 			]
@@ -76,7 +76,7 @@
 				{
 					count: 40L
 					id: "21C55093608D3C67"
-					item: { count: 1, id: "modern_industrialization:fusion_chamber" }
+					item: { count: 40, id: "modern_industrialization:fusion_chamber" }
 					type: "item"
 				}
 				{
