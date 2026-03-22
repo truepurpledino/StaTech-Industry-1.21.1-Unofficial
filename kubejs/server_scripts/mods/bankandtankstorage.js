@@ -4,33 +4,38 @@
 // -----------------------------------------
 ServerEvents.recipes(event => {
     // -- MOD NAMESPACE UTILITY FUNCTIONS -- // 
-    let st = (id) => `statech:bankstorage/${id}`;
+    let stBank = (id) => `statech:bankstorage/${id}`;
+    let stTank = (id) => `statech:tankstorage/${id}`;
     
- /*    event.remove({ mod: "bankstorage", output: "bank_1" }) */
-    event.custom({
-        "type": "bankstorage:copy_components_or_assign_uuid",
-        "pattern": [
-            "NIN",
-            "ICI",
-            "NIN"
-        ],
-        "key": {
-            "N": {
-                "tag": ('c:storage_blocks/coal')
-            },
-            "I": {
-                "tag": ('c:storage_blocks/lignite_coal'),
-            },
-            "C": {
-                "tag": "c:barrels/wooden"
-            }
-        },
-        "result": {
-            "id": "bankstorage:bank_1",
-            "count": 1
-        }
-    }).id(st('bank_1'));
     event.remove({ id: "bankstorage:bank_1"})
+    event.shaped(
+        Item.of('bankstorage:bank_1', 1),
+        [
+            'NIN',
+            'ICI',
+            'NIN'
+        ],
+        {
+            N: '#c:storage_blocks/coal',
+            I: '#c:storage_blocks/lignite_coal',
+            C: '#c:barrels/wooden'
+        }
+    );
+    event.remove({ id: "tankstorage:tank_1"})
+    event.shaped(
+        Item.of('tankstorage:tank_1', 1),
+        [
+            'NIN',
+            'LCL',
+            'NIN'
+        ],
+        {
+            N: '#c:storage_blocks/coal',
+            I: '#c:glass_blocks',
+            C: 'minecraft:bucket',
+            L: '#c:storage_blocks/lignite_coal'
+        }
+    );
     // Adapted from Monifactory scripts, see https://github.com/ThePansmith/Monifactory/blob/main/kubejs/server_scripts/mods/Sophisticated_Storagevent.js
 
     const bankMaterials = [
@@ -47,30 +52,39 @@ ServerEvents.recipes(event => {
 
         let outputBank = `bankstorage:bank${material[0]}`
         let inputBank = `bankstorage:bank${bankMaterials[index - 1][0]}`
-        event.remove({ mod: "bankstorage", output: outputBank })
-        event.custom({
-            "type": "bankstorage:copy_components_or_assign_uuid",
-            "pattern": [
-                "NIN",
-                "ICI",
-                "NIN"
+        
+        let outputTank = `tankstorage:tank${material[0]}`
+        let inputTank = `tankstorage:tank${bankMaterials[index - 1][0]}`
+        
+        event.remove({ id: outputBank })
+        event.shaped(
+            Item.of(outputBank, 1),
+            [
+                'NIN',
+                'ICI',
+                'NIN'
             ],
-            "key": {
-                "N": {
-                    "tag": (`c:storage_blocks/${material[1]}`)
-                },
-                "I": {
-                    "tag": (`c:storage_blocks/${material[2]}`),
-                },
-                "C": {
-                    "item": inputBank
-                }
-            },
-            "result": {
-                "count": 1,
-                "id": outputBank
+            {
+                N: `#c:storage_blocks/${material[1]}`,
+                I: `#c:storage_blocks/${material[2]}`,
+                C: inputBank
             }
-        }).id(st(`${material[0]}upgrade`));
+        );
+        
+        event.remove({ id: outputTank })
+        event.shaped(
+            Item.of(outputTank, 1),
+            [
+                'NIN',
+                'ICI',
+                'NIN'
+            ],
+            {
+                N: `#c:storage_blocks/${material[1]}`,
+                I: `#c:storage_blocks/${material[2]}`,
+                C: inputTank
+            }
+        );
     });
 })
 
