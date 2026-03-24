@@ -1,16 +1,24 @@
 {
+	chapter.0404FA2EB5C66F71.chapter_subtitle: ["More machines!"]
 	chapter.0404FA2EB5C66F71.title: "&94 - Adv. Electronics"
+	chapter.1A02A3EECEB4BD3F.chapter_subtitle: ["PhD in Theoretical Physics!"]
 	chapter.1A02A3EECEB4BD3F.title: "&d8 - Quantum Age"
 	chapter.1ABCCB5C8BC2FE1D.title: "Utilities"
 	chapter.1E4B3098D73D738C.title: "&a&lWelcome"
+	chapter.21E9255A61D5A82D.chapter_subtitle: ["ZZZzzzapppp"]
 	chapter.21E9255A61D5A82D.title: "&33 - Electrical Age"
+	chapter.37521162FC1896A6.chapter_subtitle: ["Gotta start somewhere"]
 	chapter.37521162FC1896A6.title: "&a1 - Getting Started"
+	chapter.443557BD1692EA37.chapter_subtitle: ["High tech!"]
 	chapter.443557BD1692EA37.title: "&e5 - Digital Age"
 	chapter.46E4B27E403CFF96.title: "&4REMOVED/OLD"
 	chapter.4AF4DF6E4752DD0A.title: "&aArtifacts"
+	chapter.5336FACFCB9D5E2E.chapter_subtitle: ["Build Your Own Reactor"]
 	chapter.5336FACFCB9D5E2E.title: "&56 - Nuclear Age"
+	chapter.5C132A91B86C59B5.chapter_subtitle: ["Awaiting for space mod..."]
 	chapter.5C132A91B86C59B5.title: "&67 - Space Age"
 	chapter.6A3B096018B7FAD6.title: "&3Create"
+	chapter.70E1C9FCB66EEC7E.chapter_subtitle: ["The Basis of Industry"]
 	chapter.70E1C9FCB66EEC7E.title: "&22 - Steam Age"
 	chapter.71219AED38AEBE21.title: "&6World of Food"
 	chapter_group.0C181DF09185DA57.title: "&e-- &6&lChapters &e--"
@@ -52,6 +60,7 @@
 		""
 		"I would not recommend making this your main power source and instead relying on &bSteam Turbines&r until you unlock the regular &aDiesel Generator&r."
 	]
+	quest.011FCD9F3A6FB5C6.quest_subtitle: "Good for the environment!"
 	quest.016C498DFB704536.quest_desc: ["Allows you to trade with villagers for much cheaper"]
 	quest.016C5422152ED3A2.quest_desc: [
 		"Placed in &dGeodes&r, the &aCrystal Apothecary&r automatically harvests fully grown &dGemstone Clusters&r."
@@ -294,6 +303,7 @@
 		""
 		"If you provide the &6Nutrient Rich&r version of the fluid with the recipe, it will &2double the output&r. There are three variants for &6Nutrient Rich&r fluids, &9water&r, &cblood&r, and &dliquid ender&r. The &6Nutrient Rich&r versions are used in place of the regular fluid to boost the output. Please note though that it's best to ensure you're &3only running one recipe&r for maximum overclock potential. If you can't supply a steady stream of &6Nutrient Rich Solutions&r to the machine, it's probably better to use the recipes without it."
 	]
+	quest.06AB394FC4DB1809.quest_subtitle: "An industrial green thumb"
 	quest.06AEE6B2E97A5CA8.quest_desc: [
 		"Similar to the &eFluid Pipe&r you unlocked earlier, the &aItem Pipe&r from &6Modern Dynamics&r allows for a more classic style of item transfer. "
 		""
@@ -1040,7 +1050,7 @@
 	quest.1709043780838C78.quest_subtitle: "It's dangerous to go alone!"
 	quest.1709043780838C78.title: "Vanilla Combat"
 	quest.171B6274F48C81EA.quest_desc: ["Did you &cforget to sleep&r for a bit and have to deal with the &amost annoying mob&r in the game? At least the &bPhantom Membranes&r allow you to upgrade your glider for enhanced speed!"]
-	quest.171B6274F48C81EA.title: "add after packer"
+	quest.171B6274F48C81EA.title: "Reinforced Hang Glider"
 	quest.1724FEEB2622FB70.quest_desc: [
 		"&dTungsten&r is an incredibly tough material that you will be needing moving forward. Due to its special characteristics, it can't be smelted in normal means and will need to be processed through an &2Implosion Compressor&r in order to get a decent amount."
 		""
@@ -1294,8 +1304,8 @@
 		""
 		"If you lose your &aAttuned Shard&r, or want multiple &dWarp Plates&r to reach a single destination, then you can place &dWarp Dust&r in the destination &dWarp Plate&r to create a new &aAttuned Shard&r for wherever you want to create a new &dWarp Plate&r."
 	]
-	quest.1CD59B728BC791B6.quest_desc: ["Mozanite on it's own is pretty useless, however running it through a Centrifuge will produce Neodymium, Yttrium, and Cadmium. These three materials will be important in components and processing in the late game."]
-	quest.1CD59B728BC791B6.title: "Monazite Byproducts"
+	quest.1CD59B728BC791B6.quest_desc: ["&5Mozanite&r on it's own is pretty useless, however running it through a Centrifuge will produce &2Neodymium&r, &2Yttrium&r, and &2Cadmium&r. These three materials will be important in components and processing in the late game."]
+	quest.1CD59B728BC791B6.title: "Mozanite Byproducts"
 	quest.1CED76365E309FBD.quest_desc: [
 		"Highest Tier Storage Cell, which can contain &d262,144 bytes of storage&r."
 		""
@@ -1528,6 +1538,13 @@
 	quest.21C04730D77746DC.title: "AE2 Processors"
 	quest.21D65F793422444B.quest_desc: ["The &aStainless Steel Tank&r is the next tier of portable fluid tank you can create. It can store up to &e256 buckets&r of any kind of fluid and retains the contents when broken."]
 	quest.21DA194C6F634DA6.quest_desc: ["This strange blocks let your &evision penetrate ground and rock&r. Placed directly on a wall or on the ground, it allows you to glimpse the other side."]
+	quest.21F3205C40C9D424.quest_desc: [
+		"Upgrades can be added to &aElectric Machines&r to increase their total EU/t overclock. "
+		""
+		"By default, &aElectric Machines&r have an overclock capped at &632 EU/t&r, and electric multiblocks have an overclock capped at &6128 EU/t&r. Also, cap is total recipe EU in 1 tick."
+		""
+		"In the Machine or Multiblocks GUI, add upgrades in the &etop right slot&r to increase its maximum overclock. Check &dEMI&r for exact amounts."
+	]
 	quest.2216B63E764E0EBE.quest_desc: ["&dTitanium Ore&r can only be acquired from an &bElectric Quarry&r using the &aStainless Steel Drill&r. Processing &dRaw Titanium&r into a dust requires &7Manganese Sulfuric Solution&r, which you already have some of from the &aStainless Steel&r processing."]
 	quest.2233186BEAF7BA1A.quest_desc: [
 		"The &cCarmintine&r contraptions of the &eUr-Ghast Tower&r will not obey you. You must &aearn the ability to control them&r. Travel into the &2Dark Forest&r and find a dungeon slightly exposed from the ground. Place a &3Trophy&r of a defeated boss on the pedestal to enter."
@@ -1690,6 +1707,7 @@
 		"You can only have one ring activated at a time. You will need to remove the rings from your inventory and deactivate them one at a time."
 	]
 	quest.26A89C51A7B9FFDE.title: "&eSteel Ingot"
+	quest.26DD8F0FDE61AC95.quest_desc: ["The &bElectric Mining Drill&r is an upgraded &3electric-powered drill&r that features a powered mode for &dmining 3x3&r, adjustable mining speed, and the ability to switch between Silck Touch and Fortune modes."]
 	quest.26EF4E75B844E3BD.quest_desc: [
 		"The &bHigh Pressure Steam Boiler&r can produce up to 2048 EU/t worth of Steam. One mB of &7HP Steam&r is worth 8 mB of regular &7Steam&r. "
 		""
@@ -1738,11 +1756,9 @@
 	quest.27A1EA9FBB277514.quest_desc: [
 		"&eMI&r machines are able to run a variety of recipes. Sometimes the recipes will &cconflict with one another&r. To avoid this, you can use &aslot-locking&r to ensure your machines are always running the recipes you expect them to be. You can do this in one of several ways:"
 		""
-		"1. Click &eView All Recipes&r in the middle of the machine GUI, and press the &d+&r button next to the recipe you want to set."
+		"1. Drag the &afluids&r from &dEMI&r into the slots you'd like to lock."
 		""
-		"2. Open the GUI, and use &dREI&r to pull up the recipe you're wanting to lock, then press the &d+&r button."
-		""
-		"3. Drag the &afluids&r from &dREI&r into the slots you'd like to lock."
+		"2. View uses of &2Distillery&r via &dEMI&r and switch to the tab with the &2Distillery&r icon. Find the recipe you want and press the &d+&r button next to it. Work only when both &2Distillery&r slots are empty."
 	]
 	quest.27A1EA9FBB277514.title: "Setting Distillery Recipes"
 	quest.27B975AF95A03AB0.quest_desc: [
@@ -1977,6 +1993,13 @@
 	]
 	quest.2CCE43B3304C016D.quest_desc: ["The &aTarget Dummy&f is pretty self explanatory. You can use this to test how much damage your weapons deal."]
 	quest.2CCE43B3304C016D.quest_subtitle: "He's not that dumb..."
+	quest.2CEA505B54E47E93.quest_desc: [
+		"Enhancing &6Light Fuel&r with &aSteam&r will make &eSteam-Cracked Light Fuel&r, which can be &2distilled into other byproducts&r."
+		""
+		"Enhancing &6Heavy Fuel&r with &aSteam&r will make &eSteam-Cracked Heavy Fuel&r, which can be &2distilled into other byproducts&r."
+		""
+		"Enhancing &6Naphtha&r with &aSteam&r will make &eSteam-Cracked Naphtha&r, which can be &2distilled into other byproducts&r."
+	]
 	quest.2CEA505B54E47E93.title: "Steam Cracking"
 	quest.2CFB5F9C3B6EA234.quest_desc: ["&aLight Fuel&r can produce &e160 EU per 1 mB&r used in a &bDiesel Generator&r. It's better to either combine it into &6Diesel&r or continue with &3Steam-Cracking&r it."]
 	quest.2D0E8B6809C329D3.quest_desc: ["Want something to move &afluids&r manually &ebetween machines&r a little easier? The &6Modern Industrialization&r &3Fluid Tanks&r act in a similar way to &dIC2 Fluid Cells&r and allow you to pick up and move fluids between &bmachine GUIs&r. "]
@@ -2178,6 +2201,11 @@
 		""
 		"With the secrets of &dquantum computing realized&r, you can now work towards &asome extremely advanced machinery and sciences&r."
 	]
+	quest.2FFABD480EBC7D1D.quest_desc: [
+		"&aSilicon&r will be an important component in crafting &3electronic components&r. By combining &2Quartz&r and &eCoke Dusts&r in the &aEBF&r you can start producing &aSilicon Dust&r. Smelting &aSilicon Dust&r in a furnace will give you its &3ingot form&r. You can alternatively use &eCarbon Dust&r to get slightly more &aSilicon Dust&r."
+		""
+		"Alternatively, once you have an &aElectrolyzer&r you can electrolyze &6Clay Balls&r or &bLapis Lazuli Dust&r to get &aSilicon&r as a byproduct."
+	]
 	quest.300516B03C1580A2.quest_desc: ["Pretty much following &evanilla progression&r here for a bit. I'll even give you a bit extra to help build a &2simple shelter&r or some more &9tools&r."]
 	quest.300516B03C1580A2.quest_subtitle: "You're now a caveman!"
 	quest.300516B03C1580A2.title: "The Stone Age"
@@ -2261,6 +2289,8 @@
 		"The &aOrb&r inherits spell from &3Source Tomes&r made in &eSpell Binding Tables&r."
 	]
 	quest.3227C8A9F947E4AD.title: "Runic Orbs"
+	quest.323919C5F7774E1B.quest_desc: ["This is a big step for you, crafting your first &6Electronic Circuit&r is no small feat. This circuit makes up the &3basis of a lot of the recipes&r from here on out, so &dI'd recommend crafting these in bulk&r, and then setting up &2passive automation&r or &bautocrafting once you have access to AE2&r."]
+	quest.323919C5F7774E1B.quest_subtitle: "Did you remember the thermal paste?"
 	quest.3239CF4A9CF033B1.quest_desc: ["&bShafts&r are one of the most important components in &eCreate&r, they can transfer &arotational force&r over distance and are a key component in &ecogs&r and other &6machines&r."]
 	quest.3239CF4A9CF033B1.title: "Shafts"
 	quest.32504A5361DEC4C7.quest_desc: ["&aJade Petals&r can be collected from grown &bJade Vines&r"]
@@ -2361,7 +2391,7 @@
 		"&cNOTE&r: Breaking a machine with the &ewrench&r &cWILL NOT drop it&r. &aUse a pickaxe for that&r!"
 	]
 	quest.343C68866C58ADC3.title: "Interacting with Machines"
-	quest.344DDF8418F79BC0.quest_desc: ["The &aDiesel Chainsaw&r is a suped up axe that can chop down trees really quickly if you feed it &6more powerful fuels&r."]
+	quest.344DDF8418F79BC0.quest_desc: ["The &aDiesel Chainsaw&r is a suped up axe that can chop down trees really quickly if you feed it &6more powerful fuels&r. It also provides Silk Touch or Fortune ability."]
 	quest.34533B2E5B614E28.quest_desc: ["&aNaphtha&r can produce &e80 EU per 1 mB&r used in a &bDiesel Generator&r. It's an extremely &cawful fuel source&r for &bDiesel Generators&r. It can be produced into &eLubricant&r or continued down the chain by &3Steam-Cracking&r."]
 	quest.34678C097FD402DC.quest_desc: [
 		"The &eTechReborn&r &bWind Mill&r can be used to passively generate power from the wind. It generates &d2 E/t&r and an additional &d0.5 E/t&r during &athunderstorms&r."
@@ -2457,6 +2487,7 @@
 		""
 		"If you upgrade a machine's hull, make sure to &eupgrade the corresponding power connection&r! &dLV wires won't connect to MV machines&r!"
 	]
+	quest.35F8044D376C6428.quest_subtitle: "Welcome to MV"
 	quest.3604D1BBC61B844D.quest_desc: [
 		"&bAccess Points&r allow inserting items to the &awhole network&r, automatically finding the right drawer."
 		""
@@ -2530,6 +2561,11 @@
 	quest.37A8157AB01079F0.quest_desc: ["The &eGold Chest or Barrel&r stores &266 stacks of items&r. This is the highest tier you can make until you can process &bDiamond Plates&r."]
 	quest.37A888209FE71492.quest_desc: ["The &dObsidian Chest&r has the same storage as the &bDiamond Chest&r."]
 	quest.37AB8737D3E3E075.title: "Sushi and Eastern Cuisine"
+	quest.37D2B90173E5852A.quest_desc: [
+		"In the need of more &dCreosote&r? Or would you like to get a headstart on &6Benzene&r production? Either way, the &aPyrolyse Oven&r is the perfect multiblock solution for you."
+		""
+		"You can &bPonder&r the multiblock by holding 'W' on the &aPyrolyze Oven&r item in your inventory. You can also hold your wrench out to see where blocks need to be placed."
+	]
 	quest.37D9B9D06AD67FDD.quest_desc: ["The &bAnnealed Copper Ingot&r can be made by &eVacuum Freezing&r the &dhot&r variant. &bAnnealed Copper&r is important in &cadvanced components&r and &dHV Cables&r."]
 	quest.37E716F9D27998E9.quest_desc: [
 		"If you've yet to find an &eAE2 meteorite&r, then you might want to make this compass. "
@@ -2682,6 +2718,7 @@
 	quest.3C433173976A9CCC.quest_subtitle: "It's like magic!"
 	quest.3C883FE97253CFBA.title: "Sandwiches and Burgers"
 	quest.3CB2C2AF6C7E1C3B.quest_desc: ["&aRich Soul Soil&r is the &cNether&r variant of regular &eSoul Soil&r"]
+	quest.3CB32AC6ACE2140C.quest_desc: ["Almost &aDiesel Chainsaw&r, but consumes &3EU&r instead of fuel and provides Looting."]
 	quest.3CB99CD2A9021136.quest_desc: [
 		"In &eModern Industrialization&r, your cables &cwill not burn up&r if you connect higher tier generator to lower tier cable, and your machines &cwill not explode&r if you connect a higher tier cable to a lower tier machine. Instead of all that, &onothing happens&r. That's right, you don't have to worry about all of those negative effects. Machines will &crefuse to send / receive power if you don't connect the correct cabling&r."
 		""
@@ -2779,6 +2816,7 @@
 	]
 	quest.3EAFA849053E3EF7.quest_desc: ["&eElectrum&r is an alloy of &eGold&r and &7Silver&r. It's used in a variety of crafting recipes in the next chapter, as well as one of the cables that can support &6Medium Voltage&r."]
 	quest.3EBBB99A3FC5C7F3.quest_desc: ["&0Crude Oil&r is produced from an &aOil Drilling Rig&r using an &7Aluminum Drill&r. The following quests follow processing down &0Crude Oil&r into other &6usable byproducts&r."]
+	quest.3EBBB99A3FC5C7F3.quest_subtitle: "Black Gold"
 	quest.3EBBB99A3FC5C7F3.title: "Crude Oil"
 	quest.3EC71BD7C750B856.quest_desc: [
 		"&aEnder Tanks&r are exactly like &bEnder Chests&r, but they can store fluids instead."
@@ -2904,6 +2942,7 @@
 		""
 		"There are about 5 real pages of recipes to look at with the &aCentrifuge&r, the rest are just different ways to make &aPlant Oil&r. Regardless, it's worth taking a look at those recipes as you will be using some of them shortly."
 	]
+	quest.427144C8EF7A57E5.quest_subtitle: "You spin me right round"
 	quest.427BC6F222164EA4.quest_desc: ["The &bHand Crank&r can be used to manually provide &arotational force&r. Prolonged usage will make the user &cvery hungry&r."]
 	quest.4280BD3627ECC8A2.quest_desc: ["The &aSleeping Bag&f lets you sleep anywhere without overwriting your bed spawn point."]
 	quest.42A6888AA162648D.quest_desc: [
@@ -2958,6 +2997,7 @@
 		""
 		"A low tier to high tier &dTransformer&r (for example LV to MV) has 5 inputs and 1 output. A high tier to low tier (for example MV to LV) &dTransformer&r has 1 input and 5 outputs."
 	]
+	quest.43E5FC3194CF1BBC.quest_subtitle: "Lightning in a Box"
 	quest.43F4FC5D451BA26C.quest_desc: ["The &eMonorail Train Track&r is an alternate to the regular &2Create Train Tracks&r. Instead of being placed on the ground, the train will hang from the rail. "]
 	quest.43F4FC5D451BA26C.quest_subtitle: "Disney Approved"
 	quest.440F13C141F7E692.quest_desc: ["The &eBedrock Shovel&r comes &dpre-enchanted&r with &2Efficiency VI&r."]
@@ -3065,6 +3105,7 @@
 		""
 		"Remember you can &bPonder&r the multiblock by holding 'W' on the &aElectric Blast Furnace&r item in your inventory. You can also hold your wrench out to see where blocks need to be placed."
 	]
+	quest.45976F62A09069E6.quest_subtitle: "EBF for short!"
 	quest.45AE05F51DB53B0C.quest_desc: ["The &aGrowth Accelerator&r is used to accelerate crystal growth. It can be placed facing into a &dBudding Crystal&r block to increase the growth rate. Consumes &e8 AE/t&r while connected to the &dnetwork&r."]
 	quest.45CE5F461A159F66.quest_desc: [
 		"Now that you have &eSteel&r, you can upgrade your &6Bronze Machines&r if you want. &eSteel machines&r can process recipes up to &24 EU/t&r, and they will process recipes at twice the speed as long as the energy usage doesn't go above &24 EU/t&r. Basically they are twice as fast as &6Bronze Machines&r and they may also &3unlock new recipes&r."
@@ -3335,7 +3376,7 @@
 		""
 		"&3Liquid Ender&r is the first step into making &2Enderium&r. It's a mixture of &9Water&r and &dEnder Pearl Dust&r."
 	]
-	quest.4C36957653876C0B.quest_desc: ["Low on chlorine? You can use bronze drills in an Ocean biome to obtain Salt Water, which can be processed into Brine and Chlorine."]
+	quest.4C36957653876C0B.quest_desc: ["Low on chlorine? You can use bronze drills in an Ocean biome to obtain &1Salt Water&r, which can be processed into &eBrine&r and &aChlorine&r."]
 	quest.4C40D7303E037FDC.quest_desc: [
 		"The &aLarge Steam Boiler&r is an upgraded version of the smaller &6Bronze&r and &eSteel&r Boilers. &cIt uses fuels 8 times faster than the Furnace&r, but it produces &3256 mb/t&r of &7steam&r when fully heated."
 		""
@@ -3388,6 +3429,7 @@
 		""
 		"With these hulls made you've &2completed this chapter&r and can now move on to the next chapter."
 	]
+	quest.4DEB3A5701AD3744.quest_subtitle: "Welcome to High-Voltage"
 	quest.4E0D57D45D09B1D4.quest_desc: [
 		"&d&lThis is the first machine you will probably want to make a lot of&r&r! The &aAssembler&r allows you to automate &oalmost&r all recipes, up to 3 per &aAssembler&r if you use slot locking."
 		""
@@ -4006,6 +4048,16 @@
 	]
 	quest.58F52B959643FF34.quest_subtitle: "Start of A Journey"
 	quest.58F52B959643FF34.title: "Welcome!"
+	quest.58F9A473D6BC91C8.quest_desc: [
+		"Up until now you haven't had a valid &eelectric powered suit&r, &ounheard of in modded Minecraft&r. With the &aNano Suit&r, you can finally have a powerful piece of armor that you can recharge, effectively making it &2indestructable&r."
+		""
+		"The &6Nano Helmet&r also will provide you with &dNight Vision&r when underground."
+		""
+		"The &6Nano Boots&r will provide you &dStep Boost&r."
+		""
+		"The &6Nano Leggings&r will give you an extra boost of &dMovement Speed&r."
+	]
+	quest.58F9A473D6BC91C8.quest_subtitle: "Nanomachines, Son!"
 	quest.58F9A473D6BC91C8.title: "Nano Armor"
 	quest.58FEBEF013463B80.quest_desc: [
 		"You can use &bcogwheels&r to increase the &erotation speed&r by connecting a &asmaller cogwheel&r to a &alarge cogwheel&r. You can then attach another &alarge cogwheel&r to the front of the &bsmall cogwheel&r and continue the process. Doing this will &eincrease&r the overall rotation speed. Doing the inverse will &clower&r the speed. "
@@ -4961,6 +5013,8 @@
 		"Automating this process is &astrongly recommended&r! Note that paper can be made efficiently from wood using wood pulp."
 	]
 	quest.71184B7B25919038.title: "Raw Synthetic Oil"
+	quest.716069E7FC21AF70.quest_desc: ["&aDiesel&r can produce &e400 EU per 1 mB&r used in a &bDiesel Generator&r. By combining &6Light and Heavy Fuel&r you can create &aDiesel&r. &aDiesel&r is a decent fuel source to use in &aDiesel Generators&r and &aDiesel &rtools."]
+	quest.716069E7FC21AF70.quest_subtitle: "Good for the environment!"
 	quest.716069E7FC21AF70.title: "Diesel"
 	quest.71DCCEF26234CA68.quest_desc: [
 		"This dainty ring has it all: with the help of a little (or a lot of) &dPink Ink&r, it strengthens you from the inside out and grants you &eadditional hearts&r."
@@ -5050,6 +5104,7 @@
 		""
 		"There is a lot of microcrafting for each of the AND, NOT, and OR Gates. I would recommend making these in large batches or &dpassive crafting them&r."
 	]
+	quest.7384A097DB48DCA2.title: "Digital Circuit Components"
 	quest.7388F834D83B886E.quest_desc: ["&dManifest&r the &aEgg Laying Wooly Pig&r."]
 	quest.7388F834D83B886E.title: "Once only a Tale"
 	quest.738FE28369D3A550.quest_desc: [
@@ -5252,6 +5307,12 @@
 	quest.77C8C1E759C36CB9.quest_desc: ["&aHookshots&f provides a fun new way to explore the world, just be cautious of fall damage!"]
 	quest.77C8C1E759C36CB9.quest_subtitle: "Everyone needs a grappling hook"
 	quest.77C8C1E759C36CB9.title: "Hookshots"
+	quest.77CDEFA4CBDBEBBF.quest_desc: [
+		"The &aElectrolyzer&r can split materials into their different parts using strong electric currents."
+		""
+		"You can electrolyze &3Bauxite Dust&r to get &bAluminum Dust&r, which you can then directly smelt into &bAluminum Ingots&r in the&e EBF&r. Alternatively, you can &delectrolyze&r a bunch of &3clay&r to get some &baluminum&r."
+	]
+	quest.77CDEFA4CBDBEBBF.quest_subtitle: "Shocking"
 	quest.77DB7F098F57FA69.quest_desc: ["The &bTitanium Barrel&r is an upgrade to the &eStainless Steel Barrel&r. It can store &68192 stacks&r of a single item, and retains its inventory when broken."]
 	quest.77EAB1D011541800.quest_desc: [
 		"The &7steam&r machines you will soon be crafting will require &7steam&r to function. To create &7steam&r, you will need to create the &6Bronze Boiler&r. "
