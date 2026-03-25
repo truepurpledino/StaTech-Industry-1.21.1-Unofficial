@@ -2201,6 +2201,7 @@
 					type: "random"
 				}
 			]
+			shape: "rsquare"
 			tasks: [{
 				id: "562CD2DB62FB8B06"
 				item: { count: 1, id: "tankstorage:tank_4" }

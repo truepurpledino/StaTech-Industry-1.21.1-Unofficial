@@ -1941,7 +1941,7 @@
 				id: "60C91BC029546E34"
 				type: "checkmark"
 			}]
-			x: 2.5d
+			x: 2.0d
 			y: -3.5d
 		}
 		{
@@ -1974,7 +1974,7 @@
 				item: { count: 1, id: "moderndynamics:fluid_pipe" }
 				type: "item"
 			}]
-			x: 3.5d
+			x: 3.0d
 			y: -3.5d
 		}
 		{
@@ -2019,7 +2019,7 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
+			x: 3.0d
 			y: -4.5d
 		}
 		{
@@ -3604,7 +3604,7 @@
 				id: "25215EADA043FD7E"
 				type: "checkmark"
 			}]
-			x: 1.5d
+			x: 1.0d
 			y: -3.5d
 		}
 		{
@@ -3644,12 +3644,13 @@
 					type: "random"
 				}
 			]
+			shape: "rsquare"
 			tasks: [{
 				id: "466DB362793BF81B"
 				item: { count: 1, id: "tankstorage:tank_2" }
 				type: "item"
 			}]
-			x: 4.5d
+			x: 4.0d
 			y: -3.5d
 		}
 		{
@@ -3677,6 +3678,7 @@
 					type: "random"
 				}
 			]
+			shape: "rsquare"
 			tasks: [{
 				id: "40ECFB1A78CAFCE4"
 				item: { count: 1, id: "tankstorage:tank_3" }
@@ -3684,6 +3686,18 @@
 			}]
 			x: 29.5d
 			y: 4.5d
+		}
+		{
+			dependencies: ["74B14DB45316C4F8"]
+			id: "4964937901EA0CA5"
+			shape: "rsquare"
+			tasks: [{
+				id: "4377052E0AF3FCAB"
+				item: { count: 1, id: "sophisticatedbackpacks:copper_backpack" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.5d
 		}
 	]
 }

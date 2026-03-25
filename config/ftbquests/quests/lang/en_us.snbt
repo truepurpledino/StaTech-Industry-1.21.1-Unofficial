@@ -672,6 +672,7 @@
 	quest.0DF6FF0A1E872DC8.title: "The Implosion Compressor"
 	quest.0E0395254471CED0.quest_desc: ["The &dProcessing Unit&r is the key to EV-tier hulls, multiblocks, and recipes. "]
 	quest.0E0532BA6E3FFEF9.quest_desc: ["Allows you to drink items faster, but now with style!"]
+	quest.0E0589CA933ED840.quest_desc: ["The &aSteel Solar Boiler&r is the upgrade to its &6Bronze counterpart&r, offering &3double the amount of steam produced&r. It will still require maintenance from time to time."]
 	quest.0E1B1EBF81B2DA47.quest_desc: [
 		"You will soon be needing to make &aHeatproof Machine Casings&r, which require &eInvar&r. Invar is made in a &6Mixer&r by combining &b2 Iron Dusts&r with &61 Nickel Dust&r. "
 		""
@@ -1263,7 +1264,7 @@
 	]
 	quest.1C030F5D0DA882DC.quest_subtitle: "I've seen this before!"
 	quest.1C030F5D0DA882DC.title: "StaTech Coins"
-	quest.1C258EF6AC025D80.quest_desc: [""]
+	quest.1C258EF6AC025D80.quest_desc: ["The &bAluminum Backpack&r has &981 slots&r for items!"]
 	quest.1C6856D2C944D9F2.quest_desc: [
 		"Pressurizing &bwater&r into &3HP water&r costs &ca lot of energy&r, but the &eLarge Steam Turbine&r will not give it back! You can use a &aHeat Exchanger&r to recover the &3HP water&r for another cycle. "
 		""
@@ -2755,6 +2756,7 @@
 	]
 	quest.3D5C1FD71120C918.quest_subtitle: "I can see clearly now"
 	quest.3D5C1FD71120C918.title: "LogicalZoom"
+	quest.3D5D5FE41A66780D.quest_desc: ["Continuing the tradition of upgrades, the &aSteel Backpack&r offers another &39 slots&r as well as &ban additonal upgrade slot to your backpack&r. This means you effectively have a &2double chest worth of items&r on your back, and can expand its functionality even further with 2 upgrade slots!"]
 	quest.3D96C9B7CE5C705B.quest_desc: ["The &aExplorer's Compass&r is similar to the &2Nature's Compass&r in concept, except it will &efocus in on any structure in the game&r. This can be extremely useful if you want to find a nice place to &dloot&r or &aexplore&r."]
 	quest.3D9FBCB1A33F11F4.quest_desc: [
 		"The &aME Interface&r is the only component which can be used as a part, or as a block. Crafting an &aME Interface&r in either form by itself produces the other form. The thin form is useful if you want to provide &2several different interfaces&r in a &esingle block&r of physical space, but each will need its own &dchannel&r. The block form lets multiple other blocks connect to a single &aME interface&r, using only one &dchannel&r for the interface."
@@ -3178,6 +3180,7 @@
 		""
 		"This chapter of the modpack is focused on getting your first &aelectrical machines&r, &baluminum&r, &estainless steel&r, and &doil processing&r! There's a lot to do, so get started!"
 	]
+	quest.473E19E8841D003F.quest_desc: ["The &aSteel Alloy Smelter&r is a very powerful machine that allows you to &bsmelt alloys directly without having to always mix their powders before hand&r! A large quality of life as you grow your vast resources."]
 	quest.4752EA2B05EFD4FF.quest_desc: ["A low tier fluid storage cell that can store 4096 bytes of information."]
 	quest.476EB7CF83477089.quest_desc: ["&aAcrylic Acid&r can be used to create &aAcrylic Glue&r, which will create infinite &aslime&r, or it can be used to make &2Diethyl Ether&r, which is used in &6Boosted Diesel&r"]
 	quest.4775934D01F0D2AD.quest_desc: ["There seems to be something &dmagical&r about the &eflow of time&r. This clock, formed from witnesses of &etime&r, is to show you a way in this &dnever-ending stream&r of beginning and passing - &omoon phases&r."]
@@ -3261,7 +3264,7 @@
 		"In addition to it's storage, it has options to &9automatically pickup blocks&r, &3pickup from a filter&r, or &dvoid blocks&r. Think of all that Cobblestone you no longer have to sort through in your inventory!"
 	]
 	quest.4901BE91F31B97A6.quest_desc: ["The &aCooler&f automatically will feed the player with the food stored within. It can be placed or opened with shift-right click while holding it."]
-	quest.4915E23CC60FBD06.quest_desc: ["The &aAlloy Smelter&r is used to... &3smelt alloys&r. It allows you to make &aalloys&r by combining the &2ingots&r rather than &ddusts&r in the &6mixer&r and then &csmelting&r them. "]
+	quest.4915E23CC60FBD06.quest_desc: ["The &aElectric Alloy Smelter&r is the electric variant of the previous steam version. Along with processing previous recipes &3even faster than before&r, the electric version allows the creation of &dNetherite&r!"]
 	quest.493839A115C46F71.quest_desc: ["The &dVoid Bucket&r does not carry any liquids, instead it deletes any liquid you pick up with it. "]
 	quest.494104440623C825.quest_desc: [
 		"Once the &dNuclear Fuel&r is used up it turns into a &bDepleted&r variant. These depleted variants are still very useful, so don't throw them out!"
@@ -3269,6 +3272,7 @@
 		"You can centrifuge them to get various important resources as well as some of the original resources used to make it. The main output you're looking for is &5Plutonium&r, which is key as you move towards &eQuantum Circuits&r."
 	]
 	quest.494104440623C825.title: "Depleted Nuclear Fuel"
+	quest.4964937901EA0CA5.quest_desc: ["With access to &6Bronze&r, you can now craft the &bfirst upgrade&r to your backpack. This upgrade adds an &3additional 18 slots&r to your backpack, coming in at a new total of &d45 slots&r!"]
 	quest.4967744B2F4C6A94.quest_desc: [
 		"With &bStainless Steel&r, you can now create the fifth tier of &aBank&r. This tier has &d54 slots&r with a max stack size of &665,536&r. "
 		""
