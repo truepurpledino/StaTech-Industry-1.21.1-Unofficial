@@ -33,7 +33,6 @@ ServerEvents.recipes(event => {
         mi('steam_age/bronze/boiler_asbl'),
         mi('tools/steam_mining_drill'),
         mi('electric_age/component/craft/op_amp_asbl'),
-        io('machines/pyrolyse_oven/craft'),
         mi('materials/iron/craft/hammer'),
         mi('materials/steel/craft/hammer'),
         mi('materials/diamond/craft/hammer'),
@@ -103,18 +102,6 @@ ServerEvents.recipes(event => {
     })
     .id(st('blood_generator'));
 
-    // -- LARGE STEAM MACERATOR -- // 
-    // event.shaped(mi('large_steam_macerator'), [
-        // 'BBB',
-        // 'BMB',
-        // 'BBB'
-    // ],
-    // {
-        // B: '#c:bronze_plates',
-        // M: mi('steel_macerator')
-    // })
-    // .id(st('large_steam_macerator'));
-
     // -- BOSS CRUSHER -- // 
     event.shaped(mi('boss_crusher'), [
         'RCR',
@@ -129,19 +116,6 @@ ServerEvents.recipes(event => {
         R: mi('invar_rotary_blade')
     })
     .id(st('boss_crusher'));
-
-    // -- LARGE STEAM FURNACE -- //
-    // event.shaped(mi('large_steam_furnace'), [
-        // 'BBB',
-        // 'BFB',
-        // 'BCB'
-    // ],
-    // {
-        // B: mc('bricks'),
-        // F: mi('bronze_furnace'),
-        // C: mi('coke')
-    // })
-    // .id(st('large_steam_furnace'));
 
     // -- CHEMICALLY INERT PTFE CASING -- //
     event.shaped(mi('chemically_inert_ptfe_casing'), [
@@ -190,21 +164,6 @@ ServerEvents.recipes(event => {
         M: mi('tungstensteel_machine_casing')
     })
     .id(st('tungstensteel_machine_casing_pipe'));
-
-    // -- LARGE CHEMICAL REACTOR -- //
-    // event.shaped(mi('large_chemical_reactor'), [
-        // 'PRP',
-        // 'UHU',
-        // 'PCP'
-    // ],
-    // {
-        // P: '#c:plates/polytetrafluoroethylene',
-        // R: mi('chemical_reactor'),
-        // U: mi('advanced_motor'),
-        // H: mi('turbo_machine_hull'),
-        // C: mi('digital_circuit')
-    // })
-    // .id(st('large_chemical_reactor'));
 
     // -- PHOTOSYNTHETIC CHAMBER -- //
     event.shaped(mi('photosynthetic_chamber'), [
@@ -292,21 +251,6 @@ ServerEvents.recipes(event => {
         I: '#c:ingots/iron',
         B: '#c:storage_blocks/iron'
     }).id(st('forge_hammer'));
-
-    // -- PYROLYSE OVEN -- //
-    event.shaped(io('pyrolyse_oven'), [
-        'MAM',
-        'CHC',
-        'BAB'
-    ],
-    {
-        M: mi('cupronickel_wire_magnetic'),
-        B: mi('bronze_plated_bricks'),
-        H: mi('basic_machine_hull'),
-        A: mi('analog_circuit'),
-        C: mi('coke_oven')
-    })
-    .id(io('pyrolyse_oven'));
 
     // -- ALLOY SMELTER -- //
     event.shaped(ei('electric_alloy_smelter'), [
@@ -502,42 +446,6 @@ ServerEvents.recipes(event => {
         L: mi('cadmium_battery')
     })
     .id(st('gravichestplate'));
-/* 
-    // -- Quantum Helmet -- //
-    event.smithing(
-        mi('quantum_helmet'),
-        tr('quantum_helmet'),
-        mi('quantum_upgrade')
-    )
-    .id(st('quantum_helmet'));
-    // -- Quantum Chestplate -- //
-    event.smithing(
-        mi('quantum_chestplate'),
-        tr('quantum_chestplate'),
-        mi('quantum_upgrade')
-    )
-    .id(st('quantum_chestplate'));
-    // -- Quantum Leggings -- //
-    event.smithing(
-        mi('quantum_leggings'),
-        tr('quantum_leggings'),
-        mi('quantum_upgrade')
-    )
-    .id(st('quantum_leggings'));
-    // -- Quantum Boots -- //
-    event.smithing(
-        mi('quantum_boots'),
-        tr('quantum_boots'),
-        mi('quantum_upgrade')
-    )
-    .id(st('quantum_boots'));
-    // -- Quantum Sword -- //
-    event.smithing(
-        mi('quantum_sword'),
-        tr('nanosaber'),
-        mi('quantum_upgrade')
-    )
-    .id(st('quantum_sword')); */
 });
 
 ServerEvents.tags('item', event => {
@@ -658,31 +566,3 @@ ServerEvents.tags('item', event => {
     ];
     DEPLETED_FUEL.forEach(id => { event.add('kubejs:depleted_nuclear_fuel', id) });
 });
-
-// Block tagging provided by kevintok
-// ServerEvents.tags('block', e => {
-    // event.add('c:lignite_coal_ores', 'modern_industrialization:lignite_coal_ore')
-    // event.add('c:lignite_coal_ores', 'modern_industrialization:deepslate_lignite_coal_ore')
-    // event.add('c:antimony_ores', 'modern_industrialization:antimony_ore')
-    // event.add('c:antimony_ores', 'modern_industrialization:deepslate_antimony_ore')
-    // event.add('c:bauxite_ores', 'modern_industrialization:bauxite_ore')
-    // event.add('c:bauxite_ores', 'modern_industrialization:deepslate_bauxite_ore')
-    // event.add('c:iridium_ores', 'modern_industrialization:iridium_ore')
-    // event.add('c:iridium_ores', 'modern_industrialization:deepslate_iridium_ore')
-    // event.add('c:lead_ores', 'modern_industrialization:lead_ore')
-    // event.add('c:lead_ores', 'modern_industrialization:deepslate_lead_ore')
-    // event.add('c:mozanite_ores', 'modern_industrialization:mozanite_ore')
-    // event.add('c:mozanite_ores', 'modern_industrialization:deepslate_mozanite_ore')
-    // event.add('c:nickel_ores', 'modern_industrialization:nickel_ore')
-    // event.add('c:nickel_ores', 'modern_industrialization:deepslate_nickel_ore')
-    // event.add('c:platinum_ores', 'modern_industrialization:platinum_ore')
-    // event.add('c:salt_ores', 'modern_industrialization:salt_ore')
-    // event.add('c:salt_ores', 'modern_industrialization:deepslate_salt_ore')
-    // event.add('c:tin_ores', 'modern_industrialization:tin_ore')
-    // event.add('c:tin_ores', 'modern_industrialization:deepslate_tin_ore')
-    // event.add('c:titanium_ores', 'modern_industrialization:titanium_ore')
-    // event.add('c:tungsten_ores', 'modern_industrialization:tungsten_ore')
-    // event.add('c:tungsten_ores', 'modern_industrialization:deepslate_tungsten_ore')
-    // event.add('c:uranium_ores', 'modern_industrialization:uranium_ore')
-    // event.add('c:uranium_ores', 'modern_industrialization:deepslate_uranium_ore')
-// });
