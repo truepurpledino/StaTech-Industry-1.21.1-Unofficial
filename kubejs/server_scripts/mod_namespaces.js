@@ -14,7 +14,7 @@ let mt = (id) => `mi_tweaks:${id}`;
 let md = (id) => `moderndynamics:${id}`;
 let io = (id) => `industrialization_overdrive:${id}`;
 let cr = (id) => `create:${id}`;
-let pa = (id) => `pastel:${id}`;
+let sp = (id) => `spectrum:${id}`;
 let ws = (id) => `wstweaks:${id}`;
 let ea = (id) => `extendedae:${id}`;
 let bs = (id) => `bankstorage:${id}`;

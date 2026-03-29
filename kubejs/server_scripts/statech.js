@@ -178,7 +178,7 @@ ServerEvents.recipes(event => {
     .noMirror().id('amethyst_shard_from_common');
     
     // -- TOPAZ SHARD -- //
-    event.shaped('8x ' + pa('topaz_shard'), [
+    event.shaped('8x ' + sp('topaz_shard'), [
         '  C',
         ' C ',
         'C  '
@@ -189,7 +189,7 @@ ServerEvents.recipes(event => {
     .noMirror().id(st('topaz_shard_from_common'));
 
     // -- CITRINE SHARD -- //
-    event.shaped('8x ' + pa('citrine_shard'), [
+    event.shaped('8x ' + sp('citrine_shard'), [
         'C  ',
         'C  ',
         'C  '

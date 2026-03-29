@@ -20,7 +20,7 @@ ServerEvents.recipes(event => {
 
     // -- WARP STONE -- //
     event.custom({
-        type: pa('fusion_shrine'),
+        type: sp('fusion_shrine'),
         time: 400,
         experience: 30.0,
         ingredients: [
@@ -30,7 +30,7 @@ ServerEvents.recipes(event => {
         result: {
             id: wy('warp_stone')
         },
-        required_advancement: pa('build_fusion_shrine'),
+        required_advancement: sp('build_fusion_shrine'),
         world_conditions: [],
         start_crafting_effect: 'nothing',
         during_crafting_effects: [
@@ -44,15 +44,15 @@ ServerEvents.recipes(event => {
 
     // -- WARP PLATE -- //
     event.custom({
-        type: pa('pedestal'),
+        type: sp('pedestal'),
         time: 400,
         tier: 'simple',
         colors: {
-            "pastel:cyan": 2,
-            "pastel:magenta": 2,
-            "pastel:yellow": 2,
-            "pastel:black": 0,
-            "pastel:white": 0
+            "spectrum:cyan": 2,
+            "spectrum:magenta": 2,
+            "spectrum:yellow": 2,
+            "spectrum:black": 0,
+            "spectrum:white": 0
         },
         experience: 10.0,
         pattern: [
@@ -69,21 +69,21 @@ ServerEvents.recipes(event => {
             id: wy('warp_plate'),
             count: 2
         },
-        required_advancement: pa('build_basic_pedestal_structure')
+        required_advancement: sp('build_basic_pedestal_structure')
     })
     .id(st('warp_plate'));
 
     // -- RETURN SCROLL -- //
     event.custom({
-        type: pa('pedestal'),
+        type: sp('pedestal'),
         time: 200,
         tier: 'simple',
         colors: {
-            "pastel:cyan": 1,
-            "pastel:magenta": 1,
-            "pastel:yellow": 1,
-            "pastel:black": 0,
-            "pastel:white": 0
+            "spectrum:cyan": 1,
+            "spectrum:magenta": 1,
+            "spectrum:yellow": 1,
+            "spectrum:black": 0,
+            "spectrum:white": 0
         },
         experience: 10.0,
         pattern: [
@@ -99,21 +99,21 @@ ServerEvents.recipes(event => {
             id: wy('return_scroll'),
             count: 1
         },
-        required_advancement: pa('build_basic_pedestal_structure')
+        required_advancement: sp('build_basic_pedestal_structure')
     })
     .id(st('return_scroll'));
 
     // -- BOUND SCROLL -- //
     event.custom({
-        type: pa('pedestal'),
+        type: sp('pedestal'),
         time: 200,
         tier: 'simple',
         colors: {
-            "pastel:cyan": 1,
-            "pastel:magenta": 1,
-            "pastel:yellow": 1,
-            "pastel:black": 0,
-            "pastel:white": 0
+            "spectrum:cyan": 1,
+            "spectrum:magenta": 1,
+            "spectrum:yellow": 1,
+            "spectrum:black": 0,
+            "spectrum:white": 0
         },
         experience: 10.0,
         pattern: [
@@ -131,21 +131,21 @@ ServerEvents.recipes(event => {
             id: wy('bound_scroll'),
             count: 1
         },
-        required_advancement: pa('build_basic_pedestal_structure')
+        required_advancement: sp('build_basic_pedestal_structure')
     })
     .id(st('bound_scroll'));
 
     // -- WARP SCROLL -- //
     event.custom({
-        type: pa('pedestal'),
+        type: sp('pedestal'),
         time: 200,
         tier: 'simple',
         colors: {
-            "pastel:cyan": 1,
-            "pastel:magenta": 1,
-            "pastel:yellow": 1,
-            "pastel:black": 0,
-            "pastel:white": 0
+            "spectrum:cyan": 1,
+            "spectrum:magenta": 1,
+            "spectrum:yellow": 1,
+            "spectrum:black": 0,
+            "spectrum:white": 0
         },
         experience: 10.0,
         pattern: [
@@ -163,21 +163,21 @@ ServerEvents.recipes(event => {
             id: wy('warp_scroll'),
             count: 1
         },
-        required_advancement: pa('build_basic_pedestal_structure')
+        required_advancement: sp('build_basic_pedestal_structure')
     })
     .id(st('warp_scroll'));
 
     // -- WARP DUST -- //
     event.custom({
-        type: pa('pedestal'),
+        type: sp('pedestal'),
         time: 200,
         tier: 'simple',
         colors: {
-            "pastel:cyan": 2,
-            "pastel:magenta": 2,
-            "pastel:yellow": 2,
-            "pastel:black": 0,
-            "pastel:white": 0
+            "spectrum:cyan": 2,
+            "spectrum:magenta": 2,
+            "spectrum:yellow": 2,
+            "spectrum:black": 0,
+            "spectrum:white": 0
         },
         experience: 10.0,
         pattern: [
@@ -185,13 +185,13 @@ ServerEvents.recipes(event => {
         ],
         key: {
             E: { item: 'ae2:ender_dust' },
-            A: { item: pa('amethyst_powder') }
+            A: { item: sp('amethyst_powder') }
         },
         result: {
             id: wy('warp_dust'),
             count: 4
         },
-        required_advancement: pa('build_basic_pedestal_structure')
+        required_advancement: sp('build_basic_pedestal_structure')
     })
-    .id(st('warp_dust'));
+    .id(st('warp_dust')); 
 });
