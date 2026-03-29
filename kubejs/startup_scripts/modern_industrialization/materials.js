@@ -57,7 +57,7 @@ MIMaterialEvents.addMaterials(event => {
                 .hardness('very_hard')
 				.addParts('plate', 'hot_ingot', 'ingot', 'rod', 'gear', 'ring', 'coil', 'bolt', 'large_plate', 'curved_plate', 'wire')
                 .barrel('Tungstensteel Barrel', 'tungstensteel_barrel', 16384)
-                .tank('Tungstensteel Tank', 'tungstensteel_tank', 256)
+                .tank('Tungstensteel Tank', 'tungstensteel_tank', 2048)
                 .cable('ev')
                 .block('iron')
                 .machineCasing(12.0)

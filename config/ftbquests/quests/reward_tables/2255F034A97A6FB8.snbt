@@ -279,7 +279,7 @@
 			}
 		}
 		{ id: "22361CD9F5573388", item: { count: 1, id: "minecraft:jukebox" } }
-		{ id: "5A3E741C2A7CA598", item: { components: { "ftbquests:missing_item": "chimes:iron_chimes" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "5A3E741C2A7CA598", item: { count: 1, id: "chimes:iron_chimes" } }
 		{ id: "3A20A4B7DB31E86E", item: { count: 1, id: "comforts:sleeping_bag_white" } }
 		{ id: "785713EB5CBE4A10", item: { count: 1, id: "chisel:chisel" } }
 		{
@@ -344,5 +344,4 @@
 			}
 		}
 	]
-	use_title: true
 }
