@@ -142,31 +142,13 @@ ServerEvents.recipes(event => {
     }).id(st('processing_array'));
 });
 
-
-// Block tagging provided by kevintok
-// ServerEvents.tags('block', e => {
-    // event.add('c:lignite_coal_ores', 'modern_industrialization:lignite_coal_ore')
-    // event.add('c:lignite_coal_ores', 'modern_industrialization:deepslate_lignite_coal_ore')
-    // event.add('c:antimony_ores', 'modern_industrialization:antimony_ore')
-    // event.add('c:antimony_ores', 'modern_industrialization:deepslate_antimony_ore')
-    // event.add('c:bauxite_ores', 'modern_industrialization:bauxite_ore')
-    // event.add('c:bauxite_ores', 'modern_industrialization:deepslate_bauxite_ore')
-    // event.add('c:iridium_ores', 'modern_industrialization:iridium_ore')
-    // event.add('c:iridium_ores', 'modern_industrialization:deepslate_iridium_ore')
-    // event.add('c:lead_ores', 'modern_industrialization:lead_ore')
-    // event.add('c:lead_ores', 'modern_industrialization:deepslate_lead_ore')
-    // event.add('c:mozanite_ores', 'modern_industrialization:mozanite_ore')
-    // event.add('c:mozanite_ores', 'modern_industrialization:deepslate_mozanite_ore')
-    // event.add('c:nickel_ores', 'modern_industrialization:nickel_ore')
-    // event.add('c:nickel_ores', 'modern_industrialization:deepslate_nickel_ore')
-    // event.add('c:platinum_ores', 'modern_industrialization:platinum_ore')
-    // event.add('c:salt_ores', 'modern_industrialization:salt_ore')
-    // event.add('c:salt_ores', 'modern_industrialization:deepslate_salt_ore')
-    // event.add('c:tin_ores', 'modern_industrialization:tin_ore')
-    // event.add('c:tin_ores', 'modern_industrialization:deepslate_tin_ore')
-    // event.add('c:titanium_ores', 'modern_industrialization:titanium_ore')
-    // event.add('c:tungsten_ores', 'modern_industrialization:tungsten_ore')
-    // event.add('c:tungsten_ores', 'modern_industrialization:deepslate_tungsten_ore')
-    // event.add('c:uranium_ores', 'modern_industrialization:uranium_ore')
-    // event.add('c:uranium_ores', 'modern_industrialization:deepslate_uranium_ore')
-//});
+ServerEvents.tags('item', event => {
+    const ENERGY_INPUT_HATCH = [
+        ei('lv_tesla_receiver_hatch'),
+        ei('mv_tesla_receiver_hatch'),
+        ei('hv_tesla_receiver_hatch'),
+        ei('ev_tesla_receiver_hatch'),
+        ei('superconductor_tesla_receiver_hatch')
+    ];
+    ENERGY_INPUT_HATCH.forEach(id => { event.add('kubejs:energy_input_hatch', id) }); 
+});
