@@ -301,6 +301,7 @@
     "mi_tweaks:large_scale_assembler",
     "mi_tweaks:bulk_compactor",
     "mi_tweaks:blast_alloy_smelter",
-    "mi_tweaks:industrial_mixing_machine"
+    "mi_tweaks:industrial_mixing_machine",
+    "mi_tweaks:oversized_electrolysis_chamber"
   ]
 }

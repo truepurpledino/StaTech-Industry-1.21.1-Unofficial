@@ -11,13 +11,13 @@ ServerEvents.recipes(event => {
     const EI_DELETED_ITEMS = [
         ei('machines/large_electric_furnace/assembler'),
         ei('machines/large_electric_furnace/craft'),
-        // ei('machines/bending_machine/assembler/bronze'),
-        // ei('machines/bending_machine/craft/bronze'),
-        // ei('machines/bending_machine/assembler/electric'),
-        // ei('machines/bending_machine/craft/electric'),
-        // ei('machines/bending_machine/unpacker/downgrade_steel'),
-        // ei('machines/bending_machine/packer/upgrade_steel'),
-        // ei('machines/bending_machine/craft/upgrade_steel'),
+        ei('machines/bending_machine/assembler/bronze'),
+        ei('machines/bending_machine/craft/bronze'),
+        ei('machines/bending_machine/assembler/electric'),
+        ei('machines/bending_machine/craft/electric'),
+        ei('machines/bending_machine/unpacker/downgrade_steel'),
+        ei('machines/bending_machine/packer/upgrade_steel'),
+        ei('machines/bending_machine/craft/upgrade_steel'),
         ei('machines/alloy_smelter/craft/electric'),
         ei('machines/alloy_smelter/assembler/electric'),
         ei('machines/processing_array/craft'),
@@ -28,21 +28,6 @@ ServerEvents.recipes(event => {
         ei('machines/large_steam_macerator/assembler')
     ];
     EI_DELETED_ITEMS.forEach(id => event.remove( {id: id} ));
-
-    // -- LARGE CHEMICAL REACTOR -- //
-    // event.shaped(mi('large_chemical_reactor'), [
-        // 'PRP',
-        // 'UHU',
-        // 'PCP'
-    // ],
-    // {
-        // P: '#c:plates/polytetrafluoroethylene',
-        // R: mi('chemical_reactor'),
-        // U: mi('advanced_motor'),
-        // H: mi('turbo_machine_hull'),
-        // C: mi('digital_circuit')
-    // })
-    // .id(st('large_chemical_reactor'));
 
     // -- LARGE STEAM MACERATOR -- //
     event.shaped(ei('large_steam_macerator'), [
@@ -115,17 +100,16 @@ ServerEvents.recipes(event => {
 
     // -- ELECTRIC BENDING MACHINES -- //
     event.shaped(ei('electric_bending_machine'), [
-        'MEM',
-        'PHP',
-        'NCN'
+        'APA',
+        'MCM',
+        'TPT'
     ],
     {
         M: mi('motor'),
-        N: mi('large_motor'),
-        C: mi('tin_cable'),
+        A: mi('analog_circuit'),
+        T: mi('tin_cable'),
         P: mi('piston'),
-        H: mi('basic_machine_hull'),
-        E: mi('electronic_circuit')
+        C: mi('electric_compressor')
     }).id(st('electric_bending_machine'));
 
     // -- PROCESSING ARRAY -- //
@@ -138,35 +122,8 @@ ServerEvents.recipes(event => {
         S: mi('clean_stainless_steel_machine_casing'),
         G: '#c:glass_blocks',
         A: mi('assembler'),
-        Q: mi('quantum_circuit')
+        Q: mi('quantum_upgrade')
     }).id(st('processing_array'));
 });
 
-
-// Block tagging provided by kevintok
-// ServerEvents.tags('block', e => {
-    // event.add('c:lignite_coal_ores', 'modern_industrialization:lignite_coal_ore')
-    // event.add('c:lignite_coal_ores', 'modern_industrialization:deepslate_lignite_coal_ore')
-    // event.add('c:antimony_ores', 'modern_industrialization:antimony_ore')
-    // event.add('c:antimony_ores', 'modern_industrialization:deepslate_antimony_ore')
-    // event.add('c:bauxite_ores', 'modern_industrialization:bauxite_ore')
-    // event.add('c:bauxite_ores', 'modern_industrialization:deepslate_bauxite_ore')
-    // event.add('c:iridium_ores', 'modern_industrialization:iridium_ore')
-    // event.add('c:iridium_ores', 'modern_industrialization:deepslate_iridium_ore')
-    // event.add('c:lead_ores', 'modern_industrialization:lead_ore')
-    // event.add('c:lead_ores', 'modern_industrialization:deepslate_lead_ore')
-    // event.add('c:mozanite_ores', 'modern_industrialization:mozanite_ore')
-    // event.add('c:mozanite_ores', 'modern_industrialization:deepslate_mozanite_ore')
-    // event.add('c:nickel_ores', 'modern_industrialization:nickel_ore')
-    // event.add('c:nickel_ores', 'modern_industrialization:deepslate_nickel_ore')
-    // event.add('c:platinum_ores', 'modern_industrialization:platinum_ore')
-    // event.add('c:salt_ores', 'modern_industrialization:salt_ore')
-    // event.add('c:salt_ores', 'modern_industrialization:deepslate_salt_ore')
-    // event.add('c:tin_ores', 'modern_industrialization:tin_ore')
-    // event.add('c:tin_ores', 'modern_industrialization:deepslate_tin_ore')
-    // event.add('c:titanium_ores', 'modern_industrialization:titanium_ore')
-    // event.add('c:tungsten_ores', 'modern_industrialization:tungsten_ore')
-    // event.add('c:tungsten_ores', 'modern_industrialization:deepslate_tungsten_ore')
-    // event.add('c:uranium_ores', 'modern_industrialization:uranium_ore')
-    // event.add('c:uranium_ores', 'modern_industrialization:deepslate_uranium_ore')
 //});

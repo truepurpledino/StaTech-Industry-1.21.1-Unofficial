@@ -14,5 +14,6 @@ MIMachineEvents.registerCasings(event => {
 	event.registerBlockImitation('steel_plated_bricks_casing', 'extended_industrialization:steel_plated_bricks');
 	event.registerBlockImitation('korp4_machine_casing', 'xtonesreworked:korp_block_4');
 	event.registerBlockImitation('korp9_machine_casing', 'xtonesreworked:korp_block_9');
+	event.registerBlockImitation('circuit_machine_casing', 'factory_blocks:circuit');
 });
 

@@ -630,19 +630,20 @@ ServerEvents.recipes(event => {
     );
     
     // -- ALLOY SMELTER -- //
-    // assembler(
-        // st('alloy_smelter'),
-        // 8,
-        // 200,
-        // [
-            // { amount: 2, item: mi('analog_circuit') },
-            // { amount: 2, item: mi('inductor') },
-            // { amount: 2, item: mi('cupronickel_wire_magnetic') },
-            // { amount: 2, item: mi('tin_cable') },
-            // { amount: 1, item: mi('electric_furnace') }
-        // ],
-        // [ { amount: 1, item: mi('alloy_smelter') } ]
-    // );
+    assembler(
+        event,
+        st('alloy_smelter'),
+        8,
+        200,
+        [
+            { amount: 2, item: mi('analog_circuit') },
+            { amount: 2, item: mi('inductor') },
+            { amount: 2, item: mi('cupronickel_wire_magnetic') },
+            { amount: 2, item: mi('tin_cable') },
+            { amount: 1, item: mi('electric_furnace') }
+        ],
+        [ { amount: 1, item: ei('electric_alloy_smelter') } ]
+    );
 
     // -- LASER ENGRAVER -- //
     assembler(
@@ -739,6 +740,88 @@ ServerEvents.recipes(event => {
             { amount: 1, item: mi('turbo_machine_hull') }
         ],
         [ { amount: 1, item: mt('large_chemical_reactor') } ]
+    );
+
+     // -- BULK COMPACTOR -- //
+    assembler(
+        event,
+        st('bulk_compactor'),
+        8,
+        200,
+        [ 
+            { amount: 4, item: mi('steel_large_plate') },
+            { amount: 2, item: mi('advanced_motor') },
+            { amount: 1, item: mi('digital_circuit') },
+            { amount: 1, item: mi('electric_compressor') },
+            { amount: 1, item: mi('turbo_machine_hull') }
+        ],
+        [ { amount: 1, item: mt('bulk_compactor') } ]
+    );
+
+     // -- LARGE SCALE ASSEMBLER -- //
+    assembler(
+        event,
+        st('large_scale_assembler'),
+        8,
+        200,
+        [ 
+            { amount: 4, item: mi('tungstensteel_large_plate') },
+            { amount: 1, item: mi('advanced_motor') },
+            { amount: 1, item: mi('advanced_pump') },
+            { amount: 1, item: mi('processing_unit') },
+            { amount: 1, item: mi('assembler') },
+            { amount: 1, item: kj('borosilicate_glass') }
+        ],
+        [ { amount: 1, item: mt('large_scale_assembler') } ]
+    );
+
+     // -- INDUSTRIAL MIXING MACHINE -- //
+    assembler(
+        event,
+        st('industrial_mixing_machine'),
+        8,
+        200,
+        [ 
+            { amount: 4, item: mi('enderium_plate') },
+            { amount: 1, item: mi('large_advanced_pump') },
+            { amount: 1, item: mi('titanium_tank') },
+            { amount: 2, item: kj('borosilicate_glass') },
+            { amount: 1, item: mi('electric_mixer') }
+        ],
+        [ { amount: 1, item: mt('industrial_mixing_machine') } ]
+    );
+
+     // -- BLAST ALLOY SMELTER -- //
+    assembler(
+        event,
+        st('blast_alloy_smelter'),
+        8,
+        200,
+        [ 
+            { amount: 4, item: mi('cupronickel_wire_magnetic') },
+            { amount: 1, item: mi('tungstensteel_coil') },
+            { amount: 1, item: mi('processing_unit') },
+            { amount: 1, item: ei('electric_alloy_smelter') },
+            { amount: 2, item: 'xtonesreworked:korp_block_9' }
+        ],
+        [ { amount: 1, item: mt('blast_alloy_smelter') } ]
+    );
+
+     // -- OVERSIZED ELECTROLYSIS CHAMBER -- //
+    assembler(
+        event,
+        st('oversized_electrolysis_chamber'),
+        8,
+        200,
+        [ 
+            { amount: 2, item: mi('tungstensteel_large_plate') },
+            { amount: 1, item: mi('large_advanced_motor') },
+            { amount: 1, item: mi('large_advanced_pump') },
+            { amount: 1, item: mi('electrolyzer') },
+            { amount: 2, item: kj('borosilicate_glass') },
+            { amount: 2, item: 'factory_blocks:circuit' }
+        ],
+        [ { amount: 1, item: mt('oversized_electrolysis_chamber') } ]
     );
 
     // -- MEGA SMELTER -- //
