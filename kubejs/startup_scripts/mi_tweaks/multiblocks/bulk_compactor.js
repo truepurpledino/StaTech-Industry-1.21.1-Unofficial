@@ -37,7 +37,11 @@ MITweaksMachineEvents.registerBatchMultiblocks((event) => {
         'bulk_compactor', // internal name
         event.getRecipeType("modern_industrialization:compressor"), // recipe type
         bulkcompactorShape, // multiblock shape
-		(workstations) => workstations.add("modern_industrialization:compressor"),
+		(workstations) => workstations.add([
+                "modern_industrialization:bronze_compressor", 
+                "modern_industrialization:steel_compressor", 
+                "modern_industrialization:electric_compressor"
+            ]),
         // REI Display configuration
         // e.progressBar(88, 35, 'triple_arrow'),
         // REI Item Inputs, item outputs, fluid inputs, fluid outputs
@@ -52,7 +56,7 @@ MITweaksMachineEvents.registerBatchMultiblocks((event) => {
 		false, // side overlay
 		// Batch size, EU cost multiplier
 		8, 
-		1
+		0.9
 		
 	);
 });
