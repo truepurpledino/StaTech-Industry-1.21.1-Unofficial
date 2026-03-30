@@ -1,0 +1,13 @@
+name = "Holoinventory Revived"
+filename = "holoinventoryrevived-1.0+1.21.1-neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "60d6ff1972c3697f46feb260a6a4202f827c8828"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7819580
+project-id = 1493003

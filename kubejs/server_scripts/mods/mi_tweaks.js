@@ -7,24 +7,6 @@ ServerEvents.recipes(event => {
     // -- MOD NAMESPACE UTILITY FUNCTIONS -- // 
     let st = (id) => `statech:modern_industrialization/${id}`;
 
-    // -- EXTENDED INDUSTRIALIZATION REMOVED RECIPES -- //
-/*     const MI_TWEAKS_DELETED_ITEMS = [
-        ei('machines/large_electric_furnace/assembler'),
-        ei('machines/large_electric_furnace/craft'),
-        ei('machines/bending_machine/assembler/bronze'),
-        ei('machines/bending_machine/craft/bronze'),
-        ei('machines/bending_machine/assembler/electric'),
-        ei('machines/bending_machine/craft/electric'),
-        ei('machines/bending_machine/unpacker/downgrade_steel'),
-        ei('machines/bending_machine/packer/upgrade_steel'),
-        ei('machines/bending_machine/craft/upgrade_steel'),
-        ei('machines/alloy_smelter/craft/electric'),
-        ei('machines/alloy_smelter/assembler/electric'),
-        ei('machines/processing_array/craft'),
-        ei('machines/processing_array/assembler')
-    ];
-    MI_TWEAKS_DELETED_ITEMS.forEach(id => event.remove( {id: id} ));
- */
     // -- LARGE CHEMICAL REACTOR -- //
     event.shaped(mt('large_chemical_reactor'), [
         'PRP',
@@ -71,19 +53,50 @@ ServerEvents.recipes(event => {
     })
     .id(st('bulk_compactor'));
 
+        // -- BLAST ALLOY SMELTER -- //
+    event.shaped(mt('blast_alloy_smelter'), [
+        'CTC',
+        'CAC',
+        'KPK'
+    ],
+    {
+        K: 'xtonesreworked:korp_block_9',
+        C: mi('cupronickel_wire_magnetic'),
+        T: mi('tungstensteel_coil'),
+        A: ei('electric_alloy_smelter'),
+        P: mi('processing_unit')
+    })
+    .id(st('blast_alloy_smelter'));
 
-    // -- PYROLYSE OVEN -- //
-    // event.shaped(mi('pyrolyse_oven'), [
-        // 'HIH',
-        // 'ICI',
-        // 'HAH'
-    // ],
-    // {
-        // H: mi('cupronickel_coil'),
-        // I: mi('inductor'),
-        // C: mi('basic_machine_hull'),
-        // A: mi('analog_circuit')
-    // })
-    // .id(st('pyrolyse_oven'));
+        // -- INDUSTRIAL MIXING MACHINE -- //
+    event.shaped(mt('industrial_mixing_machine'), [
+        'PTP',
+        'BMB',
+        'PLP'
+    ],
+    {
+        L: mi('large_advanced_pump'),
+        B: kj('borosilicate_glass'),
+        T: mi('titanium_tank'),
+        M: mi('electric_mixer'),
+        P: mi('enderium_plate')
+    })
+    .id(st('industrial_mixing_machine'));
+
+        // -- OVERSIZED ELECTROLYSIS CHAMBER -- //
+    event.shaped(mt('oversized_electrolysis_chamber'), [
+        'PMP',
+        'BEB',
+        'CLC'
+    ],
+    {
+        L: mi('large_advanced_pump'),
+        B: kj('borosilicate_glass'),
+        M: mi('large_advanced_motor'),
+        E: mi('electrolyzer'),
+        C: 'factory_blocks:circuit',
+        P: mi('tungstensteel_large_plate')
+    })
+    .id(st('oversized_electrolysis_chamber'));
 
 });

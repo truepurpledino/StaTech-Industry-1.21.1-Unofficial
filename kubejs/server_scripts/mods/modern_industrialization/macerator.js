@@ -163,7 +163,7 @@ ServerEvents.recipes(event => {
         [ { amount: 4, item: mi('tuff_dust') } ]
     );
 
-    // -- PASTEL POWDERS -- //
+    // -- SPECTRUM POWDERS -- //
     let gemRecipes = (gemName) => {
         const DATA = [
             { inputName: `${gemName}_shard`, outputAmount: 2 },
@@ -175,14 +175,14 @@ ServerEvents.recipes(event => {
         ];
 
         DATA.forEach(data => {
-            let gemID = data.inputName.includes('amethyst') ? mc(data.inputName) : pa(data.inputName);
+            let gemID = data.inputName.includes('amethyst') ? mc(data.inputName) : sp(data.inputName);
             macerator(
                 event,
                 st(`${gemName}_powder_from_${data.inputName}`),
                 2,
                 200,
                 [ { amount: 1, item: gemID } ],
-                [ { amount: data.outputAmount, item: pa(`${gemName}_powder`) } ]
+                [ { amount: data.outputAmount, item: sp(`${gemName}_powder`) } ]
             );
         });
     }
@@ -205,17 +205,17 @@ ServerEvents.recipes(event => {
         st('quitoxic_powder'),
         2,
         200,
-        [ { amount: 1, item: pa('quitoxic_reeds') } ],
-        [ { amount: 2, item: pa('quitoxic_powder') } ]
-    );
+        [ { amount: 1, item: sp('quitoxic_reeds') } ],
+        [ { amount: 2, item: sp('quitoxic_powder') } ]
+    ); 
 
     // -- INCANDESCENT ESSENCE -- //
     // macerator(
         // st('fiery_powder'),
         // 2,
         // 200,
-        // [ { amount: 1, item: pa('blazing_crystal') } ],
-        // [ { amount: 16, item: pa('fiery_powder') } ]
+        // [ { amount: 1, item: sp('blazing_crystal') } ],
+        // [ { amount: 16, item: sp('fiery_powder') } ]
     // );
 
     // -- BLIZZARD POWDER -- //
@@ -223,8 +223,8 @@ ServerEvents.recipes(event => {
         // st('blizzard_powder'),
         // 2,
         // 200,
-        // [ { amount: 1, item: pa('frostbite_crystal') } ],
-        // [ { amount: 16, item: pa('blizzard_powder') } ]
+        // [ { amount: 1, item: sp('frostbite_crystal') } ],
+        // [ { amount: 16, item: sp('blizzard_powder') } ]
     // );
 
     // -- AMARANTH GRAINS -- //
@@ -232,8 +232,8 @@ ServerEvents.recipes(event => {
         // st('amaranth_grains'),
         // 2,
         // 200,
-        // [ { amount: 1, item: pa('amaranth_bushel') } ],
-        // [ { amount: 2, item: pa('amaranth_grains') } ]
+        // [ { amount: 1, item: sp('amaranth_bushel') } ],
+        // [ { amount: 2, item: sp('amaranth_grains') } ]
     // );
 
     // -- COPPER FROM VERIDIUM -- //
@@ -311,7 +311,7 @@ ServerEvents.recipes(event => {
         [ { amount: 1, item: ea('entro_dust') } ]
     );
 
-    const COLORS = [
+     const COLORS = [
         'orange',
         'magenta',
         'light_blue',
@@ -336,10 +336,10 @@ ServerEvents.recipes(event => {
             st(`${color}_log`),
             8,
             200,
-            [ { amount: 1, item: pa(`${color}_log`) } ],
+            [ { amount: 1, item: sp(`${color}_log`) } ],
             [
-                { amount: 2, item: pa(`${color}_pigment`) },
-                { amount: 1, item: pa(`${color}_pigment`), probability: 0.5 }
+                { amount: 2, item: sp(`${color}_pigment`) },
+                { amount: 1, item: sp(`${color}_pigment`), probability: 0.5 }
             ]
         );
 
@@ -349,13 +349,13 @@ ServerEvents.recipes(event => {
             st(`${color}_leaves`),
             8,
             200,
-            [ { amount: 1, item: pa(`${color}_leaves`) } ],
+            [ { amount: 1, item: sp(`${color}_leaves`) } ],
             [
-                { amount: 2, item: pa(`${color}_pigment`) },
-                { amount: 1, item: pa(`${color}_sapling`), probability: 0.1 }
+                { amount: 2, item: sp(`${color}_pigment`) },
+                { amount: 1, item: sp(`${color}_sapling`), probability: 0.1 }
             ]
         );
-    });
+    }); 
     
     // -- BYG SAND FROM SANDSTONE -- //
     // const BYG_SAND_COLORS = [
@@ -395,7 +395,7 @@ ServerEvents.recipes(event => {
         );
     });
     
-    // -- SPECTRUM RESOURCE BUDS AND CLUSTERS
+     // -- SPECTRUM RESOURCE BUDS AND CLUSTERS
     const SPECTRUM_ONE = [
         { in: "coal", out: mc("coal") },
         { in: "iron", out: mi("iron_dust") },
@@ -409,14 +409,14 @@ ServerEvents.recipes(event => {
         { in: "netherite_scrap", out: mc("netherite_scrap") },
         { in: "echo", out: mc("echo_shard") },
         { in: "prismarine", out: mc("prismarine_crystals") }
-    ];
+    ]; 
 
 /*     const SPECTRUM_TWO = [
         { in: "certus_quartz", out: ae("certus_quartz_dust") },
         { in: "fluix", out: ae("fluix_dust")}
     ];
  */
-    let recipeForSpBudsAndClusters = (inputOutputNames, numberOfOutput) => {
+     let recipeForSpBudsAndClusters = (inputOutputNames, numberOfOutput) => {
         inputOutputNames.forEach(data => {
             let outName = data.out.slice(data.out.indexOf(':') + 1, data.out.length);
             macerator(
@@ -424,7 +424,7 @@ ServerEvents.recipes(event => {
                 st(`${outName}_from_small_${data.in}_bud`),
                 2,
                 200,
-                [ { amount: 1, item: pa(`small_${data.in}_bud`) } ],
+                [ { amount: 1, item: sp(`small_${data.in}_bud`) } ],
                 [ { amount: numberOfOutput[0], item: data.out } ],
             );
             macerator(
@@ -432,7 +432,7 @@ ServerEvents.recipes(event => {
                 st(`${outName}_from_large_${data.in}_bud`),
                 2,
                 200,
-                [ { amount: 1, item: pa(`large_${data.in}_bud`) } ],
+                [ { amount: 1, item: sp(`large_${data.in}_bud`) } ],
                 [ { amount: numberOfOutput[1], item: data.out } ],
             );
             macerator(
@@ -440,7 +440,7 @@ ServerEvents.recipes(event => {
                 st(`${outName}_from_${data.in}_cluster`),
                 2,
                 200,
-                [ { amount: 1, item: pa(`${data.in}_cluster`) } ],
+                [ { amount: 1, item: sp(`${data.in}_cluster`) } ],
                 [ { amount: numberOfOutput[2], item: data.out } ],
             );
         });
@@ -449,7 +449,6 @@ ServerEvents.recipes(event => {
    //  output for [small bud, large bud, cluster]
 
     recipeForSpBudsAndClusters(SPECTRUM_ONE, [1,1,6]);
-    /*recipeForSpBudsAndClusters(SPECTRUM_TWO, [2,2,12]);    */
-    recipeForSpBudsAndClusters([ {in: "bismuth", out: pa("bismuth_crystal") } ], [2,2,5]);
-    recipeForSpBudsAndClusters([ {in: "glowstone", out: mc("glowstone_dust") } ], [1,1,12]); 
+    recipeForSpBudsAndClusters([ {in: "bismuth", out: sp("bismuth_crystal") } ], [2,2,5]);
+    recipeForSpBudsAndClusters([ {in: "glowstone", out: mc("glowstone_dust") } ], [1,1,12]);  
 });

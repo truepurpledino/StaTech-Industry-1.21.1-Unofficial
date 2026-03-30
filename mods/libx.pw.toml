@@ -1,13 +1,13 @@
 name = "LibX"
-filename = "LibX-1.21.1-6.0.9.jar"
+filename = "LibX-1.21.1-6.0.10.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "06a144a41aa7affca17f30a28c0e9effdddc3f4e"
+hash = "370d422e76364e641faaf69fb480b519486e51d0"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7446147
+file-id = 7781079
 project-id = 412525

@@ -1,0 +1,13 @@
+name = "Sophisticated Inventory Interactions"
+filename = "sophisticatedinventoryinteractions-1.21.1-0.1.4.40.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "58c1945c0a5a7969758c577bb0dd09e95f03e28b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7840833
+project-id = 1491239
