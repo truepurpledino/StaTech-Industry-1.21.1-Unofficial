@@ -49,7 +49,7 @@ ServerEvents.recipes(event => {
         C: '#c:dusts/clay',
         B: '#c:dusts/brick'
     })
-    .id(st('fire_clay_dust'));
+    .id(mi('materials/fire_clay_dust'));
     
     // -- IRON HAMMER -- //
     event.shaped(mi('iron_hammer'), [
@@ -223,7 +223,7 @@ ServerEvents.recipes(event => {
         H: mi('copper_drill_head'),
         B: mc('bucket')
     })
-    .id(st('steam_mining_drill'));
+    .id(mi('tools/steam_mining_drill'));
 
     // -- MOB CRUSHER -- // 
     event.shaped(mi('mob_crusher'), [
@@ -250,7 +250,7 @@ ServerEvents.recipes(event => {
         P: mi('iron_large_plate'),
         I: '#c:ingots/iron',
         B: '#c:storage_blocks/iron'
-    }).id(st('forge_hammer'));
+    }).id(mi('forge_hammer'));
 
     // -- ALLOY SMELTER -- //
     event.shaped(ei('electric_alloy_smelter'), [
@@ -410,7 +410,7 @@ ServerEvents.recipes(event => {
         F: mc('furnace'),
         C: mi('bronze_machine_casing')
     })
-    .id(st('bronze_furnace'));
+    .id(mi('steam_age/bronze/furnace_asbl'));
 
     // -- BRONZE BOILER -- //
     event.shaped(mi('bronze_boiler'), [
@@ -424,7 +424,7 @@ ServerEvents.recipes(event => {
         F: mi('fire_clay_bricks'),
         C: mi('bronze_machine_casing')
     })
-    .id(st('bronze_boiler'));
+    .id(mi('steam_age/bronze/boiler_asbl'));
 
     // -- CLEAR FLUID FROM CREATIVE TANK -- //
     event.shapeless(mi('creative_tank'), mi('creative_tank')).id(st('clear_fluids_from_creative_tank'));

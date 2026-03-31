@@ -869,6 +869,22 @@ ServerEvents.recipes(event => {
         ],
         [ { amount: 1, item: io('pyrolyse_oven') } ]
     );
+    
+    // -- MULTI PROCESSING ARRAY -- //
+    assembler(
+        event,
+        st('multi_processing_array'),
+        8,
+        200,
+        [
+            { amount: 4, item: mi('solid_titanium_machine_casing') },
+            { amount: 1, item: ei('processing_array') },
+            { amount: 1, item: mi('quantum_upgrade') },
+            { amount: 1, item: mi('large_advanced_motor') },
+            { amount: 2, tag: 'c:glass_blocks' }
+        ],
+        [ { amount: 1, item: io('multi_processing_array') } ]
+    );
 
     // -- QUASI QUANTUM SINGULARITY FORGE -- //
     assembler(

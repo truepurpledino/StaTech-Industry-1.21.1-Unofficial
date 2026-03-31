@@ -50,7 +50,6 @@ ServerEvents.recipes(event => {
     
     IO_ITEMS_MODIFICATION.forEach(data => {
         event.remove( {id: io(data.id)} );
-        event.shaped(io(data.id), data.recipe, data.recipeInfo).id(st(data.id));
         //guide book
         event.remove( {id: io(data.guideBookId)} );
         event.shaped(io(data.id), data.recipe, data.recipeInfo).id(io(data.guideBookId));
