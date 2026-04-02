@@ -4,7 +4,7 @@
 	filename: "world_of_food"
 	group: "109C2F5A861C0A8B"
 	id: "71219AED38AEBE21"
-	order_index: 2
+	order_index: 3
 	quest_links: [ ]
 	quests: [{
 		id: "5E238F69F7EB8D3F"

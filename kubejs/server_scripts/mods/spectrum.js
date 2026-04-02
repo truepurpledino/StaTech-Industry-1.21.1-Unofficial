@@ -12,10 +12,10 @@ ServerEvents.tags('item', event => {
     event.add('c:tools/shovels', sp('bedrock_shovel'));
 
     const POLISHED_GEMSTONE = [
-        sp('topaz_storage_block'),
-        sp('amethyst_storage_block'),
-        sp('citrine_storage_block'),
-        sp('onyx_storage_block')
+        sp('polished_topaz'),
+        sp('polished_amethyst'),
+        sp('polished_citrine'),
+        sp('polished_onyx')
     ];
     POLISHED_GEMSTONE.forEach(id => { event.add('kubejs:polished_gemstones', id) } );
 
@@ -55,14 +55,14 @@ ServerEvents.tags('item', event => {
     SHIMMERSTONE_LIGHTS.forEach(id => { event.add('kubejs:shimmerstone_lights', id) } );
 
     const GEMSTONE_LAMPS = [
-        sp('topaz_calcite_lamp'),
-        sp('amethyst_calcite_lamp'),
-        sp('citrine_calcite_lamp'),
-        sp('onyx_calcite_lamp'),
-        sp('topaz_basalt_lamp'),
-        sp('amethyst_basalt_lamp'),
-        sp('citrine_basalt_lamp'),
-        sp('onyx_basalt_lamp')
+        sp('topaz_calcite_light'),
+        sp('amethyst_calcite_light'),
+        sp('citrine_calcite_light'),
+        sp('onyx_calcite_light'),
+        sp('topaz_basalt_light'),
+        sp('amethyst_basalt_light'),
+        sp('citrine_basalt_light'),
+        sp('onyx_basalt_light')
     ];
     GEMSTONE_LAMPS.forEach(id => { event.add('kubejs:gemstone_lamps', id) } );
 
@@ -97,7 +97,10 @@ ServerEvents.tags('item', event => {
         sp('brown_lamp'),
         sp('green_lamp'),
         sp('red_lamp'),
-        sp('black_lamp')
+        sp('black_lamp'),
+        sp('light_gray_lamp'),
+        sp('white_lamp'),
+        sp('gray_lamp')
     ];
     PIGMENT_LAMPS.forEach(id => { event.add('kubejs:pigment_lamps', id) } );
 
@@ -114,7 +117,10 @@ ServerEvents.tags('item', event => {
         sp('brown_spore_blossom'),
         sp('green_spore_blossom'),
         sp('red_spore_blossom'),
-        sp('black_spore_blossom')
+        sp('black_spore_blossom'),
+        sp('white_spore_blossom'),
+        sp('light_gray_spore_blossom'),
+        sp('gray_spore_blossom')
     ];
     PIGMENT_SPORE_BLOSSOMS.forEach(id => { event.add('kubejs:pigment_spore_blossoms', id) } );
 
@@ -131,7 +137,10 @@ ServerEvents.tags('item', event => {
         sp('brown_glowblock'),
         sp('green_glowblock'),
         sp('red_glowblock'),
-        sp('black_glowblock')
+        sp('black_glowblock'),
+        sp('white_glowblock'),
+        sp('light_gray_glowblock'),
+        sp('gray_glowblock')
     ];
     GLOWBLOCKS.forEach(id => { event.add('kubejs:glowblocks', id) } );
 
@@ -152,6 +161,18 @@ ServerEvents.tags('item', event => {
         sp('onyx_chiseled_calcite')
     ];
     GEMSTONE_CHISELED_BLOCKS.forEach(id => { event.add('kubejs:gemstone_chiseled_blocks', id) } );
+
+    const ONYX_CHISELED_BLOCKS = [
+        sp('onyx_chiseled_basalt'),
+        sp('onyx_chiseled_calcite')
+    ];
+    ONYX_CHISELED_BLOCKS.forEach(id => { event.add('kubejs:onyx_chiseled_blocks', id) } );
+
+    const MOONSTONE_CHISELED_BLOCKS = [
+        sp('moonstone_chiseled_basalt'),
+        sp('moonstone_chiseled_calcite')
+    ];
+    MOONSTONE_CHISELED_BLOCKS.forEach(id => { event.add('kubejs:moonstone_chiseled_blocks', id) } );
 
     const GEMSTONE_CHIMES = [
         sp('topaz_chime'),
