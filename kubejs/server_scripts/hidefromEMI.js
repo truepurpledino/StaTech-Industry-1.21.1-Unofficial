@@ -47,5 +47,11 @@ RecipeViewerEvents.removeEntriesCompletely('item', event => {
         mi('raw_kernite'),
         mi('raw_kernite_block')
     ];
-    FAKE_MATERIALS.forEach(id => event.remove(id)); 
+    FAKE_MATERIALS.forEach(id => event.remove(id));
+    
+    const UNUSED_EI = [
+        ei('bronze_bending_machine'),
+        ei('steel_bending_machine')
+    ];
+    UNUSED_EI.forEach(id => event.remove(id));
 });

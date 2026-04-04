@@ -869,6 +869,22 @@ ServerEvents.recipes(event => {
         ],
         [ { amount: 1, item: io('pyrolyse_oven') } ]
     );
+    
+    // -- MULTI PROCESSING ARRAY -- //
+    assembler(
+        event,
+        st('multi_processing_array'),
+        8,
+        200,
+        [
+            { amount: 4, item: mi('solid_titanium_machine_casing') },
+            { amount: 1, item: ei('processing_array') },
+            { amount: 1, item: mi('quantum_upgrade') },
+            { amount: 1, item: mi('large_advanced_motor') },
+            { amount: 2, tag: 'c:glass_blocks' }
+        ],
+        [ { amount: 1, item: io('multi_processing_array') } ]
+    );
 
     // -- QUASI QUANTUM SINGULARITY FORGE -- //
     assembler(
@@ -1478,247 +1494,19 @@ ServerEvents.recipes(event => {
         [ { amount: 1, item: cr('electron_tube') } ],
     );  
 
-    //-----------------------//
-    // -- TECH REBORN OLD -- //
-    //-----------------------//
-
-    // -- ENERGY FLOW CHIP -- //
-    // assembler(
-        // st('energy_flow_chip'),
-        // 8,
-        // 200,
-        // [
-            // { amount: 4, item: tr('advanced_circuit') },
-            // { amount: 2, tag: 'c:tungsten_ingots' },
-            // { amount: 1, tag: 'c:iridium_alloy_plates' },
-            // { amount: 1, item: tr('lapotron_crystal') },
-            // { amount: 1, item: tr('lapotron_crystal') }
-        // ],
-        // [ { amount: 4, item: tr('energy_flow_chip') } ]
-    // );
-
-    // -- DATA STORAGE CHIP -- //
-    // assembler(
-        // st('data_storage_chip'),
-        // 8,
-        // 200,
-        // [
-            // { amount: 4, item: tr('advanced_circuit') },
-            // { amount: 4, item: tr('data_storage_core') },
-            // { amount: 1, tag: 'c:iridium_ingots' }
-        // ],
-        // [ { amount: 1, item: tr('data_storage_chip') } ]
-    // );
-
-    // -- ADVANCED CIRCUIT -- //
-    // assembler(
-        // st('advanced_circuit'),
-        // 8,
-        // 200,
-        // [
-            // { amount: 4, tag: 'c:redstone_dusts' },
-            // { amount: 2, tag: 'c:glowstone_dusts' },
-            // { amount: 2, tag: 'c:lapis_lazulis' },
-            // { amount: 1, item: mi('analog_circuit') }
-        // ],
-        // [ { amount: 1, item: tr('advanced_circuit') } ]
-    // );
-
-
-    // -- SUPERCONDUCTOR -- //
-    // assembler(
-        // st('superconductor'),
-        // 8,
-        // 200,
-        // [
-            // { amount: 3, item: tr('helium_coolant_cell_60k') },
-            // { amount: 3, item: tr('energy_flow_chip') },
-            // { amount: 2, item: mi('tungsten_ingot') },
-            // { amount: 1, item: mi('quantum_circuit') }
-        // ],
-        // [ { amount: 4, item: tr('superconductor') } ]
-    // );
-
-    // -- HELIUM COOLANT CELL 60K -- //
-    // assembler(
-        // st('helium_coolant_cell_60k'),
-        // 8,
-        // 200,
-        // [ { amount: 1, item: mi('tin_ingot') } ],
-        // [ { amount: 1, item: tr('helium_coolant_cell_60k') } ],
-        // [ { amount: 1000, fluid: mi('helium') } ]
-    // );
-
-    // -- DIGITAL DISPLAY -- //
-    // assembler(
-        // st('digital_display'),
-        // 8,
-        // 200,
-        // [ 
-            // { amount: 4, item: mi('aluminum_plate') },
-            // { amount: 3, item: mc('black_dye') },
-            // { amount: 1, item: mc('glass_pane') },
-            // { amount: 1, item: tr('advanced_circuit') }
-        // ],
-        // [ { amount: 1, item: tr('digital_display') } ]
-    // );
-
-    // -- BASIC MACHINE FRAME -- // 
-    // assembler(
-        // st('basic_machine_frame'),
-        // 8,
-        // 200,
-        // [ { amount: 8, item: tr('refined_iron_ingot') } ],
-        // [ { amount: 1, item: tr('basic_machine_frame') } ]
-    // );
-
-    // -- BASIC MACHINE FRAME ALT -- //
-    // assembler(
-        // st('basic_machine_frame_alt'),
-        // 8,
-        // 200,
-        // [ { amount: 8, item: tr('refined_iron_storage_block') } ],
-        // [ { amount: 9, item: tr('basic_machine_frame') } ]
-    // );
-
-    // -- ADVANCED MACHINE FRAME -- //
-    // assembler(
-        // st('advanced_machine_frame'),
-        // 8,
-        // 200,
-        // [
-            // { amount: 2, item: tr('advanced_alloy_plate') },
-            // { amount: 2, item: mi('carbon_plate') },
-            // { amount: 1, item: tr('basic_machine_frame') }
-        // ],
-        // [ { amount: 1, item: tr('advanced_machine_frame') } ]
-    // );
-
-    // -- INDUSTRIAL MACHINE FRAME -- //
-    // assembler(
-        // st('industrial_machine_frame'),
-        // 8,
-        // 200,
-        // [
-            // { amount: 4, item: mi('titanium_plate') },
-            // { amount: 4, item: mi('chromium_plate') },
-            // { amount: 1, item: tr('advanced_machine_frame') }
-        // ],
-        // [ { amount: 1, item: tr('industrial_machine_frame') } ]
-    // );
-
-    // -- LAPOTRONIC ENERGY ORB -- //
-    // assembler(
-        // st('lapotronic_orb'),
-        // 8,
-        // 200, 
-        // [
-            // { amount: 1, item: tr('lapotron_crystal') },
-            // { amount: 1, item: tr('lapotron_crystal') },
-            // { amount: 1, item: tr('lapotron_crystal') },
-            // { amount: 1, item: tr('lapotron_crystal') },
-            // { amount: 1, item: mi('highly_advanced_machine_hull') },
-            // { amount: 1, item: tr('lapotron_crystal') },
-            // { amount: 1, item: tr('lapotron_crystal') },
-            // { amount: 1, item: tr('lapotron_crystal') },
-            // { amount: 1, item: tr('lapotron_crystal') }
-        // ],
-        // [ { amount: 1, item: tr('lapotronic_orb') } ]
-    // );
-
-    // -- ADJUSTABLE SU -- //
-    // assembler(
-        // st('adjustable_su'),
-        // 8,
-        // 200,
-        // [
-            // { amount: 1, item: tr('lapotronic_orb') },
-            // { amount: 1, item: tr('lapotronic_orb') },
-            // { amount: 1, item: tr('lapotronic_orb') },
-            // { amount: 1, item: tr('lapotronic_orb') },
-            // { amount: 1, item: tr('energy_crystal') },
-            // { amount: 1, item: tr('lapotronic_orb') },
-            // { amount: 1, item: tr('lapotronic_orb') },
-            // { amount: 1, item: tr('lapotronic_orb') },
-            // { amount: 1, item: tr('lapotronic_orb') }
-        // ],
-        // [ { amount: 1, item: tr('adjustable_su') } ]
-    // );
-
-    // -- 10K WATER COOLANT CELL -- //
-    // assembler(
-        // st('water_coolant_cell_10k'),
-        // 8,
-        // 200,
-        // [ { amount: 4, item: mi('tin_ingot') } ],
-        // [ { amount: 1, item: tr('water_coolant_cell_10k') } ],
-        // [ { amount: 1000, fluid: mc('water') } ]
-    // );
-
-    // -- OVERCLOCKER UPGRADE -- //
-    // assembler(
-        // st('overclocker_upgrade'),
-        // 8,
-        // 200,
-        // [
-            // { amount: 3, item: tr('water_coolant_cell_10k') },
-            // { amount: 2, item: mi('copper_cable') },
-            // { amount: 1, item: mi('analog_circuit') }
-        // ],
-        // [ { amount: 1, item: tr('overclocker_upgrade') } ]
-    // );
-
-    // -- SPACE HELMET -- //
-    // assembler(
-        // st('space_helmet'),
-        // 16,
-        // 300,
-        // [
-            // { amount: 4, tag: 'c:steel_ingots' },
-            // { amount: 1, tag: mc('glass_panes') },
-            // { amount: 1, tag: mc('wool') }
-        // ],
-        // [ { amount: 1, item: ad('space_helmet') } ]
-    // );
-
-    // -- SPACE SUIT -- // 
-    // assembler(
-        // st('space_suit'),
-        // 16,
-        // 300,
-        // [
-            // { amount: 4, tag: 'c:steel_ingots' }, 
-            // { amount: 1, item: ad('oxygen_gear') },
-            // { amount: 1, item: ad('oxygen_tank') },
-            // { amount: 1, item: ad('oxygen_tank') },
-            // { amount: 2, tag: mc('wool') }
-        // ],
-        // [ { amount: 1, item: ad('space_suit') } ]
-    // );
-
-    // -- SPACE PANTS -- //
-    // assembler(
-        // st('space_pants'),
-        // 16,
-        // 300,
-        // [
-            // { amount: 5, tag: 'c:steel_ingots' },
-            // { amount: 2, tag: mc('wool') }
-        // ],
-        // [ { amount: 1, item: ad('space_pants') } ]
-    // ) 
-
-    // -- SPACE BOOTS -- //
-    // assembler(
-        // st('space_boots'),
-        // 16,
-        // 300,
-        // [
-            // { amount: 2, tag: 'c:steel_ingots' },
-            // { amount: 2, tag: mc('wool') }
-        // ],
-        // [ { amount: 1, item: ad('space_boots') } ]
-    // );
-
-
+    // -- TESLA RECEIVERS FROM ENERGY INPUT HATCH
+    const TIER_NAMES = ['lv', 'mv', 'hv', 'ev', 'superconductor'];
+    TIER_NAMES.forEach(tierName => {
+        assembler(
+            event,
+            st(`${tierName}_tesla_receiver_hatch_from_${tierName}_energy_input_hatch`),
+            8,
+            200,
+            [
+                { amount: 1, item: ei('tesla_receiver') },
+                { amount: 1, item: mi(`${tierName}_energy_input_hatch`) }  
+            ],
+            [ { amount: 1, item: ei(`${tierName}_tesla_receiver_hatch`) } ]
+        );
+    });
 });

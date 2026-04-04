@@ -124,6 +124,30 @@ ServerEvents.recipes(event => {
         A: mi('assembler'),
         Q: mi('quantum_upgrade')
     }).id(st('processing_array'));
+    
+    // -- TESLA RECEIVERS FROM ENERGY INPUT HATCH
+    const TIER_NAMES = ['lv', 'mv', 'hv', 'ev', 'superconductor'];
+    TIER_NAMES.forEach(tierName => {
+        event.shaped(ei(`${tierName}_tesla_receiver_hatch`),
+        [
+            ' C',
+            ' T'
+        ],
+        {
+            C: ei('tesla_receiver'),
+            T: mi(`${tierName}_energy_input_hatch`)
+        })
+        .id(st(`${tierName}_tesla_receiver_hatch_from_${tierName}_energy_input_hatch`));
+    });
 });
 
-//});
+ServerEvents.tags('item', event => {
+    const ENERGY_INPUT_HATCH = [
+        ei('lv_tesla_receiver_hatch'),
+        ei('mv_tesla_receiver_hatch'),
+        ei('hv_tesla_receiver_hatch'),
+        ei('ev_tesla_receiver_hatch'),
+        ei('superconductor_tesla_receiver_hatch')
+    ];
+    ENERGY_INPUT_HATCH.forEach(id => { event.add('kubejs:energy_input_hatch', id) }); 
+});
