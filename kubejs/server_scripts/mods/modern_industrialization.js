@@ -369,6 +369,78 @@ ServerEvents.recipes(event => {
     })
     .id(st('calorite_machine_casing_pipe'));
 
+    // -- DESH MACHINE CASING -- //
+    event.shaped(mi('desh_machine_casing'), [
+        'PPP',
+        'PGP',
+        'PPP'
+    ],
+    {
+        P: mi('desh_plate'),
+        G: mi('desh_gear')
+    })
+    .id(st('desh_machine_casing'));
+
+    // -- DESH MACHINE PIPE CASING -- // 
+    event.shaped(mi('desh_machine_casing_pipe'), [
+        'C C',
+        'CMC',
+        'C C'
+    ],
+    {
+        C: mi('desh_curved_plate'),
+        M: mi('desh_machine_casing')
+    })
+    .id(st('desh_machine_casing_pipe'));
+
+    // -- ENDERIUM MACHINE CASING -- //
+    event.shaped(mi('enderium_machine_casing'), [
+        'PPP',
+        'PGP',
+        'PPP'
+    ],
+    {
+        P: mi('enderium_plate'),
+        G: mi('enderium_gear')
+    })
+    .id(st('enderium_machine_casing'));
+
+/*     // -- ENDERIUM MACHINE PIPE CASING -- // 
+    event.shaped(mi('enderium_machine_casing_pipe'), [
+        'C C',
+        'CMC',
+        'C C'
+    ],
+    {
+        C: mi('enderium_curved_plate'),
+        M: mi('enderium_machine_casing')
+    })
+    .id(st('enderium_machine_casing_pipe')); */
+
+    // -- OSTRUM MACHINE CASING -- //
+    event.shaped(mi('ostrum_machine_casing'), [
+        'PPP',
+        'PGP',
+        'PPP'
+    ],
+    {
+        P: mi('ostrum_plate'),
+        G: mi('ostrum_gear')
+    })
+    .id(st('ostrum_machine_casing'));
+
+    // -- OSTRUM MACHINE PIPE CASING -- // 
+    event.shaped(mi('ostrum_machine_casing_pipe'), [
+        'C C',
+        'CMC',
+        'C C'
+    ],
+    {
+        C: mi('ostrum_curved_plate'),
+        M: mi('ostrum_machine_casing')
+    })
+    .id(st('ostrum_machine_casing_pipe'));
+
     // -- DESH DRILL -- //
     event.shaped('4x ' + mi('desh_drill'), [
         'GIH',

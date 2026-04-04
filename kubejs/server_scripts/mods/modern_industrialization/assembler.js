@@ -1151,6 +1151,83 @@ ServerEvents.recipes(event => {
         [ { amount: 1, item: mi('calorite_machine_casing_pipe')} ]
     );
 
+    // -- DESH MACHINE CASING -- //
+    assembler(
+        event,
+        st('desh_machine_casing'),
+        16,
+        200,
+        [
+            { amount: 8, item: mi('desh_plate') },
+            { amount: 1, item: mi('desh_gear') }
+        ],
+        [ { amount: 1, item: mi('desh_machine_casing') } ]
+    );
+
+    // -- DESH MACHINE PIPE CASING -- //
+    assembler(
+        event,
+        st('desh_machine_casing_pipe'),
+        16,
+        200,
+        [
+            { amount: 1, item: mi('desh_machine_casing') },
+            { amount: 6, item: mi('desh_curved_plate')}
+        ],
+        [ { amount: 1, item: mi('desh_machine_casing_pipe')} ]
+    );
+
+    // -- ENDERIUM MACHINE CASING -- //
+    assembler(
+        event,
+        st('enderium_machine_casing'),
+        16,
+        200,
+        [
+            { amount: 8, item: mi('enderium_plate') },
+            { amount: 1, item: mi('enderium_gear') }
+        ],
+        [ { amount: 1, item: mi('enderium_machine_casing') } ]
+    );
+
+/*     // -- ENDERIUM MACHINE PIPE CASING -- //
+    assembler(
+        event,
+        st('enderium_machine_casing_pipe'),
+        16,
+        200,
+        [
+            { amount: 1, item: mi('enderium_machine_casing') },
+            { amount: 6, item: mi('enderium_curved_plate')}
+        ],
+        [ { amount: 1, item: mi('enderium_machine_casing_pipe')} ]
+    ); */
+
+    // -- OSTRUM MACHINE CASING -- //
+    assembler(
+        event,
+        st('ostrum_machine_casing'),
+        16,
+        200,
+        [
+            { amount: 8, item: mi('ostrum_plate') },
+            { amount: 1, item: mi('ostrum_gear') }
+        ],
+        [ { amount: 1, item: mi('ostrum_machine_casing') } ]
+    );
+
+    // -- OSTRUM MACHINE PIPE CASING -- //
+    assembler(
+        event,
+        st('ostrum_machine_casing_pipe'),
+        16,
+        200,
+        [
+            { amount: 1, item: mi('ostrum_machine_casing') },
+            { amount: 6, item: mi('ostrum_curved_plate')}
+        ],
+        [ { amount: 1, item: mi('ostrum_machine_casing_pipe')} ]
+    );
 
     // -- REDSTONE REPEATER -- //
     assembler(
