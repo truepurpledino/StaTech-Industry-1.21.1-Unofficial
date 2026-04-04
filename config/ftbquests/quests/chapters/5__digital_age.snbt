@@ -1121,5 +1121,16 @@
 			x: 8.5d
 			y: -3.0d
 		}
+		{
+			dependencies: ["630587BC35741E37"]
+			id: "4128E89534C77053"
+			tasks: [{
+				id: "62F5B7C560D408C9"
+				item: { count: 1, id: "extended_industrialization:nano_gravichestplate" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
 	]
 }

@@ -679,5 +679,19 @@
 			x: -0.5d
 			y: 3.0d
 		}
+		{
+			dependencies: [
+				"649FE8A688C74216"
+				"741D66D89EE0C684"
+			]
+			id: "6D6C2CCEA0CA1D26"
+			tasks: [{
+				id: "2CBDFB95BD4DD7EC"
+				item: { count: 1, id: "extended_industrialization:ultimate_laser_drill" }
+				type: "item"
+			}]
+			x: 7.0204081632653015d
+			y: 1.7295918367346985d
+		}
 	]
 }

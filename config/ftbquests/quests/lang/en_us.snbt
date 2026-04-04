@@ -817,6 +817,7 @@
 	quest.112E7B1922E2CCC3.quest_desc: ["The &6Bronze Furnace&r is a furnace that accepts &7steam&r instead of &atraditional fuels&r. It is as slow as a normal furnace, but is 10 times &3more fuel efficient&r due to using &7Steam&r."]
 	quest.112E7B1922E2CCC3.quest_subtitle: "A more efficient furnace"
 	quest.11361E8B39F8F03C.quest_desc: ["An important component in &aPolyvinyl Chloride&r."]
+	quest.114F2FC2E57172C8.quest_desc: ["It is used to produce an &eUltradense Metal Ball&r and some bulk machines..."]
 	quest.1185A36879732D6A.quest_desc: ["This is the &eModern Dynamics&r version of the &aHV-tier Cables&r."]
 	quest.11C4254DF67951A9.quest_desc: [
 		"For those of you who have played &aGregTech&r before, you will know that in that machines that connect to higher voltage tiers than themselves &cwill explode&r. &l&bTHIS IS NOT THE CASE HERE&r&r."
@@ -1042,7 +1043,7 @@
 	quest.15C0B7A968E7CA42.title: "Moving Fluids"
 	quest.1636AAA1DD4ECC50.quest_desc: ["&eSulfuric Acid&r is a &3useful byproduct&r of oil refinement. &6Make sure to keep a hold of a decent amount&r."]
 	quest.1636AAA1DD4ECC50.title: "Sulfuric Acid"
-	quest.163F1BAC06324013.quest_desc: ["The &bBlock Placer&r allows you to automate the placing of blocks (&oduh?) when powered by a &credstone signal&r.E"]
+	quest.163F1BAC06324013.quest_desc: ["The &bBlock Placer&r allows you to automate the placing of blocks (&oduh?) when powered by a &credstone signal&r."]
 	quest.1643F0311C19D935.quest_desc: ["&aIndustrial TNT&r is a key component in the &eImplosion Compressor&r. Using &2Toulene&r and &3Nitrogen&r you can combine Sand and Flint to produce a controlled explosive."]
 	quest.165A09B8C42579B9.quest_desc: ["Putting a &cCopper Drill&r in a &aSteam Quarry&r is a good way to get various types of stones. Make sure to pipe out the items immediately to avoid voiding any outputs!"]
 	quest.1667B21269758113.quest_desc: [
@@ -1282,6 +1283,7 @@
 	quest.1C030F5D0DA882DC.quest_subtitle: "I've seen this before!"
 	quest.1C030F5D0DA882DC.title: "StaTech Coins"
 	quest.1C258EF6AC025D80.quest_desc: ["The &bAluminum Backpack&r has &981 slots&r for items!"]
+	quest.1C56D3421ED7758F.quest_desc: ["The &2Machine Config Card&r allows you to copy a machine or hatch configuration and apply it to a different block in just a few clicks."]
 	quest.1C6856D2C944D9F2.quest_desc: [
 		"Pressurizing &bwater&r into &3HP water&r costs &ca lot of energy&r, but the &eLarge Steam Turbine&r will not give it back! You can use a &aHeat Exchanger&r to recover the &3HP water&r for another cycle. "
 		""
@@ -1592,6 +1594,7 @@
 	quest.2174585D87F83C89.title: "&aWelcome!"
 	quest.21C04730D77746DC.quest_desc: ["By combining printed &bAE2 circuits&r and &7silicon&r in an &eAssembler&r you will create the basic components for all of &eAE2&r. The &cMolten Redstone&r required for the recipe can be acquired using a &3Blast Furnace&r."]
 	quest.21C04730D77746DC.title: "AE2 Processors"
+	quest.21CB72E94FBBBACC.quest_desc: ["This liquid enables you to create a compact setup for farming &3Ender Pearls&r."]
 	quest.21D65F793422444B.quest_desc: ["The &aStainless Steel Tank&r is the next tier of portable fluid tank you can create. It can store up to &e256 buckets&r of any kind of fluid and retains the contents when broken."]
 	quest.21F3205C40C9D424.quest_desc: [
 		"Upgrades can be added to &aElectric Machines&r to increase their total EU/t overclock. "
@@ -2579,7 +2582,7 @@
 		""
 		"If you need help building the structure, remember you can &5Visualize&r it by placing the &aEnchanter&r block down then right clicking it!"
 		""
-		"Once you right-click the &aEnchanter&r with a fully built structure, you will unlock the recipes for books you can create. There's a lot you can do with this structure, make sure to check out the &Enchanting&r section in the &eColorful World&r book."
+		"Once you right-click the &aEnchanter&r with a fully built structure, you will unlock the recipes for books you can create. There's a lot you can do with this structure, make sure to check out the &eEnchanting&r section in the &eColorful World&r book."
 	]
 	quest.37E716F9D27998E9.quest_desc: [
 		"If you've yet to find an &eAE2 meteorite&r, then you might want to make this compass. "
@@ -2659,6 +2662,7 @@
 		""
 		"Be sure to check the &ePonder&r scene for this one!"
 	]
+	quest.39A4845AB2B8FC83.quest_desc: ["The metal for of &eEnder Pearl&r."]
 	quest.39A53780808097E7.quest_desc: ["The &aEnergy Crystal&r is similar to the &bLithium Ion Batteries&r, but it has a much larger buffer, being able to store &d1 million E&r."]
 	quest.39AD4C222874D63F.quest_desc: ["Increases the user's invulnerability frames after taking a hit"]
 	quest.39D48C79329C6E09.quest_desc: ["An upgrade to the &6Bronze Barrel&r. This barrel can hold up to 128 stacks of the same item. Probably really good for all the cobblestone you've been amassing."]
@@ -2959,6 +2963,7 @@
 		"You &close a lot&r of product mixing these dusts by hand, you'll want to prioritize getting a &abetter way&r to mix them.  "
 	]
 	quest.40F3373B8AFDE427.title: "Fire Clay Dust"
+	quest.4128E89534C77053.quest_desc: ["Add some protection to your creative flight."]
 	quest.412958496FE9150E.quest_desc: [
 		"The Forge Hammer is the key component to crafting all of your early game components for machines and other utilities."
 		""
@@ -3311,6 +3316,7 @@
 		"&dElevators&r of different colors will&c not travel to each other&r."
 	]
 	quest.486ADC13C8868424.title: "Elevators"
+	quest.487CF916A0FF784D.quest_desc: ["Empowered &3Liquid Ender&r! What could be more reliable? It is even used in the creation of &eSpace Engines&r! It can also be used in &aBoss Crusher&r to make it easier to get &eNether Star&r."]
 	quest.488543DD1EEAF483.quest_desc: ["&cCalorite&r is the final tier of metal in &eAd Astra!&r, and is needed to make the &bJet Suit&r, &aTier Four Rocket&r, and &eSpace Probe Launcher&r."]
 	quest.489CB40DCB36235E.quest_desc: ["The &bLaunchpad&r, when &apowered&r, will launch &dentities&r on top of it into the air."]
 	quest.48BF632D5B8F57B8.quest_desc: ["Can be produced into &aBoosted Diesel&r at a better rate than regularly processed &bDiesel&r."]
@@ -4997,6 +5003,8 @@
 	]
 	quest.6D3D6D207A8AE387.quest_desc: ["The &aBasket&r is a decorational storage block with the same inventory size as a chest."]
 	quest.6D501CD206C0E782.quest_desc: ["The &eTechReborn&r &bQuantum Storage Unit&r this time is an insane upgrade to the &dTitanium Barrel&r. I actually don't feel like typing out how many stacks it can hold because &lit's a lot&r. Like always it still has &aconfigurable I/O&r and control through &bredstone signals&r."]
+	quest.6D6C2CCEA0CA1D26.quest_desc: ["It can be coloured!"]
+	quest.6D6C2CCEA0CA1D26.quest_subtitle: "All in one!"
 	quest.6D7126882F500673.quest_desc: [
 		"Attaching an &bME Crafting Terminal&r to your &eAE2 network&r will grant you access to &lall&r the items stored within and and an included crafting grid you can use these stored items in. "
 		""
@@ -5669,6 +5677,7 @@
 	]
 	quest.7D44039609D08FC4.quest_desc: ["&aToluene&r is used in the creation of &2Industrial TNT&r, which is necessary for the &dNuke&r and usage in the &dImplosion Compressor&r."]
 	quest.7D44039609D08FC4.title: "Toluene"
+	quest.7D44CBA637915377.quest_desc: ["Are you tired of multiblock building? Press &5Shift+RMB&r on the main block and voilà! Remember to put items in your inventory or link this tool with the AE system."]
 	quest.7D55BD43F64D1147.title: "Hearty Meals"
 	quest.7D56FAE45EE0F29C.quest_desc: [
 		"You can &eMacerate&r &cRuby Ore&r or &eCentrifuge&r &4Redstone Dust&r to get &cRuby Dust&r. "
