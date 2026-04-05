@@ -213,6 +213,9 @@
 		}
 		{
 			dependencies: ["51490042671E700C"]
+			icon: {
+				id: "modern_industrialization:pressurizer"
+			}
 			id: "530E646E005FEBE1"
 			tasks: [
 				{
@@ -221,8 +224,30 @@
 					type: "item"
 				}
 				{
+					count: 7L
+					id: "61E68F7DA3007053"
+					item: { count: 1, id: "modern_industrialization:solid_titanium_machine_casing" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "620B154E974A0F55"
+					item: { count: 1, id: "modern_industrialization:titanium_machine_casing_pipe" }
+					type: "item"
+				}
+				{
 					id: "47EC9A39F745DC3F"
 					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:energy_input_hatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "4016A4AF6C146437"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:item_input_hatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "410F27E40E46053E"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:fluid_output_hatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 			]
@@ -231,12 +256,45 @@
 		}
 		{
 			dependencies: ["530E646E005FEBE1"]
+			icon: {
+				id: "modern_industrialization:high_pressure_large_steam_boiler"
+			}
 			id: "2F1DCE7361114A4C"
-			tasks: [{
-				id: "1EA192A01255245D"
-				item: { count: 1, id: "modern_industrialization:high_pressure_large_steam_boiler" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1EA192A01255245D"
+					item: { count: 1, id: "modern_industrialization:high_pressure_large_steam_boiler" }
+					type: "item"
+				}
+				{
+					count: 24L
+					id: "2E32E60D0BCFBD6A"
+					item: { count: 1, id: "modern_industrialization:clean_stainless_steel_machine_casing" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "57B847DA6A80F69C"
+					item: { count: 1, id: "modern_industrialization:stainless_steel_machine_casing_pipe" }
+					type: "item"
+				}
+				{
+					count: 7L
+					id: "74FA688B909F9DF5"
+					item: { count: 1, id: "modern_industrialization:heatproof_machine_casing" }
+					type: "item"
+				}
+				{
+					id: "3BDA06A26C350CF6"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:fluid_input_hatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "41420F8E297CE369"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:fluid_output_hatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
 			x: 6.0d
 			y: -0.5d
 		}
@@ -253,8 +311,9 @@
 					type: "item"
 				}
 				{
-					id: "7FEC80858FC7EF78"
-					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:energy_input_hatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					count: 21L
+					id: "01989AD043147A48"
+					item: { count: 1, id: "modern_industrialization:stainless_steel_machine_casing_pipe" }
 					type: "item"
 				}
 				{
@@ -282,9 +341,8 @@
 					type: "item"
 				}
 				{
-					count: 21L
-					id: "01989AD043147A48"
-					item: { count: 1, id: "modern_industrialization:stainless_steel_machine_casing_pipe" }
+					id: "7FEC80858FC7EF78"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:energy_input_hatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 			]
@@ -387,13 +445,28 @@
 				{
 					count: 16L
 					id: "5A7D8C501EA1842A"
-					item: { count: 16, id: "modern_industrialization:blastproof_casing" }
+					item: { count: 1, id: "modern_industrialization:blastproof_casing" }
 					type: "item"
 				}
 				{
-					count: 12L
+					count: 14L
 					id: "044FE6D9EA66389E"
-					item: { count: 12, id: "modern_industrialization:solid_titanium_machine_casing" }
+					item: { count: 1, id: "modern_industrialization:solid_titanium_machine_casing" }
+					type: "item"
+				}
+				{
+					id: "2E7DFAFC32C613CE"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:item_input_hatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "55525B288D7B8AAF"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:item_output_hatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "309CDBFF95E3FD95"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:energy_input_hatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 			]
@@ -590,6 +663,16 @@
 					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:energy_input_hatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
+				{
+					id: "22A630F4B6A91000"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:item_input_hatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "352FD3AB3B5B0202"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:item_output_hatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
 			]
 			x: 9.0d
 			y: 2.5d
@@ -629,12 +712,45 @@
 		}
 		{
 			dependencies: ["0E0395254471CED0"]
+			icon: {
+				id: "modern_industrialization:high_pressure_large_steam_boiler"
+			}
 			id: "11E7F580298B2843"
-			tasks: [{
-				id: "77C347F1C2698C3C"
-				item: { count: 1, id: "modern_industrialization:high_pressure_advanced_large_steam_boiler" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "77C347F1C2698C3C"
+					item: { count: 1, id: "modern_industrialization:high_pressure_advanced_large_steam_boiler" }
+					type: "item"
+				}
+				{
+					count: 7L
+					id: "79E230373A67E564"
+					item: { count: 1, id: "modern_industrialization:heatproof_machine_casing" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "58F2D08180C8365D"
+					item: { count: 1, id: "modern_industrialization:clean_stainless_steel_machine_casing" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "1D08233481B041C7"
+					item: { count: 1, id: "modern_industrialization:stainless_steel_machine_casing_pipe" }
+					type: "item"
+				}
+				{
+					id: "717FB8F4A7EECBB1"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:fluid_input_hatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "5C2758ED2BD6E4AD"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:fluid_output_hatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
 			x: 10.0d
 			y: 1.0d
 		}
@@ -1075,11 +1191,6 @@
 					count: 16L
 					id: "2B160FF29A98698F"
 					item: { count: 1, id: "modern_industrialization:stainless_steel_machine_casing_pipe" }
-					type: "item"
-				}
-				{
-					id: "7F9B66BD3F7B144B"
-					item: { count: 1, id: "extended_industrialization:tesla_receiver" }
 					type: "item"
 				}
 			]

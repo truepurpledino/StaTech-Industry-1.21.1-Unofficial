@@ -726,8 +726,36 @@
 					type: "item"
 				}
 				{
+					count: 4L
+					id: "6626182237E4401F"
+					item: { count: 1, id: "minecraft:chain" }
+					type: "item"
+				}
+				{
+					count: 14L
+					id: "3AA84D323DC49A47"
+					item: { count: 1, id: "modern_industrialization:steel_machine_casing" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "3185A934C60B2006"
+					item: { count: 1, id: "modern_industrialization:steel_machine_casing_pipe" }
+					type: "item"
+				}
+				{
 					id: "70B5D68C2F8990BD"
 					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:energy_input_hatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "2E8B8F1991F96FBE"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:item_input_hatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "183054AF0E270597"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:item_output_hatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 			]
