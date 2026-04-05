@@ -33,7 +33,7 @@ ServerEvents.recipes(event => {
     ];
     REMOVED_RECIPES.forEach(id => event.remove( {id: id} ));
     
-     event.custom({
+    event.custom({
         type: 'ae2:transform',
         circumstance: {
             'type': 'fluid',
@@ -46,10 +46,10 @@ ServerEvents.recipes(event => {
         ],
         result: {
             'count': 2,
-            'id': 'megacells:sky_bronze_ingot'
+            'id': mg('sky_bronze_ingot')
         }
     })
-    .id(st('sky_bronze_ingot_inworld'));
+    .id(mg('transform/sky_bronze_ingot'));
     
     event.custom({
         type: 'ae2:transform',
@@ -58,35 +58,36 @@ ServerEvents.recipes(event => {
             'tag': 'minecraft:lava'
         },
         ingredients: [
-            {'item': 'ae2:charged_certus_quartz_crystal'},
+            {'item': ae('charged_certus_quartz_crystal')},
             {'tag': 'c:ingots/stainless_steel'},
-            {'item': 'ae2:sky_stone_block'}
+            {'item': ae('sky_stone_block')}
         ],
         result: {
             'count': 2,
-            'id': 'megacells:sky_steel_ingot'
+            'id': mg('sky_steel_ingot')
         }
     })
-    .id(st('sky_steel_ingot_inworld'));
+    .id(mg('transform/sky_steel_ingot'));
 
     event.custom({
         type: 'extendedae:crystal_assembler',
         input_items: [
             {
-                ingredient: { item: 'ae2:logic_processor_press' }
+                ingredient: { item: ae('logic_processor_press') }
             },
             {
                 amount: 4,
-                ingredient: { item: 'modern_industrialization:sky_steel_plate' }
+                ingredient: { item: mi('sky_steel_plate') }
             },
             {
                 amount: 4,
-                ingredient: { item: 'modern_industrialization:sky_bronze_plate' }
+                ingredient: { item: mi('sky_bronze_plate') }
             }
         ],
         output: {
-            id: 'megacells:accumulation_processor_press',
+            id: mg('accumulation_processor_press'),
             count: 1
         }
-    });
+    })
+    .id(st('accumulation_processor_press'));
 })

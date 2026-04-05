@@ -494,7 +494,7 @@ ServerEvents.recipes(event => {
         Q: '#c:gems/certus_quartz',
         S: '#c:plates/steel'
     })
-    .id(st('view_cell'));
+    .id(ae('network/cells/view_cell'));
 
     // -- 1K ME ITEM STORAGE CELL -- //
     event.shaped(ae('item_storage_cell_1k'), [
