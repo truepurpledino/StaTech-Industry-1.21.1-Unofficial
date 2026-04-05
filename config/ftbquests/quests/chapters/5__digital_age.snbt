@@ -257,6 +257,36 @@
 					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:energy_input_hatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
+				{
+					count: 9L
+					id: "607F07221084BC15"
+					item: { count: 1, id: "modern_industrialization:heatproof_machine_casing" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "6A7500C77850C91B"
+					item: { count: 1, id: "modern_industrialization:frostproof_machine_casing" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "51C62F2040DBA3F7"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:fluid_input_hatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4B4748570C27191D"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:fluid_output_hatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					count: 21L
+					id: "01989AD043147A48"
+					item: { count: 1, id: "modern_industrialization:stainless_steel_machine_casing_pipe" }
+					type: "item"
+				}
 			]
 			x: 4.0d
 			y: -3.5d
@@ -1009,6 +1039,7 @@
 					type: "item"
 				}
 				{
+					count: 129L
 					id: "116B283F521E7260"
 					item: { count: 1, id: "extended_industrialization:polished_silver_machine_casing" }
 					type: "item"
@@ -1019,40 +1050,41 @@
 					type: "item"
 				}
 				{
-					id: "4786BD60ECBCA62D"
-					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:energy_input_hatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					id: "47636D15C7B602F3"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:wireless_energy_input_hatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
-					id: "16D7AB04CC47CDA4"
-					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:energy_output_hatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					id: "68D2C588FE9627B8"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:wired_energy_input_hatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					count: 44L
+					id: "3096C32AC2C1F85E"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:tesla_winding)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					count: 22L
+					id: "3598625CE2CFE263"
+					item: { count: 1, id: "modern_industrialization:clean_stainless_steel_machine_casing" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "2B160FF29A98698F"
+					item: { count: 1, id: "modern_industrialization:stainless_steel_machine_casing_pipe" }
+					type: "item"
+				}
+				{
+					id: "7F9B66BD3F7B144B"
+					item: { count: 1, id: "extended_industrialization:tesla_receiver" }
 					type: "item"
 				}
 			]
 			x: -0.5d
 			y: -3.5d
-		}
-		{
-			dependencies: ["7923688DB9B9FDA3"]
-			id: "1908DBCFE8CE55D4"
-			tasks: [{
-				id: "690ABE8E14241CEE"
-				item: { count: 1, id: "extended_industrialization:lv_tesla_receiver_hatch" }
-				type: "item"
-			}]
-			x: -1.5d
-			y: -4.5d
-		}
-		{
-			dependencies: ["7923688DB9B9FDA3"]
-			id: "1E519199FA96FA04"
-			tasks: [{
-				id: "475D32AA018766F9"
-				item: { count: 1, id: "extended_industrialization:copper_tesla_winding" }
-				type: "item"
-			}]
-			x: -0.5d
-			y: -4.5d
 		}
 		{
 			dependencies: ["2216B63E764E0EBE"]

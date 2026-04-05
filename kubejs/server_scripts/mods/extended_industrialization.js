@@ -149,5 +149,13 @@ ServerEvents.tags('item', event => {
         ei('ev_tesla_receiver_hatch'),
         ei('superconductor_tesla_receiver_hatch')
     ];
-    ENERGY_INPUT_HATCH.forEach(id => { event.add('kubejs:energy_input_hatch', id) }); 
+    ENERGY_INPUT_HATCH.forEach(id => {
+        event.add('kubejs:energy_input_hatch', id);
+        event.add('kubejs:wireless_energy_input_hatch', id);
+    });
+    
+    const TESLA_WINDING_TYPE = ['copper', 'annealed_copper', 'electrum', 'superconductor', 'aluminum'];
+    TESLA_WINDING_TYPE.forEach(typeName=>{
+        event.add('kubejs:tesla_winding', ei(`${typeName}_tesla_winding`));
+    });
 });
