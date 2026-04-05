@@ -1586,4 +1586,71 @@ ServerEvents.recipes(event => {
             [ { amount: 1, item: ei(`${tierName}_tesla_receiver_hatch`) } ]
         );
     });
+    
+    //---------------------//
+    // -- XTONES COMPAT -- //
+    //---------------------//
+
+    const baseXtonesMaterials = [
+        ['agon', 'stone_slab', '0'],
+        ['azur', 'blue_dye', '0'],
+        ['bitt', 'coal', '0'],
+        ['cray', 'clay', '0'],
+        ['fort', 'brick', '0'],
+        ['glaxx', 'glass', '0'],
+        ['iszm', 'stone', '0'],
+        ['jelt', 'orange_dye', '0'],
+        ['korp', 'gravel', '0'],
+        ['kryp', 'dirt', '0'],
+        ['lair', 'netherrack', '0'],
+        ['lave', 'blue_dye', '0'],
+        ['mint', 'lime_dye', '0'],
+        ['myst', 'snow', '0'],
+        ['reds', 'red_dye', '0'],
+        ['reed', 'sugar_cane', '0'],
+        ['roen', 'sand', '0'],
+        ['sols', 'yellow_dye', '0'],
+        ['sync', 'green_dye', '0'],
+        ['tank', 'gray_dye', '0'],
+        ['vect', 'black_dye', '0'],
+        ['vena', 'cobbled_deepslate', '0'],
+        ['zane', 'clay_ball', '15'],
+        ['zech', 'iron_ingot', '15'],
+        ['zest', 'snowball', '15'],
+        ['zeta', 'string', '15'],
+        ['zion', 'torch', '15'],
+        ['zkul', 'bone', '15'],
+        ['zoea', 'andesite', '15'],
+        ['zome', 'cobblestone', '15'],
+        ['zone', 'smooth_stone_slab', '15'],
+        ['zorg', 'terracotta', '15'],
+        ['ztyl', 'light_gray_dye', '0'],
+        ['zyth', 'stick', '15'] 
+    ];
+
+    baseXtonesMaterials.forEach(material => {
+        assembler(
+            event,
+            st(`${material[0]}_in_assembler`),
+            2,
+            100,
+            [
+                { amount: 8, item: xt('xtone_tile') },
+                { amount: 1, item: mc(`${material[1]}`) }  
+            ],
+            [ { amount: 8, item: xt(`${material[0]}_block_${material[2]}`) } ]
+        );
+    });
+    
+    assembler(
+        event,
+        st('xtone_tile_in_assembler'),
+        2,
+        100,
+        [
+            { amount: 6, item: mc('stone_slab') },
+            { amount: 1, item: mc('stone') }  
+        ],
+        [ { amount: 8, item: xt('xtone_tile') } ]
+    );
 });
