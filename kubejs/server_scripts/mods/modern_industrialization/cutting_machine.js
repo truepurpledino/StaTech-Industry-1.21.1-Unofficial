@@ -63,4 +63,72 @@ ServerEvents.recipes(event => {
         [ { amount: 1, item: kj('concrete_pizza') } ],
         [ { amount: 8, item: kj('concrete_pizza_slice') } ]
     );
+
+    // -- MINECRAFT MISSING WOOD -- //
+    cuttingMachine(
+        event,
+        st('bamboo_planks'),
+        2,
+        100,
+        [ { amount: 1, tag: mc('bamboo_blocks') } ],
+        [ { amount: 4, item: mc('bamboo_planks') } ]
+    );
+
+    // -- ARCHITECTS PALETTE MISSING WOOD -- //
+    cuttingMachine(
+        event,
+        st('twisted_planks'),
+        2,
+        100,
+        [ { amount: 1, tag: ap('twisted_logs') } ],
+        [ { amount: 6, item: ap('twisted_planks') } ]
+    );
+
+    // -- EXPANDED DELIGHT MISSING WOOD -- //
+    cuttingMachine(
+        event,
+        st('cinnamon_planks'),
+        2,
+        100,
+        [ { amount: 1, tag: ed('cinnamon_logs') } ],
+        [ { amount: 6, item: ed('cinnamon_planks') } ]
+    );
+
+    // -- NO MANS LAND MISSING WOOD -- //
+    const nmlMissingPlanks = ['pine', 'maple', 'walnut', 'willow'];
+    nmlMissingPlanks.forEach(wood => {
+        cuttingMachine(
+            event,
+            st(`${wood}_planks`),
+            2,
+            100,
+            [ { amount: 1, tag: nm(`${wood}_logs`) } ],
+            [ { amount: 6, item: nm(`${wood}_planks`) } ]
+        );
+    });
+
+    // -- SPECTRUM MISSING WOOD -- //
+    const spectrumLogMissingPlanks = ['white', 'orange', 'magenta', 'light_blue', 'yellow', 'lime', 'pink', 'gray', 'light_gray', 'cyan', 'purple', 'blue', 'brown', 'green', 'red', 'black', 'weeping_gala'];
+    spectrumLogMissingPlanks.forEach(wood => {
+        cuttingMachine(
+            event,
+            st(`${wood}_planks`),
+            2,
+            100,
+            [ { amount: 1, tag: sp(`${wood}_logs`) } ],
+            [ { amount: 6, item: sp(`${wood}_planks`) } ]
+        );
+    });
+
+    const spectrumNoxwoodMissingPlanks = ['slate_nox', 'ebony_nox', 'ivory_nox', 'chestnut_nox', ];
+    spectrumNoxwoodMissingPlanks.forEach(noxwood => {
+        cuttingMachine(
+            event,
+            st(`${noxwood}wood_planks`),
+            2,
+            100,
+            [ { amount: 1, tag: sp(`${noxwood}cap_stems`) } ],
+            [ { amount: 6, item: sp(`${noxwood}wood_planks`) } ]
+        );
+    });
 });
