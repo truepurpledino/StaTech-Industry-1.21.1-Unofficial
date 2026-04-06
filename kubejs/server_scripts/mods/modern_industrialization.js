@@ -563,7 +563,10 @@ ServerEvents.tags('item', event => {
         mi('ev_energy_input_hatch'),
         mi('superconductor_energy_input_hatch')
     ];
-    ENERGY_INPUT_HATCH.forEach(id => { event.add('kubejs:energy_input_hatch', id) });
+    ENERGY_INPUT_HATCH.forEach(id => {
+        event.add('kubejs:energy_input_hatch', id);
+        event.add('kubejs:wired_energy_input_hatch', id);
+    });
 
     const ENERGY_OUTPUT_HATCH = [
         mi('lv_energy_output_hatch'),

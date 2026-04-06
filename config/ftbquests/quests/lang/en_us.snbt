@@ -813,6 +813,7 @@
 	quest.112E7B1922E2CCC3.quest_desc: ["The &6Bronze Furnace&r is a furnace that accepts &7steam&r instead of &atraditional fuels&r. It is as slow as a normal furnace, but is 10 times &3more fuel efficient&r due to using &7Steam&r."]
 	quest.112E7B1922E2CCC3.quest_subtitle: "A more efficient furnace"
 	quest.11361E8B39F8F03C.quest_desc: ["An important component in &aPolyvinyl Chloride&r."]
+	quest.114F2FC2E57172C8.quest_desc: ["It is used to produce an &eUltradense Metal Ball&r and some bulk machines..."]
 	quest.1185A36879732D6A.quest_desc: ["This is the &eModern Dynamics&r version of the &aHV-tier Cables&r."]
 	quest.11C4254DF67951A9.quest_desc: [
 		"For those of you who have played &aGregTech&r before, you will know that in that machines that connect to higher voltage tiers than themselves &cwill explode&r. &l&bTHIS IS NOT THE CASE HERE&r&r."
@@ -1038,7 +1039,7 @@
 	quest.15C0B7A968E7CA42.title: "Moving Fluids"
 	quest.1636AAA1DD4ECC50.quest_desc: ["&eSulfuric Acid&r is a &3useful byproduct&r of oil refinement. &6Make sure to keep a hold of a decent amount&r."]
 	quest.1636AAA1DD4ECC50.title: "Sulfuric Acid"
-	quest.163F1BAC06324013.quest_desc: ["The &bBlock Placer&r allows you to automate the placing of blocks (&oduh?) when powered by a &credstone signal&r.E"]
+	quest.163F1BAC06324013.quest_desc: ["The &bBlock Placer&r allows you to automate the placing of blocks (&oduh?) when powered by a &credstone signal&r."]
 	quest.1643F0311C19D935.quest_desc: ["&aIndustrial TNT&r is a key component in the &eImplosion Compressor&r. Using &2Toulene&r and &3Nitrogen&r you can combine Sand and Flint to produce a controlled explosive."]
 	quest.165A09B8C42579B9.quest_desc: ["Putting a &cCopper Drill&r in a &aSteam Quarry&r is a good way to get various types of stones. Make sure to pipe out the items immediately to avoid voiding any outputs!"]
 	quest.1667B21269758113.quest_desc: [
@@ -1125,7 +1126,6 @@
 		""
 		"Recharge with &bFermented Spider Eyes&r."
 	]
-	quest.1908DBCFE8CE55D4.quest_desc: ["needs tag"]
 	quest.1919DA76241A55D6.quest_desc: ["&aVenison&r is dropped from the &dDeer&r that roam the &eTwilight Forest&r"]
 	quest.193BF21914D516D4.quest_desc: ["The &bSteam Engine&r is the king of &arotational force&r generation. These can be a little complicated to setup, so I highly suggest checking the &ePonder&r scene for more information."]
 	quest.195CA8E85827FF47.quest_desc: ["A midtier fluid storage cell that can store 16384 bytes of information."]
@@ -1278,6 +1278,7 @@
 	quest.1C030F5D0DA882DC.quest_subtitle: "I've seen this before!"
 	quest.1C030F5D0DA882DC.title: "StaTech Coins"
 	quest.1C258EF6AC025D80.quest_desc: ["The &bAluminum Backpack&r has &981 slots&r for items!"]
+	quest.1C56D3421ED7758F.quest_desc: ["The &2Machine Config Card&r allows you to copy a machine or hatch configuration and apply it to a different block in just a few clicks."]
 	quest.1C6856D2C944D9F2.quest_desc: [
 		"Pressurizing &bwater&r into &3HP water&r costs &ca lot of energy&r, but the &eLarge Steam Turbine&r will not give it back! You can use a &aHeat Exchanger&r to recover the &3HP water&r for another cycle. "
 		""
@@ -1370,7 +1371,6 @@
 	quest.1E378F2F641048F1.quest_subtitle: "Basically creative mode"
 	quest.1E378F2F641048F1.title: "The Infinity Suit"
 	quest.1E4C654BFB863E9A.quest_desc: ["&aItem Pipes&r build a path to their connections based on the distance between them. Using an &6Inhibitor&r will increase the path distance calculation for that attachment by &31000&r. Great for making a connection that will be &cavoided&r."]
-	quest.1E519199FA96FA04.quest_desc: ["needs tag"]
 	quest.1E525921822F56AC.quest_desc: [
 		"Combining super heated &eHelium Plasma&f with &aDeuterium&f in a &bFusion Reactor&f will cause some of the atoms to shred their neutrons into a &0Neutronium plasma&f. &o(I'm not a scientist, and I made this process up)&r"
 		""
@@ -1588,6 +1588,7 @@
 	quest.2174585D87F83C89.title: "&aWelcome!"
 	quest.21C04730D77746DC.quest_desc: ["By combining printed &bAE2 circuits&r and &7silicon&r in an &eAssembler&r you will create the basic components for all of &eAE2&r. The &cMolten Redstone&r required for the recipe can be acquired using a &3Blast Furnace&r."]
 	quest.21C04730D77746DC.title: "AE2 Processors"
+	quest.21CB72E94FBBBACC.quest_desc: ["This liquid enables you to create a compact setup for farming &3Ender Pearls&r."]
 	quest.21D65F793422444B.quest_desc: ["The &aStainless Steel Tank&r is the next tier of portable fluid tank you can create. It can store up to &e256 buckets&r of any kind of fluid and retains the contents when broken."]
 	quest.21F3205C40C9D424.quest_desc: [
 		"Upgrades can be added to &aElectric Machines&r to increase their total EU/t overclock. "
@@ -2578,7 +2579,7 @@
 		""
 		"If you need help building the structure, remember you can &5Visualize&r it by placing the &aEnchanter&r block down then right clicking it!"
 		""
-		"Once you right-click the &aEnchanter&r with a fully built structure, you will unlock the recipes for books you can create. There's a lot you can do with this structure, make sure to check out the &Enchanting&r section in the &eColorful World&r book."
+		"Once you right-click the &aEnchanter&r with a fully built structure, you will unlock the recipes for books you can create. There's a lot you can do with this structure, make sure to check out the &eEnchanting&r section in the &eColorful World&r book."
 	]
 	quest.37E716F9D27998E9.quest_desc: [
 		"If you've yet to find an &eAE2 meteorite&r, then you might want to make this compass. "
@@ -2658,6 +2659,7 @@
 		""
 		"Be sure to check the &ePonder&r scene for this one!"
 	]
+	quest.39A4845AB2B8FC83.quest_desc: ["The metal for of &eEnder Pearl&r."]
 	quest.39A53780808097E7.quest_desc: ["The &aEnergy Crystal&r is similar to the &bLithium Ion Batteries&r, but it has a much larger buffer, being able to store &d1 million E&r."]
 	quest.39AD4C222874D63F.quest_desc: ["Increases the user's invulnerability frames after taking a hit"]
 	quest.39D48C79329C6E09.quest_desc: ["An upgrade to the &6Bronze Barrel&r. This barrel can hold up to 128 stacks of the same item. Probably really good for all the cobblestone you've been amassing."]
@@ -2958,6 +2960,7 @@
 		"You &close a lot&r of product mixing these dusts by hand, you'll want to prioritize getting a &abetter way&r to mix them.  "
 	]
 	quest.40F3373B8AFDE427.title: "Fire Clay Dust"
+	quest.4128E89534C77053.quest_desc: ["Add some protection to your creative flight."]
 	quest.412958496FE9150E.quest_desc: [
 		"The Forge Hammer is the key component to crafting all of your early game components for machines and other utilities."
 		""
@@ -3314,6 +3317,7 @@
 		"&dElevators&r of different colors will&c not travel to each other&r."
 	]
 	quest.486ADC13C8868424.title: "Elevators"
+	quest.487CF916A0FF784D.quest_desc: ["Empowered &3Liquid Ender&r! What could be more reliable? It is even used in the creation of &eSpace Engines&r! It can also be used in &aBoss Crusher&r to make it easier to get &eNether Star&r."]
 	quest.488543DD1EEAF483.quest_desc: ["&cCalorite&r is the final tier of metal in &eAd Astra!&r, and is needed to make the &bJet Suit&r, &aTier Four Rocket&r, and &eSpace Probe Launcher&r."]
 	quest.489CB40DCB36235E.quest_desc: ["The &bLaunchpad&r, when &apowered&r, will launch &dentities&r on top of it into the air."]
 	quest.48BF632D5B8F57B8.quest_desc: ["Can be produced into &aBoosted Diesel&r at a better rate than regularly processed &bDiesel&r."]
@@ -5001,6 +5005,8 @@
 	]
 	quest.6D3D6D207A8AE387.quest_desc: ["The &aBasket&r is a decorational storage block with the same inventory size as a chest."]
 	quest.6D501CD206C0E782.quest_desc: ["The &eTechReborn&r &bQuantum Storage Unit&r this time is an insane upgrade to the &dTitanium Barrel&r. I actually don't feel like typing out how many stacks it can hold because &lit's a lot&r. Like always it still has &aconfigurable I/O&r and control through &bredstone signals&r."]
+	quest.6D6C2CCEA0CA1D26.quest_desc: ["It can be coloured!"]
+	quest.6D6C2CCEA0CA1D26.quest_subtitle: "All in one!"
 	quest.6D7126882F500673.quest_desc: [
 		"Attaching an &bME Crafting Terminal&r to your &eAE2 network&r will grant you access to &lall&r the items stored within and and an included crafting grid you can use these stored items in. "
 		""
@@ -5547,6 +5553,20 @@
 		""
 		"&aDiesel Generators&r will only use fuel when they need to, but if you need a constant supply of energy, you can put liquid fuels in the &bLarge Steam Boiler&r instead of items. A fully heated &bLarge Steam Boiler&r will roughly produce twice the amount of energy a &aDiesel Generator&r would produce using the same quantity of fuel."
 	]
+	quest.7923688DB9B9FDA3.quest_desc: [
+		"The &eTesla Tower&r allows energy to be transmitted over distances(depends on tier) without wires. However, as with any form of energy transmission, there are losses. The higher the transmitted energy rate, the greater the losses."
+		""
+		"To adjust the transmitted energy rate(HV, MV, etc), you need to use &eTesla Winding&r and the corresponding &eEnergy Input Hatches&r. The rate of all hatches must be the same."
+		""
+		"The receiving device can be &eTesla Receiver&r or &eTesla Receiver Energy Input Hatch&r. The tier of &eTesla Winding&r must match the tier of the receivers. To change the tier of the &eTesla Receiver&r, you need to insert the corresponding &eMachine Hull&r into it."
+		""
+		"The &eTesla Calibrator&r helps establish a connection between the &eTesla Tower&r and the &eTesla Receiver&r."
+		""
+		"You can use the side panel in the &eTesla Tower&r UI to change the color of the lightning bolts."
+		""
+		"A &eTesla Handled Receiver&r can charge items in your inventory."
+	]
+	quest.7923688DB9B9FDA3.quest_subtitle: "Massive wireless power transmission."
 	quest.7937A68567C5A83E.quest_desc: ["The &aCirclet of Arrogance&r gives you the &4Ascension&r buff in wearable form. If your mere existence wasn't in danger every time you get hit too hard, you would not hesitate for a second to put it on. &o&bBut should you really...&r&r? &c&lOf course&r&r."]
 	quest.7937A68567C5A83E.quest_subtitle: "Test Your Hubris"
 	quest.7940D8A4ECBD6541.quest_desc: ["Increases the wearer's attack speed"]
@@ -5681,6 +5701,7 @@
 	]
 	quest.7D44039609D08FC4.quest_desc: ["&aToluene&r is used in the creation of &2Industrial TNT&r, which is necessary for the &dNuke&r and usage in the &dImplosion Compressor&r."]
 	quest.7D44039609D08FC4.title: "Toluene"
+	quest.7D44CBA637915377.quest_desc: ["Are you tired of multiblock building? Press &5Shift+RMB&r on the main block and voilà! Remember to put items in your inventory or link this tool with the AE system."]
 	quest.7D55BD43F64D1147.title: "Hearty Meals"
 	quest.7D56FAE45EE0F29C.quest_desc: [
 		"You can &eMacerate&r &cRuby Ore&r or &eCentrifuge&r &4Redstone Dust&r to get &cRuby Dust&r. "
@@ -5835,6 +5856,7 @@
 	task.02DB7121567D62D0.title: "16 Polished Crest Blocks"
 	task.030C38099F469C1F.title: "Click to Acknowledge"
 	task.03501B1E1C263404.title: "Any Runic Claymore"
+	task.0365E6610A60A4DB.title: "Any Item Input Hatch"
 	task.0370BDE5CF6E361F.title: "NYI"
 	task.0386D6436310F041.title: "NYI"
 	task.0472D36D743812BA.title: "Click to Acknowledge"
@@ -5866,6 +5888,7 @@
 	task.0C8E0C5A513845B5.title: "NYI"
 	task.0CB7D049DDC51B18.title: "NYI"
 	task.0D4E7C3A65BB81D0.title: "Any Fluid Pipe"
+	task.0D6693504C8C86CE.title: "Any Fluid Input Hatch"
 	task.0DFA3401B922331A.title: "Click to Acknowledge"
 	task.0E49F79E7E70D235.title: "4x Polished Gemstone Blocks"
 	task.0F128E5E9CEF7374.title: "92x Polished Blocks"
@@ -5879,7 +5902,9 @@
 	task.135B6491339FB2A5.title: "Click to Acknowledge"
 	task.1377546BDB236CF2.title: "8x Polished Pillars"
 	task.13B43E23537FA95D.title: "NYI"
+	task.13EAC67F33917489.title: "Any Energy Input Hatch"
 	task.1425DEF913A9FEEF.title: "Click to Acknowledge"
+	task.1465848C282046A1.title: "Any Item Input Hatch"
 	task.147A7CCB25D3F747.title: "159x Polished Blocks"
 	task.14837EC8DB8B1E70.title: "Click to Acknowledge"
 	task.14E9DFDCE5A3F10F.title: "NYI"
@@ -5894,6 +5919,7 @@
 	task.1760536D483EA89E.title: "Any Rune Ingots"
 	task.1798316FBC33C7C4.title: "2x Gemstone Chiseled Blocks"
 	task.17A001916D7A24ED.title: "28x Polished Pillars"
+	task.183054AF0E270597.title: "Any Item Output Hatch"
 	task.18838BB1D1134393.title: "Digital Storage Redux"
 	task.189BBEB3109D8EC5.title: "Any Basic Netherite Staff"
 	task.18C2FE983DC6D996.title: "8x Either Item Bowl"
@@ -5921,15 +5947,19 @@
 	task.2024A3B3CA873BFF.title: "Any Item Input Hatch"
 	task.205CF878A2DFA3D1.title: "Click to Acknowledge"
 	task.20B32213DF9AA2CE.title: "Click to Acknowledge"
+	task.20E4C085DE2834C9.title: "Any Energy Input Hatch"
 	task.212805468C2ACB82.title: "Click to Acknowledge"
 	task.2168926F923CB68F.title: "68x Polished Blocks"
 	task.21983C88538FAB05.title: "12x Polished Pillars"
 	task.21D065C3333A9356.title: "Click to Acknowledge"
+	task.21FBBF8514DA6BD8.title: "Any Energy Output Hatch"
 	task.2251797FE307AA33.title: "Click to Acknowledge"
 	task.227C74C617BC0803.title: "Any Energy Input Hatch"
 	task.22A19D386B745494.title: "Any Colored Sapling"
+	task.22A630F4B6A91000.title: "Any Item Input Hatch"
 	task.22C47303A731AC9E.title: "NYI"
 	task.234364B583B66F75.title: "NYI"
+	task.234DDC2D5DC31273.title: "Any Item Output Hatch"
 	task.235B207E1325395B.title: "8x Polished Pillar Blocks"
 	task.23928F71A1DF57CD.title: "2x Gemstone Chimes"
 	task.239655E16B64B677.title: "Click to Acknowledge"
@@ -5938,6 +5968,7 @@
 	task.23C98B88322298BA.title: "Any LV Cable"
 	task.2433E096E500F786.title: "NYI"
 	task.2489437F5FA43484.title: "Click to Acknowledge"
+	task.24E249513077CFCA.title: "Any Item Input Hatch"
 	task.25215EADA043FD7E.title: "Moving Fluids"
 	task.2592C37F835AB817.title: "Any Item Pipes"
 	task.259666AAE5306DAC.title: "NYI"
@@ -5946,6 +5977,7 @@
 	task.263444CA8BBFE180.title: "Any Item Input Hatch"
 	task.26EC89290D868DBA.title: "NYI"
 	task.26F6F7158874ACAA.title: "Any MV Cable"
+	task.27A42D2D4C49C7DD.title: "Any Item Input Hatch"
 	task.27B1627F1682C4E1.title: "Click to Acknowledge"
 	task.27D64A7862FCCCE4.title: "Any Elevator"
 	task.27E40C48A822583C.title: "NYI"
@@ -5957,6 +5989,7 @@
 	task.29E88B45080ED616.title: "NYI"
 	task.2A1BBCBA0C45866C.title: "6x Crest Blocks"
 	task.2A3F5BE3F9B325B2.title: "NYI"
+	task.2A5B148EF77E20F7.title: "Any Item Output Hatch"
 	task.2AB8C71EC731863F.title: "Any Knife"
 	task.2BDC1045D04D624F.title: "Visit &dThe Deeper Down"
 	task.2BE57B36A4ED7A63.title: "Click to Acknowledge"
@@ -5964,10 +5997,14 @@
 	task.2CC82C3F68C2B199.title: "12x Polished Blocks"
 	task.2CF1603C6B2F47E3.title: "NYI"
 	task.2D28565C24ACC2E1.title: "24x Polished Slabs"
+	task.2D3AF43538899939.title: "Any Fluid Output Hatch"
 	task.2D7DA35088255141.title: "Click to Acknowledge"
 	task.2D7E8779F3810B8C.title: "NYI"
 	task.2DEC4B84E5B092C8.title: "Any Runic Leggings"
 	task.2E2C7F5F076068F3.title: "41x Polished Blocks"
+	task.2E6F90D6FA0A7002.title: "Any Item Output Hatch"
+	task.2E7DFAFC32C613CE.title: "Any Item Input Hatch"
+	task.2E8B8F1991F96FBE.title: "Any Item Input Hatch"
 	task.2EBE05067B59B79A.title: "NYI"
 	task.2EFE35A5F4181F40.title: "Basic Runes"
 	task.2F68B6A8F5B091CC.title: "Any Sharestone"
@@ -5975,11 +6012,14 @@
 	task.304C1B2C9138E963.title: "NYI"
 	task.306669829F033913.title: "Any Modern Industrialization Hammer"
 	task.30914428CE1F71CA.title: "NYI"
+	task.3096C32AC2C1F85E.title: "Any Tesla Winding"
+	task.309CDBFF95E3FD95.title: "Any Energy Input Hatch"
 	task.3138E0798EBA517D.title: "8x Gemstone Lights"
 	task.313A236768D509A5.title: "Any Item Output Hatch"
 	task.314A5ABFACDC1728.title: "Enter the Deeper Down"
 	task.315318A640750799.title: "92 Polished Blocks"
 	task.31991C5E2A07365B.title: "NYI"
+	task.31B5BECCA8FAF040.title: "Any Fluid Output Hatch"
 	task.3252A3818E1B4B78.title: "Click to Acknowledge"
 	task.326781AC5DF798FB.title: "17x Polished Slabs"
 	task.336B85DC10B9D956.title: "Any Runic Boots"
@@ -5987,13 +6027,16 @@
 	task.349CEA7E862FC482.title: "Any Item Output Hatch"
 	task.34BA2E902145A0AF.title: "Click to Acknowledge"
 	task.34D14E04CC4820A3.title: "Laser Engraver"
+	task.352FD3AB3B5B0202.title: "Any Item Output Hatch"
 	task.355461283287B570.title: "NYI"
 	task.356C24BFAC444D8D.title: "NYI"
 	task.35A061877D5EE6C4.title: "NYI"
 	task.36502299AE18685A.title: "NYI"
 	task.367F8C3925763AB8.title: "Click to Acknowledge"
+	task.3759329D7AB3E02D.title: "Any Energy Input Hatch"
 	task.37A29FCBDD477602.title: "NYI"
 	task.37CF0AB273567327.title: "Click to Acknowledge"
+	task.384F3106FC142633.title: "Any Fluid Output Hatch"
 	task.385FEC16EF238B54.title: "Click to Acknowledge"
 	task.3951C2DD2B16293F.title: "NYI"
 	task.397C0706200BF8B5.title: "Any Glowblock"
@@ -6004,21 +6047,27 @@
 	task.3AB965878A5E3D2F.title: "NYI"
 	task.3ABF0361BC517181.title: "Click to Acknowledge"
 	task.3B19D63490967A0A.title: "Click to Acknowledge"
+	task.3BDA06A26C350CF6.title: "Any Fluid Input Hatch"
 	task.3BF6E544CCA8C9A5.title: "NYI"
 	task.3C7783942E2E2887.title: "12x Polished Slabs"
 	task.3CE135A5298E5A62.title: "Any Fluid Input Hatch"
 	task.3D10F4A50CA6F431.title: "Any Runic Chestplate"
+	task.3D79390D2D1352F8.title: "Any Fluid Input Hatch"
 	task.3EEB76F3C5E9C50D.title: "Click to Acknowledge"
 	task.4003DF22E9F29CAF.title: "Any Fluid Input Hatch"
 	task.4005AB85BF9CFD2F.title: "NYI"
+	task.4016A4AF6C146437.title: "Any Item Input Hatch"
 	task.403B04DEBD12AD9B.title: "NYI"
 	task.4062E2D1C862F879.title: "NYI"
 	task.407994B3CC7F6FE9.title: "NYI"
 	task.408E9FCB4DC6C34D.title: "Any Colored Lamp"
+	task.40BC4C6BAF3BB6C5.title: "Any Energy Input Hatch"
 	task.40DD5C411C2CEE3C.title: "NYI"
 	task.40F284523C7D1EE5.title: "Click to Acknowledge"
+	task.410F27E40E46053E.title: "Any Item Input Hatch"
 	task.4126249455C290EB.title: "4x Chiseled Polished Blocks"
 	task.413C55BD00BC3152.title: "Any Runic Helmet"
+	task.41420F8E297CE369.title: "Any Fluid Output Hatch"
 	task.415377B0AC4EA77A.title: "NYI"
 	task.4164D3C666318830.title: "NYI"
 	task.422F909199EA0780.title: "NYI"
@@ -6048,9 +6097,11 @@
 	task.470BCD821A41D683.title: "NYI"
 	task.47212208CD54413D.title: "Any Item Input Hatch"
 	task.474935150444F412.title: "NYI"
+	task.47636D15C7B602F3.title: "Any Tesla Receiver Hatch"
 	task.47776753D369C9D5.title: "Click to Acknowledge"
 	task.47852A1841768877.title: "4x Polished Gemstones"
 	task.47C69ADD80F2257C.title: "NYI"
+	task.47EC9A39F745DC3F.title: "Any Energy Input Hatch"
 	task.4848D2E9AD7513A5.title: "Eight Gemstone Lamps"
 	task.488CB74113AFA0A1.title: "Either Fusion Shrine"
 	task.48A99247A316F590.title: "Click to Acknowledge"
@@ -6064,6 +6115,7 @@
 	task.4A96B02DCAC866B3.title: "Click to Acknowledge"
 	task.4AAE963F380FD67D.title: "NYI"
 	task.4AF62BF9F748E005.title: "Any Energy Input Hatch"
+	task.4B4748570C27191D.title: "Any Two Fluid Output Hatches"
 	task.4B8D8848A930FAD0.title: "Any Item Input Hatch"
 	task.4C66E7FD102446FE.title: "4x Chiseled Polished Blocks"
 	task.4CD15BC3F93A0205.title: "NYI"
@@ -6079,6 +6131,7 @@
 	task.50A48F2E66939A37.title: "36x Polished Crests"
 	task.50D55CFFADA15149.title: "Click to Acknowledge"
 	task.5188560E06DDBDE2.title: "Click to Acknowledge"
+	task.51C62F2040DBA3F7.title: "Any Two Fluid Input Hatches"
 	task.51F93CD4A9BD5CA9.title: "Click to Acknowledge"
 	task.5238AF1BC3F550D1.title: "Any Inquisitor Leggings"
 	task.5254BB6749220834.title: "Glass Crest Tools"
@@ -6091,14 +6144,17 @@
 	task.549173CDF1544314.title: "Any Item Input Hatch"
 	task.54AADD811AFC5E57.title: "Any Idol"
 	task.54CC1F1EA6428133.title: "Click to Acknowledge"
+	task.54CE588FBD33A6CF.title: "Any Item Input Hatch"
 	task.550FFB192C3DD558.title: "NYI"
 	task.55155168C1E944DB.title: "NYI"
 	task.553DB49E0661F33A.title: "4x Chiseled Polished Blocks"
+	task.55525B288D7B8AAF.title: "Any Item Output Hatch"
 	task.55CD90130C650A1E.title: "NYI"
 	task.55E5DFB0C4215662.title: "Click to Acknowledge"
 	task.5600584D21C7541F.title: "NYI"
 	task.560D4CCE26F030A7.title: "12x Polished Blocks"
 	task.5621599A059FA28A.title: "NYI"
+	task.568B6B0BEFBFBCBC.title: "Any Item Output Hatch"
 	task.569515177B4B1050.title: "Click to Acknowledge"
 	task.5695B4F321DE7122.title: "NYI"
 	task.56F3E3EA55DD0019.title: "NYI"
@@ -6123,6 +6179,8 @@
 	task.5B6B1645AF7453B0.title: "NYI"
 	task.5B6EB4A8BA770450.title: "Click to Acknowledge"
 	task.5C0E43D444D245AA.title: "NYI"
+	task.5C2758ED2BD6E4AD.title: "Any Fluid Output Hatch"
+	task.5CB7170541C955B4.title: "Any Item Input Hatch"
 	task.5D1B1332FFBD6BE9.title: "Click to Acknowledge"
 	task.5E3A8C815C0BB1E4.title: "Click to Acknowledge"
 	task.5EBB86365FEE23B3.title: "4x Polished Gemstone Blocks"
@@ -6137,6 +6195,7 @@
 	task.60C91BC029546E34.title: "Click to Acknowledge"
 	task.60CD2056096646A8.title: "NYI"
 	task.60D5ED6299C650F2.title: "NYI"
+	task.60F319306DFC6303.title: "Any Energy Input Hatch"
 	task.61472E61A4C3C115.title: "Any Gemstone Chime"
 	task.614939D6695E0BF0.title: "NYI"
 	task.615F3F51A2F3B534.title: "Any Staff"
@@ -6158,24 +6217,32 @@
 	task.67627536ABAD1F15.title: "NYI"
 	task.67A5FE89B8A70F2B.title: "NYI"
 	task.6880F97C58C5825D.title: "NYI"
+	task.68D2C588FE9627B8.title: "Any wired Energy Input Hatch"
 	task.690A1A6E6F950BD1.title: "NYI"
+	task.690ABE8E14241CEE.title: "Tesla Receiver Hatch"
 	task.693EA95A0ECB8813.title: "Click to Acknowledge"
 	task.6954407381BEDE79.title: "Any Netherite Basic Wand"
 	task.69606BA7EB7AB2D9.title: "nyi"
 	task.6A3D3DA3D5DA4D06.title: "Click to Acknowledge"
+	task.6AAE065090FBF8C8.title: "Any Fluid Input Hatch"
 	task.6AB3267CA3F32DA3.title: "Click to Acknowledge"
 	task.6B0F0106B8B5DBBD.title: "NYI"
 	task.6BB46AB516F670EE.title: "Any Item Output Hatch"
 	task.6D544BAAC5D3404E.title: "NYI"
 	task.6E0CA349D50C0288.title: "NYI"
+	task.6E9A40DA4118BCAC.title: "Any Item Output Hatch"
+	task.6F352A9FCCD9C4BD.title: "Any Item Input Hatch"
 	task.6F69E576E94CF82D.title: "Click to Acknowledge"
+	task.6FA5D3D6804ECEDC.title: "Any Fluid Input Hatch"
 	task.6FC30288BFE41B73.title: "Click to Acknowledge"
 	task.6FEF21DBB4D27D94.title: "NYI"
 	task.70399A65136F784E.title: "Click to Acknowledge"
 	task.705E160F1B0E9658.title: "NYI"
 	task.70B13DBDC276B4EA.title: "Click to Acknowledge"
+	task.70B5D68C2F8990BD.title: "Any Energy Input Hatch"
 	task.70CF3C821C58C99D.title: "NYI"
 	task.715FCED80BE32380.title: "77x Polished Blocks"
+	task.717FB8F4A7EECBB1.title: "Any Fluid Input Hatch"
 	task.71F933980C0150B9.title: "Any Colored Spore Blossom"
 	task.72309436D9D7DD4F.title: "NYI"
 	task.723C9C4F9D7031B2.title: "Any Pigment Lamp"
@@ -6186,6 +6253,7 @@
 	task.7314EE10703FF51C.title: "Click to Acknowledge"
 	task.736FD69D3EB40E37.title: "NYI"
 	task.738DB52AC636ED24.title: "Any Spellblade"
+	task.742E9597634D1944.title: "Any Item Output Hatch"
 	task.7490CE6CE44E9FBB.title: "NYI"
 	task.74A03D0F85036522.title: "NYI"
 	task.74A81B11060780C8.title: "Four Polished Gemstones"
@@ -6207,6 +6275,7 @@
 	task.786A6EB1D74A9E9D.title: "NYI"
 	task.796B742993576F76.title: "NYI"
 	task.799173746D8D6ECB.title: "NYI"
+	task.7AC9071453F14364.title: "Any Energy Input Hatch"
 	task.7B3278D24F0244DD.title: "NYI"
 	task.7B5A9951D239D081.title: "Any Item Output Hatch"
 	task.7BEBC33792630266.title: "NYI"
@@ -6214,10 +6283,12 @@
 	task.7C9ABEB2F52198D7.title: "Click to Acknowledge"
 	task.7CE93A42C379F02D.title: "NYI"
 	task.7CED8DC60E6DB635.title: "NYI"
+	task.7D481262BFED19FC.title: "Any Energy Input Hatch"
 	task.7D730639A33A83F0.title: "16x Polished Crests"
 	task.7E03A236ABE12AED.title: "NYI"
 	task.7EB2AD15ADC9AEAE.title: "NYI"
 	task.7F08D344CEBF5EEA.title: "Click to Acknowledge"
 	task.7F2915A7CEE76E01.title: "Any Fluid Output Hatch"
 	task.7F45C2A885F40EA7.title: "4x Onyx Chiseled Blocks"
+	task.7FEC80858FC7EF78.title: "Any Energy Input Hatch"
 }
