@@ -5557,7 +5557,7 @@
 		""
 		"The &eTesla Calibrator&r helps establish a connection between the &eTesla Tower&r and the &eTesla Receiver&r."
 		""
-		"You can build several &eTesla Towers&r and tune them to different frequencies, so that each one works only with specific receivers."
+		"You can use the side panel in the &eTesla Tower&r UI to change the color of the lightning bolts."
 		""
 		"A &eTesla Handled Receiver&r can charge items in your inventory."
 	]
