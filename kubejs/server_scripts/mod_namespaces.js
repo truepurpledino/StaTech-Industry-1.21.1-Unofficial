@@ -45,3 +45,5 @@ let tm = (id) => `torchmaster:${id}`;
 let bae = (id) => `bigger_ae2:${id}`;
 let ed = (id) => `expandeddelight:${id}`;
 let fd = (id) => `farmersdelight:${id}`;
+let xt = (id) => `xtonesreworked:${id}`;
+let ap = (id) => `architects_palette:${id}`;

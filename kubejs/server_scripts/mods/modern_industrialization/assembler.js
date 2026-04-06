@@ -1653,4 +1653,45 @@ ServerEvents.recipes(event => {
         ],
         [ { amount: 8, item: xt('xtone_tile') } ]
     );
+
+
+    // This code sucks, look away
+    const xtoneRecipes = event.findRecipes({ mod: 'xtonesreworked', input:'#c:dyes' });
+    xtoneRecipes.forEach(recipe => {
+        let recipeJson = recipe.json;
+        let recipeId = recipeJson.get('result').get('id').toString();
+        let inputs = recipeJson.get('key');
+
+        // Dye is either multiple keys. This is janky as shit and WILL break if
+        // the dev decides to use a different character as a key for the dye
+        let dye;
+        if (inputs.get('C')) {
+            dye = inputs.get('C');
+        } else if (inputs.get('D')) {
+            dye = inputs.get('D');
+        } else if (inputs.get('S')) {
+            dye = inputs.get('S');
+        } else if (inputs.get('G')) {
+            dye = inputs.get('G');
+        } else {
+            console.log('Did not match: ' + inputs);
+        }
+        dye = dye.toString();
+        let dyeColor = dye.substring(dye.lastIndexOf('/') + 1, dye.lastIndexOf('"'));
+
+        let blockName = recipeId.substring(recipeId.indexOf(':') + 1, recipeId.lastIndexOf('"'));
+        let blockType = blockName.substring(0, blockName.indexOf('_'));
+
+        assembler(
+            event,
+            st(`${blockName}_from_${dyeColor}_dye`),
+            2,
+            200,
+            [
+                { amount: 8, tag: xt(blockType) },
+                { amount: 1, item: mc(`${dyeColor}_dye`) }
+            ],
+            [ { amount: 8, item: xt(blockName) } ]
+        );
+    });
 });
