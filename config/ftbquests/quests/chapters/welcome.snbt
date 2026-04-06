@@ -14,7 +14,7 @@
 		rotation: 0.0d
 		width: 6.0d
 		x: 0.0d
-		y: -6.0d
+		y: -7.0d
 	}]
 	order_index: 0
 	quest_links: [ ]
@@ -116,8 +116,8 @@
 				id: "5188560E06DDBDE2"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: 2.0d
+			x: 3.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["58F52B959643FF34"]
@@ -134,8 +134,171 @@
 				id: "23998E6F98104B1C"
 				type: "checkmark"
 			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["58F52B959643FF34"]
+			icon: {
+				id: "minecraft:iron_hoe"
+			}
+			id: "49E8ECBDBC3FFD83"
+			tasks: [{
+				id: "3534F85C2A1A574A"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(minecraft:hoes))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["58F52B959643FF34"]
+			icon: {
+				id: "minecraft:chest"
+			}
+			id: "021CF7D7EC294561"
+			tasks: [{
+				id: "592E1A7F0C40CF45"
+				type: "checkmark"
+			}]
 			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["58F52B959643FF34"]
+			icon: {
+				components: {
+					"ftbquests:icon": "sophisticatedstorage:item/empty_input_filter_slot"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "4B29608E216D6B49"
+			tasks: [{
+				id: "5250AE637A56FC21"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["58F52B959643FF34"]
+			icon: {
+				components: {
+					"ftbquests:icon": "sophisticatedstorage:item/empty_output_filter_slot"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "4BCA536EA971A125"
+			tasks: [{
+				id: "4AEB44EB44EF90AF"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["58F52B959643FF34"]
+			icon: {
+				id: "iden_decor:floodlight"
+			}
+			id: "3DF44D4208B1684A"
+			tasks: [{
+				id: "662AE3D37EC9216B"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["58F52B959643FF34"]
+			icon: {
+				id: "nomansland:ancient_bronze_mask"
+			}
+			id: "685A5D2BD8809F31"
+			tasks: [{
+				id: "7AADB42E1295E814"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["58F52B959643FF34"]
+			icon: {
+				id: "create:clipboard"
+			}
+			id: "5607443B61E1896B"
+			tasks: [{
+				id: "770B81572B7DF69A"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0A260F1B9E13182D"]
+			icon: {
+				id: "minecraft:crafter"
+			}
+			id: "4E1516DE8CDFE5EE"
+			size: 1.5d
+			tasks: [{
+				id: "3241A9B8029079C0"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["58F52B959643FF34"]
+			icon: {
+				id: "artifacts:charm_of_shrinking"
+			}
+			id: "1E4A6A853DB50810"
+			tasks: [{
+				id: "2E90BA4DED04110F"
+				type: "checkmark"
+			}]
+			x: -2.5d
 			y: -2.5d
+		}
+		{
+			dependencies: ["58F52B959643FF34"]
+			icon: {
+				id: "minecraft:diamond_pickaxe"
+			}
+			id: "71C405D3CB376A14"
+			tasks: [{
+				id: "1B91387FD6E802F3"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["58F52B959643FF34"]
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbteams:textures/add.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "3C6324BDADB253DB"
+			tasks: [{
+				id: "5D75C96318B7DC69"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			id: "37DEDD25DD478F0E"
+			tasks: [{
+				id: "25E5126AF912D1DA"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 2.5d
 		}
 	]
 }

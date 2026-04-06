@@ -132,40 +132,6 @@
 		}
 		{
 			dependencies: ["412958496FE9150E"]
-			id: "17392DB9C05AAA2C"
-			rewards: [
-				{
-					count: 5
-					id: "2B043FEE24FF33E0"
-					item: {
-						count: 1
-						id: "kubejs:coin_common"
-					}
-					type: "item"
-				}
-				{
-					id: "79D06EE7B53CC5C9"
-					type: "xp"
-					xp: 10
-				}
-				{
-					exclude_from_claim_all: true
-					id: "19B9648CAFB81AE4"
-					table_id: 3409273157072801564L
-					type: "random"
-				}
-			]
-			shape: "rsquare"
-			tasks: [{
-				id: "027EE48A086CCBFE"
-				item: { count: 1, id: "gag:time_sand_pouch" }
-				type: "item"
-			}]
-			x: -1.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["412958496FE9150E"]
 			id: "6C0000F5F41F4D69"
 			rewards: [
 				{
@@ -331,8 +297,8 @@
 				item: { count: 1, id: "naturescompass:naturescompass" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: 3.0d
+			x: -1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["74B14DB45316C4F8"]
@@ -365,7 +331,7 @@
 				item: { count: 1, id: "modern_industrialization:bronze_barrel" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 3.5d
 			y: -2.5d
 		}
 		{
@@ -399,7 +365,7 @@
 				item: { count: 1, id: "modern_industrialization:bronze_tank" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.5d
 			y: -2.5d
 		}
 		{
@@ -548,7 +514,7 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(modern_industrialization:fluid_pipes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.5d
 			y: -2.5d
 		}
 		{
@@ -1043,7 +1009,7 @@
 				{
 					count: 20L
 					id: "0570456BDA6D1664"
-					item: { count: 20, id: "minecraft:bricks" }
+					item: { count: 1, id: "minecraft:bricks" }
 					type: "item"
 				}
 				{
@@ -1184,20 +1150,12 @@
 				}
 			]
 			size: 2.0d
-			tasks: [
-				{
-					count: 4L
-					id: "6B5C3298C206A7C4"
-					item: { count: 1, id: "modern_industrialization:coke" }
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "391B3A59AEF6088D"
-					item: { count: 4, id: "modern_industrialization:coke_dust" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 4L
+				id: "0A414B60C2870A25"
+				item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:coke)item(modern_industrialization:coke_dust))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
 			x: 21.5d
 			y: 0.0d
 		}
@@ -1308,7 +1266,7 @@
 				{
 					count: 29L
 					id: "6415E4C2F05E3637"
-					item: { count: 29, id: "modern_industrialization:fire_clay_bricks" }
+					item: { count: 1, id: "modern_industrialization:fire_clay_bricks" }
 					type: "item"
 				}
 				{
@@ -1735,19 +1693,19 @@
 				{
 					count: 12L
 					id: "7F57354C4506E04C"
-					item: { count: 12, id: "modern_industrialization:steel_machine_casing" }
+					item: { count: 1, id: "modern_industrialization:steel_machine_casing" }
 					type: "item"
 				}
 				{
 					count: 6L
 					id: "480C0FE83583225E"
-					item: { count: 6, id: "modern_industrialization:steel_machine_casing_pipe" }
+					item: { count: 1, id: "modern_industrialization:steel_machine_casing_pipe" }
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "52BAF4AB5880BC16"
-					item: { count: 4, id: "minecraft:chain" }
+					item: { count: 1, id: "minecraft:chain" }
 					type: "item"
 				}
 				{
@@ -2177,7 +2135,6 @@
 					xp: 10
 				}
 				{
-					exclude_from_claim_all: true
 					id: "35B4A53BA89616B7"
 					table_id: 4928307245111940372L
 					type: "random"
@@ -2441,7 +2398,7 @@
 				{
 					count: 22L
 					id: "30DB077C163474AA"
-					item: { count: 23, id: "modern_industrialization:bronze_plated_bricks" }
+					item: { count: 1, id: "modern_industrialization:bronze_plated_bricks" }
 					type: "item"
 				}
 				{
@@ -2632,7 +2589,7 @@
 				{
 					count: 5L
 					id: "564F665E0C6756BD"
-					item: { count: 5, id: "minecraft:glass" }
+					item: { count: 1, id: "minecraft:glass" }
 					type: "item"
 				}
 				{
@@ -2823,19 +2780,19 @@
 				{
 					count: 24L
 					id: "58B3510CDA3EC450"
-					item: { count: 24, id: "modern_industrialization:bronze_plated_bricks" }
+					item: { count: 1, id: "modern_industrialization:bronze_plated_bricks" }
 					type: "item"
 				}
 				{
 					count: 6L
 					id: "1E9DF90560C1CEBE"
-					item: { count: 6, id: "modern_industrialization:heatproof_machine_casing" }
+					item: { count: 1, id: "modern_industrialization:heatproof_machine_casing" }
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "104396EA77E164FE"
-					item: { count: 3, id: "modern_industrialization:bronze_machine_casing_pipe" }
+					item: { count: 1, id: "modern_industrialization:bronze_machine_casing_pipe" }
 					type: "item"
 				}
 				{
@@ -2896,13 +2853,13 @@
 				{
 					count: 16L
 					id: "704E947DD439D21E"
-					item: { count: 16, id: "modern_industrialization:bronze_plated_bricks" }
+					item: { count: 1, id: "modern_industrialization:bronze_plated_bricks" }
 					type: "item"
 				}
 				{
 					count: 6L
 					id: "2BEE5E62350CB9B0"
-					item: { count: 6, id: "modern_industrialization:fire_clay_bricks" }
+					item: { count: 1, id: "modern_industrialization:fire_clay_bricks" }
 					type: "item"
 				}
 				{
@@ -2955,7 +2912,7 @@
 				item: { count: 1, id: "bankstorage:bank_2" }
 				type: "item"
 			}]
-			x: 1.0d
+			x: 4.5d
 			y: -2.5d
 		}
 		{
@@ -3115,7 +3072,7 @@
 			y: 8.5d
 		}
 		{
-			dependencies: ["74B14DB45316C4F8"]
+			dependencies: ["412958496FE9150E"]
 			id: "5E0C8E80FD41ECC3"
 			rewards: [
 				{
@@ -3150,8 +3107,8 @@
 				item: { count: 1, id: "simplemagnets:basicmagnet" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: -2.5d
+			x: -1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["26A89C51A7B9FFDE"]
@@ -3259,11 +3216,6 @@
 			dependencies: ["26A89C51A7B9FFDE"]
 			id: "1C7BF59D48BD8137"
 			rewards: [
-				{
-					id: "296A3005AA8F640A"
-					type: "xp"
-					xp: 10
-				}
 				{
 					count: 2
 					id: "11C0F68278FA61D3"
@@ -3610,6 +3562,28 @@
 		{
 			dependencies: ["26A89C51A7B9FFDE"]
 			id: "473E19E8841D003F"
+			rewards: [
+				{
+					count: 2
+					id: "637751822AE14485"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "78724127C1DA7CB1"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2BCEFFB34F32DF88"
+					table_id: 4928307245111940372L
+					type: "random"
+				}
+			]
 			shape: "rsquare"
 			tasks: [{
 				id: "0AE2A52951572011"

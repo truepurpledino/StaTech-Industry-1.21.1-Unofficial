@@ -13,14 +13,6 @@
 		{
 			dependencies: ["35F8044D376C6428"]
 			id: "54AA08D0869CB19B"
-			rewards: [{
-				command: "/ftbranks add @p ultimine_enable"
-				icon: {
-					id: "artifacts:pickaxe_heater"
-				}
-				id: "497512166D146948"
-				type: "command"
-			}]
 			shape: "hexagon"
 			size: 3.0d
 			tasks: [{
@@ -57,13 +49,13 @@
 				{
 					count: 14L
 					id: "0BEB7E99775FC6E7"
-					item: { count: 14, id: "modern_industrialization:heatproof_machine_casing" }
+					item: { count: 1, id: "modern_industrialization:heatproof_machine_casing" }
 					type: "item"
 				}
 				{
 					count: 8L
 					id: "6F7C6653BA1C78B7"
-					item: { count: 8, id: "modern_industrialization:cupronickel_coil" }
+					item: { count: 1, id: "modern_industrialization:cupronickel_coil" }
 					type: "item"
 				}
 				{
@@ -156,19 +148,19 @@
 				{
 					count: 35L
 					id: "793445DD76D32723"
-					item: { count: 35, id: "modern_industrialization:steel_machine_casing" }
+					item: { count: 1, id: "modern_industrialization:steel_machine_casing" }
 					type: "item"
 				}
 				{
 					count: 6L
 					id: "3A5854172CCD1FB2"
-					item: { count: 6, id: "modern_industrialization:steel_machine_casing_pipe" }
+					item: { count: 1, id: "modern_industrialization:steel_machine_casing_pipe" }
 					type: "item"
 				}
 				{
 					count: 18L
 					id: "6B3E5D4F918234F2"
-					item: { count: 18, id: "minecraft:chain" }
+					item: { count: 1, id: "minecraft:chain" }
 					type: "item"
 				}
 				{
@@ -685,7 +677,7 @@
 				{
 					count: 8L
 					id: "043616065BB597A2"
-					item: { count: 8, id: "modern_industrialization:bronze_plated_bricks" }
+					item: { count: 1, id: "modern_industrialization:bronze_plated_bricks" }
 					type: "item"
 				}
 				{
@@ -800,7 +792,7 @@
 				{
 					count: 30L
 					id: "798C53446C3B7204"
-					item: { count: 30, id: "modern_industrialization:frostproof_machine_casing" }
+					item: { count: 1, id: "modern_industrialization:frostproof_machine_casing" }
 					type: "item"
 				}
 				{
@@ -849,7 +841,7 @@
 				{
 					count: 24L
 					id: "728D8DDA672A2014"
-					item: { count: 24, id: "minecraft:glass" }
+					item: { count: 1, id: "minecraft:glass" }
 					type: "item"
 				}
 				{
@@ -861,7 +853,7 @@
 				{
 					count: 16L
 					id: "759A871CA9EC182F"
-					item: { count: 16, id: "modern_industrialization:cupronickel_coil" }
+					item: { count: 1, id: "modern_industrialization:cupronickel_coil" }
 					type: "item"
 				}
 				{
@@ -1388,7 +1380,7 @@
 				{
 					count: 2L
 					id: "2477BD86E73AED47"
-					item: { count: 2, id: "modern_industrialization:not_gate" }
+					item: { count: 1, id: "modern_industrialization:not_gate" }
 					type: "item"
 				}
 				{
@@ -1634,7 +1626,7 @@
 				{
 					count: 22L
 					id: "45997D9890D60C51"
-					item: { count: 22, id: "extended_industrialization:steel_plated_bricks" }
+					item: { count: 1, id: "extended_industrialization:steel_plated_bricks" }
 					type: "item"
 				}
 				{
@@ -1706,13 +1698,13 @@
 				{
 					count: 26L
 					id: "68D5ACBD8EE94A99"
-					item: { count: 26, id: "modern_industrialization:steel_machine_casing" }
+					item: { count: 1, id: "modern_industrialization:steel_machine_casing" }
 					type: "item"
 				}
 				{
 					count: 6L
 					id: "1161F2B61351425B"
-					item: { count: 6, id: "modern_industrialization:steel_machine_casing_pipe" }
+					item: { count: 1, id: "modern_industrialization:steel_machine_casing_pipe" }
 					type: "item"
 				}
 				{
@@ -1833,7 +1825,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: -2.5d
+			y: -5.5d
 		}
 		{
 			dependencies: [
@@ -1873,6 +1865,28 @@
 			}]
 			x: 16.0d
 			y: 7.5d
+		}
+		{
+			dependencies: ["7E70E521DA85AA93"]
+			id: "2D6C1748C88BE8FD"
+			tasks: [{
+				id: "79B4B09E63A380AA"
+				item: { count: 1, id: "bankstorage:bank_link" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["7E70E521DA85AA93"]
+			id: "6B1443714139D5F7"
+			tasks: [{
+				id: "5D92242CDC9EEBF5"
+				item: { count: 1, id: "tankstorage:tank_link" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -9.0d
 		}
 	]
 }
