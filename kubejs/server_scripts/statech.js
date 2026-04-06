@@ -387,16 +387,7 @@ ServerEvents.recipes(event => {
     {
         C: mythic
     }).id(st('soulbound_from_mythic'));
-
-    // event.shaped(Item.of(mc('enchanted_book')).enchant('ad_astra_giselle_addon:space_breathing', 1), [
-        // 'C C',
-        // ' C ',
-        // 'C C'
-    // ],
-    // {
-        // C: mythic
-    // }).id(st('space_breathing_from_mythic'));
-
+    
     // CALORITE ORE
     event.shaped('8x ' + mi('calorite_ore'), [
         'CCC',
@@ -407,43 +398,6 @@ ServerEvents.recipes(event => {
         C: mythic
     }).id(st('calorite_ore_from_mythic'));
 });
-
-// ServerEvents.blockLootTables(e => {
-    // event.addSimpleBlock('kubejs:desh_ore_sample', 'ad_astra:raw_desh');
-    // event.addSimpleBlock('kubejs:ostrum_ore_sample', 'ad_astra:raw_ostrum');
-    // event.addSimpleBlock('kubejs:calorite_ore_sample', 'ad_astra:raw_calorite');
-    // event.addSimpleBlock('kubejs:ice_ore_sample', 'ad_astra:ice_shard'),
-    // event.addSimpleBlock('kubejs:cheese_ore_sample', 'ad_astra:cheese');
-    // event.addSimpleBlock('kubejs:pyrite_ore_sample', 'techreborn:pyrite_dust');
-// });
-
-// ServerEvents.tags('worldgen/biome', e => {
-    // -- MOD NAMESPACE UTILITY FUNCTIONS -- // 
-    // let ad = (id) => `ad_astra:${id}`;
-
-    // event.add(ad('moon'), ad('lunar_wastelands'));
-
-    // const MARS_BIOMES = [
-        // ad('martian_canyon_creek'),
-        // ad('martian_polar_caps'),
-        // ad('martian_wastelands')
-    // ];
-    // MARS_BIOMES.forEach(id => event.add(ad('mars'), id));
-
-    // const VENUS_BIOMES = [
-        // ad('venus_wastelands'),
-        // ad('infernal_venus_barrens')
-    // ];
-    // VENUS_BIOMES.forEach(id => event.add(ad('venus'), id));
-
-    // event.add(ad('mercury'), ad('mercury_deltas'));
-
-    // const GLACIO_BIOMES = [
-        // ad('glacio_ice_peaks'),
-        // ad('glacio_snowy_barrens')
-    // ];
-    // GLACIO_BIOMES.forEach(id => event.add(ad('glacio'), id));
-// });
 
 ServerEvents.tags('item', event => {
     const COINS = [
@@ -461,112 +415,22 @@ ServerEvents.tags('item', event => {
         kj('clear_boots')
     ];
     CLEAR_ARMOR.forEach(id => event.add(kj('clear_armor'), id));
-
-/*     const COMMON_INGOT_TAG = [
-        mi('desh_ingot'),
-        mi('ostrum_ingot'),
-        mi('calorite_ingot'),
-        mi('aluminum_ingot'),
-        mi('annealed_copper_ingot'),
-        mi('antimony_ingot'),
-        mi('battery_alloy_ingot'), 
-        mi('beryllium_ingot'),
-        mi('blastproof_alloy_ingot'),
-        mi('bronze_ingot'),
-        mi('cadmium_ingot'),
-        mi('chromium_ingot'),
-        mi('cupronickel_ingot'),
-        mi('electrum_ingot'),
-        mi('he_mox_ingot'),
-        mi('he_uranium_ingot'),
-        mi('invar_ingot'),
-        mi('iridium_ingot'),
-        mi('kanthal_ingot'),
-        mi('le_mox_ingot'),
-        mi('le_uranium_ingot'),
-        mi('lead_ingot'),
-        mi('nickel_ingot'),
-        mi('platinum_ingot'),
-        mi('plutonium_ingot'),
-        mi('silicon_ingot'),
-        mi('silver_ingot'),
-        mi('stainless_steel_ingot'),
-        mi('steel_ingot'),
-        mi('superconductor_ingot'),
-        mi('tin_ingot'),
-        mi('titanium_ingot'),
-        mi('tungsten_ingot'),
-        mi('uranium_ingot'),
-        mi('uranium_235_ingot'),
-        mi('uranium_238_ingot')
-        // tr('advanced_alloy_ingot'),
-        // tr('brass_ingot'),
-        // tr('iridium_alloy_ingot'),
-        // tr('mixed_metal_ingot'),
-        // tr('refined_iron_ingot'),
-        // tr('tungstensteel_ingot'),
-        // tr('zinc_ingot'),
-        // sp('runeblazing_ingot'),
-        // sp('runegleaming_ingot'),
-        // sp('runefrosted_ingot')
-    ];
-    COMMON_INGOT_TAG.forEach(id => { event.add('c:ingots', id) } ); */
 })
 
     // -- ITEM TAGGING -- //
-
 ServerEvents.tags('item', event => {
-    
-/*     CUSTOMMATERIALS.forEach(CUSTOMMATERIALS => {
-        const customPlates = `modern_industrialization:${CUSTOMMATERIALS}_plate`
-        event.add('c:plates', customPlates)
-        event.add(`c:plates/${CUSTOMMATERIALS}`, customPlates)
 
-        const customGears = `modern_industrialization:${CUSTOMMATERIALS}_gear`
-        event.add('c:gears', customGears)
-        event.add(`c:gears/${CUSTOMMATERIALS}`, customGears)
+    // -- PREFERRED TOOL FOR GLASS-LIKE BLOCKS -- //
+    const GLASS_BLOCKS = Ingredient.of('#c:glass_blocks').getStacks().toArray();
+    const GLOWSTONE_BLOCKS = Ingredient.of('#chisel:chiseled_glowstone').or('minecraft:glowstone').getStacks().toArray();
+    GLASS_BLOCKS.forEach(block => {
+        event.add('minecraft:mineable/pickaxe', block.id)
+    })
+    GLOWSTONE_BLOCKS.forEach(block => {
+        event.add('minecraft:mineable/pickaxe', block.id)
+    })
 
-        const customRods = `modern_industrialization:${CUSTOMMATERIALS}_rod`
-        event.add('c:rods', customRods)
-        event.add(`c:rods/${CUSTOMMATERIALS}`, customRods)
-
-        const customTinyDusts = `modern_industrialization:${CUSTOMMATERIALS}_tiny_dusts`
-        event.add('c:tiny_dusts', customTinyDusts)
-        event.add(`c:tiny_dusts/${CUSTOMMATERIALS}`, customTinyDusts)
-        
-        const customDusts = `modern_industrialization:${CUSTOMMATERIALS}_dust`
-        event.add('c:dusts', customDusts)
-        event.add(`c:dusts/${CUSTOMMATERIALS}`, customDusts)
-        
-        const customIngots= `modern_industrialization:${CUSTOMMATERIALS}_ingot`
-        event.add('c:ingots', customIngots)
-        event.add(`c:ingots/${CUSTOMMATERIALS}`, customIngots)
-        
-        const customRings= `modern_industrialization:${CUSTOMMATERIALS}_ring`
-        event.add('c:rings', customRings)
-        event.add(`c:rings/${CUSTOMMATERIALS}`, customRings)
-        
-        const customCurvedPlates= `modern_industrialization:${CUSTOMMATERIALS}_curved_plate`
-        event.add('c:curved_plates', customCurvedPlates)
-        event.add(`c:curved_plates/${CUSTOMMATERIALS}`, customCurvedPlates)
-
-        const customBlades= `modern_industrialization:${CUSTOMMATERIALS}_blade`
-        event.add('c:blades', customBlades)
-        event.add(`c:blades/${CUSTOMMATERIALS}`, customBlades)
-        
-        const customLargePlates= `modern_industrialization:${CUSTOMMATERIALS}_large_plate`
-        event.add('c:large_plates', customLargePlates)
-        event.add(`c:large_plates/${CUSTOMMATERIALS}`, customLargePlates)
-        
-        const customWires= `modern_industrialization:${CUSTOMMATERIALS}_wire`
-        event.add('c:wires', customWires)
-        event.add(`c:wires/${CUSTOMMATERIALS}`, customWires)
-        
-        const customHotIngots= `modern_industrialization:${CUSTOMMATERIALS}_hot_ingot`
-        event.add('c:hot_ingots', customHotIngots)
-        event.add(`c:hot_ingots/${CUSTOMMATERIALS}`, customHotIngots)
-    }); */
-
+    // -- MI PARTS TAGGING -- //
     const MATERIALS = [
         'copper', 
         'iron', 
@@ -727,30 +591,6 @@ ServerEvents.tags('item', event => {
             event.add(specifictag, itemId);
         }
     });
-/* 
-    CUSTOMMATERIALS.forEach(material => {
-        const itemId = `modern_industrialization:raw_${material}`;
-        const tagCategory = 'raw_materials';
-        const generictag = `c:${tagCategory}`;
-        const specifictag = `c:${tagCategory}/${material}`;
-        
-        if (Item.exists(itemId)) {
-            event.add(generictag, itemId);
-            event.add(specifictag, itemId);
-        }
-    });
-
-    CUSTOMMATERIALS.forEach(material => {
-        const itemId = `modern_industrialization:deepslate_${material}_ore`;
-        const tagCategory = 'ores';
-        const generictag = `c:${tagCategory}`;
-        const specifictag = `c:${tagCategory}/${material}`;
-        
-        if (Item.exists(itemId)) {
-            event.add(generictag, itemId);
-            event.add(specifictag, itemId);
-        }
-    }); */
 
     CUSTOMMATERIALS.forEach(material => {
         allparts.forEach(part => {
@@ -765,4 +605,7 @@ ServerEvents.tags('item', event => {
             }
         });
     });
+
+    
 })
+
