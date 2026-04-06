@@ -39,19 +39,12 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [
-				{
-					id: "7EF2422AEF155FED"
-					item: { count: 1, id: "modern_industrialization:forge_hammer" }
-					type: "item"
-				}
-				{
-					id: "0F90752428944ECE"
-					item: { count: 1, id: "modern_industrialization:iron_hammer" }
-					type: "item"
-				}
-			]
-			x: 10.0d
+			tasks: [{
+				id: "7EF2422AEF155FED"
+				item: { count: 1, id: "modern_industrialization:forge_hammer" }
+				type: "item"
+			}]
+			x: 12.5d
 			y: 0.0d
 		}
 		{
@@ -117,7 +110,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["339F676C828C790D"]
+			dependencies: ["35CA2712BC60C09E"]
 			id: "0BD4ABE561F1F2F7"
 			rewards: [
 				{
@@ -140,17 +133,18 @@
 					type: "random"
 				}
 			]
-			size: 2.0d
+			shape: "rsquare"
+			size: 1.0d
 			tasks: [{
 				id: "1610BCD0D7539A2C"
 				item: { count: 1, id: "justhammers:iron_hammer" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 0.0d
+			x: 5.5d
+			y: -2.0d
 		}
 		{
-			dependencies: ["0BD4ABE561F1F2F7"]
+			dependencies: ["7A29CB04322D488B"]
 			id: "4679B4825F85EBB5"
 			rewards: [
 				{
@@ -179,7 +173,7 @@
 				item: { count: 1, id: "modern_industrialization:iron_large_plate" }
 				type: "item"
 			}]
-			x: 7.5d
+			x: 10.0d
 			y: 0.0d
 		}
 		{
@@ -482,6 +476,7 @@
 					type: "random"
 				}
 			]
+			shape: "rsquare"
 			tasks: [{
 				id: "0220401C9E22DC6F"
 				item: { count: 1, id: "bankstorage:bank_1" }
@@ -491,7 +486,10 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["48D186B5AAECDD4E"]
+			dependencies: [
+				"48D186B5AAECDD4E"
+				"35CA2712BC60C09E"
+			]
 			id: "7CB40077EB4E575B"
 			rewards: [
 				{
@@ -514,13 +512,14 @@
 					type: "random"
 				}
 			]
+			shape: "rsquare"
 			tasks: [{
 				id: "406C2ED09CA8B2D6"
 				item: { count: 1, id: "bankstorage:bank_dock" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: -3.5d
+			x: 4.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1BD496A10E957F25"]
@@ -560,7 +559,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["339F676C828C790D"]
+			dependencies: ["35CA2712BC60C09E"]
 			id: "568452070C18EBE2"
 			rewards: [
 				{
@@ -583,12 +582,13 @@
 					type: "random"
 				}
 			]
+			shape: "rsquare"
 			tasks: [{
 				id: "4CA3D3B005F97D5E"
 				item: { count: 1, id: "tankstorage:tank_1" }
 				type: "item"
 			}]
-			x: 2.5d
+			x: 5.0d
 			y: 2.0d
 		}
 		{
@@ -615,13 +615,74 @@
 					type: "loot"
 				}
 			]
+			shape: "rsquare"
 			tasks: [{
 				id: "1414E786929629EE"
 				item: { count: 1, id: "tankstorage:tank_dock" }
 				type: "item"
 			}]
-			x: 2.5d
+			x: 5.0d
 			y: 3.5d
+		}
+		{
+			dependencies: ["35CA2712BC60C09E"]
+			id: "7A29CB04322D488B"
+			rewards: [
+				{
+					id: "2EA305A99CB5064F"
+					item: {
+						count: 1
+						id: "kubejs:coin_common"
+					}
+					type: "item"
+				}
+				{
+					id: "270D01CBD642E261"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "30CFD5EE3F7D91D8"
+					table_id: 2474147679282294712L
+					type: "random"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "306669829F033913"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(modern_industrialization:forge_hammer_tools)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["339F676C828C790D"]
+			id: "35CA2712BC60C09E"
+			size: 2.0d
+			tasks: [
+				{
+					count: 8L
+					id: "10E39D3C597D08A7"
+					item: { count: 1, id: "minecraft:raw_iron" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "0F68EC5F0446C1E5"
+					item: { count: 1, id: "modern_industrialization:raw_tin" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "2279823CE6ED8B62"
+					item: { count: 1, id: "minecraft:raw_copper" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 0.0d
 		}
 	]
 }

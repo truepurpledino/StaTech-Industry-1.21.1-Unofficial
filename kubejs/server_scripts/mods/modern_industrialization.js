@@ -40,6 +40,12 @@ ServerEvents.recipes(event => {
     ];
     MI_DELETED_ITEMS.forEach(id => event.remove( {id: id} ));
 
+    event.shapeless(mi('iron_plate'), [
+        '4x ' + mc('iron_ingot'), '#' + mi('forge_hammer_tools') 
+    ])
+    .damageIngredient('#' + mi('forge_hammer_tools'), 50)
+    .id(mi('iron_plate_from_hammer'));
+
     // -- FIRE CLAY DUST -- //
     event.shaped('3x ' + mi('fire_clay_dust'), [
         'BC ',

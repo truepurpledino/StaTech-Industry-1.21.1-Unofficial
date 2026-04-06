@@ -523,11 +523,7 @@
 	quest.0B97D95040E7FAE1.quest_subtitle: "An early game best friend"
 	quest.0BA1E859ADB89FB2.quest_desc: ["It's kind of on the tin. &aThe Ring of Denser Steps&r makes you walk heavier, similar to when you're overloaded with &cStratine&r."]
 	quest.0BC17503972F9151.quest_desc: ["The &bEncased Chain Drive&r can be used to transfer the same rotation direction down a straight line. "]
-	quest.0BD4ABE561F1F2F7.quest_desc: [
-		"&aHammers&r from the &9Just Hammers&r mod aren't a great tool for properly forming &bplates and other factory materials&r, but they are a great tool for &csmashing things&r! "
-		""
-		"The &aIron Hammer&r from &9Just Hammers&r has the ability to aid you in the &cprimitive plates&r in the next quest."
-	]
+	quest.0BD4ABE561F1F2F7.quest_desc: ["&aHammers&r from the &9Just Hammers&r mod aren't a great tool for properly forming &bplates and other factory materials&r, but they are a great tool for &csmashing things&r! "]
 	quest.0BD4ABE561F1F2F7.title: "Smashing!"
 	quest.0BED1964F760756C.quest_desc: [
 		"&bFluix ME Glass Cables&r are the simplest cable to make, transfers power and up to &d16 channels&r. It comes in 17 different colors, the default being Fluix, and can be dyed any color using any of the 16 dyes."
@@ -2487,6 +2483,9 @@
 		""
 		"The &eGolden Lasso&f can only hold passive animals."
 	]
+	quest.35CA2712BC60C09E.quest_desc: ["&cCopper&r and &bIron&r are basic vanilla materials that you should be familiar with, but as you will soon find &6Tin&r is very important for establishing your first machines."]
+	quest.35CA2712BC60C09E.quest_subtitle: "They're Minerals Marie!"
+	quest.35CA2712BC60C09E.title: "First Ores"
 	quest.35F8044D376C6428.quest_desc: [
 		"With your &aAdvanced Machine Casings&r, you can now create &bAdvanced Machine Hulls&r. These will be useful to access more advanced machines, as well as an essential part of the &eElectric Quarry&r and &6Oil Rig&r."
 		""
@@ -3229,7 +3228,11 @@
 		"I'd recommend focusing on &3Polyethylene&r and &cSulfuric Acid&r production for now."
 	]
 	quest.460D8C9E5BF1E1BE.title: "Petrochemistry"
-	quest.4679B4825F85EBB5.quest_desc: ["You're going to struggle to properly form metals into the shapes you need to begin your factory. You'll need a &aproper workstation&r to achieve this goal. Using a &ehammer&r on an &biron block&r will form a &aLarge Iron Plate&r, which is flat enough to be the top of your &6Forge Hammer&r. "]
+	quest.4679B4825F85EBB5.quest_desc: [
+		"You're going to struggle to properly form metals into the shapes you need to begin your factory. You'll need a &aproper workstation&r to achieve this goal. Using a &ehammer&r on four &biron ingots&r you will be able to form your first &aIron Plate&r. With these you can combine them together to make &3Large Iron Plates&r. These will form the top of your &eForge Hammer&r."
+		""
+		"These &aplates&r are &cexpensive to do by hand&r, but the ratio gets much better in the &eForge Hammer&r!"
+	]
 	quest.46B810CC193254EA.quest_desc: [
 		"So when channels become a nuisance, you can turn to &bME P2P Tunnels&r. When configured for ME, they allow you to move channels from point to point. This allows you to move up to 64 channels per pair of &bME P2P Tunnel&r."
 		""
@@ -4022,6 +4025,7 @@
 		""
 		"There's a lot of mechanics related to &dtrains&r, and I suggest checking the &ePonder&r scenes for all these items if you need to learn everything about &dtrains&r."
 	]
+	quest.568452070C18EBE2.quest_desc: ["Similar to the &mDanks&r &aBanks&r as before, the &aTanks&r can hold a lot of fluids. This basic tier can hold &612,000 mB&r spread across &d3 slots&r."]
 	quest.569821B175311340.quest_desc: ["Combining 3x &aNeodymium&b, 3x &cAnnealed Copper&r, 3x &bYttrium&r, and 1x &dIridium Dust&r you can mix together &bSuperconductor Dust&r. This is an important endgame crafting material. To get the ingot form, you'll need to smelt it in a &bTungstensteel EBF&r and then cool it in a &evacuum freezer&r."]
 	quest.56A30502A268BB60.quest_desc: [
 		"Before you can make a &eNuclear Reactor&r, you will need &bNuclear Alloy Plates&r. These are made with Blastproof, Beryllium, and Cadmium Ingots. "
@@ -5341,11 +5345,11 @@
 	quest.74BDD184DC723F51.quest_desc: ["&aStainless Steel&r opens up the ability to create &bAdvanced Components&r. These will be needed for HV and EV tier crafting."]
 	quest.74C1D42994FAB98C.quest_desc: ["Putting &eGold Drills&r in the &aElectric Quarry will&r output &cNether&r related items. This is a great way to get a recurring amount of &2Glowstone&r, &3Netherite&r, and &eQuartz&r."]
 	quest.74C1F78B349FC947.quest_desc: [
-		"To get started in your industrial journey, you'll need a &aForge Hammer&r and a &eHammer&r from &6Modern Industrialization&r. &eHammers&r from any other mod will &cNOT WORK&r in the &aForge Hammer&r!"
-		""
 		"The &aForge Hammer&r is used to craft essential materials, it also allows you to &3duplicate your ores&r! Check &dEMI&r for everything you can do with it. &cNote that some ores do not work in it&r, and will require a &2Macerator&r to properly crush!"
 		""
 		"With these crafted, you have &acompleted the first chapter&r! In the next chapter, you will be moving towards making your own &6Bronze Machines&r!"
+		""
+		"&c&lRemember!&r &eHammers&r from any other mod will &cNOT WORK&r in the &aForge Hammer&r!"
 	]
 	quest.74C1F78B349FC947.quest_subtitle: "Birthplace of Industry"
 	quest.74C1F78B349FC947.title: "Tools of the Trade"
@@ -5400,6 +5404,7 @@
 	quest.76ADD252E63AE7F6.quest_desc: ["Now with your &9Dike powered equipment&r, you can tackle the &9Dike ruins&r. These are structures found in the deepslate layer that are surrounded by &ePreservation Stone&r with a &9Dike Gate&r."]
 	quest.76ADD252E63AE7F6.title: "Azure Dike Ruins"
 	quest.76BD64AFCE37E528.quest_desc: ["Luckily one boule is able to produce a significant amount of wafers. These will be important for &dProcessing Unit&r components."]
+	quest.76D4C6F0EFD1849A.quest_desc: ["Again, similarly to the &aBank Docks&r, the &bTank Dock&r allows you to place your &aTank&r in the world."]
 	quest.76D9C0C5A1025CC2.quest_desc: ["&eElectrolyzing&r 1000 mB of &aChromium Hydrochloric Solution&r will produce three &bTiny Chromium Dust&r, 450 mB of &9Hydrogen&r, and 450 mB of &2Chlorine&r. This means that there is a 100 mB loss of &aHydrochloric Acid&r for each process. Automating Salt Ore production through the Quarry is going to be essential."]
 	quest.76DD52A1B64C760A.quest_desc: [
 		"This is the &cfireproof version&r of the regular &3diving suit&r. With this (as long as you have &6pressure in the backtank&r) you can take a dip into &ddeep lava pools without dying&r. "
@@ -5561,6 +5566,13 @@
 	quest.7A0E6729E0460E62.quest_subtitle: "Fly me to the moon"
 	quest.7A1A04BBB9727F1A.quest_desc: ["This is the &eModern Dynamics&r version of the &aHV-tier Cables&r."]
 	quest.7A28C8307C136F5B.quest_desc: ["You can compress those Blastproof Mixed Ingots until you obtain enough for the Implosion compressor."]
+	quest.7A29CB04322D488B.quest_desc: [
+		"Now that you have some basic materials, it's time to make your first &aHammer&r. These are used in the &eForge Hammer&r to make your &2basic components&r and &6dusts&r. "
+		""
+		"Make sure you are making the hammers from &dModern Industrialization&r! Only these will work in the &eForge Hammer&r."
+	]
+	quest.7A29CB04322D488B.quest_subtitle: "HAMMAH DOWN"
+	quest.7A29CB04322D488B.title: "Your First Hammer"
 	quest.7A4F605834E3AE7B.quest_desc: [
 		"The following quests are all the useful fluids / gases you can make from distilling &3Steam-Cracked Fuels&r / &eNaphtha&r. "
 		""
@@ -5961,6 +5973,7 @@
 	task.2F68B6A8F5B091CC.title: "Any Sharestone"
 	task.2FF45D67758DA810.title: "NYI"
 	task.304C1B2C9138E963.title: "NYI"
+	task.306669829F033913.title: "Any Modern Industrialization Hammer"
 	task.30914428CE1F71CA.title: "NYI"
 	task.3138E0798EBA517D.title: "8x Gemstone Lights"
 	task.313A236768D509A5.title: "Any Item Output Hatch"
