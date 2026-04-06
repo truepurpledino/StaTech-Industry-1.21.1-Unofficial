@@ -417,8 +417,8 @@ ServerEvents.tags('item', event => {
     CLEAR_ARMOR.forEach(id => event.add(kj('clear_armor'), id));
 })
 
-    // -- ITEM TAGGING -- //
-ServerEvents.tags('item', event => {
+    // -- BLOCK TAGGING -- //
+ServerEvents.tags('block', event => {
 
     // -- PREFERRED TOOL FOR GLASS-LIKE BLOCKS -- //
     const GLASS_BLOCKS = Ingredient.of('#c:glass_blocks').getStacks().toArray();
@@ -429,6 +429,12 @@ ServerEvents.tags('item', event => {
     GLOWSTONE_BLOCKS.forEach(block => {
         event.add('minecraft:mineable/pickaxe', block.id)
     })
+
+});
+
+
+    // -- ITEM TAGGING -- //
+ServerEvents.tags('item', event => {
 
     // -- MI PARTS TAGGING -- //
     const MATERIALS = [
