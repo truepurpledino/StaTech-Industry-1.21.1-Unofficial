@@ -11,6 +11,7 @@ ServerEvents.tags('item', event => {
     chisel.forEach(item => {
         var blocks = item.id.split('/')[1];
         event.add(`chisel:chiseled_${blocks}`, `${item.id}`)
+        event.add(`chisel:chiseled_${blocks}`, `minecraft:${blocks}`)
     })
 
     factory.forEach(item => {
