@@ -68,13 +68,14 @@ ServerEvents.recipes(event => {
     );
 
     // -- PIZZA -- //
-    // blastFurnace(
-        // st('pizza'),
-        // 2,
-        // 600,
-        // [ { amount: 1, item: kj('uncooked_pizza') } ],
-        // [ { amount: 1, item: kj('pizza') } ]
-    // );
+    blastFurnace(
+        event,
+        st('pizza'),
+        2,
+        600,
+        [ { amount: 1, item: kj('uncooked_pizza') } ],
+        [ { amount: 1, item: kj('pizza') } ]
+    );
 
     // -- UNCOOKED STEEL DUST -> STEEL INGOT -- //
     blastFurnace(

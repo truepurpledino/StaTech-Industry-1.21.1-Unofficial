@@ -29,13 +29,14 @@ ServerEvents.recipes(event => {
     // );
     
     // -- PIZZA DOUGH -- //
-    // compressor(
-        // st('pizza_dough'),
-        // 2,
-        // 200,
-        // [ { amount: 1, tag: 'c:dough' } ],
-        // [ { amount: 1, item: kj('pizza_dough') } ]
-    // );
+    compressor(
+        event,
+        st('pizza_dough'),
+        2,
+        200,
+        [ { amount: 1, tag: 'c:doughs' } ],
+        [ { amount: 1, item: kj('pizza_dough') } ]
+    );
 
     // -- DIAMOND PLATE -- //
     compressor(

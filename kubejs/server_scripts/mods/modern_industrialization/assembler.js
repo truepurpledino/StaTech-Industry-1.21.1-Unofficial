@@ -549,17 +549,18 @@ ServerEvents.recipes(event => {
     );
 
     // -- MISSING TEXTURE COOKIE -- //
-    // assembler(
-        // st('missing_texture_cookie'),
-        // 8,
-        // 200,
-        // [
-            // { amount: 1, item: mi('plutonium_dust') },
-            // { amount: 1, item: mc('cocoa_beans') }
-        // ],
-        // [ { amount: 3, item: kj('missing_texture_cookie') } ],
-        // [ { amount: 100, fluid: mi('crude_oil') } ],
-	// );
+    assembler(
+        event,
+        st('missing_texture_cookie'),
+        8,
+        200,
+        [
+            { amount: 1, item: mi('plutonium_dust') },
+            { amount: 1, item: mc('cocoa_beans') }
+        ],
+        [ { amount: 3, item: kj('missing_texture_cookie') } ],
+        [ { amount: 100, fluid: mi('crude_oil') } ],
+	);
 
     // -- BOSS CRUSHER -- //
     assembler(
@@ -935,19 +936,20 @@ ServerEvents.recipes(event => {
     );
 
     // -- UNCOOKED PIZZA -- //
-    // assembler(
-        // st('uncooked_pizza'),
-        // 8,
-        // 200,
-        // [
-            // { amount: 1, item: kj('pizza_dough') },
-            // { amount: 1, item: fd('tomato_sauce') },
-            // { amount: 1, item: fd('onion') },
-            // { amount: 1, item: ad('cheese') },
-            // { amount: 1, item: fd('minced_beef') }
-        // ],
-        // [ { amount: 1, item: kj('uncooked_pizza') } ]
-    // );
+    assembler(
+        event,
+        st('uncooked_pizza'),
+        8,
+        200,
+        [
+            { amount: 1, item: kj('pizza_dough') },
+            { amount: 1, item: fd('tomato_sauce') },
+            { amount: 1, item: fd('onion') },
+            { amount: 1, item: ed('cheese_slice') },
+            { amount: 1, item: fd('minced_beef') }
+        ],
+        [ { amount: 1, item: kj('uncooked_pizza') } ]
+    );
 
     // -- OP AMP -- //
     assembler(
