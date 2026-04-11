@@ -99,4 +99,19 @@ ServerEvents.recipes(event => {
     })
     .id(st('oversized_electrolysis_chamber'));
 
+        // -- GRAND MASS CENTRIFUGE -- //
+    event.shaped(mt('grand_mass_centrifuge'), [
+        'MPM',
+        'TCT',
+        'MUM'
+    ],
+    {
+        P: mi('large_advanced_pump'),
+        M: mi('large_advanced_motor'),
+        U: mi('processing_unit'),
+        C: mi('centrifuge'),
+        T: mi('tungstensteel_cable')
+    })
+    .id(st('grand_mass_centrifuge'));
+
 });
