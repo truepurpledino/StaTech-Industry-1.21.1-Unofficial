@@ -493,6 +493,7 @@
 	]
 	quest.0AC4D9039788F1C6.title: "Fluid Pipe Speed"
 	quest.0ACA2C24CCB8A11E.quest_desc: ["The chunks of &aBedrock&r are so sturdy, that a normal &eCrafting Table&r can't handle them. But your &dPigment Pedestal&r handles it no problem. These seem so sturdy, that &bnot even a Wither or Dragon would be able to break them&r."]
+	quest.0ACCCC58AB7786A5.quest_desc: ["Twice as fast as a &aCompressor&r!"]
 	quest.0AD5A07A7E0C38D2.title: "Miscellaneous"
 	quest.0AF1648BAD9A6BC2.quest_desc: [
 		"&bTrain Signals&r can be used to ensure that your automatic &dtrains&r do not cross sections of track occupied by another &dtrain&r."
@@ -1111,7 +1112,7 @@
 	quest.181F0CD6428732B2.quest_desc: ["With &cCopper Plates&r, you can upgrade your normal chests or barrels to &ehold more items&r. This one can store up to &236 stacks of items&r."]
 	quest.183ED29E27120099.quest_desc: ["The &aBig Torch&f is a block that cancels any mob spawning that requires no light in a configurable area. It's useful to protect your base and to clean caves and dungeons."]
 	quest.186B17ECD172A61D.quest_desc: [
-		"The &aDiesel Generator&r can burn various kinds of fuel to generate EU. You can check &dREI&r for how much EU each fuel produces. The &aDiesel Generator&r will produce up to 256 EU/t and will only connect to MV cables."
+		"The &aDiesel Generator&r can burn various kinds of fuel to generate EU. You can check &dEMI&r for how much EU each fuel produces. The &aDiesel Generator&r will produce up to 256 EU/t and will only connect to MV cables."
 		""
 		"&aDiesel Generators&r will only use fuel when they need to, but if you need a constant supply of energy, you can put liquid fuels in the &bLarge Steam Boiler&r instead of items. A fully heated &bLarge Steam Boiler&r will roughly produce twice the amount of energy a &aDiesel Generator&r would produce using the same quantity of fuel."
 	]
@@ -1674,6 +1675,11 @@
 		"Making it is up to you."
 	]
 	quest.239E90A6EAC47789.quest_desc: ["A component in &aStyrene-Butadiene&r."]
+	quest.23B7A8819520FB36.quest_desc: [
+		"You can configure input and output tiers by inserting the corresponding &eMachine Hull&r. Both tiers are &eLV&r by default."
+		""
+		"It also supports the &eRedstone Control Module&r."
+	]
 	quest.23D9328B5F627E65.quest_desc: ["Getting to the &eQuantum Circuits&r in their own is an accomplishment. These are used for all the end game MI machines and materials."]
 	quest.23D9328B5F627E65.quest_subtitle: "The Final Circuit"
 	quest.24027FEAD3837B46.quest_desc: ["The &bLinked Controller&r can be used to remotely activate &aRedstone Links&r by pressing a bound button."]
@@ -1839,7 +1845,7 @@
 		""
 		"&cBeware&r: The &5Ender Dropper&r only works as long as you are online. And who is stopping anyone from placing a button next to it and emptying your &dEnder Chest&r?"
 	]
-	quest.2763B0A63FC17046.quest_desc: [""]
+	quest.2763B0A63FC17046.quest_desc: ["To change the tier of the &aTesla Coil&r, you need to insert the corresponding &eMachine Hull&r into it."]
 	quest.2763B0A63FC17046.quest_subtitle: "Wireless Power?"
 	quest.278BE1D13FE8E78E.quest_desc: ["The &aElectric Unpacker&r is the electrical version of the &6Steam Unpacker&r. It doesn't open up any new recipes, but it will process recipes &dmuch faster&r than its &7Steam&r counterpart."]
 	quest.279FF920B3CA44FF.quest_desc: [
@@ -3968,6 +3974,7 @@
 		"If you're having trouble forming the multiblock, hold W on the &aLarge Steam Furnace&r in your inventory to view the &bPonder&r scene for the multiblock, additionally you can hold the &eWrench&r to see the missing blocks and the errors. You can also hold a hatch to know where it can go."
 	]
 	quest.53AEA0E74CE842B5.quest_desc: ["The &bTungstensteel Upgrade&r can allow Drawers' storage to be multiplied by 5, allowing them to hold a maximum of &61280000 items&r when fully upgraded."]
+	quest.53AEBDE8C4CA1429.quest_desc: ["To change the tier of the &aTesla Receiver&r, you need to insert the corresponding &eMachine Hull&r into it."]
 	quest.53AEBDE8C4CA1429.quest_subtitle: "Wireless Power."
 	quest.53BA308E50B5070C.quest_desc: [
 		"The &bNanosaber&r is an upgraded, electric powered sword that features a powered mode that can &ddeal insane damage&r at a fast rate."
@@ -4411,7 +4418,7 @@
 		""
 		"Additionally, they can be &ecentrifuged&r to produce &eHelium-3&r, an important gas when you get to the &dFusion Reactor&r."
 	]
-	quest.5B6A20BD4C70BA52.quest_desc: ["The &aLaser Engraver&r is a fancy &enew machine&r part of &31.1.0&r. It's main purpose is the creation of &2Printed AE2 Circuits&r. It can also be used to create &dMob Models&r for use in the &bMob Crusher&r."]
+	quest.5B6A20BD4C70BA52.quest_desc: ["The &aLaser Engraver's&r main purpose is the creation of &2Printed AE2 Circuits&r. It can also be used to create &dMob Models&r for use in the &bMob Crusher&r."]
 	quest.5B9A86DA10D7F745.quest_desc: ["The &bRedstone Contact&r can be used to send a &credstone signal&r when another &bRedstone Contact&r comes in contact with the other. This also applies when one of them is a part of the &dcontraption&r."]
 	quest.5BA4E91BBA9B38F4.quest_desc: ["If you already have an &aAdvanced Storage Unit&r, you can create this &bAdvanced Storage Upgrader&r to upgrade your existing storage units without having to break them."]
 	quest.5BD16A1E86BEFC61.quest_desc: ["&aSweet Roll&r but &eFarmer's Delight&r mod"]
@@ -4615,6 +4622,7 @@
 		"The &bPigment Pedestal&r can be built with your &dgemstone&r of choice. While they do look different they are the same functionally. For now you have the &athree variants&r based on the &athree gemstones&r you just collected."
 	]
 	quest.606F2C8434685272.title: "Pedestal and Paintbrush"
+	quest.6089F923A4342604.quest_subtitle: "Top Tier Tesla Tower"
 	quest.60B30C4A8471450A.quest_desc: ["The &bDiamond Chest&r is a long awaited upgrade to your storage chests. It allows you to store &e72 stacks of items&r."]
 	quest.60B30C4A8471450A.quest_subtitle: "A long awaited storage upgrade"
 	quest.60B30C4A8471450A.title: "Diamond Chest"
@@ -4933,9 +4941,15 @@
 	]
 	quest.680FAEB2C903AF57.title: "Finishing Your Palace"
 	quest.682E5B8C67942AF8.quest_desc: [
-		"As an alternative to &7Steam&r power, you can also create a &aSolar Panel&r. Generally, solar is going to be weaker than other power sources, so if you'd actually like to use it, you will need to have to use a lot of solar panels and infrastructure to support feeding them."
+		"As an alternative to &7Steam&r power, you can also create a &aSolar Panel&r. Generally, solar is going to be weaker than other power sources. If you want to use them as a significant source of energy, it is better &eto build a lot&r of them."
 		""
-		"The &aLV Solar Panel&r will produce 16 EU/t during the day and 0 EU/t during the night. If you'd like to have power in the night, you'll need to use a &bStorage Unit&r as a power buffer. You need to feed it &bLV Photovoltaic Cells&r, which have a limited lifetime! You'll need to automate those if you want them to run continually."
+		"The &aLV Solar Panel&r will produce &e16 EU/t&r during the day and &e0 EU/t&r during the night. If you'd like to have power in the night, you'll need to use a &bStorage Unit&r as a power buffer."
+		""
+		"Each &aSolar Panel&r required &bPhotovoltaic Cells&r (limited lifetime) of corresponding tier! You'll should to automate those if you want them to run continually."
+		""
+		"Also, you can use &9Distilled Water&r (&e1Mb/t&r) to increase life time of &bPhotovoltaic Cells&r."
+		""
+		"&aSolar Panel's&r don't work in rain."
 	]
 	quest.68495E367D3D34FE.quest_desc: [
 		"With a little bit of mining, you might have found some &aCoal&r and &eLignite Coal&r, which can be used to make the very first Bank."
@@ -5661,17 +5675,17 @@
 		"&aDiesel Generators&r will only use fuel when they need to, but if you need a constant supply of energy, you can put liquid fuels in the &bLarge Steam Boiler&r instead of items. A fully heated &bLarge Steam Boiler&r will roughly produce twice the amount of energy a &aDiesel Generator&r would produce using the same quantity of fuel."
 	]
 	quest.7923688DB9B9FDA3.quest_desc: [
-		"The &eTesla Tower&r allows energy to be transmitted over distances(depends on tier) without wires. However, as with any form of energy transmission, there are losses. The higher the transmitted energy rate, the greater the losses."
+		"The &aTesla Tower&r allows energy to be transmitted over distances(depends on tier) &bwithout cables&r. However, as with any form of energy transmission, &4there are losses&r. A &6higher energy&r rate has &4greater losses&r."
 		""
-		"To adjust the transmitted energy rate(HV, MV, etc), you need to use &eTesla Winding&r and the corresponding &eEnergy Input Hatches&r. The rate of all hatches must be the same."
+		"To adjust the transmitted energy rate(&dMV&r, &dHV&r, etc) and range, you need to use &eTesla Winding&r and the corresponding &2Energy Input Hatches&r. The rate of all hatches must be the &4same&r."
 		""
-		"The receiving device can be &eTesla Receiver&r or &eTesla Receiver Energy Input Hatch&r. The tier of &eTesla Winding&r must match the tier of the receivers. To change the tier of the &eTesla Receiver&r, you need to insert the corresponding &eMachine Hull&r into it."
+		"The receiving device can be &aTesla Receiver&r or &eTesla Receiver Energy Input Hatch&r. The tier of &eTesla Winding&r must match the tier of the receivers."
 		""
-		"The &eTesla Calibrator&r helps establish a connection between the &eTesla Tower&r and the &eTesla Receiver&r."
+		"The &9Tesla Calibrator&r helps establish a connection between the &aTesla Tower&r and the &aTesla Receiver&r."
 		""
-		"You can use the side panel in the &eTesla Tower&r UI to change the color of the lightning bolts."
+		"You can use the side panel in the &dTesla Tower UI&r to change the color of the lightning bolts."
 		""
-		"A &eTesla Handled Receiver&r can charge items in your inventory."
+		"A &9Tesla Handled Receiver&r can charge items in your inventory, while you are within range of the &aTesla Tower&r."
 	]
 	quest.7923688DB9B9FDA3.quest_subtitle: "Massive wireless power transmission."
 	quest.7937A68567C5A83E.quest_desc: ["The &aCirclet of Arrogance&r gives you the &4Ascension&r buff in wearable form. If your mere existence wasn't in danger every time you get hit too hard, you would not hesitate for a second to put it on. &o&bBut should you really...&r&r? &c&lOf course&r&r."]
@@ -6310,6 +6324,7 @@
 	task.60CD2056096646A8.title: "NYI"
 	task.60D5ED6299C650F2.title: "NYI"
 	task.60F319306DFC6303.title: "Any Energy Input Hatch"
+	task.612027AC4A4A11C0.title: "Any Item Input Hatch"
 	task.61472E61A4C3C115.title: "Any Gemstone Chime"
 	task.614939D6695E0BF0.title: "NYI"
 	task.615F3F51A2F3B534.title: "Any Staff"

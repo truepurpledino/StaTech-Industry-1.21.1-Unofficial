@@ -10,9 +10,7 @@ ServerEvents.recipes(event => {
     // -- AE2 REMOVED RECIPES -- //
     const REMOVED_RECIPES = [
         ae('network/blocks/inscribers'),
-        ae('transform/fluix_crystals'),
         ae('transform/fluix_crystal'),
-        ae('transform/certus_quartz_crystals'),
         ae('network/blocks/controller'),
         ae('network/blocks/crystal_processing_charger'),
         ae('network/blocks/energy_vibration_chamber'),
