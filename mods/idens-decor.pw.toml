@@ -1,13 +1,13 @@
 name = "Iden's Decor"
-filename = "iden_decor-neoforge-1.21.1-2.2.2.jar"
+filename = "iden_decor-neoforge-1.21.1-2.2.4.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "3c90250fc894904bb53dd178fe6e9ccedf54e4d6"
+hash = "f4ca6a0f0e0878f2e3647a805f9eaae641bf03f2"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7819575
+file-id = 7886031
 project-id = 1451671

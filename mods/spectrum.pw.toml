@@ -1,13 +1,13 @@
 name = "Spectrum"
-filename = "spectrum-1.11.2-1.21.1-neo.jar"
+filename = "spectrum-1.11.5-1.21.1-neo.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "5eb573e4b099277d3aacc892dcbe8a5e1d550197"
+hash = "c9161b4c209a44eff8746fde8a6617b4dedc6d49"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7828489
+file-id = 7868247
 project-id = 556967
