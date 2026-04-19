@@ -825,6 +825,22 @@ ServerEvents.recipes(event => {
         [ { amount: 1, item: mt('oversized_electrolysis_chamber') } ]
     );
 
+     // -- GRAND MASS CENTRIFUGE -- //
+    assembler(
+        event,
+        st('grand_mass_centrifuge'),
+        8,
+        200,
+        [ 
+            { amount: 2, item: mi('tungstensteel_cable') },
+            { amount: 4, item: mi('large_advanced_motor') },
+            { amount: 1, item: mi('large_advanced_pump') },
+            { amount: 1, item: mi('centrifuge') },
+            { amount: 1, item: mi('processing_unit') }
+        ],
+        [ { amount: 1, item: mt('grand_mass_centrifuge') } ]
+    );
+
     // -- MEGA SMELTER -- //
     // assembler(
         // st('mega_smelter'),
