@@ -9,9 +9,23 @@ ServerEvents.recipes(event => {
 
     // -- SIMPLE MAGNETS REMOVED REICPES -- //
     const SIMPLEMAGNETS_REMOVED_RECIPES = [
-        sm('advancedmagnet')
+        sm('advancedmagnet'),
+        sm('basicmagnet')
     ];
     SIMPLEMAGNETS_REMOVED_RECIPES.forEach(id => event.remove( {id: id} ));
+    
+    // -- BASIC MAGNET -- //
+    event.shaped(sm('basicmagnet'), [
+        'IIL',
+        'I  ',
+        'IIR'
+    ],
+    {
+        I: mi('iron_plate'),
+        R: mc('redstone_block'),
+        L: mc('lapis_block')
+    })
+    .id(st('basicmagnet'));
     
     // -- ADVANCED MAGNET -- //
     event.shaped(sm('advancedmagnet'), [
@@ -20,7 +34,7 @@ ServerEvents.recipes(event => {
         'SSR'
     ],
     {
-        S: mi('steel_ingot'),
+        S: mi('steel_plate'),
         R: mc('redstone_block'),
         L: mc('lapis_block'),
         E: sm('basicmagnet')

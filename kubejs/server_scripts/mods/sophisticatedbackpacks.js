@@ -24,6 +24,20 @@ ServerEvents.recipes(event => {
     ];
     SOPH_DELETED.forEach(id => event.remove({ id: id })); 
 
+    // REPLACE ENDER PEARL WITH TRASH CAN //
+    event.replaceInput(
+        { output: sb('void_upgrade') },
+        'minecraft:ender_pearl', 
+        mi('trash_can')         
+    );
+
+    // REPLACE IRON INGOT WITH IRON PLATE //
+    event.replaceInput(
+        { input: sb('upgrade_base') },
+        'minecraft:iron_ingot', 
+        mi('iron_plate')         
+    );
+
     // -- UPGRADE BASE -- //
     event.shaped(sb('upgrade_base'), [
         'SIS',

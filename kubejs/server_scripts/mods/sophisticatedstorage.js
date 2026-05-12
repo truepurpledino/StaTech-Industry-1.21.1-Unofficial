@@ -18,12 +18,8 @@ ServerEvents.recipes(event => {
         ss('storage_advanced_compacting_upgrade_from_backpack_advanced_compacting_upgrade'),
         ss('backpack_advanced_compacting_upgrade_from_storage_advanced_compacting_upgrade'),
         ss('magnet_upgrade'),
-        ss('storage_magnet_upgrade_from_backpack_magnet_upgrade'),
-        ss('backpack_magnet_upgrade_from_storage_magnet_upgrade'),
         ss('advanced_magnet_upgrade_from_basic'),
         ss('advanced_magnet_upgrade'),
-        ss('storage_advanced_magnet_upgrade_from_backpack_advanced_magnet_upgrade'),
-        ss('backpack_advanced_magnet_upgrade_from_storage_advanced_magnet_upgrade'),
         ss('pump_upgrade'),
         ss('xp_pump_upgrade'),
         ss('advanced_pump_upgrade'),
@@ -31,6 +27,41 @@ ServerEvents.recipes(event => {
     ];
     SOPH_DELETED.forEach(id => event.remove({ id: id })); 
 
+    // REPLACE ENDER PEARL WITH TRASH CAN //
+    event.replaceInput(
+        { output: ss('void_upgrade') },
+        'minecraft:ender_pearl', 
+        mi('trash_can')         
+    );
+
+    // REPLACE IRON INGOT WITH IRON PLATE //
+    event.replaceInput(
+        { input: ss('upgrade_base') },
+        'minecraft:iron_ingot', 
+        mi('iron_plate')         
+    );
+
+    // -- MAGNET UPGRADE -- //
+    event.shaped(ss('magnet_upgrade'), [
+        'D',
+        'M'
+    ],
+    {
+        D: ss('pickup_upgrade'),
+        M: sm('basicmagnet')
+    })
+    .id(st('magnet_upgrade')); 
+
+    // -- ADVANCED MAGNET UPGRADE -- //
+    event.shaped(ss('advanced_magnet_upgrade'), [
+        'D',
+        'M'
+    ],
+    {
+        D: ss('magnet_upgrade'),
+        M: sm('advancedmagnet')
+    })
+    .id(st('advanced_magnet_upgrade')); 
 
     // Adapted from Monifactory scripts, see https://github.com/ThePansmith/Monifactory/blob/main/kubejs/server_scripts/mods/Sophisticated_Storagevent.js
 

@@ -1283,6 +1283,29 @@ ServerEvents.recipes(event => {
         [ { amount: 50, fluid: mi('molten_redstone') } ]
     );
 
+    // -- FACTORY BLOCK -- //
+    assembler(
+        event,
+        st('factory_block'),
+        8,
+        100,
+        [ 
+            { amount: 4, item: mc('iron_ingot') },
+            { amount: 4, item: mc('stone') } 
+        ],
+        [ { amount: 32, item: 'factory_blocks:factory' } ]
+    );
+
+    // -- IRON BARS -- //
+    assembler(
+        event,
+        st('iron_bars'),
+        8,
+        100,
+        [ { amount: 6, item: mi('iron_rod') } ],
+        [ { amount: 16, item: mc('iron_bars') } ]
+    );
+
     // -- MACHINE CHAINER -- //
     assembler(
         event,
@@ -1296,7 +1319,7 @@ ServerEvents.recipes(event => {
             { amount: 64, tag: 'modern_industrialization:item_pipes' },
             { amount: 64, tag: 'modern_industrialization:fluid_pipes' },
             { amount: 64, item: mi('electrum_cable') }
-         ],
+        ],
         [ { amount: 1, item: ei('machine_chainer') } ],
         [ { amount: 50, fluid: mi('polyethylene') } ]
     );
