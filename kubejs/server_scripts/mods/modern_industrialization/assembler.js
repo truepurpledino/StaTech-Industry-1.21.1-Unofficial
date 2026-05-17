@@ -1735,4 +1735,258 @@ ServerEvents.recipes(event => {
             [ { amount: 8, item: xt(blockName) } ]
         );
     });
+
+    
+    //---------------------//
+    // - MORE RED COMPAT - //
+    //---------------------//
+
+    // hexidecrubrometer recipe
+    event.recipes.modern_industrialization.assembler(8, 200)
+        .itemIn('8x ' + mr('stone_plate'))
+        .itemIn('9x ' + mc('redstone'))
+        .itemIn('4x ' + mc('quartz'))
+        .itemOut(mr('hexidecrubrometer'))
+        .id(st('hexidecrubrometer'))
+
+    // redwire post relay plate recipe
+    event.recipes.modern_industrialization.assembler(8, 200)
+        .itemIn('1x ' + mr('stone_plate'))
+        .itemIn('1x ' + mc('redstone'))
+        .itemIn('2x ' + mr('red_alloy_ingot'))
+        .itemOut(mr('redwire_post_relay_plate'))
+        .id(st('redwire_post_relay_plate'))
+        
+    // latch recipe
+    event.recipes.modern_industrialization.assembler(8, 200)
+        .itemIn('1x ' + mr('stone_plate'))
+        .itemIn('3x ' + mc('redstone'))
+        .itemOut(mr('latch'))
+        .id(st('latch'))
+
+    // pulse gate recipe
+    event.recipes.modern_industrialization.assembler(8, 200)
+        .itemIn('1x ' + mr('stone_plate'))
+        .itemIn('1x ' + mc('redstone'))
+        .itemIn('1x ' + mr('red_alloy_ingot'))
+        .itemOut(mr('pulse_gate'))
+        .id(st('pulse_gate'))
+
+    // redwire post recipe
+    event.recipes.modern_industrialization.assembler(8, 200)
+        .itemIn('2x ' + mr('red_alloy_ingot'))
+        .itemOut(mr('redwire_post'))
+        .id(st('redwire_post'))
+
+    // redwire post plate recipe
+    event.recipes.modern_industrialization.assembler(8, 200)
+        .itemIn('1x ' + mr('stone_plate'))
+        .itemIn('2x ' + mr('red_alloy_ingot'))
+        .itemOut(mr('redwire_post_plate'))
+        .id(st('redwire_post_plate'))
+
+    // bundled cable post recipe
+    event.recipes.modern_industrialization.assembler(8, 200)
+        .itemIn('1x ' + mr('red_alloy_ingot'))
+        .itemIn('1x ' + mr('bundled_network_cable'))
+        .itemOut(mr('bundled_cable_post'))
+        .id(st('bundled_cable_post'))
+
+    // bundled cable relay plate recipe
+    event.recipes.modern_industrialization.assembler(8, 200)
+        .itemIn('2x ' + mr('stone_plate'))
+        .itemIn('1x ' + mr('bundled_network_cable'))
+        .itemIn('1x ' + mr('red_alloy_ingot'))
+        .itemOut(mr('bundled_cable_relay_plate'))
+        .id(st('bundled_cable_relay_plate'))
+
+    // bundled cable recipe
+    event.recipes.modern_industrialization.assembler(8, 200)
+        .itemIn('3x #morered:network_cables')
+        .itemOut('3x ' + mr('bundled_network_cable'))
+        .id(st('bundled_network_cable'))
+
+
+    // diode recipe
+    event.recipes.modern_industrialization.assembler(8, 200)
+        .itemIn('1x ' + mr('stone_plate'))
+        .itemIn('3x ' + mc('redstone'))
+        .itemOut(mr('diode'))
+        .id(st('diode'))
+
+    // not gate recipe
+    event.recipes.modern_industrialization.assembler(8, 200)
+        .itemIn('1x ' + mr('stone_plate'))
+        .itemIn('2x ' + mc('redstone'))
+        .itemOut(mr('not_gate'))
+        .id(st('not_gate'))
+        
+    // nor gate recipe
+    event.recipes.modern_industrialization.assembler(8, 200)
+        .itemIn('1x ' + mr('stone_plate'))
+        .itemIn('2x ' + mc('redstone'))
+        .itemOut(mr('nor_gate'))
+        .id(st('nor_gate'))
+
+    // nand gate recipe
+    event.recipes.modern_industrialization.assembler(8, 200)
+        .itemIn('1x ' + mr('stone_plate'))
+        .itemIn('4x ' + mc('redstone'))
+        .itemOut(mr('nand_gate'))
+        .id(st('nand_gate'))
+
+    // or gate recipe
+    event.recipes.modern_industrialization.assembler(8, 200)
+        .itemIn('1x ' + mr('stone_plate'))
+        .itemIn('3x ' + mc('redstone'))
+        .itemOut(mr('or_gate'))
+        .id(st('or_gate'))
+
+    // and gate recipe
+    event.recipes.modern_industrialization.assembler(8, 200)
+        .itemIn('1x ' + mr('stone_plate'))
+        .itemIn('5x ' + mc('redstone'))
+        .itemOut(mr('and_gate'))
+        .id(st('and_gate'))
+
+    // xor gate recipe
+    event.recipes.modern_industrialization.assembler(8, 200)
+        .itemIn('1x ' + mr('stone_plate'))
+        .itemIn('4x ' + mc('redstone'))
+        .itemOut(mr('xor_gate'))
+        .id(st('xor_gate'))
+
+    // xnor gate recipe
+    event.recipes.modern_industrialization.assembler(8, 200)
+        .itemIn('1x ' + mr('stone_plate'))
+        .itemIn('4x ' + mc('redstone'))
+        .itemOut(mr('xnor_gate'))
+        .id(st('xnor_gate'))
+
+
+    // multiplexer recipe
+    event.recipes.modern_industrialization.assembler(8, 200)
+        .itemIn('1x ' + mr('stone_plate'))
+        .itemIn('1x ' + mr('red_alloy_ingot'))
+        .itemIn('1x ' + mc('redstone'))
+        .itemOut(mr('multiplexer'))
+        .id(st('multiplexer'))
+
+    // 2 input and gate recipe
+    event.recipes.modern_industrialization.assembler(8, 200)
+        .itemIn('1x ' + mr('stone_plate'))
+        .itemIn('4x ' + mc('redstone'))
+        .itemOut(mr('and_2_gate'))
+        .id(st('and_2_gate'))
+
+    // 2 input nand gate recipe
+    event.recipes.modern_industrialization.assembler(8, 200)
+        .itemIn('1x ' + mr('stone_plate'))
+        .itemIn('3x ' + mc('redstone'))
+        .itemOut(mr('nand_2_gate'))
+        .id(st('nand_2_gate'))
+
+    // bitwise diode recipe
+    event.recipes.modern_industrialization.assembler(8, 200)
+        .itemIn('2x ' + mr('stone_plate'))
+        .itemIn('1x ' + mc('quartz'))
+        .itemIn('1x ' + mc('redstone'))
+        .itemIn('1x ' + mr('bundled_network_cable'))
+        .itemOut(mr('bitwise_diode'))
+        .id(st('bitwise_diode'))
+
+    // bitwise not gate recipe
+    event.recipes.modern_industrialization.assembler(8, 200)
+        .itemIn('2x ' + mr('stone_plate'))
+        .itemIn('1x ' + mc('quartz'))
+        .itemIn('1x ' + mc('redstone'))
+        .itemIn('1x ' + mr('bundled_network_cable'))
+        .itemOut(mr('bitwise_not_gate'))
+        .id(st('bitwise_not_gate'))
+
+    // bitwise or gate recipe
+    event.recipes.modern_industrialization.assembler(8, 200)
+        .itemIn('2x ' + mr('stone_plate'))
+        .itemIn('1x ' + mc('quartz'))
+        .itemIn('1x ' + mc('redstone'))
+        .itemIn('1x ' + mr('bundled_network_cable'))
+        .itemOut(mr('bitwise_or_gate'))
+        .id(st('bitwise_or_gate'))
+
+    // bitwise and gate recipe
+    event.recipes.modern_industrialization.assembler(8, 200)
+        .itemIn('2x ' + mr('stone_plate'))
+        .itemIn('1x ' + mc('quartz'))
+        .itemIn('1x ' + mc('redstone'))
+        .itemIn('1x ' + mr('bundled_network_cable'))
+        .itemOut(mr('bitwise_and_gate'))
+        .id(st('bitwise_and_gate'))
+
+    // bitwise xor gate recipe
+    event.recipes.modern_industrialization.assembler(8, 200)
+        .itemIn('2x ' + mr('stone_plate'))
+        .itemIn('1x ' + mc('quartz'))
+        .itemIn('1x ' + mc('redstone'))
+        .itemIn('1x ' + mr('bundled_network_cable'))
+        .itemOut(mr('bitwise_xor_gate'))
+        .id(st('bitwise_xor_gate'))
+
+    // bitwise xnor gate recipe
+    event.recipes.modern_industrialization.assembler(8, 200)
+        .itemIn('2x ' + mr('stone_plate'))
+        .itemIn('1x ' + mc('quartz'))
+        .itemIn('1x ' + mc('redstone'))
+        .itemIn('1x ' + mr('bundled_network_cable'))
+        .itemOut(mr('bitwise_xnor_gate'))
+        .id(st('bitwise_xnor_gate'))
+
+    // redwire spool recipe
+    event.recipes.modern_industrialization.assembler(8, 200)
+        .itemIn('3x ' + mr('red_alloy_wire'))
+        .itemIn('4x ' + mi('steel_plate'))
+        .itemIn('2x ' + mc('stick'))
+        .itemOut('2x ' + mr('redwire_spool'))
+        .id(st('redwire_spool'))
+
+    // bundled cable spool recipe
+    event.recipes.modern_industrialization.assembler(8, 200)
+        .itemIn('3x ' + mr('bundled_network_cable'))
+        .itemIn('4x ' + mi('steel_plate'))
+        .itemIn('2x ' + mc('stick'))
+        .itemOut('2x ' + mr('bundled_cable_spool'))
+        .id(st('bundled_cable_spool'))
+
+
+
+// -------------------------- //
+// -- FRAMED BLOCKS COMPAT -- // 
+// -------------------------- //
+
+    event.recipes.modern_industrialization.assembler(8, 200)
+        .itemIn('3x ' + fb('framed_cube'))
+        .itemIn('3x ' + mi('iron_plate'))
+        .itemIn('1x ' + mi('invar_rotary_blade'))
+        .itemOut(fb('framing_saw'))
+        .id(st('framing_saw'))
+
+    event.recipes.modern_industrialization.assembler(8, 200)
+        .itemIn('1x ' + fb('framing_saw'))
+        .itemIn('1x ' + fb('framed_cube'))
+        .itemIn('3x ' + mi('analog_circuit'))
+        .itemIn('2x ' + mi('robot_arm'))
+        .itemOut(fb('powered_framing_saw'))
+        .id(st('powered_framing_saw'))
+
+    event.recipes.modern_industrialization.assembler(8, 100)
+        .itemIn('4x #minecraft:planks')
+        .itemIn('4x ' + mc('stick'))
+        .itemOut('4x ' + fb('framed_cube'))
+        .id(st('framed_cube'))
+
+    event.recipes.modern_industrialization.assembler(8, 100)
+        .itemIn('4x #minecraft:planks')
+        .itemIn('4x ' + mc('stick'))
+        .fluidIn('100x ' + mi('creosote'))
+        .itemOut('8x ' + fb('framed_cube'))
+        .id(st('framed_cube_alt'))
 });

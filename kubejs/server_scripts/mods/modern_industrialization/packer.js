@@ -302,4 +302,37 @@ ServerEvents.recipes(event => {
         [ { amount: 4, item: ae('certus_quartz_crystal') } ],
         [ { amount: 1, item: ae('quartz_block') } ]
     );
+
+    //---------------------//
+    // - MORE RED COMPAT - //
+    //---------------------//
+
+    const DYE_COLORS = [
+        'white',
+        'orange',
+        'magenta',
+        'yellow',
+        'cyan',
+        'lime',
+        'pink',
+        'gray',
+        'light_blue',
+        'light_gray',
+        'purple',
+        'blue',
+        'brown',
+        'green',
+        'red',
+        'black'
+    ]
+
+    DYE_COLORS.forEach(DYE_COLORS => {
+        event.remove( {id: mr(`${DYE_COLORS}_network_cable`)} ); 
+
+        event.recipes.modern_industrialization.packer(2, 200)
+            .itemIn('8x ' + mr('red_alloy_wire'))
+            .itemIn(mc(`${DYE_COLORS}_wool`))
+            .itemOut('8x ' + mr(`${DYE_COLORS}_network_cable`))
+            .id(st(`${DYE_COLORS}_red_alloy_cable`))
+    })
 })

@@ -54,4 +54,9 @@ RecipeViewerEvents.removeEntriesCompletely('item', event => {
         ei('steel_bending_machine')
     ];
     UNUSED_EI.forEach(id => event.remove(id));
+
+    const UNUSED_MORE_RED = [
+        mr('soldering_table'),
+    ];
+    UNUSED_MORE_RED.forEach(id => event.remove(id));
 });

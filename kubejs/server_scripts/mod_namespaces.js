@@ -47,3 +47,4 @@ let ed = (id) => `expandeddelight:${id}`;
 let fd = (id) => `farmersdelight:${id}`;
 let xt = (id) => `xtonesreworked:${id}`;
 let ap = (id) => `architects_palette:${id}`;
+let fb = (id) => `framedblocks:${id}`;
