@@ -302,4 +302,6 @@ ServerEvents.recipes(event => {
         [ { amount: 4, item: ae('certus_quartz_crystal') } ],
         [ { amount: 1, item: ae('quartz_block') } ]
     );
+
+
 })
