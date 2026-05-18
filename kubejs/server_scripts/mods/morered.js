@@ -26,4 +26,47 @@ ServerEvents.recipes(event => {
         [ { amount: 1, item: mr('red_alloy_ingot') } ],
         [ { amount: 2, item: mr('red_alloy_wire') } ],
     );
+
+
+    //----------------------//
+    // ------ PACKER ------ //
+    //----------------------//
+
+    const DYE_COLORS = [
+        'white',
+        'orange',
+        'magenta',
+        'yellow',
+        'cyan',
+        'lime',
+        'pink',
+        'gray',
+        'light_blue',
+        'light_gray',
+        'purple',
+        'blue',
+        'brown',
+        'green',
+        'red',
+        'black'
+    ]
+
+    DYE_COLORS.forEach(DYE_COLORS => {
+        event.remove( {id: mr(`${DYE_COLORS}_network_cable`)} ); 
+        packer(
+            event,
+            st(`${DYE_COLORS}_red_alloy_cable`),
+            2,
+            200,
+            [
+                { amount: 8, item: mr('red_alloy_wire') },
+                { amount: 1, item: mc(`${DYE_COLORS}_wool`) }
+            ],
+            [ { amount: 8, item: mr(`${DYE_COLORS}_network_cable`) } ]
+        );
+    })
+
+    //---------------------//
+    // ---- ASSEMBLER ---- //
+    //---------------------//
 });

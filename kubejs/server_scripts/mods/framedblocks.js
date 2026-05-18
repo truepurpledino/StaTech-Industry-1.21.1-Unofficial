@@ -42,4 +42,64 @@ ServerEvents.recipes(event => {
 
     })
     .id(st('powered_framing_saw'));
+
+    // --------------- //
+    // -- ASSEMBLER -- // 
+    // --------------- //
+
+    // -- FRAMING SAW -- //
+    assembler(
+        event,
+        st('framing_saw'),
+        8,
+        200,
+        [ 
+            { amount: 3, item: fb('framed_cube') },
+            { amount: 3, item: mi('iron_plate') },
+            { amount: 1, item: mi('invar_rotary_blade') }
+        ],
+        [ { amount: 1, item: fb('framing_saw') } ],
+    );
+
+    // -- POWERED FRAMING SAW -- //
+    assembler(
+        event,
+        st('powered_framing_saw'),
+        8,
+        200,
+        [ 
+            { amount: 1, item: fb('framing_saw') },
+            { amount: 1, item: fb('framed_cube') },
+            { amount: 3, item: mi('analog_circuit') },
+            { amount: 2, item: mi('robot_arm') }
+        ],
+        [ { amount: 1, item: fb('powered_framing_saw') } ],
+    );
+
+    // -- FRAMED CUBE ASSEMBLER -- //
+    assembler(
+        event,
+        st('framed_cube'),
+        8,
+        100,
+        [ 
+            { amount: 4, tag: '#minecraft:planks' },
+            { amount: 4, item: mc('stick') }
+        ],
+        [ { amount: 4, item: fb('framed_cube') } ],
+    );
+
+    // -- FRAMED CUBE ASSEMBLER ALT -- //
+    assembler(
+        event,
+        st('framed_cube_alt'),
+        8,
+        100,
+        [ 
+            { amount: 4, tag: '#minecraft:planks' },
+            { amount: 4, item: mc('stick') }
+        ],
+        [ { amount: 8, item: fb('framed_cube') } ],
+        [ { amount: 100, fluid: mi('creosote') } ],
+    );
 });

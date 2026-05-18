@@ -1956,37 +1956,4 @@ ServerEvents.recipes(event => {
         .itemOut('2x ' + mr('bundled_cable_spool'))
         .id(st('bundled_cable_spool'))
 
-
-
-// -------------------------- //
-// -- FRAMED BLOCKS COMPAT -- // 
-// -------------------------- //
-
-    event.recipes.modern_industrialization.assembler(8, 200)
-        .itemIn('3x ' + fb('framed_cube'))
-        .itemIn('3x ' + mi('iron_plate'))
-        .itemIn('1x ' + mi('invar_rotary_blade'))
-        .itemOut(fb('framing_saw'))
-        .id(st('framing_saw'))
-
-    event.recipes.modern_industrialization.assembler(8, 200)
-        .itemIn('1x ' + fb('framing_saw'))
-        .itemIn('1x ' + fb('framed_cube'))
-        .itemIn('3x ' + mi('analog_circuit'))
-        .itemIn('2x ' + mi('robot_arm'))
-        .itemOut(fb('powered_framing_saw'))
-        .id(st('powered_framing_saw'))
-
-    event.recipes.modern_industrialization.assembler(8, 100)
-        .itemIn('4x #minecraft:planks')
-        .itemIn('4x ' + mc('stick'))
-        .itemOut('4x ' + fb('framed_cube'))
-        .id(st('framed_cube'))
-
-    event.recipes.modern_industrialization.assembler(8, 100)
-        .itemIn('4x #minecraft:planks')
-        .itemIn('4x ' + mc('stick'))
-        .fluidIn('100x ' + mi('creosote'))
-        .itemOut('8x ' + fb('framed_cube'))
-        .id(st('framed_cube_alt'))
 });
