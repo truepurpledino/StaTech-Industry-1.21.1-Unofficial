@@ -83,7 +83,7 @@ ServerEvents.recipes(event => {
         8,
         100,
         [ 
-            { amount: 4, tag: '#minecraft:planks' },
+            { amount: 4, tag: 'minecraft:planks' },
             { amount: 4, item: mc('stick') }
         ],
         [ { amount: 4, item: fb('framed_cube') } ],
@@ -96,7 +96,7 @@ ServerEvents.recipes(event => {
         8,
         100,
         [ 
-            { amount: 4, tag: '#minecraft:planks' },
+            { amount: 4, tag: 'minecraft:planks' },
             { amount: 4, item: mc('stick') }
         ],
         [ { amount: 8, item: fb('framed_cube') } ],
