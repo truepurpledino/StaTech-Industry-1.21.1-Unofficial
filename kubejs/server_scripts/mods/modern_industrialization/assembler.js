@@ -1166,7 +1166,7 @@ ServerEvents.recipes(event => {
             { amount: 1, item: mi('calorite_machine_casing') },
             { amount: 6, item: mi('calorite_curved_plate')}
         ],
-        [ { amount: 1, item: mi('calorite_machine_casing_pipe')} ]
+        [ { amount: 2, item: mi('calorite_machine_casing_pipe')} ]
     );
 
     // -- DESH MACHINE CASING -- //
@@ -1192,7 +1192,7 @@ ServerEvents.recipes(event => {
             { amount: 1, item: mi('desh_machine_casing') },
             { amount: 6, item: mi('desh_curved_plate')}
         ],
-        [ { amount: 1, item: mi('desh_machine_casing_pipe')} ]
+        [ { amount: 2, item: mi('desh_machine_casing_pipe')} ]
     );
 
     // -- ENDERIUM MACHINE CASING -- //
@@ -1244,7 +1244,7 @@ ServerEvents.recipes(event => {
             { amount: 1, item: mi('ostrum_machine_casing') },
             { amount: 6, item: mi('ostrum_curved_plate')}
         ],
-        [ { amount: 1, item: mi('ostrum_machine_casing_pipe')} ]
+        [ { amount: 2, item: mi('ostrum_machine_casing_pipe')} ]
     );
 
     // -- REDSTONE REPEATER -- //

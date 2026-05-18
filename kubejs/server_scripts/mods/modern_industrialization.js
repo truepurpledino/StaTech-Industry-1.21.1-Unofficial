@@ -364,7 +364,7 @@ ServerEvents.recipes(event => {
     .id(st('calorite_machine_casing'));
 
     // -- CALORITE MACHINE PIPE CASING -- // 
-    event.shaped(mi('calorite_machine_casing_pipe'), [
+    event.shaped('2x ' + mi('calorite_machine_casing_pipe'), [
         'C C',
         'CMC',
         'C C'
@@ -388,7 +388,7 @@ ServerEvents.recipes(event => {
     .id(st('desh_machine_casing'));
 
     // -- DESH MACHINE PIPE CASING -- // 
-    event.shaped(mi('desh_machine_casing_pipe'), [
+    event.shaped('2x ' + mi('desh_machine_casing_pipe'), [
         'C C',
         'CMC',
         'C C'
@@ -436,7 +436,7 @@ ServerEvents.recipes(event => {
     .id(st('ostrum_machine_casing'));
 
     // -- OSTRUM MACHINE PIPE CASING -- // 
-    event.shaped(mi('ostrum_machine_casing_pipe'), [
+    event.shaped('2x ' + mi('ostrum_machine_casing_pipe'), [
         'C C',
         'CMC',
         'C C'
