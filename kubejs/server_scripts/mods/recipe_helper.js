@@ -192,3 +192,7 @@ let telescope = (event, id, eu, duration, item_inputs, item_outputs, fluid_input
 let supercomputer = (event, id, eu, duration, item_inputs, item_outputs, fluid_inputs) => {
     event.custom(newMachineRecipe(mi('supercomputer'), eu, duration, item_inputs, item_outputs, fluid_inputs)).id(id);
 }
+
+let wiremill = (event, id, eu, duration, item_inputs, item_outputs) => {
+    event.custom(newMachineRecipe(mi('wiremill'), eu, duration, item_inputs, item_outputs)).id(id);
+}
