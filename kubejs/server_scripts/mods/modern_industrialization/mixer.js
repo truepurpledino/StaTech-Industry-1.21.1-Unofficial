@@ -466,6 +466,29 @@ ServerEvents.recipes(event => {
         [ { amount: 2, item: ea('quartz_blend') } ]
     );
 
+    // -- RESIN -- //
+    mixer(
+        event,
+        st('resin'),
+        4,
+        600,
+        [ { amount: 2, item: mi('sulfur_tiny_dust') } ],
+        [ { amount: 2, item: nm('resin') } ],
+        [ { amount: 250, fluid: mi('wood_tar') } ]
+    );
+
+    // -- SYNTHETIC RUBBER ALT -- //
+    mixer(
+        event,
+        st('synthetic_rubber_alt'),
+        4,
+        400,
+        [ { amount: 1, item: nm('resin') } ],
+        null,
+        null,
+        [ { amount: 125, fluid: mi('synthetic_rubber') } ]
+    );
+
     // -- UTILITY FUNCTION FOR THE FOLLOWING FOREACH -- //
     // let mixerConsumable = (fluid, amount) => {
         // if (amount < 100)
