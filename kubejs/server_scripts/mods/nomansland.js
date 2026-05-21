@@ -12,7 +12,10 @@ ServerEvents.recipes(event => {
         mc('mushroom_stew'),
         mc('smoker'),
         fd('cooking/mushroom_stew'),
-        fd('cooking/mushroom_rice')
+        fd('cooking/mushroom_rice'),
+        nm('integration/farmersdelight/pancake'),
+        su('integration/pancake_fd'),
+        nm('food/salmon_and_pesto_gnocchi')
     ];
     NOMANSLAND_REMOVED_RECIPES.forEach(id => event.remove( {id: id} ));
 
@@ -49,6 +52,17 @@ ServerEvents.recipes(event => {
     ])
     .id(st('mushroom_stew_shaped'));
 
+    // -- PANCAKE -- //
+    event.shapeless(
+    Item.of(su('pancake'), 2),
+    [
+        '#c:drinks/milk',
+        '#c:foods/dough',
+        mc('egg'),
+        '#supplementaries:syrup'
+    ])
+    .id(st('pancake'));
+
     //---------------------//
     // ----- COOKING ----- //
     //---------------------//
@@ -72,10 +86,10 @@ ServerEvents.recipes(event => {
         "type": "neoforge:compound",
         "children": [
             {
-            "item": "minecraft:carrot"
+            "item": mc('potato')
             },
             {
-            "item": "minecraft:potato"
+            "item": mc('carrot')
             }
         ]
         }
@@ -111,5 +125,35 @@ ServerEvents.recipes(event => {
     }
     })
     .id(st('mushroom_stew_alt'));
+
+    // -- SALMON AND PESTO GNOCCHI -- //
+    event.custom({
+    "type": fd('cooking'),
+    "container": {
+        "count": 1,
+        "id": "minecraft:bowl"
+    },
+    "experience": 1.0,
+    "ingredients": [
+        {
+        "item": nm('pesto_bottle')
+        },
+        {
+        "item": mc('potato')
+        },
+        {
+        "tag": 'c:foods/dough'
+        },
+        {
+        "item": fd('salmon_slice')
+        }
+    ],
+    "recipe_book_tab": "meals",
+    "result": {
+        "count": 1,
+        "id": nm('salmon_and_pesto_gnocchi')
+    }
+    })
+    .id(st('salmon_and_pesto_gnocchi'));
 
 });

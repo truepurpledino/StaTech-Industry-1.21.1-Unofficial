@@ -50,7 +50,7 @@ ServerEvents.recipes(event => {
     // -- FRAMING SAW -- //
     assembler(
         event,
-        st('framing_saw'),
+        st('framing_saw_assembler'),
         8,
         200,
         [ 
@@ -64,7 +64,7 @@ ServerEvents.recipes(event => {
     // -- POWERED FRAMING SAW -- //
     assembler(
         event,
-        st('powered_framing_saw'),
+        st('powered_framing_saw_assembler'),
         8,
         200,
         [ 

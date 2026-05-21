@@ -170,14 +170,6 @@ ServerEvents.recipes(event => {
         [ { amount: 1, item: mr('bundled_cable_post') } ],
     );
 
-    // bundled cable relay plate recipe
-    event.recipes.modern_industrialization.assembler(8, 200)
-        .itemIn('2x ' + mr('stone_plate'))
-        .itemIn('1x ' + mr('bundled_network_cable'))
-        .itemIn('1x ' + mr('red_alloy_ingot'))
-        .itemOut(mr('bundled_cable_relay_plate'))
-        .id(st('bundled_cable_relay_plate'))
-
     // -- BUNDLED CABLE RELAY PLATE -- //
     assembler(
         event,
