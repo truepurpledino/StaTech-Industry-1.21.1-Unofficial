@@ -7,16 +7,6 @@
 		id: "create:wrench"
 	}
 	id: "6A3B096018B7FAD6"
-	images: [{
-		click: "https://github.com/tweaked-programs/cccbridge/wiki"
-		height: 0.75d
-		hover: ["CC:C Bridge Wiki"]
-		image: "modern_industrialization:block/casings/steel_crate/top"
-		rotation: 0.0d
-		width: 0.75d
-		x: -12.0d
-		y: -2.0d
-	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -306,7 +296,7 @@
 				item: { count: 1, id: "create:copper_valve_handle" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: -1.0d
 			y: -5.5d
 		}
 		{
@@ -480,7 +470,7 @@
 				item: { count: 1, id: "create:encased_fan" }
 				type: "item"
 			}]
-			x: 0.5d
+			x: 0.0d
 			y: -5.5d
 		}
 		{
@@ -496,7 +486,7 @@
 				item: { count: 1, id: "create:clutch" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: 0.5d
 			y: 4.0d
 		}
 		{
@@ -991,7 +981,7 @@
 				item: { count: 1, id: "create:track" }
 				type: "item"
 			}]
-			x: -5.5d
+			x: -5.0d
 			y: 3.5d
 		}
 		{
@@ -1030,7 +1020,7 @@
 					type: "item"
 				}
 			]
-			x: -2.5d
+			x: -2.0d
 			y: -5.5d
 		}
 		{
@@ -1063,7 +1053,7 @@
 				item: { count: 1, id: "create:chute" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: 1.0d
 			y: -5.5d
 		}
 		{
@@ -1157,7 +1147,7 @@
 			tasks: [{
 				count: 2L
 				id: "4727CB0BE10CD8C6"
-				item: { count: 2, id: "create:crushing_wheel" }
+				item: { count: 1, id: "create:crushing_wheel" }
 				type: "item"
 			}]
 			x: -12.0d
@@ -1285,7 +1275,7 @@
 				item: { count: 1, id: "create:rope_pulley" }
 				type: "item"
 			}]
-			x: 2.5d
+			x: 2.0d
 			y: -5.5d
 		}
 		{
@@ -1540,7 +1530,7 @@
 				item: { count: 1, id: "create:encased_chain_drive" }
 				type: "item"
 			}]
-			x: -1.0d
+			x: -0.5d
 			y: 4.0d
 		}
 		{
@@ -1556,161 +1546,15 @@
 				item: { count: 1, id: "create:item_vault" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: -5.5d
+			x: -2.0d
+			y: -6.5d
 		}
 		{
-			dependencies: ["4F4C5DEE88EABE32"]
-			id: "08F7F586C25B705F"
-			rewards: [{
-				id: "39D2BC9D55C2C7A0"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "61C366078D14E1EB"
-				type: "checkmark"
-			}]
-			x: 1.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["15C0B7A968E7CA42"]
-			id: "76F514BB04FDDF83"
-			rewards: [{
-				id: "446A98341958C887"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "356C24BFAC444D8D"
-				type: "checkmark"
-			}]
-			x: -4.0d
-			y: -5.5d
-		}
-		{
-			dependencies: ["7CADC21630F6223B"]
-			id: "6CE3513D509FDBCE"
-			rewards: [{
-				id: "5C2EC1BBF16ED951"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "4A145AB6664F8C6F"
-				type: "checkmark"
-			}]
-			x: -13.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["38F45285404934C9"]
-			id: "7CADC21630F6223B"
-			rewards: [{
-				id: "252C5912C4B18A37"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "3252A3818E1B4B78"
-				type: "checkmark"
-			}]
-			x: -12.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["7CADC21630F6223B"]
-			id: "2CAE593AF156CFA8"
-			rewards: [{
-				id: "0496613CEEF00F26"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "13B43E23537FA95D"
-				type: "checkmark"
-			}]
-			x: -13.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["7CADC21630F6223B"]
-			id: "46DBEC5D497C64D1"
-			rewards: [{
-				id: "4DBF66EF3A3D7BEF"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "74A03D0F85036522"
-				type: "checkmark"
-			}]
-			x: -13.5d
-			y: 0.5d
-		}
-		{
-			dependencies: ["56719D1E4C517695"]
-			id: "02F285EC8347950F"
-			rewards: [{
-				id: "0BAC56FFB12754ED"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "4F597929DD82D64D"
-				type: "checkmark"
-			}]
-			x: -8.5d
-			y: -7.0d
-		}
-		{
-			dependencies: ["5280346E492CDFF6"]
-			id: "43F4FC5D451BA26C"
-			rewards: [{
-				id: "1F182372FB05189F"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "2D7E8779F3810B8C"
-				type: "checkmark"
-			}]
-			x: -4.5d
-			y: 3.5d
-		}
-		{
-			dependencies: ["0AF1648BAD9A6BC2"]
-			id: "074DF5FA7BA8618D"
-			rewards: [{
-				id: "43A4235BA314AE36"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "259666AAE5306DAC"
-				type: "checkmark"
-			}]
-			x: -12.5d
-			y: -5.5d
-		}
-		{
-			dependencies: ["45827521A02CAC95"]
-			id: "54A1EA4EC7367EE7"
-			rewards: [{
-				id: "2D0BAB320BBE9186"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "29E88B45080ED616"
-				type: "checkmark"
-			}]
-			x: -8.0d
-			y: -5.5d
-		}
-		{
-			dependencies: ["02F285EC8347950F"]
+			dependencies: [
+				"56719D1E4C517695"
+				"193BF21914D516D4"
+			]
+			dependency_requirement: "one_completed"
 			id: "438C77B5157AFC32"
 			rewards: [{
 				id: "63934B8B909B2CAD"
@@ -1723,7 +1567,7 @@
 				type: "item"
 			}]
 			x: -8.5d
-			y: -8.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["10FBE866C3067840"]
@@ -1752,21 +1596,6 @@
 			]
 			x: 10.0d
 			y: 5.0d
-		}
-		{
-			dependencies: ["7CADC21630F6223B"]
-			id: "2AC83425E2ECB742"
-			rewards: [{
-				id: "1EA5C04C06248D78"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "60D5ED6299C650F2"
-				type: "checkmark"
-			}]
-			x: -13.5d
-			y: -2.5d
 		}
 		{
 			dependencies: ["3FF27DBE79D8AC49"]
@@ -1874,51 +1703,6 @@
 			]
 			x: 4.5d
 			y: 5.0d
-		}
-		{
-			dependencies: ["03B0AC7D643C8EC2"]
-			id: "600556FC2B67BDDE"
-			rewards: [{
-				id: "1D4EE193069D992E"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "5907F6C245DE6BF1"
-				type: "checkmark"
-			}]
-			x: -4.5d
-			y: 0.5d
-		}
-		{
-			dependencies: ["08C156EC82878D36"]
-			id: "6432582C92C412A0"
-			rewards: [{
-				id: "79A686713874C8A0"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "67A5FE89B8A70F2B"
-				type: "checkmark"
-			}]
-			x: -7.5d
-			y: 4.0d
-		}
-		{
-			dependencies: ["51356454DB10752D"]
-			id: "42189574D9B8E644"
-			rewards: [{
-				id: "457A1A1231B542B1"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "69606BA7EB7AB2D9"
-				type: "checkmark"
-			}]
-			x: -2.0d
-			y: -6.5d
 		}
 		{
 			dependencies: ["2688BECD1AE321D9"]

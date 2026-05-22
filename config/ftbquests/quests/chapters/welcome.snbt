@@ -81,7 +81,7 @@
 				type: "checkmark"
 			}]
 			x: -3.0d
-			y: 0.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["58F52B959643FF34"]
@@ -136,20 +136,6 @@
 			}]
 			x: 1.0d
 			y: -3.0d
-		}
-		{
-			dependencies: ["58F52B959643FF34"]
-			icon: {
-				id: "minecraft:iron_hoe"
-			}
-			id: "49E8ECBDBC3FFD83"
-			tasks: [{
-				id: "3534F85C2A1A574A"
-				item: { components: { "ftbfiltersystem:filter": "or(item_tag(minecraft:hoes))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
-			x: -3.0d
-			y: 1.0d
 		}
 		{
 			dependencies: ["58F52B959643FF34"]
@@ -241,13 +227,13 @@
 				id: "minecraft:crafter"
 			}
 			id: "4E1516DE8CDFE5EE"
-			size: 1.5d
+			size: 1.0d
 			tasks: [{
 				id: "3241A9B8029079C0"
 				type: "checkmark"
 			}]
-			x: -4.5d
-			y: -1.0d
+			x: -3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["58F52B959643FF34"]
