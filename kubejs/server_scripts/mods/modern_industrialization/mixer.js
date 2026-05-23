@@ -165,17 +165,6 @@ ServerEvents.recipes(event => {
         [ { amount: 100, fluid: mi('polytetrafluoroethylene') } ]
     );
 
-    // -- SULFURIC ACID BOTTLE -- //
-    mixer(
-        event,
-        st('sulfuric_acid_bottle'),
-        8,
-        200,
-        [ { amount: 1, item: mc('glass_bottle') } ],
-        [ { amount: 1, item: kj('sulfuric_acid_bottle') } ],
-        [ { amount: 100, fluid: mi('sulfuric_acid') } ]
-    );
-
     // -- URANIUM CEREAL -- //
     mixer(
         event,

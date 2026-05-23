@@ -80,13 +80,6 @@ StartupEvents.registry('item', event => {
             .nutrition(8)
             .saturation(0.6);
         });
-    event.create('pineapple_pizza_slice')
-        .displayName('Pineapple Pizza Slice')
-        .food(f => {
-            f
-            .nutrition(10)
-            .saturation(0.6);
-        });
     
     event.create('concrete_pizza').displayName('Concrete Pizza');
 
@@ -96,13 +89,6 @@ StartupEvents.registry('item', event => {
             f
             .nutrition(12)
             .saturation(0.5);
-        });
-    event.create('concrete_pineapple_pizza_slice')
-        .displayName('Concrete Pineapple Pizza Slice')
-        .food(f => {
-            f
-            .nutrition(16)
-            .saturation(0.6);
         });
     
     event.create('bepsi')

@@ -172,11 +172,6 @@ StartupEvents.registry('item', event => {
     event.create('withered_soc')
         .displayName('Withered SoC');
 
-    event.create('magic_diamond')
-        .displayName('Magic Diamond')
-        .rarity('Epic')
-        .tooltip('§dYour ticket to the Twilight Forest');
-
     event.create('space_probe')
         .displayName('Space Probe');
     

@@ -74,11 +74,11 @@ ServerEvents.recipes(event => {
         200,
         [
             { amount: 1, item: mi('silicon_n_doped_plate') },
-            { amount: 2, item: kj('borosilicate_glass') },
             { amount: 3, item: mi('electrum_fine_wire') },
             { amount: 2, item: mi('steel_plate') }
         ],
-        [ { amount: 2, item: mi('diode') } ]
+        [ { amount: 2, item: mi('diode') } ],
+        [ { amount: 500, fluid: mi('molten_borosilicate_glass') } ],
     );
 
     // -- STAINLESS STEEL TANK -- //

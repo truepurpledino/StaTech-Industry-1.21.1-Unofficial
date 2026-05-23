@@ -73,4 +73,9 @@ RecipeViewerEvents.removeEntriesCompletely('item', event => {
         ed('salt_rock')
     ];
     UNUSED_FD.forEach(id => event.remove(id));
+
+    const UNUSED_GAG = [
+        gag('pigment_jar')
+    ];
+    UNUSED_GAG.forEach(id => event.remove(id));
 });
