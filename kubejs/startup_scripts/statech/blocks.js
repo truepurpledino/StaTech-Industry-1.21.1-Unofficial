@@ -48,7 +48,8 @@ StartupEvents.registry('block', event => {
         .defaultTranslucent()
         .transparent(true)
         .tagBlock('minecraft:mineable/pickaxe') 
-        .tagBlock('minecraft:needs_iron_tool');
+        .tagBlock('minecraft:needs_iron_tool')
+        .tagBlock('c:glass_blocks');
     
     event.create(`kubejs:computer_casing`)
         .displayName('Computer Casing')

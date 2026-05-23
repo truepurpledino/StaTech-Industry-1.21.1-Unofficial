@@ -19,6 +19,11 @@ ServerEvents.recipes(event => {
         mi('assembler_generated/electric_age/battery/sodium_battery'),
         mi('assembler_generated/electric_age/battery/cadmium_battery'),
         mi('assembler_generated/electric_age/battery/plutonium_battery'),
+        mi('assembler_generated/electric_age/component/craft/diode_doped'),
+        mi('materials/stainless_steel/assembler/tank'),
+        mi('materials/titanium/assembler/tank'),
+        mi('materials/tungstensteel/assembler/tank'),
+        mi('electric_age/component/craft/diode_doped_asbl'),
         mi('machines/machine_chainer/assembler'),
         io('machines/pyrolyse_oven/assembler'),
         ei('tool/assembler/tesla_handheld_receiver')/* ,
@@ -43,6 +48,60 @@ ServerEvents.recipes(event => {
             { amount: 1, item: mi('steel_machine_casing') }
         ],
         [ { amount: 1, item: ei('large_steam_macerator') } ]
+    );
+
+    // -- DOPED DIODE -- //
+    assembler(
+        event,
+        st('diode_doped'),
+        8,
+        200,
+        [
+            { amount: 1, item: mi('silicon_n_doped_plate') },
+            { amount: 2, item: kj('borosilicate_glass') },
+            { amount: 3, item: mi('electrum_fine_wire') },
+            { amount: 2, item: mi('steel_plate') }
+        ],
+        [ { amount: 2, item: mi('diode') } ]
+    );
+
+    // -- STAINLESS STEEL TANK -- //
+    assembler(
+        event,
+        st('stainless_steel_tank'),
+        8,
+        200,
+        [
+            { amount: 8, item: mi('stainless_steel_plate') },
+            { amount: 1, item: kj('borosilicate_glass') }
+        ],
+        [ { amount: 1, item: mi('stainless_steel_tank') } ]
+    );
+
+    // -- TITANIUM TANK -- //
+    assembler(
+        event,
+        st('titanium_tank'),
+        8,
+        200,
+        [
+            { amount: 8, item: mi('titanium_plate') },
+            { amount: 1, item: kj('borosilicate_glass') }
+        ],
+        [ { amount: 1, item: mi('titanium_tank') } ]
+    );
+
+    // -- TUNGSTENSTEEL TANK -- //
+    assembler(
+        event,
+        st('tungstensteel_tank'),
+        8,
+        200,
+        [
+            { amount: 8, item: mi('tungstensteel_plate') },
+            { amount: 1, item: kj('borosilicate_glass') }
+        ],
+        [ { amount: 1, item: mi('tungstensteel_tank') } ]
     );
 
     // -- LENS MOLD -- //

@@ -62,4 +62,15 @@ ServerEvents.recipes(event => {
         [ { amount: 1, item: mc('nether_star') } ],
         [ { amount: 500, fluid: mi('molten_nether_star') } ]
     );
+
+    // -- BOROSILICATE GLASS -- //
+    vacuumFreezer(
+        event,
+        st('borosilicate_glass'),
+        16,
+        400,
+        null,
+        [ { amount: 1, item: kj('borosilicate_glass') } ],
+        [ { amount: 1000, fluid: mi('molten_borosilicate_glass') } ]
+    );
 });

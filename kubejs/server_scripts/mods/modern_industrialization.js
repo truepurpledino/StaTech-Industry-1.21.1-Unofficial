@@ -36,7 +36,10 @@ ServerEvents.recipes(event => {
         mi('materials/iron/craft/hammer'),
         mi('materials/steel/craft/hammer'),
         mi('materials/diamond/craft/hammer'),
-        mi('materials/fire_clay_dust')
+        mi('materials/fire_clay_dust'),
+        mi('materials/stainless_steel/craft/tank'),
+        mi('materials/titanium/craft/tank'),
+        mi('materials/tungstensteel/craft/tank')
     ];
     MI_DELETED_ITEMS.forEach(id => event.remove( {id: id} ));
 
@@ -524,6 +527,42 @@ ServerEvents.recipes(event => {
         L: mi('cadmium_battery')
     })
     .id(st('gravichestplate'));
+
+    // -- STAINLESS STEEL TANK -- //
+    event.shaped(mi('stainless_steel_tank'), [
+        'PPP',
+        'PGP',
+        'PPP'
+    ],
+    {
+        P: mi('stainless_steel_plate'),
+        G: kj('borosilicate_glass')
+    })
+    .id(st('stainless_steel_tank'));
+
+    // -- TITANIUM TANK -- //
+    event.shaped(mi('titanium_tank'), [
+        'PPP',
+        'PGP',
+        'PPP'
+    ],
+    {
+        P: mi('titanium_plate'),
+        G: kj('borosilicate_glass')
+    })
+    .id(st('titanium_tank'));
+
+    // -- TUNGSTENSTEEL TANK -- //
+    event.shaped(mi('tungstensteel_tank'), [
+        'PPP',
+        'PGP',
+        'PPP'
+    ],
+    {
+        P: mi('tungstensteel_plate'),
+        G: kj('borosilicate_glass')
+    })
+    .id(st('tungstensteel_tank'));
 });
 
 ServerEvents.tags('item', event => {
