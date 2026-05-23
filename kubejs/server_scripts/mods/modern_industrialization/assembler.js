@@ -14,7 +14,7 @@ ServerEvents.recipes(event => {
         mi('assembler_generated/steam_age/bronze/furnace'),
         mi('assembler_generated/steam_age/bronze/boiler'),
         mi('assembler_generated/electric_age/component/craft/op_amp'),
-/*         mi('assembler_generated/electric_age/battery/lv_battery'),
+/*      mi('assembler_generated/electric_age/battery/lv_battery'),
         mi('assembler_generated/electric_age/battery/silicon_battery'), */
         mi('assembler_generated/electric_age/battery/sodium_battery'),
         mi('assembler_generated/electric_age/battery/cadmium_battery'),
@@ -45,9 +45,25 @@ ServerEvents.recipes(event => {
             { amount: 2, item: mi('bronze_macerator') },
             { amount: 2, item: mi('bronze_plated_bricks') },
             { amount: 4, item: mi('bronze_curved_plate') },
-            { amount: 1, item: mi('steel_machine_casing') }
+            { amount: 1, item: mi('steel_machine_casing') },
+            { amount: 1, item: mi('desh_drill_head') }
         ],
         [ { amount: 1, item: ei('large_steam_macerator') } ]
+    );
+
+    // -- CORE MINING DRILL -- //
+    assembler(
+        event,
+        st('core_mining_drill'),
+        8,
+        200,
+        [
+            { amount: 3, item: mi('clean_stainless_steel_machine_casing') },
+            { amount: 2, item: mi('quantum_circuit') },
+            { amount: 2, item: mi('large_advanced_motor') },
+            { amount: 1, item: mi('quantum_machine_hull') }
+        ],
+        [ { amount: 1, item: mi('core_drill') } ]
     );
 
     // -- DOPED DIODE -- //
