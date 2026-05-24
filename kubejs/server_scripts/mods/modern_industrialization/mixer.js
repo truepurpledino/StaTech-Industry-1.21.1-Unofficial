@@ -263,11 +263,11 @@ ServerEvents.recipes(event => {
         2,
         100,
         [
-            { amount: 2, tag: 'c:dusts/boron' },
-            { amount: 4, tag: 'c:dusts/quartz' },
+            { amount: 4, tag: 'c:dusts/boron' },
+            { amount: 8, tag: 'c:dusts/quartz' },
             { amount: 1, tag: 'c:tiny_dusts/aluminum' }
         ],
-        [ { amount: 6, item: kj('boron_quartz_blend') } ]
+        [ { amount: 12, item: kj('boron_quartz_blend') } ]
     ); 
 
     // -- CERTUS QUARTS CRYSTAL -- //
