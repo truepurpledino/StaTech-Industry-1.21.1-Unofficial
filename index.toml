@@ -182,31 +182,31 @@ hash = "8d02b45e61adad35be54abbf2a1fcdf404fbc06378ca1e3ffc0ad2f877e8e3d4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/artifacts.snbt"
-hash = "75b01c51f2ec6371baca726a5f28e554c53b3fd391d2048448252f26e7499b2e"
+hash = "2945ca71bd474277616a50d1e099a09696ab3dc3d786923c9ed267c1e8e10aae"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create.snbt"
-hash = "546ad64acbbe18eaef86c7d0484edddc4205e810e90824a80da62eb83ef3f4b2"
+hash = "0cc20f8aa892c5fa9b857e3dee2a34f276f23ab8b4bcf3fdff65e98f39a82890"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/removed.snbt"
-hash = "fe168756fb970db34588144533820b6ce068e8e309b7b83c32a26b8e6623e1f5"
+hash = "e53bf86501b0d5a63c4a045531951b5e303c626c50072fb0c6e05832f2e494f9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/spectrum.snbt"
-hash = "70092c24cd544e6df0ae6699482608005e6f7f5bc160d3cf327da9350b94d351"
+hash = "f2f60de8ce3e9068752fe41d358e58c3870cbff308c1d3c7a4710935b5425229"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/utilities.snbt"
-hash = "70f5faaffe74f9f90552494f1b7b53d018166354c40c3e5779357c923aca354c"
+hash = "53a1e8401b46bd1f1ffa2a25dc87d32ed3cdd6c386c959719b0b2507ca47978b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/welcome.snbt"
-hash = "e49ddf531febd63535d74e593a1cf23ecfafd6b2b7aecd2083eacac695e5f752"
+hash = "4424ccde520eb04e767166debe84f3144996d9a65f395f031e4b34623124c276"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/world_of_food.snbt"
-hash = "7388d7833b01da7a0e67bd61dbd967bbee0944390a729bfb100c5e10df1e8ca6"
+hash = "bf32b699859d79d638a00b1df9d88726eb77ac3b6c4c1c2cd250056122e831dd"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -2338,7 +2338,7 @@ hash = "f1120fb70661b0d59ba305e83319f8ceb9a3019b94ce0daf1c9fbebb92d8fd40"
 
 [[files]]
 file = "kubejs/assets/modern_industrialization/lang/en_us.json"
-hash = "2b926d2eaf945fec99db2fc12ca474a86f8a57798b1c494c486739427ac81489"
+hash = "31999ffcb253e20c789d5150a159a5de4aaf5b66bd0f7d1907cc0a88f090af13"
 
 [[files]]
 file = "kubejs/assets/modern_industrialization/models/block/acrylonitrile_butadiene_styrene_block.json"
@@ -3079,6 +3079,10 @@ hash = "ef8b239e3de2fdbb79c8e08585b7897e51d894d08d4bbb5a26872cbf89e88583"
 [[files]]
 file = "kubejs/assets/modern_industrialization/models/item/mob_crusher.json"
 hash = "af1f7a3a77176a1302a953e3db959b230f6e0474652b34f8b595da20e77086e8"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/item/molten_borosilicate_glass_bucket.json"
+hash = "e6d394d2a26822fbae92744c89e463002ae6bd2ea1c83b5daa8e390c07b2688c"
 
 [[files]]
 file = "kubejs/assets/modern_industrialization/models/item/molten_enderium_bucket.json"
@@ -4129,6 +4133,14 @@ file = "kubejs/assets/modern_industrialization/textures/fluid/lithium_still.png.
 hash = "7dc16041541801a5bbfd3e98fc2e939ca860cc063a19393da16841eca4212b37"
 
 [[files]]
+file = "kubejs/assets/modern_industrialization/textures/fluid/molten_borosilicate_glass_still.png"
+hash = "13025ad5d571fb40040c1cc73ed186b2a8368e486464cb08710ac6b6b86d20e5"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/textures/fluid/molten_borosilicate_glass_still.png.mcmeta"
+hash = "4e0b40c37c420d3aa6350220488d76dbe6c93ef8795e77ed85115ad00a540791"
+
+[[files]]
 file = "kubejs/assets/modern_industrialization/textures/fluid/molten_enderium_still.png"
 hash = "1c10003a14c09eac8b2069a29c4e518e511a3032cc8a430e37b687d8ab6472a5"
 
@@ -4717,6 +4729,10 @@ file = "kubejs/assets/modern_industrialization/textures/item/mixed_ingot_blastpr
 hash = "6692098156737851d1bf139441f6f9e05df4cfe925d922bf4ac8321eef24197a"
 
 [[files]]
+file = "kubejs/assets/modern_industrialization/textures/item/molten_borosilicate_glass_bucket.png"
+hash = "f7d77a66711793654485c2c9607516545ea84ce039b340a3571fa24808c448d3"
+
+[[files]]
 file = "kubejs/assets/modern_industrialization/textures/item/molten_enderium_bucket.png"
 hash = "c3d55883a02e3f940c54f07eea7bac6ea004535768c137d86333fdc0e7121bb3"
 
@@ -5283,6 +5299,22 @@ hash = "0024a860c961410387dffbac7311ca5cf65f3ab11bfa9743425a98cf28d08b7a"
 [[files]]
 file = "kubejs/data/mi_tweaks/loot_table/blocks/oversized_electrolysis_chamber.json"
 hash = "402bb2bbe0ab71fbc7174b9beeb27ffc9f13a9201abffa7921b8a69e614476a7"
+
+[[files]]
+file = "kubejs/data/minecraft/loot_table/blocks/fern.json"
+hash = "3f193680d48d69d6e4cc25a84c283ddaac6fcd96d0c3914f19dbe6169ad58e54"
+
+[[files]]
+file = "kubejs/data/minecraft/loot_table/blocks/large_fern.json"
+hash = "9732f1c7cf8a9a2af9010739838bda8370331071946e2884c38ddafdf17704e6"
+
+[[files]]
+file = "kubejs/data/minecraft/loot_table/blocks/short_grass.json"
+hash = "2c7c56d866cd8147dfa1e1f0b701bbcae1df9e440b14c831ffadff0935dfc568"
+
+[[files]]
+file = "kubejs/data/minecraft/loot_table/blocks/tall_grass.json"
+hash = "7f89cc0a09df5a6b98b8f2403ac6e3252343b804d7fe592701779404bb067a30"
 
 [[files]]
 file = "kubejs/data/minecraft/tags/block/mineable/pickaxe.json"
@@ -6973,6 +7005,26 @@ file = "kubejs/data/modern_industrialization/worldgen/placed_feature/ore_generat
 hash = "10982b01413c122dbb0fc7978b19bef4989718dca14b6e9cad3d2099ba14b492"
 
 [[files]]
+file = "kubejs/data/nomansland/loot_table/blocks/cave_weeds.json"
+hash = "e3a45f2d10473a8c2e9bb908b2e5cf45aedfaf4ddfac6d5fe4a536493520bade"
+
+[[files]]
+file = "kubejs/data/nomansland/loot_table/blocks/fiddlehead.json"
+hash = "4dd3f3db65ba0b0f2f8d110d4a129a7ca38a3f698af2f6528ba28454226ac3d3"
+
+[[files]]
+file = "kubejs/data/nomansland/loot_table/blocks/frosted_grass.json"
+hash = "973189376e90774739e93fbf771d3ecd9d85241861dd85657b8612cfd62ac409"
+
+[[files]]
+file = "kubejs/data/nomansland/loot_table/blocks/grass_sprouts.json"
+hash = "e477728a96858a7f30fde8e4872c8985f69b1c6345d948522388d31f6f6e027c"
+
+[[files]]
+file = "kubejs/data/nomansland/loot_table/blocks/oat_grass.json"
+hash = "95784c39c8db020499061b267004e76592dc10e807aa28f47bd48eb0a2570129"
+
+[[files]]
 file = "kubejs/data/statech/dimension/space.json"
 hash = "588e780ad384cf84d5a20421a88dc698e48641a9a62732e62e81a0836dd317dd"
 
@@ -7201,12 +7253,16 @@ file = "kubejs/disabled/server_scripts/mods/yigd.js"
 hash = "75c41eb588442c3654ace4ff443ed0d8b776a249cefb7c9ccb1bcccce00c533d"
 
 [[files]]
+file = "kubejs/server_scripts/artifacts_loot_injection_nml.js"
+hash = "18bb7d5e1796f177ed968a585a70a37cf1b22e64789be3269d2aa47a8b8622ba"
+
+[[files]]
 file = "kubejs/server_scripts/claim_interact_whitelist.js"
 hash = "4c091c4a1ae1317cc383915c4d90922b652dd8ee917aac116617d21a6e43666c"
 
 [[files]]
 file = "kubejs/server_scripts/hidefromEMI.js"
-hash = "08737399bf4e3d56aaa51f94cee6c69e5a385a7d5b1df959a71b0101199ad71e"
+hash = "7ba680c96f4ee4a8d814a9d67d5c978c5356a9b33105b70efc6188f15f534482"
 
 [[files]]
 file = "kubejs/server_scripts/mi_replicatorblacklist.js"
@@ -7310,7 +7366,7 @@ hash = "6bd080865e24668072bef69ca25e6c3948fd3c414877960006db8862b4e7e0c3"
 
 [[files]]
 file = "kubejs/server_scripts/mods/gag.js"
-hash = "cd9beb1da5201e010fcb331faae419661d1c5970777a0f0ab01045ca40843fce"
+hash = "ebc6c6d4940f5462690dc958a61a110cc480022b453cf96b26319e274c1e108a"
 
 [[files]]
 file = "kubejs/server_scripts/mods/hangglider.js"
@@ -7334,7 +7390,7 @@ hash = "db4adccb05f63be0843ac7a6f2243f6d41945f0595b0eba26fb32398f0f6ae1e"
 
 [[files]]
 file = "kubejs/server_scripts/mods/modern_industrialization.js"
-hash = "c838c97642248cc5300f80403b1c0dde468a929cbf6652e3fee35a0cbc352da4"
+hash = "15590d82be68c14d84e39ae988389ffdf30d4f08cf3362c21d491e8edab22d6b"
 
 [[files]]
 file = "kubejs/server_scripts/mods/modern_industrialization/alloy_smelter.js"
@@ -7342,15 +7398,19 @@ hash = "02968d8fd22c42388713ed0f532b373191b9207d5c61e35a48fa723ec763ba6d"
 
 [[files]]
 file = "kubejs/server_scripts/mods/modern_industrialization/assembler.js"
-hash = "3311325a5835bba0bd12a68177cb9b611f10445ab8cc6508cecbe143fad429d4"
+hash = "a0a3ddb29e23102f6eee32b7ca0ad5c2ae3f8d7a49d5d0dc8ca11c7e8b452bd4"
 
 [[files]]
 file = "kubejs/server_scripts/mods/modern_industrialization/blast_furnace.js"
-hash = "c96ecb3b4ab6ae935319bb337f146eacd5cae95ba5ca26ccbf88b169f027b182"
+hash = "67929acaba95e4c659179cc5c70cfb5e7776ad5dcb4b9ed06ec489c620dc3f2a"
 
 [[files]]
 file = "kubejs/server_scripts/mods/modern_industrialization/boss_crusher.js"
 hash = "7a0312fb71963fd6cd50be83829a2396fea96b3b635061132aff342703c0d64c"
+
+[[files]]
+file = "kubejs/server_scripts/mods/modern_industrialization/canning_machine.js"
+hash = "d7d773083f419bd77439591cb99c923c52f2a5a6cb7f495a3fc2625ebd6d1654"
 
 [[files]]
 file = "kubejs/server_scripts/mods/modern_industrialization/centrifuge.js"
@@ -7386,7 +7446,7 @@ hash = "12d376d04d8795202543fe46959db8a88256eecc6bacd2cf5025097614dce48a"
 
 [[files]]
 file = "kubejs/server_scripts/mods/modern_industrialization/electrolyzer.js"
-hash = "de171327c8b66360a645ea5de04a67c15f91b473cd8f09779b84f19ccc21893e"
+hash = "7860ed1572511cbdecfb156818b26fca8f91d64441c4da2c2423b385dfb42c64"
 
 [[files]]
 file = "kubejs/server_scripts/mods/modern_industrialization/forge_hammer.js"
@@ -7418,7 +7478,7 @@ hash = "c1aa2f59be7048a42652b5837912a32cc2c47052a5210d1865c49e51abb89665"
 
 [[files]]
 file = "kubejs/server_scripts/mods/modern_industrialization/mixer.js"
-hash = "112fa335de2376ff3c98e0f2b5311007e20bbd2286c94084fbd8f49811bd5e73"
+hash = "6ccd1703e7a6804797a2716eba455e0c13c2f339b5e154870ae26ab1a78234dd"
 
 [[files]]
 file = "kubejs/server_scripts/mods/modern_industrialization/mob_crusher.js"
@@ -7474,7 +7534,7 @@ hash = "2edf7e5e32d6aded39d92ab89066c93ba63b857dbd06ef554c3d342ffb5b021b"
 
 [[files]]
 file = "kubejs/server_scripts/mods/modern_industrialization/vacuum_freezer.js"
-hash = "4630d3d72ed65005c0edf78ae0d0d1acb6cffa96db7ae2d10f19e66942e8c1e7"
+hash = "186f1abad4548312e91a5931b3bba8356c1caa4b647f980bfd47b26acec09161"
 
 [[files]]
 file = "kubejs/server_scripts/mods/modern_industrialization/wiremill.js"
@@ -7486,7 +7546,7 @@ hash = "d019f66294785a5833de0d269d5a5c735e41505ecdec3bcf8a0b27e2a0193745"
 
 [[files]]
 file = "kubejs/server_scripts/mods/morered.js"
-hash = "f191d2951d8ccb5c499b256008ac6cfb43f357c3a3d1f53f4962d09175524927"
+hash = "9d13fa7fe5cfc5dfe8b8ecca6149ddbc394e0b3cae5d3b2d35f3fec8432bc91e"
 
 [[files]]
 file = "kubejs/server_scripts/mods/nomansland.js"
@@ -7502,7 +7562,7 @@ hash = "96d04ca0c7fab1d273992f02cda9362294fceff7b89f5fd96ebc7fa2917b3362"
 
 [[files]]
 file = "kubejs/server_scripts/mods/sophisticatedstorage.js"
-hash = "cb3cafef6fb289f64a62e122d2b0eee5748433d94e18eaaf5bcf0f7f0b27b1b3"
+hash = "bebd99d4d7eb25ae23d05f54ca946b0c700bda0af4e56c92d2fe7309696e3309"
 
 [[files]]
 file = "kubejs/server_scripts/mods/spectrum.js"
@@ -7526,7 +7586,7 @@ hash = "98713f7e9e45e08ac06a4c9e6d1cd282dd6844e75689afaf4a96fe5bc9679d67"
 
 [[files]]
 file = "kubejs/server_scripts/recipe_helper.js"
-hash = "54f7ff2d8a004dbbba40505a3a2193d99a8a74a42b06185721d6f3885496e91e"
+hash = "b3a575dbe4590bda87bc0d58773a358d008859bd3c8d05cffdfdbb24da4ce0db"
 
 [[files]]
 file = "kubejs/server_scripts/silent_reload.js"
@@ -7598,7 +7658,7 @@ hash = "c052552a69347f35677cb931173f09c672b3d23a5c6092288315e02de76eaf1e"
 
 [[files]]
 file = "kubejs/startup_scripts/modern_industrialization/fluids.js"
-hash = "37248da00f0a36d4cd9855fc98277332705db0720d00717fd92dff969c0740c9"
+hash = "5499c13b6cc6676a984f8922c4814041a819917df24a73ce2ad226006a14446e"
 
 [[files]]
 file = "kubejs/startup_scripts/modern_industrialization/fuels.js"
@@ -7670,7 +7730,7 @@ hash = "301597109fa3ae965f5f74a42dd755e790a4c1c4769eaf0898d2de6875b3e25f"
 
 [[files]]
 file = "kubejs/startup_scripts/statech/blocks.js"
-hash = "4a56fe724768c251ffabf0b85f2459692a72e56199039f65c3948c0a1e8d56ac"
+hash = "b0babc37caa227500a04ee4972e17ec5f60a4283a29f23a6c087ac04202e0923"
 
 [[files]]
 file = "kubejs/startup_scripts/statech/coins.js"
@@ -7678,11 +7738,11 @@ hash = "174806abfc17ded2e2806e8f5fa56817e190fd8c4885056c6f54772a8d0ab256"
 
 [[files]]
 file = "kubejs/startup_scripts/statech/food.js"
-hash = "85676c46014b2a1699f8ce776657a9af71cbc55b107031ad2317613a2882eeba"
+hash = "d63f388dc453aa8bda6230a1de916bffe2274247616a97dbce60133d5a49a06c"
 
 [[files]]
 file = "kubejs/startup_scripts/statech/items.js"
-hash = "d88061e3a94f20a18d9f6f67ed9ecc6407320d7a859292bfd08e38245df8e0c9"
+hash = "24c586f5abc4777ddead11aa7ca77a9dd00394cc83f548c24290fe3a619df3cd"
 
 [[files]]
 file = "kubejs/startup_scripts/statech/mob_models.js"
