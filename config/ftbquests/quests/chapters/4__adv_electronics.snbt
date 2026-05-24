@@ -388,6 +388,7 @@
 				"48BF632D5B8F57B8"
 				"6B8AAE4292380FCC"
 			]
+			dependency_requirement: "one_completed"
 			id: "133E843DD991045A"
 			shape: "hexagon"
 			size: 3.0d

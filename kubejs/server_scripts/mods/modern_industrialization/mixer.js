@@ -36,55 +36,6 @@ ServerEvents.recipes(event => {
         [ { amount: 150, fluid: mi('salt_water') } ]
     );
 
-    // -- PICKLE -- //
-    // mixer(
-        // st('pickle'),
-        // 2,
-        // 600,
-        // [
-            // { amount: 1, item: cd('cucumber') },
-            // { amount: 2, item: mi('salt_dust') }
-        // ],
-        // [ { amount: 1, item: cd('pickle') } ],
-        // [ { amount: 100, fluid: mc('water') } ]
-    // );
-
-    // -- NUTRIENT RICH WATER -- //
-    mixer(
-        event,
-        st('nutrient_rich_water'),
-        8,
-        200,
-        [ { amount: 1, item: mc('bone_meal') } ],
-        null,
-        [ { amount: 100, fluid: mc('water') } ],
-        [ { amount: 200, fluid: mi('nutrient_rich_water') } ]
-    );
-
-    // -- NUTRIENT RICH LIQUID ENDER -- //
-    mixer(
-        event,
-        st('nutrient_rich_liquid_ender'),
-        8,
-        200,
-        [ { amount: 1, item: mc('bone_meal') } ],
-        null,
-        [ { amount: 100, fluid: mi('liquid_ender') } ],
-        [ { amount: 200, fluid: mi('nutrient_rich_liquid_ender') } ]
-    );
-
-    // -- NUTRIENT RICH BLOOD -- //
-    mixer(
-        event,
-        st('nutrient_rich_blood'),
-        8,
-        200,
-        [ { amount: 1, item: mc('bone_meal') } ],
-        null,
-        [ { amount: 100, fluid: mi('blood') } ],
-        [ { amount: 200, fluid: mi('nutrient_rich_blood') } ]
-    );
-
     // -- XP BERRY SEEDS -- //
     // mixer(
         // st('xp_berry_seeds'),
@@ -478,6 +429,65 @@ ServerEvents.recipes(event => {
         null,
         [ { amount: 125, fluid: mi('synthetic_rubber') } ]
     );
+
+    //----------------------------//
+    // -- EI FERTILIZER COMPAT -- //
+    //----------------------------//
+
+        const fertilizerEff = [
+        ['manure', 300],
+        ['composted_manure', 150],
+        ['npk_fertilizer', 30]
+    ];
+
+    fertilizerEff.forEach(fertilizer => {
+
+        // -- NUTRIENT RICH WATER -- //
+        mixer(
+            event,
+            st(`nutrient_rich_water_from_${fertilizer[0]}`),
+            8,
+            200,
+            null,
+            null,
+            [ 
+                { amount: 100, fluid: mc('water') },
+                { amount: fertilizer[1], fluid: ei(fertilizer[0]) }
+            ],
+            [ { amount: 200, fluid: mi('nutrient_rich_water') } ]
+        );
+
+        // -- NUTRIENT RICH BLOOD -- //
+        mixer(
+            event,
+            st(`nutrient_rich_blood_from_${fertilizer[0]}`),
+            8,
+            200,
+            null,
+            null,
+            [ 
+                { amount: 100, fluid: mi('blood') },
+                { amount: fertilizer[1], fluid: ei(fertilizer[0]) }
+            ],
+            [ { amount: 200, fluid: mi('nutrient_rich_blood') } ]
+        );
+
+        // -- NUTRIENT RICH LIQUID ENDER -- //
+        mixer(
+            event,
+            st(`nutrient_rich_liquid_ender_from_${fertilizer[0]}`),
+            8,
+            200,
+            null,
+            null,
+            [ 
+                { amount: 100, fluid: mi('liquid_ender') },
+                { amount: fertilizer[1], fluid: ei(fertilizer[0]) }
+            ],
+            [ { amount: 200, fluid: mi('nutrient_rich_liquid_ender') } ]
+        );
+
+    });
 
     // -- UTILITY FUNCTION FOR THE FOLLOWING FOREACH -- //
     // let mixerConsumable = (fluid, amount) => {
