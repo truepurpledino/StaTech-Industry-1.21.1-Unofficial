@@ -9,7 +9,7 @@ ServerEvents.recipes(event => {
 
     event.remove({type: mr('soldering')})
 
-    // -- MORE RED REMOVED REICPES -- //
+    // -- MORE RED REMOVED RECIPES -- //
     const MORERED_REMOVED_RECIPES = [
         mr('red_alloy_ingot'),
         mr('red_alloy_wire'),
@@ -23,7 +23,7 @@ ServerEvents.recipes(event => {
     //----------------------//
 
 
-    // RED ALLOY WIRE
+    // -- RED ALLOY WIRE -- //
     wiremill(
         event,
         st('red_alloy_wire'),
