@@ -1,0 +1,24 @@
+{
+  "values": [
+    "#c:raw_materials/antimony",
+    "#c:raw_materials/calorite",
+    "#c:raw_materials/cobalt",
+    "#c:raw_materials/corundum",
+    "#c:raw_materials/desh",
+    "#c:raw_materials/fluorite",
+    "#c:raw_materials/iridium",
+    "#c:raw_materials/kernite",
+    "#c:raw_materials/lead",
+    "#c:raw_materials/moon_ice",
+    "#c:raw_materials/nickel",
+    "#c:raw_materials/ostrum",
+    "#c:raw_materials/peridot",
+    "#c:raw_materials/platinum",
+    "#c:raw_materials/sapphire",
+    "#c:raw_materials/silver",
+    "#c:raw_materials/tin",
+    "#c:raw_materials/titanium",
+    "#c:raw_materials/tungsten",
+    "#c:raw_materials/uranium"
+  ]
+}

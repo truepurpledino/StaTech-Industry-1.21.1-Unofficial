@@ -333,4 +333,35 @@ MIRegistrationEvents.registerFluids(event => {
         false,          // is a gas?
         'medium'          // opacity
     );
+
+    // -- BORON TRIFLUORIDE -- //
+    event.register(
+        'Boron Trifluoride',
+        'boron_trifluoride',
+        0xe0ffe3,
+        'water',
+        true,
+        'full'
+    );
+
+    // -- DIBORANE -- //
+    event.register(
+        'Diborane',
+        'diborane',
+        0x88bf8e,
+        'water',
+        true,
+        'full'
+    );
+
+    // -- PENTABORANE -- //
+    event.register(
+        'Pentaborane',
+        'pentaborane',
+        0xafff5c,
+        'water',
+        false,
+        'medium'
+    );
+
 });

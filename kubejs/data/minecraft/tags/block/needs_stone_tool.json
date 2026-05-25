@@ -69,7 +69,6 @@
     "modern_industrialization:deepslate_corundum_ore",
     "modern_industrialization:deepslate_desh_ore",
     "modern_industrialization:deepslate_fluorite_ore",
-    "modern_industrialization:deepslate_iridium_ore",
     "modern_industrialization:deepslate_kernite_ore",
     "modern_industrialization:deepslate_lead_ore",
     "modern_industrialization:deepslate_lignite_coal_ore",
@@ -263,11 +262,13 @@
     "modern_industrialization:steel_water_pump",
     "modern_industrialization:steel_wiremill",
     "modern_industrialization:sulfur_block",
+    "modern_industrialization:supercomputer",
     "modern_industrialization:superconductor_coil",
     "modern_industrialization:superconductor_energy_input_hatch",
     "modern_industrialization:superconductor_energy_output_hatch",
     "modern_industrialization:superconductor_ev_transformer",
     "modern_industrialization:superconductor_storage_unit",
+    "modern_industrialization:telescope",
     "modern_industrialization:tin_block",
     "modern_industrialization:tin_ore",
     "modern_industrialization:titanium_barrel",
@@ -295,13 +296,6 @@
     "modern_industrialization:uranium_block",
     "modern_industrialization:uranium_ore",
     "modern_industrialization:vacuum_freezer",
-    "modern_industrialization:yttrium_block",
-    "mi_tweaks:large_chemical_reactor",
-    "mi_tweaks:large_scale_assembler",
-    "mi_tweaks:bulk_compactor",
-    "mi_tweaks:blast_alloy_smelter",
-    "mi_tweaks:industrial_mixing_machine",
-    "mi_tweaks:oversized_electrolysis_chamber",
-    "mi_tweaks:grand_mass_centrifuge"
+    "modern_industrialization:yttrium_block"
   ]
 }

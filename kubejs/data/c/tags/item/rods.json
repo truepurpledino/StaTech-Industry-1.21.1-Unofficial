@@ -1,0 +1,28 @@
+{
+  "values": [
+    "#c:rods/aluminum",
+    "#c:rods/bronze",
+    "#c:rods/cadmium",
+    "#c:rods/calorite",
+    "#c:rods/cobalt",
+    "#c:rods/copper",
+    "#c:rods/desh",
+    "#c:rods/enderium",
+    "#c:rods/gold",
+    "#c:rods/he_mox",
+    "#c:rods/he_uranium",
+    "#c:rods/invar",
+    "#c:rods/iron",
+    "#c:rods/le_mox",
+    "#c:rods/le_uranium",
+    "#c:rods/ostrum",
+    "#c:rods/polytetrafluoroethylene",
+    "#c:rods/stainless_steel",
+    "#c:rods/steel",
+    "#c:rods/tin",
+    "#c:rods/titanium",
+    "#c:rods/tungstensteel",
+    "#c:rods/uranium",
+    "#c:rods/zinc"
+  ]
+}
