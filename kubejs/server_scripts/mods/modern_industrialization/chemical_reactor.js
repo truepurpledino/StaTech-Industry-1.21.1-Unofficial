@@ -278,25 +278,13 @@ ServerEvents.recipes(event => {
         [ { amount: 700, fluid: mi('acrylonitrile_butadiene_styrene') } ]
     );
 
-    // -- PROPENE -- //
-    chemicalReactor(
-        event,
-        st('propene'),
-        16,
-        800,
-        [ { amount: 3, item: mi('carbon_dust')} ],
-        null,
-        [ { amount: 6000, fluid: mi('hydrogen') } ],
-        [ { amount: 1000, fluid: mi('propene') } ]
-    );
-
     // -- BORON TRIFLUORIDE -- //
     chemicalReactor(
         event,
         st('boron_trifluoride'),
         32,
         400,
-        [ { amount: 9, item: mi('boron_trioxide_dust')} ],
+        [ { amount: 1, item: mi('boron_trioxide_dust')} ],
         null,
         [ { amount: 6000, fluid: mi('hydrofluoric_acid') } ],
         [ 
@@ -311,8 +299,8 @@ ServerEvents.recipes(event => {
         st('diborane'),
         32,
         600,
-        [ { amount: 54, item: mi('lithium_hydride_dust')} ],
-        [ { amount: 54, item: mi('lithium_tetrafluoroborate_dust')} ],
+        [ { amount: 6, item: mi('lithium_hydride_dust')} ],
+        [ { amount: 6, item: mi('lithium_tetrafluoroborate_dust')} ],
         [ { amount: 8000, fluid: mi('boron_trifluoride') } ],
         [ { amount: 1000, fluid: mi('diborane') } ]
     );
@@ -324,7 +312,7 @@ ServerEvents.recipes(event => {
         8,
         200,
         null,
-        [ { amount: 9, item: mi('lithium_hydride_dust')} ],
+        [ { amount: 1, item: mi('lithium_hydride_dust')} ],
         [ 
             { amount: 1000, fluid: mi('lithium') },
             { amount: 1000, fluid: mi('hydrogen') },
@@ -337,7 +325,7 @@ ServerEvents.recipes(event => {
         st('lithium_hydride_decompose'),
         8,
         100,
-        [ { amount: 9, item: mi('lithium_hydride_dust') } ],
+        [ { amount: 1, item: mi('lithium_hydride_dust') } ],
         null,
         [ { amount: 1500, fluid: mc('water') } ],
         [ 
@@ -354,11 +342,23 @@ ServerEvents.recipes(event => {
         8,
         200,
         null,
-        [ { amount: 9, item: mi('lithium_fluoride_dust')} ],
+        [ { amount: 1, item: mi('lithium_fluoride_dust')} ],
         [ 
             { amount: 1000, fluid: mi('lithium') },
             { amount: 1000, fluid: mi('fluorine') },
         ]
+    );
+
+    // -- PROPENE -- //
+    chemicalReactor(
+        event,
+        st('propene'),
+        16,
+        800,
+        [ { amount: 3, item: mi('carbon_dust')} ],
+        null,
+        [ { amount: 6000, fluid: mi('hydrogen') } ],
+        [ { amount: 1000, fluid: mi('propene') } ]
     );
 
 });

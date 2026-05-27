@@ -171,7 +171,7 @@ ServerEvents.recipes(event => {
         st('lithium_fluoride_decompose'),
         16,
         800,
-        [ { amount: 9, item: mi('lithium_fluoride_dust') } ],
+        [ { amount: 1, item: mi('lithium_fluoride_dust') } ],
         null,
         null,
         [ 
