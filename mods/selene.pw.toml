@@ -1,13 +1,13 @@
 name = "Moonlight Lib"
-filename = "moonlight-1.21-2.29.30-neoforge.jar"
+filename = "moonlight-neoforge-1.21.1-3.0.14.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "0ad16c0e550d5d2b4f42da3de5013039adc720f5"
+hash = "a865d9a00a595038d35b908c42565930189be68a"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7918153
+file-id = 8129552
 project-id = 499980

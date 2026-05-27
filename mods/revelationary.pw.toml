@@ -1,13 +1,13 @@
 name = "Revelationary"
-filename = "revelationary-neoforge-1.4.1+1.21.1.jar"
+filename = "revelationary-neoforge-1.4.2+1.21.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "7e54917c6bdf638719c25f4901876ad2929bfd18"
+hash = "76064576f092fc6e9f763b5191ea8db2be883f6d"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7827351
+file-id = 8114739
 project-id = 656526

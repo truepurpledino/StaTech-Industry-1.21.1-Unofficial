@@ -36,20 +36,44 @@ ServerEvents.recipes(event => {
         [ { amount: 150, fluid: mi('salt_water') } ]
     );
 
-    // -- XP BERRY SEEDS -- //
-    // mixer(
-        // st('xp_berry_seeds'),
-        // 8,
-        // 200,
-        // [ 
-            // { amount: 1, item: xp('soul_copper_nugget') },
-            // { amount: 1, item: mc('amethyst_shard') },
-            // { amount: 4, tag: 'xps:seeds_list' },
-            // { amount: 2, item: mc('nether_wart') }
-        // ],
-        // [ { amount: 6, item: xp('xp_berries_seeds') } ],
-        // [ { amount: 1000, fluid: xp('xp_fluid') } ]
-    // );
+    // -- MOSSY COBBLESTONE -- //
+    mixer(
+        event,
+        st('mossy_cobblestone'),
+        2,
+        200,
+        [ 
+            { amount: 1, item: mc('cobblestone') },
+            { amount: 1, item: mc('moss_block') }
+        ],
+        [ { amount: 1, item: mc('mossy_cobblestone') } ]
+    );
+
+    // -- MOSSY COBBLESTONE FROM VINE -- //
+    mixer(
+        event,
+        st('mossy_cobblestone_vine'),
+        2,
+        200,
+        [ 
+            { amount: 1, item: mc('cobblestone') },
+            { amount: 1, item: mc('vine') }
+        ],
+        [ { amount: 1, item: mc('mossy_cobblestone') } ]
+    );
+
+    // -- MOSSY COBBLESTONE FROM NML -- //
+    mixer(
+        event,
+        st('mossy_cobblestone_nml'),
+        2,
+        200,
+        [ 
+            { amount: 1, item: mc('cobblestone') },
+            { amount: 4, tag: 'nomansland:alternative_moss' }
+        ],
+        [ { amount: 1, item: mc('mossy_cobblestone') } ]
+    );
 
     // -- LIQUID EXPERIENCE -- //
     mixer(

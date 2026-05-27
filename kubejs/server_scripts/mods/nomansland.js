@@ -59,7 +59,7 @@ ServerEvents.recipes(event => {
         '#c:drinks/milk',
         '#c:foods/dough',
         mc('egg'),
-        '#supplementaries:syrup'
+        '#supplementaries:pancake_syrup'
     ])
     .id(st('pancake'));
 
@@ -155,5 +155,187 @@ ServerEvents.recipes(event => {
     }
     })
     .id(st('salmon_and_pesto_gnocchi'));
+
+    //-----------------//
+    // ---- MIXER ---- //
+    //-----------------//
+
+    // -- MUNDANE TILES -- //
+    mixer(
+        event,
+        st('mundane_tiles'),
+        2,
+        200,
+        [ 
+            { amount: 2, item: nm('cobblestone_bricks') },
+            { amount: 2, item: mc('white_terracotta') }
+        ],
+        [ { amount: 4, item: nm('mundane_tiles') } ]
+    );
+
+    // -- SILTSTONE -- //
+    mixer(
+        event,
+        st('siltstone'),
+        2,
+        200,
+        [ 
+            { amount: 2, item: nm('silt') },
+            { amount: 2, item: mc('andesite') }
+        ],
+        [ { amount: 3, item: nm('siltstone') } ]
+    );
+
+    // -- COARSE BRICKS -- //
+    mixer(
+        event,
+        st('coarse_bricks'),
+        2,
+        200,
+        [ 
+            { amount: 2, item: mc('coarse_dirt') },
+            { amount: 2, item: mc('brick') }
+        ],
+        [ { amount: 2, item: nm('coarse_bricks') } ]
+    );
+
+    // -- MOSSY COARSE BRICKS -- //
+    mixer(
+        event,
+        st('mossy_coarse_bricks'),
+        2,
+        200,
+        [ 
+            { amount: 1, item: nm('coarse_bricks') },
+            { amount: 1, item: mc('moss_block') }
+        ],
+        [ { amount: 1, item: nm('mossy_coarse_bricks') } ]
+    );
+
+    // -- MOSSY COARSE BRICKS FROM VINE -- //
+    mixer(
+        event,
+        st('mossy_coarse_bricks_vine'),
+        2,
+        200,
+        [ 
+            { amount: 1, item: nm('coarse_bricks') },
+            { amount: 1, item: mc('vine') }
+        ],
+        [ { amount: 1, item: nm('mossy_coarse_bricks') } ]
+    );
+
+    // -- MOSSY COARSE BRICKS FROM NML -- //
+    mixer(
+        event,
+        st('mossy_coarse_bricks_nml'),
+        2,
+        200,
+        [ 
+            { amount: 1, item: nm('coarse_bricks') },
+            { amount: 4, tag: 'nomansland:alternative_moss' }
+        ],
+        [ { amount: 1, item: nm('mossy_coarse_bricks') } ]
+    );
+
+    // -- EARTHEN TILES -- //
+    mixer(
+        event,
+        st('mundane_tiles'),
+        2,
+        200,
+        [ 
+            { amount: 2, item: mc('packed_mud') },
+            { amount: 2, item: mc('terracotta') }
+        ],
+        [ { amount: 4, item: nm('earthen_tiles') } ]
+    );
+
+    // -- DROSS TILES -- //
+    mixer(
+        event,
+        st('dross_tiles'),
+        2,
+        200,
+        [ 
+            { amount: 2, item: mc('polished_tuff') },
+            { amount: 2, item: nm('silt') }
+        ],
+        [ { amount: 4, item: nm('dross_tiles') } ]
+    );
+
+    // -- SILT -- //
+    mixer(
+        event,
+        st('silt'),
+        2,
+        200,
+        [ 
+            { amount: 2, item: mc('clay_ball') },
+            { amount: 2, item: mc('mud') }
+        ],
+        [ { amount: 3, item: nm('silt') } ]
+    );
+
+    // -- COARSE SILT -- //
+    mixer(
+        event,
+        st('coarse_silt'),
+        2,
+        200,
+        [ 
+            { amount: 2, item: nm('silt') },
+            { amount: 2, item: mc('gravel') }
+        ],
+        [ { amount: 4, item: nm('coarse_silt') } ]
+    );
+
+    //---------------------------//
+    // ---- CUTTING MACHINE ---- //
+    //---------------------------//
+
+    // -- CHISELED SILTSTONE -- //
+    cuttingMachine(
+        event,
+        st('chiseled_siltstone'),
+        2,
+        200,
+        [ { amount: 1, item: nm('polished_siltstone') } ],
+        [ { amount: 1, item: nm('chiseled_siltstone') } ]
+    );
+
+    //------------------//
+    // ---- PACKER ---- //
+    //------------------//
+
+    // -- SILT BRICKS -- //
+    packer(
+        event,
+        st('silt_bricks'),
+        2,
+        100,
+        [ { amount: 4, item: nm('silt') } ],
+        [ { amount: 4, item: nm('silt_bricks') } ]
+    );
+
+    // -- THATCH -- //
+    packer(
+        event,
+        st('thatch'),
+        2,
+        100,
+        [ { amount: 4, item: nm('dried_grass') } ],
+        [ { amount: 3, item: nm('thatch') } ]
+    );
+
+    // -- THATCH ALT -- //
+    packer(
+        event,
+        st('thatch_alt'),
+        2,
+        100,
+        [ { amount: 4, item: mc('wheat') } ],
+        [ { amount: 2, item: nm('thatch') } ]
+    );
 
 });
