@@ -278,4 +278,18 @@ ServerEvents.recipes(event => {
         [ { amount: 700, fluid: mi('acrylonitrile_butadiene_styrene') } ]
     );
 
+    // -- PROPENE -- //
+    chemicalReactor(
+        event,
+        st('propene'),
+        16,
+        800,
+        [ { amount: 3, item: mi('carbon_dust')} ],
+        null,
+        [ 
+            { amount: 6000, fluid: mi('hydrogen') },
+            { amount: 1000, fluid: mi('propene') },
+        ]
+    );
+
 });
