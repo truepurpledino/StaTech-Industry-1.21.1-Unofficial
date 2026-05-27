@@ -286,10 +286,8 @@ ServerEvents.recipes(event => {
         800,
         [ { amount: 3, item: mi('carbon_dust')} ],
         null,
-        [ 
-            { amount: 6000, fluid: mi('hydrogen') },
-            { amount: 1000, fluid: mi('propene') },
-        ]
+        [ { amount: 6000, fluid: mi('hydrogen') } ],
+        [ { amount: 1000, fluid: mi('propene') } ]
     );
 
 });
