@@ -303,5 +303,15 @@ ServerEvents.recipes(event => {
         [ { amount: 1, item: ae('quartz_block') } ]
     );
 
+    // -- ROCKY DIRT -- //
+    packer(
+        event,
+        st('rocky_dirt'),
+        2,
+        100,
+        [ { amount: 4, item: mc('dirt') } ],
+        [ { amount: 4, item: db('rocky_dirt') } ]
+    );
+
 
 })

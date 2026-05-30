@@ -34,7 +34,7 @@ ServerEvents.recipes(event => {
         st('pizza_dough'),
         2,
         200,
-        [ { amount: 1, tag: 'c:doughs' } ],
+        [ { amount: 1, tag: 'c:foods/dough' } ],
         [ { amount: 1, item: kj('pizza_dough') } ]
     );
 

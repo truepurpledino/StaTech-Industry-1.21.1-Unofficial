@@ -14,11 +14,16 @@ ServerEvents.recipes(event => {
         mi('assembler_generated/steam_age/bronze/furnace'),
         mi('assembler_generated/steam_age/bronze/boiler'),
         mi('assembler_generated/electric_age/component/craft/op_amp'),
-/*         mi('assembler_generated/electric_age/battery/lv_battery'),
+/*      mi('assembler_generated/electric_age/battery/lv_battery'),
         mi('assembler_generated/electric_age/battery/silicon_battery'), */
         mi('assembler_generated/electric_age/battery/sodium_battery'),
         mi('assembler_generated/electric_age/battery/cadmium_battery'),
         mi('assembler_generated/electric_age/battery/plutonium_battery'),
+        mi('assembler_generated/electric_age/component/craft/diode_doped'),
+        mi('materials/stainless_steel/assembler/tank'),
+        mi('materials/titanium/assembler/tank'),
+        mi('materials/tungstensteel/assembler/tank'),
+        mi('electric_age/component/craft/diode_doped_asbl'),
         mi('machines/machine_chainer/assembler'),
         io('machines/pyrolyse_oven/assembler'),
         ei('tool/assembler/tesla_handheld_receiver')/* ,
@@ -29,7 +34,7 @@ ServerEvents.recipes(event => {
         mi('materials/le_mox/assembler/fuel_rod') */
     ];
     REMOVED_RECIPE.forEach(id => event.remove({id: id}));
-    
+
     // -- LARGE STEAM MACERATOR -- //
     assembler(
         event,
@@ -43,6 +48,76 @@ ServerEvents.recipes(event => {
             { amount: 1, item: mi('steel_machine_casing') }
         ],
         [ { amount: 1, item: ei('large_steam_macerator') } ]
+    );
+
+    // -- CORE MINING DRILL -- //
+    assembler(
+        event,
+        st('core_mining_drill'),
+        8,
+        200,
+        [
+            { amount: 3, item: mi('clean_stainless_steel_machine_casing') },
+            { amount: 2, item: mi('quantum_circuit') },
+            { amount: 2, item: mi('large_advanced_motor') },
+            { amount: 1, item: mi('quantum_machine_hull') },
+            { amount: 1, item: mi('desh_drill_head') }
+        ],
+        [ { amount: 1, item: mi('core_drill') } ]
+    );
+
+    // -- DOPED DIODE -- //
+    assembler(
+        event,
+        st('diode_doped'),
+        8,
+        200,
+        [
+            { amount: 1, item: mi('silicon_n_doped_plate') },
+            { amount: 3, item: mi('electrum_fine_wire') },
+            { amount: 2, item: mi('steel_plate') }
+        ],
+        [ { amount: 2, item: mi('diode') } ],
+        [ { amount: 125, fluid: mi('molten_borosilicate_glass') } ],
+    );
+
+    // -- STAINLESS STEEL TANK -- //
+    assembler(
+        event,
+        st('stainless_steel_tank'),
+        8,
+        200,
+        [
+            { amount: 8, item: mi('stainless_steel_plate') },
+            { amount: 1, item: kj('borosilicate_glass') }
+        ],
+        [ { amount: 1, item: mi('stainless_steel_tank') } ]
+    );
+
+    // -- TITANIUM TANK -- //
+    assembler(
+        event,
+        st('titanium_tank'),
+        8,
+        200,
+        [
+            { amount: 8, item: mi('titanium_plate') },
+            { amount: 1, item: kj('borosilicate_glass') }
+        ],
+        [ { amount: 1, item: mi('titanium_tank') } ]
+    );
+
+    // -- TUNGSTENSTEEL TANK -- //
+    assembler(
+        event,
+        st('tungstensteel_tank'),
+        8,
+        200,
+        [
+            { amount: 8, item: mi('tungstensteel_plate') },
+            { amount: 1, item: kj('borosilicate_glass') }
+        ],
+        [ { amount: 1, item: mi('tungstensteel_tank') } ]
     );
 
     // -- LENS MOLD -- //
@@ -1166,7 +1241,7 @@ ServerEvents.recipes(event => {
             { amount: 1, item: mi('calorite_machine_casing') },
             { amount: 6, item: mi('calorite_curved_plate')}
         ],
-        [ { amount: 1, item: mi('calorite_machine_casing_pipe')} ]
+        [ { amount: 2, item: mi('calorite_machine_casing_pipe')} ]
     );
 
     // -- DESH MACHINE CASING -- //
@@ -1192,7 +1267,7 @@ ServerEvents.recipes(event => {
             { amount: 1, item: mi('desh_machine_casing') },
             { amount: 6, item: mi('desh_curved_plate')}
         ],
-        [ { amount: 1, item: mi('desh_machine_casing_pipe')} ]
+        [ { amount: 2, item: mi('desh_machine_casing_pipe')} ]
     );
 
     // -- ENDERIUM MACHINE CASING -- //
@@ -1244,7 +1319,7 @@ ServerEvents.recipes(event => {
             { amount: 1, item: mi('ostrum_machine_casing') },
             { amount: 6, item: mi('ostrum_curved_plate')}
         ],
-        [ { amount: 1, item: mi('ostrum_machine_casing_pipe')} ]
+        [ { amount: 2, item: mi('ostrum_machine_casing_pipe')} ]
     );
 
     // -- REDSTONE REPEATER -- //
@@ -1585,19 +1660,6 @@ ServerEvents.recipes(event => {
     //---------------------//
     // -- CREATE COMPAT -- //
     //---------------------//
-
-    // -- ELECTRON TUBE -- //
-    assembler(
-        event,
-        st('electron_tube'),
-        8,
-        100,
-        [
-            { amount: 1, item: mi('iron_plate') },
-            { amount: 1, item: cr('polished_rose_quartz') }
-        ],
-        [ { amount: 1, item: cr('electron_tube') } ],
-    );  
 
     // -- ELECTRON TUBE -- //
     assembler(

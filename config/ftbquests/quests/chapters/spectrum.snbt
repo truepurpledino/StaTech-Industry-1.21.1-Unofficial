@@ -3014,5 +3014,16 @@
 			x: 7.0d
 			y: 24.0d
 		}
+		{
+			dependencies: ["6924E189ABFBD718"]
+			id: "310B937055E9D82A"
+			tasks: [{
+				id: "2DCDAE00C89E807D"
+				item: { count: 1, id: "gag:hearthstone" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.5d
+		}
 	]
 }

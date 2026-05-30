@@ -4,10 +4,11 @@
 	filename: "utilities"
 	group: "109C2F5A861C0A8B"
 	id: "1ABCCB5C8BC2FE1D"
-	order_index: 5
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["1BF78FD92C018648"]
 			id: "4901BE91F31B97A6"
 			rewards: [{
 				id: "58086095725027D4"
@@ -53,6 +54,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["323919C5F7774E1B"]
 			id: "2C84E1C3D7590A49"
 			rewards: [{
 				id: "5F35E74B33655831"
@@ -195,6 +197,120 @@
 			}]
 			x: 0.5d
 			y: 0.0d
+		}
+		{
+			dependencies: ["6924E189ABFBD718"]
+			id: "16FC60FF6E3A4517"
+			rewards: [{
+				id: "0AE82ADF8734D152"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "285E70CB40152E49"
+				item: { count: 1, id: "gag:hearthstone" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["16FC60FF6E3A4517"]
+			id: "61338F12FD704583"
+			rewards: [{
+				id: "6725AC59F16A5311"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "20EB28D7AFB9483C"
+				item: { count: 1, id: "gag:energized_hearthstone" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			id: "5BE4985239D91BCF"
+			rewards: [{
+				id: "694C5A88C6927000"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "28808BC1CD2BD976"
+				item: { count: 1, id: "gag:no_solicitors" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0799245700C72434"]
+			id: "36EAA6206EE33B60"
+			rewards: [{
+				id: "067B10BD42560679"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7C78164E19309FCA"
+				item: { count: 1, id: "gag:labeling_tool" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			id: "7B47A1F9B622525C"
+			rewards: [{
+				id: "20B5ECFB2AE3E00C"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "36D0624EE623394D"
+				item: { count: 1, id: "gag:sacred_salt" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7B47A1F9B622525C"]
+			id: "1F2B88F101C46C2C"
+			rewards: [{
+				id: "24B8F79DC266E4AC"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "05C3BCCEC230149A"
+				item: { count: 1, id: "gag:sacred_salve" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"7B47A1F9B622525C"
+				"1F2B88F101C46C2C"
+			]
+			dependency_requirement: "one_completed"
+			id: "469E0602F05C71AA"
+			rewards: [{
+				id: "569160358C4C84F9"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "67142D3E32FEAE45"
+				item: { count: 1, id: "gag:sacred_balm" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.0d
 		}
 	]
 }

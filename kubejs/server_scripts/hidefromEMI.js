@@ -59,4 +59,23 @@ RecipeViewerEvents.removeEntriesCompletely('item', event => {
         mr('soldering_table'),
     ];
     UNUSED_MORE_RED.forEach(id => event.remove(id));
+
+    const UNUSED_NML = [
+        nm('pancake'),
+    ];
+    UNUSED_NML.forEach(id => event.remove(id));
+
+    const UNUSED_FD = [
+        fd('wheat_dough'),
+        ed('salt'),
+        ed('salt_ore'),
+        ed('deepslate_salt_ore'),
+        ed('salt_rock')
+    ];
+    UNUSED_FD.forEach(id => event.remove(id));
+
+    const UNUSED_GAG = [
+        gag('pigment_jar')
+    ];
+    UNUSED_GAG.forEach(id => event.remove(id));
 });

@@ -1,13 +1,13 @@
 name = "No Mans Land"
-filename = "nomansland-1.4.6.jar"
+filename = "nomansland-1.5.4.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "f1ed8abdbcc28e04abe093837f1864a75bed3382"
+hash = "cb0add92e0b9ea3113dab8e36364ee0ce7cf26fc"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7333863
+file-id = 8164811
 project-id = 538493

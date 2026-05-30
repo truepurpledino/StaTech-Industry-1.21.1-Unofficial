@@ -323,4 +323,14 @@ MIRegistrationEvents.registerFluids(event => {
         false,
         'high'
     );
+
+    // -- MOLTEN BOROSILICATE GLASS -- //
+    event.register(
+        'Molten Borosilicate Glass',     // English name
+        'molten_borosilicate_glass',     // internal name
+        0xb7e9eb,       // Hex color code
+        'lava',         // Texture type
+        false,          // is a gas?
+        'medium'          // opacity
+    );
 });

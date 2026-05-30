@@ -48,3 +48,8 @@ let fd = (id) => `farmersdelight:${id}`;
 let xt = (id) => `xtonesreworked:${id}`;
 let ap = (id) => `architects_palette:${id}`;
 let fb = (id) => `framedblocks:${id}`;
+let db = (id) => `decorative_blocks:${id}`;
+let lu = (id) => `luminax:${id}`;
+let ip = (id) => `industrially_plated:${id}`;
+let id = (id) => `iden_decor:${id}`;
+let sl = (id) => `simplylight:${id}`;

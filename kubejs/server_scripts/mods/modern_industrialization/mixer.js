@@ -36,69 +36,44 @@ ServerEvents.recipes(event => {
         [ { amount: 150, fluid: mi('salt_water') } ]
     );
 
-    // -- PICKLE -- //
-    // mixer(
-        // st('pickle'),
-        // 2,
-        // 600,
-        // [
-            // { amount: 1, item: cd('cucumber') },
-            // { amount: 2, item: mi('salt_dust') }
-        // ],
-        // [ { amount: 1, item: cd('pickle') } ],
-        // [ { amount: 100, fluid: mc('water') } ]
-    // );
-
-    // -- NUTRIENT RICH WATER -- //
+    // -- MOSSY COBBLESTONE -- //
     mixer(
         event,
-        st('nutrient_rich_water'),
-        8,
+        st('mossy_cobblestone'),
+        2,
         200,
-        [ { amount: 1, item: mc('bone_meal') } ],
-        null,
-        [ { amount: 100, fluid: mc('water') } ],
-        [ { amount: 200, fluid: mi('nutrient_rich_water') } ]
+        [ 
+            { amount: 1, item: mc('cobblestone') },
+            { amount: 1, item: mc('moss_block') }
+        ],
+        [ { amount: 1, item: mc('mossy_cobblestone') } ]
     );
 
-    // -- NUTRIENT RICH LIQUID ENDER -- //
+    // -- MOSSY COBBLESTONE FROM VINE -- //
     mixer(
         event,
-        st('nutrient_rich_liquid_ender'),
-        8,
+        st('mossy_cobblestone_vine'),
+        2,
         200,
-        [ { amount: 1, item: mc('bone_meal') } ],
-        null,
-        [ { amount: 100, fluid: mi('liquid_ender') } ],
-        [ { amount: 200, fluid: mi('nutrient_rich_liquid_ender') } ]
+        [ 
+            { amount: 1, item: mc('cobblestone') },
+            { amount: 1, item: mc('vine') }
+        ],
+        [ { amount: 1, item: mc('mossy_cobblestone') } ]
     );
 
-    // -- NUTRIENT RICH BLOOD -- //
+    // -- MOSSY COBBLESTONE FROM NML -- //
     mixer(
         event,
-        st('nutrient_rich_blood'),
-        8,
+        st('mossy_cobblestone_nml'),
+        2,
         200,
-        [ { amount: 1, item: mc('bone_meal') } ],
-        null,
-        [ { amount: 100, fluid: mi('blood') } ],
-        [ { amount: 200, fluid: mi('nutrient_rich_blood') } ]
+        [ 
+            { amount: 1, item: mc('cobblestone') },
+            { amount: 4, tag: 'nomansland:alternative_moss' }
+        ],
+        [ { amount: 1, item: mc('mossy_cobblestone') } ]
     );
-
-    // -- XP BERRY SEEDS -- //
-    // mixer(
-        // st('xp_berry_seeds'),
-        // 8,
-        // 200,
-        // [ 
-            // { amount: 1, item: xp('soul_copper_nugget') },
-            // { amount: 1, item: mc('amethyst_shard') },
-            // { amount: 4, tag: 'xps:seeds_list' },
-            // { amount: 2, item: mc('nether_wart') }
-        // ],
-        // [ { amount: 6, item: xp('xp_berries_seeds') } ],
-        // [ { amount: 1000, fluid: xp('xp_fluid') } ]
-    // );
 
     // -- LIQUID EXPERIENCE -- //
     mixer(
@@ -163,17 +138,6 @@ ServerEvents.recipes(event => {
         ],
         [ { amount: 1, item: kj('greg_cola') } ],
         [ { amount: 100, fluid: mi('polytetrafluoroethylene') } ]
-    );
-
-    // -- SULFURIC ACID BOTTLE -- //
-    mixer(
-        event,
-        st('sulfuric_acid_bottle'),
-        8,
-        200,
-        [ { amount: 1, item: mc('glass_bottle') } ],
-        [ { amount: 1, item: kj('sulfuric_acid_bottle') } ],
-        [ { amount: 100, fluid: mi('sulfuric_acid') } ]
     );
 
     // -- URANIUM CEREAL -- //
@@ -274,10 +238,11 @@ ServerEvents.recipes(event => {
         2,
         100,
         [
-            { amount: 2, tag: 'c:dusts/boron' },
-            { amount: 4, tag: 'c:dusts/quartz' }
+            { amount: 4, tag: 'c:dusts/boron' },
+            { amount: 8, tag: 'c:dusts/quartz' },
+            { amount: 1, tag: 'c:tiny_dusts/aluminum' }
         ],
-        [ { amount: 6, item: kj('boron_quartz_blend') } ]
+        [ { amount: 12, item: kj('boron_quartz_blend') } ]
     ); 
 
     // -- CERTUS QUARTS CRYSTAL -- //
@@ -464,6 +429,124 @@ ServerEvents.recipes(event => {
             { amount: 1, item: mc('coal') }
         ],
         [ { amount: 2, item: ea('quartz_blend') } ]
+    );
+
+    // -- RESIN -- //
+    mixer(
+        event,
+        st('resin'),
+        4,
+        600,
+        [ { amount: 2, item: mi('sulfur_tiny_dust') } ],
+        [ { amount: 2, item: nm('resin') } ],
+        [ { amount: 125, fluid: mi('wood_tar') } ]
+    );
+
+    // -- SYNTHETIC RUBBER ALT -- //
+    mixer(
+        event,
+        st('synthetic_rubber_alt'),
+        4,
+        200,
+        [ { amount: 1, item: nm('resin') } ],
+        null,
+        null,
+        [ { amount: 125, fluid: mi('synthetic_rubber') } ]
+    );
+
+    //----------------------------//
+    // -- EI FERTILIZER COMPAT -- //
+    //----------------------------//
+
+        const fertilizerEff = [
+        ['manure', 300],
+        ['composted_manure', 150],
+        ['npk_fertilizer', 30]
+    ];
+
+    fertilizerEff.forEach(fertilizer => {
+
+        // -- NUTRIENT RICH WATER -- //
+        mixer(
+            event,
+            st(`nutrient_rich_water_from_${fertilizer[0]}`),
+            8,
+            200,
+            null,
+            null,
+            [ 
+                { amount: 100, fluid: mc('water') },
+                { amount: fertilizer[1], fluid: ei(fertilizer[0]) }
+            ],
+            [ { amount: 200, fluid: mi('nutrient_rich_water') } ]
+        );
+
+        // -- NUTRIENT RICH BLOOD -- //
+        mixer(
+            event,
+            st(`nutrient_rich_blood_from_${fertilizer[0]}`),
+            8,
+            200,
+            null,
+            null,
+            [ 
+                { amount: 100, fluid: mi('blood') },
+                { amount: fertilizer[1], fluid: ei(fertilizer[0]) }
+            ],
+            [ { amount: 200, fluid: mi('nutrient_rich_blood') } ]
+        );
+
+        // -- NUTRIENT RICH LIQUID ENDER -- //
+        mixer(
+            event,
+            st(`nutrient_rich_liquid_ender_from_${fertilizer[0]}`),
+            8,
+            200,
+            null,
+            null,
+            [ 
+                { amount: 100, fluid: mi('liquid_ender') },
+                { amount: fertilizer[1], fluid: ei(fertilizer[0]) }
+            ],
+            [ { amount: 200, fluid: mi('nutrient_rich_liquid_ender') } ]
+        );
+
+    });
+
+        // -- NUTRIENT RICH WATER -- //
+    mixer(
+        event,
+        st('nutrient_rich_water_from_bonemeal'),
+        8,
+        200,
+        [ { amount: 1, item: mc('bone_meal') } ],
+        null,
+        [ { amount: 100, fluid: mc('water') } ],
+        [ { amount: 100, fluid: mi('nutrient_rich_water') } ]
+    );
+
+    // -- NUTRIENT RICH LIQUID ENDER -- //
+    mixer(
+        event,
+        st('nutrient_rich_liquid_ender_from_bonemeal'),
+        8,
+        200,
+        [ { amount: 1, item: mc('bone_meal') } ],
+        null,
+        [ { amount: 100, fluid: mi('liquid_ender') } ],
+        [ { amount: 100, fluid: mi('nutrient_rich_liquid_ender') } ]
+    );
+
+    // -- NUTRIENT RICH BLOOD -- //
+    mixer(
+        event,
+        st('nutrient_rich_blood_from_bonemeal'),
+        8,
+        200,
+        [ { amount: 1, item: mc('bone_meal') } ],
+        null,
+        [ { amount: 100, fluid: mi('blood') } ],
+        [ { amount: 100, fluid: mi('nutrient_rich_blood') } ]
     );
 
     // -- UTILITY FUNCTION FOR THE FOLLOWING FOREACH -- //

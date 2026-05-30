@@ -23,7 +23,8 @@ ServerEvents.recipes(event => {
         ss('pump_upgrade'),
         ss('xp_pump_upgrade'),
         ss('advanced_pump_upgrade'),
-        ss('feeding_upgrade')
+        ss('feeding_upgrade'),
+        ss('backpack_feeding_upgrade_from_storage_feeding_upgrade')
     ];
     SOPH_DELETED.forEach(id => event.remove({ id: id })); 
 

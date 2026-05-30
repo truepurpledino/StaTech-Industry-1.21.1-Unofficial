@@ -131,4 +131,30 @@ ServerEvents.recipes(event => {
             [ { amount: 6, item: sp(`${noxwood}wood_planks`) } ]
         );
     });
+
+    // -- WOOD BEAMS -- //
+    const woodBeams = ['mangrove', 'oak', 'cherry', 'dark_oak', 'jungle', 'acacia', 'birch', 'spruce'];
+    woodBeams.forEach(wood => {
+        cuttingMachine(
+            event,
+            st(`${wood}_beam`),
+            2,
+            100,
+            [ { amount: 1, item: mc(`stripped_${wood}_log`) } ],
+            [ { amount: 1, item: db(`${wood}_beam`) } ]
+        );
+    });
+
+    // -- WOOD BEAMS NETHER -- //
+    const woodBeamsNether = ['warped', 'crimson'];
+    woodBeamsNether.forEach(wood => {
+        cuttingMachine(
+            event,
+            st(`${wood}_beam`),
+            2,
+            100,
+            [ { amount: 1, item: mc(`stripped_${wood}_stem`) } ],
+            [ { amount: 1, item: db(`${wood}_beam`) } ]
+        );
+    });
 });
