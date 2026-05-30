@@ -439,7 +439,7 @@ ServerEvents.recipes(event => {
         600,
         [ { amount: 2, item: mi('sulfur_tiny_dust') } ],
         [ { amount: 2, item: nm('resin') } ],
-        [ { amount: 250, fluid: mi('wood_tar') } ]
+        [ { amount: 125, fluid: mi('wood_tar') } ]
     );
 
     // -- SYNTHETIC RUBBER ALT -- //
@@ -447,7 +447,7 @@ ServerEvents.recipes(event => {
         event,
         st('synthetic_rubber_alt'),
         4,
-        400,
+        200,
         [ { amount: 1, item: nm('resin') } ],
         null,
         null,
@@ -512,6 +512,42 @@ ServerEvents.recipes(event => {
         );
 
     });
+
+        // -- NUTRIENT RICH WATER -- //
+    mixer(
+        event,
+        st('nutrient_rich_water_from_bonemeal'),
+        8,
+        200,
+        [ { amount: 1, item: mc('bone_meal') } ],
+        null,
+        [ { amount: 100, fluid: mc('water') } ],
+        [ { amount: 100, fluid: mi('nutrient_rich_water') } ]
+    );
+
+    // -- NUTRIENT RICH LIQUID ENDER -- //
+    mixer(
+        event,
+        st('nutrient_rich_liquid_ender_from_bonemeal'),
+        8,
+        200,
+        [ { amount: 1, item: mc('bone_meal') } ],
+        null,
+        [ { amount: 100, fluid: mi('liquid_ender') } ],
+        [ { amount: 100, fluid: mi('nutrient_rich_liquid_ender') } ]
+    );
+
+    // -- NUTRIENT RICH BLOOD -- //
+    mixer(
+        event,
+        st('nutrient_rich_blood_from_bonemeal'),
+        8,
+        200,
+        [ { amount: 1, item: mc('bone_meal') } ],
+        null,
+        [ { amount: 100, fluid: mi('blood') } ],
+        [ { amount: 100, fluid: mi('nutrient_rich_blood') } ]
+    );
 
     // -- UTILITY FUNCTION FOR THE FOLLOWING FOREACH -- //
     // let mixerConsumable = (fluid, amount) => {

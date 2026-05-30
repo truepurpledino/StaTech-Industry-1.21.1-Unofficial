@@ -45,8 +45,7 @@ ServerEvents.recipes(event => {
             { amount: 2, item: mi('bronze_macerator') },
             { amount: 2, item: mi('bronze_plated_bricks') },
             { amount: 4, item: mi('bronze_curved_plate') },
-            { amount: 1, item: mi('steel_machine_casing') },
-            { amount: 1, item: mi('desh_drill_head') }
+            { amount: 1, item: mi('steel_machine_casing') }
         ],
         [ { amount: 1, item: ei('large_steam_macerator') } ]
     );
@@ -61,7 +60,8 @@ ServerEvents.recipes(event => {
             { amount: 3, item: mi('clean_stainless_steel_machine_casing') },
             { amount: 2, item: mi('quantum_circuit') },
             { amount: 2, item: mi('large_advanced_motor') },
-            { amount: 1, item: mi('quantum_machine_hull') }
+            { amount: 1, item: mi('quantum_machine_hull') },
+            { amount: 1, item: mi('desh_drill_head') }
         ],
         [ { amount: 1, item: mi('core_drill') } ]
     );
