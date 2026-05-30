@@ -8519,7 +8519,7 @@ metafile = true
 
 [[files]]
 file = "mods/lithostitched.pw.toml"
-hash = "13aeffa9865a1f5a122a819d55971952479ec7d13e14f85409555f4c187e4cff"
+hash = "f1d8db2a8e31870624b9e489a82cc9a33162708bda2f4aef30b446d8c24fcc54"
 metafile = true
 
 [[files]]
@@ -8584,7 +8584,7 @@ metafile = true
 
 [[files]]
 file = "mods/mixed-litter.pw.toml"
-hash = "28b48bf4e9ac31a8678512316586417b484720059e6fbef83be6d3c8962ea42d"
+hash = "423cb8fdb096003d0e9c4e2b7a0851247eb0a6ce83780481c0ac5a352f1df64d"
 metafile = true
 
 [[files]]
@@ -8669,7 +8669,7 @@ metafile = true
 
 [[files]]
 file = "mods/no-mans-land.pw.toml"
-hash = "1e3355d417ca3b199b624f9d2702ea6c82445a2ae6ab3c75eb730122bf4b7530"
+hash = "19cbc6b322b8512f360b78b35a5064a5a08170e6b164d1776fbbd6fa7f2f771e"
 metafile = true
 
 [[files]]
@@ -8744,7 +8744,7 @@ metafile = true
 
 [[files]]
 file = "mods/puzzles-lib.pw.toml"
-hash = "6713cee4ab5e469545bd7233212072612a56386657aa12d26f583a7b6df01c3d"
+hash = "fce9971e9a46030df81630f3b109f6ffb33f52d60b6387940dc2dfd2ecc34711"
 metafile = true
 
 [[files]]
@@ -8784,7 +8784,7 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
-hash = "f254b951d4e3867f653eeed933a4ca4796b5304cb8af12d69874e5b3afea290d"
+hash = "20989c739f3aeb1834e381828ab9ab270e799c27758203dd1acb1fd3b9704704"
 metafile = true
 
 [[files]]
@@ -8834,7 +8834,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "d10241c23aecac05859d8496ca66a400292464b089a25c0d8499d04cc0802cbb"
+hash = "aa5364e2d6fc0fe2a6e1e156826e57dab9074fe8d8e6ed19fd4fa8571ce1274a"
 metafile = true
 
 [[files]]
@@ -8929,7 +8929,7 @@ metafile = true
 
 [[files]]
 file = "mods/trashslot.pw.toml"
-hash = "34eae3726324a63f8c6795435af64e555eec0cf6306ddf7a76df2cf79d58f7f8"
+hash = "1c1b1cd51a81ff568e821498b3c3291082c260a7389ab0bde1ee1c1bd0dcf984"
 metafile = true
 
 [[files]]
@@ -8954,7 +8954,7 @@ metafile = true
 
 [[files]]
 file = "mods/waystones.pw.toml"
-hash = "406c2b921aafd285ce17be905fecfe1756230ea21c6365ec31bdb8b9debf4dfd"
+hash = "f24f60d4ab5f930e5027ccce4f24e09fd23abf9a1d608d190f6d884d191a8f0b"
 metafile = true
 
 [[files]]
