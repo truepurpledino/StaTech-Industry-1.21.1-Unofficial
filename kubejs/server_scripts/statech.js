@@ -608,3 +608,8 @@ ServerEvents.tags('item', event => {
     
 })
 
+EntityEvents.spawned('nomansland:goose', event => {
+
+    if(Math.random() > 0.02) return;
+    event.entity.setCustomName('Neurotic Goose');
+});
