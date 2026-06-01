@@ -419,17 +419,10 @@ ServerEvents.tags('item', event => {
 
     // -- BLOCK TAGGING -- //
 ServerEvents.tags('block', event => {
-
+    
     // -- PREFERRED TOOL FOR GLASS-LIKE BLOCKS -- //
-    const GLASS_BLOCKS = Ingredient.of('#c:glass_blocks').getStacks().toArray();
-    const GLOWSTONE_BLOCKS = Ingredient.of('#chisel:chiseled_glowstone').or('minecraft:glowstone').getStacks().toArray();
-    GLASS_BLOCKS.forEach(block => {
-        event.add('minecraft:mineable/pickaxe', block.id)
-    })
-    GLOWSTONE_BLOCKS.forEach(block => {
-        event.add('minecraft:mineable/pickaxe', block.id)
-    })
-
+    event.add('minecraft:mineable/pickaxe', ['#c:glass_blocks', 'minecraft:glowstone', '#chisel:chiseled_glowstone']);
+    
 });
 
 
