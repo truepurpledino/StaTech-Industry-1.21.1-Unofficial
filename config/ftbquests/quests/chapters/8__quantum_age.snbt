@@ -35,13 +35,13 @@
 				{
 					count: 15L
 					id: "7CA685D0F46B0D2D"
-					item: { count: 15, id: "modern_industrialization:plasma_handling_iridium_machine_casing" }
+					item: { count: 1, id: "modern_industrialization:plasma_handling_iridium_machine_casing" }
 					type: "item"
 				}
 				{
 					count: 18L
 					id: "3F2B881F769078D9"
-					item: { count: 18, id: "modern_industrialization:iridium_machine_casing_pipe" }
+					item: { count: 1, id: "modern_industrialization:iridium_machine_casing_pipe" }
 					type: "item"
 				}
 			]
@@ -76,7 +76,7 @@
 				{
 					count: 40L
 					id: "21C55093608D3C67"
-					item: { count: 40, id: "modern_industrialization:fusion_chamber" }
+					item: { count: 1, id: "modern_industrialization:fusion_chamber" }
 					type: "item"
 				}
 				{
@@ -280,6 +280,7 @@
 				xp: 10
 			}]
 			shape: "square"
+			size: 2.0d
 			tasks: [{
 				id: "5338BDF77B1D032A"
 				item: { count: 1, id: "modern_industrialization:quantum_machine_hull" }
@@ -435,6 +436,9 @@
 		}
 		{
 			dependencies: ["4A2F6AA833C88B7C"]
+			icon: {
+				id: "modern_industrialization:singularity_forge"
+			}
 			id: "78E1B9C83BB915D4"
 			rewards: [{
 				id: "392492E8BC8A5BD0"
@@ -460,6 +464,9 @@
 		}
 		{
 			dependencies: ["2FDA67B4920D335D"]
+			icon: {
+				id: "modern_industrialization:core_drill"
+			}
 			id: "500F9FE708EE8F1C"
 			rewards: [{
 				id: "033CE2E0C03013F0"
@@ -515,6 +522,28 @@
 			}]
 			x: 4.25d
 			y: -1.5d
+		}
+		{
+			dependencies: ["3E139335E6F04C69"]
+			id: "7A1577E495B505C5"
+			tasks: [{
+				id: "6DF9EE96286D1A2E"
+				item: { count: 1, id: "extended_industrialization:processing_array" }
+				type: "item"
+			}]
+			x: 16.25d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7A1577E495B505C5"]
+			id: "75A81F0A092043B2"
+			tasks: [{
+				id: "35D33DFF41199DF5"
+				item: { count: 1, id: "industrialization_overdrive:multi_processing_array" }
+				type: "item"
+			}]
+			x: 16.25d
+			y: 5.0d
 		}
 	]
 }

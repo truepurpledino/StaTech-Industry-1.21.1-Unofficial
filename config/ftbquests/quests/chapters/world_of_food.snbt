@@ -4,7 +4,7 @@
 	filename: "world_of_food"
 	group: "109C2F5A861C0A8B"
 	id: "71219AED38AEBE21"
-	order_index: 2
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -20,8 +20,8 @@
 				item: { count: 1, id: "kubejs:concrete_bar" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: -6.0d
+			x: -4.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["26742A8064D359B5"]
@@ -36,8 +36,8 @@
 				item: { count: 1, id: "kubejs:statech_energy" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -1.5d
+			x: -0.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["62F258EECCFC72ED"]
@@ -52,8 +52,8 @@
 				item: { count: 1, id: "kubejs:sulfuric_acid_bottle" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: -6.0d
+			x: -2.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["62F258EECCFC72ED"]
@@ -68,8 +68,8 @@
 				item: { count: 1, id: "kubejs:concrete_and_clay_steak" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: -6.0d
+			x: -3.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["62F258EECCFC72ED"]
@@ -84,8 +84,8 @@
 				item: { count: 1, id: "kubejs:uranium_cereal" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: -5.0d
+			x: -3.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["62F258EECCFC72ED"]
@@ -100,8 +100,8 @@
 				item: { count: 1, id: "kubejs:pizza_dough" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: -1.5d
+			x: -3.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["17894DFBE89922A5"]
@@ -116,8 +116,8 @@
 				item: { count: 1, id: "kubejs:pizza" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: 1.5d
+			x: -3.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["5F1F657E304AECB0"]
@@ -132,8 +132,8 @@
 				item: { count: 1, id: "kubejs:pizza_slice" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: 3.0d
+			x: -4.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["5F1F657E304AECB0"]
@@ -148,8 +148,8 @@
 				item: { count: 1, id: "kubejs:concrete_pizza" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: 3.0d
+			x: -2.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["19A9675C42B6870A"]
@@ -164,8 +164,8 @@
 				item: { count: 1, id: "kubejs:concrete_pizza_slice" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: 4.0d
+			x: -2.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["26742A8064D359B5"]
@@ -180,8 +180,8 @@
 				item: { count: 1, id: "kubejs:bepsi" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -3.5d
+			x: -0.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["26742A8064D359B5"]
@@ -196,8 +196,8 @@
 				item: { count: 1, id: "kubejs:greg_cola" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -4.5d
+			x: -0.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["26742A8064D359B5"]
@@ -212,8 +212,8 @@
 				item: { count: 1, id: "kubejs:coke_cola" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -2.5d
+			x: -0.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["62F258EECCFC72ED"]
@@ -228,8 +228,8 @@
 				item: { count: 1, id: "kubejs:nuka_cola" }
 				type: "item"
 			}]
-			x: -4.5d
-			y: -3.0d
+			x: -5.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["69D6F9E04B458E58"]
@@ -244,8 +244,8 @@
 				item: { count: 1, id: "kubejs:bottle_cap" }
 				type: "item"
 			}]
-			x: -5.5d
-			y: -3.0d
+			x: -6.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["62F258EECCFC72ED"]
@@ -260,8 +260,8 @@
 				item: { count: 1, id: "kubejs:empty_can" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: -3.0d
+			x: -2.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["6A21C4EAB90CC753"]
@@ -276,8 +276,8 @@
 				item: { count: 1, id: "kubejs:uncooked_pizza" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: 0.0d
+			x: -3.5d
+			y: 0.5d
 		}
 		{
 			id: "62F258EECCFC72ED"
@@ -285,8 +285,8 @@
 				id: "76AA7730C55FF32F"
 				type: "checkmark"
 			}]
-			x: -3.0d
-			y: -3.0d
+			x: -3.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["148AE3384F2C550B"]
@@ -301,7 +301,7 @@
 				item: { count: 1, id: "farmersdelight:stove" }
 				type: "item"
 			}]
-			x: -2.0d
+			x: 2.5d
 			y: -25.5d
 		}
 		{
@@ -317,7 +317,7 @@
 				item: { count: 1, id: "farmersdelight:cooking_pot" }
 				type: "item"
 			}]
-			x: -2.0d
+			x: 2.5d
 			y: -26.5d
 		}
 		{
@@ -333,7 +333,7 @@
 				item: { count: 1, id: "farmersdelight:skillet" }
 				type: "item"
 			}]
-			x: -1.0d
+			x: 3.5d
 			y: -26.5d
 		}
 		{
@@ -349,7 +349,7 @@
 				item: { count: 1, id: "farmersdelight:bamboo_basket" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: 4.5d
 			y: -26.5d
 		}
 		{
@@ -372,7 +372,7 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
+			x: 4.5d
 			y: -25.5d
 		}
 		{
@@ -388,7 +388,7 @@
 				item: { count: 1, id: "farmingforblockheads:market" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 6.5d
 			y: -26.5d
 		}
 		{
@@ -404,7 +404,7 @@
 				item: { count: 1, id: "farmingforblockheads:chicken_nest" }
 				type: "item"
 			}]
-			x: 1.0d
+			x: 5.5d
 			y: -26.5d
 		}
 		{
@@ -420,7 +420,7 @@
 				item: { count: 1, id: "farmingforblockheads:feeding_trough" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 7.5d
 			y: -26.5d
 		}
 		{
@@ -501,7 +501,7 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: -21.0d
+			y: -20.0d
 		}
 		{
 			dependencies: ["272A57DE3FA793D0"]
@@ -516,8 +516,8 @@
 				item: { count: 1, id: "farmersdelight:cabbage" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: -1.5d
+			x: 1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["272A57DE3FA793D0"]
@@ -532,8 +532,8 @@
 				item: { count: 1, id: "farmersdelight:tomato" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: -1.5d
+			x: 6.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["272A57DE3FA793D0"]
@@ -548,8 +548,8 @@
 				item: { count: 1, id: "farmersdelight:onion" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: -1.5d
+			x: 7.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["272A57DE3FA793D0"]
@@ -564,8 +564,8 @@
 				item: { count: 1, id: "farmersdelight:rice_panicle" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: -0.5d
+			x: 1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0AD5A07A7E0C38D2"]
@@ -612,8 +612,8 @@
 				item: { count: 1, id: "farmersdelight:hot_cocoa" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: -14.5d
+			x: -2.5d
+			y: -16.0d
 		}
 		{
 			dependencies: ["061D213E3BC80CE2"]
@@ -628,8 +628,8 @@
 				item: { count: 1, id: "farmersdelight:apple_cider" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: -13.5d
+			x: -3.5d
+			y: -15.0d
 		}
 		{
 			dependencies: ["061D213E3BC80CE2"]
@@ -644,8 +644,8 @@
 				item: { count: 1, id: "farmersdelight:melon_juice" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: -13.5d
+			x: -2.5d
+			y: -15.0d
 		}
 		{
 			dependencies: ["0AD5A07A7E0C38D2"]
@@ -852,7 +852,7 @@
 				item: { count: 1, id: "farmersdelight:pie_crust" }
 				type: "item"
 			}]
-			x: 18.0d
+			x: 16.0d
 			y: -6.0d
 		}
 		{
@@ -868,7 +868,7 @@
 				item: { count: 1, id: "farmersdelight:cake_slice" }
 				type: "item"
 			}]
-			x: 16.0d
+			x: 15.0d
 			y: -6.0d
 		}
 		{
@@ -884,8 +884,8 @@
 				item: { count: 1, id: "farmersdelight:apple_pie_slice" }
 				type: "item"
 			}]
-			x: 21.0d
-			y: -6.5d
+			x: 20.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["19057549A1A7185D"]
@@ -900,8 +900,8 @@
 				item: { count: 1, id: "farmersdelight:sweet_berry_cheesecake_slice" }
 				type: "item"
 			}]
-			x: 21.0d
-			y: -4.5d
+			x: 20.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["7EA4F0677A4D1C59"]
@@ -916,8 +916,8 @@
 				item: { count: 1, id: "farmersdelight:chocolate_pie_slice" }
 				type: "item"
 			}]
-			x: 21.0d
-			y: -5.5d
+			x: 20.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["557F78A78992BC35"]
@@ -932,7 +932,7 @@
 				item: { count: 1, id: "farmersdelight:sweet_berry_cookie" }
 				type: "item"
 			}]
-			x: 14.5d
+			x: 14.0d
 			y: -7.0d
 		}
 		{
@@ -948,7 +948,7 @@
 				item: { count: 1, id: "farmersdelight:honey_cookie" }
 				type: "item"
 			}]
-			x: 13.5d
+			x: 13.0d
 			y: -7.0d
 		}
 		{
@@ -964,7 +964,7 @@
 				item: { count: 1, id: "farmersdelight:melon_popsicle" }
 				type: "item"
 			}]
-			x: 15.5d
+			x: 15.0d
 			y: -7.0d
 		}
 		{
@@ -980,7 +980,7 @@
 				item: { count: 1, id: "farmersdelight:glow_berry_custard" }
 				type: "item"
 			}]
-			x: 16.5d
+			x: 16.0d
 			y: -7.0d
 		}
 		{
@@ -996,8 +996,8 @@
 				item: { count: 1, id: "farmersdelight:fruit_salad" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: -12.5d
+			x: 5.5d
+			y: -14.0d
 		}
 		{
 			dependencies: ["28059136178A5F96"]
@@ -1012,8 +1012,8 @@
 				item: { count: 1, id: "farmersdelight:mixed_salad" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: -12.5d
+			x: 7.5d
+			y: -14.0d
 		}
 		{
 			dependencies: ["28059136178A5F96"]
@@ -1028,8 +1028,8 @@
 				item: { count: 1, id: "farmersdelight:nether_salad" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: -12.5d
+			x: 6.5d
+			y: -14.0d
 		}
 		{
 			dependencies: ["0AD5A07A7E0C38D2"]
@@ -1061,7 +1061,7 @@
 				type: "item"
 			}]
 			x: 14.5d
-			y: -14.5d
+			y: -16.0d
 		}
 		{
 			dependencies: ["3C883FE97253CFBA"]
@@ -1077,7 +1077,7 @@
 				type: "item"
 			}]
 			x: 15.5d
-			y: -14.5d
+			y: -16.0d
 		}
 		{
 			dependencies: ["3C883FE97253CFBA"]
@@ -1093,7 +1093,7 @@
 				type: "item"
 			}]
 			x: 13.5d
-			y: -14.5d
+			y: -16.0d
 		}
 		{
 			dependencies: ["3C883FE97253CFBA"]
@@ -1109,7 +1109,7 @@
 				type: "item"
 			}]
 			x: 16.5d
-			y: -14.5d
+			y: -16.0d
 		}
 		{
 			dependencies: ["3C883FE97253CFBA"]
@@ -1125,7 +1125,7 @@
 				type: "item"
 			}]
 			x: 15.0d
-			y: -13.5d
+			y: -15.0d
 		}
 		{
 			dependencies: ["37AB8737D3E3E075"]
@@ -1221,7 +1221,7 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: -20.0d
+			y: -21.0d
 		}
 		{
 			dependencies: ["28059136178A5F96"]
@@ -1236,8 +1236,8 @@
 				item: { count: 1, id: "farmersdelight:cooked_rice" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: -14.5d
+			x: 3.0d
+			y: -16.0d
 		}
 		{
 			dependencies: ["28059136178A5F96"]
@@ -1252,8 +1252,8 @@
 				item: { count: 1, id: "farmersdelight:bone_broth" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: -14.5d
+			x: 4.0d
+			y: -16.0d
 		}
 		{
 			dependencies: ["28059136178A5F96"]
@@ -1268,8 +1268,8 @@
 				item: { count: 1, id: "farmersdelight:beef_stew" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: -14.5d
+			x: 5.0d
+			y: -16.0d
 		}
 		{
 			dependencies: ["28059136178A5F96"]
@@ -1284,8 +1284,8 @@
 				item: { count: 1, id: "farmersdelight:chicken_soup" }
 				type: "item"
 			}]
-			x: 6.5d
-			y: -14.5d
+			x: 6.0d
+			y: -16.0d
 		}
 		{
 			dependencies: ["28059136178A5F96"]
@@ -1300,8 +1300,8 @@
 				item: { count: 1, id: "farmersdelight:vegetable_soup" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: -13.5d
+			x: 3.0d
+			y: -15.0d
 		}
 		{
 			dependencies: ["28059136178A5F96"]
@@ -1316,8 +1316,8 @@
 				item: { count: 1, id: "farmersdelight:fish_stew" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: -13.5d
+			x: 4.0d
+			y: -15.0d
 		}
 		{
 			dependencies: ["28059136178A5F96"]
@@ -1332,8 +1332,8 @@
 				item: { count: 1, id: "farmersdelight:fried_rice" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: -13.5d
+			x: 5.0d
+			y: -15.0d
 		}
 		{
 			dependencies: ["28059136178A5F96"]
@@ -1348,8 +1348,8 @@
 				item: { count: 1, id: "farmersdelight:pumpkin_soup" }
 				type: "item"
 			}]
-			x: 6.5d
-			y: -13.5d
+			x: 6.0d
+			y: -15.0d
 		}
 		{
 			dependencies: ["28059136178A5F96"]
@@ -1364,8 +1364,8 @@
 				item: { count: 1, id: "farmersdelight:baked_cod_stew" }
 				type: "item"
 			}]
-			x: 7.5d
-			y: -13.5d
+			x: 7.0d
+			y: -15.0d
 		}
 		{
 			dependencies: ["28059136178A5F96"]
@@ -1380,8 +1380,8 @@
 				item: { count: 1, id: "farmersdelight:noodle_soup" }
 				type: "item"
 			}]
-			x: 7.5d
-			y: -14.5d
+			x: 7.0d
+			y: -16.0d
 		}
 		{
 			dependencies: ["7D55BD43F64D1147"]
@@ -1652,8 +1652,8 @@
 				item: { count: 1, id: "expandeddelight:asparagus" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: -1.5d
+			x: 4.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["272A57DE3FA793D0"]
@@ -1668,8 +1668,8 @@
 				item: { count: 1, id: "expandeddelight:sweet_potato" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: -1.5d
+			x: 3.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["272A57DE3FA793D0"]
@@ -1684,8 +1684,8 @@
 				item: { count: 1, id: "expandeddelight:chili_pepper" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: -1.5d
+			x: 2.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["272A57DE3FA793D0"]
@@ -1700,8 +1700,8 @@
 				item: { count: 1, id: "expandeddelight:peanut" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: -1.5d
+			x: 5.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["0AD5A07A7E0C38D2"]
@@ -1733,7 +1733,7 @@
 				type: "item"
 			}]
 			x: 17.0d
-			y: -13.5d
+			y: -15.0d
 		}
 		{
 			dependencies: ["3C883FE97253CFBA"]
@@ -1749,7 +1749,7 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: -13.5d
+			y: -15.0d
 		}
 		{
 			dependencies: ["3C883FE97253CFBA"]
@@ -1765,7 +1765,7 @@
 				type: "item"
 			}]
 			x: 13.0d
-			y: -13.5d
+			y: -15.0d
 		}
 		{
 			dependencies: ["3C883FE97253CFBA"]
@@ -1781,7 +1781,7 @@
 				type: "item"
 			}]
 			x: 12.5d
-			y: -14.5d
+			y: -16.0d
 		}
 		{
 			dependencies: ["3C883FE97253CFBA"]
@@ -1797,7 +1797,7 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: -13.5d
+			y: -15.0d
 		}
 		{
 			dependencies: ["3C883FE97253CFBA"]
@@ -1813,7 +1813,7 @@
 				type: "item"
 			}]
 			x: 17.5d
-			y: -14.5d
+			y: -16.0d
 		}
 		{
 			dependencies: ["557F78A78992BC35"]
@@ -1828,7 +1828,7 @@
 				item: { count: 1, id: "expandeddelight:sweet_roll" }
 				type: "item"
 			}]
-			x: 14.5d
+			x: 14.0d
 			y: -9.0d
 		}
 		{
@@ -1844,7 +1844,7 @@
 				item: { count: 1, id: "expandeddelight:berry_sweet_roll" }
 				type: "item"
 			}]
-			x: 15.5d
+			x: 15.0d
 			y: -9.0d
 		}
 		{
@@ -1860,7 +1860,7 @@
 				item: { count: 1, id: "expandeddelight:glow_berry_sweet_roll" }
 				type: "item"
 			}]
-			x: 16.5d
+			x: 16.0d
 			y: -9.0d
 		}
 		{
@@ -1876,8 +1876,8 @@
 				item: { count: 1, id: "expandeddelight:cinnamon_rice" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: -12.5d
+			x: 4.5d
+			y: -14.0d
 		}
 		{
 			dependencies: ["557F78A78992BC35"]
@@ -1892,7 +1892,7 @@
 				item: { count: 1, id: "expandeddelight:cinnamon_apples" }
 				type: "item"
 			}]
-			x: 16.5d
+			x: 16.0d
 			y: -8.0d
 		}
 		{
@@ -1908,7 +1908,7 @@
 				item: { count: 1, id: "expandeddelight:chocolate_cookie" }
 				type: "item"
 			}]
-			x: 15.5d
+			x: 15.0d
 			y: -8.0d
 		}
 		{
@@ -1924,7 +1924,7 @@
 				item: { count: 1, id: "expandeddelight:sugar_cookie" }
 				type: "item"
 			}]
-			x: 13.5d
+			x: 13.0d
 			y: -8.0d
 		}
 		{
@@ -1940,7 +1940,7 @@
 				item: { count: 1, id: "expandeddelight:snickerdoodle" }
 				type: "item"
 			}]
-			x: 14.5d
+			x: 14.0d
 			y: -8.0d
 		}
 		{
@@ -1956,8 +1956,8 @@
 				item: { count: 1, id: "expandeddelight:apple_juice" }
 				type: "item"
 			}]
-			x: -6.0d
-			y: -13.5d
+			x: -6.5d
+			y: -15.0d
 		}
 		{
 			dependencies: ["061D213E3BC80CE2"]
@@ -1972,8 +1972,8 @@
 				item: { count: 1, id: "expandeddelight:sweet_berry_juice" }
 				type: "item"
 			}]
-			x: -5.0d
-			y: -14.5d
+			x: -5.5d
+			y: -16.0d
 		}
 		{
 			dependencies: ["061D213E3BC80CE2"]
@@ -1988,8 +1988,8 @@
 				item: { count: 1, id: "expandeddelight:glow_berry_juice" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: -14.5d
+			x: -4.5d
+			y: -16.0d
 		}
 		{
 			dependencies: ["061D213E3BC80CE2"]
@@ -2004,8 +2004,8 @@
 				item: { count: 1, id: "expandeddelight:sweet_berry_jelly" }
 				type: "item"
 			}]
-			x: -5.0d
-			y: -13.5d
+			x: -5.5d
+			y: -15.0d
 		}
 		{
 			dependencies: ["061D213E3BC80CE2"]
@@ -2020,8 +2020,8 @@
 				item: { count: 1, id: "expandeddelight:glow_berry_jelly" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: -14.5d
+			x: -3.5d
+			y: -16.0d
 		}
 		{
 			dependencies: ["28059136178A5F96"]
@@ -2036,8 +2036,8 @@
 				item: { count: 1, id: "expandeddelight:peanut_salad" }
 				type: "item"
 			}]
-			x: 8.5d
-			y: -13.5d
+			x: 8.0d
+			y: -15.0d
 		}
 		{
 			dependencies: ["28059136178A5F96"]
@@ -2052,8 +2052,8 @@
 				item: { count: 1, id: "expandeddelight:sweet_potato_salad" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: -12.5d
+			x: 2.5d
+			y: -14.0d
 		}
 		{
 			dependencies: ["28059136178A5F96"]
@@ -2068,8 +2068,8 @@
 				item: { count: 1, id: "expandeddelight:asparagus_soup" }
 				type: "item"
 			}]
-			x: 8.5d
-			y: -14.5d
+			x: 8.0d
+			y: -16.0d
 		}
 		{
 			dependencies: ["28059136178A5F96"]
@@ -2084,8 +2084,8 @@
 				item: { count: 1, id: "expandeddelight:asparagus_soup_creamy" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: -13.5d
+			x: 2.0d
+			y: -15.0d
 		}
 		{
 			dependencies: ["28059136178A5F96"]
@@ -2100,8 +2100,8 @@
 				item: { count: 1, id: "expandeddelight:peanut_honey_soup" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: -14.5d
+			x: 2.0d
+			y: -16.0d
 		}
 		{
 			dependencies: ["28059136178A5F96"]
@@ -2116,8 +2116,8 @@
 				item: { count: 1, id: "expandeddelight:mac_and_cheese" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: -12.5d
+			x: 3.5d
+			y: -14.0d
 		}
 		{
 			dependencies: ["7D55BD43F64D1147"]
@@ -2164,7 +2164,7 @@
 				item: { count: 1, id: "farmingforblockheads:green_fertilizer" }
 				type: "item"
 			}]
-			x: 1.0d
+			x: 5.5d
 			y: -25.5d
 		}
 		{
@@ -2181,7 +2181,7 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: 0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["508B1865886B1B28"]
@@ -2197,7 +2197,7 @@
 				type: "item"
 			}]
 			x: 17.0d
-			y: -1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["508B1865886B1B28"]
@@ -2213,7 +2213,7 @@
 				type: "item"
 			}]
 			x: 18.0d
-			y: -1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["508B1865886B1B28"]
@@ -2229,7 +2229,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: -0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["508B1865886B1B28"]
@@ -2245,7 +2245,7 @@
 				type: "item"
 			}]
 			x: 17.0d
-			y: 0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["272A57DE3FA793D0"]
@@ -2260,8 +2260,8 @@
 				item: { count: 1, id: "minecraft:beetroot" }
 				type: "item"
 			}]
-			x: 9.0d
-			y: -0.5d
+			x: 8.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["508B1865886B1B28"]
@@ -2277,7 +2277,7 @@
 				type: "item"
 			}]
 			x: 15.0d
-			y: -0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["508B1865886B1B28"]
@@ -2293,7 +2293,7 @@
 				type: "item"
 			}]
 			x: 13.0d
-			y: -3.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["508B1865886B1B28"]
@@ -2309,7 +2309,7 @@
 				type: "item"
 			}]
 			x: 15.0d
-			y: 0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["508B1865886B1B28"]
@@ -2325,7 +2325,7 @@
 				type: "item"
 			}]
 			x: 18.0d
-			y: 0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["508B1865886B1B28"]
@@ -2341,7 +2341,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: -1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["79FA75F5BFF52492"]
@@ -2357,7 +2357,7 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: -2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["79FA75F5BFF52492"]
@@ -2373,7 +2373,7 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: -3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["508B1865886B1B28"]
@@ -2389,7 +2389,7 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: 0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["508B1865886B1B28"]
@@ -2405,7 +2405,7 @@
 				type: "item"
 			}]
 			x: 13.0d
-			y: 0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["508B1865886B1B28"]
@@ -2421,7 +2421,7 @@
 				type: "item"
 			}]
 			x: 13.0d
-			y: -0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["508B1865886B1B28"]
@@ -2437,7 +2437,7 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: -0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["557F78A78992BC35"]
@@ -2452,7 +2452,7 @@
 				item: { count: 1, id: "minecraft:cake" }
 				type: "item"
 			}]
-			x: 15.0d
+			x: 14.0d
 			y: -6.0d
 		}
 		{
@@ -2469,7 +2469,7 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: -0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["508B1865886B1B28"]
@@ -2485,7 +2485,7 @@
 				type: "item"
 			}]
 			x: 17.0d
-			y: -0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["508B1865886B1B28"]
@@ -2501,7 +2501,7 @@
 				type: "item"
 			}]
 			x: 18.0d
-			y: -0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["508B1865886B1B28"]
@@ -2517,7 +2517,7 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: -1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["508B1865886B1B28"]
@@ -2533,7 +2533,7 @@
 				type: "item"
 			}]
 			x: 15.0d
-			y: -1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["272A57DE3FA793D0"]
@@ -2548,8 +2548,8 @@
 				item: { count: 1, id: "minecraft:carrot" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: -0.5d
+			x: 6.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["272A57DE3FA793D0"]
@@ -2564,8 +2564,8 @@
 				item: { count: 1, id: "minecraft:potato" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: -0.5d
+			x: 7.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["508B1865886B1B28"]
@@ -2581,7 +2581,7 @@
 				type: "item"
 			}]
 			x: 13.0d
-			y: -1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["508B1865886B1B28"]
@@ -2597,7 +2597,7 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: -1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["272A57DE3FA793D0"]
@@ -2612,8 +2612,8 @@
 				item: { count: 1, id: "minecraft:sweet_berries" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: -0.5d
+			x: 4.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["272A57DE3FA793D0"]
@@ -2628,8 +2628,8 @@
 				item: { count: 1, id: "minecraft:glow_berries" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: -0.5d
+			x: 5.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["508B1865886B1B28"]
@@ -2645,7 +2645,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: 0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["557F78A78992BC35"]
@@ -2660,7 +2660,7 @@
 				item: { count: 1, id: "supplementaries:candy" }
 				type: "item"
 			}]
-			x: 17.5d
+			x: 17.0d
 			y: -7.0d
 		}
 		{
@@ -2676,7 +2676,7 @@
 				item: { count: 1, id: "spectrum:salted_jaramel_trifle" }
 				type: "item"
 			}]
-			x: -13.5d
+			x: -14.5d
 			y: 0.0d
 		}
 		{
@@ -2692,7 +2692,7 @@
 				item: { count: 1, id: "spectrum:monster_trifle" }
 				type: "item"
 			}]
-			x: -8.5d
+			x: -9.5d
 			y: 0.0d
 		}
 		{
@@ -2708,7 +2708,7 @@
 				item: { count: 1, id: "spectrum:demon_trifle" }
 				type: "item"
 			}]
-			x: -13.5d
+			x: -14.5d
 			y: 1.0d
 		}
 		{
@@ -2724,7 +2724,7 @@
 				item: { count: 1, id: "spectrum:infused_beverage" }
 				type: "item"
 			}]
-			x: -9.0d
+			x: -10.0d
 			y: -1.5d
 		}
 		{
@@ -2740,7 +2740,7 @@
 				item: { count: 1, id: "spectrum:pure_alcohol" }
 				type: "item"
 			}]
-			x: -9.0d
+			x: -10.0d
 			y: -2.5d
 		}
 		{
@@ -2756,7 +2756,7 @@
 				item: { count: 1, id: "spectrum:reprise" }
 				type: "item"
 			}]
-			x: -9.0d
+			x: -10.0d
 			y: -3.5d
 		}
 		{
@@ -2772,7 +2772,7 @@
 				item: { count: 1, id: "spectrum:incandescent_amalgam" }
 				type: "item"
 			}]
-			x: -8.5d
+			x: -9.5d
 			y: 1.0d
 		}
 		{
@@ -2788,7 +2788,7 @@
 				item: { count: 1, id: "spectrum:rock_candy" }
 				type: "item"
 			}]
-			x: -10.0d
+			x: -11.0d
 			y: -4.5d
 		}
 		{
@@ -2804,7 +2804,7 @@
 				item: { count: 1, id: "spectrum:suspicious_brew" }
 				type: "item"
 			}]
-			x: -8.0d
+			x: -9.0d
 			y: -2.5d
 		}
 		{
@@ -2820,7 +2820,7 @@
 				item: { count: 1, id: "spectrum:jade_wine" }
 				type: "item"
 			}]
-			x: -8.0d
+			x: -9.0d
 			y: -1.5d
 		}
 		{
@@ -2837,7 +2837,7 @@
 				item: { count: 1, id: "spectrum:chrysocolla" }
 				type: "item"
 			}]
-			x: -8.0d
+			x: -9.0d
 			y: -3.5d
 		}
 		{
@@ -2853,7 +2853,7 @@
 				item: { count: 1, id: "spectrum:triple_meat_pot_pie" }
 				type: "item"
 			}]
-			x: -14.5d
+			x: -15.5d
 			y: 1.0d
 		}
 		{
@@ -2869,7 +2869,7 @@
 				item: { count: 1, id: "spectrum:kimchi" }
 				type: "item"
 			}]
-			x: -14.5d
+			x: -15.5d
 			y: -3.5d
 		}
 		{
@@ -2885,7 +2885,7 @@
 				item: { count: 1, id: "spectrum:clotted_cream" }
 				type: "item"
 			}]
-			x: -14.5d
+			x: -15.5d
 			y: -1.5d
 		}
 		{
@@ -2901,7 +2901,7 @@
 				item: { count: 1, id: "spectrum:fresh_chocolate" }
 				type: "item"
 			}]
-			x: -15.5d
+			x: -16.5d
 			y: -1.0d
 		}
 		{
@@ -2917,7 +2917,7 @@
 				item: { count: 1, id: "spectrum:bodacious_berry_bar" }
 				type: "item"
 			}]
-			x: -12.0d
+			x: -13.0d
 			y: -4.5d
 		}
 		{
@@ -2933,7 +2933,7 @@
 				item: { count: 1, id: "spectrum:hot_chocolate" }
 				type: "item"
 			}]
-			x: -14.5d
+			x: -15.5d
 			y: -2.5d
 		}
 		{
@@ -2949,7 +2949,7 @@
 				item: { count: 1, id: "spectrum:restoration_tea" }
 				type: "item"
 			}]
-			x: -15.5d
+			x: -16.5d
 			y: -2.0d
 		}
 		{
@@ -2965,7 +2965,7 @@
 				item: { count: 1, id: "spectrum:glistering_jelly_tea" }
 				type: "item"
 			}]
-			x: -15.5d
+			x: -16.5d
 			y: -3.0d
 		}
 		{
@@ -2981,7 +2981,7 @@
 				item: { count: 1, id: "spectrum:demon_tea" }
 				type: "item"
 			}]
-			x: -15.5d
+			x: -16.5d
 			y: -4.0d
 		}
 		{
@@ -2997,7 +2997,7 @@
 				item: { count: 1, id: "spectrum:jade_jelly" }
 				type: "item"
 			}]
-			x: -11.5d
+			x: -12.5d
 			y: -5.5d
 		}
 		{
@@ -3013,7 +3013,7 @@
 				item: { count: 1, id: "spectrum:jaramel" }
 				type: "item"
 			}]
-			x: -12.5d
+			x: -13.5d
 			y: -5.5d
 		}
 		{
@@ -3029,7 +3029,7 @@
 				item: { count: 1, id: "spectrum:moonstruck_nectar" }
 				type: "item"
 			}]
-			x: -13.0d
+			x: -14.0d
 			y: -4.5d
 		}
 		{
@@ -3045,7 +3045,7 @@
 				item: { count: 1, id: "spectrum:bloodboil_syrup" }
 				type: "item"
 			}]
-			x: -11.0d
+			x: -12.0d
 			y: -4.5d
 		}
 		{
@@ -3061,7 +3061,7 @@
 				item: { count: 1, id: "spectrum:scone" }
 				type: "item"
 			}]
-			x: -14.5d
+			x: -15.5d
 			y: 0.0d
 		}
 		{
@@ -3077,7 +3077,7 @@
 				item: { count: 1, id: "spectrum:lucky_roll" }
 				type: "item"
 			}]
-			x: -10.5d
+			x: -11.5d
 			y: -5.5d
 		}
 		{
@@ -3093,7 +3093,7 @@
 				item: { count: 1, id: "spectrum:honey_pastry" }
 				type: "item"
 			}]
-			x: -12.5d
+			x: -13.5d
 			y: 0.0d
 		}
 		{
@@ -3109,7 +3109,7 @@
 				item: { count: 1, id: "spectrum:jaramel_tart" }
 				type: "item"
 			}]
-			x: -12.5d
+			x: -13.5d
 			y: 1.0d
 		}
 		{
@@ -3125,7 +3125,7 @@
 				item: { count: 1, id: "spectrum:ashen_tart" }
 				type: "item"
 			}]
-			x: -9.5d
+			x: -10.5d
 			y: 0.0d
 		}
 		{
@@ -3141,7 +3141,7 @@
 				item: { count: 1, id: "spectrum:salted_jaramel_tart" }
 				type: "item"
 			}]
-			x: -11.5d
+			x: -12.5d
 			y: 1.0d
 		}
 		{
@@ -3157,7 +3157,7 @@
 				item: { count: 1, id: "spectrum:weeping_tart" }
 				type: "item"
 			}]
-			x: -10.5d
+			x: -11.5d
 			y: 0.0d
 		}
 		{
@@ -3173,7 +3173,7 @@
 				item: { count: 1, id: "spectrum:whispy_tart" }
 				type: "item"
 			}]
-			x: -11.5d
+			x: -12.5d
 			y: 0.0d
 		}
 		{
@@ -3189,7 +3189,7 @@
 				item: { count: 1, id: "spectrum:puff_tart" }
 				type: "item"
 			}]
-			x: -10.5d
+			x: -11.5d
 			y: 1.0d
 		}
 		{
@@ -3205,7 +3205,7 @@
 				item: { count: 1, id: "spectrum:jaramel_trifle" }
 				type: "item"
 			}]
-			x: -9.5d
+			x: -10.5d
 			y: 1.0d
 		}
 		{
@@ -3221,7 +3221,7 @@
 				item: { count: 1, id: "create:sweet_roll" }
 				type: "item"
 			}]
-			x: 13.5d
+			x: 13.0d
 			y: -9.0d
 		}
 		{
@@ -3237,7 +3237,7 @@
 				item: { count: 1, id: "create:chocolate_glazed_berries" }
 				type: "item"
 			}]
-			x: 17.5d
+			x: 17.0d
 			y: -8.0d
 		}
 		{
@@ -3253,7 +3253,7 @@
 				item: { count: 1, id: "create:honeyed_apple" }
 				type: "item"
 			}]
-			x: 17.5d
+			x: 17.0d
 			y: -9.0d
 		}
 		{
@@ -3269,8 +3269,8 @@
 				item: { count: 1, id: "create:builders_tea" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: -13.5d
+			x: -4.5d
+			y: -15.0d
 		}
 		{
 			dependencies: ["061D213E3BC80CE2"]
@@ -3285,8 +3285,8 @@
 				item: { count: 1, id: "minecraft:milk_bucket" }
 				type: "item"
 			}]
-			x: -6.0d
-			y: -14.5d
+			x: -6.5d
+			y: -16.0d
 		}
 		{
 			id: "5A46BA8060E18A44"
@@ -3294,7 +3294,7 @@
 				id: "1532A74BB23FD4D6"
 				type: "checkmark"
 			}]
-			x: -11.5d
+			x: -12.5d
 			y: -2.5d
 		}
 		{
@@ -3303,8 +3303,8 @@
 				id: "02428C7005447179"
 				type: "checkmark"
 			}]
-			x: 5.5d
-			y: -3.0d
+			x: 5.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["272A57DE3FA793D0"]
@@ -3319,8 +3319,8 @@
 				item: { count: 1, id: "minecraft:pumpkin" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: -0.5d
+			x: 2.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["272A57DE3FA793D0"]
@@ -3335,8 +3335,8 @@
 				item: { count: 1, id: "minecraft:melon" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: -0.5d
+			x: 3.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["272A57DE3FA793D0"]
@@ -3351,8 +3351,8 @@
 				item: { count: 1, id: "minecraft:wheat" }
 				type: "item"
 			}]
-			x: 9.0d
-			y: -1.5d
+			x: 8.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["50C39589C51AB2DA"]
@@ -3383,8 +3383,8 @@
 				item: { count: 1, id: "farmersdelight:chocolate_pie" }
 				type: "item"
 			}]
-			x: 19.5d
-			y: -5.5d
+			x: 18.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["6DFDC608694760FC"]
@@ -3399,8 +3399,8 @@
 				item: { count: 1, id: "farmersdelight:apple_pie" }
 				type: "item"
 			}]
-			x: 19.5d
-			y: -6.5d
+			x: 18.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["6DFDC608694760FC"]
@@ -3415,8 +3415,8 @@
 				item: { count: 1, id: "farmersdelight:sweet_berry_cheesecake" }
 				type: "item"
 			}]
-			x: 19.5d
-			y: -4.5d
+			x: 18.5d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -3435,7 +3435,7 @@
 				type: "item"
 			}]
 			x: 17.0d
-			y: -20.0d
+			y: -21.0d
 		}
 		{
 			id: "508B1865886B1B28"
@@ -3444,7 +3444,7 @@
 				type: "checkmark"
 			}]
 			x: 15.0d
-			y: -3.0d
+			y: -2.5d
 		}
 		{
 			id: "061D213E3BC80CE2"
@@ -3452,8 +3452,8 @@
 				id: "55E5DFB0C4215662"
 				type: "checkmark"
 			}]
-			x: -4.0d
-			y: -16.5d
+			x: -4.5d
+			y: -18.0d
 		}
 		{
 			id: "0AD5A07A7E0C38D2"
@@ -3470,7 +3470,7 @@
 				id: "60912CE2E822DC7D"
 				type: "checkmark"
 			}]
-			x: 15.5d
+			x: 15.0d
 			y: -10.5d
 		}
 		{
@@ -3479,8 +3479,8 @@
 				id: "46B50579F9C4EB0D"
 				type: "checkmark"
 			}]
-			x: 5.5d
-			y: -16.5d
+			x: 5.0d
+			y: -18.0d
 		}
 		{
 			id: "3C883FE97253CFBA"
@@ -3489,7 +3489,7 @@
 				type: "checkmark"
 			}]
 			x: 15.0d
-			y: -16.5d
+			y: -18.0d
 		}
 		{
 			id: "37AB8737D3E3E075"
@@ -3531,7 +3531,7 @@
 				item: { count: 1, id: "farmingforblockheads:red_fertilizer" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 7.5d
 			y: -25.5d
 		}
 		{
@@ -3547,7 +3547,7 @@
 				item: { count: 1, id: "farmingforblockheads:yellow_fertilizer" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 6.5d
 			y: -25.5d
 		}
 		{
@@ -3563,7 +3563,7 @@
 				item: { count: 1, id: "farmersdelight:rich_soil" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 8.5d
 			y: -26.0d
 		}
 		{
@@ -3579,7 +3579,7 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(farmersdelight:cabinets)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -1.0d
+			x: 3.5d
 			y: -25.5d
 		}
 		{
@@ -3588,7 +3588,7 @@
 				id: "47776753D369C9D5"
 				type: "checkmark"
 			}]
-			x: 0.5d
+			x: 5.0d
 			y: -28.5d
 		}
 		{
@@ -3604,8 +3604,8 @@
 				item: { count: 1, id: "kubejs:missing_texture_cookie" }
 				type: "item"
 			}]
-			x: -3.5d
-			y: -5.0d
+			x: -4.0d
+			y: -4.5d
 		}
 	]
 }

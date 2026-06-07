@@ -2,7 +2,7 @@
 	chapter.0404FA2EB5C66F71.chapter_subtitle: ["More machines!"]
 	chapter.0404FA2EB5C66F71.title: "&94 - Adv. Electronics"
 	chapter.1A02A3EECEB4BD3F.chapter_subtitle: ["PhD in Theoretical Physics!"]
-	chapter.1A02A3EECEB4BD3F.title: "&d8 - Quantum Age"
+	chapter.1A02A3EECEB4BD3F.title: "&d7 - Quantum Age"
 	chapter.1ABCCB5C8BC2FE1D.title: "Utilities"
 	chapter.1E4B3098D73D738C.title: "&a&lWelcome"
 	chapter.21E9255A61D5A82D.chapter_subtitle: ["ZZZzzzapppp"]
@@ -16,7 +16,7 @@
 	chapter.5336FACFCB9D5E2E.chapter_subtitle: ["Build Your Own Reactor"]
 	chapter.5336FACFCB9D5E2E.title: "&56 - Nuclear Age"
 	chapter.5C132A91B86C59B5.chapter_subtitle: ["Awaiting for space mod..."]
-	chapter.5C132A91B86C59B5.title: "&67 - Space Age"
+	chapter.5C132A91B86C59B5.title: "&6X - Space Age"
 	chapter.62C223D50B408794.title: "&dSpectrum"
 	chapter.6A3B096018B7FAD6.title: "&3Create"
 	chapter.70E1C9FCB66EEC7E.chapter_subtitle: ["The Basis of Industry"]
@@ -91,6 +91,7 @@
 		""
 		"They are an key crafting component in &eAE2&r items."
 	]
+	quest.01E4CA464D65ED1C.quest_desc: ["The &aIndustrial Mixing Machine&r is a batching multiblock version of the &bMixer&r. It can do &6batches of 12&r and has a &620% EU discount&r!"]
 	quest.01E58DD70F1D9B15.quest_desc: [
 		"&aFire Clay Dust&r can be made by mixing two &6Clay Balls&r and two &eBrick Dusts&r in a &eCreate&r &dMechanical Mixer&r."
 		""
@@ -165,6 +166,7 @@
 		""
 		"These &abatteries&r on their own &cdo not hold&r a charge, if you'd like a more traditional modded battery, you can follow the next quest to make a &2Red Cell Battery&r from &eTech Reborn&r."
 	]
+	quest.03A48A124FB9AB5D.quest_desc: ["The &bCrystal Assembler&r is an &9Extended AE&r machine that allows you to craft &dadvanced versions&r of Applied Energistics &amachines&r and &acomponents&r!"]
 	quest.03B0AC7D643C8EC2.quest_desc: [
 		"The &bEmpty Blaze Burner&r can be used on &cBlazes&r in the &4Nether&r to capture them. Captured &cBlazes&r can be used to heat &aBasins&r for certain recipes."
 		""
@@ -203,6 +205,21 @@
 	]
 	quest.044A305FFDCE9E6C.quest_subtitle: "A different growth method from 1.12"
 	quest.044A305FFDCE9E6C.title: "Renewable Certus"
+	quest.045BEE42FEBBE3EE.quest_desc: [
+		"The efficiency mechanic (&6overclock&r) of Modern Industrialization is one of its most defining and unique feature. As such, I think it's worthwhile to take a moment to get familiar with it before starting the electric age and starting to &agrow the factory&r."
+		""
+		"MI's overclock is a &agradual process&r that starts at a given rate defined (shown below) by a &drecipe&r that gradually &bgains speed&r (ramps up) as a &dunique recipe&r is ran &9continuously&r, multiple times over, until it hits its max OC."
+		""
+		"{image:statech:item/oc1 width:200 height:50 align:center}"
+		""
+		"Single block machines have a base &emax OC&r of &932 EU/t&r."
+		""
+		"When changing recipes, the gained speed gradually ramps &cdown&r back to &e0&r. Then the &anew recipe&r is started at its given base rate. &cThis process is slow&r and I recommend &6trying to minimize&r when &adesigning&r your factory!"
+		"{@pagebreak}"
+		"The &aquest reward&r is a &ereminder&r of &9part 0&r. &6Lubricant&r from a bucket (or a tank) can be used to &2instantly&r &aspeed up OC&r of &eelectric&r machines!"
+	]
+	quest.045BEE42FEBBE3EE.quest_subtitle: "A unique mechanic"
+	quest.045BEE42FEBBE3EE.title: "Overclocking, part 1"
 	quest.045C683BF6E216CB.quest_desc: ["This is the start to &a99% of any playthrough&r. You can explore the world a bit, but eventually you will need to make some &ebasic tools&r."]
 	quest.045C683BF6E216CB.quest_subtitle: "The noble start of any playthrough"
 	quest.045C683BF6E216CB.title: "Punch Trees"
@@ -219,7 +236,7 @@
 	]
 	quest.0480052F3F1EDAFC.title: "Chapter Progression"
 	quest.04D26675230550D4.quest_desc: ["&eBuilding Wands&r return! They're &cslightly different&r than you might remember, press '&6y&r' to open their &aconfiguration menu&r while holding one!"]
-	quest.05105071C0E09EB7.quest_desc: ["The highest tier fluid storage cell that can store up to 262144 bytes of information."]
+	quest.05105071C0E09EB7.quest_desc: ["The highest tier of (regular) fluid storage cell that can store up to 262144 bytes of information."]
 	quest.0543B42AF131C694.quest_desc: [
 		"&dFermentation&r is a natural process - things take time and care. Since there never is a fully controlled environment, there are a lot of &avariables&r:"
 		""
@@ -253,11 +270,7 @@
 		"EMI also allows to make recipe trees to easily calculate crafting costs. By clicking the heart icon of any recipe, EMI will set that recipe as default and use that recipe to calculate costs."
 	]
 	quest.0563A16875FB0D51.title: "EMI Tips"
-	quest.056BC4F364AB61F5.quest_desc: [
-		"Similar to &aStainless Steel&r, using an &eEBF&r to process &6Kanthal&r will give you a &bKanthal Hot Ingot&r. You will need to cool the ingot down in a &3Vacuum Freezer&r before it will become usable."
-		""
-		"The only usage of &aKanthal&r is to make &bKanthal Cables&r, an &dHV tiered cable&r, and &bKanthal Coils&r for use in your &eEBF&rs."
-	]
+	quest.056BC4F364AB61F5.quest_desc: ["The only, but very important, usage of &aKanthal&r is to make &bKanthal Cables&r, an &dHV tiered cable&r, and &bKanthal Coils&r for use in your &eEBF&rs and other applicable multiblocks (read the tooltip!)."]
 	quest.05A39ED901BC6569.quest_desc: ["Reduces the time of debuffs"]
 	quest.05AA278DBAEEB2FE.quest_desc: [
 		"Looking for a decent &afood solution&r? Why not solidify some &eConcrete&r and take a bite."
@@ -315,6 +328,7 @@
 		"I wouldn't put off making this until later, as you will need it for the Electric Blast Furnace very soon!"
 	]
 	quest.0722462A316A38A2.quest_desc: ["The &aMV Storage Unit&r is the next tier of energy storage. It can store up to &e12.8M EU&r, quite sizable!"]
+	quest.07276270AE3094FD.quest_desc: ["The &aExtended Molecular Assembler&r is an advanced version of the regular &bMolecular Assembler&r. It allows up to &d8&r crafting tasks &dat once&r and is &d2 times faster&r than the regular M&bolecular Assembler&r! Very useful for crafting &abuilding blocks&r &oen masse&r."]
 	quest.073D42A6E727665A.quest_desc: [
 		"&d&lThis is the first machine you will probably want to make a lot of&r&r! The &aAssembler&r allows you to automate &oalmost&r all recipes, up to 3 per &aAssembler&r if you use slot locking."
 		""
@@ -381,6 +395,7 @@
 	quest.08362FF409BFC7CC.quest_desc: ["&dTitanium Ore&r can only be acquired from an &bElectric Quarry&r using the &aStainless Steel Drill&r. Processing &dRaw Titanium&r into a dust requires &7Manganese Sulfuric Solution&r, which you already have some of from the &aStainless Steel&r processing."]
 	quest.08362FF409BFC7CC.title: "Titanium"
 	quest.0845ACA6AC5C6133.quest_desc: ["The &bAdjustable Chain Gearshift&r works similarly to a regular &aChain Drive&r, however when powered by a &credstone signal&r, the rest of the &bAdjustable Chain Gearshifts&r in the row will have their speed doubled."]
+	quest.0858B7C4CC389198.quest_desc: ["This &6MEGA Cell&r can hold up to &d4194304 bytes&r of &6items&r!!"]
 	quest.0899132267495880.quest_desc: [
 		"The &bAlarm&r will produce a very &cfun and enjoyable&r sound when powered by a &credstone signal&r."
 		""
@@ -396,6 +411,7 @@
 		"To use, have the &bSand Paper&r either in your main or offhand with a &dRose Quartz&r in the other and hold right-click. "
 	]
 	quest.08F7F586C25B705F.quest_desc: ["The &eSlicer&r is an addon to &6Create&r that allows for you to automate &aFarmer's Delight&r slicing recipes. You need to equip it with a &2valid knife tool&r, similar to a &3Deployer&r. Check &dPonder&r for more info."]
+	quest.0922EE37782CBDED.quest_desc: ["Similar to &aStainless Steel&r, using an &eEBF&r to process &6Kanthal&r will give you a &bKanthal Hot Ingot&r. You will need to cool the ingot down in a &3Vacuum Freezer&r before it will become usable."]
 	quest.092B11065EE78062.quest_desc: ["The &aScrapbox-inator&r can turn &bScrapboxes&r into random outputs. It could be fun to have it run, or you can stockpile your scrap until you get a &cMatter Fabricator&r, up to you."]
 	quest.092B82E55D9BCDA1.quest_desc: [
 		"The &eTechReborn&r &bLightning Rod&r can generate power by harnessing the natural power of &dlightning&r. To start catching &dlightning bolts&r, place an &aIron Fence&r on top of the &bLightning Rod&r. More &aIron Fences&r placed on top will increase the chance for a &dlightning strike&r."
@@ -403,6 +419,16 @@
 		"The &bLightning Rod&r generates &d256K E/bolt&r, with a max output rate of &c2048 E/t&r and an internal storage of &a100M E&r."
 	]
 	quest.092B82E55D9BCDA1.quest_subtitle: "Thunderstruck!"
+	quest.09466E977DB6BBAC.quest_desc: [
+		"You need &7steam&r going &ainto&r the pump, but &9water&r going &6out&r of the pump, and &e8 blocks of water&r surrounding it."
+		""
+		"Thankfully, &bpipes&r of &edifferent color&r or type can &afit into a single block space&r! You can have, for example, a &nwhite&r &bfluid pipe&r transferring in steam whilst a &9&nblue&r &bfluid pipe&r occupying the &asame block space&r transfers water out of your pump!"
+		""
+		"Up to &6three pipes&r or &6cables&r (or both) can fit into &aa single block space&r. "
+		""
+		"Be wary when &cveinmining&r though, as all the pipes in the same block space is considered as &ea single blocktype&r. Consequently, if you veinmine pipes (of one type) and they are connected to pipes (of multiple types, occupying the same blockspace), veinmining will &eindisciminately&r break &4ALL pipes and cables&r."
+	]
+	quest.09466E977DB6BBAC.title: "Awkward Piping?"
 	quest.0949D2D8BD487E87.quest_desc: ["Combining 9000 mB of &aHydrochloric Acid&r with &bChromium Crushed Dust&r will create 9000 mB of &dChromium Hydrochloric Solution&r."]
 	quest.0949D2D8BD487E87.title: "Chromium Hydrochloric Solution"
 	quest.097A441985DCD241.quest_desc: ["&dUU-Matter&r can craft a variety of things, some of the most notable is &bIridium&r, &aPlatinum&r, and &cChromium&r. There are other ways to get infinite amounts of those ores, but this offers another viable method in generating these resources."]
@@ -481,6 +507,7 @@
 		"The only usage of &aKanthal&r is to make &bKanthal Cables&r, an &dHV tiered cable&r, and &bKanthal Coils&r for use in your &eEBF&rs."
 	]
 	quest.0A8EBA97C825EF06.title: "Kanthal"
+	quest.0A9F180D2ECACEC7.quest_desc: ["The &aThreshold Level Emitter&r is an advanced version of the &bME Level Emitter&r that has &9R.S.-Latch functionality&r, meaning it can emit according to a &elower&r and &2higher&r threshold of items instead of a &6static&r one."]
 	quest.0AB5468E9C358CA3.quest_desc: ["Using a little bit of &6platinum&r, you can refine &21000mB&r of &2Impure Liquid Nether Star&r to &a1000mB&r of &aMolten Nether Star&r. In this form, you can solidify it in a &6Vacuum Freezer&r into &dNether Stars&r, or &bstockpile it in this liquid form&r, as it will be important in the production of &3Superconductors&r."]
 	quest.0AC4D9039788F1C6.quest_desc: [
 		"Each &afluid pipe&r has an &einternal buffer&r of exactly one bucket (1000 millibuckets). When you connect multiple pipes directly, they become linked and &2share their internal storage&r. "
@@ -493,6 +520,7 @@
 	]
 	quest.0AC4D9039788F1C6.title: "Fluid Pipe Speed"
 	quest.0ACA2C24CCB8A11E.quest_desc: ["The chunks of &aBedrock&r are so sturdy, that a normal &eCrafting Table&r can't handle them. But your &dPigment Pedestal&r handles it no problem. These seem so sturdy, that &bnot even a Wither or Dragon would be able to break them&r."]
+	quest.0ACCCC58AB7786A5.quest_desc: ["The &aElectric Bending Machine&r is a &6variant/upgrade&r of the compresor that allows running secondary compressor recipes (production of &brings&r and &bcurved plates&r) with a &950% EU discount&r, making those recipes &9twice as fast&r!"]
 	quest.0AD5A07A7E0C38D2.title: "Miscellaneous"
 	quest.0AF1648BAD9A6BC2.quest_desc: [
 		"&bTrain Signals&r can be used to ensure that your automatic &dtrains&r do not cross sections of track occupied by another &dtrain&r."
@@ -600,7 +628,16 @@
 	]
 	quest.0C73D9DE1468EBB1.quest_subtitle: "With great power comes great responsibility"
 	quest.0C73D9DE1468EBB1.title: "The Nuclear Reactor"
-	quest.0C79576CA134241A.quest_desc: ["&aWood Tar&r is a byproduct of pyrolysis of logs into &2Charcoal&r. It is very useful to make some &dOil Byproducts&r early when unlocking the &bDistillery&r!"]
+	quest.0C79576CA134241A.quest_desc: [
+		"&aWood Tar&r is a byproduct of pyrolysis of logs into &2Charcoal&r. It is very useful to make some &dOil Byproducts&r early when unlocking the &bDistillery&r!"
+		""
+		"It's clearly not as effective as full Petrochemistry. No one in their right mind should use it exclusively... "
+		"{@pagebreak}"
+		"..."
+		""
+		"{@pagebreak}"
+		"Is it even possible...?"
+	]
 	quest.0C8322287F257F53.quest_desc: ["The &bPhantom Frames&r are equivalent to vanilla &eItem Frames&r, however they will become invisible as soon as you display an &ditem&r in it."]
 	quest.0C8322287F257F53.title: "Phantom Frame"
 	quest.0CC6804816350D62.quest_desc: [
@@ -629,6 +666,11 @@
 	quest.0D0C9043FAA9C215.title: "Creosote"
 	quest.0D0CC636458E8446.quest_desc: ["&eDesh&r is the main thing you came to the moon for. You'll need a lot of it for the &bT2 Rocket&r and other recipes, so plan to get a bunch!"]
 	quest.0D3703BE9C1401C8.quest_desc: ["On top of processing the &6Bronze&r/&eSteel&r recipes&a more efficiently&r, the &aMixer&r opens up new recipes that will be very important in the near future, such as &2mixing fuels&r."]
+	quest.0D683B81F758D7A6.quest_desc: [
+		"Compressing &ecopper plates&r at tick speed (too &cslowly&r)? No? "
+		""
+		"Anyway, the &bBulk Compactor&r should help with running those plate recipes you need a lot of! It can do &6batches of 8&r at &690%&r of the original &eEU cost&r!"
+	]
 	quest.0D7D5019B3497608.quest_desc: [
 		"The &bBrass Tunnels&r can cover your &aMechanical Belts&r and offer multiple &dfiltering&r and &ddistribution&r methods. "
 		""
@@ -699,6 +741,7 @@
 		""
 		"It's also a great way to use a lot less storage busses to access all your barrels and tanks with AE2 instead of using one storage bus per storage block."
 	]
+	quest.0EE203EEEA355636.quest_subtitle: "Straight up chaining it"
 	quest.0EF2CBA4F28AC98C.quest_desc: ["A &bGlider&r is an item that when active and being held by the player, will allow them to glide through the skies instead of falling normally. &eHold crouch to go faster&r."]
 	quest.0EF2CBA4F28AC98C.quest_subtitle: "To the skies!"
 	quest.0EFAF86EED54E0B3.quest_desc: ["Hard, sharp and yet surprisingly brittle. These stones are found everywhere in the &eRazor Edge&r biome. Unless &dsilk touched&r, &6Pyrite&r shatters into items, requiring you to combine them again."]
@@ -708,11 +751,11 @@
 		"Right-click a &9water&r source to fill it with water or hold onto a water bucket in your inventory, and make sure to place some fuel in your drill by &2right-clicking the fuel items on it in your inventory&r. The &9water&r block is not consumed to fill the drill, but will be drained alongside the fuel when it is used to mine."
 	]
 	quest.0F1DC239BBC3D60F.quest_desc: [
-		"Running out of &dOstrum&r or other space materials? Fear not there's a solution! &eThe Space Probe Launcher&r launches small probes towards celestial bodies that fly back to the machine and deliver what they mine."
+		"Running out of &dOstrum&r or other space materials? Fear not there's a solution! &eQuantum The Space Probe Launcher&r is the ultimate form of the &9Space Probe Launcher&r. It can launch small probes towards celestial bodies that fly back to the machine and deliver what they mine. It is more costly on &eenergy&r and a LOT &eslower&r than the regular Space Probe Launcher, but yields &aa lot more materials&r in return."
 		""
 		"Building the multiblock requires &cCalorite Machine Casings&r, if you haven't been to Mercury or Venus yet you will need to travel there and get the needed Calorite."
 		""
-		"If you need help building the multiblock you can view the Ponder scene by holding 'W' on the &eSpace Probe Launcher&r block in your inventory or by holding your wrench out with the &eSpace Probe Launcher&r placed."
+		"If you need help building the multiblock by holding your wrench out with the &eQuantum Space Probe Launcher&r placed."
 	]
 	quest.0F270CF21E4D9F32.quest_desc: [
 		"Want a peaceful place filled with nothing to build your factory? The &dVoid Portal&r block, when right-clicked, will teleport you to a &avoid dimension&r. Here you can build out a platform to construct all the processing lines and automation you'll need to progress."
@@ -746,7 +789,7 @@
 	quest.0F75C95969AB5A54.quest_desc: [
 		"The &aAdvanced Large Steam Boiler&r is very similar to the original &bLarge Steam Boiler&r, but rather this version can produce up to &e1024&r mb/t of Steam!"
 		""
-		"You will need to add an additional layer to the multiblock as compared to the original, but otherwise you can reuse a lot of the same structure. You can check the &bPonder&r scene by holding 'W' on the &aAdvanced Large Steam Boiler&r in your inventory, or by holding a wrench to view a diagram of where blocks need to be placed."
+		"You will need to add an additional layer to the multiblock as compared to the original, but otherwise you can reuse a lot of the same structure. You can check the &bGuideME&r entry by holding 'G' on the &aAdvanced Large Steam Boiler&r in your inventory, or by holding a wrench to view a diagram of where blocks need to be placed."
 	]
 	quest.0F85F4ACA5A103E1.quest_desc: [
 		"The &bLarge Steam Turbine&r will accept both regular steam ( 1 mB = 1 EU ) and &7HP Steam&r ( 1 mB = 8 EU ) into EU, and will generate up to &e16384 EU/t&r."
@@ -756,6 +799,15 @@
 		"If you need help building the multiblock you can view the &bPonder&r scene by holding 'W' on the &bLarge Steam Turbine&r block in your inventory or by holding your wrench out with the &bLarge Steam Turbine&r placed."
 	]
 	quest.0F866EE01E29B82D.quest_desc: ["Enhancing &6Naphtha&r with &aSteam&r will make &eSteam-Cracked Naphtha&r, which can be &2distilled into other byproducts&r."]
+	quest.0FA558512D3433F9.quest_desc: [
+		"As you probably know by now, the max OC of machines can be ameliorated with Upgrades. "
+		""
+		"At this point, you might run into a &especial behavior&r usually referred to as &6tick-crafting&r when upgrading machines with many Turbo Upgrades. "
+		""
+		"In MI, machines go at a maximum of &aone recipe per tick&r. This is a &5&lhard limit&r&r; adding more upgrades to a machine that is tick-crafting is meaningless and &cwon't improve its speed&r. This max OC is equivalent to the &aTotal EU&r of a given &9recipe&r, which you can see by hovering over the recipe time in EMI (as shown below)."
+		""
+		"{image:statech:item/oc3 width:200 height:32 align:center}"
+	]
 	quest.0FAE931363ACFFC7.quest_desc: [
 		"&cIncandescent Essence&r can be obtained by crushing &4Blazing Crystals&r (and less efficiently, &cMagma Blocks&r)."
 		""
@@ -819,12 +871,15 @@
 		""
 		"You can &aright click&r while holding &2chargeable items&r to instantly transfer the &dpower to that item&r"
 	]
+	quest.11245D1341745D1F.quest_desc: ["This &6MEGA Cell&r can hold up to &d1048576 bytes&r of &9fluids&r!"]
 	quest.112577E182AC28F3.quest_desc: ["The &aMV to LV Transformer&r will accept &eMV power and output LV power&r. You can use this to tier down your power to lower-tier machines and cables."]
 	quest.112E7B1922E2CCC3.quest_desc: ["The &6Bronze Furnace&r is a furnace that accepts &7steam&r instead of &atraditional fuels&r. It is as slow as a normal furnace, but is 10 times &3more fuel efficient&r due to using &7Steam&r."]
 	quest.112E7B1922E2CCC3.quest_subtitle: "A more efficient furnace"
 	quest.11361E8B39F8F03C.quest_desc: ["An important component in &aPolyvinyl Chloride&r."]
 	quest.114F2FC2E57172C8.quest_desc: ["It is used to produce an &eUltradense Metal Ball&r and some bulk machines..."]
+	quest.11825C288F04BC30.quest_desc: ["&6Desh&r is a material from &9space&r that is quite &cstrong&r. It will be useful to create new &bSpace Probe&r prototypes and &bProbe Computers&r! It might even be useful to create &6stronger&r versions of some &asingle block machines&r like a &dCompactor&r or &dCentrifuge&r!"]
 	quest.1185A36879732D6A.quest_desc: ["This is the &eModern Dynamics&r version of the &aHV-tier Cables&r."]
+	quest.1187AF9241E0D7E0.quest_desc: ["&bBronze&r not only allows you to upgrade your backpack, but also to create &dupgrades&r for it! You can check the uses&2 of the &dupgrade base&r to view the &bmany upgrades&r you can add to your backpack."]
 	quest.11C4254DF67951A9.quest_desc: [
 		"For those of you who have played &aGregTech&r before, you will know that in that machines that connect to higher voltage tiers than themselves &cwill explode&r. &l&bTHIS IS NOT THE CASE HERE&r&r."
 		""
@@ -857,7 +912,7 @@
 		""
 		"Maximum efficiency is only reached under continuous operation. Only accepts &9High Pressure Water&r and &bHigh Pressure Heavy Water&r."
 		""
-		"If you need help building the multiblock you can view the Ponder scene by holding 'W' on the &bHigh Pressure Large Steam Boiler&r block in your inventory or by holding your wrench out with the &bHigh Pressure Advanced Large Steam Boiler&r placed."
+		"If you need help building the multiblock you can view the GuideME entry by holding 'G' on the &bHigh Pressure Large Steam Boiler&r block in your inventory or by holding your wrench out with the &bHigh Pressure Advanced Large Steam Boiler&r placed."
 	]
 	quest.121D53AEFB021427.quest_desc: [
 		"The idea of &bfermenting&r &afood&r and &cdrinks&r in &eColored Wood&r was not a far away. Over time, the properties of the &ewood&r influences contents. The results are sometimes more, sometimes less, delicious, but &aalways interesting&r. "
@@ -962,6 +1017,7 @@
 	quest.13D6BD373F034937.title: "Andesite Alloy"
 	quest.13DA8C85956D397F.quest_desc: ["The &bMechanical Piston&r can move blocks in front of it. The &aSticky&r variant will also let you retract the blocks. The distance the blocks are pushed can be adjusted by adding &dPiston Extension Poles&r."]
 	quest.13FB4D096D94C939.quest_desc: ["The &aMega Torch&f is a block that cancels any mob spawning that requires no light in a configurable area. It's useful to protect your base and to clean caves and dungeons."]
+	quest.141AE6600B0DA228.quest_desc: ["This very first &9Probe Computer&r, when placed &aunder&r the controller of the &bSpace Probe Launcher&r &acontroller&r, will allow it to calculate the appropriate trajectory to send &bSpace Probes&r to obtain new &aresources&r such as &6Desh&r and &bMoon Ice&r."]
 	quest.143BF2C33D1B8A44.quest_desc: [
 		"This is it: the &eperfection of your recipe&r. A little failure definitely couldn't stop you. This may be the one thing &caggressive enough&r to destroy even some materials previously deemed &6&ounbreakable&r. If you are not careful, you may &cruin the world&r. A necessary sacrifice really."
 		""
@@ -974,7 +1030,8 @@
 	quest.1471CCC149353D56.title: "Uncooked Steel Dust"
 	quest.148AE3384F2C550B.quest_desc: ["Below are all the blocks and tools you'll need to cook up all your meals."]
 	quest.148AE3384F2C550B.title: "Tools of the Trade"
-	quest.14CB47511F2D0E01.quest_desc: ["Allows you to drink items faster"]
+	quest.14CB47511F2D0E01.quest_desc: ["Allows you to drink items faster."]
+	quest.14CB47511F2D0E01.quest_subtitle: "I love soda!"
 	quest.14D630FF21EC6D3F.quest_desc: [
 		"The &6Bronze Cutting Machine&r will give you &ebetter ratios&r for bolts, gears, rings and rods. It uses a little bit of &6lubricant&r every time."
 		""
@@ -1075,7 +1132,8 @@
 	quest.1709043780838C78.quest_desc: ["This modpack &4does NOT&r includes &aSimply Swords&f and &eBetter Combat&f. Together these &4do NOT&r &6overhaul the combat of vanilla Minecraft completely&r and offer a broad variety of &3weapons&r to try out."]
 	quest.1709043780838C78.quest_subtitle: "It's dangerous to go alone!"
 	quest.1709043780838C78.title: "Vanilla Combat"
-	quest.171B6274F48C81EA.quest_desc: ["Your Hang glider is &4too slow&r? Surely adding a dense metal to it will &aenhance its speed&r!"]
+	quest.171B6274F48C81EA.quest_desc: ["Your Hang glider is &ctoo slow&r? Surely plating it with a dense metal such as &bsteel&r to it will &aenhance its speed&r!"]
+	quest.171B6274F48C81EA.quest_subtitle: "What's an Elytra?"
 	quest.171B6274F48C81EA.title: "Reinforced Hang Glider"
 	quest.1724FEEB2622FB70.quest_desc: [
 		"&dTungsten&r is an incredibly tough material that you will be needing moving forward. Due to its special characteristics, it can't be smelted in normal means and will need to be processed through an &2Implosion Compressor&r in order to get a decent amount."
@@ -1116,6 +1174,7 @@
 		"&aDiesel Generators&r will only use fuel when they need to, but if you need a constant supply of energy, you can put liquid fuels in the &bLarge Steam Boiler&r instead of items. A fully heated &bLarge Steam Boiler&r will roughly produce twice the amount of energy a &aDiesel Generator&r would produce using the same quantity of fuel."
 	]
 	quest.18765B0B6FE4E653.quest_desc: ["The &aPlasma Turbine&f can turn &eHelium Plasma&f into EU, at the rate of &d100kEU per mB&r. Its maximum production rate is roughly &21M EU/t&r!"]
+	quest.187E3148FF00C4AE.quest_desc: ["Yes! &aDigital circuits&r and &9Turbo Machine Hulls&r unclock some more very useful &bbatching multiblocks&r!"]
 	quest.1896D76F5F8DE2F9.quest_subtitle: "It's pretty quick"
 	quest.18CE795EB630611E.quest_desc: [
 		"Welcome to the late game, time to make the &eEV-tiered&r machine hulls."
@@ -1192,6 +1251,7 @@
 	quest.19F713DD5C1AED48.quest_subtitle: "Deforestation"
 	quest.1A4CF8FC20475A01.quest_desc: ["With your new &bProcessing Units&r you can now craft the large versions of the advanced components."]
 	quest.1A4CF8FC20475A01.title: "Large Advanced Components"
+	quest.1A57ADA75B7359B8.quest_desc: ["&aElectronic Circuits&r and &aMV Machine Hulls&r unlocks two &bnew batching multiblocks&r."]
 	quest.1A75E897313419C8.quest_desc: [
 		"The &bMechanical Crafter&r allows for automating the crafting of items. Some items can only be crafted with the &bMechanical Crafter&r."
 		""
@@ -1205,7 +1265,9 @@
 	]
 	quest.1A7F6266F03AF41C.title: "The Spectrum Temple"
 	quest.1A915B3D1C8D5A46.quest_desc: ["Placers are blocks that, when activated by a redstone signal, will place any block in its inventory in front of it, if possible."]
+	quest.1AA057FA136ECE2D.quest_desc: ["To finally obtain your &2Beryllium Dust&r, you'll need to electrolyze your &6Beryllium Chloride&r!"]
 	quest.1AA4844D1D10B834.quest_desc: ["&aStainless Steel&r is a key component in all of the &dHigh-Voltage&r tier of machine hulls and multiblocks."]
+	quest.1AC298419EBB7DA2.quest_desc: ["This &6MEGA Cell&r can hold up to &d67108864 bytes&r of &6items&r!!!!!!!!"]
 	quest.1AC3D17D11B6CAD1.quest_desc: ["Putting &eGold Drills&r in the &aElectric Quarry will&r output &cNether&r related items. This is a great way to get a recurring amount of &2Glowstone&r, &3Netherite&r, and &eQuartz&r."]
 	quest.1AC3D17D11B6CAD1.title: "Gold Drills"
 	quest.1ADACCB1A8BB9E7E.quest_desc: ["An infinite steak"]
@@ -1272,6 +1334,7 @@
 		""
 		"Once you have the &6MI&r &aStorage Units&r you can right click them to charge it."
 	]
+	quest.1C02850B615D4688.quest_desc: ["It's a bucket."]
 	quest.1C02850B615D4688.quest_subtitle: "\"Dear God\""
 	quest.1C030F5D0DA882DC.quest_desc: [
 		"Throughout your progression in this &3questbook&r you will earn &eStaTech Coins&r. These can be used to &acraft certain materials&r you may be needing in your adventure. "
@@ -1283,6 +1346,13 @@
 	quest.1C030F5D0DA882DC.quest_subtitle: "I've seen this before!"
 	quest.1C030F5D0DA882DC.title: "StaTech Coins"
 	quest.1C258EF6AC025D80.quest_desc: ["The &bAluminum Backpack&r has &981 slots&r for items!"]
+	quest.1C48A2A33CE8739A.quest_desc: [
+		"You might notice that your EBF can use a lot more energy than your single block machines. That is because &9multiblock machines&r have a base &dmax OC&r of &b128 EU/t&r. "
+		""
+		"Batching multiblocks are a bit more complex, but normally have a &dmax OC&r of 32 EU/t times the batch size and multiplied by their EU discount."
+		""
+		"Note: &cUnlike GregTech&r, adding more energy input hatches to multiblock machines does &cnot&r change their &dmax OC&r, nor does using a higher tier of energy input hatch."
+	]
 	quest.1C56D3421ED7758F.quest_desc: ["The &2Machine Config Card&r allows you to copy a machine or hatch configuration and apply it to a different block in just a few clicks."]
 	quest.1C6856D2C944D9F2.quest_desc: [
 		"Pressurizing &bwater&r into &3HP water&r costs &ca lot of energy&r, but the &eLarge Steam Turbine&r will not give it back! You can use a &aHeat Exchanger&r to recover the &3HP water&r for another cycle. "
@@ -1376,6 +1446,11 @@
 	]
 	quest.1E378F2F641048F1.quest_subtitle: "Basically creative mode"
 	quest.1E378F2F641048F1.title: "The Infinity Suit"
+	quest.1E3B2DB51FDD6CAA.quest_desc: [
+		"The &aME Extended Pattern Terminal&r is an advanced version of the &bME Pattern Terminal&r and boasts &6three additionnal functions&r:"
+		""
+		"Better &dpattern searching&r (by input and output of ingredients), &dpattern highlighting&r and &din-world highlighting&r of &bPattern Providers&r for any given pattern."
+	]
 	quest.1E4A6A853DB50810.quest_desc: ["Can't reach the underside of that pipe? Just hold '&eLeft Alt&r' to enter the Crawling state! This also allows you to easily navigate in 1 high tunnels or areas."]
 	quest.1E4C654BFB863E9A.quest_desc: ["&aItem Pipes&r build a path to their connections based on the distance between them. Using an &6Inhibitor&r will increase the path distance calculation for that attachment by &31000&r. Great for making a connection that will be &cavoided&r."]
 	quest.1E525921822F56AC.quest_desc: [
@@ -1437,6 +1512,7 @@
 	]
 	quest.1EE490D2BEE9913E.title: "The Spectrum Focus"
 	quest.1EFA4209205571E3.quest_desc: ["The &aElectric Macerator&r is the electrical version of the &6Steam Macerator&r. It opens up the ability to make &dCalcite&r and &dObsidian Dust&r, and it will process recipes&d much faster&r than its &7Steam&r counterpart."]
+	quest.1F29C93DA3E7F2F3.quest_desc: ["The &aME Extended IO Port&r is an advanced version of the regular &bME IO Port&r that is &da lot faster&r and has &dmore upgrade slots&r."]
 	quest.1F3EC7D6BFE3E0A8.quest_desc: ["The &bWrench&r is an essential tool in &eCreate&r. It allows you to &drotate&r blocks, break &eCreate&r blocks instantly by shift-right clicking, as well as several other important configurations."]
 	quest.1F46D51397CE34AC.quest_desc: ["With your new fancy circuits you can now craft even more complicated components. "]
 	quest.1F4A0D43BADF0146.quest_desc: [
@@ -1473,6 +1549,11 @@
 		"If your friend is too loud, your microphone isn't being detected, or any other issue arises, press '&ep&r' to &dopen the config&r for the mod. By default the &9Push to Talk&r key is bound to '&3CAPS LOCK&r'. "
 	]
 	quest.1F6617D47FD87D58.title: "Simple Voice Chat"
+	quest.1F7CD79E5CB9821E.quest_desc: [
+		"Your quest for &9technological advancement&r calls for way more &6solid&r materials. Where else to get these but from &aspace&r?"
+		""
+		"The &dSpace Probe Launcher&r acts much like a &equarry,&r but will require a lot more &9advanced&r &emining tools&r and &etechnology!&r"
+	]
 	quest.1F81D2DD08A45493.quest_desc: [
 		"The &aMV Steam Turbine&r is the next tier of steam turbines. It can produce up to &e128 EU/t&r by using &7Steam&r."
 		""
@@ -1483,8 +1564,6 @@
 		""
 		"Fluids cannot be inserted manually with a bucket, and will need to be pumped in/out using &aFluid Pumps&r."
 	]
-	quest.1F8BAB70F2596659.quest_desc: ["With your Forge Hammer finally available, you can properly protect yourself from the creatures of the night "]
-	quest.1F8BAB70F2596659.title: "Armor Up"
 	quest.1F9B18D9DD75E5FA.quest_desc: [
 		"High Tier Storage Cell, which can contain &d65,536 bytes of storage&r."
 		""
@@ -1611,6 +1690,11 @@
 	]
 	quest.22081B54FB7893CC.title: "Waystone"
 	quest.2216B63E764E0EBE.quest_desc: ["&dTitanium Ore&r can only be acquired from an &bElectric Quarry&r using the &aStainless Steel Drill&r. Processing &dRaw Titanium&r into a dust requires &7Manganese Sulfuric Solution&r, which you already have some of from the &aStainless Steel&r processing."]
+	quest.222AC3DC54F99010.quest_desc: [
+		"&aExtended AE&r adds a &elarge variety&r of &dadvanced&r versions of regular Applied Energistics &dbusses&r that oftentimes either adds &6more speed&r, &eadvanced capabilities&r for &efiltering&r and &ebehavior,&r or &6both.&r "
+		""
+		"I won't add descriptions for all of these as there is &o&bquite a lot&r of them and all of their &6specific capabilities&r are detailled in their &bGuideME entries&r, which you can view by &bholding G&r!"
+	]
 	quest.2233186BEAF7BA1A.quest_desc: [
 		"The &cCarmintine&r contraptions of the &eUr-Ghast Tower&r will not obey you. You must &aearn the ability to control them&r. Travel into the &2Dark Forest&r and find a dungeon slightly exposed from the ground. Place a &3Trophy&r of a defeated boss on the pedestal to enter."
 		""
@@ -1631,6 +1715,11 @@
 		"You can choose not to build the entire suit, but the chestplate will be required to make the &bGravichestplate&r."
 	]
 	quest.227FD6EF200D097F.title: "The Jet Suit"
+	quest.2296FC027EAF34E2.quest_desc: [
+		"&2Beryllium containing materials&r (&aemeralds&r) needs to be processed in a specific way to be able to become extract the purified &aBeryllium&r for your future &6nuclear projects&r!"
+		""
+		"The first step in this process is bathing your &aemerald&r in &esulfuric acid&r! "
+	]
 	quest.229C752D3B9B8D48.quest_desc: [
 		"Welcome to the late game, time to make the &eEV-tiered&r machine hulls."
 		""
@@ -1666,6 +1755,7 @@
 		"That &abright green ore&r can be found in the deepest parts of &dDeeper Down&r. It's not often found exposed to air, so best way is to branch mine."
 	]
 	quest.2353C0AE3C45EB96.title: "Not Emerald!"
+	quest.2358F7729C50724D.quest_desc: ["To easily track down &echannel issues&r, the &dME Network Analyzer&r can be used to &avisualize&r all devices that take up a channel and the &atotal number of used channels&r on any given cable of the network. It will also show &coffline devices&r that are &cmissing a channel&r in red (by default)."]
 	quest.237FD6F79696DF97.quest_desc: [
 		"The &bIndustrial Jackhammer&r is a lot like the &aIndustrial Drill&r, but with some drawbacks and benefits. "
 		""
@@ -1674,6 +1764,7 @@
 		"Making it is up to you."
 	]
 	quest.239E90A6EAC47789.quest_desc: ["A component in &aStyrene-Butadiene&r."]
+	quest.23B7A8819520FB36.quest_desc: ["Changing transformers every tier &ecan be annoying&r. Thankfully there is a &aUniversal Transformer&r which allows you to transform from &9any tier&r, to &bany other tier&r! It however requires &dmachine hulls&r to designate which tiers it can transform from and to."]
 	quest.23D9328B5F627E65.quest_desc: ["Getting to the &eQuantum Circuits&r in their own is an accomplishment. These are used for all the end game MI machines and materials."]
 	quest.23D9328B5F627E65.quest_subtitle: "The Final Circuit"
 	quest.24027FEAD3837B46.quest_desc: ["The &bLinked Controller&r can be used to remotely activate &aRedstone Links&r by pressing a bound button."]
@@ -1689,14 +1780,14 @@
 	quest.240E45CC4436DF82.quest_desc: [
 		"The &bImplosion Compressor&r is able to compress dust and ingots of the most resistant materials. This includes &dTungsten&r, &aBlastproof Alloy&r, and &2Beryllium&r. These materials are very important for nuclear fission!"
 		""
-		"If you need help building the multiblock you can view the Ponder scene by holding 'W' on the &bImplosion Compressor&r block in your inventory or by holding your wrench out with the &bImplosion Compressor&r placed."
+		"If you need help building the multiblock you can view the GuideME entry by holding 'G' on the &bImplosion Compressor&r block in your inventory or by holding your wrench out with the &bImplosion Compressor&r placed."
 	]
 	quest.2414DEE44DADFBE4.quest_desc: ["The &aFerocious Bident&r is the result of combining a &bBident&r and a &3Pocket Thunderstorm&r. Hurl yourself into the air and damage everything in your path, even in the driest of deserts! Well, that is if you don't run out of &dink&r... The ability scales with the level of &5Riptide&r."]
 	quest.243A29040C083111.quest_desc: ["&cStratine&r is a very &4heavy&r ore is scattered around the depths of the &cNether&r. It's probably &enot the best idea to carry &llarge&r&e amounts of it home at once."]
 	quest.2478F4D9F70204A9.quest_desc: [
 		"&aEnder Tanks&r are exactly like &bEnder Chests&r, but they can store fluids instead."
 		""
-		"You can use dye to change the color-coding."
+		"You can use dye to change the color-coding and a &bdiamond&r on the gold circle to make them &6private&r."
 	]
 	quest.24826CBC15A24538.quest_desc: ["This powerhouse of an item is capable of &achanneling huge amounts of Ink with ease&r. &eCan be used to enhance the capabilites of equipment and devices.&r"]
 	quest.24826CBC15A24538.quest_subtitle: "A relic of times long past"
@@ -1810,6 +1901,11 @@
 		""
 		"You can only have one ring activated at a time. You will need to remove the rings from your inventory and deactivate them one at a time."
 	]
+	quest.26A89C51A7B9FFDE.quest_desc: [
+		"Now that you have &eSteel&r, you can upgrade your &6Bronze Machines&r if you want. &eSteel machines&r can process recipes up to &24 EU/t&r, and they will process recipes at twice the speed as long as the energy usage doesn't go above &24 EU/t&r. Basically they are twice as fast as &6Bronze Machines&r and they may also &3unlock new recipes&r."
+		""
+		"Additionally, &eSteel Hatches&r have more capacity than &6Bronze Hatches&r, and a multiblock with at &aleast ONE steel hatch&r (regardless of item/fluid/etc.) will be upgraded to &eSteel&r tier. This means that it will go &etwice as fast&r if its energy usage wouldn't exceed &24 EU/t&r."
+	]
 	quest.26A89C51A7B9FFDE.title: "&eSteel Ingot"
 	quest.26DD8B3CAA3D34B5.quest_desc: ["With your new &dSpectrum Palace&r, you can finally round out the last three pigments you have not been able to create up to this point."]
 	quest.26DD8F0FDE61AC95.quest_desc: ["The &bElectric Mining Drill&r is an upgraded &3electric-powered drill&r that features a powered mode for &dmining 3x3&r, adjustable mining speed, and the ability to switch between Silck Touch and Fortune modes."]
@@ -1839,7 +1935,11 @@
 		""
 		"&cBeware&r: The &5Ender Dropper&r only works as long as you are online. And who is stopping anyone from placing a button next to it and emptying your &dEnder Chest&r?"
 	]
-	quest.2763B0A63FC17046.quest_desc: [""]
+	quest.2763B0A63FC17046.quest_desc: [
+		"The &bTesla Coil&r is the first iteration of &dwireless power&r transfer. It allows you to send energy to &aTesla Receivers&r and &aHandheld Tesla Receivers&r."
+		""
+		"Each &aTesla Coil&r can has some &cdrain&r associated to wireless energy transfer and can send &eas much energy&r as &athe cable limit of its hull's tier&r (256 EU/t for LV, 1024 EU/t for MV, and so on)."
+	]
 	quest.2763B0A63FC17046.quest_subtitle: "Wireless Power?"
 	quest.278BE1D13FE8E78E.quest_desc: ["The &aElectric Unpacker&r is the electrical version of the &6Steam Unpacker&r. It doesn't open up any new recipes, but it will process recipes &dmuch faster&r than its &7Steam&r counterpart."]
 	quest.279FF920B3CA44FF.quest_desc: [
@@ -1873,7 +1973,7 @@
 		"Gives off a&c redstone pulse&r each time a block is blaced in front of it that matches the block below it (or above it, if facing down)."
 	]
 	quest.27B975AF95A03AB0.quest_desc: [
-		"The &aME Annihilation Plane&r is a part designed to destroy any block put in front of it. It can buffer a single operation. Buffered items will automatically be stored in &dME Network&r's storage as space is made available. "
+		"The &aME Annihilation Plane&r is a part designed to destroy any block put in front of it. It can buffer a single operation. Buffered items will automatically be stored in &dME Network&r's storage as space is made available. It can be &denchanted&r, notably with &bSilk Touch&r or &bFortune&r. "
 		""
 		"The &aME Formation Plane&r is a part designed to place or drop any item put into the &dME Network&r. It functions as storage similar to how an &eME Storage Bus&r, so items that are added to the network are dropped or placed passively. You can configure the &aME Formation Plane&r to indicate specific items it should place. Items are placed instantly when they enter the network."
 		""
@@ -2114,6 +2214,7 @@
 	]
 	quest.2D1CE7720270D118.quest_subtitle: "Under pressure"
 	quest.2D1CE7720270D118.title: "The Pressurizer"
+	quest.2D5E5C45FA70EC70.quest_desc: ["This &6MEGA Cell&r can hold up to &d67108864 bytes&r of &9fluids&r!!!!!!!!"]
 	quest.2D6BC53B4C3E06F0.quest_desc: [
 		"With &6Bronze&r, you can now pretend to be an early 3000 B.C. human!"
 		""
@@ -2167,9 +2268,9 @@
 		"&mUpgrading the coils to &eKanthal&r&m doesn't speed up the recipes, &onot yet at least&r...&r &dHEHE, now it does!&r"
 	]
 	quest.2E7BA735872B4B94.quest_desc: [
-		"With your new Centrifuge, you can now make Plant Oil, which can substitute Creosote Oil for making Lubricant."
+		"With your new &aCentrifuge&r, you can now make &2Plant Oil&r, which can substitute Creosote Oil for making &6Lubricant&r."
 		""
-		"It's also used in the making of Raw Biodiesel, an alternate fuel to Pretroleum-based Diesel."
+		"It's also used in the making of &2Raw Biodiesel&r, an alternate fuel to &9Petroleum&r-based &eDiesel&r."
 	]
 	quest.2E7BA735872B4B94.quest_subtitle: "An alternate way for Lubricant"
 	quest.2E7F7728159E3823.quest_desc: ["The following quests are in relation to accessing your &dAE2 network&r on the fly, whether that be in your base away from the &aterminal&r, or on a far off planet!"]
@@ -2219,12 +2320,12 @@
 		""
 		"It's not worth starting up the &bBoiler&r right now unless you have a significant enough &aLarge Tank&r to take the &7High Pressure Steam&r or have set up the next multiblock, the &bLarge Steam Turbine&r."
 		""
-		"If you need help building the multiblock you can view the Ponder scene by holding 'W' on the &bHigh Pressure Large Steam Boiler&r block in your inventory or by holding your wrench out with the &bHigh Pressure Large Steam Boiler&r placed."
+		"If you need help building the multiblock you can view the GuideME entry by holding 'G' on the &bHigh Pressure Large Steam Boiler&r block in your inventory or by holding your wrench out with the &bHigh Pressure Large Steam Boiler&r placed."
 	]
 	quest.2F4E5ADB4CB93AA8.quest_desc: [
 		"Using the &dBattery Alloy&r you (hopefully) made earlier, you can make &aRedstone Batteries&r. &aEach tier of machine hull has their own tier of battery&r used to craft them, so expect to be &dmaking these often&r."
 		""
-		"These &abatteries&r on their own &cdo not hold&r a charge, if you'd like a more traditional modded battery, you can follow the next quest to make a &2Red Cell Battery&r from &eTech Reborn&r."
+		"These &abatteries&r on their own &cdo not hold&r a charge."
 	]
 	quest.2F56D5FE486BA699.quest_desc: [
 		"With &bPlatinum&r, you can now create the sixth tier of &aDank&r. This tier has &d54 slots&r with a max stack size of &6262,144&r. "
@@ -2256,6 +2357,7 @@
 	]
 	quest.2F8EAC597AB7E760.quest_desc: ["Increases the wearer's swim speed"]
 	quest.2FA4E183EB7E1413.quest_desc: ["The &aElectric Cutting Machine&r is the electrical version of the &6Steam Cutting Machine&r. The only recipe it unlocks is to turn &3Monocrystalline Silicon into Silicon Wafers&r, which you won't need right now. Other than that, it &dprocesses existing recipes faster and more efficiently&r."]
+	quest.2FA9CCCED8F29ACF.quest_desc: ["This &6MEGA Cell&r can hold up to &d16777216 bytes&r of &9fluids&r!!!!"]
 	quest.2FD9CBCD413E05DF.quest_desc: [
 		"The &aDiesel Jetpack&r allows you to have flight similar to that of the &dElytra&r, but runs off of &efuel rather than durability&r. The &3more powerful&r the fuel, &3the faster&r the &ajetpack&r! For really fast speeds, the &bRubber Helmet&r and &bRubber Boots&r are recommended."
 		""
@@ -2263,7 +2365,7 @@
 	]
 	quest.2FD9CBCD413E05DF.quest_subtitle: "Fly me to the moon"
 	quest.2FDA67B4920D335D.quest_desc: [
-		"Welcome to &eChapter 6&f."
+		"Welcome to &eChapter 7&f."
 		""
 		"With the secrets of &dquantum computing realized&r, you can now work towards &asome extremely advanced machinery and sciences&r."
 	]
@@ -2308,11 +2410,11 @@
 	quest.3121D591D3807584.quest_desc: ["Allows you to double jump, similar to the Terraria item"]
 	quest.3132A7C27E732259.quest_desc: ["You can create &dTungsten Nuggets&r by compressing &dTungsten Tiny Dusts&r. This process is &cvery, very slow&r, so you'll want to get as much as you need to make an &eImplosion Chamber&r and then never use the compressing method again."]
 	quest.313C3C77F20BB25E.quest_desc: [
-		"Find yourself waiting on your &aElectric Smelters&r, even with upgrades? Need to smelt up a ton of cobblestone? Then the &dMega Smelter&r is for you."
+		"Find yourself waiting on your &aElectric Smelters&r, even with upgrades? Need to smelt up a ton of cobblestone? Then the &dLarge Electric Furnace&r is for you."
 		""
-		"The &dLarge Electric Furnace&r processes &ebatches of items of the same type at a time&r at relatively quick speeds. You can upgrade it to go even faster."
+		"The &dLarge Electric Furnace&r processes &ebatches of items of the same type at a time&r at relatively quick speeds."
 		""
-		"Upgrading the coils to &eKanthal&r speeds up the recipes and makes batch size higher!"
+		"Upgrading the &bcoils&r speeds up the recipes and makes batch size higher!"
 	]
 	quest.313C3C77F20BB25E.quest_subtitle: "Turning up the heat"
 	quest.313C9B884B08EAF8.quest_desc: [
@@ -2368,6 +2470,7 @@
 		""
 		"Check the &ePonder&r for more information."
 	]
+	quest.328C369BE0EE3940.quest_desc: ["&aSky Steel&r and &aSky Bronze&r are &9advanced materials&r used to make &6Item&r and &9Fluid&r &dMEGA Cells&r respectively."]
 	quest.328C369BE0EE3940.title: "Sky Steel and Sky Bronze"
 	quest.328DBF4E8E11FED7.quest_desc: [
 		"&dOstrum&r's cold properties make for a great insulator for your gear! Finally you can upgrade your backpack!"
@@ -2386,9 +2489,9 @@
 	quest.32BA0D5075E1C624.quest_desc: ["Your next goal is to find a &anew material&r in the &bswamp&r. It's &dpurple&r and grows from &7clay&r."]
 	quest.32BA0D5075E1C624.title: "A New Material"
 	quest.32DF938D1E6E89BB.quest_desc: [
-		"A &bLarge Diesel Generator&r is able to burn fuel to generate up to &e16384 EU/t&r. Check &dREI&r to view how much EU per mB each fuel can produce."
+		"A &bLarge Diesel Generator&r is able to burn fuel to generate up to &e16384 EU/t&r. Check &dEMI&r to view how much EU per mB each fuel can produce."
 		""
-		"If you need help building the multiblock you can view the &bPonder&r scene by holding 'W' on the &aLarge Diesel Generator&r block in your inventory or by holding your wrench out with the &bLarge Diesel Generator&r placed."
+		"If you need help building the multiblock you can view the &bGuideME&r entry by holding 'G' on the &aLarge Diesel Generator&r block in your inventory or by holding your wrench out with the &bLarge Diesel Generator&r placed."
 	]
 	quest.32DF938D1E6E89BB.title: "The Large Diesel Generator"
 	quest.32F963B0273A07E2.quest_desc: [
@@ -2412,7 +2515,7 @@
 	quest.3367CF1056CBCB36.quest_desc: [
 		"&aMain Progress&r of the pack is provided in each chapter under the &l&e-- &6Chapters &e--&r section. The entries below the &l&e-- &6Side Chapters &e--&r section are not required to progress, but may provide very useful items and tools to aid you in your journey."
 		""
-		"Quests with a &asquare border&r are &drequired for progression&r, while &brounded edges&r indicate an &2optional quest&r."
+		"Quests with a &asquare border&r are &drequired for progression&r, while &brounded edges&r indicate an &2optional quest&r. Quests with a &6circle border&r are contextual &atips and tricks&r."
 	]
 	quest.3367CF1056CBCB36.title: "Chapter Progression"
 	quest.3399A26EB8F11532.quest_desc: [
@@ -2424,6 +2527,9 @@
 	quest.339F676C828C790D.quest_subtitle: "Welcome to the Stone Age"
 	quest.339F676C828C790D.title: "Cave Man"
 	quest.33A1CC9DFDAF2B13.quest_desc: ["This upgrade to the &aWorkstaff&r allows you to&e Right Click&r to shoot out &fWhite Ink&r which will break blocks on impact. You can also choose from &dResonance&r when switching enchantments."]
+	quest.33AFB99445AE9B9C.quest_desc: ["The &aOversized Electrolysis Chamber&r is a batching multiblock version of the &bElectrolyzer&r. It can do &6batches of 16&r and has a &620% EU discount&r!"]
+	quest.33E951F1FC9E5FBB.quest_desc: ["This &6MEGA Cell&r can hold up to &d16777216 bytes&r of &6items&r!!!!"]
+	quest.342D1B694B43F25A.quest_desc: ["The &bCrystal Fixer&r allows to easily keep &asome budding blocks&r &6repaired&r automatically. It uses &bitems&r which you have to insert into it to maintain its &6repairing&r capabilities. "]
 	quest.343127A42BA0B83C.quest_desc: ["By combining &3Creosote&r with &cRedstone Dust&r in a mixer you can create &6Lubricant&r. This fluid is used in most of the recipes in the &6Cutting Machine&r and also to speed up your &6machine overclocking&r once you reach &aelectrical machines&r."]
 	quest.343127A42BA0B83C.title: "Lubricant"
 	quest.343C68866C58ADC3.quest_desc: [
@@ -2518,6 +2624,7 @@
 		""
 		"Try it out on &bbudding blocks&r and &2spawners&r!"
 	]
+	quest.36521C02297A6BBD.quest_desc: ["You can now smelt your &2Beryllium Dust&r in an &6EBF&r to obtain it in its &dingot form&r! The process will create some &boxygen&r you'll have to deal with, though."]
 	quest.365BA2B731C79ED1.quest_desc: ["&aPineapple&r on a &eConcrete Pizza Slice&r is probably the most delicious food one could make."]
 	quest.36C698E0F31FDB20.quest_desc: ["With your new fancy circuits you can now craft even more complicated components. "]
 	quest.36C698E0F31FDB20.title: "Large Components"
@@ -2572,7 +2679,7 @@
 	quest.37D2B90173E5852A.quest_desc: [
 		"In the need of more &dCreosote&r? Or would you like to get a headstart on &6Benzene&r production? Either way, the &aPyrolyse Oven&r is the perfect multiblock solution for you."
 		""
-		"You can &bPonder&r the multiblock by holding 'W' on the &aPyrolyze Oven&r item in your inventory. You can also hold your wrench out to see where blocks need to be placed."
+		"You can read the &bGuideME&r entry for this multiblock by holding 'G' on the &aPyrolyze Oven&r item in your inventory. You can also hold your wrench out to see where blocks need to be placed."
 	]
 	quest.37D9B9D06AD67FDD.quest_desc: ["The &bAnnealed Copper Ingot&r can be made by &eVacuum Freezing&r the &dhot&r variant. &bAnnealed Copper&r is important in &cadvanced components&r and &dHV Cables&r."]
 	quest.37DD0F1D584C6A05.quest_desc: [
@@ -2693,6 +2800,7 @@
 	quest.3A489E0C779A81B2.quest_desc: ["Crushing &bFrostbite Crystal&r with an anvil yields this ice cold powder, which almost makes your hand freeze just by holding it. Crushing &9Ice&r seems to work too, albeit with much less yield."]
 	quest.3A77BA6A5F916C50.quest_desc: ["Prevents falling in Powder Snow and makes you faster on snow."]
 	quest.3A8FFB7736EB8D34.quest_desc: ["&eElectrolyzing&r 1000 mB of &aChromium Hydrochloric Solution&r will produce three &bTiny Chromium Dust&r, 450 mB of &9Hydrogen&r, and 450 mB of &2Chlorine&r. This means that there is a 100 mB loss of &aHydrochloric Acid&r for each process. Automating Salt Ore production through the Quarry is going to be essential."]
+	quest.3A9BAF7CE8E624A7.quest_desc: ["The &aME Active Formation Plane&r is an &2easier to use&r version of &bregular Formation Planes&r as it can &aactively pull&r blocks or items to place or drop. No need for a &bsubnet&r!"]
 	quest.3A9D85B839F75B26.quest_desc: [
 		"Looks like whoever came before me was able to harvest &aDownstone&r! But only with a help of colossal, imposing drills."
 		""
@@ -2764,6 +2872,11 @@
 		"No, it cannot do calculus."
 	]
 	quest.3C6324BDADB253DB.title: "Math In Chat"
+	quest.3C7288BD3918567B.quest_desc: [
+		"Aren't those &eElectric Macerators&r &cslow&r? Miss the time where your &eLarge Steam Macerator&r was &asooooo much faster&r than your steel one?"
+		""
+		"Hopefully the &bLarge Electric Macerator&r can fill that role again. It can do &6batches&r of &616&r at &e0.75%&r of the regular &eEU cost&r!"
+	]
 	quest.3C883FE97253CFBA.title: "Sandwiches and Burgers"
 	quest.3CB2C2AF6C7E1C3B.quest_desc: ["&aRich Soul Soil&r is the &cNether&r variant of regular &eSoul Soil&r"]
 	quest.3CB32AC6ACE2140C.quest_desc: ["Almost &aDiesel Chainsaw&r, but consumes &3EU&r instead of fuel and provides Looting."]
@@ -2790,6 +2903,7 @@
 		""
 		"They are cheaper to craft from &bFluix ME Dense Covered Cable&r."
 	]
+	quest.3D0FC900DA2A116B.quest_desc: ["The &aExtended Pattern Provider&r is an advanced version of the &bPattern Provider&r. It has &d36 slots&r for &apatterns&r instead of &ejust 9&r!"]
 	quest.3D3251680D5863BD.quest_desc: ["The &bToolbox&r allows you to store commonly used &eCreate&r items and access them while the &bToolbox&r is placed in the world nearby. It can be opened with a keybind, which you will need to set in the controls under the &dAccess Nearby Toolboxes&r."]
 	quest.3D53CF98BD92C153.quest_desc: ["The &dObsidian Barrel&r has the same storage as the &bDiamond Barrel&r."]
 	quest.3D5C1FD71120C918.quest_desc: [
@@ -2819,7 +2933,7 @@
 	]
 	quest.3DA3CFDA837FC891.title: "Modern Dynamics Attachments"
 	quest.3DADE1F0A3BB9AB4.quest_desc: ["The &aStainless Steel Barrel&r can store an incredible &e4096 stacks&r of a single item."]
-	quest.3DD9AFAD287F29C2.quest_desc: ["The &eSpace Probe&r returns a good chunk of every space ore after some travel time. &6The multiblock must be built&r in &aorbit&r (&oany planet will work&r) to use this recipe."]
+	quest.3DD9AFAD287F29C2.quest_desc: ["The &eSpace Probe&r returns a good chunk of every space ore after some travel time. "]
 	quest.3DDD69F79F436684.quest_desc: [
 		"The &dCreative Tank&f can store an &ainfinite amount of any fluid placed inside&r."
 		""
@@ -2842,7 +2956,8 @@
 		"- Luminax,"
 		"- Create,"
 		"- Xtones Reworked"
-		"- Decorative Blocks Reborn."
+		"- Decorative Blocks Reborn"
+		"- Framed Blocks."
 	]
 	quest.3DF44D4208B1684A.quest_subtitle: "A Beautiful Factory"
 	quest.3DF44D4208B1684A.title: "Decorative Blocks"
@@ -2880,6 +2995,7 @@
 		""
 		"&aInk&r behaves very much like a liquid. It flows from where it is &babundant&r to where is &clittle&r. When two objects that store &aInk&r are connected, such as a &bColor Picker&r and an &eInk Flask&r - the &aInk&r between the two containers slowly &cevens out&r. The &2greater&r the difference, the &9faster&r the &eFlask&r is getting filled."
 	]
+	quest.3E7BA3A61D2C897C.quest_desc: ["After obtaining &bBeryllium Hydroxide&r, you'll need to make it react with some &8carbon&r and &echlorine&r to turn it into &6Beryllium Chloride&r, and form of &2Beryllium&r you'll be able to electrolyze! "]
 	quest.3E87F9A3771AA4A4.quest_desc: ["The &aElectric Wiremill&r is the electrical version of the &6Steam Wiremill&r. It doesn't open up any new recipes, but it will process recipes &dmuch faster&r than its &7Steam&r counterpart."]
 	quest.3EA1A45EF8297E67.quest_desc: [
 		"This glistening hoop creates a protective film of air around you."
@@ -2898,7 +3014,7 @@
 	quest.3EC71BD7C750B856.quest_desc: [
 		"&aEnder Chests&r are chests which can be linked according a color code. "
 		""
-		"You can use dye to change the color-coding and use a &bdiamond&r on the chest lock to make it private."
+		"You can use dye to change the color-coding and use a &bdiamond&r on the chest lock to make it &6private&r."
 	]
 	quest.3EF9963D9B9B56CE.quest_desc: [
 		"With the &aMeef Stroganoff&r protecting you from the &cheat&r of the &4Fire Swamp&r, it's time to venture in and slay the next beast on your journey: &bThe Hydra&r."
@@ -2962,7 +3078,7 @@
 		""
 		"Unlike &bGregTech&r, the &chot ingots don't damage you&r, they just &6can't be used in recipes&r."
 		""
-		"If you need help building the multiblock, remember you can hold \"W\" on the &aVacuum Freezer&r item in your inventory to view the &bPonder&r scene, or you can hold your wrench out to see where to place the blocks in the world with the &aVacuum Freezer&r block placed."
+		"If you need help building the multiblock, remember you can hold \"G\" on the &aVacuum Freezer&r item in your inventory to view the &bGuideME&r entry, or you can hold your wrench out to see where to place the blocks in the world with the &aVacuum Freezer&r block placed."
 	]
 	quest.404D73DA8A2AEAC2.quest_desc: ["&cTNT&r can be produced using &dQuitoxic Dust&r, however any &cTNT&r produced this way is &6unstable&r. What does that mean exactly? Well, let's just say you're certain &awhere you want to place your &cTNT&r..."]
 	quest.404D73DA8A2AEAC2.quest_subtitle: "Warning: Unstable"
@@ -3065,7 +3181,7 @@
 		""
 		"These hold 100k and can distribute power to other items in your inventory, very useful!"
 	]
-	quest.42B1F8244347510A.quest_desc: ["Your newly acquired Stainless Steel and Annealed Copper allows you to make Mega Cells!"]
+	quest.42B1F8244347510A.quest_desc: ["Your newly acquired &9Stainless Steel&r and &6Annealed Copper&r allows you to make Mega Cells!"]
 	quest.42DBEFEFCE44F5BB.quest_desc: [
 		"This pack includes the mod &eSpice of Fabric&r. Originally I was going to mimic &dGregTech: New Horizons&r' food system, requiring you to change up what you eat. &cBut that's just mean...&r. So instead the mod rewards you for &2trying different foods&r!"
 		""
@@ -3120,7 +3236,7 @@
 	quest.43E5FC3194CF1BBC.quest_subtitle: "Lightning in a Box"
 	quest.43F4FC5D451BA26C.quest_desc: ["The &eMonorail Train Track&r is an alternate to the regular &2Create Train Tracks&r. Instead of being placed on the ground, the train will hang from the rail. "]
 	quest.43F4FC5D451BA26C.quest_subtitle: "Disney Approved"
-	quest.4410F770254B4F8F.quest_desc: ["Instead of crafting entirely new machines, you can use the &eSteel&r Upgrade with a &6Bronze Machine&r in a &3Smithing Table&r to upgrade it into its &eSteel&r version."]
+	quest.4410F770254B4F8F.quest_desc: ["Instead of crafting entirely new machines, you can use the &eSteel Upgrade&r on a &6Bronze Machine&r with &5Shift-RMB&r, or in a &3Smithing Table&r to upgrade it into its &eSteel&r version."]
 	quest.4410F770254B4F8F.quest_subtitle: "Upgrades people, upgrades!"
 	quest.4434AD65DF2DD224.quest_desc: ["&aTravel Anchors&r are pulled straight out of &eEnderIO.&r You can place them down, name them, and use the &bwand to warp between them&r. You can also stand on them to warp to others &eby looking at them and pressing right-click&r."]
 	quest.4434AD65DF2DD224.title: "Travel Anchors"
@@ -3221,12 +3337,16 @@
 		""
 		"The &bEBF&r is made of one layer of &eHeatproof Machine Casings&r, two hollow layers of &cCupronickel Coils&r and one other layer of &eHeatproof Machine Casings&r. The &dcontroller&r must go on the bottom layer, and &2hatches on the top or bottom layer&r."
 		""
-		"Don't forget to add &cEnergy Input Hatch(es)&r or the &aEBF&r won't have energy! The &6LV Energy Input Hatch&r will only connect to LV cables. There are higher tiers of input hatches, the MV one is not craftable yet, but keep in mind that they still exist!"
+		"Don't forget to add an &cEnergy Input Hatch&r or the &aEBF&r won't have energy! The &6LV Energy Input Hatch&r will only connect to LV cables. There are higher tiers of input hatches, the MV one is not craftable yet, but keep in mind that they still exist!"
 		""
-		"Remember you can &bPonder&r the multiblock by holding 'W' on the &aElectric Blast Furnace&r item in your inventory. You can also hold your wrench out to see where blocks need to be placed."
+		"You can check out the multiblock structure through &9GuideME&r by holding 'G' on the &aElectric Blast Furnace&r item in your inventory. You can also hold your wrench out to see where blocks need to be placed."
 	]
 	quest.45976F62A09069E6.quest_subtitle: "EBF for short!"
-	quest.45AE05F51DB53B0C.quest_desc: ["The &aGrowth Accelerator&r is used to accelerate crystal growth. It can be placed facing into a &dBudding Crystal&r block to increase the growth rate. Consumes &e8 AE/t&r while connected to the &dnetwork&r."]
+	quest.45AE05F51DB53B0C.quest_desc: [
+		"The &aGrowth Accelerator&r is used to accelerate crystal growth. It can be placed facing into a &dBudding Crystal&r block to increase the growth rate. Consumes &e8 AE/t&r while connected to the &dnetwork&r."
+		""
+		"It is also able to accelerate most &2crops&r growth and &bSpectrum&r's gem &dbudding blocks&r!"
+	]
 	quest.45CE5F461A159F66.quest_desc: [
 		"Now that you have &eSteel&r, you can upgrade your &6Bronze Machines&r if you want. &eSteel machines&r can process recipes up to &24 EU/t&r, and they will process recipes at twice the speed as long as the energy usage doesn't go above &24 EU/t&r. Basically they are twice as fast as &6Bronze Machines&r and they may also &3unlock new recipes&r."
 		""
@@ -3256,7 +3376,7 @@
 		""
 		"To build this multiblock, you will need the material list from this quest. You can check the &bPonder&r scene by holding 'W' on the &aSteam Quarry&r block in your inventory. Alternatively, holding your wrench will show where blocks need to go."
 		""
-		"I'd recommend having multiple &6Item Output Hatches&r in the case you &dget lucky and get multiple ores from a single process&r."
+		"I'd recommend having multiple &6Item Output Hatches&r in the case you &dget lucky and get multiple ores from a single process&r. Multiple Ores &loften&r get rolled and are output all at once, in the order of the recipe. The ores which the quarry can't output will be &4voided&r. To minimize loss of ores, it's recommended to have at least &d6 output slots&r (&b3 Steel Item Output Hatches&r or &36 Bronze Item Output Hatches&r) and that those output slots get emptied rapidly as to make space for new products."
 	]
 	quest.4609310E0F2CBE02.quest_subtitle: "Ores Ad Nauseam"
 	quest.460D8C9E5BF1E1BE.quest_desc: [
@@ -3377,6 +3497,12 @@
 	]
 	quest.494104440623C825.title: "Depleted Nuclear Fuel"
 	quest.4946C68317D5C4EF.quest_desc: ["Using these feathers over regular chicken feathers you can imbue your arrows with &eeven more power&r. These razor-sharp arrows deal increased damage, can be fired underwater and can pierce translucent blocks such as Glass. Different types of tips apply &adifferent effects&r as well."]
+	quest.49533E157E964921.quest_desc: [
+		"This &6MEGA Cell&r can hold up to &d268435456 bytes&r of &9fluids&r!!!!!!!!!!!!!!!!"
+		""
+		"Wow, that was costly."
+	]
+	quest.49533E157E964921.quest_subtitle: "You don't need this..."
 	quest.4964937901EA0CA5.quest_desc: ["With access to &6Bronze&r, you can now craft the &bfirst upgrade&r to your backpack. This upgrade adds an &3additional 18 slots&r to your backpack, coming in at a new total of &d45 slots&r!"]
 	quest.4967744B2F4C6A94.quest_desc: [
 		"With &bStainless Steel&r, you can now create the fifth tier of &aBank&r. This tier has &d54 slots&r with a max stack size of &665,536&r. "
@@ -3400,7 +3526,6 @@
 	quest.4A580712AAD72CFF.quest_desc: ["There's a variety of &dNuclear Fuels&r available to you. The most basic is just regular &aUranium Rods&r, but you can make &aLightly-Enriched&r (LE) or &aHighly-Enriched&r (HE) variants. Check &dJEI&r for more details on each fuel and find what works best for you."]
 	quest.4A580712AAD72CFF.quest_subtitle: "Hazmat suit not required?"
 	quest.4A580712AAD72CFF.title: "Nuclear Fuel"
-	quest.4A6A9801A2DD923F.quest_desc: ["&aItem Pipes&r build a path to their connections based on the distance between them. Using an &6Inhibitor&r will increase the path distance calculation for that attachment by &31000&r. Great for making a connection that will be &cavoided&r."]
 	quest.4AA95CE420756421.quest_desc: [
 		"This dainty ring has it all: with the help of a little (or a lot of) &dPink Ink&r, it strengthens you from the inside out and grants you &eadditional hearts&r."
 		""
@@ -3531,6 +3656,7 @@
 	quest.4CCAD1EBB977DF2E.quest_desc: ["Press CTRL while airborne to perform a short and slow glide"]
 	quest.4CE42DC200D5B72C.quest_desc: ["A common, dark and sturdy stone that makes up much of the lower levels of the &dDeeper Down&r. "]
 	quest.4CE42DC200D5B72C.title: "Blacksag"
+	quest.4CFA1740855847FE.quest_desc: ["The next step is to remove &eimpurities&r by adding &3Ammonia&r to the &9Beryllium Sulfate&r. This will yield &bBeryllium Hydroxide&r and some &eWaste Beryl Ammonia Solution&r which will need to be processed so you can recycle the &3ammonia&r and the &9byproducts&r from the emerald processing!"]
 	quest.4D1376E69BD35212.quest_desc: [
 		"Mining is your game. It's almost a mircale that you're only now coming up with the idea of upgrading not only your tools, but your mining proficiency in general. This ring will grow with your abilities."
 		""
@@ -3586,9 +3712,9 @@
 	]
 	quest.4E0D57D45D09B1D4.quest_subtitle: "Factorio!"
 	quest.4E1516DE8CDFE5EE.quest_desc: [
-		"EMI can not only be used for viewing recipes. EMI can help you manage microcrafting with the use of Recipe Trees!"
+		"EMI can not only be used for viewing recipes. EMI can help you manage microcrafting with the use of &3Recipe Trees&r!"
 		""
-		"It's quite hard to understand how to use it at first, but learning how to use EMI to craft is incredibly useful and makes microcrafting of any kind &l&dtrivial&r&r (and I am not overexagerating). The next pages go over how to use EMI to craft things."
+		"It's quite hard to understand how to use it at first, but learning how to use EMI to craft is incredibly useful and makes &emicrocrafting&r of any kind &l&dtrivial&r&r (and I am not overexagerating). The next pages go over how to use EMI to craft things."
 		"{@pagebreak}"
 		"Firstly, EMI uses \"&adefault recipes&r\" to determine which recipes it will use in &3Crafting Trees&r. To add &adefault recipes&r, you can click on the &6heart icon&r like so:"
 		""
@@ -3691,10 +3817,11 @@
 	]
 	quest.4F278EA5EC5E59E1.title: "Drawer Networks"
 	quest.4F4C5DEE88EABE32.quest_desc: ["&bAndesite Casings&r are made by right-clicking a stripped log with an &aAndesite Alloy&r. These are the basis of a lot of machines in &eCreate&r."]
+	quest.4F5B1981C8FBE1D8.quest_desc: ["The &bExtended Machine Frame&r is used in multiple Extended AE components and machines."]
 	quest.4F9372602593A2DB.quest_desc: [
 		"Now that you have &eDigital Circuits&r you can create the &bDistillation Tower&r. The single-block &aDistillery&r only gives you one oil processing output, but the tower gives you &cONE PER LAYER&r."
 		""
-		"By default the controller has a height value set to one. You will need to update this if you plan to add more layers. You can view the &bPonder&r scene by holding 'W' on the &bDistillation Tower&r block in your inventory to view how to build it, or you can hold your wrench out with the controller placed to view where to place the blocks."
+		"By default the controller has a height value set to one. You will need to update this if you plan to add more layers. You can view the &bGuideME&r entry by holding 'G' on the &bDistillation Tower&r block in your inventory to view how to build it, or you can hold your wrench out with the controller placed to view where to place the blocks."
 	]
 	quest.4FB50C49AE5D30B2.quest_desc: [
 		"The &aLarge Steam Boiler&r is an upgraded version of the smaller &6Bronze&r and &eSteel&r Boilers. &cIt uses fuels 8 times faster than the Furnace&r, but it produces &3256 mb/t&r of &7steam&r when fully heated."
@@ -3772,7 +3899,7 @@
 		""
 		"The &bhigher level the batteries&r are, the &3more capacity&r they will add to the storage. You can get the &dbattery&r back by right-clicking on an empty slot with the &aPSU&r, but be warned, &cany excess energy will be lost&r!"
 		""
-		"&cNo, it cannot be used to charge things in your inventory&r. "
+		"&cIt cannot be used to charge things in your inventory&r.  "
 	]
 	quest.50C39589C51AB2DA.quest_desc: ["The meals in this section &ccannot be eaten&r while in your inventory, and must be placed in the world before you can eat them."]
 	quest.50D18ACF6401C05D.quest_desc: ["With your &5Plutonium&r byproducts, you can now create &lNukes&r. These unfortunately do not explode like you would expect and are mainly used for crafting &aSingularities&r."]
@@ -3808,6 +3935,7 @@
 	quest.518D1E231A932ECB.quest_desc: ["Combining &dTungsten&r and &aSteel&r in a &bKanthal&r &eEBF&r will slowly, but surely, produce a &eHot Tungstensteel Ingot&r. This will need to be cooled in a &3Vacuum Freezer&r before it can be used."]
 	quest.51A4E097156A6DC1.quest_desc: ["The wearer slightly heals from attacks"]
 	quest.51A8CF3031F2765A.quest_desc: ["&aHeavy Fuel&r can produce &e240 EU per 1 mB&r used in a &bDiesel Generator&r. It's not as good as &6Diesel&r, so it's either better to make &6Diesel&r or continue to &3Steam-Cracking&r process."]
+	quest.51AC6E4C38AFEC7A.quest_desc: ["The &aME Extended Drive&r is an advanced version of the &bME Drive&r which can hold &atwice as many drives&r (&d20 drives&r) as its regular counterpart!"]
 	quest.51B4C95FDAFAAC97.quest_desc: [
 		"The &bCryo Freezer&r is a little expensive to make, however it will allow you to produce &aCryo Fuel&r. This special fuel type can be used in &eAd Astra&r rockets to reduce to amount of fuel used for launches. Instead of the &d12 buckets&r of regular &cFuel&r you need for launch, &aCryo Fuel&r only requires &d3 buckets&r per launch!"
 		""
@@ -3961,13 +4089,16 @@
 	quest.537B78BA50218123.quest_desc: ["&aPolyethylene&r is an important chemical for the creation of &2circuit boards&r and &eupgrades&r."]
 	quest.537B78BA50218123.title: "Polyethylene"
 	quest.537D76EA2DFCE794.quest_desc: [
-		"// TODO TEST EI MULTI // "
+		"Tired on waiting for those &evanilla furnaces&r to take forever to smelt down your &6ores&r and &2dusts&r? The &aLarge Steam Furnace&r is the solution. This multiblock is capable of &dsmelting&r up to &d8 items at once for the cost of one&r. This makes it &3extremely efficient&r and an very handy tool if you need to mass smelt stuff and don't want to dive into &eCreate&r!"
 		""
-		"Tired on waiting for those &evanilla furnaces&r to take forever to smelt down your &6ores&r and &2dusts&r? The &aLarge Steam Furnace&r is the solution. This multiblock is capable of &dsmelting 8 items at once for the cost of one&r. This makes it &3extremely efficient&r and an very handy tool if you need to mass smelt stuff and don't want to dive into &eCreate&r!"
-		""
-		"If you're having trouble forming the multiblock, hold W on the &aLarge Steam Furnace&r in your inventory to view the &bPonder&r scene for the multiblock, additionally you can hold the &eWrench&r to see the missing blocks and the errors. You can also hold a hatch to know where it can go."
+		"If you're having trouble forming the multiblock, you can hold the &eWrench&r to see the missing blocks and the errors. You can also hold a hatch to know where it can go."
 	]
 	quest.53AEA0E74CE842B5.quest_desc: ["The &bTungstensteel Upgrade&r can allow Drawers' storage to be multiplied by 5, allowing them to hold a maximum of &61280000 items&r when fully upgraded."]
+	quest.53AEBDE8C4CA1429.quest_desc: [
+		"The &2Tesla Coil&r can't send power &edirectly to machines&r. You'll need the &aTesla Receiver&r to transfer power to them. The &aTesla Receiver&r has an output side where you can connect &bmachines&r or a &bcable.&r"
+		""
+		"To connect your &aTesla Receiver&r to your &2Tesla Coil&r you'll need a &9Tesla Calibrator&r. The &btooltip&r explains how to use it."
+	]
 	quest.53AEBDE8C4CA1429.quest_subtitle: "Wireless Power."
 	quest.53BA308E50B5070C.quest_desc: [
 		"The &bNanosaber&r is an upgraded, electric powered sword that features a powered mode that can &ddeal insane damage&r at a fast rate."
@@ -3983,6 +4114,7 @@
 		"You will have needed to make &cCupronickel Ingots&r before you can make them. This can be done by &emixing dusts&r or using the &ealloy smelter&r. While you're at it, make sure you've started producing &bInvar&r as well!"
 	]
 	quest.53CABAF5DA73AF92.title: "Cupronickel Coils"
+	quest.53E67D11D3D273B1.quest_desc: ["Your first avenue into &6rocket science&r has netted you a new &9prototype&r of &amining tool&r. The &dBasic Space Probe&r! This new &adevice&r will allow you to gain &briches&r from space and acquire your very first space material: &6Desh&r!"]
 	quest.53E8235B83062412.quest_desc: [
 		"The &bSticker&r can be used to attach blocks to the &bSticker&r itself. The state can be toggled with a &credstone pulse&r. "
 		""
@@ -4023,9 +4155,7 @@
 		""
 		"Quite the accomplishment to make it this far, but we're not done yet. There's still much to do, the &bfactory must grow&r."
 		""
-		"There's a &afew paths&r you can start down. &mIf you'd like, you can start building parts for your &cfirst rocket and get to the moon&r&r, you could look to advance your &dAE2&r setup, or you could continue progressing in &eModern Industrializations&r."
-		""
-		"Progressing further into &dAE2&r is &cnot required&r for overall progression, but the other two paths are required."
+		"At this point, your &9technological advancements&r are &elimited&r and will only be able to be &aenhanced&r by making use of multiple &dchemical processes&r. New &9materials&r such as &3Stainless Steel&r and &3Polyethylene&r, will be &eharder to source&r. They will however unlock very &drewarding&r items, tools and machines that will help you &aaugment&r your &bmeans of production&r!"
 	]
 	quest.54AA08D0869CB19B.title: "Start of MV"
 	quest.54BA6F783B61FE61.quest_desc: ["&e1000mB Fluorine&r and &91000mB Hydrogen&r combine in a &eChemical Reactor&r to provide you &b2000mB of Hydrofluoric Acid&r."]
@@ -4136,9 +4266,9 @@
 	quest.56A30502A268BB60.quest_desc: [
 		"Before you can make a &eNuclear Reactor&r, you will need &bNuclear Alloy Plates&r. These are made with Blastproof, Beryllium, and Cadmium Ingots. "
 		""
-		"Beryllium can be obtained from centrifuging Emeralds and Cadmium can be obtained by centrifuging &dMozanite&r."
+		"Cadmium can be obtained by centrifuging &dMozanite&r."
 		""
-		"The &cBlastproof Ingots&r are going to dip heavily into your &5Ostrum supply&r. Consider going down the other questline first and building the &eSpace Probe Launcher&r to obtain more extraterrestrial materials."
+		"The &cBlastproof Ingots&r are going to dip heavily into your &5Ostrum supply&r. Consider investing into a good setup for your &eSpace Probe Launcher&r to obtain more extraterrestrial materials."
 	]
 	quest.56A30502A268BB60.title: "Prepare for Nuclear Fission"
 	quest.56A9ADF766CC038C.quest_desc: [
@@ -4233,7 +4363,8 @@
 		"You will need to add an additional layer to the multiblock as compared to the original, but otherwise you can reuse a lot of the same structure. You can check the &bPonder&r scene by holding 'W' on the &aAdvanced Large Steam Boiler&r in your inventory, or by holding a wrench to view a diagram of where blocks need to be placed."
 	]
 	quest.57C1BE11C74FDAB8.quest_subtitle: "Overdrive!"
-	quest.5856A6281F140AEF.quest_desc: ["&bTungstensteel&r is an improved version of Tungsten that is extremely durable and versatile. It's a key component in the &eSpace Probe Launcher&r and &eQuantum Circuit components&r"]
+	quest.5816233D061D77DB.quest_desc: [""]
+	quest.5856A6281F140AEF.quest_desc: ["&bTungstensteel&r is an improved version of Tungsten that is extremely durable and versatile. It's a key component in the &eQuantum Space Probe Launcher&r and &eQuantum Circuit components&r"]
 	quest.58577BDF79E67EA7.quest_desc: [
 		"Before you continue, it's pivotal to know how the &arotation&r and &bstress&r units work in &eCreate&r."
 		""
@@ -4285,9 +4416,9 @@
 	quest.58F9A473D6BC91C8.quest_desc: [
 		"Up until now you haven't had a valid &eelectric powered suit&r, &ounheard of in modded Minecraft&r. With the &aNano Suit&r, you can finally have a powerful piece of armor that you can recharge, effectively making it &2indestructable&r."
 		""
-		"The &6Nano Helmet&r also will provide you with &dNight Vision&r when underground."
+		"The &6Nano Helmet&r also will provide you with &dNight Vision&r when activated."
 		""
-		"The &6Nano Boots&r will provide you &dStep Boost&r."
+		"The &6Nano Boots&r will provide you &dStep Assist&r."
 		""
 		"The &6Nano Leggings&r will give you an extra boost of &dMovement Speed&r."
 	]
@@ -4317,7 +4448,7 @@
 	]
 	quest.5928172C2A45D5AB.quest_desc: ["The &aEffulgent Feathers&r of the &eKindlings&r are notable, enough so to compel you to regularly give the little bumpkins coat trimmings. However, you've noticed that, sadly quite frequently, drops of blood will come along with the features. When dipped into &6Liquid Crystal&r, it leaves behind a sparkly crystalline residue."]
 	quest.593BDCEDCC91B98C.quest_desc: [
-		"With a few steel plates, you can craft the &aAutomatic Trash Can&r. &dIt will destroy any item or fluid that is piped into it&r."
+		"With a few steel plates, you can craft the &aAutomatic Trash Can&r. &dIt will destroy any item, fluid or energy&r that is piped into it&r. (Be careful about that last one!)"
 		""
 		"You can also use it to &cdelete fluids&r in your inputs of machines by &3right clicking&r while holding the &aAutomatic Trash Can&r over the fluid in the &2machine GUI&r."
 	]
@@ -4390,6 +4521,7 @@
 		""
 		"&oQuite an absurd amount to be sure.&r"
 	]
+	quest.5AEA99914B15FF35.quest_desc: ["The &9ME Wireless Setup Kit&r is the tool which you can use to connect &aME Wireless Connectors.&r"]
 	quest.5AF44D0A39BA6091.quest_desc: [
 		"The &bHV Steam Turbine&r can produce up to &e512 EU/t&r. It consumes steam in a 1:1 ratio to generate power."
 		""
@@ -4404,17 +4536,25 @@
 	quest.5B2F6D4ECFE51D74.quest_desc: [
 		"To turn your &eUncooked Steel&r Dust into &eSteel Ingots&r, you will need a &2Blast Furnace&r. For now your &2Blast Furnace&r will be powered off of &7steam&r. "
 		""
-		"You will need the same amount of materials in the quest requirements to build the &2Steam Blast Furnace&r. It's structure is very similar to the &aCoke Oven&r's with &cBricks&r being replaced by &eFire Clay Bricks&r and one extra hollow layer on top. Like before, if you forget how to build the multiblock, you can always hold your wrench to see it or hold 'W' on the &aSteam Blast Furnace&r item to view it's &bPonder&r scene."
+		"You will need the same amount of materials in the quest requirements to build the &2Steam Blast Furnace&r. It's structure is very similar to the &aCoke Oven&r's with &cBricks&r being replaced by &eFire Clay Bricks&r and one extra hollow layer on top. "
+		""
+		"Like before, if you forget how to build the multiblock, you can always hold your wrench to see its structure and hold hatches to see valid positions."
 	]
+	quest.5B497F5E8E946999.quest_desc: ["Although you can make this as soon as you obtain &bAluminum&r, it's &enot very useful&r before you get digital circuits for the &dCrystal Assembler&r."]
 	quest.5B5287B537A656A6.quest_desc: [
 		"You can find &3Ice Shards&r on the moon as well. They don't have much use to you yet, but will be important for a more efficient rocket fuel later."
 		""
 		"Additionally, they can be &ecentrifuged&r to produce &eHelium-3&r, an important gas when you get to the &dFusion Reactor&r."
 	]
-	quest.5B6A20BD4C70BA52.quest_desc: ["The &aLaser Engraver&r is a fancy &enew machine&r part of &31.1.0&r. It's main purpose is the creation of &2Printed AE2 Circuits&r. It can also be used to create &dMob Models&r for use in the &bMob Crusher&r."]
+	quest.5B6A20BD4C70BA52.quest_desc: ["The &aLaser Engraver&r is a fancy &enew machine&r. Its main purpose is the creation of &2Printed AE2 Circuits&r. It can also be used to create &dMob Models&r for use in the &bMob Crusher&r."]
 	quest.5B9A86DA10D7F745.quest_desc: ["The &bRedstone Contact&r can be used to send a &credstone signal&r when another &bRedstone Contact&r comes in contact with the other. This also applies when one of them is a part of the &dcontraption&r."]
 	quest.5BA4E91BBA9B38F4.quest_desc: ["If you already have an &aAdvanced Storage Unit&r, you can create this &bAdvanced Storage Upgrader&r to upgrade your existing storage units without having to break them."]
 	quest.5BD16A1E86BEFC61.quest_desc: ["&aSweet Roll&r but &eFarmer's Delight&r mod"]
+	quest.5BE4985239D91BCF.quest_desc: [
+		"&cWandering Traders&r keep spawning in your base to &cdisturb&r your &bfactory building&r? Thankfully you can just &bsay no&r!"
+		""
+		"The &aNo Sollicitors sign&r will instantly &4&mKILL&r&r &6make disappear&r any wandering traders that might spawn and disturb you."
+	]
 	quest.5BFA25F005A19B4B.quest_desc: ["The &bTitanium Upgrade&r can allow Drawers' storage to be multiplied by 4, allowing them to hold a maximum of &6524288 items&r when fully upgraded."]
 	quest.5C89097BA2979794.quest_desc: ["While mining &cblock by block&r through a &2large ore deposit&r sure is fun (&oNOT!&r), it's much better mining in a &a3x3 area&r! Each tier of &eHammer&r increases its &3mining speed&r and &ddurability&r. These will be an essential tool moving forward!"]
 	quest.5C89097BA2979794.quest_subtitle: "HAMMAH DOWN"
@@ -4444,6 +4584,7 @@
 		"At this point, they aren't that useful to you, however when you have a &aDiesel Jetpack&r, they will prevent you from taking damage while at &chigh speeds&r. For now, it's nothing more than a sad excuse for &darmor&r."
 	]
 	quest.5CF5CDD58DA92BDB.title: "Rubber Hat \\& Shoes"
+	quest.5CFE958DD01C2BB5.quest_desc: ["&aItem Pipes&r build a path to their connections based on the distance between them. &6Inhibitors&r will increase the path distance calculation for that attachment by &31000&r. Great for making a connection that will be &cavoided&r."]
 	quest.5D1AAACAA152ED68.quest_desc: [
 		"Tired on waiting for those &evanilla furnaces&r to take forever to smelt down your &6ores&r and &2dusts&r? The &aLarge Steam Furnace&r is the solution. This multiblock is capable of &dsmelting 8 items at once for the cost of one&r. This makes it &3extremely efficient&r and an very handy tool if you need to mass smelt stuff and don't want to dive into &eCreate&r!"
 		""
@@ -4455,7 +4596,7 @@
 		""
 		"Specifically, you should look to use the recipe that takes &2steam&r and &3HP water&r as an input, and outputs &bregular water&r and &aHP steam&r. "
 		""
-		"If you need help building the multiblock you can view the &bPonder&r scene by holding 'W' on the &bHeat Exchanger&r block in your inventory or by holding your wrench out with the &bHeat Exchanger&r placed."
+		"If you need help building the multiblock you can view the &bGuideME&r entry by holding 'G' on the &bHeat Exchanger&r block in your inventory or by holding your wrench out with the &bHeat Exchanger&r placed."
 		""
 		"&cNote:&r Be wary of the recipe amounts, as you &6might need higher tiers of hatches&r to satisfy the recipe."
 	]
@@ -4496,7 +4637,7 @@
 		"For those of you looking ahead or digging deep into &dREI&f, you might have already realized you could accelerate the process of making this fluid by electrolyzing solid &dUU-Matter&f."
 	]
 	quest.5E0A9E4DD75BB890.quest_desc: ["The &eSteel Boiler&r is an upgrade to your &6Bronze Boiler&r. It can produce up to &316 EU/t&r worth of steam, double that of the Bronze."]
-	quest.5E0C8E80FD41ECC3.quest_desc: ["The &dMagnet&r, when activated, will attract &6nearby dropped items&r to the player. "]
+	quest.5E0C8E80FD41ECC3.quest_desc: ["The &dMagnet&r, when activated, will teleport &6nearby dropped items&r to the player. Very useful for making those &9mining trips&r more efficient!"]
 	quest.5E0F3A2885C0E0DD.quest_desc: [
 		"&aEntangled Buckets&r can be used to directly access the contents of your &bEntangled Tank&r on the go."
 		""
@@ -4542,9 +4683,9 @@
 		"You will need to cool the ingot in a &eVacuum Freezer&r before you can use it."
 	]
 	quest.5F9C885003E26E5E.quest_desc: [
-		"This is the best &aSolar Panel&r. It produces up to &e256 EU/t&r during the day and &e0 EU/t&r during the night."
+		"This is the best &aSolar Panel&r. It produces up to &e512 EU/t&r during the day and &e0 EU/t&r during the night."
 		""
-		"In the same way as with previous tiers, you can input &bDistilled Water&r into it to extend the time a Photovoltaic Cell lasts."
+		"In the same way as with previous tiers, you can input &bDistilled Water&r into it to extend the time a &aPhotovoltaic Cell&r lasts and to make the solar panel generate &a50% more power&r."
 	]
 	quest.5F9D53C4373D0626.quest_desc: ["The &aTri-Bow&r is an exclusive mob-drop from &bThe Snow Queen&r that will &efire three shots&r instead of one when fired."]
 	quest.5FB073161DF17A13.quest_desc: ["The &aUltra Greatsword&r's sheer size allows you to hit enemies from greater distance. If you hadn't included the &bPaltaeria&r, you probably wouldn't even be able to lift it."]
@@ -4654,11 +4795,11 @@
 	quest.61B91906E42374B2.quest_subtitle: "It starts with one thing..."
 	quest.61B91906E42374B2.title: "In The End"
 	quest.61EA3C1E66FD5ADF.quest_desc: [
-		"This upgraded version of the &bSolar Panel&r. It produces up to &e64 EU/t&r during the day and &e0 EU/t&r during the night."
+		"This upgraded version of the &bSolar Panel&r. It produces up to &e128 EU/t&r during the day and &e0 EU/t&r during the night."
 		""
 		"In general, solar is only going to be good if you have a &blarge quantity of panels&r. Or you could use it in &dsmall scale automations&r that don't need much power, up to you."
 		""
-		"As the description of the Solar Panel states, you can input &bDistilled Water&r into it to extend the time a Photovoltaic Cell lasts."
+		"If you have obtained a &bdistillery&r, you can input &bDistilled Water&r into it to extend the time a &aPhotovoltaic Cell&r lasts and to make the solar panel generate &a50% more power&r. It will use &91 mB&r of distilled water &9per tick&r."
 	]
 	quest.61EC57BD963B8D36.quest_desc: [
 		"Up until now you haven't had a valid &eelectric powered suit&r, &ounheard of in modded Minecraft&r. With the &aNano Suit&r, you can finally have a powerful piece of armor that you can recharge, effectively making it &2indestructable&r."
@@ -4674,11 +4815,14 @@
 	quest.62103F0E617EBA7C.quest_desc: [
 		"The following quests are in relation to &eAE2&r's autocrafting functionality."
 		""
-		"I'm going to put this here, and I hope you take the time to read it, but please, &cDO NOT&r rely on &3autocrafting&r for your progression. The &2circuit / hull recipes&r in &eMI&r are &l&6tiered&r, meaning you will be making &na lot&r of lower tier materials to supplement later game recipes. If you have this setup with &3autocrafting&r it means you could be waiting &cHOURS&r for your &dME System&r to finish a craft."
+		"I'm going to put this here, and I hope you take the time to read it, but please, &cDO NOT&r rely on &3autocrafting&r for your progression. The &2circuit / hull recipes&r in &eMI&r are &6tiered&r in an &l&6exponential way&r, meaning you will be making &l&na lot&r of lower tier materials to supplement later game recipes. If you set up basic parts (plates, ingots, gears, components) with &3autocrafting&r, it means you could be waiting &cHOURS&r for your &dME System&r to finish a craft. "
+		""
+		"Moreover, the &6overclock system of Modern Industrialization&r - &aramping up&r overclock speed for a &eunique recipe&r and &aramping down&r and &aback up&r at &eeach recipe change&r - massively favors &9passive crafting&r systems with machines &9dedicated to a single recipe&r over machines that share recipes."
 		""
 		"It's not worth it to rely on AE2 for MI progression, set up &2passive crafting&r! That being said, setting up &3autocrafting&r for the machines you'll need to do said &2passive crafting&r will be very beneficial!"
 	]
 	quest.62103F0E617EBA7C.title: "Autocrafting"
+	quest.6240837365DD23D1.quest_desc: ["&dBorosilicate Glass&r can then be produced in the &9EBF&r when &aBoron-Quartz Blend&r is heated with &aSand&r! This glass is used in the most &befficient Diode&r recipe and higher tier &9tanks&r and &bmultiblocks&r!"]
 	quest.624471093BF4C5A8.quest_desc: ["The &aDistillery&r will turn various fluids into their lighter parts. This will be very useful for &eOil Processing&r!"]
 	quest.62474684DD7A1B7C.quest_desc: [
 		"The &6Bronze Compressor&r will turn ingots into plates at a 1:1 ratio. It can also turn each double ingot into 2 plates."
@@ -4730,6 +4874,7 @@
 	quest.62F258EECCFC72ED.title: "Cursed Foods"
 	quest.630587BC35741E37.quest_desc: ["For the first time, you now have access to creative flight in the pack. I don't think I need to describe how powerful this is."]
 	quest.630587BC35741E37.quest_subtitle: "No Armor?"
+	quest.6322AAFBEA2EFE2C.quest_desc: ["The &bAccumulation Processor&r allows for mass storage like &ayou've never seen before&r and is a central component for &dMEGA Cell&r Components!"]
 	quest.63243E96CFB7C972.quest_desc: ["The &eSteel Tank&r is an upgrade to the &6Bronze Tank&r from earlier. It now can store up to &d16000 mB&r of any fluid and continues to retain it's inventory when broken."]
 	quest.632520CC26B43DD5.quest_desc: [
 		"&bAndesite Alloy&r is the basis of the &eCreate&r mod. Don't make too much at the beginning, as you will unlock a more efficient recipe once you have a &aMechanical Mixer&r and &dBasin&r."
@@ -4761,6 +4906,7 @@
 		""
 		"It's very useful for storing large amounts of ore from your quarries."
 	]
+	quest.641117E0F688F40A.quest_desc: ["First, &eBoron&r needs to be extracted from &3Kernite&r by being &eelectrolyzed&r."]
 	quest.6432582C92C412A0.quest_desc: [
 		"The &bDiamond Grit Sandpaper&r is an upgrade to regular &eSandpaper&r that has &3significantly more durability&r. No more having to craft new ones all the time!"
 		""
@@ -4807,6 +4953,7 @@
 	quest.64D20685E4A57EED.quest_desc: ["The &aEV Tier Storage Unit&r. It can store a little more than &e45 million EU&r. "]
 	quest.64DFA6F08BE456FD.quest_desc: ["A component in &aNylon&r."]
 	quest.64DFA6F08BE456FD.title: "Caprolactam"
+	quest.6512025C0A70B6EB.quest_desc: ["&6Kernite&r is a &eBoron&r containing ore introduced in &a2.0&r! It's used in the process of making &dBorosilicate Glass&r."]
 	quest.652C0BC994B42E3D.quest_desc: ["Can be used to place infinite amounts of &elight sources&f. If you've played &aThaumcraft&f before, this is similar to &2Nitor&f."]
 	quest.654B073CCFC06D24.quest_desc: ["The &eHand Crank&r is another alternative form of generating &arotational force&r. Extended use of this will leave the user very &chungry&r, so it's more optimal to have a &eWindmill&r / &eWater Wheel&r generate your power. Great if you just need to &equickly power something&r!"]
 	quest.654B073CCFC06D24.quest_subtitle: "Manual Labor"
@@ -4901,6 +5048,11 @@
 		""
 		"To take a photo, you must have an &aEmpty Map&r in your inventory and press '&eC&r' while using the Camera."
 	]
+	quest.674D567F3CF68D23.quest_desc: [
+		"If you &chate&r having to click &eStorage Units&r to charge your items, I recommend making the &aTesla Handheld Receiver&r to passively charge items in your inventory, wirelessly!"
+		""
+		"You'll need a &aTesla Coil&r to connect it to for &bpower&r to be sent to items in your inventory."
+	]
 	quest.6758A5BC0D25974B.quest_desc: ["If you plan to use &eModern Dynamic&r pipes with your &6Modern Industrialization&r machines, you will quickly notice you &crun out of faces&r to plug the pipes into. Luckily, the &2Machine Extender&r has your back. To explain it simply, it &dextends the connection&r to the machine into itself, allowing you to &bconnect pipes to it that will count as a connection to the machine&r."]
 	quest.6762FCBA521FFF4B.quest_desc: ["&aEthylene&r is used in the production of &3Ethylbenzene&r, &2Ethanol&r, and &bPolyethylene&r."]
 	quest.6765B4B8D870CDA0.quest_desc: [
@@ -4935,8 +5087,9 @@
 	quest.682E5B8C67942AF8.quest_desc: [
 		"As an alternative to &7Steam&r power, you can also create a &aSolar Panel&r. Generally, solar is going to be weaker than other power sources, so if you'd actually like to use it, you will need to have to use a lot of solar panels and infrastructure to support feeding them."
 		""
-		"The &aLV Solar Panel&r will produce 16 EU/t during the day and 0 EU/t during the night. If you'd like to have power in the night, you'll need to use a &bStorage Unit&r as a power buffer. You need to feed it &bLV Photovoltaic Cells&r, which have a limited lifetime! You'll need to automate those if you want them to run continually."
+		"The &aLV Solar Panel&r will produce &e32 EU/t&r during the day and 0 EU/t during the night. If you'd like to have power in the night, you'll need to use a &bStorage Unit&r as a power buffer. You need to feed it &bLV Photovoltaic Cells&r, which have a limited lifetime! You'll need to automate those if you want them to run continually."
 	]
+	quest.682E5B8C67942AF8.quest_subtitle: "Not free!"
 	quest.68495E367D3D34FE.quest_desc: [
 		"With a little bit of mining, you might have found some &aCoal&r and &eLignite Coal&r, which can be used to make the very first Bank."
 		""
@@ -4946,7 +5099,11 @@
 		""
 		"In addition to it's storage, it has options to &9automatically pickup blocks&r, &3pickup from a filter&r, or &dvoid blocks&r. Think of all that Cobblestone you no longer have to sort through in your inventory!"
 	]
-	quest.685A5D2BD8809F31.quest_desc: ["No Man's Land is a biome overhaul mod that closely stays true to vanilla."]
+	quest.685A5D2BD8809F31.quest_desc: [
+		"No Man's Land is a biome overhaul mod that closely stays true to vanilla."
+		""
+		"It adds a lot more than biomes, though, so you might find some interesting structures and stuff out there, if you look for it!"
+	]
 	quest.685A5D2BD8809F31.title: "No Man's Land"
 	quest.68988600213DC7AE.quest_desc: ["A very versatile &drubber-like chemical&r. Can be used to make &ecables&r, &2RAM&r, and the best ratio for &3Rubber Sheets&r."]
 	quest.68C9306B6EB7ED89.quest_desc: ["With how &cdark&r the world gets at night and in caves, it might be worth investing in the &aGlow Vision Goggles&r. These provide the &dNight Vision&r effect if you have &9Glow Ink Sacs&r in your inventory."]
@@ -5051,6 +5208,15 @@
 		""
 		"You can also use the &6Compressor&r and &2Sugar Cane&r to make paper, but it's very inefficient!"
 	]
+	quest.6C0000F5F41F4D69.quest_desc: [
+		"Now that you have a &aForge Hammer&r, you can make &bIron Rods&r required for making pistons, which allow you to make &dElevators&r."
+		""
+		"These are great tools to help you &atraverse your base vertically&r, &oespecially if you're doing the boring strat of building entirely underground&r."
+		""
+		"&dElevators&r will allow you to &3travel up and down&r between two &dElevators&r by pressing &2jump or crouch&r respectively."
+		""
+		"&dElevators&r of different colors can travel to each other."
+	]
 	quest.6C0000F5F41F4D69.quest_subtitle: "Going up?"
 	quest.6C0000F5F41F4D69.title: "Elevators"
 	quest.6C3EAE1F16E1048A.quest_desc: [
@@ -5111,7 +5277,13 @@
 	]
 	quest.6D3D6D207A8AE387.quest_desc: ["The &aBasket&r is a decorational storage block with the same inventory size as a chest."]
 	quest.6D501CD206C0E782.quest_desc: ["The &eTechReborn&r &bQuantum Storage Unit&r this time is an insane upgrade to the &dTitanium Barrel&r. I actually don't feel like typing out how many stacks it can hold because &lit's a lot&r. Like always it still has &aconfigurable I/O&r and control through &bredstone signals&r."]
-	quest.6D6C2CCEA0CA1D26.quest_desc: ["It can be coloured!"]
+	quest.6D6C2CCEA0CA1D26.quest_desc: [
+		"The &eElectric Mining Drill&r is great, but it's not &oquite &6there&r yet&r, isn't it?"
+		""
+		"With &bsuperconductor&r, you can sucessfully make the ultimate tool, capable of mining &6anything&r &ainstantly&r: The &dVajra&r."
+		""
+		"To change its speed, you need to &aShift&r and use the &aScroll wheel&r. Note that it can also mine blocks &9singularly&r by &9Right Clicking&r, if the speed is too &chard to control&r using &eregular mining&r."
+	]
 	quest.6D6C2CCEA0CA1D26.quest_subtitle: "All in one!"
 	quest.6D7126882F500673.quest_desc: [
 		"Attaching an &bME Crafting Terminal&r to your &eAE2 network&r will grant you access to &lall&r the items stored within and and an included crafting grid you can use these stored items in. "
@@ -5255,6 +5427,7 @@
 		""
 		"Not the best method, but if you can automate &clava&r, it can provide a useful energy generation."
 	]
+	quest.70658F7FAF3AB407.quest_desc: ["The &aBlast Alloy Smelter&r is a batching multiblock version of the &bAlloy Smelter&r. It can do &6batches of 16&r and has a &625% EU discount&r!"]
 	quest.708C8DB77161AC0B.quest_desc: [
 		"Having dealt with the &dgems&r long enough, you now find yourself able to shape these fragile resources in the finest ways."
 		""
@@ -5340,7 +5513,7 @@
 	]
 	quest.72AF6E7DCE74290D.title: "Bedrock Tools"
 	quest.72BBBDF3ED8F6F1E.quest_desc: [
-		"&bEnder Bags&r are able to access the contents of your &bEnder Chest&r on the go."
+		"&bEnder Pouches&r are able to access the contents of your &bEnder Chest&r on the go."
 		""
 		"Shift right-click an &bEnder Chest&r with an &bEnder Bag&r to link them together."
 	]
@@ -5349,6 +5522,7 @@
 		""
 		"Can be colored in the same manner as &aFluix ME Glass Cable&r. &bFour Fluix ME Covered Cable&r can be crafted with Redstone and Glowstone to make &dFluix ME Smart Cable&r."
 	]
+	quest.72DB6F60EA35389A.quest_desc: ["This &6MEGA Cell&r can hold up to &d1048576 bytes&r of &6items&r!"]
 	quest.72F1B2987533A6F6.quest_desc: [
 		"The &bME Security Terminal&r allows you to configure which users, and what permissions those users have within your &eME System&r. By existing, it enforces permissions on the usage of the system."
 		""
@@ -5364,6 +5538,7 @@
 		"I hope &2the quest rewards&r are worth it."
 	]
 	quest.72F708C07843FDEE.title: "The End?"
+	quest.72FA131AAB66F1C1.quest_desc: ["This &6MEGA Cell&r can hold up to &d4194304 bytes&r of &9fluids&r!!"]
 	quest.735AA911E02186A4.quest_desc: ["&aPolyethylene&r is an important chemical for the creation of &2circuit boards&r and &eupgrades&r."]
 	quest.7362AE3D474FF6E1.quest_desc: ["Drastically increases the wearer's sprint speed and allows for auto-step"]
 	quest.7367354AA17AB139.quest_desc: [
@@ -5435,6 +5610,13 @@
 	]
 	quest.7464978AD0091E70.title: "Bouncing Around"
 	quest.746F848C349B8563.quest_desc: ["Feeds you upon &mtouching&r walking on grass. Also makes plants grow when eating."]
+	quest.74706D62AE569DC0.quest_desc: [
+		"Your newly acquired &6coils&r can be used to create a &dnew&r type of machine: &6Batching (electric) multiblock machines&r! "
+		""
+		"As the name suggests, these machines can be used to do the &9same recipes&r that you can do in &aregular singleblock (or multiblock) machines&r in &bbigger batches&r and oftentimes with a &bEU discount&r. "
+		""
+		"These consequently are a &aLOT faster&r than your singleblock machines even when they aren't upgraded!"
+	]
 	quest.7471230558C78C5D.quest_desc: [
 		"If you dislike having to constantly feed your boiler &dfuel&r, you can use the &eSun&r as your fuel instead!"
 		""
@@ -5447,6 +5629,8 @@
 		"Some items that &2come into contact with Sludge&r will tan. For example &cRotten flesh&r will turn into hide. Others will instead cure. &3Wheat&r just needs a bit of TLC to become &bString&r. Dropping a &aFour Leaf Clover&r into the Sludge will have it turn into &2Turtle Scute&r."
 	]
 	quest.7490428A95F9B4EE.title: "Sludge"
+	quest.74A64C3ED35AE436.quest_desc: ["&aElectronic Circuits&r and &aMV Machine Hulls&r unlocks two &bnew batching multiblocks&r."]
+	quest.74A64C3ED35AE436.title: "More Batching!"
 	quest.74B14DB45316C4F8.quest_desc: [
 		"Your &afirst goal&r for progression with your new &bForge Hammer&r is to crush down &cCopper&r and &7Tin&r into dusts."
 		""
@@ -5475,7 +5659,7 @@
 		"To &agrow&r them, place them on the &eunderside&r of a fence and ensure they only are exposed to &7Moonlight&r."
 	]
 	quest.7562FC7BC6220AF1.quest_desc: [
-		"Is your regular &eChemical Reactor&r not keeping up? The &aLarge Chemical Reactor&r offers you a &dmultiblock solution&r. It inherits &6all recipes&r from the &eChemical Reactor&r and multiplies all inputs and outputs by &2four&r, while only multiplying the power consumption by &etwo&r. This means you get &3four times the processes&r at the same speed as you would get &6one&r, and at a cheaper power cost."
+		"Is your regular &eChemical Reactor&r not keeping up? The &aLarge Chemical Reactor&r offers you a &dbatching multiblock&r solution. It can run &6all recipes&r from the &eChemical Reactor&r in batches of up to &6four&r, while costing only &675%&r of the regular &eEU cost&r. "
 		""
 		"&aPolytetrafluoroethylene Ingots&r can be obtained by &eVacuum Freezing&r &3Polytetrafluoroethylene&r"
 	]
@@ -5490,12 +5674,15 @@
 	]
 	quest.759E99871B529567.quest_subtitle: "Victory Achieved"
 	quest.75A72BD99C4B7FFD.quest_desc: ["This &aTier 7 Tank&r has &d27 slots&r, with each one able to hold &61,000,000 buckets&r."]
+	quest.75A81F0A092043B2.quest_subtitle: "Even more expensive?"
+	quest.75D45A5C2A744114.quest_desc: ["Much like the &eExtended Interface&r, the &dOversize Interface&r has &a4 rows&r of &a9 slots&r (spread on two pages) to stock&r or receive&r &2items&r or &9fluids&r. Compared to it, it can however hold &616 times&r more items or fluids &6per slot&r, meaning up to &a1024 items (16 stacks)&r or &964 buckets&r!"]
 	quest.75EB9B7B85F791B9.quest_desc: [
 		"&aKanthal Coils&r are your ticket to late game &eEBF&r recipes. With these you can now work towards producing &dadvanced components&r, and eventually &dTitanium&r."
 		""
 		"Note that higher tier of coils in &eModern Industrialization&r do &4not&r give &ca discount&r or &cspeed upgrade&r to Electric Blast Furnaces, unlike in GregTech."
 	]
 	quest.760AEF21E6403F48.quest_desc: ["These upgraded variants of &aSolar Panels&r will &epassively generate&r &e256 EU/t&r during the day and &d0 EU/t&r at night."]
+	quest.7614268077A13015.quest_desc: ["The &aGrand Mass Centrifuge&r is a batching multiblock version of the &bCentrifuge&r. It can do &6batches of 8&r and has a &625% EU discount&r!"]
 	quest.7633B2FDE567585E.quest_desc: ["&dOstrum&r can be found within &cMars&r, and is a required material for the &aTier Three Rocket&r!"]
 	quest.767003181BB2CAC4.quest_desc: [
 		"The &bTurbo Diesel Generator&r can produce up to &e1024 EU/t&r. You can &dREI&r for a list of fuels and how much &2EU per mB&r they produce."
@@ -5549,7 +5736,7 @@
 		""
 		"(You may have to use Night Vision to properly get a shooting star!)"
 	]
-	quest.7758D929EC7EE49B.quest_desc: ["The &6Bronze Mixer&r will help you &amix dusts&r, giving you a better ratio for &6Bronze&r and &aFire Clay&r, as well as opening up a recipe for  &eUncooked Steel&r. It can also create &dCobblestone&r and &3Clay&r."]
+	quest.7758D929EC7EE49B.quest_desc: ["The &6Bronze Mixer&r will help you &amix dusts&r, giving you a better ratio for &6Bronze&r and &aFire Clay&r, as well as opening up a recipe for &eUncooked Steel&r. It can also create &dCobblestone&r and &3Clay&r."]
 	quest.7758D929EC7EE49B.quest_subtitle: "Mix mix, swirl mix"
 	quest.775B112F460EB130.quest_desc: [
 		"Now that you have power, how do you transfer it? Cables of course! "
@@ -5572,6 +5759,12 @@
 		""
 		"There's just one kicker: &cYou'd better not stop sprinting while high up...&r"
 	]
+	quest.779CFBC9AE792300.quest_desc: [
+		"This &6MEGA Cell&r can hold up to &d268435456 bytes&r of &6items&r!!!!!!!!!!!!!!!!"
+		""
+		"Wow, that was costly."
+	]
+	quest.779CFBC9AE792300.quest_subtitle: "You really need this?"
 	quest.77C8C1E759C36CB9.quest_desc: ["&aHookshots&f provides a fun new way to explore the world, just be cautious of fall damage!"]
 	quest.77C8C1E759C36CB9.quest_subtitle: "Everyone needs a grappling hook"
 	quest.77C8C1E759C36CB9.title: "Hookshots"
@@ -5612,6 +5805,7 @@
 	]
 	quest.7839B0187F555DC9.quest_subtitle: "To the Stars"
 	quest.78427B969C4E2188.quest_desc: ["&cFiery Tears&r are an exclusive item dropped from the &cUr-Ghast&r. You can use them to make &4Fiery Ingots&r, which can be used to make special sets of &aarmor and tools&r. The &2Fiery Pickaxe&r features auto-smelting, while the &3Fiery Sword&r has a built in &dFire Aspect&r. Lastly, the &bFiery Armors&r will light attackers &eon fire&r."]
+	quest.784BFD67397D2D4E.quest_desc: ["The &bExtended Interface&r is an advanced version of the Interface that has &a4 rows&r of &a9 slots&r (spread on two pages) to stock&r or receive&r &2items&r or &9fluids&r instead of the regular 9!"]
 	quest.786ACF473177AA23.quest_desc: ["With the &bTurbo Machine Hulls&r you now have access to &aUltimate Solar Panels&r. This will generate &e48 EU/t&r during the day, and&6 8 EU/t at night&r. By this point you probably have better power generation, but this is free and could be good for any automations you want to setup away from your base."]
 	quest.7872342E2E86BA04.quest_desc: ["Instead of loading fuel into your &eRocket&r &cby hand&r, wouldn't it be &3much easier&r to &bpipe the fluid into a machine&r to fuel it? Of course it would be! The &aFuel Loader&r takes in &6Fuel&r or &3Cryofuel&r and &dloads it into nearby Rockets or Rovers&r. "]
 	quest.787CC6E0C5E2D17A.quest_desc: [
@@ -5620,6 +5814,7 @@
 		"It's an extremely complex mod, and definitely has a learning curve. I recommend checking the wiki by clicking the picture to the right of this quest!"
 	]
 	quest.787CC6E0C5E2D17A.title: "ComputerCraft"
+	quest.788B6EC0B441EEC8.quest_desc: ["&eBoron Dust&r then needs to be mixed with some &eQuartz Dust&r to prepare it for &bGlass&r production."]
 	quest.78AB0A6DF24A608F.quest_subtitle: "The spaghetti appetizer"
 	quest.78AB0A6DF24A608F.title: "Fluid Pipes"
 	quest.78B9AAD1C8BA75E6.quest_desc: [
@@ -5633,7 +5828,7 @@
 		"To &6Overclock&r a machine, right-click an &6Electrical Machine&r with a &6lubricant&r container, such as a &6lubricant&r bucket, to overclock it manually. Each 25 mb of &6lubricant&r will add &a1 (overclocking) efficiency tick to the machine&r."
 	]
 	quest.78BB6FC9581DF35A.quest_subtitle: "Useful in the future!"
-	quest.78BB6FC9581DF35A.title: "Overclocking"
+	quest.78BB6FC9581DF35A.title: "Overclocking, part 0"
 	quest.78DFD8815E2AE291.quest_desc: [
 		"Does not get consumed when eaten, meaning it's an infinite food source."
 		""
@@ -5661,17 +5856,17 @@
 		"&aDiesel Generators&r will only use fuel when they need to, but if you need a constant supply of energy, you can put liquid fuels in the &bLarge Steam Boiler&r instead of items. A fully heated &bLarge Steam Boiler&r will roughly produce twice the amount of energy a &aDiesel Generator&r would produce using the same quantity of fuel."
 	]
 	quest.7923688DB9B9FDA3.quest_desc: [
-		"The &eTesla Tower&r allows energy to be transmitted over distances(depends on tier) without wires. However, as with any form of energy transmission, there are losses. The higher the transmitted energy rate, the greater the losses."
+		"The &aTesla Tower&r allows energy to be transmitted over distances (depending on tier) without wires. However, it has a downside: there is &cpassive energy loss&r. The higher the &emax energy transfer&r, the greater the &closses&r."
 		""
-		"To adjust the transmitted energy rate(HV, MV, etc), you need to use &eTesla Winding&r and the corresponding &eEnergy Input Hatches&r. The rate of all hatches must be the same."
+		"The &bTesla Winding&r used in the structure will define the &emaximum energy transfer rate&r (stated in the &9tooltip&r) and the &eEnergy Input Hatches&r used for inputting energy will define the tier of the Tesla Tower. All hatches &amust&r be of &6the same tier&r. This means a &aTesla Tower&r can only &ainput&r and &bdistribute&r to Tesla Receivers or Tesla Receive hatches &6of the same tier&r."
 		""
-		"The receiving device can be &eTesla Receiver&r or &eTesla Receiver Energy Input Hatch&r. The tier of &eTesla Winding&r must match the tier of the receivers. To change the tier of the &eTesla Receiver&r, you need to insert the corresponding &eMachine Hull&r into it."
+		"The receiving devices can be either &eTesla Receivers&r or &eTesla Receiver Energy Input Hatchs&r. To change the &6tier&r of the &eTesla Receiver&r, you need to insert the corresponding &2Machine Hull&r into it."
 		""
-		"The &eTesla Calibrator&r helps establish a connection between the &eTesla Tower&r and the &eTesla Receiver&r."
+		"The &2Tesla Calibrator&r allows connecting the &aTesla Tower&r and the &dreceiving teslas&r. You can hold it in the &3off-hand&r to &bautomatically&r connect placed &dreceiving teslas&r!"
 		""
-		"You can use the side panel in the &eTesla Tower&r UI to change the color of the lightning bolts."
+		"You can use the side panel in the &aTesla Tower&r UI to change the &zcolor&r of the lightning bolts."
 		""
-		"A &eTesla Handled Receiver&r can charge items in your inventory."
+		"The &dTesla Handled Receiver&r can be connected to the &aTesla Tower&r."
 	]
 	quest.7923688DB9B9FDA3.quest_subtitle: "Massive wireless power transmission."
 	quest.7937A68567C5A83E.quest_desc: ["The &aCirclet of Arrogance&r gives you the &4Ascension&r buff in wearable form. If your mere existence wasn't in danger every time you get hit too hard, you would not hesitate for a second to put it on. &o&bBut should you really...&r&r? &c&lOf course&r&r."]
@@ -5684,6 +5879,15 @@
 	]
 	quest.7978A4C95E54B22D.quest_desc: ["There seems to be something &dmagical&r about the &eflow of time&r. This clock, formed from witnesses of &etime&r, is to show you a way in this &dnever-ending stream&r of beginning and passing - &omoon phases&r."]
 	quest.79BB948D6EBBDA9F.quest_desc: ["The &eLucky Pickaxe&r is infused with the power of &6energy&r, it allows you to carve out every last bit of ore from &aevery&r vein. The &eLucky Pickaxe&r comes pre-enchanted with &dFortune III&r."]
+	quest.7A0459281CA5837A.quest_desc: [
+		"As you probably know by now, the max OC of machines can be ameliorated with Upgrades."
+		""
+		"At this point, you might run into a &especial behavior&r usually referred to as &6tick-crafting&r when upgrading machines with many Turbo Upgrades."
+		""
+		"In MI, machines go at a maximum of &aone recipe per tick&r. This is a &5&lhard limit&r&r; adding more upgrades to a machine that is tick-crafting is meaningless and &cwon't improve its speed&r. This max OC is equivalent to the &aTotal EU&r of a given &9recipe&r, which you can see by hovering over the recipe time in EMI (as shown below)."
+		""
+		"{image:statech:item/oc3 width:200 height:32 align:center}"
+	]
 	quest.7A082EC55D240856.quest_desc: ["This is the &eModern Dynamics&r version of the &aMV-tier Cables&r."]
 	quest.7A0E6729E0460E62.quest_desc: [
 		"The &aDiesel Jetpack&r allows you to have flight similar to that of the &dElytra&r, but runs off of &efuel rather than durability&r. The &3more powerful&r the fuel, &3the faster&r the &ajetpack&r! For really fast speeds, the &bRubber Helmet&r and &bRubber Boots&r are recommended."
@@ -5691,6 +5895,7 @@
 		"Don't forget to activate it using the &6Toggle Flight&r keybinding (Check your controls, default is: &dx&r)"
 	]
 	quest.7A0E6729E0460E62.quest_subtitle: "Fly me to the moon"
+	quest.7A1577E495B505C5.quest_subtitle: "Quite expensive"
 	quest.7A1A04BBB9727F1A.quest_desc: ["This is the &eModern Dynamics&r version of the &aHV-tier Cables&r."]
 	quest.7A28C8307C136F5B.quest_desc: ["You can compress those Blastproof Mixed Ingots until you obtain enough for the Implosion compressor."]
 	quest.7A29CB04322D488B.quest_desc: [
@@ -5711,6 +5916,7 @@
 		""
 		"&aCreosote&r can prove to be very useful, such as being able to make &6Lubricant&r for your &6Cutting Machines&r. If you'd like to start storing &aCreosote&r, attach a &2Fluid Output Hatch&r to the &aCoke Oven&r and pipe the fluid into tanks."
 	]
+	quest.7A958D06D18685F0.quest_desc: ["Similar to &aStainless Steel&r, using an &eEBF&r to process &6Kanthal&r will give you a &bKanthal Hot Ingot&r. You will need to cool the ingot down in a &3Vacuum Freezer&r before it will become usable."]
 	quest.7AAF6979B644AB15.quest_desc: [
 		"When you set foot in the first &dgeode&r, you were met with a pleasant cozy glow. With your knowledge and the help of &eShimmerstone&r, it is easy to amplify this light to create &afancy light&r."
 		""
@@ -5764,6 +5970,11 @@
 		""
 		"The backpack can be worn on your back and provides &a18 item slots&r. Great for all the stuff you'll be collecting."
 	]
+	quest.7C3CA1F482268915.quest_desc: [
+		"The &bProcessing Unit&r and &bHighly Advanced Machine Hull&r unlocks many new &6Batching Multiblocks&r that can greatly help with speeding up some slow processes!"
+		""
+		"Many of them require &9Tungstensteel,&r though, so you'll have to get a lot of that first!"
+	]
 	quest.7C5FC2951D1A6FA0.quest_desc: [
 		"Ambition has taken hold of you. This is your first steps towards changing the world. &dEmpowered&r by the potent energy of your &aOnyx&r and &cStratine&r, this second &aorganism&r you created is clearly... more active than your last creation."
 		""
@@ -5784,7 +5995,7 @@
 		"- &2Efficiency (Black Ink)&r: Greatly decreases &dInk Consumption&r of the other types, including &6Orange&r."
 		"{image:statech:textures/item/spectrum_cinderharth.png width:240 height:135 align:1}"
 	]
-	quest.7C70B4621C93F658.quest_desc: ["The &aElectric Macerator&r is the electrical version of the &6Steam Macerator&r. It opens up the ability to make &dCalcite&r and &dObsidian Dust&r, and it will process recipes&d much faster&r than its &7Steam&r counterpart."]
+	quest.7C70B4621C93F658.quest_desc: ["The &aElectric Macerator&r is the electrical version of the &6Steam Macerator&r. It will process recipes&d much faster&r than its &7Steam&r counterpart."]
 	quest.7CADC21630F6223B.quest_desc: [
 		"The following quests are for items added by the &eCC:C Bridge&r mod. This mod aims to add compatibility between &6Create&r and &2ComputerCraft&r. I'm only adding the basic information here, however you should check out the wiki for the mod for all the methods they have for the blocks."
 		""
@@ -5828,6 +6039,7 @@
 	quest.7D701BCCC5BD6418.quest_desc: ["&bCopper Casings&r are a basic casing mainly used in &9fluid&r related items in &eCreate&r."]
 	quest.7D90B29796571A7E.quest_desc: ["This &aTier 3 Bank&r has &d27 slots&r and each can hold a stacksize of &64096 items&r."]
 	quest.7D90B29796571A7E.quest_subtitle: "Bank Storage!"
+	quest.7D99CA8AE84C0904.quest_desc: ["The &dAssembler Matrix&r is a &amultiblock&r structure from Extended AE that allows to &9fuse&r all your crafting processes into one &abig machine&r instead of having individual &bMolecular Assemblers&r and &bPattern Providers&r."]
 	quest.7DE19984A4DE57D4.quest_desc: ["&0Crude Oil&r is produced from an &aOil Drilling Rig&r using an &7Aluminum Drill&r. The following quests follow processing down &0Crude Oil&r into other &6usable byproducts&r."]
 	quest.7DE19984A4DE57D4.quest_subtitle: "Black Gold"
 	quest.7DE1DE92C45C81BB.quest_desc: [
@@ -5838,6 +6050,7 @@
 	quest.7DE1DE92C45C81BB.title: "Diamond \\& Emerald Plates"
 	quest.7DF831878A6CF9FF.quest_desc: ["Thanks to a mod, the &aTotem of Undying&f can now be equipped in a &etrinket slot&f. This means you can keep your shield in your offhand and not fear death as long as it's equipped."]
 	quest.7DF831878A6CF9FF.quest_subtitle: "Wearable invulnerability"
+	quest.7E054C0032E534F1.quest_desc: ["With your &eDigital Circuit Boards&r you can now create the &9Advanced Upgrade&r. These will significantly increase the speed of your overclocks, and your power draw."]
 	quest.7E211328EEB3CB9C.quest_desc: [
 		"The &bME Storage Monitor&r is a simple way to see the current level of a specified item. There are several interactions to modify it."
 		"- Right-click with item: Will display the current stored amount of that item if not locked"
@@ -5895,18 +6108,28 @@
 		"&5Sharestones&r allow you to warp between only other &5Sharestones&r of the same color, this is useful to organize the different locations you want to be warping to."
 	]
 	quest.7F0E8D43A9627E7D.title: "Sharestone"
-	quest.7F1AB8E8DA7BFD77.quest_desc: ["Adds a looting effect to killed mobs"]
+	quest.7F1AB8E8DA7BFD77.quest_desc: ["Adds a extra looting effect to killed mobs."]
 	quest.7F2BDC0286687919.quest_desc: [
 		"It's pretty neat."
 		""
 		"&oPress F5 ;)&r"
+	]
+	quest.7F36A76EB91E6AEB.quest_desc: [
+		"The &aME Wireless Connector&r allows you to connect &dtwo separated points&r to easily move channels &6wirelessly!&r"
+		""
+		"You'll need a &9ME Wireless Setup Kit&r to connect them."
 	]
 	quest.7F499A3A91F4AC6D.quest_desc: [
 		"The &aQuantum Tank&f is the highest tier tank offered by &eMI&r. It can store an absolutely absurd &62.14 billion buckets of fluid&r."
 		""
 		"&oFilling it would be an achievement&r."
 	]
-	quest.7F59229192C7E269.quest_desc: ["While not required for finishing the pack, you'll need some &aNether Stars&r to produce the final tiers of the &6Dank Nulls&r, or you can make some &dbeacons&r with it."]
+	quest.7F59229192C7E269.quest_desc: ["While not required for finishing the pack, you'll need some &aNether Stars&r to produce the final tiers of the &6Bank&r or &6Tank&r, or you can make some &dbeacons&r with it."]
+	quest.7F65BF85A0A6D8F9.quest_desc: [
+		"The &aLarge Scale Assembler&r is a batching multiblock version of the &bAssembler&r. It can do &6batches of 16&r and has no EU discount. (sorry!)"
+		""
+		"It costs quite a bit of &eTungstensteel&r, so it's recommend to try to &9wallshare&r it to save on &aresources&r!"
+	]
 	quest.7FA070C66DAF5377.quest_desc: [
 		"Extracts of the &dBlood Orchid&r have an intense effect when consumed: they may put you into a &dFrenzy&r. &eDamage, attack speed, speed, and knockback resistance are buffed&r the more you kill. But if you do not score a kill within &215 seconds&r you get &cdebuffs instead&r. The higher the effects level, the higher the amplitude."
 		""
@@ -5924,6 +6147,7 @@
 		"Aside from being a byproduct in &aPlatinum&r processing, it can be found &cvery rarely&r in the &3overworld&r."
 	]
 	quest.7FC30BBADF5F24EE.quest_desc: ["Increases your speed when using a mount."]
+	quest.7FC30BBADF5F24EE.quest_subtitle: "Howdy"
 	quest.7FC9D0955828CDFC.quest_desc: [
 		"With your newly acquired &cCalorite&r, you can now craft the &eAd Astra&r &aSolar Panels&r. These panels generate power during the daytime, with their output &dvarying based on where it's placed&r. If placed in &bspace&r, it will generate more than if it was placed on a &2planet&r."
 		""
@@ -5945,15 +6169,19 @@
 		"These cables can transfer up to &e8192 EU/t&r and have an internal buffer of&6 8192 EU&r."
 	]
 	quest.7FD9582038C29150.title: "HV Cables"
+	reward_table.0542C9BA02BA96DC.title: "chapter 4 common reward"
 	reward_table.2255F034A97A6FB8.title: "chapter 1 common"
 	reward_table.2F502BDF8D994F1C.title: "chapter 2 common"
+	reward_table.41DD2BDE1565DF69.title: "chapter 4 rare reward"
 	reward_table.4464DD5400E19514.title: "chapter 2 rare"
 	reward_table.4F2FDA050E3198FB.title: "chapter 3 rare"
+	reward_table.6289A7DB88067807.title: "AE2 Quest Rewards"
 	reward_table.7A477A4581AD9876.title: "chapter 3 common"
 	task.001551D902C63896.title: "NYI"
 	task.005451BD8D8A7C98.title: "Click to Acknowledge"
 	task.009F34F7B8D3FB45.title: "NYI"
 	task.00C980F4D867390D.title: "Any Fluid Input Hatch"
+	task.00D4BABF0A690CA5.title: "Overclocking, part 3"
 	task.00DFEE10F5392F2D.title: "NYI"
 	task.0176B69E50B6E40E.title: "NYI"
 	task.01FEDF412678560E.title: "NYI"
@@ -5966,6 +6194,7 @@
 	task.0365E6610A60A4DB.title: "Any Item Input Hatch"
 	task.0370BDE5CF6E361F.title: "NYI"
 	task.0386D6436310F041.title: "NYI"
+	task.0432DAB1DD87D21D.title: "Any Energy Input Hatch"
 	task.0472D36D743812BA.title: "Click to Acknowledge"
 	task.05EE083C303D0E3D.title: "Any Pure Pigment"
 	task.0678CC4CC5D8D28B.title: "Any Glowblock"
@@ -5986,6 +6215,7 @@
 	task.0A1D3487114272FD.title: "Any Glass Arrows"
 	task.0A245A0ADB04F572.title: "Either Phantom Frame"
 	task.0A414B60C2870A25.title: "4x Coke or Coke Dust"
+	task.0A46D4B198C5A206.title: "Any Energy Input Hatch"
 	task.0AE90B6F93D43E78.title: "Any Gemstone Rune"
 	task.0B2D3DCB79D3A4C0.title: "NYI"
 	task.0B566EB783289886.title: "NYI"
@@ -6009,6 +6239,7 @@
 	task.1355917228F28D8A.title: "NYI"
 	task.135B6491339FB2A5.title: "Click to Acknowledge"
 	task.1377546BDB236CF2.title: "8x Polished Pillars"
+	task.1379DDEF2E577CE4.title: "Any Item Input Hatch"
 	task.13B43E23537FA95D.title: "NYI"
 	task.13EAC67F33917489.title: "Any Energy Input Hatch"
 	task.1425DEF913A9FEEF.title: "Click to Acknowledge"
@@ -6055,6 +6286,7 @@
 	task.1FEE1621403E20F6.title: "Any Fluid Output Hatch"
 	task.2024A3B3CA873BFF.title: "Any Item Input Hatch"
 	task.205CF878A2DFA3D1.title: "Click to Acknowledge"
+	task.208CFFD6D4B271D1.title: "Any Item Input Hatch"
 	task.20B32213DF9AA2CE.title: "Click to Acknowledge"
 	task.20E4C085DE2834C9.title: "Any Energy Input Hatch"
 	task.212805468C2ACB82.title: "Click to Acknowledge"
@@ -6110,6 +6342,7 @@
 	task.2D7DA35088255141.title: "Click to Acknowledge"
 	task.2D7E8779F3810B8C.title: "NYI"
 	task.2DEC4B84E5B092C8.title: "Any Runic Leggings"
+	task.2E03E6954C143BF7.title: "Any Fluid Input Hatch"
 	task.2E2C7F5F076068F3.title: "41x Polished Blocks"
 	task.2E6F90D6FA0A7002.title: "Any Item Output Hatch"
 	task.2E7DFAFC32C613CE.title: "Any Item Input Hatch"
@@ -6119,6 +6352,7 @@
 	task.2EFE35A5F4181F40.title: "Basic Runes"
 	task.2F68B6A8F5B091CC.title: "Any Sharestone"
 	task.2FF45D67758DA810.title: "NYI"
+	task.3036FB8C4E37E13C.title: "Batching?"
 	task.304C1B2C9138E963.title: "NYI"
 	task.306669829F033913.title: "Any Modern Industrialization Hammer"
 	task.30914428CE1F71CA.title: "NYI"
@@ -6137,6 +6371,7 @@
 	task.34090824E7A87B60.title: "Click to Acknowledge"
 	task.349CEA7E862FC482.title: "Any Item Output Hatch"
 	task.34BA2E902145A0AF.title: "Click to Acknowledge"
+	task.34CAE9ACC28C69FB.title: "Any Fluid Input Hatch"
 	task.34D14E04CC4820A3.title: "Laser Engraver"
 	task.352FD3AB3B5B0202.title: "Any Item Output Hatch"
 	task.355461283287B570.title: "NYI"
@@ -6147,10 +6382,12 @@
 	task.3759329D7AB3E02D.title: "Any Energy Input Hatch"
 	task.37A29FCBDD477602.title: "NYI"
 	task.37CF0AB273567327.title: "Click to Acknowledge"
+	task.38392AE55D9761DA.title: "Any Item Output Hatch"
 	task.384F3106FC142633.title: "Any Fluid Output Hatch"
 	task.385FEC16EF238B54.title: "Click to Acknowledge"
 	task.3951C2DD2B16293F.title: "NYI"
 	task.397C0706200BF8B5.title: "Any Glowblock"
+	task.39C3BB4146230DE5.title: "Overclocking, part 2"
 	task.39C63B199AA904F9.title: "Click to Acknowledge"
 	task.39CC1984CE1589CB.title: "NYI"
 	task.3A2ADE76DB297471.title: "Any Item Output Hatch"
@@ -6165,6 +6402,7 @@
 	task.3D10F4A50CA6F431.title: "Any Runic Chestplate"
 	task.3D79390D2D1352F8.title: "Any Fluid Input Hatch"
 	task.3EEB76F3C5E9C50D.title: "Click to Acknowledge"
+	task.3F98D27C8E0BA978.title: "Any Fluid Input Hatch"
 	task.4003DF22E9F29CAF.title: "Any Fluid Input Hatch"
 	task.4005AB85BF9CFD2F.title: "NYI"
 	task.4016A4AF6C146437.title: "Any Item Input Hatch"
@@ -6175,12 +6413,13 @@
 	task.40BC4C6BAF3BB6C5.title: "Any Energy Input Hatch"
 	task.40DD5C411C2CEE3C.title: "NYI"
 	task.40F284523C7D1EE5.title: "Click to Acknowledge"
-	task.410F27E40E46053E.title: "Any Item Input Hatch"
+	task.410F27E40E46053E.title: "Any Fluid Output Hatch"
 	task.4126249455C290EB.title: "4x Chiseled Polished Blocks"
 	task.413C55BD00BC3152.title: "Any Runic Helmet"
 	task.41420F8E297CE369.title: "Any Fluid Output Hatch"
 	task.415377B0AC4EA77A.title: "NYI"
 	task.4164D3C666318830.title: "NYI"
+	task.416A3F9D68C396BC.title: "Any Fluid Output Hatch"
 	task.422F909199EA0780.title: "NYI"
 	task.42A323867D3F1620.title: "4x Chiseled Polished Blocks"
 	task.42E7AEE28F9E337D.title: "68x Polished Blocks"
@@ -6197,6 +6436,7 @@
 	task.44D0AC07BDCC0DC8.title: "Click to Acknowledge"
 	task.450F89157A786341.title: "NYI"
 	task.451724A473D89EB1.title: "Moonstone Chiseled Blocks"
+	task.452E54E7A479B3EF.title: "Any Item Input Hatch"
 	task.45425DE150290CEB.title: "Any Semi-permeable Glasses"
 	task.4589B35E93D190F4.title: "Any Machete"
 	task.45A4E1A885CE83AA.title: "Any Gemstone Lamp"
@@ -6213,6 +6453,7 @@
 	task.47852A1841768877.title: "4x Polished Gemstones"
 	task.47C69ADD80F2257C.title: "NYI"
 	task.47EC9A39F745DC3F.title: "Any Energy Input Hatch"
+	task.48329F819F038FE8.title: "More Batching!"
 	task.4848D2E9AD7513A5.title: "Eight Gemstone Lamps"
 	task.488CB74113AFA0A1.title: "Either Fusion Shrine"
 	task.48A99247A316F590.title: "Click to Acknowledge"
@@ -6223,6 +6464,7 @@
 	task.4A145AB6664F8C6F.title: "NYI"
 	task.4A44D9CF80920734.title: "Any Sharestones"
 	task.4A55903FFA388645.title: "NYI"
+	task.4A70D1B4F105E4F6.title: "Any Item Output Hatch"
 	task.4A96B02DCAC866B3.title: "Click to Acknowledge"
 	task.4AAE963F380FD67D.title: "NYI"
 	task.4AF62BF9F748E005.title: "Any Energy Input Hatch"
@@ -6250,8 +6492,10 @@
 	task.528578B1BF2F181F.title: "NYI"
 	task.531D8A591837029A.title: "Click to Acknowledge"
 	task.5351C0883E355B70.title: "NYI"
+	task.535B8EF46904E004.title: "More... Batching..."
 	task.5381D50EDD55B4E6.title: "NYI"
 	task.538B4E9D8DE95802.title: "NYI"
+	task.53C2B544DFD81F09.title: "Any Fluid Output Hatch"
 	task.544827C736EC35B9.title: "2x Notched Polished Blocks"
 	task.549173CDF1544314.title: "Any Item Input Hatch"
 	task.54AADD811AFC5E57.title: "Any Idol"
@@ -6294,6 +6538,7 @@
 	task.5C0E43D444D245AA.title: "NYI"
 	task.5C2758ED2BD6E4AD.title: "Any Fluid Output Hatch"
 	task.5CB7170541C955B4.title: "Any Item Input Hatch"
+	task.5CCB8DFEA1221B32.title: "Any Fluid Output Hatch"
 	task.5D1B1332FFBD6BE9.title: "Click to Acknowledge"
 	task.5D75C96318B7DC69.title: "Math in chat"
 	task.5E3A8C815C0BB1E4.title: "Click to Acknowledge"
@@ -6302,6 +6547,7 @@
 	task.5F10F81308FEB934.title: "NYI"
 	task.5FA747C5A7921729.title: "NYI"
 	task.5FB8D8B0C9F3F3EE.title: "NYI"
+	task.60348782D06ED859.title: "Any Fluid Input Hatch"
 	task.603B7FEBD79D0F0D.title: "Any Item Output Hatch"
 	task.6046579788B293D6.title: "NYI"
 	task.605E3482C4127DE0.title: "Any Energy Input Hatch"
@@ -6310,6 +6556,7 @@
 	task.60CD2056096646A8.title: "NYI"
 	task.60D5ED6299C650F2.title: "NYI"
 	task.60F319306DFC6303.title: "Any Energy Input Hatch"
+	task.612027AC4A4A11C0.title: "Any Item Input Hatch"
 	task.61472E61A4C3C115.title: "Any Gemstone Chime"
 	task.614939D6695E0BF0.title: "NYI"
 	task.615F3F51A2F3B534.title: "Any Staff"
@@ -6332,7 +6579,7 @@
 	task.67627536ABAD1F15.title: "NYI"
 	task.67A5FE89B8A70F2B.title: "NYI"
 	task.6880F97C58C5825D.title: "NYI"
-	task.68D2C588FE9627B8.title: "Any wired Energy Input Hatch"
+	task.68D2C588FE9627B8.title: "Any Wired Energy Input Hatch"
 	task.690A1A6E6F950BD1.title: "NYI"
 	task.690ABE8E14241CEE.title: "Tesla Receiver Hatch"
 	task.693EA95A0ECB8813.title: "Click to Acknowledge"
@@ -6347,6 +6594,7 @@
 	task.6E0CA349D50C0288.title: "NYI"
 	task.6E9A40DA4118BCAC.title: "Any Item Output Hatch"
 	task.6F352A9FCCD9C4BD.title: "Any Item Input Hatch"
+	task.6F5FB077A4F25581.title: "Overclocking, part 3"
 	task.6F69E576E94CF82D.title: "Click to Acknowledge"
 	task.6FA5D3D6804ECEDC.title: "Any Fluid Input Hatch"
 	task.6FC30288BFE41B73.title: "Click to Acknowledge"
@@ -6369,6 +6617,7 @@
 	task.736FD69D3EB40E37.title: "NYI"
 	task.738DB52AC636ED24.title: "Any Spellblade"
 	task.742E9597634D1944.title: "Any Item Output Hatch"
+	task.74740A3EBB5A39A8.title: "Any Energy Input Hatch"
 	task.7490CE6CE44E9FBB.title: "NYI"
 	task.74A03D0F85036522.title: "NYI"
 	task.74A81B11060780C8.title: "Four Polished Gemstones"
@@ -6393,8 +6642,10 @@
 	task.799173746D8D6ECB.title: "NYI"
 	task.7AADB42E1295E814.title: "No Man's Land"
 	task.7AC9071453F14364.title: "Any Energy Input Hatch"
+	task.7B2DB2338E8379DF.title: "Even more Batching?"
 	task.7B3278D24F0244DD.title: "NYI"
 	task.7B5A9951D239D081.title: "Any Item Output Hatch"
+	task.7B87AAE715AED2FF.title: "Overclocking"
 	task.7BEBC33792630266.title: "NYI"
 	task.7C0E9D75A384FF71.title: "16x Gemstone Chiseled Blocks"
 	task.7C9ABEB2F52198D7.title: "Click to Acknowledge"

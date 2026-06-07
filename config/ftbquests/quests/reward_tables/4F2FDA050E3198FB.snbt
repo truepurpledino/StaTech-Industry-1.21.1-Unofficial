@@ -169,14 +169,7 @@
 				id: "minecraft:diamond_ore"
 			}
 		}
-		{
-			count: 4
-			id: "23D604201B7BD2B4"
-			item: {
-				count: 1
-				id: "minecraft:ender_eye"
-			}
-		}
+		{ id: "23D604201B7BD2B4", item: { count: 1, id: "minecraft:ender_eye" } }
 		{
 			count: 4
 			id: "0783DD281F5CF141"
@@ -276,6 +269,14 @@
 			item: {
 				count: 1
 				id: "modern_industrialization:carbon_dust"
+			}
+		}
+		{
+			count: 24
+			id: "00BBA4EDA151CB9A"
+			item: {
+				count: 1
+				id: "minecraft:bone"
 			}
 		}
 	]

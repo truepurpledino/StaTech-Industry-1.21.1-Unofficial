@@ -13,28 +13,6 @@
 		{
 			dependencies: ["74C1F78B349FC947"]
 			id: "412958496FE9150E"
-			rewards: [
-				{
-					count: 5
-					id: "09FD3E529838122F"
-					item: {
-						count: 1
-						id: "kubejs:coin_common"
-					}
-					type: "item"
-				}
-				{
-					id: "01009F5C3D4A50F9"
-					type: "xp"
-					xp: 10
-				}
-				{
-					exclude_from_claim_all: true
-					id: "5454F911B6A56B2E"
-					table_id: 3409273157072801564L
-					type: "random"
-				}
-			]
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
@@ -44,57 +22,6 @@
 			}]
 			x: 0.0d
 			y: 0.0d
-		}
-		{
-			dependencies: ["412958496FE9150E"]
-			id: "1F8BAB70F2596659"
-			rewards: [
-				{
-					count: 5
-					id: "3327820986ADC3AB"
-					item: {
-						count: 1
-						id: "kubejs:coin_common"
-					}
-					type: "item"
-				}
-				{
-					id: "1B18ACF7A665DC02"
-					type: "xp"
-					xp: 10
-				}
-				{
-					exclude_from_claim_all: true
-					id: "06F8207B8AD4E1CE"
-					table_id: 3409273157072801564L
-					type: "random"
-				}
-			]
-			shape: "rsquare"
-			tasks: [
-				{
-					id: "16703410EDD40967"
-					item: { count: 1, id: "minecraft:iron_helmet" }
-					type: "item"
-				}
-				{
-					id: "52A6AAB0CCA75529"
-					item: { count: 1, id: "minecraft:iron_chestplate" }
-					type: "item"
-				}
-				{
-					id: "0A6726DCEEABC860"
-					item: { count: 1, id: "minecraft:iron_leggings" }
-					type: "item"
-				}
-				{
-					id: "62CF7B7BF626D57E"
-					item: { count: 1, id: "minecraft:iron_boots" }
-					type: "item"
-				}
-			]
-			x: 0.0d
-			y: 2.0d
 		}
 		{
 			dependencies: ["412958496FE9150E"]
@@ -127,8 +54,8 @@
 				item: { count: 1, id: "minecraft:bucket" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 3.0d
+			x: 1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["412958496FE9150E"]
@@ -231,40 +158,6 @@
 			}]
 			x: 30.5d
 			y: 4.5d
-		}
-		{
-			dependencies: ["412958496FE9150E"]
-			id: "649575B205DA42DF"
-			rewards: [
-				{
-					count: 5
-					id: "62BEC561C782211D"
-					item: {
-						count: 1
-						id: "kubejs:coin_common"
-					}
-					type: "item"
-				}
-				{
-					id: "2C1579B54CAEC208"
-					type: "xp"
-					xp: 10
-				}
-				{
-					exclude_from_claim_all: true
-					id: "44BD147688829841"
-					table_id: 3409273157072801564L
-					type: "random"
-				}
-			]
-			shape: "rsquare"
-			tasks: [{
-				id: "1799EAD82A1018A4"
-				item: { count: 1, id: "measurements:tape_measure" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: 2.0d
 		}
 		{
 			dependencies: ["412958496FE9150E"]
@@ -480,7 +373,7 @@
 				item: { count: 1, id: "modern_industrialization:bronze_boiler" }
 				type: "item"
 			}]
-			x: 5.5d
+			x: 6.0d
 			y: 0.0d
 		}
 		{
@@ -558,7 +451,7 @@
 				id: "1A4D6519AAF99F50"
 				type: "checkmark"
 			}]
-			x: 8.5d
+			x: 9.0d
 			y: 0.0d
 		}
 		{
@@ -567,6 +460,7 @@
 				"343127A42BA0B83C"
 			]
 			id: "14D630FF21EC6D3F"
+			min_required_dependencies: 1
 			rewards: [
 				{
 					count: 5
@@ -765,7 +659,7 @@
 				item: { count: 1, id: "modern_industrialization:bronze_water_pump" }
 				type: "item"
 			}]
-			x: 5.5d
+			x: 6.0d
 			y: 2.5d
 		}
 		{
@@ -962,14 +856,14 @@
 					type: "random"
 				}
 			]
-			size: 2.0d
+			size: 1.5d
 			tasks: [{
 				id: "29E01AD43B8CD080"
 				item: { count: 1, id: "minecraft:paper" }
 				type: "item"
 			}]
 			x: 15.5d
-			y: 5.0d
+			y: 3.75d
 		}
 		{
 			dependencies: ["2249BA5F88B191ED"]
@@ -977,6 +871,7 @@
 				id: "modern_industrialization:coke_oven"
 			}
 			id: "452D070427B81877"
+			min_width: 350
 			rewards: [
 				{
 					count: 5
@@ -1107,6 +1002,7 @@
 		{
 			dependencies: ["452D070427B81877"]
 			id: "726D25D4F1A88563"
+			shape: "circle"
 			tasks: [{
 				id: "15550F9F38F0C615"
 				type: "checkmark"
@@ -1117,6 +1013,7 @@
 		{
 			dependencies: ["343127A42BA0B83C"]
 			id: "78BB6FC9581DF35A"
+			shape: "circle"
 			tasks: [{
 				id: "48A99247A316F590"
 				type: "checkmark"
@@ -1125,8 +1022,12 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["0D0C9043FAA9C215"]
+			dependencies: [
+				"452D070427B81877"
+				"0D0C9043FAA9C215"
+			]
 			id: "1D6BFD70720E391D"
+			min_required_dependencies: 1
 			rewards: [
 				{
 					count: 5
@@ -1365,6 +1266,7 @@
 				"329F257DC1F01889"
 			]
 			id: "6FEF9845584E6BFA"
+			min_required_dependencies: 1
 			rewards: [
 				{
 					count: 10
@@ -1498,9 +1400,9 @@
 					type: "item"
 				}
 				{
-					id: "00BABFBAD634043B"
-					type: "xp"
-					xp: 10
+					id: "7E8835447CC752CD"
+					type: "xp_levels"
+					xp_levels: 10
 				}
 				{
 					exclude_from_claim_all: true
@@ -1818,6 +1720,7 @@
 					type: "random"
 				}
 			]
+			shape: "rsquare"
 			tasks: [{
 				id: "268EC3AC3347DAC7"
 				item: { count: 1, id: "moderndynamics:item_pipe" }
@@ -1831,26 +1734,27 @@
 			id: "6758A5BC0D25974B"
 			rewards: [
 				{
-					count: 2
-					id: "06CA60FB716886D6"
+					count: 5
+					id: "3C751FBDB99E70CD"
 					item: {
 						count: 1
-						id: "kubejs:coin_rare"
+						id: "kubejs:coin_common"
 					}
 					type: "item"
 				}
 				{
-					id: "3DA7BC6BA00849C5"
+					id: "78703F0EF54079EE"
 					type: "xp"
 					xp: 10
 				}
 				{
 					exclude_from_claim_all: true
-					id: "499ED81B8587CED2"
-					table_id: 4928307245111940372L
+					id: "1CC18569AA5C03E5"
+					table_id: 3409273157072801564L
 					type: "random"
 				}
 			]
+			shape: "rsquare"
 			tasks: [{
 				id: "7F5E3D0C8D9E6677"
 				item: { count: 1, id: "moderndynamics:machine_extender" }
@@ -1860,41 +1764,9 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["06AEE6B2E97A5CA8"]
-			id: "4A6A9801A2DD923F"
-			rewards: [
-				{
-					count: 2
-					id: "122BB485F7DCDF69"
-					item: {
-						count: 1
-						id: "kubejs:coin_rare"
-					}
-					type: "item"
-				}
-				{
-					id: "7124B0AC0D1CF663"
-					type: "xp"
-					xp: 10
-				}
-				{
-					exclude_from_claim_all: true
-					id: "7A8174D3DA029796"
-					table_id: 4928307245111940372L
-					type: "random"
-				}
-			]
-			tasks: [{
-				id: "23A2ECEB482EFE06"
-				item: { count: 1, id: "moderndynamics:inhibitor" }
-				type: "item"
-			}]
-			x: 40.5d
-			y: 3.0d
-		}
-		{
 			dependencies: ["78AB0A6DF24A608F"]
 			id: "3E15836FA16CA65E"
+			shape: "circle"
 			tasks: [{
 				id: "60C91BC029546E34"
 				type: "checkmark"
@@ -1927,6 +1799,7 @@
 					type: "random"
 				}
 			]
+			shape: "rsquare"
 			tasks: [{
 				id: "293C49D02DE7B047"
 				item: { count: 1, id: "moderndynamics:fluid_pipe" }
@@ -1960,6 +1833,7 @@
 					type: "random"
 				}
 			]
+			shape: "rsquare"
 			tasks: [
 				{
 					id: "4061D0C116B81681"
@@ -2289,8 +2163,8 @@
 				item: { count: 1, id: "modern_industrialization:steel_upgrade" }
 				type: "item"
 			}]
-			x: 37.0d
-			y: 2.5d
+			x: 37.5d
+			y: 2.25d
 		}
 		{
 			dependencies: ["4410F770254B4F8F"]
@@ -2317,13 +2191,14 @@
 					type: "random"
 				}
 			]
-			size: 2.0d
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "479953BAA1AB9ED6"
 				item: { count: 1, id: "modern_industrialization:steel_water_pump" }
 				type: "item"
 			}]
-			x: 35.0d
+			x: 36.0d
 			y: 5.0d
 		}
 		{
@@ -2351,13 +2226,14 @@
 					type: "random"
 				}
 			]
-			size: 2.0d
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "1E8E47FB01CC422B"
 				item: { count: 1, id: "modern_industrialization:steel_boiler" }
 				type: "item"
 			}]
-			x: 37.0d
+			x: 37.5d
 			y: 5.0d
 		}
 		{
@@ -2388,7 +2264,8 @@
 					type: "random"
 				}
 			]
-			size: 2.0d
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [
 				{
 					id: "5C5F094FC89A0673"
@@ -2652,9 +2529,9 @@
 					type: "item"
 				}
 				{
-					id: "044D521EE71C01E1"
-					type: "xp"
-					xp: 10
+					id: "09379FE785DCCDFC"
+					type: "xp_levels"
+					xp_levels: 20
 				}
 				{
 					exclude_from_claim_all: true
@@ -2747,6 +2624,7 @@
 				id: "modern_industrialization:large_steam_boiler"
 			}
 			id: "4FB50C49AE5D30B2"
+			min_width: 350
 			rewards: [
 				{
 					count: 2
@@ -2815,7 +2693,7 @@
 			y: -8.5d
 		}
 		{
-			dependencies: ["1D6BFD70720E391D"]
+			dependencies: ["2ACEC02AD4EA03B7"]
 			icon: {
 				id: "extended_industrialization:large_steam_furnace"
 			}
@@ -2878,8 +2756,8 @@
 					type: "item"
 				}
 			]
-			x: 21.5d
-			y: 2.5d
+			x: 15.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["74B14DB45316C4F8"]
@@ -2912,18 +2790,13 @@
 				item: { count: 1, id: "bankstorage:bank_2" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: -2.5d
+			x: 5.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["7758D929EC7EE49B"]
 			id: "20E6BE71E8BA5585"
 			rewards: [
-				{
-					id: "053C42492B8424DA"
-					type: "xp"
-					xp: 10
-				}
 				{
 					count: 5
 					id: "0115397BD04236EC"
@@ -2957,11 +2830,6 @@
 			dependencies: ["20E6BE71E8BA5585"]
 			id: "3B28AE165B04B6EB"
 			rewards: [
-				{
-					id: "42E137F745717482"
-					type: "xp"
-					xp: 10
-				}
 				{
 					count: 5
 					id: "3C118BAA4134AE28"
@@ -2997,11 +2865,6 @@
 			id: "55F613974F17ED0A"
 			rewards: [
 				{
-					id: "486CDF0B9AD1CA72"
-					type: "xp"
-					xp: 10
-				}
-				{
 					count: 5
 					id: "6CEC3249C3035BF7"
 					item: {
@@ -3035,11 +2898,6 @@
 			dependencies: ["55F613974F17ED0A"]
 			id: "07437EF0F03724CC"
 			rewards: [
-				{
-					id: "688436EA2AF0DA5B"
-					type: "xp"
-					xp: 10
-				}
 				{
 					count: 5
 					id: "50E426FDF5293538"
@@ -3107,8 +2965,8 @@
 				item: { count: 1, id: "simplemagnets:basicmagnet" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: 3.0d
+			x: 0.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["26A89C51A7B9FFDE"]
@@ -3317,24 +3175,20 @@
 					type: "random"
 				}
 			]
+			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
 				id: "22519E5AFEEFE6DB"
 				item: { count: 1, id: "extended_industrialization:bronze_solar_boiler" }
 				type: "item"
 			}]
-			x: 7.5d
+			x: 8.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["2121C4F2CF127435"]
 			id: "17B61F8F9CAC32E2"
 			rewards: [
-				{
-					id: "70CF16094CCF2971"
-					type: "xp"
-					xp: 10
-				}
 				{
 					count: 2
 					id: "5D9B577E4E2D4CD7"
@@ -3362,8 +3216,8 @@
 				item: { count: 1, id: "modern_industrialization:redstone_control_module" }
 				type: "item"
 			}]
-			x: 35.5d
-			y: -4.5d
+			x: 34.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["2F5AA3AA2794D431"]
@@ -3403,11 +3257,6 @@
 			id: "181F0CD6428732B2"
 			rewards: [
 				{
-					id: "0005B37BAC0B954C"
-					type: "xp"
-					xp: 10
-				}
-				{
 					count: 5
 					id: "7878574A5BBBDAE8"
 					item: {
@@ -3441,11 +3290,6 @@
 			dependencies: ["181F0CD6428732B2"]
 			id: "6B3BEC96CBAB7760"
 			rewards: [
-				{
-					id: "7DCF70F1AA2A5325"
-					type: "xp"
-					xp: 10
-				}
 				{
 					count: 5
 					id: "7CFDCA2C9E762088"
@@ -3481,11 +3325,6 @@
 			id: "37A8157AB01079F0"
 			rewards: [
 				{
-					id: "37CA5AC5C9DD341B"
-					type: "xp"
-					xp: 10
-				}
-				{
 					count: 5
 					id: "3DD484FD424AF1B4"
 					item: {
@@ -3516,8 +3355,12 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["4410F770254B4F8F"]
+			dependencies: [
+				"4410F770254B4F8F"
+				"5E0A9E4DD75BB890"
+			]
 			id: "0E0589CA933ED840"
+			min_required_dependencies: 1
 			rewards: [
 				{
 					count: 2
@@ -3540,18 +3383,20 @@
 					type: "random"
 				}
 			]
-			size: 2.0d
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "74081535984EAA6E"
 				item: { count: 1, id: "extended_industrialization:steel_solar_boiler" }
 				type: "item"
 			}]
-			x: 37.0d
-			y: 7.5d
+			x: 37.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["7B0D4508DF6DE961"]
 			id: "1EB39E0BB9C59E54"
+			shape: "circle"
 			tasks: [{
 				id: "25215EADA043FD7E"
 				type: "checkmark"
@@ -3664,22 +3509,10 @@
 		{
 			dependencies: ["74B14DB45316C4F8"]
 			id: "4964937901EA0CA5"
-			shape: "rsquare"
-			tasks: [{
-				id: "4377052E0AF3FCAB"
-				item: { count: 1, id: "sophisticatedbackpacks:copper_backpack" }
-				type: "item"
-			}]
-			x: 5.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["2121C4F2CF127435"]
-			id: "7D44CBA637915377"
 			rewards: [
 				{
-					count: 2
-					id: "4A33774C5D84474F"
+					count: 5
+					id: "169D7FA8DC94CE30"
 					item: {
 						count: 1
 						id: "kubejs:coin_common"
@@ -3687,19 +3520,116 @@
 					type: "item"
 				}
 				{
-					id: "4C235C0276A24833"
+					id: "5DB7F7DC0434FC20"
 					type: "xp"
 					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0EC7A9F6250954DB"
+					table_id: 3409273157072801564L
+					type: "random"
 				}
 			]
 			shape: "rsquare"
 			tasks: [{
-				id: "7E33D983A9E991C6"
-				item: { count: 1, id: "industrialization_overdrive:terminal" }
+				id: "4377052E0AF3FCAB"
+				item: { count: 1, id: "sophisticatedbackpacks:copper_backpack" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4964937901EA0CA5"]
+			id: "1187AF9241E0D7E0"
+			require_sequential_tasks: false
+			rewards: [
+				{
+					count: 5
+					id: "5A2A797D2A48A12F"
+					item: {
+						count: 1
+						id: "kubejs:coin_common"
+					}
+					type: "item"
+				}
+				{
+					id: "70A3A32D2CB8604F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6D4A94B91B1601EE"
+					table_id: 3409273157072801564L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "6A5C059C6474C540"
+				item: { count: 1, id: "sophisticatedbackpacks:upgrade_base" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["06AEE6B2E97A5CA8"]
+			id: "5CFE958DD01C2BB5"
+			rewards: [
+				{
+					count: 5
+					id: "006B3C74260DDEAF"
+					item: {
+						count: 1
+						id: "kubejs:coin_common"
+					}
+					type: "item"
+				}
+				{
+					id: "280DD595D8D58CF2"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "310BBE33F0397936"
+					table_id: 3409273157072801564L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "45081657FA20E2FE"
+				item: { count: 1, id: "moderndynamics:inhibitor" }
+				type: "item"
+			}]
+			x: 40.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["38F5AD2112FF7017"]
+			id: "09466E977DB6BBAC"
+			shape: "circle"
+			tasks: [{
+				id: "0910F5A2A8F901F3"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2121C4F2CF127435"]
+			id: "32649B0ABE0E98D5"
+			tasks: [{
+				id: "59C06644B275AFF8"
+				item: { count: 1, id: "pipe_connector:pipe_connector" }
 				type: "item"
 			}]
 			x: 35.5d
-			y: -3.5d
+			y: -4.5d
 		}
 	]
 }

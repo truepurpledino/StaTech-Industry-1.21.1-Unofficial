@@ -77,7 +77,7 @@
 			}
 		}
 		{
-			count: 4
+			count: 2
 			id: "2CE1C30BA2E2ADD6"
 			item: {
 				count: 1
@@ -85,7 +85,7 @@
 			}
 		}
 		{
-			count: 4
+			count: 2
 			id: "07BC18A7E3A90307"
 			item: {
 				count: 1
@@ -172,43 +172,15 @@
 				id: "ae2:quartz_glass"
 			}
 		}
-		{
-			count: 2
-			id: "5CC9C4BDCCD78CF9"
-			item: {
-				count: 1
-				id: "ae2:controller"
-			}
-		}
-		{
-			count: 2
-			id: "5C8C7B0FE3C6CBEF"
-			item: {
-				count: 1
-				id: "ae2:crafting_unit"
-			}
-		}
-		{
-			count: 2
-			id: "63D252E334BE26F0"
-			item: {
-				count: 1
-				id: "ae2:crystal_resonance_generator"
-			}
-		}
-		{
-			count: 2
-			id: "2F92AC1EFCE05E3A"
-			item: {
-				count: 1
-				id: "ae2:growth_accelerator"
-			}
-		}
+		{ id: "5CC9C4BDCCD78CF9", item: { count: 1, id: "ae2:controller" } }
+		{ id: "5C8C7B0FE3C6CBEF", item: { count: 1, id: "ae2:crafting_unit" } }
+		{ id: "63D252E334BE26F0", item: { count: 1, id: "ae2:crystal_resonance_generator" } }
+		{ id: "2F92AC1EFCE05E3A", item: { count: 1, id: "ae2:growth_accelerator" } }
 		{ id: "5173E16E9285EB0E", item: { count: 1, id: "ae2:drive" } }
 		{ id: "32025A5419E757B6", item: { count: 1, id: "ae2:chest" } }
 		{ id: "777B092A490BB221", item: { components: { "ae2:stored_energy": 200000.0d }, count: 1, id: "ae2:energy_cell" } }
 		{
-			count: 4
+			count: 2
 			id: "62D1CE5FAB461274"
 			item: {
 				count: 1
@@ -216,7 +188,7 @@
 			}
 		}
 		{
-			count: 4
+			count: 2
 			id: "71237CBD3B23A20D"
 			item: {
 				count: 1
@@ -246,7 +218,7 @@
 		{ id: "45ACDF57EAB1DAC3", item: { count: 1, id: "ae2:crafting_terminal" } }
 		{ id: "46F6413DE5ED7311", item: { count: 1, id: "ae2:terminal" } }
 		{
-			count: 4
+			count: 2
 			id: "4CCFA834B2432BDA"
 			item: {
 				count: 1
@@ -271,6 +243,17 @@
 			}
 		}
 		{ id: "4DC34B3C187828EF", item: { count: 1, id: "ae2:cell_workbench" } }
+		{ id: "2A300BE3744949FE", item: { count: 1, id: "ae2:damaged_budding_quartz" } }
+		{ id: "6C8C7383C9892264", item: { count: 1, id: "ae2:chipped_budding_quartz" } }
+		{ id: "6B498422FEF711E6", item: { count: 1, id: "ae2:flawed_budding_quartz" } }
+		{
+			count: 4
+			id: "1AD457B233AC5199"
+			item: {
+				count: 1
+				id: "ae2:quartz_block"
+			}
+		}
 	]
 	use_title: true
 }

@@ -110,9 +110,16 @@
 		}
 		{ id: "124DA2E7E2DEBDCF", item: { count: 1, id: "modern_industrialization:aluminum_tank" } }
 		{ id: "1F367BD0157D5CE2", item: { count: 1, id: "modern_industrialization:aluminum_barrel" } }
-		{ id: "44405F85C4512EB4", item: { count: 1, id: "modern_industrialization:aluminum_block" } }
 		{
-			count: 8
+			count: 2
+			id: "44405F85C4512EB4"
+			item: {
+				count: 1
+				id: "modern_industrialization:aluminum_block"
+			}
+		}
+		{
+			count: 16
 			id: "1D7A62B163BC24A3"
 			item: {
 				count: 1
@@ -128,7 +135,7 @@
 			}
 		}
 		{
-			count: 3
+			count: 9
 			id: "0D0BE716A1E70011"
 			item: {
 				count: 1
@@ -136,19 +143,11 @@
 			}
 		}
 		{
-			count: 8
+			count: 12
 			id: "770DB07B1452C5CD"
 			item: {
 				count: 1
 				id: "modern_industrialization:aluminum_plate"
-			}
-		}
-		{
-			count: 12
-			id: "7F28476058792D05"
-			item: {
-				count: 1
-				id: "modern_industrialization:aluminum_ingot"
 			}
 		}
 		{
@@ -160,15 +159,29 @@
 			}
 		}
 		{
-			count: 12
+			count: 8
 			id: "297F17C4FC77061C"
 			item: {
 				count: 1
 				id: "modern_industrialization:basic_machine_hull"
 			}
 		}
-		{ id: "4C3DD78FBF7FE5A2", item: { count: 1, id: "modern_industrialization:advanced_machine_hull" } }
-		{ id: "3322BA488A816FFC", item: { count: 1, id: "modern_industrialization:advanced_machine_casing" } }
+		{
+			count: 3
+			id: "4C3DD78FBF7FE5A2"
+			item: {
+				count: 1
+				id: "modern_industrialization:advanced_machine_hull"
+			}
+		}
+		{
+			count: 4
+			id: "3322BA488A816FFC"
+			item: {
+				count: 1
+				id: "modern_industrialization:advanced_machine_casing"
+			}
+		}
 		{
 			count: 12
 			id: "7A807479728DCD46"
@@ -197,7 +210,7 @@
 		{ id: "39F23FC73FFD933D", item: { count: 1, id: "modern_industrialization:advanced_item_input_hatch" } }
 		{ id: "1369D404B05EFF62", item: { count: 1, id: "modern_industrialization:advanced_fluid_input_hatch" } }
 		{
-			count: 4
+			count: 8
 			id: "630251F2973CBFAC"
 			item: {
 				count: 1
@@ -205,7 +218,7 @@
 			}
 		}
 		{
-			count: 3
+			count: 6
 			id: "44C21B9B76A7B014"
 			item: {
 				count: 1
@@ -240,7 +253,7 @@
 			}
 		}
 		{
-			count: 12
+			count: 16
 			id: "0B8A2A269A1797F7"
 			item: {
 				count: 1
@@ -248,7 +261,7 @@
 			}
 		}
 		{
-			count: 12
+			count: 16
 			id: "7C19688E67ABC533"
 			item: {
 				count: 1
@@ -256,7 +269,7 @@
 			}
 		}
 		{
-			count: 16
+			count: 32
 			id: "32F6C9F94B0D47EA"
 			item: {
 				count: 1
@@ -353,7 +366,7 @@
 			}
 		}
 		{
-			count: 16
+			count: 24
 			id: "76762E4151AABC97"
 			item: {
 				count: 1
@@ -361,7 +374,7 @@
 			}
 		}
 		{
-			count: 16
+			count: 24
 			id: "41F3B484E0A7B838"
 			item: {
 				count: 1
@@ -379,11 +392,11 @@
 		{ id: "06DE73EFCE310E6D", item: { count: 1, id: "extended_industrialization:tesla_coil" } }
 		{ id: "0F444FEDAA8EF96A", item: { count: 1, id: "extended_industrialization:tesla_receiver" } }
 		{
-			count: 32
+			count: 24
 			id: "004A45841B617C2B"
 			item: {
 				count: 1
-				id: "modern_industrialization:basic_upgrade"
+				id: "modern_industrialization:advanced_upgrade"
 			}
 		}
 		{ id: "208346488E14F355", item: { count: 1, id: "sophisticatedstorage:basic_to_netherite_tier_upgrade" } }
@@ -410,30 +423,6 @@
 			}
 		}
 		{
-			count: 32
-			id: "788366B728FBE9DC"
-			item: {
-				count: 1
-				id: "moderndynamics:mv_cable"
-			}
-		}
-		{
-			count: 32
-			id: "0580F29DD6F55751"
-			item: {
-				count: 1
-				id: "modern_industrialization:electrum_cable"
-			}
-		}
-		{
-			count: 48
-			id: "37CFE96E6E281328"
-			item: {
-				count: 1
-				id: "modern_industrialization:electrum_ingot"
-			}
-		}
-		{
 			count: 16
 			id: "78714CBB09A5940B"
 			item: {
@@ -442,7 +431,7 @@
 			}
 		}
 		{
-			count: 32
+			count: 64
 			id: "184D9249AFB8CAB9"
 			item: {
 				count: 1
@@ -523,23 +512,7 @@
 			}
 		}
 		{
-			count: 64
-			id: "02193DEDC0F83E23"
-			item: {
-				count: 1
-				id: "modern_industrialization:item_pipe"
-			}
-		}
-		{
-			count: 64
-			id: "1F4C9A3D810E6281"
-			item: {
-				count: 1
-				id: "modern_industrialization:fluid_pipe"
-			}
-		}
-		{
-			count: 2
+			count: 4
 			id: "1B871F6FB067DBB2"
 			item: {
 				count: 1
@@ -569,6 +542,54 @@
 			item: {
 				count: 1
 				id: "minecraft:ender_pearl"
+			}
+		}
+		{
+			count: 12
+			id: "41945BC4B21091AF"
+			item: {
+				count: 1
+				id: "modern_industrialization:electrum_block"
+			}
+		}
+		{
+			count: 16
+			id: "2A8464496D19EB1E"
+			item: {
+				count: 1
+				id: "modern_industrialization:stainless_steel_dust"
+			}
+		}
+		{
+			count: 48
+			id: "4F3BE99496FE5A24"
+			item: {
+				count: 1
+				id: "modern_industrialization:chromium_tiny_dust"
+			}
+		}
+		{
+			count: 48
+			id: "7035776213317DFC"
+			item: {
+				count: 1
+				id: "modern_industrialization:manganese_tiny_dust"
+			}
+		}
+		{
+			count: 64
+			id: "14BC4F166D9E189D"
+			item: {
+				count: 1
+				id: "modern_industrialization:salt_dust"
+			}
+		}
+		{
+			count: 8
+			id: "1FC87D2B029D927F"
+			item: {
+				count: 1
+				id: "modern_industrialization:frostproof_machine_casing"
 			}
 		}
 	]
