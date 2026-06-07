@@ -7,6 +7,72 @@
 		id: "kubejs:mki_probe_computer"
 	}
 	id: "5C132A91B86C59B5"
+	images: [
+		{
+			height: 1.0d
+			image: "modern_industrialization:block/advanced_machine_hull"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "modern_industrialization:block/turbo_machine_hull"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -7.5d
+		}
+		{
+			height: 1.0d
+			image: "modern_industrialization:block/highly_advanced_machine_hull"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -11.0d
+		}
+		{
+			height: 3.0d
+			image: "stellarview:textures/environment/planet/sol/mars.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 5.0d
+			y: -7.5d
+		}
+		{
+			height: 3.0d
+			image: "stellarview:textures/environment/moon.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			height: 3.0d
+			image: "stellarview:textures/environment/planet/sol/venus.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 5.0d
+			y: -11.0d
+		}
+		{
+			height: 20.0d
+			image: "stellarview:textures/environment/sun.png"
+			rotation: 0.0d
+			width: 20.0d
+			x: 1.0d
+			y: -19.5d
+		}
+		{
+			height: 4.0d
+			image: "stellarview:textures/environment/planet/sol/earth.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 1.0d
+			y: 0.5d
+		}
+	]
 	order_index: 4
 	quest_links: [ ]
 	quests: [
@@ -16,6 +82,28 @@
 				id: "modern_industrialization:space_probe_launcher"
 			}
 			id: "1F7CD79E5CB9821E"
+			rewards: [
+				{
+					count: 7
+					id: "78EC37D2A57DDF41"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "503EC2124395127A"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3CE720C84AA483EE"
+					table_id: 4745997815160102761L
+					type: "random"
+				}
+			]
 			size: 2.0d
 			tasks: [
 				{
@@ -66,6 +154,28 @@
 				"2601CBE978937794"
 			]
 			id: "53E67D11D3D273B1"
+			rewards: [
+				{
+					count: 7
+					id: "2330BAC557DC57A7"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "4319C3A6C38FF5B1"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1E829E4400087E74"
+					table_id: 4745997815160102761L
+					type: "random"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				id: "47B61D628F75A12F"
@@ -81,6 +191,28 @@
 				"141AE6600B0DA228"
 			]
 			id: "11825C288F04BC30"
+			rewards: [
+				{
+					count: 7
+					id: "1A193D3B5FEFCAEC"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "4DFD906B4777408A"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6AB3B258C74AE35F"
+					table_id: 4745997815160102761L
+					type: "random"
+				}
+			]
 			size: 2.0d
 			tasks: [{
 				id: "191BC872173E4914"
@@ -96,6 +228,28 @@
 				"505C6D834679BAFD"
 			]
 			id: "0B55848F472EC20D"
+			rewards: [
+				{
+					count: 7
+					id: "1C2E2B219DA43E64"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "60C925D6921C1569"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2C8B5D10A5FE6607"
+					table_id: 4745997815160102761L
+					type: "random"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				id: "2E9664261F86C127"
@@ -108,6 +262,28 @@
 		{
 			dependencies: ["1F7CD79E5CB9821E"]
 			id: "141AE6600B0DA228"
+			rewards: [
+				{
+					count: 7
+					id: "2CB279525754E385"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "486D638B38BAFE04"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "170A499A03EE1D78"
+					table_id: 4745997815160102761L
+					type: "random"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				id: "64613D6D9F937DA6"
@@ -120,6 +296,28 @@
 		{
 			dependencies: ["11825C288F04BC30"]
 			id: "1221CAF28FBAF917"
+			rewards: [
+				{
+					count: 7
+					id: "564D22577F02C9AC"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "232BED514EB88288"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "73027B671288A8F4"
+					table_id: 4745997815160102761L
+					type: "random"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				id: "652187EA2E47B93C"
@@ -135,6 +333,26 @@
 				"4249FD1A79996FBB"
 			]
 			id: "5CCAA55B945384C9"
+			rewards: [
+				{
+					id: "73E6795045E118AA"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "0A3440127A0348E7"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "48F8D62E64C5E564"
+					table_id: 5923260596511522936L
+					type: "random"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				id: "7742A19B14715990"
@@ -142,7 +360,7 @@
 				type: "item"
 			}]
 			x: 2.75d
-			y: -10.25d
+			y: -10.0d
 		}
 		{
 			dependencies: [
@@ -150,6 +368,28 @@
 				"1221CAF28FBAF917"
 			]
 			id: "41C6121EB29BDCD0"
+			rewards: [
+				{
+					count: 7
+					id: "46AC3E544719E57E"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "462F4ABF3530B3D4"
+					type: "xp"
+					xp: 75
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4F8AF8D8E3A3BE87"
+					table_id: 4745997815160102761L
+					type: "random"
+				}
+			]
 			size: 2.0d
 			tasks: [{
 				id: "4C02393B97234F64"
@@ -162,6 +402,26 @@
 		{
 			dependencies: ["41C6121EB29BDCD0"]
 			id: "3DE02D1C71CBD94F"
+			rewards: [
+				{
+					id: "359FC61058B408A7"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "388E24F40C728D90"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "50673C4B2A23271E"
+					table_id: 5923260596511522936L
+					type: "random"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				id: "6BB163C0941FD409"
@@ -169,7 +429,7 @@
 				type: "item"
 			}]
 			x: -0.75d
-			y: -10.25d
+			y: -10.0d
 		}
 		{
 			dependencies: ["53E67D11D3D273B1"]
@@ -181,23 +441,85 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -3.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["5C676AF9206DA51C"]
 			id: "3C57C65402826CF2"
+			rewards: [
+				{
+					count: 7
+					id: "20F604C6D83552A6"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "58AB776BB9749292"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "631B84AD21E99B84"
+					table_id: 4745997815160102761L
+					type: "random"
+				}
+				{
+					id: "081A58AFAFCB192E"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "2DB95FB3AC78A825"
+					type: "xp"
+					xp: 75
+				}
+				{
+					exclude_from_claim_all: true
+					id: "21D9BDDFCA6BBD20"
+					table_id: 5923260596511522936L
+					type: "random"
+				}
+			]
 			shape: "rsquare"
 			tasks: [{
 				id: "60DB2BB09CF91F3A"
 				item: { count: 1, id: "modern_industrialization:helium_3_bucket" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: -3.0d
+			x: 4.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["6E9A3C5B39C9628F"]
 			id: "21670AF21E774955"
+			rewards: [
+				{
+					id: "6A018227C6B967CF"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "70FA70EE5F4E397D"
+					type: "xp"
+					xp: 75
+				}
+				{
+					exclude_from_claim_all: true
+					id: "45DC54E3B0F14095"
+					table_id: 5762803210059023537L
+					type: "random"
+				}
+			]
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
@@ -214,6 +536,27 @@
 				"3DE02D1C71CBD94F"
 			]
 			id: "6E9A3C5B39C9628F"
+			rewards: [
+				{
+					id: "79A39CD3DA4C84C3"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "0E48C527E0D8F9C0"
+					type: "xp"
+					xp: 75
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2FFA81C50E8F5563"
+					table_id: 5762803210059023537L
+					type: "random"
+				}
+			]
 			size: 2.0d
 			tasks: [{
 				id: "5DE3AFB4D818141C"

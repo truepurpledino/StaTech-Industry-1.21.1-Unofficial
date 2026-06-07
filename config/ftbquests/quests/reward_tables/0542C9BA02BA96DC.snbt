@@ -430,4 +430,5 @@
 			}
 		}
 	]
+	use_title: true
 }

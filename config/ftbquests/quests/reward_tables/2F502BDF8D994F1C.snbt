@@ -971,4 +971,5 @@
 			}
 		}
 	]
+	use_title: true
 }

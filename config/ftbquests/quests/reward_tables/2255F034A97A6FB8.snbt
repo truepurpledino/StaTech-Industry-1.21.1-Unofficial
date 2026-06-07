@@ -343,4 +343,5 @@
 			}
 		}
 	]
+	use_title: true
 }

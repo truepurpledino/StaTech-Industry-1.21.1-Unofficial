@@ -2575,6 +2575,7 @@
 					type: "random"
 				}
 			]
+			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
 				id: "0F959C7FEC5CD648"
@@ -2609,6 +2610,7 @@
 					type: "random"
 				}
 			]
+			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
 				id: "7DB7E428ED3B5E1A"
@@ -3244,6 +3246,7 @@
 					type: "random"
 				}
 			]
+			shape: "rsquare"
 			tasks: [{
 				id: "44C1C92F89A331D9"
 				item: { count: 1, id: "extended_industrialization:large_configurable_chest" }
@@ -3623,6 +3626,7 @@
 		{
 			dependencies: ["2121C4F2CF127435"]
 			id: "32649B0ABE0E98D5"
+			shape: "rsquare"
 			tasks: [{
 				id: "59C06644B275AFF8"
 				item: { count: 1, id: "pipe_connector:pipe_connector" }
@@ -3630,6 +3634,18 @@
 			}]
 			x: 35.5d
 			y: -4.5d
+		}
+		{
+			dependencies: ["0C677AFD6CBEE0BC"]
+			id: "002E71F111942044"
+			shape: "rsquare"
+			tasks: [{
+				id: "48A9248295642E75"
+				item: { count: 1, id: "functionalstorage:storage_controller" }
+				type: "item"
+			}]
+			x: 32.0d
+			y: -11.5d
 		}
 	]
 }
