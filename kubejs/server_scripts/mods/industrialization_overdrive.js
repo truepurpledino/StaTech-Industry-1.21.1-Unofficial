@@ -11,7 +11,8 @@ ServerEvents.recipes(event => {
     const IO_DELETED_ITEMS = [
         io('machines/multi_processing_array/assembler'),
         io('shaped/craft/terminal'),
-        io('shaped/craft/terminal/assembler')
+        io('shaped/craft/terminal/assembler'),
+        io('assembler/vajra/')
     ];
     IO_DELETED_ITEMS.forEach(id => event.remove( {id: id} ));
     
@@ -66,4 +67,22 @@ ServerEvents.recipes(event => {
         C: mi('analog_circuit')
     })
     .id(st('terminal'));
+
+    // -- VAJRA -- //
+    event.shaped(io('vajra'), [
+        'DRC',
+        'OSO',
+        'UPU'
+    ],
+    {
+        D: ei('electric_mining_drill'),
+        C: ei('electric_chainsaw'),
+        R: ei('netherite_rotary_blade'),
+        O: mi('cooling_cell'),
+        S: mi('superconductor_coil'),
+        P: mi('processing_unit'),
+        U: mi('highly_advanced_upgrade')
+    })
+    .id(st('vajra'));
+
 });
