@@ -429,5 +429,14 @@
 				id: "modern_industrialization:steel_item_input_hatch"
 			}
 		}
+		{
+			count: 8
+			id: "3CF52CB5FECAA646"
+			item: {
+				count: 1
+				id: "kubejs:borosilicate_glass"
+			}
+		}
 	]
+	use_title: true
 }

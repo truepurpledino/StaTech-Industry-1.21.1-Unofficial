@@ -116,12 +116,12 @@ ServerEvents.recipes(event => {
     let legendary = kj('coin_legendary');
     let mythic = kj('coin_mythic');
 
-    event.shapeless(rare, [ '9x ' + common ]).id(st('coin_rare_upgrade'));
-    event.shapeless(legendary, [ '9x ' + rare ]).id(st('coin_legendary_upgrade'));
-    event.shapeless(mythic, [ '9x ' + legendary ]).id(st('coin_mythic_upgrade'));
-    event.shapeless('9x ' + legendary, [ mythic ]).id(st('coin_legendary_downgrade'));
-    event.shapeless('9x ' + rare, [ legendary ]).id(st('coin_rare_downgrade'));
-    event.shapeless('9x ' + common, [ rare ]).id(st('coin_common_downgrade'));
+    event.shapeless(rare, [ '6x ' + common ]).id(st('coin_rare_upgrade'));
+    event.shapeless(legendary, [ '7x ' + rare ]).id(st('coin_legendary_upgrade'));
+    event.shapeless(mythic, [ '8x ' + legendary ]).id(st('coin_mythic_upgrade'));
+    event.shapeless('8x ' + legendary, [ mythic ]).id(st('coin_legendary_downgrade'));
+    event.shapeless('7x ' + rare, [ legendary ]).id(st('coin_rare_downgrade'));
+    event.shapeless('6x ' + common, [ rare ]).id(st('coin_common_downgrade'));
 
     // -------------- //
     //    COMMON      //
@@ -129,9 +129,9 @@ ServerEvents.recipes(event => {
 
     // -- IRON ORE -- //
     event.shaped('8x ' + mc('iron_ore'), [
-        'C C',
+        'CCC',
         '   ',
-        'C C'
+        'CCC'
     ],
     {
         C: common
@@ -140,8 +140,8 @@ ServerEvents.recipes(event => {
     // -- TIN ORE -- //
     event.shaped('8x ' + mi('tin_ore'), [
         'C C',
-        ' C ',
-        ' C '
+        'C C',
+        'C C'
     ],
     {
         C: common
@@ -198,7 +198,7 @@ ServerEvents.recipes(event => {
         C: common
     }).id(st('citrine_shard_from_common'));
 
-    event.shaped('16x ' + mc('coal_ore'), [
+    event.shaped('12x ' + mc('coal_ore'), [
         'C C',
         ' C ',
         'C C'
@@ -207,7 +207,7 @@ ServerEvents.recipes(event => {
         C: common
     }).id(st('coal_ore_from_common'));
 
-    event.shaped('32x ' + mc('copper_ore'), [
+    event.shaped('12x ' + mc('copper_ore'), [
         'CCC',
         'C  ',
         'CCC'
@@ -249,9 +249,9 @@ ServerEvents.recipes(event => {
 
     // -- ANTIMONY ORE -- //
     event.shaped('8x ' + mi('antimony_ore'), [
-        'C C',
         '   ',
-        'C C'
+        'CCC',
+        '   '
     ],
     {
         C: rare
@@ -259,6 +259,7 @@ ServerEvents.recipes(event => {
 
     // -- DIAMOND ORE -- //
     event.shaped('8x ' + mc('diamond_ore'), [
+        'C',
         'C',
         'C'
     ],
@@ -269,7 +270,7 @@ ServerEvents.recipes(event => {
     // -- REDSTONE ORE -- //
     event.shaped('8x ' + mc('redstone_ore'), [
         'C C',
-        ' C ',
+        '   ',
         'C C'
     ],
     {
@@ -297,7 +298,8 @@ ServerEvents.recipes(event => {
     // -- BAUXITE ORE -- //
     event.shaped('8x ' + mi('bauxite_ore'), [
         ' C ',
-        'CCC'
+        'CCC',
+        ' C '
     ],
     {
         C: rare
@@ -359,7 +361,7 @@ ServerEvents.recipes(event => {
     // -- OSTRUM ORE -- //
     event.shaped('8x ' + mi('ostrum_ore'), [
         'CCC',
-        'C C',
+        'CCC',
         'CCC'
     ],
     {

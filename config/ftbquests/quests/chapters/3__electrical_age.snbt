@@ -13,6 +13,11 @@
 		{
 			dependencies: ["31B8B541EED9ADD1"]
 			id: "2969BA6B88D1EC15"
+			rewards: [{
+				id: "04DBA2B0768F9643"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "hexagon"
 			size: 3.0d
 			tasks: [{
@@ -1057,12 +1062,11 @@
 				{
 					id: "26370BD4D92D0647"
 					type: "xp_levels"
-					xp_levels: 30
+					xp_levels: 15
 				}
 				{
-					exclude_from_claim_all: true
 					id: "51B8505F200AE177"
-					table_id: 5706018968149530875L
+					table_id: 379087119399425756L
 					type: "random"
 				}
 			]
@@ -1470,6 +1474,28 @@
 		{
 			dependencies: ["2969BA6B88D1EC15"]
 			id: "5B6A20BD4C70BA52"
+			rewards: [
+				{
+					count: 3
+					id: "1199B5990CAC123F"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "217323EAE973820F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3B3DEC8FDCCE280C"
+					table_id: 8811145634920634486L
+					type: "random"
+				}
+			]
 			size: 2.0d
 			tasks: [{
 				id: "30B3254990C33FEA"
@@ -1627,6 +1653,7 @@
 					type: "random"
 				}
 			]
+			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
 				id: "19C84BAA4AFB3DCF"
@@ -2446,6 +2473,7 @@
 				id: "ae2:flawless_budding_quartz"
 			}
 			id: "044A305FFDCE9E6C"
+			min_width: 300
 			rewards: [
 				{
 					id: "31A873B82E0DD236"
@@ -2628,6 +2656,7 @@
 					type: "random"
 				}
 			]
+			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
 				id: "710D87B5C6FB67F2"
@@ -3140,6 +3169,28 @@
 		{
 			dependencies: ["4915E23CC60FBD06"]
 			id: "144FC8E2FEFC7FE9"
+			rewards: [
+				{
+					count: 3
+					id: "32254E24C9E436F0"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "0192BF431311DAE8"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "136B62AA28A8412D"
+					table_id: 8811145634920634486L
+					type: "random"
+				}
+			]
 			shape: "rsquare"
 			tasks: [{
 				id: "577C4074910F779E"
@@ -3188,11 +3239,11 @@
 			id: "7D44CBA637915377"
 			rewards: [
 				{
-					count: 2
+					count: 5
 					id: "4A33774C5D84474F"
 					item: {
 						count: 1
-						id: "kubejs:coin_common"
+						id: "kubejs:coin_rare"
 					}
 					type: "item"
 				}

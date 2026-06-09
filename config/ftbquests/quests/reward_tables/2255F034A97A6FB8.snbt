@@ -12,7 +12,7 @@
 			}
 		}
 		{
-			count: 32
+			count: 16
 			id: "18103E16B13765A0"
 			item: {
 				count: 1
@@ -44,7 +44,7 @@
 			}
 		}
 		{
-			count: 32
+			count: 16
 			id: "011ED01B12B50040"
 			item: {
 				count: 1
@@ -343,4 +343,5 @@
 			}
 		}
 	]
+	use_title: true
 }

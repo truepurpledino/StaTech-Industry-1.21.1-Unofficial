@@ -605,9 +605,9 @@
 				}
 				{
 					exclude_from_claim_all: true
-					id: "4AFD40E5C5184165"
+					id: "7B081B29F835130F"
 					table_id: 2474147679282294712L
-					type: "loot"
+					type: "random"
 				}
 			]
 			shape: "rsquare"
@@ -655,6 +655,27 @@
 		{
 			dependencies: ["339F676C828C790D"]
 			id: "35CA2712BC60C09E"
+			rewards: [
+				{
+					id: "503CB894844CBA24"
+					item: {
+						count: 1
+						id: "kubejs:coin_common"
+					}
+					type: "item"
+				}
+				{
+					id: "63F41E722454229B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0230A5C7E559DB9C"
+					table_id: 2474147679282294712L
+					type: "random"
+				}
+			]
 			size: 2.0d
 			tasks: [
 				{

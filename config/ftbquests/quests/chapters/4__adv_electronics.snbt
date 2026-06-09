@@ -53,8 +53,8 @@
 				item: { count: 1, id: "modern_industrialization:mv_steam_turbine" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 3.0d
+			x: -2.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["74A64C3ED35AE436"]
@@ -125,7 +125,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["43E313436CB37519"]
+			dependencies: ["54AA08D0869CB19B"]
 			id: "41B740CCB28C6E5A"
 			rewards: [{
 				id: "6918E197A4E46C3D"
@@ -137,8 +137,8 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:mv_wire)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: 3.0d
+			x: -1.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["41B740CCB28C6E5A"]
@@ -154,8 +154,8 @@
 				item: { count: 1, id: "moderndynamics:mv_cable" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: 3.0d
+			x: -1.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["54AA08D0869CB19B"]
@@ -188,8 +188,8 @@
 				item: { count: 1, id: "modern_industrialization:mv_lv_transformer" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: 1.0d
+			x: 1.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["54AA08D0869CB19B"]
@@ -222,7 +222,7 @@
 				item: { count: 1, id: "modern_industrialization:mv_storage_unit" }
 				type: "item"
 			}]
-			x: -2.5d
+			x: -3.5d
 			y: 0.0d
 		}
 		{
@@ -257,7 +257,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: -1.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["54AA08D0869CB19B"]
@@ -417,6 +417,9 @@
 		}
 		{
 			dependencies: ["3EBBB99A3FC5C7F3"]
+			icon: {
+				id: "modern_industrialization:sulfuric_light_fuel_bucket"
+			}
 			id: "66BB1DFC2C25A782"
 			rewards: [{
 				id: "7E7BD28F65CAA28E"
@@ -428,17 +431,24 @@
 				{
 					id: "45036593059EF756"
 					item: { count: 1, id: "modern_industrialization:sulfuric_light_fuel_bucket" }
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "4B898D1B3CA8CD39"
 					item: { count: 1, id: "modern_industrialization:sulfuric_heavy_fuel_bucket" }
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "2F82649EFC89612C"
 					item: { count: 1, id: "modern_industrialization:sulfuric_naphtha_bucket" }
+					optional_task: true
 					type: "item"
+				}
+				{
+					id: "79068885B1A9FBFC"
+					type: "checkmark"
 				}
 			]
 			x: 0.0d
@@ -446,6 +456,9 @@
 		}
 		{
 			dependencies: ["66BB1DFC2C25A782"]
+			icon: {
+				id: "modern_industrialization:light_fuel_bucket"
+			}
 			id: "5556B0DC1C5779DD"
 			rewards: [
 				{
@@ -474,17 +487,24 @@
 				{
 					id: "1B73D425BA1C52C6"
 					item: { count: 1, id: "modern_industrialization:light_fuel_bucket" }
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "2EC078B1847D996F"
 					item: { count: 1, id: "modern_industrialization:heavy_fuel_bucket" }
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "42DF011A9739D037"
 					item: { count: 1, id: "modern_industrialization:naphtha_bucket" }
+					optional_task: true
 					type: "item"
+				}
+				{
+					id: "2FD8CC6D12B11BE7"
+					type: "checkmark"
 				}
 			]
 			x: 0.0d
@@ -526,6 +546,9 @@
 		}
 		{
 			dependencies: ["5556B0DC1C5779DD"]
+			icon: {
+				id: "modern_industrialization:steam_cracked_light_fuel_bucket"
+			}
 			id: "2CEA505B54E47E93"
 			rewards: [{
 				id: "1FEB91A3FB3DCCE9"
@@ -537,17 +560,24 @@
 				{
 					id: "63FBF484EBDADCA0"
 					item: { count: 1, id: "modern_industrialization:steam_cracked_light_fuel_bucket" }
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "2E5811BD5A0B0118"
 					item: { count: 1, id: "modern_industrialization:steam_cracked_heavy_fuel_bucket" }
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "65D318B8CEA93797"
 					item: { count: 1, id: "modern_industrialization:steam_cracked_naphtha_bucket" }
+					optional_task: true
 					type: "item"
+				}
+				{
+					id: "034E0FF0E42418C7"
+					type: "checkmark"
 				}
 			]
 			x: 0.0d
@@ -567,6 +597,9 @@
 		}
 		{
 			dependencies: ["634B6B18A151E456"]
+			icon: {
+				id: "modern_industrialization:ethylene_bucket"
+			}
 			id: "16D396BA471F042E"
 			rewards: [{
 				id: "064C75BB87C8B5DC"
@@ -574,16 +607,26 @@
 				xp: 10
 			}]
 			size: 2.0d
-			tasks: [{
-				id: "759A73E28830F550"
-				item: { count: 1, id: "modern_industrialization:ethylene_bucket" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "759A73E28830F550"
+					item: { count: 1, id: "modern_industrialization:ethylene_bucket" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "79DC6555EA3D076E"
+					type: "checkmark"
+				}
+			]
 			x: -3.5d
 			y: -14.5d
 		}
 		{
 			dependencies: ["16D396BA471F042E"]
+			icon: {
+				id: "modern_industrialization:ethanol_bucket"
+			}
 			id: "6C9FCFD38214C922"
 			rewards: [{
 				id: "27A1271D95AF4A83"
@@ -591,16 +634,26 @@
 				xp: 10
 			}]
 			size: 2.0d
-			tasks: [{
-				id: "2EFEDE911010A4B6"
-				item: { count: 1, id: "modern_industrialization:ethanol_bucket" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2EFEDE911010A4B6"
+					item: { count: 1, id: "modern_industrialization:ethanol_bucket" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "262707154E3ADDE4"
+					type: "checkmark"
+				}
+			]
 			x: -6.0d
 			y: -14.5d
 		}
 		{
 			dependencies: ["6C9FCFD38214C922"]
+			icon: {
+				id: "modern_industrialization:raw_biodiesel_bucket"
+			}
 			id: "07F7A80F124FA40E"
 			rewards: [{
 				id: "6E149015E21A0FC3"
@@ -608,16 +661,26 @@
 				xp: 10
 			}]
 			size: 2.0d
-			tasks: [{
-				id: "10B49932A64815FF"
-				item: { count: 1, id: "modern_industrialization:raw_biodiesel_bucket" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "10B49932A64815FF"
+					item: { count: 1, id: "modern_industrialization:raw_biodiesel_bucket" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5F7B9D69BCBD0FD2"
+					type: "checkmark"
+				}
+			]
 			x: -8.5d
 			y: -14.5d
 		}
 		{
 			dependencies: ["07F7A80F124FA40E"]
+			icon: {
+				id: "modern_industrialization:biodiesel_bucket"
+			}
 			id: "48BF632D5B8F57B8"
 			rewards: [{
 				id: "0C0D6D6C40C24C8B"
@@ -625,11 +688,18 @@
 				xp: 10
 			}]
 			size: 2.0d
-			tasks: [{
-				id: "59BAB57A0B9480AA"
-				item: { count: 1, id: "modern_industrialization:biodiesel_bucket" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "59BAB57A0B9480AA"
+					item: { count: 1, id: "modern_industrialization:biodiesel_bucket" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "13C3A637F1A2E317"
+					type: "checkmark"
+				}
+			]
 			x: -11.0d
 			y: -14.5d
 		}
@@ -678,6 +748,9 @@
 				"6C9FCFD38214C922"
 				"51FFD75BE129D918"
 			]
+			icon: {
+				id: "modern_industrialization:diethyl_ether_bucket"
+			}
 			id: "6B8AAE4292380FCC"
 			rewards: [{
 				id: "1EA6E5AFA53986BD"
@@ -685,16 +758,26 @@
 				xp: 10
 			}]
 			size: 2.0d
-			tasks: [{
-				id: "4AC9B2CAF73C7F9E"
-				item: { count: 1, id: "modern_industrialization:diethyl_ether_bucket" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4AC9B2CAF73C7F9E"
+					item: { count: 1, id: "modern_industrialization:diethyl_ether_bucket" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5E3C356D3E5653AB"
+					type: "checkmark"
+				}
+			]
 			x: -8.5d
 			y: -17.0d
 		}
 		{
 			dependencies: ["29471A87F97288E8"]
+			icon: {
+				id: "modern_industrialization:acrylic_acid_bucket"
+			}
 			id: "51FFD75BE129D918"
 			rewards: [{
 				id: "3D9B069D2786A2C9"
@@ -702,16 +785,26 @@
 				xp: 10
 			}]
 			size: 2.0d
-			tasks: [{
-				id: "33ADC4974EDFCE23"
-				item: { count: 1, id: "modern_industrialization:acrylic_acid_bucket" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "33ADC4974EDFCE23"
+					item: { count: 1, id: "modern_industrialization:acrylic_acid_bucket" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4D8E483962D90769"
+					type: "checkmark"
+				}
+			]
 			x: -6.0d
 			y: -17.0d
 		}
 		{
 			dependencies: ["634B6B18A151E456"]
+			icon: {
+				id: "modern_industrialization:propene_bucket"
+			}
 			id: "29471A87F97288E8"
 			rewards: [{
 				id: "244DDA402CD4A5BD"
@@ -719,16 +812,26 @@
 				xp: 10
 			}]
 			size: 2.0d
-			tasks: [{
-				id: "7FC8DFB99CC4147C"
-				item: { count: 1, id: "modern_industrialization:propene_bucket" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7FC8DFB99CC4147C"
+					item: { count: 1, id: "modern_industrialization:propene_bucket" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5CE8A87C0A2FFB02"
+					type: "checkmark"
+				}
+			]
 			x: -3.5d
 			y: -17.0d
 		}
 		{
 			dependencies: ["634B6B18A151E456"]
+			icon: {
+				id: "modern_industrialization:toluene_bucket"
+			}
 			id: "7D44039609D08FC4"
 			rewards: [{
 				id: "61A9FCB6493D9931"
@@ -736,11 +839,18 @@
 				xp: 10
 			}]
 			size: 2.0d
-			tasks: [{
-				id: "58640E5317675EAE"
-				item: { count: 1, id: "modern_industrialization:toluene_bucket" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "58640E5317675EAE"
+					item: { count: 1, id: "modern_industrialization:toluene_bucket" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3C84BEA2BBA32341"
+					type: "checkmark"
+				}
+			]
 			x: -6.0d
 			y: -19.5d
 		}
@@ -780,6 +890,9 @@
 		}
 		{
 			dependencies: ["634B6B18A151E456"]
+			icon: {
+				id: "modern_industrialization:benzene_bucket"
+			}
 			id: "0B23A4FD2BACDD1B"
 			rewards: [{
 				id: "0F24A0D1234645A7"
@@ -787,16 +900,26 @@
 				xp: 10
 			}]
 			size: 2.0d
-			tasks: [{
-				id: "3DFCDD99BD45CFE8"
-				item: { count: 1, id: "modern_industrialization:benzene_bucket" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3DFCDD99BD45CFE8"
+					item: { count: 1, id: "modern_industrialization:benzene_bucket" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "020EEBE3F0987916"
+					type: "checkmark"
+				}
+			]
 			x: -3.5d
 			y: -19.5d
 		}
 		{
 			dependencies: ["0B23A4FD2BACDD1B"]
+			icon: {
+				id: "modern_industrialization:caprolactam_bucket"
+			}
 			id: "64DFA6F08BE456FD"
 			rewards: [{
 				id: "6EC30DEBBCFDC1A2"
@@ -805,11 +928,18 @@
 			}]
 			shape: "rsquare"
 			size: 2.0d
-			tasks: [{
-				id: "33EA2EBEE7440B0D"
-				item: { count: 1, id: "modern_industrialization:caprolactam_bucket" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "33EA2EBEE7440B0D"
+					item: { count: 1, id: "modern_industrialization:caprolactam_bucket" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4ABCBDCED8A46C67"
+					type: "checkmark"
+				}
+			]
 			x: -3.5d
 			y: -22.0d
 		}
@@ -850,6 +980,9 @@
 		}
 		{
 			dependencies: ["634B6B18A151E456"]
+			icon: {
+				id: "modern_industrialization:acetylene_bucket"
+			}
 			id: "0E6CEE7FB03E1DB3"
 			rewards: [{
 				id: "5DA1530A1DF6DB37"
@@ -857,16 +990,26 @@
 				xp: 10
 			}]
 			size: 2.0d
-			tasks: [{
-				id: "7EF145CAC10F9031"
-				item: { count: 1, id: "modern_industrialization:acetylene_bucket" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7EF145CAC10F9031"
+					item: { count: 1, id: "modern_industrialization:acetylene_bucket" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5DA1B16F52AD19EA"
+					type: "checkmark"
+				}
+			]
 			x: -1.0d
 			y: -19.5d
 		}
 		{
 			dependencies: ["0E6CEE7FB03E1DB3"]
+			icon: {
+				id: "modern_industrialization:vinyl_chloride_bucket"
+			}
 			id: "11361E8B39F8F03C"
 			rewards: [{
 				id: "5E11B69A09ACE1BD"
@@ -874,11 +1017,18 @@
 				xp: 10
 			}]
 			size: 2.0d
-			tasks: [{
-				id: "0A4EC06B717A4F81"
-				item: { count: 1, id: "modern_industrialization:vinyl_chloride_bucket" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0A4EC06B717A4F81"
+					item: { count: 1, id: "modern_industrialization:vinyl_chloride_bucket" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "74B9866A6DC2D2D6"
+					type: "checkmark"
+				}
+			]
 			x: -1.0d
 			y: -22.0d
 		}
@@ -918,6 +1068,9 @@
 		}
 		{
 			dependencies: ["634B6B18A151E456"]
+			icon: {
+				id: "modern_industrialization:methane_bucket"
+			}
 			id: "2E9C8142FD73B1E9"
 			rewards: [{
 				id: "004396E1B02D67D5"
@@ -925,16 +1078,26 @@
 				xp: 10
 			}]
 			size: 2.0d
-			tasks: [{
-				id: "0249AE0A5B3A6A36"
-				item: { count: 1, id: "modern_industrialization:methane_bucket" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0249AE0A5B3A6A36"
+					item: { count: 1, id: "modern_industrialization:methane_bucket" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4A70AD2983012123"
+					type: "checkmark"
+				}
+			]
 			x: 1.5d
 			y: -19.5d
 		}
 		{
 			dependencies: ["634B6B18A151E456"]
+			icon: {
+				id: "modern_industrialization:ethylbenzene_bucket"
+			}
 			id: "1322F0FA409A6195"
 			rewards: [{
 				id: "33EE197F6EC8610C"
@@ -942,16 +1105,26 @@
 				xp: 10
 			}]
 			size: 2.0d
-			tasks: [{
-				id: "18C26EECEC8083E1"
-				item: { count: 1, id: "modern_industrialization:ethylbenzene_bucket" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "18C26EECEC8083E1"
+					item: { count: 1, id: "modern_industrialization:ethylbenzene_bucket" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4C9658A211889ABA"
+					type: "checkmark"
+				}
+			]
 			x: 4.0d
 			y: -19.5d
 		}
 		{
 			dependencies: ["1322F0FA409A6195"]
+			icon: {
+				id: "modern_industrialization:styrene_bucket"
+			}
 			id: "19C31620727D5A20"
 			rewards: [{
 				id: "79AB49CDDE580F6A"
@@ -959,16 +1132,26 @@
 				xp: 10
 			}]
 			size: 2.0d
-			tasks: [{
-				id: "530995764CEE29AC"
-				item: { count: 1, id: "modern_industrialization:styrene_bucket" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "530995764CEE29AC"
+					item: { count: 1, id: "modern_industrialization:styrene_bucket" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "24EC67ACAE9F584E"
+					type: "checkmark"
+				}
+			]
 			x: 4.0d
 			y: -22.0d
 		}
 		{
 			dependencies: ["634B6B18A151E456"]
+			icon: {
+				id: "modern_industrialization:butadiene_bucket"
+			}
 			id: "6F83294615F68716"
 			rewards: [{
 				id: "1EC390103E18EA3B"
@@ -976,11 +1159,18 @@
 				xp: 10
 			}]
 			size: 2.0d
-			tasks: [{
-				id: "5CF3C2C6892B6D09"
-				item: { count: 1, id: "modern_industrialization:butadiene_bucket" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5CF3C2C6892B6D09"
+					item: { count: 1, id: "modern_industrialization:butadiene_bucket" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6AF2FE606B2B38DF"
+					type: "checkmark"
+				}
+			]
 			x: 6.5d
 			y: -19.5d
 		}
@@ -989,6 +1179,9 @@
 				"6F83294615F68716"
 				"19C31620727D5A20"
 			]
+			icon: {
+				id: "modern_industrialization:styrene_butadiene_bucket"
+			}
 			id: "39ED7019F3ACB226"
 			rewards: [{
 				id: "3676CBD036E0F6B1"
@@ -996,11 +1189,18 @@
 				xp: 10
 			}]
 			size: 2.0d
-			tasks: [{
-				id: "2791786ED711F469"
-				item: { count: 1, id: "modern_industrialization:styrene_butadiene_bucket" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2791786ED711F469"
+					item: { count: 1, id: "modern_industrialization:styrene_butadiene_bucket" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7854C520A1CD2140"
+					type: "checkmark"
+				}
+			]
 			x: 6.5d
 			y: -22.0d
 		}
@@ -2330,7 +2530,10 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["74BDD184DC723F51"]
+			dependencies: [
+				"74BDD184DC723F51"
+				"6674415101329CDE"
+			]
 			id: "505C6D834679BAFD"
 			rewards: [
 				{
@@ -2443,10 +2646,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: [
-				"505C6D834679BAFD"
-				"7384A097DB48DCA2"
-			]
+			dependencies: ["7384A097DB48DCA2"]
 			id: "6674415101329CDE"
 			rewards: [
 				{
@@ -2492,14 +2692,13 @@
 					type: "item"
 				}
 				{
-					id: "21D63C6211BDD984"
-					type: "xp"
-					xp: 50
+					id: "1ABC0C2004CA27F2"
+					type: "xp_levels"
+					xp_levels: 15
 				}
 				{
-					exclude_from_claim_all: true
 					id: "4CD3E684F8DCDA54"
-					table_id: 4745997815160102761L
+					table_id: 5923260596511522936L
 					type: "random"
 				}
 			]
@@ -2783,8 +2982,8 @@
 					type: "item"
 				}
 			]
-			x: -2.0d
-			y: 2.0d
+			x: -2.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["537B78BA50218123"]
@@ -3059,7 +3258,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 3.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["2763B0A63FC17046"]
@@ -3093,7 +3292,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 4.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["74A64C3ED35AE436"]
@@ -3205,8 +3404,8 @@
 				item: { count: 1, id: "extended_industrialization:universal_transformer" }
 				type: "item"
 			}]
-			x: -3.5d
-			y: 1.0d
+			x: 1.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["0EE203EEEA355636"]
@@ -3365,6 +3564,7 @@
 				{
 					id: "2F1E80919BFF6CD5"
 					item: { count: 1, id: "modern_industrialization:bronze_drill" }
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -3834,7 +4034,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 4.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["2A5B2CD92B0C2B12"]
