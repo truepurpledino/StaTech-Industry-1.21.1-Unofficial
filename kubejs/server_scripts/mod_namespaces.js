@@ -53,3 +53,4 @@ let lu = (id) => `luminax:${id}`;
 let ip = (id) => `industrially_plated:${id}`;
 let id = (id) => `iden_decor:${id}`;
 let sl = (id) => `simplylight:${id}`;
+let pc = (id) => `pipe_connector:${id}`;
