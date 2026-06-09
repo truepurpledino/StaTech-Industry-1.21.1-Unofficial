@@ -1279,6 +1279,28 @@
 		{
 			dependencies: ["0E0395254471CED0"]
 			id: "18CE795EB630611E"
+			rewards: [
+				{
+					count: 3
+					id: "410B67F63A42D41B"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "761D3206DC72C97A"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					exclude_from_claim_all: true
+					id: "030A3EB6E3D6DEA6"
+					table_id: 6543095682646008871L
+					type: "random"
+				}
+			]
 			shape: "gear"
 			size: 3.0d
 			tasks: [{
@@ -2693,6 +2715,11 @@
 		{
 			dependencies: ["4DEB3A5701AD3744"]
 			id: "51490042671E700C"
+			rewards: [{
+				id: "2F5C8A6A7C35734E"
+				type: "xp"
+				xp: 10
+			}]
 			size: 3.0d
 			tasks: [{
 				id: "77E371E6082D6320"
@@ -2896,6 +2923,38 @@
 			}]
 			x: 4.0d
 			y: -1.0d
+		}
+		{
+			dependencies: ["4249FD1A79996FBB"]
+			id: "6A724374C3FADC93"
+			rewards: [
+				{
+					id: "53146275029B9410"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "6B69AEDDBABCDFC0"
+					type: "xp"
+					xp: 75
+				}
+				{
+					exclude_from_claim_all: true
+					id: "443609301F25A285"
+					table_id: 5762803210059023537L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "01496C563F283A02"
+				item: { count: 1, id: "modern_industrialization:mixed_ingot_iridium" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 0.5d
 		}
 	]
 }

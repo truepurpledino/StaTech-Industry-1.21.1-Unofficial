@@ -592,6 +592,14 @@
 				id: "modern_industrialization:frostproof_machine_casing"
 			}
 		}
+		{
+			count: 12
+			id: "1E78381A82C03ABF"
+			item: {
+				count: 1
+				id: "kubejs:borosilicate_glass"
+			}
+		}
 	]
 	use_title: true
 }

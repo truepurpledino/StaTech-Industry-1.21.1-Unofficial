@@ -53,8 +53,8 @@
 				item: { count: 1, id: "modern_industrialization:mv_steam_turbine" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 3.0d
+			x: -2.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["74A64C3ED35AE436"]
@@ -125,7 +125,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["43E313436CB37519"]
+			dependencies: ["54AA08D0869CB19B"]
 			id: "41B740CCB28C6E5A"
 			rewards: [{
 				id: "6918E197A4E46C3D"
@@ -137,8 +137,8 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:mv_wire)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: 3.0d
+			x: -1.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["41B740CCB28C6E5A"]
@@ -154,8 +154,8 @@
 				item: { count: 1, id: "moderndynamics:mv_cable" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: 3.0d
+			x: -1.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["54AA08D0869CB19B"]
@@ -188,8 +188,8 @@
 				item: { count: 1, id: "modern_industrialization:mv_lv_transformer" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: 1.0d
+			x: 1.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["54AA08D0869CB19B"]
@@ -222,7 +222,7 @@
 				item: { count: 1, id: "modern_industrialization:mv_storage_unit" }
 				type: "item"
 			}]
-			x: -2.5d
+			x: -3.5d
 			y: 0.0d
 		}
 		{
@@ -257,7 +257,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: -1.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["54AA08D0869CB19B"]
@@ -2982,8 +2982,8 @@
 					type: "item"
 				}
 			]
-			x: -2.0d
-			y: 2.0d
+			x: -2.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["537B78BA50218123"]
@@ -3258,7 +3258,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 3.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["2763B0A63FC17046"]
@@ -3292,7 +3292,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 4.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["74A64C3ED35AE436"]
@@ -3404,8 +3404,8 @@
 				item: { count: 1, id: "extended_industrialization:universal_transformer" }
 				type: "item"
 			}]
-			x: -3.5d
-			y: 1.0d
+			x: 1.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["0EE203EEEA355636"]
@@ -4034,7 +4034,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 4.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["2A5B2CD92B0C2B12"]

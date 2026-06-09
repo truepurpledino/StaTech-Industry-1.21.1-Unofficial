@@ -189,7 +189,7 @@
 			}
 		}
 		{
-			count: 32
+			count: 24
 			id: "5C03BB6B7F0D1AB3"
 			item: {
 				count: 1
@@ -221,7 +221,7 @@
 			}
 		}
 		{
-			count: 12
+			count: 8
 			id: "595FE862C005A3F6"
 			item: {
 				count: 1
@@ -405,6 +405,71 @@
 			item: {
 				count: 1
 				id: "extended_industrialization:large_electric_macerator"
+			}
+		}
+		{
+			count: 4
+			id: "66C99879012CB25C"
+			item: {
+				count: 1
+				id: "modern_industrialization:arithmetic_logic_unit"
+			}
+		}
+		{
+			count: 4
+			id: "29EE91947EBE3F31"
+			item: {
+				count: 1
+				id: "modern_industrialization:memory_management_unit"
+			}
+		}
+		{
+			count: 8
+			id: "654C02CDDC3C0650"
+			item: {
+				count: 1
+				id: "modern_industrialization:random_access_memory"
+			}
+		}
+		{ id: "245EA124B839E815", item: { count: 1, id: "modern_industrialization:styrene_butadiene_rubber_bucket" } }
+		{
+			count: 2
+			id: "6FAE1BB7DD3A4F73"
+			item: {
+				count: 1
+				id: "modern_industrialization:processing_unit_board"
+			}
+		}
+		{
+			count: 32
+			id: "3C36D598190F6301"
+			item: {
+				count: 1
+				id: "kubejs:basic_space_probe"
+			}
+		}
+		{
+			count: 8
+			id: "6F2889A0C8105A02"
+			item: {
+				count: 1
+				id: "kubejs:advanced_space_probe"
+			}
+		}
+		{
+			count: 16
+			id: "5B4E7602214B1404"
+			item: {
+				count: 1
+				id: "modern_industrialization:stainless_steel_drill"
+			}
+		}
+		{
+			count: 24
+			id: "3F3CB0C97A5CA374"
+			item: {
+				count: 1
+				id: "kubejs:borosilicate_glass"
 			}
 		}
 	]
