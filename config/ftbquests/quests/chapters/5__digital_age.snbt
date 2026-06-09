@@ -216,6 +216,11 @@
 					type: "item"
 				}
 				{
+					id: "0432DAB1DD87D21D"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:energy_input_hatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
 					id: "1379DDEF2E577CE4"
 					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:item_input_hatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
@@ -233,11 +238,6 @@
 				{
 					id: "416A3F9D68C396BC"
 					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:fluid_output_hatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-					type: "item"
-				}
-				{
-					id: "0432DAB1DD87D21D"
-					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:energy_input_hatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 			]
@@ -769,38 +769,6 @@
 			y: -5.25d
 		}
 		{
-			dependencies: ["38D1B360B947EB90"]
-			id: "0F85F4ACA5A103E1"
-			rewards: [
-				{
-					id: "6CD6E9EF76998383"
-					item: {
-						count: 1
-						id: "kubejs:coin_legendary"
-					}
-					type: "item"
-				}
-				{
-					id: "6966860C8239B908"
-					type: "xp"
-					xp: 75
-				}
-				{
-					exclude_from_claim_all: true
-					id: "7AE7EB03712BCE5B"
-					table_id: 5923260596511522936L
-					type: "random"
-				}
-			]
-			tasks: [{
-				id: "18544EE9B96BD719"
-				item: { count: 1, id: "modern_industrialization:large_steam_turbine" }
-				type: "item"
-			}]
-			x: -2.0d
-			y: -3.5d
-		}
-		{
 			dependencies: ["51490042671E700C"]
 			id: "381D43AEFB99B390"
 			rewards: [{
@@ -1037,12 +1005,13 @@
 					type: "random"
 				}
 			]
+			shape: "rsquare"
 			tasks: [{
 				id: "2E94D15268BB5E06"
 				item: { count: 1, id: "modern_industrialization:hv_steam_turbine" }
 				type: "item"
 			}]
-			x: -2.0d
+			x: -3.0d
 			y: -2.0d
 		}
 		{
@@ -1076,7 +1045,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["51490042671E700C"]
@@ -1108,8 +1077,8 @@
 				item: { count: 1, id: "modern_industrialization:hv_storage_unit" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: -2.0d
+			x: -2.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["51490042671E700C"]
@@ -2876,6 +2845,9 @@
 		}
 		{
 			dependencies: ["187E3148FF00C4AE"]
+			icon: {
+				id: "mi_tweaks:bulk_compactor"
+			}
 			id: "0D683B81F758D7A6"
 			rewards: [
 				{
@@ -2900,11 +2872,52 @@
 			]
 			shape: "rsquare"
 			size: 1.5d
-			tasks: [{
-				id: "7EE36F4B6121E418"
-				item: { count: 1, id: "mi_tweaks:bulk_compactor" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7EE36F4B6121E418"
+					item: { count: 1, id: "mi_tweaks:bulk_compactor" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6B2B3EC8B683A3C7"
+					item: { count: 1, id: "kubejs:borosilicate_glass" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "65820CDE42252772"
+					item: { count: 1, id: "modern_industrialization:desh_block" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2F3DCAED5D55A673"
+					item: { count: 1, id: "modern_industrialization:steel_machine_casing_pipe" }
+					type: "item"
+				}
+				{
+					count: 11L
+					id: "16B9A9869BA1C70B"
+					item: { count: 1, id: "extended_industrialization:steel_plated_bricks" }
+					type: "item"
+				}
+				{
+					id: "30BD86916ECBA628"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:energy_input_hatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "62AB0053CE949237"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:item_input_hatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "656A2F644BE89F31"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:item_output_hatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
 			x: 5.25d
 			y: -0.25d
 		}
@@ -2955,6 +2968,58 @@
 			}]
 			x: 14.5d
 			y: 0.5d
+		}
+		{
+			dependencies: ["767003181BB2CAC4"]
+			icon: {
+				id: "modern_industrialization:large_diesel_generator"
+			}
+			id: "32DF938D1E6E89BB"
+			rewards: [
+				{
+					count: 3
+					id: "6BE51B8D5146133D"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "2F0FF28C40B3E625"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "46C2DE8298E44195"
+					table_id: 6543095682646008871L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "60EFE879C5821568"
+					item: { count: 1, id: "modern_industrialization:large_diesel_generator" }
+					type: "item"
+				}
+				{
+					count: 23L
+					id: "651BA0020DCBCBED"
+					item: { count: 1, id: "modern_industrialization:solid_titanium_machine_casing" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "3D0B69BD0DEE9531"
+					item: { count: 1, id: "modern_industrialization:titanium_machine_casing_pipe" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -3.5d
 		}
 	]
 }

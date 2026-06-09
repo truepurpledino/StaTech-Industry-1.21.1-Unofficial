@@ -30,58 +30,6 @@
 		}
 		{
 			dependencies: ["2F0042673C0E3910"]
-			icon: {
-				id: "modern_industrialization:large_diesel_generator"
-			}
-			id: "32DF938D1E6E89BB"
-			rewards: [
-				{
-					count: 3
-					id: "6BE51B8D5146133D"
-					item: {
-						count: 1
-						id: "kubejs:coin_legendary"
-					}
-					type: "item"
-				}
-				{
-					id: "2F0FF28C40B3E625"
-					type: "xp"
-					xp: 100
-				}
-				{
-					exclude_from_claim_all: true
-					id: "46C2DE8298E44195"
-					table_id: 6543095682646008871L
-					type: "random"
-				}
-			]
-			shape: "rsquare"
-			size: 1.0d
-			tasks: [
-				{
-					id: "60EFE879C5821568"
-					item: { count: 1, id: "modern_industrialization:large_diesel_generator" }
-					type: "item"
-				}
-				{
-					count: 23L
-					id: "651BA0020DCBCBED"
-					item: { count: 1, id: "modern_industrialization:solid_titanium_machine_casing" }
-					type: "item"
-				}
-				{
-					count: 10L
-					id: "3D0B69BD0DEE9531"
-					item: { count: 1, id: "modern_industrialization:titanium_machine_casing_pipe" }
-					type: "item"
-				}
-			]
-			x: 5.5d
-			y: -3.5d
-		}
-		{
-			dependencies: ["2F0042673C0E3910"]
 			id: "64D20685E4A57EED"
 			rewards: [
 				{
@@ -1748,6 +1696,39 @@
 			]
 			x: 0.0d
 			y: -1.0d
+		}
+		{
+			dependencies: ["2F0042673C0E3910"]
+			id: "0F85F4ACA5A103E1"
+			rewards: [
+				{
+					id: "6CD6E9EF76998383"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "6966860C8239B908"
+					type: "xp"
+					xp: 75
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7AE7EB03712BCE5B"
+					table_id: 5923260596511522936L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "18544EE9B96BD719"
+				item: { count: 1, id: "modern_industrialization:large_steam_turbine" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.5d
 		}
 	]
 }
