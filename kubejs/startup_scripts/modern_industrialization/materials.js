@@ -144,7 +144,7 @@ MIMaterialEvents.addMaterials(event => {
                 .defaultRecipes()
         });
     
-    event.createMaterial('Polytetrafluoroethylene (PTFE)', 'polytetrafluoroethylene', 0x454545,
+    event.createMaterial('Polytetrafluoroethylene (PTFE)', 'polytetrafluoroethylene', 0x364768,
         builder => {
             builder
                 .hardness('soft')
