@@ -133,21 +133,6 @@ ServerEvents.recipes(event => {
     })
     .id(st('crystal_resonance_generator'));
 
-/*     // -- ME SECURITY TERMINAL -- //
-    event.shaped(ae('security_station'), [
-        'SCS',
-        'FOF',
-        'SES'
-    ],
-    {
-        S: '#c:plates/steel',
-        C: ae('chest'),
-        F: ae('fluix_glass_cable'),
-        O: ae('cell_component_16k'),
-        E: ae('engineering_processor')
-    })
-    .id(st('security_station'));
- */
     // -- ME QUANTUM RING -- //
     event.shaped(ae('quantum_ring'), [
         'SLS',

@@ -139,6 +139,26 @@ ServerEvents.recipes(event => {
         })
         .id(st(`${tierName}_tesla_receiver_hatch_from_${tierName}_energy_input_hatch`));
     });
+
+    //-------------------------//
+    // -- ASSEMBLER RECIPES -- //
+    //-------------------------//
+    
+    // -- PROCESSING ARRAY -- //
+    assembler(
+        event,
+        st('assembler_processing_array'),
+        8,
+        200,
+        [
+            { amount: 4, item: mi('clean_stainless_steel_machine_casing') },
+            { amount: 1, item: mi('assembler') },
+            { amount: 2, item: mi('quantum_upgrade') },
+            { amount: 2, tag: 'c:glass_blocks' }
+        ],
+        [ { amount: 1, item: ei('processing_array') } ]
+    );
+
 });
 
 ServerEvents.tags('item', event => {
