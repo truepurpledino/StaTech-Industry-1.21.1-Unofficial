@@ -26,7 +26,9 @@ ServerEvents.recipes(event => {
         mi('electric_age/component/craft/diode_doped_asbl'),
         mi('machines/machine_chainer/assembler'),
         io('machines/pyrolyse_oven/assembler'),
-        ei('tool/assembler/tesla_handheld_receiver')/* ,
+        ei('tool/assembler/tesla_handheld_receiver'),
+        mi('assembler_generated/electric_age/machine/large_diesel_generator'),
+        mi('assembler_generated/electric_age/machine/large_steam_turbine')/* ,
         mi('materials/uranium/assembler/fuel_rod'),
         mi('materials/he_uranium/assembler/fuel_rod'),
         mi('materials/le_uranium/assembler/fuel_rod'),
@@ -1365,6 +1367,36 @@ ServerEvents.recipes(event => {
         ],
         [ { amount: 1, item: ei('machine_chainer') } ],
         [ { amount: 50, fluid: mi('polyethylene') } ]
+    );
+
+    // -- LARGE STEAM TURBINE -- //
+    assembler(
+        event,
+        st('large_steam_turbine'),
+        8,
+        200,
+        [ 
+            { amount: 1, item: mi('highly_advanced_machine_hull') },
+            { amount: 4, item: mi('hv_steam_turbine') },
+            { amount: 2, item: mi('large_advanced_pump') },
+            { amount: 2, item: mi('stainless_steel_rotor') }
+        ],
+        [ { amount: 1, item: mi('large_steam_turbine') } ]
+    );
+
+    // -- LARGE DIESEL GENERATOR -- //
+    assembler(
+        event,
+        st('large_diesel_generator'),
+        8,
+        200,
+        [ 
+            { amount: 1, item: mi('turbo_machine_hull') },
+            { amount: 4, item: mi('hv_diesel_generator') },
+            { amount: 2, item: mi('advanced_motor') },
+            { amount: 2, item: mi('titanium_gear') }
+        ],
+        [ { amount: 1, item: mi('large_diesel_generator') } ]
     );
 
     // -------------------------

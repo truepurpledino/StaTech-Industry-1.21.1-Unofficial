@@ -40,7 +40,9 @@ ServerEvents.recipes(event => {
         mi('materials/fire_clay_dust'),
         mi('materials/stainless_steel/craft/tank'),
         mi('materials/titanium/craft/tank'),
-        mi('materials/tungstensteel/craft/tank')
+        mi('materials/tungstensteel/craft/tank'),
+        mi('electric_age/machine/large_steam_turbine_asbl'),
+        mi('electric_age/machine/large_diesel_generator_asbl')
     ];
     MI_DELETED_ITEMS.forEach(id => event.remove( {id: id} ));
 
@@ -564,6 +566,34 @@ ServerEvents.recipes(event => {
         G: kj('borosilicate_glass')
     })
     .id(st('tungstensteel_tank'));
+
+    // -- LARGE DIESEL GENERATOR -- //
+    event.shaped(mi('large_diesel_generator'), [
+        'GMG',
+        'THT',
+        'GMG'
+    ],
+    {
+        M: mi('advanced_motor'),
+        T: mi('titanium_gear'),
+        H: mi('turbo_machine_hull'),
+        G: mi('hv_diesel_generator')
+    })
+    .id(st('large_diesel_generator'));
+
+    // -- LARGE STEAM TURBINE -- //
+    event.shaped(mi('large_steam_turbine'), [
+        'GMG',
+        'RHR',
+        'GMG'
+    ],
+    {
+        M: mi('large_advanced_pump'),
+        R: mi('stainless_steel_rotor'),
+        H: mi('highly_advanced_machine_hull'),
+        G: mi('hv_steam_turbine')
+    })
+    .id(st('large_steam_turbine'));
 });
 
 ServerEvents.tags('item', event => {
