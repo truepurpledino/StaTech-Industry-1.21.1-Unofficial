@@ -30,7 +30,7 @@ ServerEvents.recipes(event => {
         M: ae('matter_ball'),
         C: mg('compression_card'),
         B: mg('sky_steel_block'),
-        S: mg('cell_component_16m')
+        S: mg('cell_component_256m')
     })
     .id(st('digital_singularity_cell_component')); 
 
