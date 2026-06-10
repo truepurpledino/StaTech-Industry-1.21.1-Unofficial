@@ -4062,7 +4062,7 @@
 			}]
 			tasks: [{
 				id: "79AEBB3A0499FD8D"
-				item: { count: 1, id: "modern_industrialization:boron_dust" }
+				item: { count: 1, id: "modern_industrialization:boron_trioxide_dust" }
 				type: "item"
 			}]
 			x: 5.5d
