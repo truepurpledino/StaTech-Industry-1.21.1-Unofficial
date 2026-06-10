@@ -16,7 +16,7 @@ To download the modpack from this repository, you can clone it and use [WhitePha
 - DeadeyeDutch - Sprite work for custom items
 - inferno - Pack logo
 - @Flyte-less - ZedTech textures & other various fixes
-- @GW-Dev - Peaceful mode compat / Nether Star progression changes / Boss Crusher
+- @GW-Dev - Peaceful mode compat / Nether Star progression changes / Boss Crusher / Boron Rocket Fuel line
 - @kevintok - Overhauled the Scanner module config to be more colorful and useful.
 - @redcatone - Questbook spellcheck
 - @TacoMonkey11 - Marking client-side mods for packwiz
