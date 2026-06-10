@@ -138,12 +138,11 @@ ServerEvents.recipes(event => {
         [ { amount: 9, tag: 'c:dusts/kernite' } ],
         [ 
             { amount: 2, item: mi('sodium_dust') },
-            { amount: 4, item: mi('boron_dust') }
+            { amount: 4, item: mi('boron_trioxide_dust') }
         ],
         null,
         [ 
-            { amount: 200, fluid: mc('water') },
-            { amount: 400, fluid: mi('oxygen') }
+            { amount: 200, fluid: mc('water') }
         ]
     );
 
@@ -164,6 +163,21 @@ ServerEvents.recipes(event => {
             { amount: 200, fluid: mc('water') },
             { amount: 4000, fluid: mi('ammonia') }
         ]
-    ); 
+    );
+
+    // -- LITHIUM FLUORIDE DECOMPOSITION -- //
+    electrolyzer(
+        event,
+        st('lithium_fluoride_decompose'),
+        16,
+        800,
+        [ { amount: 1, item: mi('lithium_fluoride_dust') } ],
+        null,
+        null,
+        [ 
+            { amount: 1000, fluid: mi('lithium') },
+            { amount: 1000, fluid: mi('fluorine') },
+        ]
+    );
 
 });

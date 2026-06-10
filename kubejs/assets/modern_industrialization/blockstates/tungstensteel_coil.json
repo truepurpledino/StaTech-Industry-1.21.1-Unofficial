@@ -3,7 +3,7 @@
     "": {
       "model": "modern_industrialization:block/tungstensteel_coil"
     }
-  },
+      },
   "athena:loader": "athena:ctm",
   "ctm_textures": {
     "default": {

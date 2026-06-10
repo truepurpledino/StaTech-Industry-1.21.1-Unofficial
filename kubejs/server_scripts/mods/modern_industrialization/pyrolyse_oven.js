@@ -23,4 +23,16 @@ ServerEvents.recipes(event => {
         null,
         [ { amount: 250, fluid: mi('wood_tar') } ]
     );
+
+    // -- DIBORANE TO PENTABORANE -- //
+    pyrolyseOven(
+        event,
+        st('pentaborane'),
+        32,
+        800,
+        null,
+        null,
+        [ { amount: 2500, fluid: mi('diborane') } ],
+        [ { amount: 1000, fluid: mi('pentaborane') } ]
+    );
 });

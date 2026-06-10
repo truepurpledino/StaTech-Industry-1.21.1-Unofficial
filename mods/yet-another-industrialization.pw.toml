@@ -1,0 +1,13 @@
+name = "Yet Another Industrialization!"
+filename = "yet_another_industrialization-1.5.0-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "471f112199650421c9a4b3f021c9d215ada32e92"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8157534
+project-id = 1358516

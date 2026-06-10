@@ -270,7 +270,7 @@ MIMaterialEvents.addMaterials(event => {
                 .defaultRecipes(); 
         });
         
-    event.createMaterial('Boron', 'boron', 0x878376,
+    event.createMaterial('Boron Trioxide', 'boron_trioxide', 0x878376,
         builder => {
             builder
                 .hardness('hard')
@@ -289,6 +289,33 @@ MIMaterialEvents.addMaterials(event => {
                     'ore_set': 'iron'
                 })
                 .rawMetal('iron', true).rawMetal('copper', false)
+                .defaultRecipes();
+        });
+
+    event.createMaterial('Lithium Hydride', 'lithium_hydride', 0x00034a,
+        builder => {
+            builder
+                .hardness('average')
+                .materialSet('dull')
+                .addParts('dust', 'tiny_dust')
+                .defaultRecipes();
+        });
+
+    event.createMaterial('Lithium Tetrafluoroborate', 'lithium_tetrafluoroborate', 0x9cc777,
+        builder => {
+            builder
+                .hardness('average')
+                .materialSet('dull')
+                .addParts('dust', 'tiny_dust')
+                .defaultRecipes();
+        });
+
+    event.createMaterial('Lithium Fluoride', 'lithium_fluoride', 0xcccccc,
+        builder => {
+            builder
+                .hardness('average')
+                .materialSet('shiny')
+                .addParts('dust', 'tiny_dust')
                 .defaultRecipes();
         });
 });

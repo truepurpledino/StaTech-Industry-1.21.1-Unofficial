@@ -238,7 +238,7 @@ ServerEvents.recipes(event => {
         2,
         100,
         [
-            { amount: 4, tag: 'c:dusts/boron' },
+            { amount: 4, tag: 'c:dusts/boron_trioxide' },
             { amount: 8, tag: 'c:dusts/quartz' },
             { amount: 1, tag: 'c:tiny_dusts/aluminum' }
         ],

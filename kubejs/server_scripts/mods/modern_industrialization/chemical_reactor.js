@@ -278,6 +278,77 @@ ServerEvents.recipes(event => {
         [ { amount: 700, fluid: mi('acrylonitrile_butadiene_styrene') } ]
     );
 
+    // -- BORON TRIFLUORIDE -- //
+    chemicalReactor(
+        event,
+        st('boron_trifluoride'),
+        32,
+        400,
+        [ { amount: 1, item: mi('boron_trioxide_dust')} ],
+        null,
+        [ { amount: 6000, fluid: mi('hydrofluoric_acid') } ],
+        [ 
+            { amount: 2000, fluid: mi('boron_trifluoride') },
+            { amount: 3000, fluid: mc('water') }
+        ]
+    );
+
+    // -- DIBORANE -- //
+    chemicalReactor(
+        event,
+        st('diborane'),
+        32,
+        600,
+        [ { amount: 6, item: mi('lithium_hydride_dust')} ],
+        [ { amount: 6, item: mi('lithium_tetrafluoroborate_dust')} ],
+        [ { amount: 8000, fluid: mi('boron_trifluoride') } ],
+        [ { amount: 1000, fluid: mi('diborane') } ]
+    );
+
+    // -- LITHIUM HYDRIDE DUST -- //
+    chemicalReactor(
+        event,
+        st('lithium_hydride'),
+        8,
+        200,
+        null,
+        [ { amount: 1, item: mi('lithium_hydride_dust')} ],
+        [ 
+            { amount: 1000, fluid: mi('lithium') },
+            { amount: 1000, fluid: mi('hydrogen') },
+        ]
+    );
+
+    // -- LITHIUM HYDRIDE DECOMPOSITION -- //
+    chemicalReactor(
+        event,
+        st('lithium_hydride_decompose'),
+        8,
+        100,
+        [ { amount: 1, item: mi('lithium_hydride_dust') } ],
+        null,
+        [ { amount: 1500, fluid: mc('water') } ],
+        [ 
+            { amount: 1000, fluid: mi('lithium') },
+            { amount: 1500, fluid: mi('hydrogen') },
+            { amount: 500, fluid: mi('oxygen') }
+        ]
+    );
+
+    // -- LITHIUM FLUORIDE DUST -- //
+    chemicalReactor(
+        event,
+        st('lithium_fluoride'),
+        8,
+        200,
+        null,
+        [ { amount: 1, item: mi('lithium_fluoride_dust')} ],
+        [ 
+            { amount: 1000, fluid: mi('lithium') },
+            { amount: 1000, fluid: mi('fluorine') },
+        ]
+    );
+
     // -- PROPENE -- //
     chemicalReactor(
         event,
