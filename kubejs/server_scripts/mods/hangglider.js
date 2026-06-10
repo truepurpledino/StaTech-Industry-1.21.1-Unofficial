@@ -35,4 +35,21 @@ ServerEvents.recipes(event => {
         R: '#c:rods/iron',
         L: '#c:leathers'
     }).id(st('glider_wing'));
+
+    //----------------------//
+    // -- PACKER RECIPES -- //
+    //----------------------//
+
+    // -- REINFORCED HANG GLIDER -- //
+    packer(
+        event,
+        st('reinforced_hang_glider'),
+        4,
+        200,
+        [
+            { amount: 1, item: hg('hang_glider') },
+            { amount: 2, item: mi('steel_plate') }
+        ],
+        [ { amount: 1, item: hg('reinforced_hang_glider') } ]
+    );
 });

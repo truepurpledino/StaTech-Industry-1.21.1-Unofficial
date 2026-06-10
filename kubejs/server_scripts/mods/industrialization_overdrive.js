@@ -19,16 +19,14 @@ ServerEvents.recipes(event => {
     const IO_ITEMS_MODIFICATION = [{
         id : 'multi_processing_array',
         recipe:[
-            'TQT',
+            'QQQ',
             'GAG',
-            'TMT'
+            'QQQ'
         ],
         recipeInfo: {
-            T: mi('solid_titanium_machine_casing'),
             G: '#c:glass_blocks',
             A: ei('processing_array'),
-            Q: mi('quantum_upgrade'),
-            M: mi('large_advanced_motor')
+            Q: mi('quantum_upgrade')
         },
         guideBookId: 'machines/multi_processing_array/craft'
     },
@@ -84,5 +82,39 @@ ServerEvents.recipes(event => {
         U: mi('highly_advanced_upgrade')
     })
     .id(st('vajra'));
+
+    //-------------------------//
+    // -- ASSEMBLER RECIPES -- //
+    //-------------------------//
+
+    // -- PYROLYSE OVEN -- //
+    assembler(
+        event,
+        st('assembler_pyrolyse_oven'),
+        8,
+        200,
+        [
+            { amount: 2, item: mi('cupronickel_wire_magnetic') },
+            { amount: 2, item: mi('analog_circuit') },
+            { amount: 2, item: mi('bronze_plated_bricks') },
+            { amount: 1, item: mi('basic_machine_hull') },
+            { amount: 2, item: mi('coke_oven') }
+        ],
+        [ { amount: 1, item: io('pyrolyse_oven') } ]
+    );
+    
+    // -- MULTI PROCESSING ARRAY -- //
+    assembler(
+        event,
+        st('assembler_multi_processing_array'),
+        8,
+        200,
+        [
+            { amount: 1, item: ei('processing_array') },
+            { amount: 6, item: mi('quantum_upgrade') },
+            { amount: 2, tag: 'c:glass_blocks' }
+        ],
+        [ { amount: 1, item: io('multi_processing_array') } ]
+    );
 
 });

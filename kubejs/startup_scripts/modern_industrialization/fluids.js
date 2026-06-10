@@ -178,7 +178,7 @@ MIRegistrationEvents.registerFluids(event => {
     event.register(
         'Polytetrafluoroethylene',
         'polytetrafluoroethylene',
-        0x454545,
+        0x364768,
         'lava',
         false,
         'full'

@@ -1,5 +1,5 @@
 RecipeViewerEvents.removeEntriesCompletely('item', event => {
-
+    
     const CREATE_CRUSHED = [
         cr('crushed_raw_platinum'),
         cr('crushed_raw_iron'),
@@ -78,4 +78,22 @@ RecipeViewerEvents.removeEntriesCompletely('item', event => {
         gag('pigment_jar')
     ];
     UNUSED_GAG.forEach(id => event.remove(id));
+
+    const UNUSED_YAI = [
+        yai('arboreous_greenhouse')
+    ]
+    UNUSED_YAI.forEach(id => event.remove(id));
+
+});
+
+    // -- YET ANOTHER INDUSTRIALIZATION REMOVED MULTI -- //
+
+RecipeViewerEvents.removeRecipes(event => {
+    event.remove([
+        yai('/arboreous_greenhouse/4/0'),
+        yai('/arboreous_greenhouse/4/1'),
+        yai('/arboreous_greenhouse/4/2'),
+        yai('/arboreous_greenhouse/4/3'),
+        yai('/arboreous_greenhouse/4/4')
+    ]);
 });

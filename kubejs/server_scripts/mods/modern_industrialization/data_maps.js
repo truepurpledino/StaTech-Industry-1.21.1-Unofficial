@@ -34,4 +34,60 @@ ServerEvents.generateData('after_mods', event => {
             }
         }
     });
+
+    // -- IRRADIATOR NEUTRON SOURCES -- //
+    event.json('yet_another_industrialization:data_maps/item/irradiator_neutron_source', {
+        values: {
+            "yet_another_industrialization:demon_core": {
+                "type": "lifespan",
+                "eu": 8192,
+                "irradiation": 16384,
+                "probability": 1,
+                "probability_check_cooldown": 50
+            },
+            "modern_industrialization:beryllium_block": {
+                "type": "consumption",
+                "eu": 1024,
+                "irradiation": 1280,
+                "probability": 0.05,
+                "probability_check_cooldown": 200
+            }
+        }
+    });
+    
+    // -- FLIGHT PYLON TIERS -- //
+    event.json('yet_another_industrialization:data_maps/block/flight_pylon_tier', {
+        values: {
+            "modern_industrialization:steel_machine_casing": {
+                "beacon_color": "#3F3F3F",
+                "eu": 128,
+                "range": 24.0,
+                "translation_key": "text.yet_another_industrialization.flight_pylon_tier_tiny"
+            },
+            "modern_industrialization:advanced_machine_casing": {
+                "beacon_color": "#3FCAFF",
+                "eu": 512,
+                "range": 48.0,
+                "translation_key": "text.yet_another_industrialization.flight_pylon_tier_small"
+            },
+            "modern_industrialization:turbo_machine_casing": {
+                "beacon_color": "#C8C8DC",
+                "eu": 2048,
+                "range": 72.0,
+                "translation_key": "text.yet_another_industrialization.flight_pylon_tier_medium"
+            },
+            "modern_industrialization:highly_advanced_machine_casing": {
+                "beacon_color": "#DCA0F0",
+                "eu": 8192,
+                "range": 96.0,
+                "translation_key": "text.yet_another_industrialization.flight_pylon_tier_large"
+            },
+            "modern_industrialization:quantum_machine_casing": {
+                "beacon_color": "#E1E6F5",
+                "eu": 32768,
+                "range": 128.0,
+                "translation_key": "text.yet_another_industrialization.flight_pylon_tier_huge"
+            }
+        }
+    });
 });

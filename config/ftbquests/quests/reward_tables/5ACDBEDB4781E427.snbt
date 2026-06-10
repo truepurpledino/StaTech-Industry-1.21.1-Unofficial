@@ -494,4 +494,5 @@
 			}
 		}
 	]
+	use_title: true
 }

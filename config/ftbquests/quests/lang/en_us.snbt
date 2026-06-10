@@ -102,7 +102,7 @@
 	]
 	quest.01E58DD70F1D9B15.title: "Fire Clay Dust"
 	quest.021CF7D7EC294561.quest_desc: [
-		"The &eFind Me&r mod has been replaced in favor of &aSophisticated Item Actions&r! By default, pressing '&eT&r' whilst &9hovering over an item&r in the &dinventory&r or in &dEMI&r will highlight inventories around you that contain this item!"
+		"The &eFind Me&r mod has been replaced in favor of &aSophisticated Item Actions&r! By default, pressing '&e;&r' whilst &9hovering over an item&r in the &dinventory&r or in &dEMI&r will highlight inventories around you that contain this item!"
 		""
 		"{image:statech:item/findme width:100 height:64 align:center fit:true}"
 	]
@@ -236,7 +236,7 @@
 		"&eThey may not be required, but they can be &2VERY&e helpful&r!"
 	]
 	quest.0480052F3F1EDAFC.title: "Chapter Progression"
-	quest.04D26675230550D4.quest_desc: ["&eBuilding Wands&r return! They're &cslightly different&r than you might remember, press '&6y&r' to open their &aconfiguration menu&r while holding one!"]
+	quest.04D26675230550D4.quest_desc: ["&eBuilding Wands&r return! They're &cslightly different&r than you might remember; you can press '&en&r' to open their &aconfiguration menu&r while holding one!"]
 	quest.05105071C0E09EB7.quest_desc: ["The highest tier of (regular) fluid storage cell that can store up to 262144 bytes of information."]
 	quest.0543B42AF131C694.quest_desc: [
 		"&dFermentation&r is a natural process - things take time and care. Since there never is a fully controlled environment, there are a lot of &avariables&r:"
@@ -797,7 +797,7 @@
 		""
 		"However it will not give you back &9regular nor HP Water&r. If you'd like to recycle the &9HP Water&r, you will need to create the next multiblock, the &eHeat Exchanger&r."
 		""
-		"If you need help building the multiblock you can view the &bPonder&r scene by holding 'W' on the &bLarge Steam Turbine&r block in your inventory or by holding your wrench out with the &bLarge Steam Turbine&r placed."
+		"If you need help building the multiblock you can view the &bGuideME&r entry by holding 'G' on the &bLarge Steam Turbine&r block in your inventory or by holding your wrench out with the &bLarge Steam Turbine&r placed."
 	]
 	quest.0F866EE01E29B82D.quest_desc: ["Enhancing &6Naphtha&r with &aSteam&r will make &eSteam-Cracked Naphtha&r, which can be &2distilled into other byproducts&r."]
 	quest.0FA558512D3433F9.quest_desc: [
@@ -1662,6 +1662,13 @@
 		""
 		"Some of the first uses of your newly gathered &0Crude Oil&r will be to offer a much more efficient way of creating &aRubber Sheets&r. Additionally, you can burn &0Crude Oil&r to produce power in &bDiesel Generators&r. &0Crude Oil&r itself is not very efficient, so we will be processing it into more useful products."
 	]
+	quest.216F13398546D8F6.quest_desc: [
+		"&9Nuclear Reactors&r are pretty complex machines that unfortunately are &enot very lag friendly&r when &cspammed&r. They are &equite slow&r at producing &dplutonium&r. "
+		""
+		"Fortunately, &aYet Another Industrialization&r introduces the &dNuclear Rod Irradiator&r, a &3specialized&r multiblock that, as the name suggest, &eirradiates nuclear fuel&r at high rates at the expense of &eenergy&r and a &eneutron source&r."
+		""
+		"The specifications of the &9Neutron Source&r items can be found in EMI by pressing '&eu&r' on the &dNuclear Rod Irradiator&r. A &bGuideME&r entry can also be viewed by holding '&eG&r' whilst hovering over it in the inventory or in EMI."
+	]
 	quest.2174585D87F83C89.quest_desc: [
 		"Hello and welcome to &aStaTech Industry&f!"
 		""
@@ -2177,6 +2184,8 @@
 		"&eDirewolf20's Building Gadgets&f are insanely helpful in building."
 		""
 		"They are pretty powerful, so they are locked behind &2Electronic Circuits&f."
+		""
+		"To access the settings menu, you can hold the '&en&r' key whilst holding &aany of the tools&r."
 	]
 	quest.2C84E1C3D7590A49.title: "Building Gadgets"
 	quest.2CA069F476518EB2.quest_desc: [
@@ -2419,6 +2428,7 @@
 		"Click the &bWireless Redstone&r with empty hands to toggle sending/receiving. Change the &efrequency&r of transmissions by using &ddye/pigment&r, so signals do not overlap. &oRange: 16 Blocks&r"
 	]
 	quest.310A10B1ADB099FB.quest_desc: ["The &dCrystal Barrel&r has the same storage as the &bDiamond Barrel&r, except it shows the contents inside of it."]
+	quest.312052D981433E12.quest_desc: ["&dMolten Borosilicate Glass&r can then be produced in the &9EBF&r when &aBoron-Quartz Blend&r is heated with &aSand&r! This glass is used in the most &befficient Diode&r recipe!"]
 	quest.3121D591D3807584.quest_desc: ["Allows you to double jump, similar to the Terraria item"]
 	quest.3132A7C27E732259.quest_desc: ["You can create &dTungsten Nuggets&r by compressing &dTungsten Tiny Dusts&r. This process is &cvery, very slow&r, so you'll want to get as much as you need to make an &eImplosion Chamber&r and then never use the compressing method again."]
 	quest.313C3C77F20BB25E.quest_desc: [
@@ -2528,6 +2538,11 @@
 	quest.32F963B0273A07E2.title: "Renewable Certus"
 	quest.3308E0ADE29A5A9E.quest_desc: ["Sending &bNuclear Mixed Plates&r through an &eImplosion Compressor&r will create &aNuclear Alloy Plates&r. You're going to need a lot of these for your reactors."]
 	quest.33106BD719EDE5A5.quest_desc: ["The &aElectric Unpacker&r is the electrical version of the &6Steam Unpacker&r. It doesn't open up any new recipes, but it will process recipes &dmuch faster&r than its &7Steam&r counterpart."]
+	quest.332D272F473BEE79.quest_desc: [
+		"The &aFlight Pylon&r is a new addition to &d2.0&r that allows &3creative flight&r. Very useful for flying in your base and building! It needs to &bcontinually&r be fed &epower&r to function."
+		""
+		"It is &dupgradable&r and depending on the &dtier&r, it will allow flight in a larger &arange&r at the cost of more power. You can set up the &dtier&r inside the &9controller's GUI&r."
+	]
 	quest.333E6F1B069BAD9B.quest_desc: ["&bPulse Repeaters&r send a &credstone pulse&r after a configurable delay."]
 	quest.3367CF1056CBCB36.quest_desc: [
 		"&aMain Progress&r of the pack is provided in each chapter under the &l&e-- &6Chapters &e--&r section. The entries below the &l&e-- &6Side Chapters &e--&r section are not required to progress, but may provide very useful items and tools to aid you in your journey."
@@ -3527,7 +3542,7 @@
 		""
 		"It costs a lot of &bStainless Steel&r and &bAnnealed Copper&r, might be better to upgrade once you have a decent surplus."
 	]
-	quest.496935DA068E1739.quest_desc: ["The &bHighly Advanced Upgrade&r is the second to last upgrade available for your machines. It offers a &a4x EU overclock&r as compared to the previous tier."]
+	quest.496935DA068E1739.quest_desc: ["The &bHighly Advanced Upgrade&r is the second to last upgrade available for your machines. It offers a &a8x EU overclock&r as compared to the previous tier."]
 	quest.49A914FF5521A3CE.quest_desc: ["&bCupronickel&r is an alloy between &cCopper&r and &aNickel&r which will be very important as you aim to create your first electric machines, especially the &aElectric Blast Furnace&r."]
 	quest.49C4F2DED9D7043A.quest_desc: ["Combining 9000 mB of &aHydrochloric Acid&r with &bChromium Crushed Dust&r will create 9000 mB of &dChromium Hydrochloric Solution&r."]
 	quest.49E8ECBDBC3FFD83.quest_desc: [
@@ -3588,9 +3603,9 @@
 	quest.4B29608E216D6B49.quest_desc: [
 		"&aSophisticated Item Actions&r allows you to quickly &edeposit matched items&r to all &enearby inventories&r that contains those items."
 		""
-		"By default, pressing \" &e'&r \" key will deposit the items contained in the slot your cursor is pointed to."
+		"By default, pressing '&ei&r' key will deposit the items contained in the slot your cursor is pointed to."
 		""
-		"You can use &9Modifier keys&r when pressing the \" &e'&r \" key to more precisely control the depositing of items:"
+		"You can use &9Modifier keys&r when pressing the '&ei&r' key to more precisely control the depositing of items:"
 		""
 		"&eShift&r – deposit &aall items&r selected from the &9main inventory&r"
 		"&eAlt&r – deposit &aitems&r selected from &9the hotbar&r"
@@ -3639,7 +3654,7 @@
 		"There is also an inverted version of the toggle that disables the connection when a redstone signal is supplied."
 	]
 	quest.4BC54781892D5F76.title: "ME Buses"
-	quest.4BCA536EA971A125.quest_desc: ["&aSophisticated Item Actions&r allows you to quickly &erestock&r items from &enearby storage&r into your inventory. By default, pressing ' &e\\\\ &r' whilst hovering on an item you want to restock in your inventory will draw said item from nearby storage."]
+	quest.4BCA536EA971A125.quest_desc: ["&aSophisticated Item Actions&r allows you to quickly &erestock&r items from &enearby storage&r into your inventory. By default, pressing '&eo&r' whilst hovering on an item you want to restock in your inventory will draw said item from nearby storage."]
 	quest.4BCA536EA971A125.title: "Quick Restock"
 	quest.4BD650914789713D.quest_desc: ["&aHydra Chops&r are dropped by the &dHydra&r"]
 	quest.4BFCCF11AC1E8126.quest_desc: ["The &bDiamond Barrel&r is a long awaited upgrade to your storage barrels. It allows you to store &e72 stacks of items&r."]
@@ -3920,7 +3935,7 @@
 		"&cIt cannot be used to charge things in your inventory&r.  "
 	]
 	quest.50C39589C51AB2DA.quest_desc: ["The meals in this section &ccannot be eaten&r while in your inventory, and must be placed in the world before you can eat them."]
-	quest.50D18ACF6401C05D.quest_desc: ["With your &5Plutonium&r byproducts, you can now create &lNukes&r. These unfortunately do not explode like you would expect and are mainly used for crafting &aSingularities&r."]
+	quest.50D18ACF6401C05D.quest_desc: ["With your &5Plutonium&r byproducts, you can now create &lNukes&r. These unfortunately do not explode like you would expect and are mainly used for crafting &zSingularities&r."]
 	quest.50D18ACF6401C05D.quest_subtitle: "Surprisingly Ineffective"
 	quest.50F4216A8D29E1B9.quest_desc: [
 		"The &blight blue color&r is the trademark of this ore. It is found exclusively in &dThe End&r in small clusters."
@@ -4842,7 +4857,7 @@
 		"It's not worth it to rely on AE2 for MI progression, set up &2passive crafting&r! That being said, setting up &3autocrafting&r for the machines you'll need to do said &2passive crafting&r will be very beneficial!"
 	]
 	quest.62103F0E617EBA7C.title: "Autocrafting"
-	quest.6240837365DD23D1.quest_desc: ["&dBorosilicate Glass&r can then be produced in the &9EBF&r when &aBoron-Quartz Blend&r is heated with &aSand&r! This glass is used in the most &befficient Diode&r recipe and higher tier &9tanks&r and &bmultiblocks&r!"]
+	quest.6240837365DD23D1.quest_desc: ["When solidified in a Vacuum Freezer, &dBorosilicate Glass&r can be used to create higher tier &9tanks&r and &bmultiblocks&r!"]
 	quest.624471093BF4C5A8.quest_desc: ["The &aDistillery&r will turn various fluids into their lighter parts. This will be very useful for &eOil Processing&r!"]
 	quest.62474684DD7A1B7C.quest_desc: [
 		"The &6Bronze Compressor&r will turn ingots into plates at a 1:1 ratio. It can also turn each double ingot into 2 plates."
@@ -6252,6 +6267,7 @@
 	task.0365E6610A60A4DB.title: "Any Item Input Hatch"
 	task.0370BDE5CF6E361F.title: "NYI"
 	task.0386D6436310F041.title: "NYI"
+	task.03D44CD9E74F3497.title: "Any Energy Input Hatch"
 	task.0432DAB1DD87D21D.title: "Any Energy Input Hatch"
 	task.0472D36D743812BA.title: "Click to Acknowledge"
 	task.05EE083C303D0E3D.title: "Any Pure Pigment"
@@ -6440,6 +6456,7 @@
 	task.30914428CE1F71CA.title: "NYI"
 	task.3096C32AC2C1F85E.title: "Any Tesla Winding"
 	task.309CDBFF95E3FD95.title: "Any Energy Input Hatch"
+	task.30BD86916ECBA628.title: "Any Energy Input Hatch"
 	task.3138E0798EBA517D.title: "8x Gemstone Lights"
 	task.313A236768D509A5.title: "Any Item Output Hatch"
 	task.314A5ABFACDC1728.title: "Enter the Deeper Down"
@@ -6666,6 +6683,7 @@
 	task.621BA1142B66F9B9.title: "Any Item Output Hatch"
 	task.62611ADCFA7515DE.title: "Any Fluid Output Hatch"
 	task.628AAE5C7EA99950.title: "NYI"
+	task.62AB0053CE949237.title: "Any Item Input Hatch"
 	task.6304982F30415E1A.title: "Click to Acknowledge"
 	task.638EF66FA82A6D27.title: "Any Blackslag"
 	task.63D92F3F1AEF475C.title: "NYI"
@@ -6673,6 +6691,7 @@
 	task.640C892CFC379263.title: "NYI"
 	task.6467AAF803854F25.title: "Click to Acknowledge"
 	task.64A220722290404A.title: "Click to Acknowledge"
+	task.656A2F644BE89F31.title: "Any Item Output Hatch"
 	task.658B537143219283.title: "Any Item Input Hatch"
 	task.662AE3D37EC9216B.title: "Decorative Blocks"
 	task.6669413B45FFEE73.title: "Click to Acknowledge"
@@ -6765,6 +6784,7 @@
 	task.7C9ABEB2F52198D7.title: "Click to Acknowledge"
 	task.7CE93A42C379F02D.title: "NYI"
 	task.7CED8DC60E6DB635.title: "NYI"
+	task.7D18AFEA336B15D5.title: "Any Item Input Hatch"
 	task.7D481262BFED19FC.title: "Any Energy Input Hatch"
 	task.7D730639A33A83F0.title: "16x Polished Crests"
 	task.7E03A236ABE12AED.title: "NYI"

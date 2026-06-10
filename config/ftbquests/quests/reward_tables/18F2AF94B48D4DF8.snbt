@@ -140,4 +140,5 @@
 			}
 		}
 	]
+	use_title: true
 }
