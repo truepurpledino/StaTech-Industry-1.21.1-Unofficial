@@ -2977,7 +2977,6 @@
 			id: "32DF938D1E6E89BB"
 			rewards: [
 				{
-					count: 3
 					id: "6BE51B8D5146133D"
 					item: {
 						count: 1
@@ -2988,12 +2987,11 @@
 				{
 					id: "2F0FF28C40B3E625"
 					type: "xp"
-					xp: 100
+					xp: 75
 				}
 				{
-					exclude_from_claim_all: true
 					id: "46C2DE8298E44195"
-					table_id: 6543095682646008871L
+					table_id: 5923260596511522936L
 					type: "random"
 				}
 			]

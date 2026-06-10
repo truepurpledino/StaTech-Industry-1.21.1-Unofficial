@@ -4123,6 +4123,28 @@
 				id: "yet_another_industrialization:flight_pylon"
 			}
 			id: "332D272F473BEE79"
+			rewards: [
+				{
+					count: 5
+					id: "02D3639B4908A569"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "5BC0B7D4485E8D75"
+					type: "xp"
+					xp: 40
+				}
+				{
+					exclude_from_claim_all: true
+					id: "39C858E78FE0E7D6"
+					table_id: 8811145634920634486L
+					type: "random"
+				}
+			]
 			size: 1.5d
 			tasks: [
 				{

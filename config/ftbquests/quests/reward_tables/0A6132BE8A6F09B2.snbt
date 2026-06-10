@@ -301,4 +301,5 @@
 			}
 		}
 	]
+	use_title: true
 }
