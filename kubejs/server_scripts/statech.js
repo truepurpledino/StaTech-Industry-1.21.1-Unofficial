@@ -487,7 +487,10 @@ ServerEvents.tags('item', event => {
         'cobalt',
         'acrylonitrile_butadiene_styrene',
         'boron_trioxide',
-        'fluorite'
+        'fluorite',
+        'lithium_fluoride',
+        'lithium_hydride',
+        'lithium_tetrafluoroborate'
     ]
 
     const baseparts = [
@@ -569,6 +572,17 @@ ServerEvents.tags('item', event => {
         const itemId = `modern_industrialization:${material}_block`;
         const generictag = `c:storage_blocks`;
         const specifictag = `c:storage_blocks/${material}`;
+        
+        if (Item.exists(itemId)) {
+            event.add(generictag, itemId);
+            event.add(specifictag, itemId);
+        }
+    });
+
+    CUSTOMMATERIALS.forEach(material => {
+        const itemId = `modern_industrialization:raw_${material}_block`;
+        const generictag = `c:storage_blocks`;
+        const specifictag = `c:storage_blocks/raw_${material}`;
         
         if (Item.exists(itemId)) {
             event.add(generictag, itemId);
