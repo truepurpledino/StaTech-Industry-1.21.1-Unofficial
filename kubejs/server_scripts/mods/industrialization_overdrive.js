@@ -106,7 +106,7 @@ ServerEvents.recipes(event => {
     // -- MULTI PROCESSING ARRAY -- //
     assembler(
         event,
-        st('assembler_pyrolyse_oven'),
+        st('assembler_multi_processing_array'),
         8,
         200,
         [
