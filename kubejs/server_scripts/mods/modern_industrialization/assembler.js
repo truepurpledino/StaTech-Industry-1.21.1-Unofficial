@@ -19,7 +19,7 @@ ServerEvents.recipes(event => {
         mi('assembler_generated/electric_age/battery/sodium_battery'),
         mi('assembler_generated/electric_age/battery/cadmium_battery'),
         mi('assembler_generated/electric_age/battery/plutonium_battery'),
-        mi('assembler_generated/electric_age/component/craft/diode_doped'),
+//        mi('assembler_generated/electric_age/component/craft/diode_doped'),
         mi('materials/stainless_steel/assembler/tank'),
         mi('materials/titanium/assembler/tank'),
         mi('materials/tungstensteel/assembler/tank'),
@@ -79,7 +79,7 @@ ServerEvents.recipes(event => {
             { amount: 3, item: mi('electrum_fine_wire') },
             { amount: 2, item: mi('steel_plate') }
         ],
-        [ { amount: 2, item: mi('diode') } ],
+        [ { amount: 4, item: mi('diode') } ],
         [ { amount: 125, fluid: mi('molten_borosilicate_glass') } ],
     );
 
