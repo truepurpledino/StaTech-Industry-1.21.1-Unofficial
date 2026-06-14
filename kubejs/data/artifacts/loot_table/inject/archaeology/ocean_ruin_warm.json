@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "artifacts:items/aqua_dashers"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "artifacts:items/onion_ring"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "artifacts:items/running_shoes"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "artifacts:items/bunny_hoppers"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "artifacts:items/vampiric_glove"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "artifacts:items/strider_shoes"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "artifacts:inject/archaeology/ocean_ruin_warm"
+}

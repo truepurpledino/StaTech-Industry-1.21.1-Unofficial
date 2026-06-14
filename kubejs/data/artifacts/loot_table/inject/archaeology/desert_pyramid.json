@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "artifacts:items/cowboy_hat"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "artifacts:items/obsidian_skull"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "artifacts:items/snorkel"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "artifacts:items/power_glove"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "artifacts:items/kitty_slippers"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "artifacts:items/night_vision_goggles"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "artifacts:items/shock_pendant"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "artifacts:inject/archaeology/desert_pyramid"
+}

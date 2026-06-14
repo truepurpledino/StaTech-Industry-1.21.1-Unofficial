@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "artifacts:artifact_rarity_adjusted_chance",
+          "default_probability": 0.1
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "artifacts:items/cross_necklace"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "artifacts:items/antidote_vessel"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "artifacts:items/charm_of_sinking"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "artifacts:items/warp_drive"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "artifacts:inject/chests/village/village_temple"
+}

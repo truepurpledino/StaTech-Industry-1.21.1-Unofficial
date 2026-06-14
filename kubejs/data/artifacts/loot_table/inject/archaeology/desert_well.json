@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "artifacts:items/charm_of_sinking"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "artifacts:items/universal_attractor"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "artifacts:items/superstitious_hat"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "artifacts:items/umbrella"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "artifacts:items/warp_drive"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "artifacts:items/drinking_hat"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "artifacts:inject/archaeology/desert_well"
+}

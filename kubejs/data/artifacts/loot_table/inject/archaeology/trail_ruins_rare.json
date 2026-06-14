@@ -1,0 +1,64 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "artifacts:items/rooted_boots"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "artifacts:items/pickaxe_heater"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "artifacts:items/aqua_dashers"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "artifacts:items/snowshoes"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "artifacts:items/steadfast_spikes"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "artifacts:items/villager_hat"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "artifacts:items/cloud_in_a_bottle"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "artifacts:items/feral_claws"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "artifacts:items/pocket_piston"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "artifacts:items/whoopee_cushion"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "artifacts:items/flame_pendant"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "artifacts:items/thorn_pendant"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "artifacts:items/charm_of_shrinking"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "artifacts:inject/archaeology/trail_ruins_rare"
+}

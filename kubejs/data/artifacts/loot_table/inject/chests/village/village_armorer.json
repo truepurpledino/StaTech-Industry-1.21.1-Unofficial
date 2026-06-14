@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "artifacts:artifact_rarity_adjusted_chance",
+          "default_probability": 0.05
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "artifacts:items/steadfast_spikes"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "artifacts:items/superstitious_hat"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "artifacts:items/running_shoes"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "artifacts:items/vampiric_glove"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "artifacts:inject/chests/village/village_armorer"
+}
