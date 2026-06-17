@@ -241,7 +241,7 @@ ServerEvents.recipes(event => {
     // -- EARTHEN TILES -- //
     mixer(
         event,
-        st('mundane_tiles'),
+        st('earthen_tiles'),
         2,
         200,
         [ 

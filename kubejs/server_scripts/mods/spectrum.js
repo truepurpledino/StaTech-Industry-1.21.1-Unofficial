@@ -288,6 +288,40 @@ ServerEvents.recipes(event => {
         }]
     });
 
+    // -- EVERLASTING BEEF -- //
+    event.custom({
+        type: sp('fusion_shrine'),
+        time: 1200,
+        experience: 30.0,
+        fluid: { fluid: ei('blazing_essence') },
+        ingredients: [
+            { item: mc('beef'), count: 64 },
+            { item: mc('beef'), count: 64 },
+            { item: fd('shepherds_pie_block'), count: 1 },
+            { item: mc('golden_apple'), count: 8 },
+            { item: mc('golden_carrot'), count: 32 },
+            { item: cr('experience_nugget'), count: 64 },
+        ],
+        result: {
+            id: ar('everlasting_beef')
+        },
+        required_advancement: sp('build_fusion_shrine'),
+        world_conditions: [
+            {
+                type: 'time_of_day',
+                time: 'noon'
+            }
+        ],
+        start_crafting_effect: 'nothing',
+        during_crafting_effects: [
+            'visual_explosions_on_shrine',
+            'nothing',
+            'visual_explosions_on_shrine'
+        ],
+        finish_crafting_effect: 'legendary_tool_craft'
+    })
+    .id(st('everlasting_beef'));
+
 });
 
 // Block tagging provided by kevintok
