@@ -206,7 +206,10 @@ ServerEvents.recipes(event => {
 
     // -- spectrum REMOVED RECIPES -- //
     const REMOVED_RECIPES = [
-        sp('pedestal/tier3/bottle_of_failing')
+        sp('pedestal/tier3/bottle_of_failing'),
+        ar('eternal_steak_furnace'),
+        ar('eternal_steak_smoker'),
+        ar('eternal_steak_campfire')
     ];
     REMOVED_RECIPES.forEach(id => event.remove({id: id}));
 
@@ -273,73 +276,18 @@ ServerEvents.recipes(event => {
         required_advancement: sp('endgame/finish_progression')
     });
 
-    // -- MAGIC DIAMOND -- // endgame/finish_progression
-/*     event.custom({
-        id: st('magic_diamond'),
-        type: sp('pedestal'),
-        time: 600,
-        tier: 'simple',
-        cyan: 8,
-        magenta: 8,
-        yellow: 8,
-        white: 0,
-        black: 0,
-        experience: 10.0,
-        pattern: [
-            'QSA',
-            'CDC',
-            'TSQ'
-        ],
-        key: {
-            Q: { item: sp('quitoxic_powder') },
-            S: { item: sp('shimmerstone_gem') },
-            A: { item: sp('amethyst_powder') },
-            T: { item: sp('topaz_powder') },
-            C: { item: sp('citrine_powder') },
-            D: { item: 'minecraft:diamond' }
-        },
-        result: {
-            id: 'kubejs:magic_diamond',
-            count: 1,
-        },
-        required_advancement: [
-            sp('collect_quitoxic_reeds'),
-            sp('collect_shimmerstone')
-        ]
-    }); */
+    // -- ETERNAL STEAK -- //
+    event.custom({
+        type: sp('cinderhearth'),
+        ingredient: {item: ar('everlasting_beef')},
+        time: 800,
+        experience: 1.0,
+        results: [{
+            id: ar('eternal_steak'),
+            count: 1
+        }]
+    });
 
-    // // -- QUITOXIC REEDS -- //
-    // event.custom({
-    //     id: st('quitoxic_reeds_from_coins'),
-    //     type: sp('pedestal'),
-    //     time: 200,
-    //     tier: 'simple',        
-    //     colors: {
-    //         "spectrum:cyan": 0,
-    //         "spectrum:magenta": 0,
-    //         "spectrum:yellow": 0,
-    //         "spectrum:black": 0,
-    //         "spectrum:white": 0
-    //     },
-    //     experience: 10.0,
-    //     pattern: [
-    //         '   ',
-    //         ' C ',
-    //         '   '
-    //     ],
-    //     key: {
-    //         C: { item: kj('coin_rare') }
-    //     },
-    //     result: {
-    //         id: sp('quitoxic_reeds'),
-    //         count: 3
-    //     },
-    //     required_advancement: [
-    //         sp('collect_quitoxic_reeds')
-    //     ]
-    // });
-
-    /* event.stonecutting(sp('amethyst_storage_block'), bl('polished_amethyst')); */
 });
 
 // Block tagging provided by kevintok

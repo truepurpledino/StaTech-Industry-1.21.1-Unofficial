@@ -300,5 +300,31 @@ ServerEvents.recipes(event => {
         [ { amount: 4, item: db('rocky_dirt') } ]
     );
 
+    // -- QUARTZ GLASS -- //
+    packer(
+        event,
+        st('quartz_glass'),
+        8,
+        200,
+        [
+            { amount: 5, item: ae('certus_quartz_dust') },
+            { amount: 4, tag: 'c:glass_blocks/cheap' }
 
+        ],
+        [ { amount: 4, item: ae('quartz_glass') } ]
+    );
+
+    // -- VIBRANT QUARTZ GLASS -- //
+    packer(
+        event,
+        st('vibrant_quartz_glass'),
+        8,
+        200,
+        [
+            { amount: 1, item: ae('quartz_glass') },
+            { amount: 2, item: mc('glowstone_dust') }
+
+        ],
+        [ { amount: 1, item: ae('quartz_vibrant_glass') } ]
+    );
 })

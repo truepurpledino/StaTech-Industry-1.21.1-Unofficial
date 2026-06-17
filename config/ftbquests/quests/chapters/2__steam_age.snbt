@@ -160,7 +160,7 @@
 				item: { count: 1, id: "hangglider:reinforced_hang_glider" }
 				type: "item"
 			}]
-			x: 30.5d
+			x: 33.5d
 			y: 4.5d
 		}
 		{
@@ -3463,7 +3463,7 @@
 				item: { count: 1, id: "tankstorage:tank_3" }
 				type: "item"
 			}]
-			x: 29.5d
+			x: 31.5d
 			y: 4.5d
 		}
 		{
@@ -3683,6 +3683,39 @@
 			}]
 			x: 32.0d
 			y: -12.5d
+		}
+		{
+			dependencies: ["26A89C51A7B9FFDE"]
+			id: "13FB4D096D94C939"
+			rewards: [
+				{
+					id: "58209D5E3DC8DD3A"
+					item: {
+						count: 1
+						id: "kubejs:coin_common"
+					}
+					type: "item"
+				}
+				{
+					id: "4A485F7B1D5EDA2A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "28D883800065358D"
+					table_id: 2474147679282294712L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "41C4B6BE72489D1B"
+				item: { count: 1, id: "torchmaster:megatorch" }
+				type: "item"
+			}]
+			x: 32.5d
+			y: 4.5d
 		}
 	]
 }

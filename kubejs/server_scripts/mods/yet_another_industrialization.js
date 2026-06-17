@@ -10,7 +10,8 @@ ServerEvents.recipes(event => {
     // -- YET ANOTHER INDUSTRIALIZATION REMOVED REICPES -- //
     const YET_ANOTHER_INDUSTRIALIZATION = [
         yai('assembler/arboreous_greenhouse'),
-        yai('craft/arboreous_greenhouse')
+        yai('craft/arboreous_greenhouse'),
+        yai('mixer/elytra_duplication')
     ];
     YET_ANOTHER_INDUSTRIALIZATION.forEach(id => event.remove( {id: id} ));
 

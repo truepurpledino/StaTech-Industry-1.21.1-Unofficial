@@ -178,39 +178,6 @@
 		}
 		{
 			dependencies: ["1BD496A10E957F25"]
-			id: "13FB4D096D94C939"
-			rewards: [
-				{
-					id: "58209D5E3DC8DD3A"
-					item: {
-						count: 1
-						id: "kubejs:coin_common"
-					}
-					type: "item"
-				}
-				{
-					id: "4A485F7B1D5EDA2A"
-					type: "xp"
-					xp: 10
-				}
-				{
-					exclude_from_claim_all: true
-					id: "28D883800065358D"
-					table_id: 2474147679282294712L
-					type: "random"
-				}
-			]
-			shape: "rsquare"
-			tasks: [{
-				id: "41C4B6BE72489D1B"
-				item: { count: 1, id: "torchmaster:megatorch" }
-				type: "item"
-			}]
-			x: 0.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["1BD496A10E957F25"]
 			id: "35B6D5329AD5C0F9"
 			rewards: [
 				{
