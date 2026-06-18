@@ -17,13 +17,19 @@ ServerEvents.recipes(event => {
         [ mc('jungle_sapling'),                 mc('jungle_log'),               mc('jungle_leaves'),                    mc('water') ],
         [ mc('acacia_sapling'),                 mc('acacia_log'),               mc('acacia_leaves'),                    mc('water') ],
         [ mc('mangrove_propagule'),             mc('mangrove_log'),             mc('mangrove_leaves'),                  mc('water') ],
+        [ mc('cherry_sapling'),                 mc('cherry_log'),               mc('cherry_leaves'),                    mc('water') ],
         [ mc('crimson_fungus'),                 mc('crimson_stem'),             mc('nether_wart_block'),                mi('blood') ],
         [ mc('warped_fungus'),                  mc('warped_stem'),              mc('warped_wart_block'),                mi('blood') ],
         [ nm('pine_sapling'),                   nm('pine_log'),                 nm('pine_leaves'),                      mc('water') ],
         [ nm('maple_sapling'),                  nm('maple_log'),                nm('maple_leaves'),                     mc('water') ],
         [ nm('red_maple_sapling'),              nm('maple_log'),                nm('red_maple_leaves'),                 mc('water') ],
         [ nm('walnut_sapling'),                 nm('walnut_log'),               nm('walnut_leaves'),                    mc('water') ],
-        [ nm('willow_sapling'),                 nm('willow_log'),               nm('willow_leaves'),                    mc('water') ]
+        [ nm('willow_sapling'),                 nm('willow_log'),               nm('willow_leaves'),                    mc('water') ],
+        [ nm('yellow_birch_sapling'),           mc('birch_log'),                nm('yellow_birch_leaves'),              mc('water') ],
+        [ nm('pale_cherry_sapling'),            mc('cherry_log'),               nm('pale_cherry_leaves'),               mc('water') ],
+        [ nm('autumnal_oak_sapling'),           mc('oak_log'),                  nm('autumnal_oak_leaves'),              mc('water') ],
+        [ ed('cinnamon_sapling'),               ed('cinnamon_log'),             ed('cinnamon_leaves'),                  mc('water') ],
+        [ ap('twisted_sapling'),                ap('twisted_log'),              ap('twisted_leaves'),                   mc('water') ]
     ];
 
     const spectrumSaplingList = [
@@ -85,6 +91,20 @@ ServerEvents.recipes(event => {
             ],
             [ { amount: 100, fluid: fluid } ]
         );
+
+        greenhouse(
+            event,
+            st(`${id}_npk`),
+            8,
+            1200,
+            [ { amount: 1, item: sapling, probability: 0.0 } ],
+            [
+                { amount: 32, item: log },
+                { amount: 64, item: leaves },
+                { amount: 2, item: sapling }
+            ],
+            [ { amount: 100, fluid: ei('npk_fertilizer') } ]
+        );
     });
     spectrumSaplingList.forEach( woodType => {
         let sapling = woodType[0];
@@ -126,6 +146,22 @@ ServerEvents.recipes(event => {
                 { amount: 1, item: sapling }
             ],
             [ { amount: 100, fluid: fluid } ],
+            'spectrum:polished_onyx',
+            'below'
+        );
+
+        greenhouse(
+            event,
+            st(`${id}_npk`),
+            8,
+            1200,
+            [ { amount: 1, item: sapling, probability: 0.0 } ],
+            [
+                { amount: 32, item: log },
+                { amount: 64, item: leaves },
+                { amount: 2, item: sapling }
+            ],
+            [ { amount: 100, fluid: ei('npk_fertilizer') } ],
             'spectrum:polished_onyx',
             'below'
         );
