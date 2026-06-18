@@ -18,3 +18,18 @@ ServerEvents.recipes(event => {
     // -- ARBOREOUS GREENHOUSE REMOVAL -- //
     event.remove({ type: yai('arboreous_greenhouse') })
 });
+
+ServerEvents.tags('item', event => {
+
+    const MIXED_HATCH_TIER = [
+        'bronze',
+        'steel',
+        'advanced',
+        'turbo',
+        'highly_advanced'
+    ];
+    MIXED_HATCH_TIER.forEach(id => {
+        event.add('kubejs:mixed_input_hatch', yai(`${id}_mixed_input_hatch`))
+        event.add('kubejs:mixed_output_hatch', yai(`${id}_mixed_output_hatch`))
+    });
+});
