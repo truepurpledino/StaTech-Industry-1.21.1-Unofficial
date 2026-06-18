@@ -298,9 +298,9 @@ ServerEvents.recipes(event => {
             { item: mc('beef'), count: 64 },
             { item: mc('beef'), count: 64 },
             { item: fd('shepherds_pie_block'), count: 1 },
-            { item: mc('golden_apple'), count: 8 },
+            { item: mc('golden_apple'), count: 4 },
             { item: mc('golden_carrot'), count: 32 },
-            { item: cr('experience_nugget'), count: 64 },
+            { item: sp('shimmerstone_block'), count: 8 },
         ],
         result: {
             id: ar('everlasting_beef')
