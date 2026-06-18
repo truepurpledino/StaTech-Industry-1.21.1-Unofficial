@@ -31,6 +31,9 @@ ServerEvents.generateData('after_mods', event => {
         values: {
             'modern_industrialization:benzene': {
                 eu_per_mb: 100
+            },
+            'modern_industrialization:pentaborane': {
+                eu_per_mb: 1600
             }
         }
     });

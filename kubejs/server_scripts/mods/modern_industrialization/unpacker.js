@@ -30,4 +30,24 @@ ServerEvents.recipes(event => {
         [ { amount: 9, item: kj('decorative_waxed_oxidized_copper') } ],
         [ { amount: 9, item: mc('copper_ingot') } ]
     );
+
+    // -- BRASS BLOCK TO INGOT -- //
+    unpacker(
+        event,
+        st('brass_block_to_ingot'),
+        2,
+        200,
+        [ { amount: 1, item: cr('brass_block') } ],
+        [ { amount: 9, item: cr('brass_ingot') } ]
+    );
+
+    // -- BRASS INGOT TO NUGGET -- //
+    unpacker(
+        event,
+        st('brass_ingot_to_nugget'),
+        2,
+        200,
+        [ { amount: 1, item: cr('brass_ingot') } ],
+        [ { amount: 9, item: cr('brass_nugget') } ]
+    );
 })

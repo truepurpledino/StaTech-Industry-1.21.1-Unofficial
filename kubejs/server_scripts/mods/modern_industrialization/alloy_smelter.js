@@ -53,8 +53,8 @@ ServerEvents.recipes(event => {
         4,
         200,
         [
-            { amount: 1, tag: 'c:copper_ingots' },
-            { amount: 1, tag: 'c:zinc_ingots' }
+            { amount: 1, tag: 'c:ingots/copper' },
+            { amount: 1, tag: 'c:ingots/zinc' }
         ],
         [ { amount: 2, item: cr('brass_ingot') } ]
     );

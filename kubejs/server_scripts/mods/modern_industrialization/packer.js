@@ -327,4 +327,27 @@ ServerEvents.recipes(event => {
         ],
         [ { amount: 1, item: ae('quartz_vibrant_glass') } ]
     );
+
+    // -- BRASS INGOT TO BLOCK -- //
+    packer(
+        event,
+        st('brass_ingot_to_block'),
+        2,
+        200,
+        [ 
+            { amount: 9, item: cr('brass_ingot') },
+            { amount: 1, item: mi('packer_block_template'), probability: 0.0 }
+        ],
+        [ { amount: 1, item: cr('brass_block') } ]
+    );
+
+    // -- BRASS NUGGET TO INGOT -- //
+    packer(
+        event,
+        st('brass_nugget_to_ingot'),
+        2,
+        200,
+        [ { amount: 9, item: cr('brass_nugget') } ],
+        [ { amount: 1, item: cr('brass_ingot') } ]
+    );
 })
