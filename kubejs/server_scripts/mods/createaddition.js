@@ -3,6 +3,14 @@
 // STATECH INDUSTRY UNOFFICIAL
 // -----------------------------------------
 
+ServerEvents.tags('item', event => {
+    event.remove('createaddition:large_connector_usable_rods', ca('electrum_rod'))
+})
+
+ServerEvents.tags('fluid', event => {
+    event.add('kubejs:pentaborane', mi('pentaborane')) 
+});
+
 ServerEvents.recipes(event => {
     // -- MOD NAMESPACE UTILITY FUNCTIONS -- // 
     let st = (id) => `statech:createaddition/${id}`;
@@ -146,6 +154,19 @@ ServerEvents.recipes(event => {
         superheated: true
     }).id('boosted_diesel_liquid_burning');
 
+    // -- PENTABORANE LIQUID BURNING -- //
+    event.custom({
+        type: ca('liquid_burning'),
+        burn_time: 60000,
+        ingredients: [{
+            type: 'neoforge:tag',
+            amount: 1000,
+            tag: 'kubejs:pentaborane'
+        }],
+        results: [],
+        superheated: true
+    }).id('pentaborane_liquid_burning');
+
     // -- LAVA LIQUID BURNING -- //
     event.custom({
         type: ca('liquid_burning'),
@@ -171,7 +192,3 @@ ServerEvents.recipes(event => {
     }).id('benzene_liquid_burning');
 
 });
-
-ServerEvents.tags('item', event => {
-    event.remove('createaddition:large_connector_usable_rods', ca('electrum_rod'))
-})

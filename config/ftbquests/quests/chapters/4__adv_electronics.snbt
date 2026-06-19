@@ -2446,6 +2446,7 @@
 				"3FB5440AC80A5A4F"
 				"75EB9B7B85F791B9"
 			]
+			dependency_requirement: "one_completed"
 			id: "5F7779B00391063B"
 			rewards: [{
 				id: "4D9C47BDA29DD6B8"
