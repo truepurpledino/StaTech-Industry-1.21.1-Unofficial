@@ -73,7 +73,7 @@ ServerEvents.recipes(event => {
             A: { item: cr('andesite_alloy') },
             B: { tag: 'c:plates/brass' },
             C: { item: mi('capacitor') },
-            R: { tag: 'c:rods/iron' },
+            R: { item: mi('steel_rod_magnetic') },
             S: { item: ca('copper_spool') },
             W: { item: mi('copper_cable') }
         },
