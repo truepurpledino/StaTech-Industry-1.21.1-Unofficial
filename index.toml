@@ -202,7 +202,7 @@ hash = "6bdcab5954b2ca2b6a21038ba8a642128499c4b608a4634521c82c2bbcb58a66"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/3__electrical_age.snbt"
-hash = "160654b7a8041f7c28e51a917612ddcda62159fc5360479b095e4fde45592ab9"
+hash = "6bf3ac5ea067b21e9a5889cca6d4e1b0847219d92ac58df0e4444de64ea341e6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/4__adv_electronics.snbt"
@@ -218,7 +218,7 @@ hash = "a8bcf90b301ea1f48e99afe781e0df55106c294641eea5bb16e420295a2b5639"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/7__nuclear_age.snbt"
-hash = "fdbe7d87ab7a37c1a056f848c9734b80ab047f23b866916073f34152399da668"
+hash = "81e33d91c57708a150b1a1c32b8b54729e87e6bead11c9cae47ebc0ff597ccc3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/8__quantum_age.snbt"
@@ -258,7 +258,7 @@ hash = "439ea344bc28f53049b128254377b0ea29ba791d0476d51c400918aaae76086a"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "56066e4e1526e4c3dfba1437d402248ce59cef97e69fd19addfc111b351ffecc"
+hash = "5526cd1ed3aa862c0aa9f4d9510d2058060831e5b958c72a9a850b5e03a66948"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/0542C9BA02BA96DC.snbt"
@@ -562,7 +562,7 @@ hash = "b04b7bd883ffa5d82db012fc8a0e02e996362297e52d69adb8e2bf055d75f560"
 
 [[files]]
 file = "config/solcarrot-server.toml"
-hash = "fd13b517b9b461c84b14d90cc2d67f049dbf9b8daf6965da426a7d27f89130cc"
+hash = "c8e85f79f84643f989f764b3563643f2289860f3d37f096c0389a7cfde23830f"
 
 [[files]]
 file = "config/sophisticatedbackpacks-common.toml"
@@ -7926,7 +7926,7 @@ hash = "59cc1dc814108cacc05a1a69b1e928b8eb6571c976610a913e31af70ec35a9c5"
 
 [[files]]
 file = "kubejs/server_scripts/mods/modern_industrialization/data_maps.js"
-hash = "86f74d597c88535cae69b54df95e2084163ac31004dc149b332ab02585691242"
+hash = "682d49e51068f2adea899da463f43b26a3544dc6cfdc3b7ebbb6e36a52c8ac6d"
 
 [[files]]
 file = "kubejs/server_scripts/mods/modern_industrialization/distillation_tower.js"
@@ -8086,11 +8086,11 @@ hash = "98713f7e9e45e08ac06a4c9e6d1cd282dd6844e75689afaf4a96fe5bc9679d67"
 
 [[files]]
 file = "kubejs/server_scripts/mods/yet_another_industrialization.js"
-hash = "04eb3656c562f2a5daddabb6261702d9cdb6b96bfe0f36919aebbcaae1594945"
+hash = "0b14787a303ef4120acdc2fad5f9128645972b7d338908db9aea2df1add79148"
 
 [[files]]
 file = "kubejs/server_scripts/recipe_helper.js"
-hash = "496b7c91a2a770d63748f15ee8aea4440e7c404a9520cc90339883cc36ce0cf1"
+hash = "89a1f6d32857d6478158f685d119b510abddeeebe80ba72e784703dce884603b"
 
 [[files]]
 file = "kubejs/server_scripts/silent_reload.js"
@@ -8186,7 +8186,7 @@ hash = "571bb6166a33ec9e7a03fc0323ee79981523135157d2cf680d14fec457fa55fc"
 
 [[files]]
 file = "kubejs/startup_scripts/modern_industrialization/materials.js"
-hash = "bbe470441370a706661d4277b1f57a0bea501c03b718374db8612e63e903cda7"
+hash = "6f00e7abc97f0ea91337ba2f8379c07916dc94e1ca0dd27c33a616deed8fd7a8"
 
 [[files]]
 file = "kubejs/startup_scripts/modern_industrialization/multiblocks/blood_generator.js"

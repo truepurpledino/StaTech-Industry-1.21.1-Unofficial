@@ -95,7 +95,7 @@ ServerEvents.generateData('after_mods', event => {
                 "eu_per_item": 2048
             },
             "modern_industrialization:peridot": {
-                "eu_per_item": 2058
+                "eu_per_item": 2048
             }
         }
     });
