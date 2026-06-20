@@ -44,6 +44,26 @@ ServerEvents.recipes(event => {
         [ { amount: 4, item: kj('empty_can') } ]
     );
 
+    // -- BRASS ROD -- //
+    cuttingMachine(
+        event,
+        st('brass_rod'),
+        2,
+        200,
+        [ { amount: 1, tag: 'c:ingots/brass' } ],
+        [ { amount: 2, item: ca('brass_rod') } ]
+    );
+
+    // -- STRAW -- //
+    cuttingMachine(
+        event,
+        st('straw'),
+        2,
+        200,
+        [ { amount: 1, item: mc('paper') } ],
+        [ { amount: 1, item: ca('straw') } ]
+    );
+
     // -- PIZZA SLICE -- //
     cuttingMachine(
         event,

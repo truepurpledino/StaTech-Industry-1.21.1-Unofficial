@@ -88,23 +88,15 @@ ServerEvents.recipes(event => {
         [ { amount: 1, item: mc('stone') } ]
     );
 
-    // -- RUBBER SHEETS -- //
-    // compressor(
-        // st('rubber_sheets'),
-        // 2,
-        // 200,
-        // [ { amount: 1, item: tr('rubber') } ],
-        // [ { amount: 2, item: mi('rubber_sheet') } ]
-    // );
-
-    // -- LAZURITE PLATE -- //
-    // compressor(
-        // st('lazurite_plate'),
-        // 10,
-        // 300,
-        // [ { amount: 1, item: tr('lazurite_dust') } ],
-        // [ { amount: 1, item: tr('lazurite_plate') } ]
-    // );
+    // -- BRASS SHEET -- //
+    compressor(
+        event,
+        st('brass_sheet'),
+        2,
+        100,
+        [ { amount: 1, item: cr('brass_ingot') } ],
+        [ { amount: 1, item: cr('brass_sheet') } ]
+    );
 
     // -- PAPER -- //
     compressor(

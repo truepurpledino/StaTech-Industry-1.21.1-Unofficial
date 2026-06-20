@@ -3025,5 +3025,30 @@
 			x: 10.0d
 			y: -2.5d
 		}
+		{
+			dependencies: ["15417EE9AF265E49"]
+			id: "211023F0154C839B"
+			tasks: [{
+				id: "7B645E9AC4A5554E"
+				item: { count: 1, id: "artifacts:everlasting_beef" }
+				type: "item"
+			}]
+			x: 40.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"7C6E6A8331C52A08"
+				"211023F0154C839B"
+			]
+			id: "03930F423E8275DE"
+			tasks: [{
+				id: "79B2A8F28DADCC71"
+				item: { count: 1, id: "artifacts:eternal_steak" }
+				type: "item"
+			}]
+			x: 22.0d
+			y: 16.0d
+		}
 	]
 }

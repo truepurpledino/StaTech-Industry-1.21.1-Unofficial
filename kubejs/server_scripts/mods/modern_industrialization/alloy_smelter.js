@@ -45,6 +45,19 @@ ServerEvents.recipes(event => {
         ],
         [ { amount: 1, item: xp('cognitive_alloy') } ]
     );
+
+    // -- BRASS INGOT -- //
+    alloySmelter(
+    event,
+        st('brass_ingot'),
+        4,
+        200,
+        [
+            { amount: 1, tag: 'c:ingots/copper' },
+            { amount: 1, tag: 'c:ingots/zinc' }
+        ],
+        [ { amount: 2, item: cr('brass_ingot') } ]
+    );
 /* 
     // -- REFINED IRON INGOT -- //
     alloySmelter(
@@ -85,19 +98,6 @@ ServerEvents.recipes(event => {
             { amount: 1, tag: 'c:tin_ingots' }
         ],
         [ { amount: 4, item: mi('bronze_ingot') } ]
-    );
-
-    // -- BRASS INGOT -- //
-    alloySmelter(
-    event,
-        st('brass_ingot'),
-        16,
-        200,
-        [
-            { amount: 3, tag: 'c:copper_ingots' },
-            { amount: 1, tag: 'c:zinc_ingots' }
-        ],
-        [ { amount: 4, item: tr('brass_ingot') } ]
     );
 
     // -- ELECTRUM INGOT -- //

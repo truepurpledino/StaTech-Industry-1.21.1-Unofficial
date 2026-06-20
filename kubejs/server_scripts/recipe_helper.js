@@ -200,3 +200,11 @@ let wiremill = (event, id, eu, duration, item_inputs, item_outputs) => {
 let canningMachine = (event, id, eu, duration, item_inputs, item_outputs) => {
     event.custom(newMachineRecipe(ei('canning_machine'), eu, duration, item_inputs, item_outputs)).id(id);
 }
+
+let cryogenicPrecipitator = (event, id, eu, duration, item_inputs, item_outputs, fluid_inputs, fluid_outputs) => {
+    event.custom(newMachineRecipe(yai('cryogenic_precipitator'), eu, duration, item_inputs, item_outputs, fluid_inputs, fluid_outputs)).id(id);
+}
+
+let dragonEggEnergySiphon = (event, id, eu, duration, item_inputs, item_outputs, fluid_inputs, fluid_outputs, process_conditions) => {
+    event.custom(newMachineRecipe(yai('dragon_egg_energy_siphon'), eu, duration, item_inputs, item_outputs, fluid_inputs, fluid_outputs, process_conditions)).id(id);
+}

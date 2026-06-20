@@ -51,7 +51,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: -11.5d
-			y: 2.0d
+			y: 3.5d
 		}
 		{
 			height: 1.0d
@@ -59,7 +59,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: -11.5d
-			y: 3.5d
+			y: 2.0d
 		}
 	]
 	order_index: 2
@@ -78,38 +78,7 @@
 				type: "item"
 			}]
 			x: -10.0d
-			y: 2.0d
-		}
-		{
-			id: "78DFD8815E2AE291"
-			rewards: [{
-				id: "69638EF091A8AFCE"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "305F30035C8442C2"
-				item: { count: 1, id: "artifacts:everlasting_beef" }
-				type: "item"
-			}]
-			x: -8.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["78DFD8815E2AE291"]
-			id: "1ADACCB1A8BB9E7E"
-			rewards: [{
-				id: "61D470564DCE1FA2"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "1E60959E7D475CF0"
-				item: { count: 1, id: "artifacts:eternal_steak" }
-				type: "item"
-			}]
-			x: -7.0d
-			y: 2.0d
+			y: 3.5d
 		}
 		{
 			id: "14CB47511F2D0E01"
@@ -634,7 +603,7 @@
 				type: "item"
 			}]
 			x: -10.0d
-			y: 3.5d
+			y: 2.0d
 		}
 		{
 			id: "710C5C3BAA0D5345"
@@ -649,7 +618,7 @@
 				type: "item"
 			}]
 			x: -8.5d
-			y: 3.5d
+			y: 2.0d
 		}
 		{
 			id: "4AADAF11113E6FA9"
@@ -770,6 +739,21 @@
 			}]
 			x: 0.5d
 			y: -2.5d
+		}
+		{
+			id: "73F6EF3440FCD176"
+			rewards: [{
+				id: "7FA1B6CBC8C81ADB"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "3EC01EBEDA5C1885"
+				item: { count: 1, id: "createaddition:electrum_amulet" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 3.5d
 		}
 	]
 }

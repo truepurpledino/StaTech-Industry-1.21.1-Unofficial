@@ -84,7 +84,7 @@
 				count: 1
 				id: "artifacts:umbrella"
 			}
-			weight: 0.25f
+			weight: 0.125f
 		}
 		{
 			id: "30D75C05015DC84D"
@@ -92,7 +92,7 @@
 				count: 1
 				id: "artifacts:plastic_drinking_hat"
 			}
-			weight: 0.25f
+			weight: 0.125f
 		}
 		{
 			id: "6D9059492BC507B2"
@@ -100,7 +100,7 @@
 				count: 1
 				id: "artifacts:novelty_drinking_hat"
 			}
-			weight: 0.25f
+			weight: 0.125f
 		}
 		{
 			id: "5FC25638B83ABF2E"
@@ -108,7 +108,7 @@
 				count: 1
 				id: "artifacts:snorkel"
 			}
-			weight: 0.25f
+			weight: 0.125f
 		}
 		{
 			id: "62164EDA53D106D1"
@@ -116,7 +116,7 @@
 				count: 1
 				id: "artifacts:night_vision_goggles"
 			}
-			weight: 0.25f
+			weight: 0.125f
 		}
 		{
 			id: "29D4343DCAC7C835"
@@ -124,7 +124,7 @@
 				count: 1
 				id: "artifacts:villager_hat"
 			}
-			weight: 0.25f
+			weight: 0.125f
 		}
 		{
 			id: "5F3B5012EE8C2BAE"
@@ -132,7 +132,7 @@
 				count: 1
 				id: "artifacts:superstitious_hat"
 			}
-			weight: 0.25f
+			weight: 0.125f
 		}
 		{
 			id: "3B156F1C6E37B68C"
@@ -140,7 +140,7 @@
 				count: 1
 				id: "artifacts:cowboy_hat"
 			}
-			weight: 0.25f
+			weight: 0.125f
 		}
 		{
 			id: "455225D3C4839ED5"
@@ -148,7 +148,7 @@
 				count: 1
 				id: "artifacts:anglers_hat"
 			}
-			weight: 0.25f
+			weight: 0.125f
 		}
 		{
 			id: "1CBEBECB558CA204"
@@ -156,7 +156,7 @@
 				count: 1
 				id: "artifacts:lucky_scarf"
 			}
-			weight: 0.25f
+			weight: 0.125f
 		}
 		{
 			id: "13AB20B1A9258BDB"
@@ -164,7 +164,7 @@
 				count: 1
 				id: "artifacts:scarf_of_invisibility"
 			}
-			weight: 0.25f
+			weight: 0.125f
 		}
 		{
 			id: "062581C117FEC829"
@@ -172,7 +172,7 @@
 				count: 1
 				id: "artifacts:cross_necklace"
 			}
-			weight: 0.25f
+			weight: 0.125f
 		}
 		{
 			id: "7AFAEBC5546BCEA4"
@@ -180,7 +180,7 @@
 				count: 1
 				id: "artifacts:panic_necklace"
 			}
-			weight: 0.25f
+			weight: 0.125f
 		}
 		{
 			id: "2FBACBAD87A98287"
@@ -188,7 +188,7 @@
 				count: 1
 				id: "artifacts:shock_pendant"
 			}
-			weight: 0.25f
+			weight: 0.125f
 		}
 		{
 			id: "53C3E38E0A3B6F31"
@@ -196,7 +196,7 @@
 				count: 1
 				id: "artifacts:flame_pendant"
 			}
-			weight: 0.25f
+			weight: 0.125f
 		}
 		{
 			id: "6564D8413C9084F7"
@@ -204,7 +204,7 @@
 				count: 1
 				id: "artifacts:thorn_pendant"
 			}
-			weight: 0.25f
+			weight: 0.125f
 		}
 		{
 			id: "74C0950FD9856705"
@@ -212,7 +212,7 @@
 				count: 1
 				id: "artifacts:charm_of_sinking"
 			}
-			weight: 0.25f
+			weight: 0.125f
 		}
 		{
 			id: "508521348A52F962"
@@ -220,7 +220,7 @@
 				count: 1
 				id: "artifacts:charm_of_shrinking"
 			}
-			weight: 0.25f
+			weight: 0.125f
 		}
 		{
 			id: "735945274E246354"
@@ -228,7 +228,7 @@
 				count: 1
 				id: "artifacts:cloud_in_a_bottle"
 			}
-			weight: 0.25f
+			weight: 0.125f
 		}
 		{
 			id: "4F8A7E6A0155253C"
@@ -236,7 +236,7 @@
 				count: 1
 				id: "artifacts:obsidian_skull"
 			}
-			weight: 0.25f
+			weight: 0.125f
 		}
 		{
 			id: "781491714E6D2705"
@@ -244,7 +244,7 @@
 				count: 1
 				id: "artifacts:antidote_vessel"
 			}
-			weight: 0.25f
+			weight: 0.125f
 		}
 		{
 			id: "1EC5486A2865A9C1"
@@ -252,7 +252,7 @@
 				count: 1
 				id: "artifacts:universal_attractor"
 			}
-			weight: 0.25f
+			weight: 0.125f
 		}
 		{
 			id: "62F7A65C9F9BC116"
@@ -260,7 +260,7 @@
 				count: 1
 				id: "artifacts:crystal_heart"
 			}
-			weight: 0.25f
+			weight: 0.125f
 		}
 		{
 			id: "412DF3189E94FDDB"
@@ -268,7 +268,7 @@
 				count: 1
 				id: "artifacts:helium_flamingo"
 			}
-			weight: 0.25f
+			weight: 0.125f
 		}
 		{
 			id: "162EA24DE98DE98A"
@@ -276,7 +276,7 @@
 				count: 1
 				id: "artifacts:chorus_totem"
 			}
-			weight: 0.25f
+			weight: 0.125f
 		}
 		{
 			id: "14AC324A18807B88"
@@ -284,7 +284,7 @@
 				count: 1
 				id: "artifacts:warp_drive"
 			}
-			weight: 0.25f
+			weight: 0.125f
 		}
 		{
 			id: "633AF241432B9444"
@@ -292,7 +292,7 @@
 				count: 1
 				id: "artifacts:digging_claws"
 			}
-			weight: 0.25f
+			weight: 0.125f
 		}
 		{
 			id: "4CCD847AF29DB0C8"
@@ -300,7 +300,7 @@
 				count: 1
 				id: "artifacts:feral_claws"
 			}
-			weight: 0.25f
+			weight: 0.125f
 		}
 		{
 			id: "1CACB1AE1D1EDA39"
@@ -308,7 +308,7 @@
 				count: 1
 				id: "artifacts:power_glove"
 			}
-			weight: 0.25f
+			weight: 0.125f
 		}
 		{
 			id: "7D301EC02654A51E"
@@ -316,7 +316,7 @@
 				count: 1
 				id: "artifacts:fire_gauntlet"
 			}
-			weight: 0.25f
+			weight: 0.125f
 		}
 		{
 			id: "548952A2E3C00439"
@@ -324,7 +324,7 @@
 				count: 1
 				id: "artifacts:pocket_piston"
 			}
-			weight: 0.25f
+			weight: 0.125f
 		}
 		{
 			id: "661561B58A3690CB"
@@ -332,7 +332,7 @@
 				count: 1
 				id: "artifacts:vampiric_glove"
 			}
-			weight: 0.25f
+			weight: 0.125f
 		}
 		{
 			id: "6AF7D77329E87014"
@@ -340,7 +340,7 @@
 				count: 1
 				id: "artifacts:golden_hook"
 			}
-			weight: 0.25f
+			weight: 0.125f
 		}
 		{
 			id: "58ED6B7B8428FB2F"
@@ -348,7 +348,7 @@
 				count: 1
 				id: "artifacts:onion_ring"
 			}
-			weight: 0.25f
+			weight: 0.125f
 		}
 		{
 			id: "3C599426B80907F2"
@@ -356,7 +356,7 @@
 				count: 1
 				id: "artifacts:pickaxe_heater"
 			}
-			weight: 0.25f
+			weight: 0.125f
 		}
 		{
 			id: "677A38EF3F6F9D76"
@@ -364,7 +364,7 @@
 				count: 1
 				id: "artifacts:withered_bracelet"
 			}
-			weight: 0.25f
+			weight: 0.125f
 		}
 		{
 			id: "2DEB2AD0D349B59F"
@@ -372,7 +372,7 @@
 				count: 1
 				id: "artifacts:aqua_dashers"
 			}
-			weight: 0.25f
+			weight: 0.125f
 		}
 		{
 			id: "3219DCBDAB3113DA"
@@ -380,7 +380,7 @@
 				count: 1
 				id: "artifacts:bunny_hoppers"
 			}
-			weight: 0.25f
+			weight: 0.125f
 		}
 		{
 			id: "13D962664CD27798"
@@ -388,7 +388,7 @@
 				count: 1
 				id: "artifacts:kitty_slippers"
 			}
-			weight: 0.25f
+			weight: 0.125f
 		}
 		{
 			id: "5D3883CF7F098DF5"
@@ -396,7 +396,7 @@
 				count: 1
 				id: "artifacts:running_shoes"
 			}
-			weight: 0.25f
+			weight: 0.125f
 		}
 		{
 			id: "5EE74A36E5C63878"
@@ -404,7 +404,7 @@
 				count: 1
 				id: "artifacts:snowshoes"
 			}
-			weight: 0.25f
+			weight: 0.125f
 		}
 		{
 			id: "352889B115169460"
@@ -412,7 +412,7 @@
 				count: 1
 				id: "artifacts:steadfast_spikes"
 			}
-			weight: 0.25f
+			weight: 0.125f
 		}
 		{
 			id: "555E9E08E4AF8B58"
@@ -420,7 +420,7 @@
 				count: 1
 				id: "artifacts:flippers"
 			}
-			weight: 0.25f
+			weight: 0.125f
 		}
 		{
 			id: "35EFCEAFB0928F21"
@@ -428,7 +428,7 @@
 				count: 1
 				id: "artifacts:rooted_boots"
 			}
-			weight: 0.25f
+			weight: 0.125f
 		}
 		{
 			id: "5248E4678083277D"
@@ -436,7 +436,7 @@
 				count: 1
 				id: "artifacts:strider_shoes"
 			}
-			weight: 0.25f
+			weight: 0.125f
 		}
 		{
 			id: "57C501C2448ABD0B"
@@ -444,7 +444,7 @@
 				count: 1
 				id: "artifacts:whoopee_cushion"
 			}
-			weight: 0.25f
+			weight: 0.125f
 		}
 		{ id: "1086DF6CD9C70EEC", item: { count: 1, id: "justhammers:diamond_hammer" } }
 		{ id: "0EFEAA94442FB3F0", item: { count: 1, id: "minecraft:diamond_pickaxe" } }

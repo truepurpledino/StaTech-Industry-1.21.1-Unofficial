@@ -12,7 +12,7 @@ ServerEvents.recipes(event => {
         io('machines/multi_processing_array/assembler'),
         io('shaped/craft/terminal'),
         io('shaped/craft/terminal/assembler'),
-        io('assembler/vajra/')
+        io('assembler/vajra')
     ];
     IO_DELETED_ITEMS.forEach(id => event.remove( {id: id} ));
     

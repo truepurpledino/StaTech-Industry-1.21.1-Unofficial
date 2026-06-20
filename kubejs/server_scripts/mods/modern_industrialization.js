@@ -716,4 +716,28 @@ ServerEvents.tags('item', event => {
         mi('he_mox_fuel_rod_depleted')
     ];
     DEPLETED_FUEL.forEach(id => { event.add('kubejs:depleted_nuclear_fuel', id) });
+
+    const CRUSHED_DUSTS = [
+        'bauxite',
+        'chromium',
+        'coal',
+        'cobalt',
+        'corundum',
+        'diamond',
+        'emerald',
+        'kernite',
+        'lapis',
+        'lignite_coal',
+        'manganese',
+        'monazite',
+        'peridot',
+        'quartz',
+        'redstone',
+        'salt',
+        'sapphire'
+    ];
+    CRUSHED_DUSTS.forEach(id => { 
+        event.add(`kubejs:crushed_dusts/${id}`, mi(`${id}_crushed_dust`))
+        event.add('kubejs:crushed_dusts', mi(`${id}_crushed_dust`)) 
+    });
 });

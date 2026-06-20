@@ -853,6 +853,20 @@ ServerEvents.tags('item', event => {
     ];
     BUDDING_BLOCKS.forEach(id => event.add('kubejs:budding_certus', id) );
 
+    // Remove quartz glasses from #c:glass_blocks tag
+    event.remove('c:glass_blocks', ae('quartz_glass'))
+    event.remove('c:glass_blocks', ae('quartz_vibrant_glass'))
+
+})
+
+ServerEvents.tags('block', event => {
+    // -- MOD NAMESPACE UTILITY FUNCTIONS -- // 
+    let ae = (id) => `ae2:${id}`;
+
+    // Remove quartz glasses from #c:glass_blocks tag
+    event.remove('c:glass_blocks', ae('quartz_glass'))
+    event.remove('c:glass_blocks', ae('quartz_vibrant_glass'))
+
 })
 
     // -- ADD INFO ON HOW TO GENERATE SKYSTONE -- //

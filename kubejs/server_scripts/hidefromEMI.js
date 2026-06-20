@@ -80,10 +80,38 @@ RecipeViewerEvents.removeEntriesCompletely('item', event => {
     UNUSED_GAG.forEach(id => event.remove(id));
 
     const UNUSED_YAI = [
-        yai('arboreous_greenhouse')
+        yai('arboreous_greenhouse'),
+        yai('nutrient_rich_water_bucket'),
     ]
     UNUSED_YAI.forEach(id => event.remove(id));
 
+    const UNUSED_CREATEADDITION = [
+        ca('biomass'),
+        ca('biomass_pellet'),
+        ca('biomass_pellet_block'),
+        ca('seed_oil_bucket'),
+        ca('bioethanol_bucket'),
+        ca('digital_adapter'),
+        ca('gold_wire'),
+        ca('iron_wire'),
+        ca('electrum_rod'),
+        ca('gold_rod'),
+        ca('rolling_mill'),
+        ca('capacitor')
+    ]
+    UNUSED_CREATEADDITION.forEach(id => event.remove(id));
+
+});
+
+RecipeViewerEvents.removeEntriesCompletely('fluid', event => {
+    const UNUSED_FLD = [
+        ca('seed_oil'),
+        ca('bioethanol'),
+        yai('nutrient_rich_water'),
+        mi('dragons_blood'), //might want to do something with this in the future
+        mi('impure_resonating_fluid') //might want to do something with this in the future
+    ]
+    UNUSED_FLD.forEach(id => event.remove(id));
 });
 
     // -- YET ANOTHER INDUSTRIALIZATION REMOVED MULTI -- //
@@ -94,6 +122,7 @@ RecipeViewerEvents.removeRecipes(event => {
         yai('/arboreous_greenhouse/4/1'),
         yai('/arboreous_greenhouse/4/2'),
         yai('/arboreous_greenhouse/4/3'),
-        yai('/arboreous_greenhouse/4/4')
+        yai('/arboreous_greenhouse/4/4'),
+        ca('/rolling/')
     ]);
 });

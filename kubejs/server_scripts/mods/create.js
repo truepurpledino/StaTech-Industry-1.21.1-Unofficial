@@ -56,3 +56,10 @@ ServerEvents.recipes(event => {
     // })
     // .id(st('sprinkler'));
 });
+
+ServerEvents.tags('fluid', event => {
+
+    // Remove lava from infinite source tag
+    event.remove('create:bottomless/allow', mc('lava'))
+
+})

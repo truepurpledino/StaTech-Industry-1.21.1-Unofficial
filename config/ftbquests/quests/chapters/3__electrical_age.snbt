@@ -194,13 +194,13 @@
 					type: "item"
 				}
 				{
-					count: 12L
+					count: 16L
 					id: "62AAAC31268D9187"
 					item: { count: 1, id: "factory_blocks:metalbox" }
 					type: "item"
 				}
 				{
-					count: 16L
+					count: 12L
 					id: "333FF666C4019C93"
 					item: { count: 1, id: "factory_blocks:rusty_scaffold" }
 					type: "item"

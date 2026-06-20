@@ -7,6 +7,13 @@ ItemEvents.modifyTooltips(e => {
     // -- MOD NAMESPACE UTILITY FUNCTIONS -- //
     let mi = (id) => `modern_industrialization:${id}`;
     let mt = (id) => `mi_tweaks:${id}`;
+    let yai = (id) => `yet_another_industrialization:${id}`;
+    let kj = (id) => `kubejs:${id}`;
+
+    // -- LIST OF ALL DISABLED MACHINES AND ITEMS -- //
+    // const DISABLED_MACHINES_AND_ITEMS = [
+    // ];
+
 
     // -- LIST OF ALL CUSTOM MACHINES AND ITEMS -- //
     const CUSTOM_MACHINES_AND_ITEMS = [
@@ -42,4 +49,12 @@ ItemEvents.modifyTooltips(e => {
             tooltip.add([ADDED_BY_STATECH]);
         });
     });
+
+/*     const CURRENTLY_DISABLED = Text.red('Currently Disabled');
+    DISABLED_MACHINES_AND_ITEMS.forEach(item => {
+        e.modify(item, tooltip => {
+            tooltip.add([CURRENTLY_DISABLED]);
+        });
+    }); */
+
 });

@@ -519,7 +519,7 @@ ServerEvents.tags('item', event => {
     const allparts = baseparts.concat(supplparts);
 
     MATERIALS.forEach(material => {
-        baseparts.forEach(part => {
+        allparts.forEach(part => {
             const itemId = `modern_industrialization:${material}${part}`;
             const tagCategory = part.slice(1) + 's';
             const generictag = `c:${tagCategory}`;

@@ -353,6 +353,9 @@
 		}
 		{
 			dependencies: ["51490042671E700C"]
+			icon: {
+				id: "modern_industrialization:aluminum_cable"
+			}
 			id: "55C954FA3EF76A6D"
 			rewards: [
 				{
@@ -377,7 +380,7 @@
 			]
 			tasks: [{
 				id: "33BB11CF611F3871"
-				item: { count: 1, id: "modern_industrialization:aluminum_cable" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:hv_wire)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -2.0d
@@ -622,7 +625,7 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
+			x: -1.5d
 			y: 4.5d
 		}
 		{
@@ -693,7 +696,7 @@
 				}
 			]
 			x: -1.5d
-			y: 4.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["51490042671E700C"]
@@ -3018,6 +3021,123 @@
 			]
 			x: -2.0d
 			y: -3.5d
+		}
+		{
+			dependencies: ["530E646E005FEBE1"]
+			id: "34FA4CD2E900F5F2"
+			rewards: [
+				{
+					id: "154D508E5F0470F2"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "67859081AACDCD12"
+					type: "xp"
+					xp: 75
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3D4B67FFABB41981"
+					table_id: 5923260596511522936L
+					type: "loot"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "0F5D0CFD81B4DF52"
+				item: { count: 1, id: "yet_another_industrialization:tempproof_air_intake" }
+				type: "item"
+			}]
+			x: -3.75d
+			y: 4.5d
+		}
+		{
+			dependencies: ["34FA4CD2E900F5F2"]
+			icon: {
+				id: "yet_another_industrialization:gelid_liquid_air_bucket"
+			}
+			id: "27FFD1F048B42305"
+			rewards: [
+				{
+					id: "589C459233C5991F"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "1508AD01AA52FEAB"
+					type: "xp"
+					xp: 75
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6EDEB56F80A01991"
+					table_id: 5923260596511522936L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "65DE747F38B66A04"
+					item: { count: 1, id: "yet_another_industrialization:gelid_liquid_air_bucket" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "557DCBD8B1BE5B75"
+					type: "checkmark"
+				}
+			]
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["34FA4CD2E900F5F2"]
+			icon: {
+				id: "yet_another_industrialization:scorching_liquid_air_bucket"
+			}
+			id: "4629EC25F16167DA"
+			rewards: [
+				{
+					id: "022D6278D90B9D84"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "6755371A373BA292"
+					type: "xp"
+					xp: 75
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6F2806E460D9138A"
+					table_id: 5923260596511522936L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "4D52A615D0BF775B"
+					item: { count: 1, id: "yet_another_industrialization:scorching_liquid_air_bucket" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3C1DD9FE71C9AB70"
+					type: "checkmark"
+				}
+			]
+			x: -4.5d
+			y: 6.0d
 		}
 	]
 }

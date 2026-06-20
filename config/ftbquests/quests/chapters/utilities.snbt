@@ -312,5 +312,74 @@
 			x: 6.5d
 			y: -3.0d
 		}
+		{
+			dependencies: [
+				"78DFD8815E2AE291"
+				"7C6E6A8331C52A08"
+			]
+			id: "1ADACCB1A8BB9E7E"
+			rewards: [{
+				id: "61D470564DCE1FA2"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "1E60959E7D475CF0"
+				item: { count: 1, id: "artifacts:eternal_steak" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["15417EE9AF265E49"]
+			id: "78DFD8815E2AE291"
+			rewards: [{
+				id: "69638EF091A8AFCE"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "305F30035C8442C2"
+				item: { count: 1, id: "artifacts:everlasting_beef" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			id: "793C06B4BEA61EA6"
+			rewards: [{
+				id: "1849664C3122858A"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					id: "0FFD9E1A73E410BF"
+					item: { count: 1, id: "yet_another_industrialization:machine_diagnoser" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1D0F5C0B71B1683C"
+					item: { count: 1, id: "yet_another_industrialization:industrialists_goggles" }
+					type: "item"
+				}
+				{
+					id: "25A32C9314579812"
+					item: { count: 1, id: "yet_another_industrialization:storage_slot_locker" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7D00A862F3B52D99"
+					item: { count: 1, id: "yet_another_industrialization:machine_remover" }
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: -1.5d
+		}
 	]
 }
