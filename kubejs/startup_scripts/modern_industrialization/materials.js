@@ -323,3 +323,14 @@ MIMaterialEvents.addMaterials(event => {
 MIMaterialEvents.modifyMaterial('beryllium', event => {
     event.builder.addParts('hot_ingot')
 });
+
+MIMaterialEvents.modifyMaterial('gold', event => {
+    event.builder.addParts('wire')
+});
+
+MIMaterialEvents.modifyMaterial('electrum', event => {
+    event.builder.addParts('rod')
+});
+MIMaterialEvents.modifyMaterial('iron', event => {
+    event.builder.addParts('wire')
+});
