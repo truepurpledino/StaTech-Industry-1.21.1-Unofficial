@@ -1801,6 +1801,7 @@
 			id: "481AEE82687B9630"
 			rewards: [
 				{
+					count: 3
 					id: "252F85CFFDD480F4"
 					item: {
 						count: 1

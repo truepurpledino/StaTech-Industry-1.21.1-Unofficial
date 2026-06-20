@@ -1826,6 +1826,7 @@
 	quest.23B7A8819520FB36.quest_desc: ["Changing transformers every tier &ecan be annoying&r. Thankfully there is a &aUniversal Transformer&r which allows you to transform from &9any tier&r, to &bany other tier&r! It however requires &dmachine hulls&r to designate which tiers it can transform from and to."]
 	quest.23D9328B5F627E65.quest_desc: ["Getting to the &eQuantum Circuits&r in their own is an accomplishment. These are used for all the end game MI machines and materials."]
 	quest.23D9328B5F627E65.quest_subtitle: "The Final Circuit"
+	quest.23F80A11A2F9C821.quest_desc: ["The &aTemporal Pouch&r passively stores time allowing for &ebursts of speed in the future&r. You can use it to &dspeed up machines or blocks&r. Great for long crafts or just jumpstarting a craft."]
 	quest.24027FEAD3837B46.quest_desc: ["The &bLinked Controller&r can be used to remotely activate &aRedstone Links&r by pressing a bound button."]
 	quest.240A32C6B7DD0DD5.quest_desc: [
 		"The &bSpace Suit&r is a required set of armor that will allow you to breathe (&ctemporarily&r) on planets that do not have rich enough atmospheres to breath in."
