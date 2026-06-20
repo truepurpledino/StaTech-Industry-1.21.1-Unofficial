@@ -198,7 +198,7 @@ hash = "77cd3779847bf424d8c1fb59b8822ccf282c38ab4e46bbc85e51f79f21c8b77c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/2__steam_age.snbt"
-hash = "ac1671eb7f00090c18d73eca384aa3a28dd8b680c71c3848ed6211d324fd5c69"
+hash = "6bdcab5954b2ca2b6a21038ba8a642128499c4b608a4634521c82c2bbcb58a66"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/3__electrical_age.snbt"
@@ -206,11 +206,11 @@ hash = "160654b7a8041f7c28e51a917612ddcda62159fc5360479b095e4fde45592ab9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/4__adv_electronics.snbt"
-hash = "0c8d510db491aecf708d5a338d5ab258514a2654abb96c90b516245833790823"
+hash = "090c2cf15e523f78388e433ddb90a230d46b3544517625f53ddb42c11d689e9c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/5__digital_age.snbt"
-hash = "d4669dc0b38626bc7eec9c7e888fc07c7a71516430d706f259c3256c138ab6ce"
+hash = "30906a39c24a4d3bf7452ff38dcf1ed055ec26c4bea3c4cbeb0283bf591888c9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/6__space_age.snbt"
@@ -226,23 +226,23 @@ hash = "e36250651c7813e74ab77ca21c29582859aac373b51ad0fa972ee471d1a072ac"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/artifacts.snbt"
-hash = "75b01c51f2ec6371baca726a5f28e554c53b3fd391d2048448252f26e7499b2e"
+hash = "dba678b6d7d5c5189bbb6fab6b8b9fa7e290adba23aabef688780a762f80f0c5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create.snbt"
-hash = "0cc20f8aa892c5fa9b857e3dee2a34f276f23ab8b4bcf3fdff65e98f39a82890"
+hash = "4570a1bf251fb0092ddba6822be548c42e5d58b6a062ea454d744f6e77f31ff3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/removed.snbt"
-hash = "fe168756fb970db34588144533820b6ce068e8e309b7b83c32a26b8e6623e1f5"
+hash = "e53bf86501b0d5a63c4a045531951b5e303c626c50072fb0c6e05832f2e494f9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/spectrum.snbt"
-hash = "f2f60de8ce3e9068752fe41d358e58c3870cbff308c1d3c7a4710935b5425229"
+hash = "bb8ec7ba2e77e455b369771d3c89678f3cca0264697de086b6dca46088e324e8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/utilities.snbt"
-hash = "6cc32fda31072c702e6319a32ba013072c5aad3a049cfa134a2ebb1e4be1b7e7"
+hash = "f170c543b5f52163476c8266081d899eb0b7ead5fc3e7e817ae2b396dae72614"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/welcome.snbt"
@@ -250,7 +250,7 @@ hash = "61984c9744c2925df00cd278c4231b094c7ff45aa7219229ab30cc0cf0175b86"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/world_of_food.snbt"
-hash = "903abc167c75cd2698159bd1093f0d9b31e7bc9b0cdb970d820178dd43c2fb71"
+hash = "487a65feaa757a7ca901dc00b552356f6963a6cde7d9060830c1a15f618ce97f"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -258,7 +258,7 @@ hash = "439ea344bc28f53049b128254377b0ea29ba791d0476d51c400918aaae76086a"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "a40ffcb8ed60468eb648d8dfc182ff405c5d74875087e0dba9fc6d69feeec851"
+hash = "6f9cb3f4a8cfbefd124e5360e4f56c0a29f4afce2b202f73c62f71f36444603c"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/0542C9BA02BA96DC.snbt"
@@ -5574,7 +5574,7 @@ hash = "1c2d0e4c71ee9b7f698650a7fbb8d32204e897ed68854aa852606d381dfacfdf"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips.js"
-hash = "f7e037524631d3d4ce956270a4225bb85fe3e6033032e7bb7924d42031f110f0"
+hash = "35ad394329516a4d666771a9a23c82611e9ca87c20f73fecf674e537d5e0470b"
 
 [[files]]
 file = "kubejs/config/client.json"
@@ -7750,7 +7750,7 @@ hash = "06957ee9a4b6c968b62cb2560753261e46937aa48d60345cb0b94ac6b7e38903"
 
 [[files]]
 file = "kubejs/server_scripts/hidefromEMI.js"
-hash = "7d0eece9e6876a3228e95e9b353fb0307b42c6ecaa03015b532cba643e501393"
+hash = "5a2de8097e32add0507b0f19855199fb8653e9bca53c69fafec002b7dbb90066"
 
 [[files]]
 file = "kubejs/server_scripts/mi_replicatorblacklist.js"
@@ -7822,7 +7822,7 @@ hash = "16a1dedd24b4687eff6378bd5fa1eccd168f089ff215b55c77e0054d2ea99977"
 
 [[files]]
 file = "kubejs/server_scripts/mods/createaddition.js"
-hash = "56606844f56c6dc0451713b0e99b29e8d7d3f7bde24c69adf444f4ce1f2645aa"
+hash = "1efc6afc610f7ab7c1b88c03830c20845cb244e385a0907dda43302d4792fe00"
 
 [[files]]
 file = "kubejs/server_scripts/mods/elevators.js"
@@ -7898,7 +7898,7 @@ hash = "11beb169521c87013f6fd4f0c0819a72a8193dcbb046795e1e504227200fe8bc"
 
 [[files]]
 file = "kubejs/server_scripts/mods/modern_industrialization/boss_crusher.js"
-hash = "7a0312fb71963fd6cd50be83829a2396fea96b3b635061132aff342703c0d64c"
+hash = "6e60196443b650ebd2e033a7c9dce2f67599880a4d91bb9859eb747438541e82"
 
 [[files]]
 file = "kubejs/server_scripts/mods/modern_industrialization/canning_machine.js"
@@ -7926,7 +7926,7 @@ hash = "59cc1dc814108cacc05a1a69b1e928b8eb6571c976610a913e31af70ec35a9c5"
 
 [[files]]
 file = "kubejs/server_scripts/mods/modern_industrialization/data_maps.js"
-hash = "2abda0bb3457b99a1ea2d1d24e401e13a9bb9baa4bda1b962746256fc97ee08e"
+hash = "86f74d597c88535cae69b54df95e2084163ac31004dc149b332ab02585691242"
 
 [[files]]
 file = "kubejs/server_scripts/mods/modern_industrialization/distillation_tower.js"
@@ -7966,7 +7966,7 @@ hash = "debb517d68dc7ab8c24fc9902915a562f635e8f0d73aecdbb1e1b95b585dd24a"
 
 [[files]]
 file = "kubejs/server_scripts/mods/modern_industrialization/laser_engraver.js"
-hash = "2e06789b17ea4f90ba0cfb05003b1ae8c2c6818ee67903246bd0faad3d423d53"
+hash = "0157e50052e123ab78af18b5886aa4ebed67ed482ad3c93fccc5ed6175d2ad6c"
 
 [[files]]
 file = "kubejs/server_scripts/mods/modern_industrialization/macerator.js"
@@ -7974,7 +7974,7 @@ hash = "c1aa2f59be7048a42652b5837912a32cc2c47052a5210d1865c49e51abb89665"
 
 [[files]]
 file = "kubejs/server_scripts/mods/modern_industrialization/mixer.js"
-hash = "84fc77a9255f97ab6120f5871c3c2c08a36348a482b72c697e8b3dda399deb75"
+hash = "eaedcb80a45dc611c97fb64fa6d813bc6b434d26c587b0a7a114ae62053a54af"
 
 [[files]]
 file = "kubejs/server_scripts/mods/modern_industrialization/mob_crusher.js"
@@ -8086,11 +8086,11 @@ hash = "98713f7e9e45e08ac06a4c9e6d1cd282dd6844e75689afaf4a96fe5bc9679d67"
 
 [[files]]
 file = "kubejs/server_scripts/mods/yet_another_industrialization.js"
-hash = "a2a3256f006032eba27f5d1d16daf10699b8e343393f3a14cd239ca5484b0b33"
+hash = "e2951f0a0d1ed3d5e2d6b5bc7747cf2a53c0745a223a537e96c7968ba6e5cc55"
 
 [[files]]
 file = "kubejs/server_scripts/recipe_helper.js"
-hash = "b3a575dbe4590bda87bc0d58773a358d008859bd3c8d05cffdfdbb24da4ce0db"
+hash = "496b7c91a2a770d63748f15ee8aea4440e7c404a9520cc90339883cc36ce0cf1"
 
 [[files]]
 file = "kubejs/server_scripts/silent_reload.js"
