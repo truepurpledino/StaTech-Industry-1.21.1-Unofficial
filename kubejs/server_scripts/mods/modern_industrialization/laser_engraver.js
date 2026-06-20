@@ -247,8 +247,8 @@ ServerEvents.recipes(event => {
         [ kj('wither_skeleton_model'),  ws('fragment') ],
         [ kj('guardian_model'),         mc('prismarine_shard') ],
         [ kj('witch_model'),            mc('glass_bottle') ],
-        [ kj('rabbit_model'),            mc('rabbit') ],
-        [ kj('phantom_model'),            mc('phantom_membrane') ]
+        [ kj('rabbit_model'),           mc('rabbit') ],
+        [ kj('phantom_model'),          mc('phantom_membrane') ]
     ];
     modelItemList.forEach(modelItem => {
         let model = modelItem[0];
@@ -270,7 +270,7 @@ ServerEvents.recipes(event => {
     const bossModelItemList = [
         //  Model                           Item        Amount
         [ kj('wither_model'),  kj('withered_soc'),      1 ],
-        [ kj('dragon_model'),  mc('end_crystal'),       4 ],
+        [ kj('dragon_model'),  yai('dragon_egg_siphon_catalyst'),       4 ],
         [ kj('warden_model'),  mc('echo_shard'),        4 ]
     ];
     bossModelItemList.forEach(bossModelItem => {

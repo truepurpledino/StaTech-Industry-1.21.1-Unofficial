@@ -5164,5 +5164,69 @@
 			x: -10.0d
 			y: -8.0d
 		}
+		{
+			dependencies: ["62F258EECCFC72ED"]
+			id: "06DC38EE86EB4D74"
+			rewards: [{
+				id: "442733047405F704"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "0825F482D3ED4216"
+				item: { count: 1, id: "yet_another_industrialization:ai_slop" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["62F258EECCFC72ED"]
+			id: "23C7841FF259A559"
+			rewards: [{
+				id: "2AC213DF53241ADD"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "5BD657AE9E494663"
+				item: { count: 1, id: "yet_another_industrialization:cachaca" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["62F258EECCFC72ED"]
+			id: "796E1BA60C458EA6"
+			rewards: [{
+				id: "7AD39F575F1CD841"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "494F597FBACBC02E"
+				item: { count: 1, id: "yet_another_industrialization:ultradense_metal_ball_burger" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["62F258EECCFC72ED"]
+			id: "23EBC2CCC00F656E"
+			rewards: [{
+				id: "56FD08634BB433B4"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "307B25176739AF42"
+				item: { count: 1, id: "modern_industrialization:mixed_ingot_iridium" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.5d
+		}
 	]
 }

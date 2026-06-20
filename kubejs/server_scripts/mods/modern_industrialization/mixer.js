@@ -496,6 +496,21 @@ ServerEvents.recipes(event => {
             [ { amount: 200, fluid: mi('nutrient_rich_blood') } ]
         );
 
+        // -- NUTRIENT RICH LAVA -- //
+        mixer(
+            event,
+            st(`nutrient_rich_lava_from_${fertilizer[0]}`),
+            8,
+            200,
+            null,
+            null,
+            [ 
+                { amount: 100, fluid: mc('lava') },
+                { amount: fertilizer[1], fluid: ei(fertilizer[0]) }
+            ],
+            [ { amount: 200, fluid: yai('nutrient_rich_lava') } ]
+        );
+
         // -- NUTRIENT RICH LIQUID ENDER -- //
         mixer(
             event,
@@ -513,7 +528,7 @@ ServerEvents.recipes(event => {
 
     });
 
-        // -- NUTRIENT RICH WATER -- //
+    // -- NUTRIENT RICH WATER -- //
     mixer(
         event,
         st('nutrient_rich_water_from_bonemeal'),
@@ -547,6 +562,18 @@ ServerEvents.recipes(event => {
         null,
         [ { amount: 100, fluid: mi('blood') } ],
         [ { amount: 100, fluid: mi('nutrient_rich_blood') } ]
+    );
+
+    // -- NUTRIENT RICH LAVA -- //
+    mixer(
+        event,
+        st('nutrient_rich_lava_from_bonemeal'),
+        8,
+        200,
+        [ { amount: 1, item: mc('bone_meal') } ],
+        null,
+        [ { amount: 100, fluid: mc('lava') } ],
+        [ { amount: 100, fluid: yai('nutrient_rich_lava') } ]
     );
 
     // -- UTILITY FUNCTION FOR THE FOLLOWING FOREACH -- //

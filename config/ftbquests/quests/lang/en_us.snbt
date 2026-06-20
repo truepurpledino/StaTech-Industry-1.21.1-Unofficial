@@ -1138,6 +1138,7 @@
 	quest.16B36E59F82D7938.quest_desc: ["A very versatile &drubber-like chemical&r. Can be used to make &ecables&r, &2RAM&r, and the best ratio for &3Rubber Sheets&r."]
 	quest.16B36E59F82D7938.title: "Styrene-Butadiene Rubber"
 	quest.16C7A2586255ADCA.quest_desc: ["Grants increased mining speed after having eaten."]
+	quest.16D0778B17CB206A.quest_desc: ["A way to generate energy from &dDragon's Breath&r. Becomes more viable once you unlock the &3&lBoss Crusher&r&r in &9Chapter 5&r."]
 	quest.16D396BA471F042E.quest_desc: ["&aEthylene&r is used in the production of &3Ethylbenzene&r, &2Ethanol&r, and &bPolyethylene&r."]
 	quest.16D396BA471F042E.title: "Ethylene"
 	quest.16FC72D878F9B6FB.quest_desc: ["&aDustrial Decor&f is a decorative mod that aims to add an industrial look to your builds. You can view everything you can make with this mod by searching &e@dustrialdecor&f in &dREI&f."]
@@ -1842,6 +1843,12 @@
 	]
 	quest.2414DEE44DADFBE4.quest_desc: ["The &aFerocious Bident&r is the result of combining a &bBident&r and a &3Pocket Thunderstorm&r. Hurl yourself into the air and damage everything in your path, even in the driest of deserts! Well, that is if you don't run out of &dink&r... The ability scales with the level of &5Riptide&r."]
 	quest.243A29040C083111.quest_desc: ["&cStratine&r is a very &4heavy&r ore is scattered around the depths of the &cNether&r. It's probably &enot the best idea to carry &llarge&r&e amounts of it home at once."]
+	quest.246812614B3AAD68.quest_desc: [
+		"The &bNumisatic &mDynamo&r &bGenerator&r allows you to generate &2&opower from gems&r&r. "
+		""
+		"&oWorks well if you have a lot of gems in the early game, but you should look into getting some coal...&r"
+	]
+	quest.246812614B3AAD68.quest_subtitle: "Seems Familiar..."
 	quest.2478F4D9F70204A9.quest_desc: [
 		"&aEnder Tanks&r are exactly like &bEnder Chests&r, but they can store fluids instead."
 		""
@@ -2043,6 +2050,7 @@
 		"It only needs to be applied to your chest piece. From testing, this doesn't appear to work on chestplates that are rechargeable (Gravichestplate, Nano Chestplate, etc.)"
 	]
 	quest.27CD6298402490F1.title: "Space Fire Proof"
+	quest.27D37976F35BB3E7.quest_desc: ["The &aConfigurable Mixed Storage&r is a combination of the &eConfigurable Chest&r and the &eConfigurable Tank&r."]
 	quest.27E1D6ADECEF5F5C.quest_desc: [
 		"The &bMechanical Mixer&r and &aBasin&r will allow you to mix certain dusts and ingots. If you've followed normal &eChapter&r progression, you will have made this to access &eModern Industrialization&r."
 		""
@@ -3782,6 +3790,8 @@
 		""
 		"You can replicate them by using &eBonemeal&r!"
 	]
+	quest.4DB8D413C973602D.quest_desc: ["Can &areplace&r an &l&9output hatch&r&r on a multiblock and &4&ovoid the output&r&r."]
+	quest.4DB8D413C973602D.title: "Trash Can Hatches"
 	quest.4DB9199C90EF1028.quest_desc: [
 		"While bearing some similarity to &aFluix ME Covered Cables&r in appearance, the &bFluix ME Smart Cable&r provides diagnostic function by visualizing the channel usage on the cables, the channels appear as lit colored lines that run along the black stripe on the cables giving you an understanding of how your channels are being used on your network. The first four channels show as lines matching the color of the cable, the next four show as white lines."
 		""
@@ -4621,6 +4631,8 @@
 	quest.5AB473BF5D9953D0.title: "An Organic Material"
 	quest.5ABC7CE1A9B9FB7C.quest_desc: ["The wearer can sprint on water"]
 	quest.5ACF260F9E41D82C.quest_desc: ["The &dAdvanced Magnet&r has a bigger range than the regular &9Magnet&r and can use filters! You can access these options by &eshift right-clicking&r."]
+	quest.5AD00F71DB16C98F.quest_desc: ["The &bCryogenic Precipitator&r can produce both &9&ocold items&r&r (ice, snow, etc.) and &4&ohot items&r&r (basalt, obsidian, etc.) when provided with fluid inputs, including &#23038Dwater&r, &clava&r, and &3cryofluid&r."]
+	quest.5AD00F71DB16C98F.quest_subtitle: "Chilly..."
 	quest.5AE17FE1577DF9E2.quest_desc: [
 		"The &bTungstensteel Barrel&r can store &e32,768 stacks of a single item&r. A full stack of full barrels is over &d1 million stacks&r. "
 		""
@@ -6497,6 +6509,7 @@
 	task.21983C88538FAB05.title: "12x Polished Pillars"
 	task.21D065C3333A9356.title: "Click to Acknowledge"
 	task.21FBBF8514DA6BD8.title: "Any Energy Output Hatch"
+	task.220375750110AF29.title: "Any Fluid Output Hatch"
 	task.2251797FE307AA33.title: "Click to Acknowledge"
 	task.227C74C617BC0803.title: "Any Energy Input Hatch"
 	task.22A19D386B745494.title: "Any Colored Sapling"
@@ -6512,12 +6525,14 @@
 	task.23998E6F98104B1C.title: "Click to Acknowledge"
 	task.23AD6831034627BC.title: "NYI"
 	task.23C98B88322298BA.title: "Any LV Cable"
+	task.23E94972F126119A.title: "Any Item Input Hatch"
 	task.2433E096E500F786.title: "NYI"
 	task.246AFACD07303FED.title: "Any Energy Input Hatch"
 	task.2489437F5FA43484.title: "Click to Acknowledge"
 	task.24E249513077CFCA.title: "Any Item Input Hatch"
 	task.24EC67ACAE9F584E.title: "I've done this!"
 	task.25215EADA043FD7E.title: "Moving Fluids"
+	task.256017D09D478568.title: "Any Energy Output Hatch"
 	task.256C4B8C4420BDF3.title: "Any Fluid Output Hatch"
 	task.2592C37F835AB817.title: "Any Item Pipes"
 	task.259666AAE5306DAC.title: "NYI"
@@ -6610,6 +6625,7 @@
 	task.3B19D63490967A0A.title: "Click to Acknowledge"
 	task.3BDA06A26C350CF6.title: "Any Fluid Input Hatch"
 	task.3BF6E544CCA8C9A5.title: "NYI"
+	task.3C1DD9FE71C9AB70.title: "I've done this!"
 	task.3C60ABCB2979A2E5.title: "Any Energy Input Hatch"
 	task.3C7783942E2E2887.title: "12x Polished Slabs"
 	task.3C84BEA2BBA32341.title: "I've done this!"
@@ -6729,6 +6745,7 @@
 	task.55155168C1E944DB.title: "NYI"
 	task.553DB49E0661F33A.title: "4x Chiseled Polished Blocks"
 	task.55525B288D7B8AAF.title: "Any Item Output Hatch"
+	task.557DCBD8B1BE5B75.title: "I've done this!"
 	task.55CD90130C650A1E.title: "NYI"
 	task.55E5DFB0C4215662.title: "Click to Acknowledge"
 	task.5600584D21C7541F.title: "NYI"
@@ -6784,6 +6801,7 @@
 	task.6046579788B293D6.title: "NYI"
 	task.605E3482C4127DE0.title: "Any Energy Input Hatch"
 	task.60912CE2E822DC7D.title: "Click to Acknowledge"
+	task.60A2890114181863.title: "Any Fluid Input Hatch"
 	task.60C91BC029546E34.title: "Click to Acknowledge"
 	task.60CD2056096646A8.title: "NYI"
 	task.60D5ED6299C650F2.title: "NYI"

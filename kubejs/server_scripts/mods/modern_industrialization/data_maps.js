@@ -57,6 +57,48 @@ ServerEvents.generateData('after_mods', event => {
             }
         }
     });
+
+    // -- NUMISMATIC GENERATOR CURRENCY -- //
+    event.json('yet_another_industrialization:data_maps/item/numismatic_generator_currency', {
+        values: {
+            "minecraft:diamond": {
+                "eu_per_item": 8192
+            },
+            "minecraft:emerald": {
+                "eu_per_item": 6144
+            },
+            "minecraft:amethyst_shard": {
+                "eu_per_item": 1024
+            },
+            "minecraft:lapis_lazuli": {
+                "eu_per_item": 512
+            },
+            "minecraft:quartz": {
+                "eu_per_item": 512
+            },
+            "minecraft:prismarine_crystals": {
+                "eu_per_item": 512
+            },
+            "ae2:certus_quartz_crystal": {
+                "eu_per_item": 1024
+            },
+            "ae2:fluix_crystal": {
+                "eu_per_item": 2048
+            },
+            "extendedae:entro_crystal": {
+                "eu_per_item": 3072
+            },
+            "modern_industrialization:corundum": {
+                "eu_per_item": 4096
+            },
+            "modern_industrialization:sapphire": {
+                "eu_per_item": 2048
+            },
+            "modern_industrialization:peridot": {
+                "eu_per_item": 2058
+            }
+        }
+    });
     
     // -- FLIGHT PYLON TIERS -- //
     event.json('yet_another_industrialization:data_maps/block/flight_pylon_tier', {

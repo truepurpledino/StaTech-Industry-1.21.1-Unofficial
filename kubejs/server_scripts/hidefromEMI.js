@@ -80,7 +80,8 @@ RecipeViewerEvents.removeEntriesCompletely('item', event => {
     UNUSED_GAG.forEach(id => event.remove(id));
 
     const UNUSED_YAI = [
-        yai('arboreous_greenhouse')
+        yai('arboreous_greenhouse'),
+        yai('nutrient_rich_water_bucket'),
     ]
     UNUSED_YAI.forEach(id => event.remove(id));
 
@@ -103,11 +104,14 @@ RecipeViewerEvents.removeEntriesCompletely('item', event => {
 });
 
 RecipeViewerEvents.removeEntriesCompletely('fluid', event => {
-    const UNUSED_CREATEADDITION_FLD = [
+    const UNUSED_FLD = [
         ca('seed_oil'),
-        ca('bioethanol')
+        ca('bioethanol'),
+        yai('nutrient_rich_water'),
+        mi('dragons_blood'), //might want to do something with this in the future
+        mi('impure_resonating_fluid') //might want to do something with this in the future
     ]
-    UNUSED_CREATEADDITION_FLD.forEach(id => event.remove(id));
+    UNUSED_FLD.forEach(id => event.remove(id));
 });
 
     // -- YET ANOTHER INDUSTRIALIZATION REMOVED MULTI -- //

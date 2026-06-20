@@ -30,13 +30,13 @@ ServerEvents.recipes(event => {
         600,
         [ { amount: 1, item: kj('dragon_model') } ],
         [
-            { amount: 1, item: mc('dragon_egg') },
-            { amount: 64, item: mc('dragon_breath') },
+            { amount: 32, item: mc('dragon_breath') },
             { amount: 64, item: cr('experience_nugget') },
+            { amount: 1, item: mc('dragon_egg'), probability: 0.05 },
             { amount: 1, item: mc('elytra'), probability: 0.05 }
         ],
         [ { amount: 500, fluid: mi('molten_enderium') } ],
-        [ { amount: 500, fluid: mi('dragons_blood') } ]
+        [ { amount: 500, fluid: yai('dragon_breath') } ]
     );
 
     // -- WARDEN MODEL -- //
@@ -50,9 +50,11 @@ ServerEvents.recipes(event => {
             { amount: 8, item: mc('sculk_shrieker') },
             { amount: 64, item: mc('sculk') },
             { amount: 16, item: mc('echo_shard') },
-            { amount: 16, item: mc('amethyst_shard') }
+            { amount: 16, item: mc('amethyst_shard') },
+            { amount: 64, item: cr('experience_nugget') },
+            { amount: 64, item: cr('experience_nugget') }
         ],
         [ { amount: 500, fluid: mi('molten_enderium') } ],
-        [ { amount: 500, fluid: mi('impure_resonating_fluid')}]
+        [ { amount: 1000, fluid: mi('liquid_ender')}]
     );
 });

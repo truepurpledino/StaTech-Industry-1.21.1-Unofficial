@@ -4165,7 +4165,7 @@
 					type: "item"
 				}
 			]
-			x: 7.5d
+			x: 6.75d
 			y: 5.25d
 		}
 		{
@@ -4178,6 +4178,151 @@
 			}]
 			x: 5.5d
 			y: -8.5d
+		}
+		{
+			dependencies: ["1AA4844D1D10B834"]
+			id: "27D37976F35BB3E7"
+			rewards: [
+				{
+					count: 7
+					id: "70C31240FFA5F212"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "3DC06FE08D84A67A"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2FE2C9C84CD016C1"
+					table_id: 379087119399425756L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 2L
+				id: "63B0777EEC72CC7A"
+				item: { count: 1, id: "yet_another_industrialization:configurable_mixed_storage" }
+				type: "item"
+			}]
+			x: 26.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1F46D51397CE34AC"]
+			icon: {
+				id: "yet_another_industrialization:dragon_egg_energy_siphon"
+			}
+			id: "16D0778B17CB206A"
+			rewards: [
+				{
+					count: 5
+					id: "5FE5C9FAA478C528"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "42F8A4251A02C26E"
+					type: "xp"
+					xp: 40
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5B73B69EC7CDBDD2"
+					table_id: 8811145634920634486L
+					type: "loot"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					id: "16AD72D533617C1D"
+					item: { count: 1, id: "yet_another_industrialization:dragon_egg_energy_siphon" }
+					type: "item"
+				}
+				{
+					id: "4D476BDE11D3F8D1"
+					item: { count: 1, id: "minecraft:dragon_egg" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "65A293A2119C62DF"
+					item: { count: 1, id: "minecraft:glass" }
+					type: "item"
+				}
+				{
+					count: 13L
+					id: "3A9D9C79C18C0B7F"
+					item: { count: 1, id: "yet_another_industrialization:steel_plated_end_stone_bricks" }
+					type: "item"
+				}
+				{
+					id: "23E94972F126119A"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:item_input_hatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "60A2890114181863"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:fluid_input_hatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "220375750110AF29"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:fluid_output_hatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "256017D09D478568"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:energy_output_hatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 5.25d
+		}
+		{
+			dependencies: ["54AA08D0869CB19B"]
+			id: "5AD00F71DB16C98F"
+			rewards: [
+				{
+					count: 3
+					id: "56518CEFBF8985DD"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "739633D7B45858C9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5B0F94F2C31BAD19"
+					table_id: 379087119399425756L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "199946C15B38E05B"
+				item: { count: 1, id: "yet_another_industrialization:cryogenic_precipitator" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
 		}
 	]
 }
