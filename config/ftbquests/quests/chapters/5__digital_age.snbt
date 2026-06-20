@@ -353,6 +353,9 @@
 		}
 		{
 			dependencies: ["51490042671E700C"]
+			icon: {
+				id: "modern_industrialization:aluminum_cable"
+			}
 			id: "55C954FA3EF76A6D"
 			rewards: [
 				{
@@ -377,7 +380,7 @@
 			]
 			tasks: [{
 				id: "33BB11CF611F3871"
-				item: { count: 1, id: "modern_industrialization:aluminum_cable" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:hv_wire)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -2.0d

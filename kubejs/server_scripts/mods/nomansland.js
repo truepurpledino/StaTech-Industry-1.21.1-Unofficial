@@ -3,6 +3,26 @@
 // STATECH INDUSTRY
 // -----------------------------------------
 
+ServerEvents.tags('worldgen/biome', event => {
+
+    event.add('c:is_cold/overworld', [
+        nm('frozen_shore'),
+        nm('frozen_woods'),
+        nm('maple_grove'),
+        nm('maple_grove'),
+        nm('dark_taiga'),
+        nm('bog')
+    ]);
+
+    event.add('c:is_hot/overworld', [
+        nm('tropical_beach'),
+        nm('prairie'),
+        nm('lush_river'),
+        nm('desert_river'),
+        nm('bayou')
+    ]);
+});
+
 ServerEvents.recipes(event => {
     // -- MOD NAMESPACE UTILITY FUNCTIONS -- //
     let st = (id) => `statech:nomansland/${id}`;

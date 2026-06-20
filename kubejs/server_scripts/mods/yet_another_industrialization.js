@@ -12,8 +12,6 @@ ServerEvents.recipes(event => {
         yai('assembler/arboreous_greenhouse'),
         yai('craft/arboreous_greenhouse'),
         yai('mixer/elytra_duplication'),
-        yai('assembler/pulse_detonation_generator'),
-        yai('craft/pulse_detonation_generator'),
         yai('centrifuge/nutrient_rich_water'),
         yai('centrifuge/nutrient_rich_lava'),
         yai('cryogenic_precipitator/blue_ice_nutrient'),

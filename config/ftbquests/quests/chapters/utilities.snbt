@@ -347,5 +347,39 @@
 			x: 5.0d
 			y: 0.0d
 		}
+		{
+			id: "793C06B4BEA61EA6"
+			rewards: [{
+				id: "1849664C3122858A"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					id: "0FFD9E1A73E410BF"
+					item: { count: 1, id: "yet_another_industrialization:machine_diagnoser" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1D0F5C0B71B1683C"
+					item: { count: 1, id: "yet_another_industrialization:industrialists_goggles" }
+					type: "item"
+				}
+				{
+					id: "25A32C9314579812"
+					item: { count: 1, id: "yet_another_industrialization:storage_slot_locker" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7D00A862F3B52D99"
+					item: { count: 1, id: "yet_another_industrialization:machine_remover" }
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: -1.5d
+		}
 	]
 }

@@ -2057,6 +2057,8 @@
 		"As of &aStaTech Industry 1.0.3&r all &eFarmer's Delight&r recipes can be processed in a &cHeated Basin&r with a &3Mixer&r. "
 	]
 	quest.27E1D6ADECEF5F5C.title: "Mixer \\& Basin"
+	quest.27FFD1F048B42305.quest_desc: ["Generated in &oNon-Overworld&r &9Cold Biomes&r"]
+	quest.27FFD1F048B42305.quest_subtitle: "Brrrr"
 	quest.28059136178A5F96.title: "Bowled Foods"
 	quest.28085F3A36D76791.quest_desc: ["In some areas just above &ebedrock&r I noticed a striking &bblue aura&r. These auras, accompanied by &3soft humming&r, seem to be caused by giant deposits of rich &bblue ore&r. It is buried within rock in rare, but giant clusters..."]
 	quest.28085F3A36D76791.title: "A New Ore"
@@ -2657,6 +2659,12 @@
 	]
 	quest.34EC66DC503EE2AD.quest_subtitle: "Tedious but rewarding!"
 	quest.34EC66DC503EE2AD.title: "CHANNELS!"
+	quest.34FA4CD2E900F5F2.quest_desc: [
+		"Used to generate &o&4Scorching Liquid Air&r&r and &o&9Gelid Liquid Air&r&r in a &dPressurizer&r. The liquid airs can be combined in a &eHeat Exchanger&r to generate &f&lsteam&r&r."
+		""
+		"&oThe liquid airs may have a forthcoming use...&r"
+	]
+	quest.34FA4CD2E900F5F2.quest_subtitle: "Icy Hot"
 	quest.3505E9029F3CEAD0.quest_desc: [
 		"&eMotors, Pumps, Robot Arms, Conveyors, and Pistons&r are key components moving forward for a lot of the machines you will be making."
 		""
@@ -3482,6 +3490,8 @@
 		"I'd recommend focusing on &3Polyethylene&r and &cSulfuric Acid&r production for now."
 	]
 	quest.460D8C9E5BF1E1BE.title: "Petrochemistry"
+	quest.4629EC25F16167DA.quest_desc: ["Generated in &oNon-Overworld&r &4Hot Biomes&r"]
+	quest.4629EC25F16167DA.quest_subtitle: "It burns!"
 	quest.4679B4825F85EBB5.quest_desc: [
 		"You're going to struggle to properly form metals into the shapes you need to begin your factory. You'll need a &aproper workstation&r to achieve this goal. Using a &ehammer&r on four &biron ingots&r you will be able to form your first &aIron Plate&r. With these you can combine them together to make &3Large Iron Plates&r. These will form the top of your &eForge Hammer&r."
 		""
@@ -3539,6 +3549,12 @@
 	]
 	quest.47B1F3B024E8F7CD.title: "Digital Circuit Components"
 	quest.47D3834E67A0995D.quest_desc: ["Now that you can process &bAluminum&r, you can now process &bAdvanced Machine Casings&r. These are the main component in making &2Advanced Machine Hulls&r."]
+	quest.481AEE82687B9630.quest_desc: [
+		"The &d&lPulse Detonation Generator&r&r uses an &6&oexplosive&r&r and a &9&ofluid&r&r to generate power."
+		""
+		"&oHow viable is it?&r"
+	]
+	quest.481AEE82687B9630.quest_subtitle: "Kaboom!"
 	quest.48317EF53F769C1B.quest_desc: [
 		"The &aAlternator&r and &3Electric Motor&r from &6Create: Crafts \\& Additions&r can be used to integrate &6Create&r into your &bpower network&r."
 		""
@@ -4339,6 +4355,7 @@
 		""
 		"These cables can transfer up to &e8192 EU/t&r and have an internal buffer of&6 8192 EU&r."
 	]
+	quest.55C954FA3EF76A6D.title: "HV Cables"
 	quest.55CFC7734B5059E2.quest_desc: [
 		"My magnum opus of Azure Dike! The machinations of the preservation structures have puzzled me for so long, but I have finally made progress in replicating them!"
 		""
@@ -6047,6 +6064,8 @@
 	quest.7923688DB9B9FDA3.quest_subtitle: "Massive wireless power transmission."
 	quest.7937A68567C5A83E.quest_desc: ["The &aCirclet of Arrogance&r gives you the &4Ascension&r buff in wearable form. If your mere existence wasn't in danger every time you get hit too hard, you would not hesitate for a second to put it on. &o&bBut should you really...&r&r? &c&lOf course&r&r."]
 	quest.7937A68567C5A83E.quest_subtitle: "Test Your Hubris"
+	quest.793C06B4BEA61EA6.quest_desc: ["YAI offers a few utility items to make your life easier!"]
+	quest.793C06B4BEA61EA6.title: "YAI Utility Items"
 	quest.7940D8A4ECBD6541.quest_desc: ["Increases the wearer's attack speed"]
 	quest.79775FEF0728E11F.quest_desc: [
 		"Dug into the ground by &dlightning strikes&r, you found these stones vibrating in your hand due to the inherent static. Used in the &aFusion Shrine&r, you can use them to summon &dthunderstorms&r yourself. "
@@ -6394,6 +6413,7 @@
 	task.03D44CD9E74F3497.title: "Any Energy Input Hatch"
 	task.0432DAB1DD87D21D.title: "Any Energy Input Hatch"
 	task.0472D36D743812BA.title: "Click to Acknowledge"
+	task.0518376B59D54A78.title: "Any Item Input Hatch"
 	task.05EE083C303D0E3D.title: "Any Pure Pigment"
 	task.0678CC4CC5D8D28B.title: "Any Glowblock"
 	task.06B95AF21897C47B.title: "Any Item Input Hatch"
@@ -6596,6 +6616,7 @@
 	task.3252A3818E1B4B78.title: "Click to Acknowledge"
 	task.326781AC5DF798FB.title: "17x Polished Slabs"
 	task.336B85DC10B9D956.title: "Any Runic Boots"
+	task.33BB11CF611F3871.title: "Any HV Cable"
 	task.34090824E7A87B60.title: "Click to Acknowledge"
 	task.349CEA7E862FC482.title: "Any Item Output Hatch"
 	task.34BA2E902145A0AF.title: "Click to Acknowledge"
@@ -6607,6 +6628,7 @@
 	task.35A061877D5EE6C4.title: "NYI"
 	task.36502299AE18685A.title: "NYI"
 	task.367F8C3925763AB8.title: "Click to Acknowledge"
+	task.3750401D20388C6C.title: "Any Fluid Output Hatch"
 	task.3759329D7AB3E02D.title: "Any Energy Input Hatch"
 	task.37A29FCBDD477602.title: "NYI"
 	task.37CF0AB273567327.title: "Click to Acknowledge"
@@ -6627,6 +6649,7 @@
 	task.3BF6E544CCA8C9A5.title: "NYI"
 	task.3C1DD9FE71C9AB70.title: "I've done this!"
 	task.3C60ABCB2979A2E5.title: "Any Energy Input Hatch"
+	task.3C751FA87E6333B2.title: "Any EV Cable"
 	task.3C7783942E2E2887.title: "12x Polished Slabs"
 	task.3C84BEA2BBA32341.title: "I've done this!"
 	task.3CE135A5298E5A62.title: "Any Fluid Input Hatch"
@@ -6863,6 +6886,7 @@
 	task.70B13DBDC276B4EA.title: "Click to Acknowledge"
 	task.70B5D68C2F8990BD.title: "Any Energy Input Hatch"
 	task.70CF3C821C58C99D.title: "NYI"
+	task.7152BA35FCEA6C75.title: "Any Energy Output Hatch"
 	task.715FCED80BE32380.title: "77x Polished Blocks"
 	task.717FB8F4A7EECBB1.title: "Any Fluid Input Hatch"
 	task.71F933980C0150B9.title: "Any Colored Spore Blossom"
@@ -6926,5 +6950,6 @@
 	task.7F08D344CEBF5EEA.title: "Click to Acknowledge"
 	task.7F2915A7CEE76E01.title: "Any Fluid Output Hatch"
 	task.7F45C2A885F40EA7.title: "4x Onyx Chiseled Blocks"
+	task.7F977398859D1046.title: "Any Fluid Input Hatch"
 	task.7FEC80858FC7EF78.title: "Any Energy Input Hatch"
 }
