@@ -210,7 +210,7 @@ hash = "090c2cf15e523f78388e433ddb90a230d46b3544517625f53ddb42c11d689e9c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/5__digital_age.snbt"
-hash = "30906a39c24a4d3bf7452ff38dcf1ed055ec26c4bea3c4cbeb0283bf591888c9"
+hash = "82208e71d1a748b4c83d2233490383a74ce144bcd70c9f65f44cbfc9f8b9b0a9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/6__space_age.snbt"
@@ -218,7 +218,7 @@ hash = "a8bcf90b301ea1f48e99afe781e0df55106c294641eea5bb16e420295a2b5639"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/7__nuclear_age.snbt"
-hash = "121721abead4d929dd73eaa51005351c393a96143a9d9ea928681581f50d95ba"
+hash = "fdbe7d87ab7a37c1a056f848c9734b80ab047f23b866916073f34152399da668"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/8__quantum_age.snbt"
@@ -242,7 +242,7 @@ hash = "bb8ec7ba2e77e455b369771d3c89678f3cca0264697de086b6dca46088e324e8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/utilities.snbt"
-hash = "f170c543b5f52163476c8266081d899eb0b7ead5fc3e7e817ae2b396dae72614"
+hash = "736031d63db41f2ed6155355480746e1bdbe9f52aec7b0923903147634959e11"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/welcome.snbt"
@@ -258,7 +258,7 @@ hash = "439ea344bc28f53049b128254377b0ea29ba791d0476d51c400918aaae76086a"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "6f9cb3f4a8cfbefd124e5360e4f56c0a29f4afce2b202f73c62f71f36444603c"
+hash = "56066e4e1526e4c3dfba1437d402248ce59cef97e69fd19addfc111b351ffecc"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/0542C9BA02BA96DC.snbt"
@@ -5574,7 +5574,7 @@ hash = "1c2d0e4c71ee9b7f698650a7fbb8d32204e897ed68854aa852606d381dfacfdf"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips.js"
-hash = "35ad394329516a4d666771a9a23c82611e9ca87c20f73fecf674e537d5e0470b"
+hash = "86950c13de1da88b458110e3f87b5070ce40d3970d2214c3f26da099a50310fe"
 
 [[files]]
 file = "kubejs/config/client.json"
@@ -8046,7 +8046,7 @@ hash = "9d13fa7fe5cfc5dfe8b8ecca6149ddbc394e0b3cae5d3b2d35f3fec8432bc91e"
 
 [[files]]
 file = "kubejs/server_scripts/mods/nomansland.js"
-hash = "2138f3ba1211036463440390c98ddb8d78bff5cb72993f73ad8a29ef1610e430"
+hash = "018e1eda2dd7dce0ba266127d13da5230687d001d2567cd85d5027d93784947d"
 
 [[files]]
 file = "kubejs/server_scripts/mods/pipe_connector.js"
@@ -8086,7 +8086,7 @@ hash = "98713f7e9e45e08ac06a4c9e6d1cd282dd6844e75689afaf4a96fe5bc9679d67"
 
 [[files]]
 file = "kubejs/server_scripts/mods/yet_another_industrialization.js"
-hash = "e2951f0a0d1ed3d5e2d6b5bc7747cf2a53c0745a223a537e96c7968ba6e5cc55"
+hash = "04eb3656c562f2a5daddabb6261702d9cdb6b96bfe0f36919aebbcaae1594945"
 
 [[files]]
 file = "kubejs/server_scripts/recipe_helper.js"
