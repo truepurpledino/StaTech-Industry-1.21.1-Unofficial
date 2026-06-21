@@ -34,6 +34,20 @@ ServerEvents.recipes(event => {
         [ { 'id': mi('bronze_plate'), count: 1 } ]
     );
 
+    // -- SILVER PLATE -- //
+    pressing(
+        st('silver_plate'),
+        [ { tag: 'c:ingots/silver' } ],
+        [ { 'id': mi('silver_plate'), count: 1 } ]
+    );
+
+    // -- STEEL PLATE -- //
+    pressing(
+        st('steel_plate'),
+        [ { tag: 'c:ingots/steel' } ],
+        [ { 'id': mi('steel_plate'), count: 1 } ]
+    );
+
     // -- TIN PLATE -- //
     pressing(
         st('tin_plate'),
