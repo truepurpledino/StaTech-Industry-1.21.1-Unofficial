@@ -741,3 +741,10 @@ ServerEvents.tags('item', event => {
         event.add('kubejs:crushed_dusts', mi(`${id}_crushed_dust`)) 
     });
 });
+
+LootJS.lootTables(event => {
+    event
+        .getLootTable(nm('chests/ancient_pot_cave'))
+        .firstPool()
+        .addEntry(LootEntry.of(mi('raw_silver')).withWeight(20).setCount([1, 3]))
+})
