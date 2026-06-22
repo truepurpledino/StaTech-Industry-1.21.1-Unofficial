@@ -7758,7 +7758,7 @@ hash = "02340cca1fe09e63468fa525d1f506d4b472f11ea13e56ecfd4e2381e271761e"
 
 [[files]]
 file = "kubejs/server_scripts/mod_namespaces.js"
-hash = "092d3de623fe98091ee0b9f1898a12fd563799a1161f203705b69848ef7418e4"
+hash = "27af52fb4e94b838ad5364fe360c8687bec5b15c7d44e9ac21311cca79661ca2"
 
 [[files]]
 file = "kubejs/server_scripts/mods/ad_astra_replacement.js"
@@ -7767,10 +7767,6 @@ hash = "2c41296feacb90754cdf915534484e365bc64830db784a75f64e4a38c7402593"
 [[files]]
 file = "kubejs/server_scripts/mods/ae2.js"
 hash = "8d78aa9daf5962ec1f18679ce210d721fbe14ded16c18f6b8eceb6f78627116a"
-
-[[files]]
-file = "kubejs/server_scripts/mods/angelring.js"
-hash = "a7aef7a8c0b5b7d6fc56d4f36870ea0c6e7eacb0f88853e4514a038114d6d0b0"
 
 [[files]]
 file = "kubejs/server_scripts/mods/bankandtankstorage.js"
@@ -7882,7 +7878,7 @@ hash = "db4adccb05f63be0843ac7a6f2243f6d41945f0595b0eba26fb32398f0f6ae1e"
 
 [[files]]
 file = "kubejs/server_scripts/mods/modern_industrialization.js"
-hash = "d9ec774b349693cdb4d298d364eda4f74dccd667cdc8feac3ffeeb17a58ca1bb"
+hash = "86191a33d8144477a50f2413f8cce7d724da5cd7949361bcb347d30a5ff5eb63"
 
 [[files]]
 file = "kubejs/server_scripts/mods/modern_industrialization/alloy_smelter.js"
@@ -8066,7 +8062,7 @@ hash = "bebd99d4d7eb25ae23d05f54ca946b0c700bda0af4e56c92d2fe7309696e3309"
 
 [[files]]
 file = "kubejs/server_scripts/mods/spectrum.js"
-hash = "36dfa52a5f5877ca2ae6807f495486d96ce8d4719615a5c6325177c871490b73"
+hash = "cf909604e7a37bc8ce92696afe73f8ededdb3f26a10c9fba80d6b02d658418c1"
 
 [[files]]
 file = "kubejs/server_scripts/mods/staff_of_traveling.js"
@@ -8086,7 +8082,7 @@ hash = "98713f7e9e45e08ac06a4c9e6d1cd282dd6844e75689afaf4a96fe5bc9679d67"
 
 [[files]]
 file = "kubejs/server_scripts/mods/yet_another_industrialization.js"
-hash = "0b14787a303ef4120acdc2fad5f9128645972b7d338908db9aea2df1add79148"
+hash = "62015e216cfc429a7bb0bc5795f7607fafc071574ab6ea371d3a2a5f0ab0663c"
 
 [[files]]
 file = "kubejs/server_scripts/recipe_helper.js"
@@ -8106,7 +8102,7 @@ hash = "6653b29a2568a512d8d215c1a621f8551e1b54cb787a78f3b4817783a55aa042"
 
 [[files]]
 file = "kubejs/server_scripts/statech.js"
-hash = "7bc4382e015f3c03870af263396716ea7d515830866c66e7de4f9b54b81bfdfc"
+hash = "c9e745244ba62a2597dc733e2198a748feca4398263e9fa254669655e714e01c"
 
 [[files]]
 file = "kubejs/server_scripts/statech_food.js"
@@ -8246,7 +8242,7 @@ hash = "bab0b239e552fccb9dab8d92d3b8c8c4af00ce04a90dad6b5292e054689eb439"
 
 [[files]]
 file = "kubejs/startup_scripts/statech/items.js"
-hash = "91dedfa9b445f891a324dafa0629cc090d5adb884c3ea7dc323ee5bea661b780"
+hash = "5e2c75c7951b75d6bff982ef2744531f7fdf075c35111aea9113a97550b66f0c"
 
 [[files]]
 file = "kubejs/startup_scripts/statech/mob_models.js"
@@ -8389,11 +8385,6 @@ metafile = true
 [[files]]
 file = "mods/alternate-current.pw.toml"
 hash = "cdaba4742011915307375cc063c4392bbfe9d79cd0ea4d3ed8cd34ef79ab7746"
-metafile = true
-
-[[files]]
-file = "mods/angel-ring.pw.toml"
-hash = "c6add2b2795ee121516f8e72102f1a90dda81d8602be4a35451bd7a4160da6ef"
 metafile = true
 
 [[files]]
@@ -8648,7 +8639,7 @@ metafile = true
 
 [[files]]
 file = "mods/curios.pw.toml"
-hash = "f6e80a16f34084b35334143fd7e8ddd6367aac6c8977de302119ee25229ca07d"
+hash = "f92e7a06645e41ea1934dc420eb2772edb1708c0d71cb427baef8cf753acb934"
 metafile = true
 
 [[files]]
@@ -8822,11 +8813,6 @@ hash = "c68c461b3837ff6275a3bea9288ebcdc8ca29f68e6fb317d9e639ef8e200bffa"
 metafile = true
 
 [[files]]
-file = "mods/flight-api.pw.toml"
-hash = "361591a5c07efd51a9237e10b885c05a89e226a87e9883dd18e555456052dc6f"
-metafile = true
-
-[[files]]
 file = "mods/forgiving-void.pw.toml"
 hash = "b8bc38f838dc260fb7c24aecd44a44944917c149ab5fa1f8b0aff6e5071a9cc3"
 metafile = true
@@ -8927,11 +8913,6 @@ hash = "30d2b79276ea264fd6a8273f78f6185a601fcf5d92b1d8194a604405ef7427dd"
 metafile = true
 
 [[files]]
-file = "mods/haydenapi.pw.toml"
-hash = "15c710cf0aad28839089c2cb800c4c043b9824381e9fc3af0ac5de6d0489c0da"
-metafile = true
-
-[[files]]
 file = "mods/iceberg.pw.toml"
 hash = "9cc4064f08166b740bfab02cd9395e8d9a0c592d52cbc452d6879664e6679e9d"
 metafile = true
@@ -9027,8 +9008,13 @@ hash = "86ee892bcba1eda6dd1c89add23766adabc2d55256b23cae31b8973a9896cbed"
 metafile = true
 
 [[files]]
+file = "mods/kubejs-curios.pw.toml"
+hash = "f5758164cc32ca8301640b289f7f5ad9d3ed9104a51ca61da6303af0e202999b"
+metafile = true
+
+[[files]]
 file = "mods/kubejs.pw.toml"
-hash = "bdfe4c7bbf0abd143a22e117f64cd64bb59f7b75d011841da994511d05084bc8"
+hash = "018fd970193f808f8c28f873d8b8c69ac9ba134712c7db27fc8d639cb226c9a6"
 metafile = true
 
 [[files]]
@@ -9313,7 +9299,7 @@ metafile = true
 
 [[files]]
 file = "mods/rhino.pw.toml"
-hash = "27c19c6def0d9c626ad53b072b0a4f909f129837984f60649a8e25cae008438d"
+hash = "2e8064e6ac6f707d6df65ee2738279ec31802ef70514584bb8c8a8ed2010f5f6"
 metafile = true
 
 [[files]]

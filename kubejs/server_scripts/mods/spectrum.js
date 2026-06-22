@@ -270,7 +270,7 @@ ServerEvents.recipes(event => {
             R: { item: mi('gold_ring') }
         },
         result: {
-            id: 'angelring:angel_ring',
+            id: kj('angel_ring'),
             count: 1
         },
         required_advancement: sp('endgame/finish_progression')

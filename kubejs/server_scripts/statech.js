@@ -7,7 +7,19 @@ ServerEvents.recipes(event => {
     // -- MOD NAMESPACE UTILITY FUNCTIONS -- // 
     let st = (id) => `statech:${id}`;
 
-    // event.smelting(kj('clear_ingot'), mc('glass'), 0.2).id(st('clear_ingot_from_glass'));
+    // -- ANGEL RING -- //
+    event.shaped(kj('angel_ring'), [
+        'FRF',
+        'TGT',
+        'CTC'
+    ],
+    {
+        F: mc('feather'),
+        R: '#c:rods/titanium',
+        T: '#c:storage_blocks/titanium',
+        C: mi('digital_circuit'),
+        G: mi('gravichestplate')
+    }).id(st('angel_ring'))
 
     // -- GLOWING PILLARS -- //
     event.shaped('6x ' + kj('glowing_steel_pillar'), [
