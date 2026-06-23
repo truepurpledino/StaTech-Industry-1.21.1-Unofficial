@@ -19,8 +19,7 @@ StartupEvents.registry('item', event => {
         .attachCuriosCapability(
             CuriosJSCapabilityBuilder.create()
                 .addAttribute('neoforge:creative_flight', 'kubejs_flight_ring', 1.0, 'add_value')
-        )
-        .tooltip('§aProvides creative flight');
+        );
 
     event.create('lens_mold')
         .unstackable()
