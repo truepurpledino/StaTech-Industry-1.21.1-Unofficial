@@ -3,7 +3,7 @@
 // STATECH INDUSTRY
 // -----------------------------------------
 
-ServerEvents.recipes(e => {
+ServerEvents.recipes(event => {
     // -- MOD NAMESPACE UTILITY FUNCTIONS -- // 
     let st = (id) => `statech:modern_industrialization/photosynthetic_chamber/${id}`;
     
@@ -22,7 +22,7 @@ ServerEvents.recipes(e => {
         if (fluid_inputs)
             newRecipe['fluid_inputs'] = fluid_inputs;
 
-        e.custom(newRecipe).id(id);
+        event.custom(newRecipe).id(id);
     }
 
     // This is all the seeds in the game with their respective outputs
@@ -264,6 +264,23 @@ ServerEvents.recipes(e => {
             600,
             [ { amount: 1, item: input, probability: 0.0 } ],
             output,
+            [ { amount: 100, fluid: mc('water') } ]
+        );
+    });
+
+    const flowers = Ingredient.of('#minecraft:flowers').except(['#minecraft:leaves', '@spectrum', 'minecraft:chorus_flower', '#minecraft:saplings']).getStacks().toArray();
+    flowers.forEach(recipe => {
+        let namespace = recipe.id.split(':')[0];
+        let itemName = recipe.id.split(':')[1];
+        photoChamber(
+            st(`${namespace}_${itemName}`),
+            8,
+            600,
+            [ { amount: 1, item: recipe.id, probability: 0.0 } ],
+            [ 
+                { amount: 1, item: recipe.id },
+                { amount: 1, item: recipe.id, probability: 0.5 },
+            ],
             [ { amount: 100, fluid: mc('water') } ]
         );
     });
