@@ -423,7 +423,7 @@ ServerEvents.tags('item', event => {
 ServerEvents.tags('block', event => {
     
     // -- PREFERRED TOOL FOR GLASS-LIKE BLOCKS -- //
-    event.add('minecraft:mineable/pickaxe', ['#c:glass_blocks', 'minecraft:glowstone', '#chisel:chiseled_glowstone']);
+    event.add('minecraft:mineable/pickaxe', ['#c:glass_blocks', 'minecraft:glowstone', '#chisel:chiseled_glowstone', /^xtonesreworked:glaxx_block_/]);
     
 });
 
