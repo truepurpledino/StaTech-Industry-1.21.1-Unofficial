@@ -101,6 +101,11 @@ RecipeViewerEvents.removeEntriesCompletely('item', event => {
     ]
     UNUSED_CREATEADDITION.forEach(id => event.remove(id));
 
+    const UNUSED_EA = [
+        ea('infinity_water_cell'),
+        ea('infinity_cobblestone_cell'),
+    ]
+    UNUSED_EA.forEach(id => event.remove(id));
 });
 
 RecipeViewerEvents.removeEntriesCompletely('fluid', event => {

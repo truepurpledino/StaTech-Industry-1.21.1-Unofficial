@@ -2269,14 +2269,26 @@
 		{
 			dependencies: ["02EFA93D1525F456"]
 			id: "37C701CDEA359A70"
+			rewards: [{
+				id: "147F999EB02AEDB0"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "square"
 			size: 2.0d
-			tasks: [{
-				advancement: "spectrum:endgame/finish_progression"
-				criterion: ""
-				id: "77E833AC0E520324"
-				type: "advancement"
-			}]
+			tasks: [
+				{
+					advancement: "spectrum:endgame/finish_progression"
+					criterion: ""
+					id: "77E833AC0E520324"
+					type: "advancement"
+				}
+				{
+					id: "3A1CC3A6DCC67439"
+					item: { count: 1, id: "kubejs:angel_ring" }
+					type: "item"
+				}
+			]
 			x: 27.25d
 			y: 21.5d
 		}

@@ -35,7 +35,6 @@ let su = (id) => `supplementaries:${id}`;
 let mg = (id) => `megacells:${id}`;
 let es = (id) => `enderstorage:${id}`;
 let hg = (id) => `hangglider:${id}`;
-let an = (id) => `angelring:${id}`;
 let jh = (id) => `justhammers:${id}`;
 let ta = (id) => `travelanchors:${id}`;
 let ec = (id) => `explorerscompass:${id}`;

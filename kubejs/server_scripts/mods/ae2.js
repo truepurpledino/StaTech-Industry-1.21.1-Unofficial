@@ -68,7 +68,8 @@ ServerEvents.recipes(event => {
         ae('network/parts/export_bus'),
         wt('magnet_card'),
         ae('network/crystal_resonance_generator'),
-        ae('network/blocks/energy_dense_energy_cell')
+        ae('network/blocks/energy_dense_energy_cell'),
+        'ae2netanalyser:analyser'
     ];
     REMOVED_RECIPES.forEach(id => event.remove( {id: id} ));
 
@@ -827,6 +828,21 @@ ServerEvents.recipes(event => {
         H: mi('advanced_machine_hull')
     })
     .id(st('dense_energy_cell'));
+
+     // -- NETWORK ANALYZER -- //
+    event.shaped('ae2netanalyser:network_analyser', [
+        'BAB',
+        'SHS',
+        'DSD'
+    ],
+    {
+        B: mi('bronze_plate'),
+        A: mi('aluminum_plate'),
+        S: mi('steel_plate'),
+        H: ae('logic_processor'),
+        D: ae('sky_dust')
+    })
+    .id(st('network_analyzer'));
 });
 
 ServerEvents.tags('item', event => {

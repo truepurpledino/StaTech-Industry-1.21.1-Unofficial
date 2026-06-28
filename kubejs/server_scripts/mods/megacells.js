@@ -90,4 +90,10 @@ ServerEvents.recipes(event => {
         }
     })
     .id(st('accumulation_processor_press'));
-})
+});
+
+MoreJS.villagerTrades(event => {
+
+    event.removeModdedTypedTrades("ae2:fluix_researcher", 5);
+
+});

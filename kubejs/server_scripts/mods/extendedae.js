@@ -22,7 +22,7 @@ ServerEvents.recipes(event => {
         ea('assembler/sky_steel'),
         ea('assembler/entro_ingot_transformation'),
         ea('assembler/fluix_transformation'),
-/*         ea('cutter/logic_processor'),
+/*      ea('cutter/logic_processor'),
         ea('cutter/calculation_processor'),
         ea('cutter/silicon_print'),
         ea('cutter/silicon_print'), */
@@ -40,7 +40,10 @@ ServerEvents.recipes(event => {
         ea('assembler/concurrent_processor'),
         ea('assembler/engineering_processor'),
         ea('quartz_blend'),
-        ea('quartz_blend_alt')
+        ea('quartz_blend_alt'),
+        ea('cobblestone_cell'),
+        ea('water_cell'),
+        ea('void_cell')
     ];
     REMOVED_RECIPES.forEach(id => event.remove( {id: id} ));
     
@@ -79,7 +82,24 @@ ServerEvents.recipes(event => {
         F: '#ae2:glass_cable',
         T: mi('steel_tank')
     }) 
-    .id(st('crystal_assembler')); 
+    .id(st('crystal_assembler'));
+
+    // -- VOID CELL -- //
+    
+    event.shaped(ea('void_cell'), [
+        'QMQ',
+        'OSO',
+        'APA'
+    ],
+    {
+        Q: ae('quartz_glass'),
+        M: ae('condenser'),
+        O: ae('void_card'),
+        S: ae('cell_component_16k'),
+        A: mc('amethyst_shard'),
+        P: mi('aluminum_large_plate')
+    }) 
+    .id(st('void_cell'));
 
     // -- MACHINE FRAME -- //
     

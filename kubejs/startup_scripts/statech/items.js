@@ -10,6 +10,17 @@ StartupEvents.registry('item', event => {
         .displayName('Personal Space Shield')
         .tooltip('§aProvides a personal bubble of safety\n§awhile in low-oxygen environments\n\n§bCan be equipped in a curio slot');
 
+    event.create('angel_ring')
+        .unstackable()
+        .rarity('Rare')
+        .glow(true)
+        .displayName('Angel Ring')
+        .tag('curios:ring')
+        .attachCuriosCapability(
+            CuriosJSCapabilityBuilder.create()
+                .addAttribute('neoforge:creative_flight', 'kubejs_flight_ring', 1.0, 'add_value')
+        );
+
     event.create('lens_mold')
         .unstackable()
         .displayName('Lens Mold');

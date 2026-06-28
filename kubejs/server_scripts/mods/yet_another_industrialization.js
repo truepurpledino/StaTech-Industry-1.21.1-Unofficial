@@ -22,7 +22,9 @@ ServerEvents.recipes(event => {
         yai('cryogenic_precipitator/snow_nutrient'),
         yai('cryogenic_precipitator/snowball_nutrient'),
         yai('dragon_egg_energy_siphon/nutrient_dragon_breath'),
-        yai('dragon_egg_energy_siphon/dragon_breath')
+        yai('dragon_egg_energy_siphon/dragon_breath'),
+        yai('assembler/dragon_egg_siphon_catalyst/nutrient_rich_dragon_breath'),
+        yai('assembler/dragon_egg_siphon_catalyst/dragon_breath')
     ];
     YET_ANOTHER_INDUSTRIALIZATION.forEach(id => event.remove( {id: id} ));
 
@@ -169,6 +171,34 @@ ServerEvents.recipes(event => {
         [ { amount: 1000, fluid: yai('nutrient_rich_dragon_breath') } ],
         [ { amount: 2500, fluid: yai('impure_dragon_breath') } ],
         [ { amount: 204800, type: yai('energy_generation') } ]
+    );
+
+    // -- DRAGON EGG SIPHON CATALYST -- //
+    assembler(
+        event,
+        st('dragon_egg_siphon_catalyst'),
+        8,
+        200,
+        [
+            { amount: 4, item: mi('steel_plate') },
+            { amount: 1, item: mi('quartz_tiny_dust') },
+        ],
+        [ { amount: 1, item: yai('dragon_egg_siphon_catalyst') } ],
+        [ { amount: 50, fluid: yai('dragon_breath') } ]
+    );
+
+    // -- DRAGON EGG SIPHON CATALYST NUTRIENT -- //
+    assembler(
+        event,
+        st('dragon_egg_siphon_catalyst_nutrient'),
+        8,
+        200,
+        [
+            { amount: 4, item: mi('steel_plate') },
+            { amount: 1, item: mi('quartz_tiny_dust') },
+        ],
+        [ { amount: 4, item: yai('dragon_egg_siphon_catalyst') } ],
+        [ { amount: 50, fluid: yai('nutrient_rich_dragon_breath') } ]
     );
 });
 
