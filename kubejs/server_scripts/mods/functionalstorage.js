@@ -78,4 +78,14 @@ ServerEvents.recipes(event => {
     })
     .id(st('tungstensteel_upgrade')); 
 
+    // -- IRON DOWNGRADE -- // 
+    event.shaped(fs('iron_downgrade'), [
+        'PDP'
+    ],
+    {
+        D: '#functionalstorage:drawer',
+        P: '#c:plates/iron'
+    })
+    .id(st('iron_downgrade')); 
+
 });
