@@ -282,10 +282,10 @@ ServerEvents.recipes(event => {
         time: 800,
         tier: 'advanced',
         colors: {
-            "spectrum:cyan": 32,
-            "spectrum:magenta": 32,
-            "spectrum:yellow": 32,
-            "spectrum:black": 32
+            "spectrum:cyan": 16,
+            "spectrum:magenta": 16,
+            "spectrum:yellow": 16,
+            "spectrum:black": 4
         },
         experience: 100.0,
         pattern: [
@@ -295,7 +295,7 @@ ServerEvents.recipes(event => {
         ],
         key: {
             B: { item: sp('blazing_crystal') },
-            A: { item: sp('ashen_circlet') },
+            A: { item: mi('gold_ring') },
             O: { item: sp('orange_block') },
             S: { item: sp('bedrock_dust') }
         },
