@@ -2471,6 +2471,8 @@
 	quest.30B0EA852EC4F5A3.title: "FTB Chunks Map"
 	quest.30B29F155E57EA0A.quest_desc: ["This is the &eModern Dynamics&r version of the &aMV-tier Cables&r."]
 	quest.30D48F97B508E120.quest_desc: ["&a1000mb&r of &eCrude Oil&r will distill into &b300mb&r of &6Sulfuric Naphtha&r. The &cSulfur&r will need to be removed before the fuel can be used."]
+	quest.30E440F4A548198B.quest_desc: ["Allows you to dye &2&ovanilla&r&r and &9&omodded&r&r items!"]
+	quest.30E440F4A548198B.quest_subtitle: "Color Me Surprised!"
 	quest.30EE086370D4502B.quest_desc: ["The &dOblivion Pickaxe&r has a large amount of &edurability&r and &6mining speed&r. However, &call mined blocks are destroyed&r."]
 	quest.3106C607B626A857.quest_desc: [
 		"Gentle resonances are amplified by &aOnyx&r to such an extent that they can even be measured &bthrough walls&r, given a suitable receiver. Based on your previous experiments with &dgemstone shards&r it was easy for you to devise such transmitter and receiver systems. These relays do not react well to &cfast changing signals&r though."
@@ -3289,6 +3291,8 @@
 		"Every &efive unique foods&r eaten, you will be granted &3an additional heart&r!"
 	]
 	quest.42DBEFEFCE44F5BB.title: "Spice of Life"
+	quest.42F56852175EF2DC.quest_desc: ["It's an &e&oangel ring&r&r. You know what it does."]
+	quest.42F56852175EF2DC.quest_subtitle: "Fly Me to the Moon!"
 	quest.4332AA07E2B665B3.quest_desc: ["The &eTechReborn&r &bBasic Storage Unit&r is an upgrade to the &7Steel Tank&r. It can store up to 128 stacks of a single item and has &aconfigurable I/O&r and control through &credstone signals&r."]
 	quest.4332AA07E2B665B3.title: "NYI (TR Storage Unit)"
 	quest.43338129769822A8.quest_desc: ["Now that you can process &bAluminum&r, you can now process &bAdvanced Machine Casings&r. These are the main component in making &2Advanced Machine Hulls&r."]
@@ -5102,6 +5106,8 @@
 	quest.64DFA6F08BE456FD.title: "Caprolactam"
 	quest.6512025C0A70B6EB.quest_desc: ["&6Kernite&r is a &eBoron&r containing ore introduced in &a2.0&r! It's used in the process of making &dBorosilicate Glass&r."]
 	quest.652C0BC994B42E3D.quest_desc: ["Can be used to place infinite amounts of &elight sources&f. If you've played &aThaumcraft&f before, this is similar to &2Nitor&f."]
+	quest.653BAA1694FC2820.quest_desc: ["Applies the &6&oFire Resistance&r&r effect when worn. Pairs well with the &4Ashen Circlet&r."]
+	quest.653BAA1694FC2820.quest_subtitle: "Lava Bath!"
 	quest.654B073CCFC06D24.quest_desc: ["The &eHand Crank&r is another alternative form of generating &arotational force&r. Extended use of this will leave the user very &chungry&r, so it's more optimal to have a &eWindmill&r / &eWater Wheel&r generate your power. Great if you just need to &equickly power something&r!"]
 	quest.654B073CCFC06D24.quest_subtitle: "Manual Labor"
 	quest.654CD55B5A4CAA25.quest_desc: [
