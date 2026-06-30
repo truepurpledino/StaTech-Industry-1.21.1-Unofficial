@@ -42,6 +42,7 @@ StartupEvents.registry('item', event => {
                     if (player.isOnFire()) {
                     player.setRemainingFireTicks(0)}
                 })
+                .modifyAttributesTooltip((tooltips, stack) => ['','§6When worn as ring:','§9Provides a Fire Resistance effect'])
         );
 
     event.create('lens_mold')
