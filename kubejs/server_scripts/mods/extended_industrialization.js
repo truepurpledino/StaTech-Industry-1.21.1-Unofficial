@@ -159,6 +159,37 @@ ServerEvents.recipes(event => {
         [ { amount: 1, item: ei('processing_array') } ]
     );
 
+     // -- LARGE ELECTRIC FURNACE -- //
+    assembler(
+        event,
+        st('assembler_large_electric_furnace'),
+        8,
+        200,
+        [
+            { amount: 4, item: mi('cupronickel_wire_magnetic') },
+            { amount: 2, item: mi('electric_furnace') },
+            { amount: 2, item: mi('electronic_circuit') },
+            { amount: 1, item: mi('advanced_machine_hull') }
+        ],
+        [ { amount: 1, item: ei('large_electric_furnace') } ]
+    );
+
+     // -- ELECTRIC BENDING MACHINE -- //
+    assembler(
+        event,
+        st('assembler_electric_bending_machine'),
+        8,
+        200,
+        [
+            { amount: 1, item: mi('electric_compressor') },
+            { amount: 2, item: mi('piston') },
+            { amount: 2, item: mi('analog_circuit') },
+            { amount: 2, item: mi('motor') },
+            { amount: 2, item: mi('tin_cable') }
+        ],
+        [ { amount: 1, item: ei('electric_bending_machine') } ]
+    );
+
 });
 
 ServerEvents.tags('item', event => {
