@@ -10,6 +10,7 @@ StartupEvents.registry('item', event => {
     event.create('concrete_bar')
         .displayName('Yummy Concrete Bar')
         .rarity('Uncommon')
+        .tag('c:foods')
         .tooltip('§6A tasty snack for a hard working industrialist')
         .food(f => {
             f
@@ -20,6 +21,8 @@ StartupEvents.registry('item', event => {
     event.create('statech_energy')
         .displayName('StaTech Energy')
         .rarity('Rare')
+        .tag('c:foods')
+        .tag('c:drinks')
         .tooltip('§eUnleash the Greg')
         .food(f => {
             f
@@ -31,6 +34,8 @@ StartupEvents.registry('item', event => {
     
     event.create('sulfuric_acid_bottle')
         .displayName('Bottle of Sulfuric Acid')
+        .tag('c:foods')
+        .tag('c:drinks')
         .food(f => {
             f
             .nutrition(3)
@@ -42,6 +47,7 @@ StartupEvents.registry('item', event => {
     event.create('concrete_and_clay_steak')
         .displayName('Concrete Steak with Clay Sauce')
         .rarity('Epic')
+        .tag('c:foods')
         .tooltip('§3Part of a §obalanced§r§3 diet')
         .food(f => {
             f
@@ -54,6 +60,7 @@ StartupEvents.registry('item', event => {
     event.create('uranium_cereal')
         .displayName('Uranium Cereal')
         .rarity('Rare')
+        .tag('c:foods')
         .tooltip('§bTons of calories!')
         .maxStackSize(1)
         .food(f => {
@@ -64,27 +71,30 @@ StartupEvents.registry('item', event => {
 
     event.create('pizza_dough')
         .displayName('Pizza Dough')
+        .tag('c:foods')
         .food(f => {
             f
             .nutrition(2)
             .saturation(0.4)
         });
     
-    event.create('uncooked_pizza').displayName('Uncooked Pizza');
-    event.create('pizza').displayName('Pizza');
+    event.create('uncooked_pizza').displayName('Uncooked Pizza').tag('c:foods');
+    event.create('pizza').displayName('Pizza').tag('c:foods');
 
     event.create('pizza_slice')
         .displayName('Pizza Slice')
+        .tag('c:foods')
         .food(f => {
             f
             .nutrition(8)
             .saturation(0.6);
         });
     
-    event.create('concrete_pizza').displayName('Concrete Pizza');
+    event.create('concrete_pizza').displayName('Concrete Pizza').tag('c:foods');
 
     event.create('concrete_pizza_slice')
         .displayName('Concrete Pizza Slice')
+        .tag('c:foods')
         .food(f => {
             f
             .nutrition(12)
@@ -93,6 +103,8 @@ StartupEvents.registry('item', event => {
     
     event.create('bepsi')
         .displayName('Can of Bepsi')
+        .tag('c:foods')
+        .tag('c:drinks')
         .food(f => {
             f
             .nutrition(6)
@@ -102,6 +114,8 @@ StartupEvents.registry('item', event => {
     
     event.create('coke_cola')
         .displayName('Coke-a Coal-a')
+        .tag('c:foods')
+        .tag('c:drinks')
         .food(f => {
             f
             .nutrition(10)
@@ -111,6 +125,8 @@ StartupEvents.registry('item', event => {
     
     event.create('greg_cola')
         .displayName('Greg Cola')
+        .tag('c:foods')
+        .tag('c:drinks')
         .food(f => {
             f
             .nutrition(6)
@@ -127,6 +143,8 @@ StartupEvents.registry('item', event => {
 
     event.create('nuka_cola')
         .displayName('Nuka Cola')
+        .tag('c:foods')
+        .tag('c:drinks')
         .food(f => {
             f
             .nutrition(16)
@@ -136,9 +154,19 @@ StartupEvents.registry('item', event => {
 
     event.create('missing_texture_cookie')
         .displayName('Missing Texture Cookie')
+        .tag('c:foods')
         .food(f => {
             f
             .nutrition(30)
             .saturation(0.7)
+        });
+
+    event.create('abs_building_brick')
+        .displayName('Legally Nondescript ABS Building Brick')
+        .tag('c:foods')
+        .food(f => {
+            f
+            .nutrition(8)
+            .saturation(0.6);
         });
 });
