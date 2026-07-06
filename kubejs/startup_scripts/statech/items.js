@@ -176,6 +176,7 @@ StartupEvents.registry('item', event => {
     
     event.create('boron_quartz_blend')
         .displayName('Boron-Quartz Blend')
+        .tag('c:dusts')
 
     event.create('bartman')
         .displayName('Jon Bartman');
