@@ -274,7 +274,37 @@ ServerEvents.recipes(event => {
             count: 1
         },
         required_advancement: sp('endgame/finish_progression')
-    });
+    }).id(st('angel_ring'));
+
+    // -- FIREPROOF RING -- //
+    event.custom({
+        type: sp('pedestal'),
+        time: 800,
+        tier: 'advanced',
+        colors: {
+            "spectrum:cyan": 16,
+            "spectrum:magenta": 16,
+            "spectrum:yellow": 16,
+            "spectrum:black": 4
+        },
+        experience: 100.0,
+        pattern: [
+            'BOB',
+            'SAS',
+            'BOB'
+        ],
+        key: {
+            B: { item: sp('blazing_crystal') },
+            A: { item: mi('gold_ring') },
+            O: { item: sp('orange_block') },
+            S: { item: sp('bedrock_dust') }
+        },
+        result: {
+            id: kj('fireproof_ring'),
+            count: 1
+        },
+        required_advancement: sp('midgame/break_decayed_bedrock')
+    }).id(st('fireproof_ring'));
 
     // -- ETERNAL STEAK -- //
     event.custom({

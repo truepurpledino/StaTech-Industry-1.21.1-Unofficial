@@ -5106,6 +5106,8 @@
 	quest.64DFA6F08BE456FD.title: "Caprolactam"
 	quest.6512025C0A70B6EB.quest_desc: ["&6Kernite&r is a &eBoron&r containing ore introduced in &a2.0&r! It's used in the process of making &dBorosilicate Glass&r."]
 	quest.652C0BC994B42E3D.quest_desc: ["Can be used to place infinite amounts of &elight sources&f. If you've played &aThaumcraft&f before, this is similar to &2Nitor&f."]
+	quest.653BAA1694FC2820.quest_desc: ["Applies the &6&oFire Resistance&r&r effect when worn. Pairs well with the &4Ashen Circlet&r."]
+	quest.653BAA1694FC2820.quest_subtitle: "Lava Bath!"
 	quest.654B073CCFC06D24.quest_desc: ["The &eHand Crank&r is another alternative form of generating &arotational force&r. Extended use of this will leave the user very &chungry&r, so it's more optimal to have a &eWindmill&r / &eWater Wheel&r generate your power. Great if you just need to &equickly power something&r!"]
 	quest.654B073CCFC06D24.quest_subtitle: "Manual Labor"
 	quest.654CD55B5A4CAA25.quest_desc: [
