@@ -211,8 +211,8 @@
 				item: { count: 1, id: "gag:hearthstone" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 0.0d
+			x: 8.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["16FC60FF6E3A4517"]
@@ -227,8 +227,8 @@
 				item: { count: 1, id: "gag:energized_hearthstone" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: 0.0d
+			x: 8.0d
+			y: -1.5d
 		}
 		{
 			id: "5BE4985239D91BCF"
@@ -328,7 +328,7 @@
 				item: { count: 1, id: "artifacts:eternal_steak" }
 				type: "item"
 			}]
-			x: 6.5d
+			x: 8.0d
 			y: 0.0d
 		}
 		{
@@ -344,7 +344,7 @@
 				item: { count: 1, id: "artifacts:everlasting_beef" }
 				type: "item"
 			}]
-			x: 5.0d
+			x: 6.5d
 			y: 0.0d
 		}
 		{
@@ -378,6 +378,41 @@
 					type: "item"
 				}
 			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"37C701CDEA359A70"
+				"630587BC35741E37"
+			]
+			dependency_requirement: "one_completed"
+			id: "42F56852175EF2DC"
+			rewards: [{
+				id: "38BA9DDBEA3A96CA"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "2D91BA243E7D6911"
+				item: { count: 1, id: "kubejs:angel_ring" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			id: "30E440F4A548198B"
+			rewards: [{
+				id: "6E2C09735804D9E2"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "709C9A43E029938A"
+				item: { count: 1, id: "phantoms_utilities:spray_can" }
+				type: "item"
+			}]
 			x: 6.5d
 			y: -1.5d
 		}
