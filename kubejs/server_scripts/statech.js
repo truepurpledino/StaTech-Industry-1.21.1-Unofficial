@@ -9,13 +9,13 @@ ServerEvents.recipes(event => {
 
     // -- ANGEL RING -- //
     event.shaped(kj('angel_ring'), [
-        'FRF',
-        'TGT',
+        'FGF',
+        'TRT',
         'CTC'
     ],
     {
         F: mc('feather'),
-        R: '#c:rods/titanium',
+        R: mi('gold_ring'),
         T: '#c:storage_blocks/titanium',
         C: mi('digital_circuit'),
         G: mi('gravichestplate')
