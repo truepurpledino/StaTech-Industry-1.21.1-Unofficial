@@ -304,6 +304,12 @@
     "mi_tweaks:blast_alloy_smelter",
     "mi_tweaks:industrial_mixing_machine",
     "mi_tweaks:oversized_electrolysis_chamber",
-    "mi_tweaks:grand_mass_centrifuge"
+    "mi_tweaks:grand_mass_centrifuge",
+    "mi_tweaks:arrayed_wiremill",
+    "mi_tweaks:colossal_blast_furnace",
+    "mi_tweaks:high_capacity_packer",
+    "mi_tweaks:high_capacity_unpacker",
+    "mi_tweaks:large_polarization_machine",
+    "mi_tweaks:multi_cutter"
   ]
 }

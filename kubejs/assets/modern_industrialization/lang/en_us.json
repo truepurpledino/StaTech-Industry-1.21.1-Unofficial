@@ -1443,6 +1443,7 @@
   "modern_industrialization.configuration.transactionCallerName.tooltip": "Enable to have transfer transactions include the name of the class that called it. Note that this comes at the cost of performance. It is recommended to not use this outside of debugging.",
   "rei_categories.modern_industrialization.assembler": "Assembler",
   "rei_categories.modern_industrialization.boss_crusher": "Boss Crusher",
+  "rei_categories.modern_industrialization.blast_furnace": "Blast Furnace",
   "rei_categories.modern_industrialization.bronze_compressor": "Compressor",
   "rei_categories.modern_industrialization.bronze_cutting_machine": "Cutting Machine",
   "rei_categories.modern_industrialization.bronze_furnace": "Furnace",

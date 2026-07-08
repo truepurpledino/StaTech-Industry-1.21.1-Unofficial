@@ -15,5 +15,8 @@ MIMachineEvents.registerCasings(event => {
 	event.registerBlockImitation('korp4_machine_casing', 'xtonesreworked:korp_block_4');
 	event.registerBlockImitation('korp9_machine_casing', 'xtonesreworked:korp_block_9');
 	event.registerBlockImitation('circuit_machine_casing', 'factory_blocks:circuit');
+	event.registerBlockImitation('iron_sheet_metal', 'iden_decor:iron_sheet_metal');
+	event.registerBlockImitation('tank_block_0', 'xtonesreworked:tank_block_0');
+	event.registerBlockImitation('vena_block_3', 'xtonesreworked:vena_block_3');
 });
 
