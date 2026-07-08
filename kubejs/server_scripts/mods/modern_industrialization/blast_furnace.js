@@ -174,6 +174,18 @@ ServerEvents.recipes(event => {
         [ { amount: 50, fluid: mi('molten_nether_star') } ]
     );
 
+    // -- IRIDIUM -- //
+    blastFurnace(
+        event,
+        st('iridium_ingot'),
+        512,
+        1200,
+        [ { amount: 1, tag: 'c:dusts/iridium' } ],
+        [ { amount: 1, item: mi('iridium_ingot') } ],
+        [ { amount: 1000, fluid: mi('argon') } ],
+        [ { amount: 750, fluid: mi('argon') } ]
+    );
+
     // -- FLUORINE -- //
     blastFurnace(
         event,

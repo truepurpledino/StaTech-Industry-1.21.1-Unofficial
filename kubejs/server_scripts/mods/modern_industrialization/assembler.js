@@ -1115,8 +1115,9 @@ ServerEvents.recipes(event => {
             { amount: 2, item: kj('rocket_fin') },
             { amount: 2, item: mi('enderium_gear') },
             { amount: 1, item: mi('desh_drill') },
+            { amount: 1, item: kj('calorite_fuel_tank') },
             { amount: 1, item: mi('processing_unit') },
-            { amount: 1, item: kj('desh_engine') },
+            { amount: 1, item: kj('calorite_engine') },
             { amount: 1, item: mi('titanium_tank') },
             { amount: 1, item: mi('titanium_tank') }
         ],

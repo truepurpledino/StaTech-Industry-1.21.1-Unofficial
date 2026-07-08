@@ -200,6 +200,20 @@ ServerEvents.recipes(event => {
         [ { amount: 4, item: yai('dragon_egg_siphon_catalyst') } ],
         [ { amount: 50, fluid: yai('nutrient_rich_dragon_breath') } ]
     );
+
+    // -- MIXED HATCH CRAFTING SWAPS -- //
+    const MIXED_HATCH_TIER = [
+        'bronze',
+        'steel',
+        'advanced',
+        'turbo',
+        'highly_advanced'
+    ];
+
+    MIXED_HATCH_TIER.forEach(id => {
+        event.shapeless(yai(`${id}_mixed_output_hatch`), yai(`${id}_mixed_input_hatch`))
+        event.shapeless(yai(`${id}_mixed_input_hatch`), yai(`${id}_mixed_output_hatch`))
+    });
 });
 
 ServerEvents.tags('item', event => {

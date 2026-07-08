@@ -11,8 +11,34 @@ ItemEvents.modifyTooltips(e => {
     let kj = (id) => `kubejs:${id}`;
 
     // -- LIST OF ALL DISABLED MACHINES AND ITEMS -- //
-    // const DISABLED_MACHINES_AND_ITEMS = [
-    // ];
+    const DISABLED_MACHINES_AND_ITEMS = [
+        kj('computer_casing'),
+        kj('personal_space_shield'),
+        kj('lens_mold'),
+        kj('short_range_lens'),
+        kj('deep_space_lens'),
+        kj('unrefined_simple_stellar_data'),
+        kj('unrefined_deep_space_stellar_data'),
+        kj('planetary_data'),
+        kj('star_data'),
+        kj('black_hole_data'),
+        kj('anomalous_stellar_data'),
+        kj('star_location_telemetry'),
+        kj('planetary_location_telemetry'),
+        kj('black_hole_location_telemetry'),
+        kj('anomaly_location_telemetry'),
+        kj('research_probe'),
+        kj('star_imploder'),
+        kj('dark_matter'),
+        kj('antimatter_housing'),
+        kj('antimatter'),
+        kj('contained_antimatter'),
+        kj('basic_space_circuit'),
+        kj('advanced_space_circuit'),
+        kj('anomalous_space_circuit'),
+        mi('supercomputer'),
+        mi('telescope')
+    ];
 
 
     // -- LIST OF ALL CUSTOM MACHINES AND ITEMS -- //
@@ -23,6 +49,7 @@ ItemEvents.modifyTooltips(e => {
         mt('large_chemical_reactor'),
         mt('large_scale_assembler'),
         mt('oversized_electrolysis_chamber'),
+        mt('grand_mass_centrifuge'),
         mi('laser_engraver'),
         mi('photosynthetic_chamber'),
         mi('rocket_part_assembler'),
@@ -50,11 +77,11 @@ ItemEvents.modifyTooltips(e => {
         });
     });
 
-/*     const CURRENTLY_DISABLED = Text.red('Currently Disabled');
+    const CURRENTLY_DISABLED = Text.red('Not Yet Obtainable');
     DISABLED_MACHINES_AND_ITEMS.forEach(item => {
         e.modify(item, tooltip => {
             tooltip.add([CURRENTLY_DISABLED]);
         });
-    }); */
+    });
 
 });

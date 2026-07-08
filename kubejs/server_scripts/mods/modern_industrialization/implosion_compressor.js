@@ -30,6 +30,20 @@ ServerEvents.recipes(event => {
         [ { amount: 1, item: mi('ultradense_metal_ball') } ]
     );
 
+    // -- ULTRADENSE METAL BALL -- //
+    implosionCompressor(
+        event,
+        st('abs_building_brick'),
+        1,
+        20,
+        [ 
+            { amount: 2, item: mi('acrylonitrile_butadiene_styrene_dust') },
+            { amount: 1, item: mc('red_dye') }
+
+         ],
+        [ { amount: 1, item: kj('abs_building_brick') } ]
+    );
+
     // -- IRIDIUM ALLOY PLATE -- //
     // implosionCompressor(
         // st('iridum_alloy_plate'),

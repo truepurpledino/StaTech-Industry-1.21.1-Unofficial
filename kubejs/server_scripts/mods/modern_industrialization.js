@@ -42,7 +42,13 @@ ServerEvents.recipes(event => {
         mi('materials/titanium/craft/tank'),
         mi('materials/tungstensteel/craft/tank'),
         mi('electric_age/machine/large_steam_turbine_asbl'),
-        mi('electric_age/machine/large_diesel_generator_asbl')
+        mi('electric_age/machine/large_diesel_generator_asbl'),
+        mi('materials/iridium/smelting/ore_to_ingot_smelting'),
+        mi('materials/iridium/smelting/raw_metal_to_ingot_smelting'),
+        mi('materials/iridium/smelting/dust_to_ingot_smelting'),
+        mi('materials/iridium/smelting/ore_to_ingot_blasting'),
+        mi('materials/iridium/smelting/raw_metal_to_ingot_blasting'),
+        mi('materials/iridium/smelting/dust_to_ingot_blasting'),
     ];
     MI_DELETED_ITEMS.forEach(id => event.remove( {id: id} ));
 

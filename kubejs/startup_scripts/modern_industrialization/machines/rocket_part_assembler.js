@@ -40,6 +40,6 @@ MIMachineEvents.registerMachines(event => {
         // Model configuration
         true, // front overlay?
         true, // top overlay?
-        false,
+        true,
     );
 });

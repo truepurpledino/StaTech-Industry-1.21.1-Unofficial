@@ -176,7 +176,7 @@ MIRegistrationEvents.registerFluids(event => {
 
     // -- POLYTETRAFLUROETHYLENE -- //
     event.register(
-        'Polytetrafluoroethylene',
+        'Polytetrafluoroethylene (PTFE)',
         'polytetrafluoroethylene',
         0x364768,
         'lava',

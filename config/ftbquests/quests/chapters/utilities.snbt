@@ -402,25 +402,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"4B11F2499D993DFC"
-				"7EFD1192E201F04A"
-			]
-			id: "653BAA1694FC2820"
-			rewards: [{
-				id: "2C858A150827D081"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "5E997221EBA6536B"
-				item: { count: 1, id: "kubejs:fireproof_ring" }
-				type: "item"
-			}]
-			x: 5.0d
-			y: 0.0d
-		}
-		{
 			id: "30E440F4A548198B"
 			rewards: [{
 				id: "6E2C09735804D9E2"
