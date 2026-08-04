@@ -1,3 +1,5 @@
+The official 2.0 version based on this fork is now on the [main branch](https://github.com/TheStaticVoid/StaTech-Industry/). New changes will be made directly on the main branch. This fork will not receive any more updates.
+
 # StaTech-Industry 1.21.1 Unofficial
 StaTech-Industry 1.21.1 Unofficial is a minecraft 1.21.1 modpack that is an unofficial neoforge port of the original [Statech Industry fabric modpack for 1.19.2](https://github.com/TheStaticVoid/StaTech-Industry). Join us on [Discord](https://discord.gg/RDaJEnN3uS). 
 
